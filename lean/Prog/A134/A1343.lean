@@ -24,7 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -38,13 +38,15 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -77,14 +79,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,8 +106,8 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -119,7 +119,7 @@ set_option linter.unreachableTactic false
 
 The programs for A134300, the canonical program `A134300.P16992843373973766349` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134300 has offset 0).
 
-The definition of A134300 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A134300 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134300.anchor (n : ℕ) : A134300 n = [6, -4, 2, -1, 2, -4, 6, -7].getD (n % 8) 0` in `Proof.A134.A134300`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A134300.P16992843373973766349
@@ -4925,21 +4925,6 @@ end
 
 end A134332.P13696496268240937463
 
-/-! ## A134332.P4221173935889412023
-
-`A079866(n+1)`
--/
-
-namespace A134332.P4221173935889412023
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079866 (n + 1)
-
-end
-
-end A134332.P4221173935889412023
-
 /-! ## A134332.P4433720250620112633
 
 `A276632(A193679(n+1))`
@@ -4954,21 +4939,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134332.P4433720250620112633
-
-/-! ## A134332.P9132931920276051010
-
-`A276632(n+1)`
--/
-
-namespace A134332.P9132931920276051010
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276632 (n + 1)
-
-end
-
-end A134332.P9132931920276051010
 
 /-! ## A134332.P331031154489283506
 
@@ -5544,21 +5514,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134337.P16948183167041906100
-
-/-! ## A134337.P15687827482715060885
-
-`gcd(0, A261733(n))`
--/
-
-namespace A134337.P15687827482715060885
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd 0 (A261733 n)
-
-end
-
-end A134337.P15687827482715060885
 
 /-! ## A134337.P2450276670837056363
 
@@ -11939,21 +11894,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134379.P8556794217498067717
-
-/-! ## A134379.P9722551124087664554
-
-`A055572(A033184(n+1))`
--/
-
-namespace A134379.P9722551124087664554
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055572 (A033184 (n + 1)).toNat
-
-end
-
-end A134379.P9722551124087664554
 
 /-! ## A134379.P16712952336521951792
 

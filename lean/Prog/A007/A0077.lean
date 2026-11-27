@@ -31,18 +31,21 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,7 +66,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
@@ -71,6 +73,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -83,8 +86,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8531,21 +8532,6 @@ end
 
 end A007757.P2092821197025583103
 
-/-! ## A007757.P6511010727190241260
-
-`A056612(2*(n+1))`
--/
-
-namespace A007757.P6511010727190241260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056612 (2 * (n + 1))
-
-end
-
-end A007757.P6511010727190241260
-
 /-! ## A007757.P17917122473196339319
 
 `gcd(A001044(n+1)², A001705(2*n+1))`
@@ -11687,6 +11673,27 @@ end
 end A007779.P6010232985802365384
 
 /-!
+# A007780: Losing initial configurations in 2-hole Tchuka Ruma.
+
+The programs for A007780, there is no canonical definition to state claims against.
+-/
+
+/-! ## A007780.P8509501353819790615
+
+`ogf((1+2x-7x^5-9x^6-13x^7-27x^8-30x^9-27x^10-9x^11-75x^13-243x^14-18x^15)/(1-3x^2))`
+-/
+
+namespace A007780.P8509501353819790615
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 0, 0, 0, -7, -9, -13, -27, -30, -27, -9, 0, -75, -243, -18] [1, 0, -3] n
+
+end
+
+end A007780.P8509501353819790615
+
+/-!
 # A007781: a(n) = (n+1)^(n+1) - n^n for n>0, a(0) = 1.
 
 The programs for A007781, there is no canonical definition to state claims against.
@@ -11995,8 +12002,29 @@ end A007785.P16312900033581368216
 /-!
 # A007786: Number of nonintersecting rook paths joining opposite corners of 4 X n board.
 
-The programs for A007786, there is no canonical definition to state claims against.
+The programs for A007786, the canonical program `A007786.P16196010436816742932` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007786 has offset 1).
+
+The definition of A007786 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A007786.P16196010436816742932
+
+`ogf((1-4x-4x^2+36x^3-39x^4-26x^5+50x^6+6x^7-15x^8+x^10)/(1-12x+54x^2-124x^3+133x^4+16x^5-175x^6+94x^7+69x^8-40x^9-12x^10+4x^11+x^12))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A007786
+
+/-- `ogf((1-4x-4x^2+36x^3-39x^4-26x^5+50x^6+6x^7-15x^8+x^10)/(1-12x+54x^2-124x^3+133x^4+16x^5-175x^6+94x^7+69x^8-40x^9-12x^10+4x^11+x^12))` -/
+def P16196010436816742932.Spec : Prop :=
+  ∀ n, P16196010436816742932.a n = A007786 (n + 1)
+
+theorem P16196010436816742932.correct : P16196010436816742932.Spec := by
+  intro n
+  simp only [A007786, Nat.add_sub_cancel]
+
+end A007786
 
 /-! ## A007786.P16793579749164382478
 
@@ -12012,6 +12040,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007786.P16793579749164382478
+
+namespace A007786
+
+/-- `A064298(A141214(n+1))` -/
+def P16793579749164382478.Spec : Prop :=
+  ∀ n, P16793579749164382478.a n = A007786 (n + 1)
+
+end A007786
 
 /-!
 # A007787: Number of nonintersecting rook paths joining opposite corners of 5 X n board.

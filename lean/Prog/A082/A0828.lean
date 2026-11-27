@@ -9,7 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -21,20 +21,21 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,11 +57,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,14 +70,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -508,21 +510,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A082804.P1213672992541462232
-
-/-! ## A082804.P12119909114189942936
-
-`A004719(A007095(n)+2)*9`
--/
-
-namespace A082804.P12119909114189942936
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004719 (A007095 n + 2).toNat * 9
-
-end
-
-end A082804.P12119909114189942936
 
 /-! ## A082804.P1461204658472587371
 
@@ -958,36 +945,6 @@ namespace A082810
 /-- `filter[A297148(n+1), A136522(#)]` -/
 def P13694428385770671918.Spec : Prop :=
   ∀ n, P13694428385770671918.a n = A082810 (n + 1)
-
-end A082810
-
-/-! ## A082810.P15391912681897520786
-
-`∪[A050785(n+1), A117228(n+1)]`
--/
-
-namespace A082810.P15391912681897520786
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050785 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117228 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A082810.P15391912681897520786
-
-namespace A082810
-
-/-- `∪[A050785(n+1), A117228(n+1)]` -/
-def P15391912681897520786.Spec : Prop :=
-  ∀ n, (P15391912681897520786.a n : ℤ) = A082810 (n + 1)
 
 end A082810
 
@@ -5898,21 +5855,6 @@ end A082857.P14653478525577159127
 The programs for A082858, there is no canonical definition to state claims against.
 -/
 
-/-! ## A082858.P6354423274883862246
-
-`A348041(n+1)-1`
--/
-
-namespace A082858.P6354423274883862246
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348041 (n + 1) - 1
-
-end
-
-end A082858.P6354423274883862246
-
 /-! ## A082858.P5403987937638618665
 
 `A276699(n+1)%A348041(n+1)`
@@ -7443,7 +7385,7 @@ end A082877.P14999490005626387210
 /-!
 # A082878: Arithmetic derivative of numbers of the form p*q^k with distinct primes p and q, k > 0.
 
-The programs for A082878, the canonical program `A082878.P13588294601362441638` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082878 has offset 1).
+The programs for A082878, the canonical program `A082878.P13588294601362441638` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082878 has offset 1).
 
 The definition of A082878 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A084227, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7452,7 +7394,7 @@ The definition of A082878 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A084227(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A082878
@@ -8113,27 +8055,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A082889.P14312627813585816368
-
-/-!
-# A082890: Primes p such that (r-p)/log(p) > 5, where r is the next prime after p.
-
-The programs for A082890, there is no canonical definition to state claims against.
--/
-
-/-! ## A082890.P6823782714297730329
-
-`A082889(2*n+5)`
--/
-
-namespace A082890.P6823782714297730329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082889 (2 * n + 5)
-
-end
-
-end A082890.P6823782714297730329
 
 /-!
 # A082891: Smallest prime p such that q = (r-p)/log(p) > n, where r is the next prime after p.

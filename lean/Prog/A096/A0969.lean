@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -31,7 +32,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -42,7 +43,9 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +54,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
@@ -61,6 +63,8 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -69,16 +73,16 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,6 +93,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -1228,7 +1233,7 @@ end A096915.P14013332205983113997
 /-!
 # A096916: Lesser prime factor of n-th product of two distinct primes.
 
-The programs for A096916, the canonical program `A096916.P11970356656094627604` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096916 has offset 1).
+The programs for A096916, the canonical program `A096916.P11970356656094627604` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096916 has offset 1).
 
 The definition of A096916 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1263,7 +1268,7 @@ end A096916
 
 `p?[gcd(n+1, ((n+1)/A006530(n+1))²)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A096916
@@ -1517,16 +1522,16 @@ end A096916
 /-!
 # A096917: Smallest prime factor of the n-th product of 3 distinct primes.
 
-The programs for A096917, the canonical program `A096917.P4613843583822945745` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096917 has offset 1).
+The programs for A096917, the canonical program `A096917.P4613843583822945745` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096917 has offset 1).
 
-The definition of A096917 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007304, A020639, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A096917 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007304, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A096917.P4613843583822945745
 
 `A020639(A007304(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A096917
@@ -1705,7 +1710,7 @@ end A096917
 /-!
 # A096918: Intermediate prime factor of n-th product of 3 distinct primes.
 
-The programs for A096918, the canonical program `A096918.P15287416187910014206` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096918 has offset 1).
+The programs for A096918, the canonical program `A096918.P15287416187910014206` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096918 has offset 1).
 
 The definition of A096918 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1714,7 +1719,7 @@ The definition of A096918 is `conjectured`: the Lean definition is a formula tha
 
 `A006530(A007304(n+1)/A096919(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096918
@@ -1968,16 +1973,16 @@ end A096918
 /-!
 # A096919: Greatest prime factor of n-th product of 3 distinct primes.
 
-The programs for A096919, the canonical program `A096919.P738797991620744238` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096919 has offset 1).
+The programs for A096919, the canonical program `A096919.P738797991620744238` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096919 has offset 1).
 
-The definition of A096919 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A007304, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A096919 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007304, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A096919.P738797991620744238
 
 `A006530(A007304(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A096919
@@ -5911,6 +5916,29 @@ def P6872704066009263173.Spec : Prop :=
 
 end A096946
 
+/-! ## A096946.P12654906759009003348
+
+`ogf((5-4x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A096946.P12654906759009003348
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -4] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A096946.P12654906759009003348
+
+namespace A096946
+
+/-- `ogf((5-4x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P12654906759009003348.Spec : Prop :=
+  ∀ n, P12654906759009003348.a n = A096946 n
+
+end A096946
+
 /-! ## A096946.P10356546321730772549
 
 `∑[∑[∑[∑[∑[∑[∑[5+n]]]]]]]`
@@ -6251,6 +6279,29 @@ namespace A096947
 /-- `(n+45)*C(n+8, 8)/9` -/
 def P1643778423756262676.Spec : Prop :=
   ∀ n, P1643778423756262676.a n = (A096947 n : ℚ)
+
+end A096947
+
+/-! ## A096947.P3040773762646485035
+
+`ogf((5-4x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A096947.P3040773762646485035
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -4] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A096947.P3040773762646485035
+
+namespace A096947
+
+/-- `ogf((5-4x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P3040773762646485035.Spec : Prop :=
+  ∀ n, P3040773762646485035.a n = A096947 n
 
 end A096947
 
@@ -15921,21 +15972,6 @@ end A096997.P1083937933094398128
 
 The programs for A096998, there is no canonical definition to state claims against.
 -/
-
-/-! ## A096998.P9712687307429019181
-
-`A000203(A096850(n+1))`
--/
-
-namespace A096998.P9712687307429019181
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (A096850 (n + 1)).toNat
-
-end
-
-end A096998.P9712687307429019181
 
 /-! ## A096998.P12923260410683755403
 

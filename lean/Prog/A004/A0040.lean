@@ -29,8 +29,8 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -39,11 +39,14 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,15 +78,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -10828,30 +10832,30 @@ def P3023059384728484192.Spec : Prop :=
 
 end A004083
 
-/-! ## A004083.P12767681963175886604
+/-! ## A004083.P14035899398211671879
 
-`A246394(n)+1`
+`1+A246394(n)`
 -/
 
-namespace A004083.P12767681963175886604
+namespace A004083.P14035899398211671879
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246394 n + 1
+  1 + A246394 n
 
 end
 
-end A004083.P12767681963175886604
+end A004083.P14035899398211671879
 
 namespace A004083
 
-/-- `A246394(n)+1` -/
-def P12767681963175886604.Spec : Prop :=
-  ∀ n, P12767681963175886604.a n = A004083 (n + 1)
+/-- `1+A246394(n)` -/
+def P14035899398211671879.Spec : Prop :=
+  ∀ n, P14035899398211671879.a n = A004083 (n + 1)
 
-theorem P12767681963175886604.correct : P12767681963175886604.Spec := by
+theorem P14035899398211671879.correct : P14035899398211671879.Spec := by
   intro n
-  simp only [A004083, Nat.add_sub_cancel, A004083.P12767681963175886604.a, A004083.P6881247767696671398.f1, A004083.P6881247767696671398.a, A246394, A246394.P5096704532663512882.a, SequenceMachineLib.memo_apply]
+  simp only [A004083, Nat.add_sub_cancel, A004083.P14035899398211671879.a, A004083.P6881247767696671398.f1, A004083.P6881247767696671398.a, A246394, A246394.P5096704532663512882.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

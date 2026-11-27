@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -22,23 +23,24 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C040
+import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,29 +58,27 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,6 +90,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -101,7 +102,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -635,29 +636,6 @@ namespace A129303
 /-- `lcm(A060904(n+1)*A111580(n+1), A060904(n+1))` -/
 def P14590124674164004462.Spec : Prop :=
   ∀ n, (P14590124674164004462.a n : ℤ) = A129303 (n + 1)
-
-end A129303
-
-/-! ## A129303.P891530857918476123
-
-`A138557(2*n+2)/(-2)`
--/
-
-namespace A129303.P891530857918476123
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A138557 (2 * n + 2) : ℚ) / (-2)
-
-end
-
-end A129303.P891530857918476123
-
-namespace A129303
-
-/-- `A138557(2*n+2)/(-2)` -/
-def P891530857918476123.Spec : Prop :=
-  ∀ n, P891530857918476123.a n = (A129303 (n + 1) : ℚ)
 
 end A129303
 
@@ -2538,21 +2516,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129316.P7594534414643611589
-
-/-! ## A129316.P14154546421974759912
-
-`-1+A129317(n+1)`
--/
-
-namespace A129316.P14154546421974759912
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A129317 (n + 1)
-
-end
-
-end A129316.P14154546421974759912
 
 /-! ## A129316.P12889220602383962556
 
@@ -10211,17 +10174,25 @@ end A129369
 /-!
 # A129370: a(n) = n^2 - (n-1)^2*(1 - (-1)^n)/8.
 
-The programs for A129370, the canonical program `A129370.P5878870418546858463` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129370 has offset 0).
+The programs for A129370, the canonical program `A129370.P8103910057229498911` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129370 has offset 0).
 
-The definition of A129370 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A129370 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A129370.anchor (n : ℕ) : (A129370 n : ℚ) = (n ^ 2 : ℚ) - (((n : ℤ) - 1) ^ 2 * (1 - (-1) ^ n) : ℚ) / 8` in `Proof.A129.A129370`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A129370.P5878870418546858463
 
 `n²-(n-1)²*n%2/4`
-
-The canonical program, it is in `Seq.B000.C022`.
 -/
+
+namespace A129370.P5878870418546858463
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 2 : ℚ) - (((n : ℤ) - 1) ^ 2 * ((n % 2 : ℕ) : ℤ) : ℚ) / 4
+
+end
+
+end A129370.P5878870418546858463
 
 namespace A129370
 
@@ -10258,18 +10229,8 @@ end A129370
 
 `n²-(n-1)²*(1-(-1)^n)/8`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C022`.
 -/
-
-namespace A129370.P8103910057229498911
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n ^ 2 : ℚ) - (((n : ℤ) - 1) ^ 2 * (1 - (-1) ^ n) : ℚ) / 8
-
-end
-
-end A129370.P8103910057229498911
 
 namespace A129370
 

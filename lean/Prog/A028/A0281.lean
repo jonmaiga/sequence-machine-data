@@ -7,13 +7,13 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C014
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
 import Seq.B003.C000
+import Seq.B005.C002
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C005
@@ -1664,17 +1664,44 @@ end A028108
 /-!
 # A028110: Expansion of 1/((1-4x)(1-5x)(1-6x)(1-8x)).
 
-The programs for A028110, the canonical program `A028110.P12893175595033221456` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028110 has offset 0).
+The programs for A028110, the canonical program `A028110.P16946968270700974550` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028110 has offset 0).
 
-The definition of A028110 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A028110 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-23x+194x^2-712x^3+960x^4))` (program `A028110.P16946968270700974550`, by `A028110.P16946968270700974550.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A028110.P16946968270700974550
+
+`ogf(1/(1-23x+194x^2-712x^3+960x^4))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A028110
+
+/-- `ogf(1/(1-23x+194x^2-712x^3+960x^4))` -/
+def P16946968270700974550.Spec : Prop :=
+  ∀ n, P16946968270700974550.a n = A028110 n
+
+theorem P16946968270700974550.correct : P16946968270700974550.Spec := by
+  intro n
+  simp only [A028110]
+
+end A028110
 
 /-! ## A028110.P12893175595033221456
 
 `(8^(n+3)-6^(n+4)+8*5^(n+3)-3*4^(n+3))/24`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A028110.P12893175595033221456
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((8 ^ (n + 3) : ℤ) - (6 ^ (n + 4) : ℤ) + (8 * 5 ^ (n + 3) : ℤ) - (3 * 4 ^ (n + 3) : ℤ) : ℚ) / 24
+
+end
+
+end A028110.P12893175595033221456
 
 namespace A028110
 

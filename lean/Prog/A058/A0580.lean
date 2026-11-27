@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,27 +13,26 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C013
+import Seq.B000.C015
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,22 +60,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,6 +91,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -99,7 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -144,24 +143,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A058000.P11080991940849597163
-
-/-! ## A058000.P7799496005983372466
-
-`-1+∏[A036013(n+1)]`
--/
-
-namespace A058000.P7799496005983372466
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036013 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A058000.P7799496005983372466
 
 /-! ## A058000.P12091669152930894142
 
@@ -2061,7 +2042,7 @@ def P3609808211202285568.Spec : Prop :=
 
 theorem P3609808211202285568.correct : P3609808211202285568.Spec := by
   intro n
-  simp only [A058017, Nat.add_sub_cancel, A058017.P3609808211202285568.a, A058017.P15612378644590073186.a, A000961, A000961.P15008477845107890738.f1, A000961.P15008477845107890738.f2, A000961.P15008477845107890738.a, A003418, A003418.P6976248655893080794.a, A051451, A051451.P7656855382918326739.a, A058018, A058018.P11285752739578243826.a, A151800, A151800.P4570031678714564115.a, A000079, A000079.P10855139691139572931.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A061345, A061345.P12671314331313567408.f1, A061345.P12671314331313567408.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A081061, A081061.P11142281922485975947.f1, A081061.P11142281922485975947.a, A374134, A374134.P15663071369572716484.f1, A374134.P15663071369572716484.a, A073491, A073491.P6445803315451258056.f1, A073491.P6445803315451258056.f2, A073491.P6445803315451258056.a, A340363, A340363.P15438000431600784952.a, SequenceMachineLib.memo_apply]
+  simp only [A058017, Nat.add_sub_cancel, A058017.P3609808211202285568.a, A058017.P15612378644590073186.a, A000961, A000961.P15008477845107890738.f1, A000961.P15008477845107890738.f2, A000961.P15008477845107890738.a, A003418, A003418.P6976248655893080794.a, A051451, A051451.P7656855382918326739.a, A058018, A058018.P11285752739578243826.a, A151800, A151800.P4570031678714564115.a, A000079, A000079.P10855139691139572931.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A061345, A061345.P12671314331313567408.f1, A061345.P12671314331313567408.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A081061, A081061.P11142281922485975947.f1, A081061.P11142281922485975947.a, A374134, A374134.P15663071369572716484.f1, A374134.P15663071369572716484.a, A073491, A073491.P11977570695969770324.f1, A073491.P11977570695969770324.f2, A073491.P11977570695969770324.a, A340363, A340363.P15438000431600784952.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -6932,27 +6913,6 @@ def P3184768770281258444.Spec : Prop :=
 end A058051
 
 /-!
-# A058052: Sum of the distances between the 2^n vertices in the De Bruijn Graphs on words of length n on alphabet {0,1}.
-
-The programs for A058052, there is no canonical definition to state claims against.
--/
-
-/-! ## A058052.P14772230206861252242
-
-`A074141(2*n+1)-A048728(n)`
--/
-
-namespace A058052.P14772230206861252242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074141 (2 * n + 1) - A048728 n
-
-end
-
-end A058052.P14772230206861252242
-
-/-!
 # A058053: Number of 3-rowed binary matrices with n ones and no zero columns, up to row and column permutation.
 
 The programs for A058053, the canonical program `A058053.P2509255081695082303` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058053 has offset 0).
@@ -8191,29 +8151,6 @@ namespace A058061
 /-- `A001222(A145154(n+1))-2` -/
 def P6296153329944055462.Spec : Prop :=
   ∀ n, P6296153329944055462.a n = A058061 (n + 1)
-
-end A058061
-
-/-! ## A058061.P15568620973443412979
-
-`A371090(n+1)`
--/
-
-namespace A058061.P15568620973443412979
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371090 (n + 1)
-
-end
-
-end A058061.P15568620973443412979
-
-namespace A058061
-
-/-- `A371090(n+1)` -/
-def P15568620973443412979.Spec : Prop :=
-  ∀ n, P15568620973443412979.a n = A058061 (n + 1)
 
 end A058061
 
@@ -10279,21 +10216,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A058067.P14554227224676394327
-
-/-! ## A058067.P13051701131081560928
-
-`A294038(n)`
--/
-
-namespace A058067.P13051701131081560928
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294038 n
-
-end
-
-end A058067.P13051701131081560928
 
 /-!
 # A058070: "A sorry sequence".

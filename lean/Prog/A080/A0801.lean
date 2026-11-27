@@ -9,6 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -17,12 +18,12 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -32,16 +33,16 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,14 +62,14 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
@@ -76,12 +77,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,6 +97,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1112,7 +1114,7 @@ end A080101
 /-!
 # A080102: Smallest prime power in all composite numbers between n-th prime and next prime, a(n) = 1 if no such prime power exists.
 
-The programs for A080102, the canonical program `A080102.P6236358342388533581` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080102 has offset 2).
+The programs for A080102, the canonical program `A080102.P6236358342388533581` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080102 has offset 2).
 
 The definition of A080102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1147,7 +1149,7 @@ end A080102
 
 `A005451(A345531(2+n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A080102
@@ -1577,7 +1579,7 @@ end A080107.P12487319007435780492
 /-!
 # A080108: a(n) = Sum_{k=1..n} k^(n-k)*binomial(n-1,k-1).
 
-The programs for A080108, the canonical program `A080108.P1011472336440934277` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080108 has offset 1).
+The programs for A080108, the canonical program `A080108.P1011472336440934277` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080108 has offset 1).
 
 The definition of A080108 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A080108.anchor (n : ℕ) : (A080108 (n + 1) : ℚ) = ∑ k ∈ Finset.range (n + 1), (k + 1 : ℚ) ^ ((n + 1 : ℤ) - (k + 1 : ℤ) : ℤ) * (Nat.choose n k : ℚ)` in `Proof.A080.A080108`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1586,7 +1588,7 @@ The definition of A080108 is `verified`: an anchor theorem with a hand-written p
 
 `∑{#}[n, (#+1)^(n+1-(#+1))*C(n, #)]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A080108
@@ -3947,27 +3949,6 @@ def P2126571215121049850.Spec : Prop :=
 end A080116
 
 /-!
-# A080117: Binary encoding of quadratic residue set formed for n-th prime, coerced to "complementarily symmetric binary sequence" with A080261 if the prime is of the form 4k+1.
-
-The programs for A080117, there is no canonical definition to state claims against.
--/
-
-/-! ## A080117.P11293645861898781639
-
-`A080118(n+1)`
--/
-
-namespace A080117.P11293645861898781639
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080118 (n + 1)
-
-end
-
-end A080117.P11293645861898781639
-
-/-!
 # A080118: Intersection of A080117 and A014486.
 
 The programs for A080118, there is no canonical definition to state claims against.
@@ -4920,7 +4901,7 @@ end A080140.P15858943292563042106
 /-!
 # A080141: a(n) = (3^(n-1))*(n!)^2.
 
-The programs for A080141, the canonical program `A080141.P11801985318611165345` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080141 has offset 1).
+The programs for A080141, the canonical program `A080141.P11801985318611165345` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080141 has offset 1).
 
 The definition of A080141 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n*(n+1)!²` (program `A080141.P11801985318611165345`, by `A080141.P11801985318611165345.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4929,7 +4910,7 @@ The definition of A080141 is `verified`: the Lean definition is proven equivalen
 
 `3^n*(n+1)!²`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A080141
@@ -7686,21 +7667,6 @@ end
 
 end A080149.P5945953871949103551
 
-/-! ## A080149.P17648361642897530960
-
-`sqrt(A145824(n+1)-1)`
--/
-
-namespace A080149.P17648361642897530960
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A145824 (n + 1) - 1 : ℝ)
-
-end
-
-end A080149.P17648361642897530960
-
 /-! ## A080149.P17655554138927559100
 
 `round(sqrt(A145824(n+1)))`
@@ -8545,21 +8511,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080152.P8802172442874675488
-
-/-! ## A080152.P14938421864809749682
-
-`A316524(A073640(n+1)+0)`
--/
-
-namespace A080152.P14938421864809749682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316524 (A073640 (n + 1) + 0).toNat
-
-end
-
-end A080152.P14938421864809749682
 
 /-! ## A080152.P555465111213898050
 
@@ -10734,7 +10685,7 @@ end A080165
 /-!
 # A080166: Primes having initial digits "11" in their binary representation.
 
-The programs for A080166, the canonical program `A080166.P17134688895846483269` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080166 has offset 1).
+The programs for A080166, the canonical program `A080166.P17134688895846483269` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080166 has offset 1).
 
 The definition of A080166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10743,7 +10694,7 @@ The definition of A080166 is `conjectured`: the Lean definition is a formula tha
 
 `p?[or(a(n-1)+2, 2*n)]` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A080166
@@ -11283,7 +11234,7 @@ end A080166
 /-!
 # A080167: Primes beginning with '10' and ending with '01' in binary representation.
 
-The programs for A080167, the canonical program `A080167.P9309688143140738925` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080167 has offset 1).
+The programs for A080167, the canonical program `A080167.P9309688143140738925` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080167 has offset 1).
 
 The definition of A080167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11322,7 +11273,7 @@ end A080167
 
 `∩[A080165(n+1), A191218(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A080167
@@ -13125,7 +13076,7 @@ end A080170.P9313346756909399733
 /-!
 # A080171: a(n) = n*a(n-1) - (n-1)^2*a(n-2), a(0)=1, a(1)=1.
 
-The programs for A080171, the canonical program `A080171.P9218208695644625424` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080171 has offset 0).
+The programs for A080171, the canonical program `A080171.P9218208695644625424` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080171 has offset 0).
 
 The definition of A080171 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*a(n-1)-(n-1)²*a(n-2)` (program `A080171.P9218208695644625424`, by `A080171.P9218208695644625424.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13134,7 +13085,7 @@ The definition of A080171 is `verified`: the Lean definition is proven equivalen
 
 `n*a(n-1)-(n-1)²*a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A080171

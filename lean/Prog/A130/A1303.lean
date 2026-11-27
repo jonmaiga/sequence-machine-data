@@ -9,30 +9,32 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +46,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -53,23 +54,27 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1000,7 +1005,7 @@ end A130302
 /-!
 # A130303: A130296 * A000012.
 
-The programs for A130303, the canonical program `A130303.P17818773432655265596` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130303 has offset 1).
+The programs for A130303, the canonical program `A130303.P17818773432655265596` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130303 has offset 1).
 
 The definition of A130303 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1069,7 +1074,7 @@ end A130303
 
 `T(T(n-1,k-1), 2*T(n-1,k-1))+T(n-1,k)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A130303
@@ -2031,21 +2036,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130305.P7268251698852950580
-
-/-! ## A130305.P4823178719657405530
-
-`A285548(n+2)`
--/
-
-namespace A130305.P4823178719657405530
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285548 (n + 2)
-
-end
-
-end A130305.P4823178719657405530
 
 /-! ## A130305.P3219545940054514610
 
@@ -3484,7 +3474,7 @@ end A130320.P3429086514317076267
 /-!
 # A130321: Triangle, (2^0, 2^1, 2^2, ...) in every column.
 
-The programs for A130321, the canonical program `A130321.P54397649261359622` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130321 has offset 0).
+The programs for A130321, the canonical program `A130321.P54397649261359622` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130321 has offset 0).
 
 The definition of A130321 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3493,7 +3483,7 @@ The definition of A130321 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A130321
@@ -5026,7 +5016,7 @@ end A130324
 /-!
 # A130328: Triangle of differences between powers of 2, read by rows.
 
-The programs for A130328, the canonical program `A130328.P18329191617125265188` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130328 has offset 0).
+The programs for A130328, the canonical program `A130328.P18329191617125265188` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130328 has offset 0).
 
 The definition of A130328 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5035,7 +5025,7 @@ The definition of A130328 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(row(n)+1)-2^col(n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A130328
@@ -5766,7 +5756,7 @@ end A130329
 /-!
 # A130330: Triangle read by rows, the matrix product A130321 * A000012, both taken as infinite lower triangular matrices.
 
-The programs for A130330, the canonical program `A130330.P4207858118783082297` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130330 has offset 0).
+The programs for A130330, the canonical program `A130330.P4207858118783082297` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130330 has offset 0).
 
 The definition of A130330 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5775,7 +5765,7 @@ The definition of A130330 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(row(n)-col(n)+1)-1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A130330
@@ -7996,21 +7986,6 @@ end
 
 end A130344.P5755173735265845473
 
-/-! ## A130344.P14844697508046783499
-
-`A122330(A122301(n))`
--/
-
-namespace A130344.P14844697508046783499
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122330 (A122301 n).toNat
-
-end
-
-end A130344.P14844697508046783499
-
 /-!
 # A130345: Row 5 of A122203.
 
@@ -8079,21 +8054,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130345.P104088012016141995
-
-/-! ## A130345.P1527408753702495616
-
-`A122302(A122323(n))`
--/
-
-namespace A130345.P1527408753702495616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122302 (A122323 n).toNat
-
-end
-
-end A130345.P1527408753702495616
 
 /-!
 # A130346: Row 5 of A122204.
@@ -8178,21 +8138,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130346.P14273365472125549925
-
-/-! ## A130346.P5312434245221430560
-
-`A122324(A122301(n))`
--/
-
-namespace A130346.P5312434245221430560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122324 (A122301 n).toNat
-
-end
-
-end A130346.P5312434245221430560
 
 /-!
 # A130347: Row 6 of A122203.
@@ -8430,21 +8375,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130349.P219163449574877537
-
-/-! ## A130349.P4768259579980092603
-
-`A130353(A130353(n))`
--/
-
-namespace A130349.P4768259579980092603
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130353 (A130353 n).toNat
-
-end
-
-end A130349.P4768259579980092603
 
 /-!
 # A130350: Row 11 of A122204.
@@ -8866,21 +8796,6 @@ end
 
 end A130354.P10182870065700947177
 
-/-! ## A130354.P9510269177744083820
-
-`A122338(A122301(n))`
--/
-
-namespace A130354.P9510269177744083820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122338 (A122301 n).toNat
-
-end
-
-end A130354.P9510269177744083820
-
 /-!
 # A130355: Row 13 of A122203.
 
@@ -8934,21 +8849,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130355.P5995064497357095971
-
-/-! ## A130355.P2497761895168049197
-
-`A130359(A122309(n))`
--/
-
-namespace A130355.P2497761895168049197
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130359 (A122309 n).toNat
-
-end
-
-end A130355.P2497761895168049197
 
 /-!
 # A130356: Row 18 of A122204.
@@ -9187,21 +9087,6 @@ end
 
 end A130358.P8591812374637484310
 
-/-! ## A130358.P6904922751272637107
-
-`A122300(A069768(n))`
--/
-
-namespace A130358.P6904922751272637107
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122300 (A069768 n).toNat
-
-end
-
-end A130358.P6904922751272637107
-
 /-! ## A130358.P15175804760762876088
 
 `A122303(A074686(n)%A122227(n))`
@@ -9429,21 +9314,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130360.P4862161733337151933
-
-/-! ## A130360.P12705138174152306089
-
-`A073280(A130999(n))`
--/
-
-namespace A130360.P12705138174152306089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073280 (A130999 n).toNat
-
-end
-
-end A130360.P12705138174152306089
 
 /-! ## A130360.P2821049554630101395
 
@@ -9979,21 +9849,6 @@ end
 
 end A130366.P1734812389808790834
 
-/-! ## A130366.P7599664488066493825
-
-`A122318(A069768(n))`
--/
-
-namespace A130366.P7599664488066493825
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122318 (A069768 n).toNat
-
-end
-
-end A130366.P7599664488066493825
-
 /-!
 # A130367: Row 20 of A122203.
 
@@ -10117,21 +9972,6 @@ end
 
 end A130368.P14204224702205431010
 
-/-! ## A130368.P7801824425935502357
-
-`A122320(A069768(n))`
--/
-
-namespace A130368.P7801824425935502357
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122320 (A069768 n).toNat
-
-end
-
-end A130368.P7801824425935502357
-
 /-!
 # A130369: Signature permutation of a Catalan automorphism: apply *A074679 to the root and recurse down the cdr-spine (the right-hand side edge of a binary tree) as long as the binary tree rotation is possible and if the top-level length (A057515(n)) is odd, then apply *A069770 to the last branch-point.
 
@@ -10185,21 +10025,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130369.P9755430939229833258
-
-/-! ## A130369.P13953117442925920298
-
-`A131151(A069768(n))`
--/
-
-namespace A130369.P13953117442925920298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131151 (A069768 n).toNat
-
-end
-
-end A130369.P13953117442925920298
 
 /-!
 # A130370: Signature permutation of a Catalan automorphism: inverse of *A130369.
@@ -10638,21 +10463,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130375.P13090118101758828277
-
-/-! ## A130375.P6478431933987656790
-
-`A131171(A057501(n))`
--/
-
-namespace A130375.P6478431933987656790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131171 (A057501 n).toNat
-
-end
-
-end A130375.P6478431933987656790
 
 /-!
 # A130376: Signature permutation of a Catalan automorphism: apply *A074686 after the first nil on the top-level of list, if any present, otherwise leave the structure intact.
@@ -11287,21 +11097,6 @@ end
 
 end A130381.P14807193409733661866
 
-/-! ## A130381.P8818405750038124047
-
-`A130948(n)`
--/
-
-namespace A130381.P8818405750038124047
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130948 n
-
-end
-
-end A130381.P8818405750038124047
-
 /-!
 # A130382: Signature permutation of a Catalan automorphism: row 6 of A130401.
 
@@ -11470,21 +11265,6 @@ end
 
 end A130383.P15257671492898433022
 
-/-! ## A130383.P14043221000798473905
-
-`A130950(n)`
--/
-
-namespace A130383.P14043221000798473905
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130950 n
-
-end
-
-end A130383.P14043221000798473905
-
 /-!
 # A130384: Signature permutation of a Catalan automorphism: row 5 of A130401.
 
@@ -11608,21 +11388,6 @@ end
 
 end A130385.P4815167143821284491
 
-/-! ## A130385.P15717460952141834426
-
-`A130952(n)`
--/
-
-namespace A130385.P15717460952141834426
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130952 n
-
-end
-
-end A130385.P15717460952141834426
-
 /-!
 # A130386: Signature permutation of a Catalan automorphism: row 4 of A130401.
 
@@ -11661,21 +11426,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130386.P10826832501549198306
-
-/-! ## A130386.P4287366320257496495
-
-`A130951(n)`
--/
-
-namespace A130386.P4287366320257496495
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130951 n
-
-end
-
-end A130386.P4287366320257496495
 
 /-!
 # A130387: Signature permutation of a Catalan automorphism: row 9 of A130400.
@@ -11716,21 +11466,6 @@ end
 
 end A130387.P16908691164001671372
 
-/-! ## A130387.P2591701813291214673
-
-`A130938(n)`
--/
-
-namespace A130387.P2591701813291214673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130938 n
-
-end
-
-end A130387.P2591701813291214673
-
 /-!
 # A130388: Signature permutation of a Catalan automorphism: row 11 of A130401.
 
@@ -11769,21 +11504,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130388.P4822462804737877836
-
-/-! ## A130388.P15512803518572418794
-
-`A130937(n)`
--/
-
-namespace A130388.P15512803518572418794
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130937 n
-
-end
-
-end A130388.P15512803518572418794
 
 /-!
 # A130389: Signature permutation of a Catalan automorphism: row 10 of A130400.
@@ -11923,21 +11643,6 @@ end
 
 end A130390.P949971013054255292
 
-/-! ## A130390.P6360478249623552939
-
-`A130939(n^1)`
--/
-
-namespace A130390.P6360478249623552939
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130939 (n ^ 1)
-
-end
-
-end A130390.P6360478249623552939
-
 /-!
 # A130391: Signature permutation of a Catalan automorphism: row 11 of A130400.
 
@@ -11976,21 +11681,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130391.P14689847341203324072
-
-/-! ## A130391.P7844542965100944772
-
-`A130942(n)`
--/
-
-namespace A130391.P7844542965100944772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130942 n
-
-end
-
-end A130391.P7844542965100944772
 
 /-!
 # A130392: Signature permutation of a Catalan automorphism: row 9 of A130401.
@@ -12070,21 +11760,6 @@ end
 
 end A130393.P14274934327040023220
 
-/-! ## A130393.P8774274569459317923
-
-`A130960(A122303(n))`
--/
-
-namespace A130393.P8774274569459317923
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130960 (A122303 n).toNat
-
-end
-
-end A130393.P8774274569459317923
-
 /-!
 # A130394: Signature permutation of a Catalan automorphism: row 18 of A130401.
 
@@ -12123,36 +11798,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130394.P12189271873497387908
-
-/-! ## A130394.P17352020669179051152
-
-`A089867(1*A130955(n))`
--/
-
-namespace A130394.P17352020669179051152
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089867 (1 * A130955 n).toNat
-
-end
-
-end A130394.P17352020669179051152
-
-/-! ## A130394.P18101309593215336269
-
-`A089868(1*A130955(n))`
--/
-
-namespace A130394.P18101309593215336269
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089868 (1 * A130955 n).toNat
-
-end
-
-end A130394.P18101309593215336269
 
 /-!
 # A130395: Signature permutation of a Catalan automorphism: row 14 of A130400.
@@ -12246,21 +11891,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130396.P2675076137359307230
-
-/-! ## A130396.P6421533595237108518
-
-`A089869(A130953(n))`
--/
-
-namespace A130396.P6421533595237108518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089869 (A130953 n).toNat
-
-end
-
-end A130396.P6421533595237108518
 
 /-! ## A130396.P3366407867020167411
 

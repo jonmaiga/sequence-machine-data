@@ -34,18 +34,17 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,20 +69,20 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -12285,29 +12284,6 @@ def P5924332949854956989.Spec : Prop :=
 
 end A140473
 
-/-! ## A140473.P3641482615470668869
-
-`A163867(n)-A177151(A163867(n)+0)`
--/
-
-namespace A140473.P3641482615470668869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163867 n - A177151 (A163867 n + 0).toNat
-
-end
-
-end A140473.P3641482615470668869
-
-namespace A140473
-
-/-- `A163867(n)-A177151(A163867(n)+0)` -/
-def P3641482615470668869.Spec : Prop :=
-  ∀ n, P3641482615470668869.a n = A140473 n
-
-end A140473
-
 /-! ## A140473.P16869402830604780217
 
 `A000523(A081063(A003586(A081061(A000961(n+1)))))`
@@ -13286,21 +13262,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A140480.P9327784333805998084
-
-/-! ## A140480.P5756982033422713423
-
-`A327055(n+1)`
--/
-
-namespace A140480.P5756982033422713423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327055 (n + 1)
-
-end
-
-end A140480.P5756982033422713423
 
 /-! ## A140480.P14500589672968689355
 

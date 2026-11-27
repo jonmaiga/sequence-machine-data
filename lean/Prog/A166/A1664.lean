@@ -24,24 +24,25 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C046
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,27 +64,29 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2007,9 +2010,576 @@ end
 end A166409.P3808438437625888026
 
 /-!
+# A166410: Number of reduced words of length n in Coxeter group on 16 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166410, the canonical program `A166410.P5770064543035838468` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166410 has offset 0).
+
+The definition of A166410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166410.P5770064543035838468
+
+`ogf((1+x-x^11-x^12)/(1-15x+119x^11-105x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166410
+
+/-- `ogf((1+x-x^11-x^12)/(1-15x+119x^11-105x^12))` -/
+def P5770064543035838468.Spec : Prop :=
+  ∀ n, P5770064543035838468.a n = A166410 n
+
+theorem P5770064543035838468.correct : P5770064543035838468.Spec := by
+  intro n
+  simp only [A166410]
+
+end A166410
+
+/-!
+# A166411: Number of reduced words of length n in Coxeter group on 17 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166411, the canonical program `A166411.P6785294295241293971` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166411 has offset 0).
+
+The definition of A166411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166411.P6785294295241293971
+
+`ogf((1+x-x^11-x^12)/(1-16x+135x^11-120x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166411
+
+/-- `ogf((1+x-x^11-x^12)/(1-16x+135x^11-120x^12))` -/
+def P6785294295241293971.Spec : Prop :=
+  ∀ n, P6785294295241293971.a n = A166411 n
+
+theorem P6785294295241293971.correct : P6785294295241293971.Spec := by
+  intro n
+  simp only [A166411]
+
+end A166411
+
+/-!
+# A166412: Number of reduced words of length n in Coxeter group on 18 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166412, the canonical program `A166412.P5824595931781990720` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166412 has offset 0).
+
+The definition of A166412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166412.P5824595931781990720
+
+`ogf((1+x-x^11-x^12)/(1-17x+152x^11-136x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166412
+
+/-- `ogf((1+x-x^11-x^12)/(1-17x+152x^11-136x^12))` -/
+def P5824595931781990720.Spec : Prop :=
+  ∀ n, P5824595931781990720.a n = A166412 n
+
+theorem P5824595931781990720.correct : P5824595931781990720.Spec := by
+  intro n
+  simp only [A166412]
+
+end A166412
+
+/-!
+# A166413: Number of reduced words of length n in Coxeter group on 19 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166413, the canonical program `A166413.P5739688402251970090` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166413 has offset 0).
+
+The definition of A166413 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166413.P5739688402251970090
+
+`ogf((1+x-x^11-x^12)/(1-18x+170x^11-153x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166413
+
+/-- `ogf((1+x-x^11-x^12)/(1-18x+170x^11-153x^12))` -/
+def P5739688402251970090.Spec : Prop :=
+  ∀ n, P5739688402251970090.a n = A166413 n
+
+theorem P5739688402251970090.correct : P5739688402251970090.Spec := by
+  intro n
+  simp only [A166413]
+
+end A166413
+
+/-!
+# A166414: Number of reduced words of length n in Coxeter group on 20 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166414, the canonical program `A166414.P15939303453814545708` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166414 has offset 0).
+
+The definition of A166414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166414.P15939303453814545708
+
+`ogf((1+x-x^11-x^12)/(1-19x+189x^11-171x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166414
+
+/-- `ogf((1+x-x^11-x^12)/(1-19x+189x^11-171x^12))` -/
+def P15939303453814545708.Spec : Prop :=
+  ∀ n, P15939303453814545708.a n = A166414 n
+
+theorem P15939303453814545708.correct : P15939303453814545708.Spec := by
+  intro n
+  simp only [A166414]
+
+end A166414
+
+/-!
+# A166415: Number of reduced words of length n in Coxeter group on 21 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166415, the canonical program `A166415.P699274663693105643` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166415 has offset 0).
+
+The definition of A166415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166415.P699274663693105643
+
+`ogf((1+x-x^11-x^12)/(1-20x+209x^11-190x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166415
+
+/-- `ogf((1+x-x^11-x^12)/(1-20x+209x^11-190x^12))` -/
+def P699274663693105643.Spec : Prop :=
+  ∀ n, P699274663693105643.a n = A166415 n
+
+theorem P699274663693105643.correct : P699274663693105643.Spec := by
+  intro n
+  simp only [A166415]
+
+end A166415
+
+/-!
+# A166416: Number of reduced words of length n in Coxeter group on 22 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166416, the canonical program `A166416.P15610210566501586381` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166416 has offset 0).
+
+The definition of A166416 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166416.P15610210566501586381
+
+`ogf((1+x-x^11-x^12)/(1-21x+230x^11-210x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166416
+
+/-- `ogf((1+x-x^11-x^12)/(1-21x+230x^11-210x^12))` -/
+def P15610210566501586381.Spec : Prop :=
+  ∀ n, P15610210566501586381.a n = A166416 n
+
+theorem P15610210566501586381.correct : P15610210566501586381.Spec := by
+  intro n
+  simp only [A166416]
+
+end A166416
+
+/-!
+# A166417: Number of reduced words of length n in Coxeter group on 23 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166417, the canonical program `A166417.P11804146740488282579` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166417 has offset 0).
+
+The definition of A166417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166417.P11804146740488282579
+
+`ogf((1+x-x^11-x^12)/(1-22x+252x^11-231x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166417
+
+/-- `ogf((1+x-x^11-x^12)/(1-22x+252x^11-231x^12))` -/
+def P11804146740488282579.Spec : Prop :=
+  ∀ n, P11804146740488282579.a n = A166417 n
+
+theorem P11804146740488282579.correct : P11804146740488282579.Spec := by
+  intro n
+  simp only [A166417]
+
+end A166417
+
+/-!
+# A166418: Number of reduced words of length n in Coxeter group on 24 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166418, the canonical program `A166418.P11336712160387297731` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166418 has offset 0).
+
+The definition of A166418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166418.P11336712160387297731
+
+`ogf((1+x-x^11-x^12)/(1-23x+275x^11-253x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166418
+
+/-- `ogf((1+x-x^11-x^12)/(1-23x+275x^11-253x^12))` -/
+def P11336712160387297731.Spec : Prop :=
+  ∀ n, P11336712160387297731.a n = A166418 n
+
+theorem P11336712160387297731.correct : P11336712160387297731.Spec := by
+  intro n
+  simp only [A166418]
+
+end A166418
+
+/-!
+# A166419: Number of reduced words of length n in Coxeter group on 25 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166419, the canonical program `A166419.P1115357516919124517` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166419 has offset 0).
+
+The definition of A166419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166419.P1115357516919124517
+
+`ogf((1+x-x^11-x^12)/(1-24x+299x^11-276x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166419
+
+/-- `ogf((1+x-x^11-x^12)/(1-24x+299x^11-276x^12))` -/
+def P1115357516919124517.Spec : Prop :=
+  ∀ n, P1115357516919124517.a n = A166419 n
+
+theorem P1115357516919124517.correct : P1115357516919124517.Spec := by
+  intro n
+  simp only [A166419]
+
+end A166419
+
+/-!
+# A166420: Number of reduced words of length n in Coxeter group on 26 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166420, the canonical program `A166420.P5837404813521753596` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166420 has offset 0).
+
+The definition of A166420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166420.P5837404813521753596
+
+`ogf((1+x-x^11-x^12)/(1-25x+324x^11-300x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166420
+
+/-- `ogf((1+x-x^11-x^12)/(1-25x+324x^11-300x^12))` -/
+def P5837404813521753596.Spec : Prop :=
+  ∀ n, P5837404813521753596.a n = A166420 n
+
+theorem P5837404813521753596.correct : P5837404813521753596.Spec := by
+  intro n
+  simp only [A166420]
+
+end A166420
+
+/-!
+# A166421: Number of reduced words of length n in Coxeter group on 27 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166421, the canonical program `A166421.P16179621468580008869` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166421 has offset 0).
+
+The definition of A166421 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166421.P16179621468580008869
+
+`ogf((1+x-x^11-x^12)/(1-26x+350x^11-325x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166421
+
+/-- `ogf((1+x-x^11-x^12)/(1-26x+350x^11-325x^12))` -/
+def P16179621468580008869.Spec : Prop :=
+  ∀ n, P16179621468580008869.a n = A166421 n
+
+theorem P16179621468580008869.correct : P16179621468580008869.Spec := by
+  intro n
+  simp only [A166421]
+
+end A166421
+
+/-!
+# A166422: Number of reduced words of length n in Coxeter group on 28 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166422, the canonical program `A166422.P3041295276630358782` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166422 has offset 0).
+
+The definition of A166422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166422.P3041295276630358782
+
+`ogf((1+x-x^11-x^12)/(1-27x+377x^11-351x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166422
+
+/-- `ogf((1+x-x^11-x^12)/(1-27x+377x^11-351x^12))` -/
+def P3041295276630358782.Spec : Prop :=
+  ∀ n, P3041295276630358782.a n = A166422 n
+
+theorem P3041295276630358782.correct : P3041295276630358782.Spec := by
+  intro n
+  simp only [A166422]
+
+end A166422
+
+/-!
+# A166423: Number of reduced words of length n in Coxeter group on 29 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166423, the canonical program `A166423.P17220291487465162002` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166423 has offset 0).
+
+The definition of A166423 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166423.P17220291487465162002
+
+`ogf((1+x-x^11-x^12)/(1-28x+405x^11-378x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166423
+
+/-- `ogf((1+x-x^11-x^12)/(1-28x+405x^11-378x^12))` -/
+def P17220291487465162002.Spec : Prop :=
+  ∀ n, P17220291487465162002.a n = A166423 n
+
+theorem P17220291487465162002.correct : P17220291487465162002.Spec := by
+  intro n
+  simp only [A166423]
+
+end A166423
+
+/-!
+# A166424: Number of reduced words of length n in Coxeter group on 30 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166424, the canonical program `A166424.P12087632142551740832` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166424 has offset 0).
+
+The definition of A166424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166424.P12087632142551740832
+
+`ogf((1+x-x^11-x^12)/(1-29x+434x^11-406x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166424
+
+/-- `ogf((1+x-x^11-x^12)/(1-29x+434x^11-406x^12))` -/
+def P12087632142551740832.Spec : Prop :=
+  ∀ n, P12087632142551740832.a n = A166424 n
+
+theorem P12087632142551740832.correct : P12087632142551740832.Spec := by
+  intro n
+  simp only [A166424]
+
+end A166424
+
+/-!
+# A166425: Number of reduced words of length n in Coxeter group on 31 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166425, the canonical program `A166425.P11696083662798686486` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166425 has offset 0).
+
+The definition of A166425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166425.P11696083662798686486
+
+`ogf((1+x-x^11-x^12)/(1-30x+464x^11-435x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166425
+
+/-- `ogf((1+x-x^11-x^12)/(1-30x+464x^11-435x^12))` -/
+def P11696083662798686486.Spec : Prop :=
+  ∀ n, P11696083662798686486.a n = A166425 n
+
+theorem P11696083662798686486.correct : P11696083662798686486.Spec := by
+  intro n
+  simp only [A166425]
+
+end A166425
+
+/-!
+# A166428: Number of reduced words of length n in Coxeter group on 34 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166428, the canonical program `A166428.P12658317607044847160` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166428 has offset 0).
+
+The definition of A166428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166428.P12658317607044847160
+
+`ogf((1+x-x^11-x^12)/(1-33x+560x^11-528x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166428
+
+/-- `ogf((1+x-x^11-x^12)/(1-33x+560x^11-528x^12))` -/
+def P12658317607044847160.Spec : Prop :=
+  ∀ n, P12658317607044847160.a n = A166428 n
+
+theorem P12658317607044847160.correct : P12658317607044847160.Spec := by
+  intro n
+  simp only [A166428]
+
+end A166428
+
+/-!
+# A166429: Number of reduced words of length n in Coxeter group on 35 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166429, the canonical program `A166429.P10109784049546025811` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166429 has offset 0).
+
+The definition of A166429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166429.P10109784049546025811
+
+`ogf((1+x-x^11-x^12)/(1-34x+594x^11-561x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166429
+
+/-- `ogf((1+x-x^11-x^12)/(1-34x+594x^11-561x^12))` -/
+def P10109784049546025811.Spec : Prop :=
+  ∀ n, P10109784049546025811.a n = A166429 n
+
+theorem P10109784049546025811.correct : P10109784049546025811.Spec := by
+  intro n
+  simp only [A166429]
+
+end A166429
+
+/-!
+# A166431: Number of reduced words of length n in Coxeter group on 37 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166431, the canonical program `A166431.P12953636971412798537` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166431 has offset 0).
+
+The definition of A166431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166431.P12953636971412798537
+
+`ogf((1+x-x^11-x^12)/(1-36x+665x^11-630x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166431
+
+/-- `ogf((1+x-x^11-x^12)/(1-36x+665x^11-630x^12))` -/
+def P12953636971412798537.Spec : Prop :=
+  ∀ n, P12953636971412798537.a n = A166431 n
+
+theorem P12953636971412798537.correct : P12953636971412798537.Spec := by
+  intro n
+  simp only [A166431]
+
+end A166431
+
+/-!
+# A166432: Number of reduced words of length n in Coxeter group on 38 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166432, the canonical program `A166432.P482614636844076935` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166432 has offset 0).
+
+The definition of A166432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166432.P482614636844076935
+
+`ogf((1+x-x^11-x^12)/(1-37x+702x^11-666x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166432
+
+/-- `ogf((1+x-x^11-x^12)/(1-37x+702x^11-666x^12))` -/
+def P482614636844076935.Spec : Prop :=
+  ∀ n, P482614636844076935.a n = A166432 n
+
+theorem P482614636844076935.correct : P482614636844076935.Spec := by
+  intro n
+  simp only [A166432]
+
+end A166432
+
+/-!
+# A166433: Number of reduced words of length n in Coxeter group on 39 generators S_i with relations (S_i)^2 = (S_i S_j)^11 = I.
+
+The programs for A166433, the canonical program `A166433.P11587565753049088329` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166433 has offset 0).
+
+The definition of A166433 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A166433.P11587565753049088329
+
+`ogf((1+x-x^11-x^12)/(1-38x+740x^11-703x^12))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A166433
+
+/-- `ogf((1+x-x^11-x^12)/(1-38x+740x^11-703x^12))` -/
+def P11587565753049088329.Spec : Prop :=
+  ∀ n, P11587565753049088329.a n = A166433 n
+
+theorem P11587565753049088329.correct : P11587565753049088329.Spec := by
+  intro n
+  simp only [A166433]
+
+end A166433
+
+/-!
 # A166444: a(0) = 0, a(1) = 1 and for n > 1, a(n) = sum of all previous terms.
 
-The programs for A166444, the canonical program `A166444.P241271537979937135` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166444 has offset 0).
+The programs for A166444, the canonical program `A166444.P241271537979937135` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166444 has offset 0).
 
 The definition of A166444 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2018,7 +2588,7 @@ The definition of A166444 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-x^2)/(1-2x))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166444
@@ -2473,7 +3043,7 @@ end A166444
 /-!
 # A166445: Hankel transform of A025276.
 
-The programs for A166445, the canonical program `A166445.P11608865616627439092` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166445 has offset 0).
+The programs for A166445, the canonical program `A166445.P11608865616627439092` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166445 has offset 0).
 
 The definition of A166445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2482,7 +3052,7 @@ The definition of A166445 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x+x^2+x^4)/(1-x+2x^2-2x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166445
@@ -2941,7 +3511,7 @@ end A166445
 /-!
 # A166446: Period 12: repeat [1,1,1,1,0,0,-1,-1,-1,-1,0,0].
 
-The programs for A166446, the canonical program `A166446.P16360541201941274025` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166446 has offset 0).
+The programs for A166446, the canonical program `A166446.P16360541201941274025` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166446 has offset 0).
 
 The definition of A166446 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A166446.anchor (n : ℕ) : A166446 n = [1, 1, 1, 1, 0, 0, -1, -1, -1, -1, 0, 0].getD (n % 12) 0` in `Proof.A166.A166446`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2973,7 +3543,7 @@ end A166446
 
 `a(n-2)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166446
@@ -2991,7 +3561,7 @@ end A166446
 /-!
 # A166447: a(n) = n*round(sqrt(n)).
 
-The programs for A166447, the canonical program `A166447.P13371605189343968352` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166447 has offset 0).
+The programs for A166447, the canonical program `A166447.P13371605189343968352` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166447 has offset 0).
 
 The definition of A166447 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*round(sqrt(n))` (program `A166447.P13371605189343968352`, by `A166447.P13371605189343968352.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3000,7 +3570,7 @@ The definition of A166447 is `verified`: the Lean definition is proven equivalen
 
 `n*round(sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166447
@@ -3917,7 +4487,7 @@ end A166449.P16499792604490095058
 /-!
 # A166450: a(n) = 3*a(n-2) for n > 2; a(1) = 1, a(2) = 6.
 
-The programs for A166450, the canonical program `A166450.P16603571981240370708` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166450 has offset 1).
+The programs for A166450, the canonical program `A166450.P16603571981240370708` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166450 has offset 1).
 
 The definition of A166450 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-2)` (program `A166450.P16603571981240370708`, by `A166450.P16603571981240370708.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3949,7 +4519,7 @@ end A166450
 
 `3*a(n-2)` with `a(0)=1, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166450
@@ -6717,7 +7287,7 @@ end A166459.P11184018238585248338
 /-!
 # A166460: Numbers k such that k + (-1)^k is not prime.
 
-The programs for A166460, the canonical program `A166460.P3722313716413946598` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166460 has offset 1).
+The programs for A166460, the canonical program `A166460.P3722313716413946598` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166460 has offset 1).
 
 The definition of A166460 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7140,7 +7710,7 @@ end A166460
 
 `lt[n, xor(n, A006530(n+1))²]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A166460
@@ -7952,7 +8522,7 @@ end A166464
 /-!
 # A166465: a(n) = 3*a(n-2) for n > 2; a(1) = 1, a(2) = 5.
 
-The programs for A166465, the canonical program `A166465.P475752122730873760` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166465 has offset 1).
+The programs for A166465, the canonical program `A166465.P475752122730873760` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166465 has offset 1).
 
 The definition of A166465 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-2)` (program `A166465.P475752122730873760`, by `A166465.P475752122730873760.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7984,7 +8554,7 @@ end A166465
 
 `3*a(n-2)` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166465
@@ -8898,7 +9468,7 @@ end A166466
 /-!
 # A166467: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^12 = I.
 
-The programs for A166467, the canonical program `A166467.P15248405877685736852` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166467 has offset 0).
+The programs for A166467, the canonical program `A166467.P15248405877685736852` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166467 has offset 0).
 
 The definition of A166467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8907,7 +9477,7 @@ The definition of A166467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-x^12-x^13)/(1-2x+2x^12-x^13))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166467
@@ -9000,7 +9570,7 @@ end A166467
 /-!
 # A166468: Number of reduced words of length n in Coxeter group on 4 generators S_i with relations (S_i)^2 = (S_i S_j)^12 = I.
 
-The programs for A166468, the canonical program `A166468.P13245666814247779874` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166468 has offset 0).
+The programs for A166468, the canonical program `A166468.P13245666814247779874` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166468 has offset 0).
 
 The definition of A166468 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9009,7 +9579,7 @@ The definition of A166468 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-x^12-x^13)/(1-3x+5x^12-3x^13))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166468
@@ -9119,7 +9689,7 @@ end A166468
 /-!
 # A166469: Number of divisors of n which are not multiples of consecutive primes.
 
-The programs for A166469, the canonical program `A166469.P17767647462056907293` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166469 has offset 1).
+The programs for A166469, the canonical program `A166469.P17767647462056907293` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166469 has offset 1).
 
 The definition of A166469 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A296210, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9128,7 +9698,7 @@ The definition of A166469 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, 1-A296210(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A166469
@@ -9166,12 +9736,6 @@ namespace A166469
 /-- `∑{d}[1+n, A356173(#)]` -/
 def P6567468377312289965.Spec : Prop :=
   ∀ n, P6567468377312289965.a n = A166469 (n + 1)
-
-theorem P6567468377312289965.correct : P6567468377312289965.Spec := by
-  intro n
-  simp only [A166469, Nat.add_sub_cancel, A166469.P6567468377312289965.f1, A166469.P6567468377312289965.a, A166469.P17767647462056907293.f1, A166469.P17767647462056907293.a, A296210, A296210.P70897006870222975.f2, A296210.P70897006870222975.f1, A296210.P70897006870222975.a, A356173, A356173.P8720124054726278930.a, A104210, A104210.P16745863598324152807.f1, A104210.P16745863598324152807.f2, A104210.P16745863598324152807.a, A330749, A330749.P2089364656519205452.a, A064989, A064989.P13349672914146769936.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A166469
 
@@ -9308,27 +9872,31 @@ end A166469
 /-!
 # A166470: a(n) = 2^F(n+1)*3^F(n), where F(n) is the n-th Fibonacci number, A000045(n).
 
-The programs for A166470, the canonical program `A166470.P15947844069761440349` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166470 has offset 0).
+The programs for A166470, the canonical program `A166470.P10526485562819132564` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166470 has offset 0).
 
-The definition of A166470 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A166470 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A166470.anchor (n : ℕ) : (A166470 n : ℚ) = (2 : ℚ) ^ (A000045 (n + 1) : ℤ) * (3 : ℚ) ^ (A000045 n : ℤ)` in `Proof.A166.A166470`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A166470.P15947844069761440349
 
 `a(n-1)*a(n-2)` with `a(0)=2, a(1)=6`
-
-The canonical program, it is in `Seq.B000.C028`.
 -/
+
+namespace A166470.P15947844069761440349
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2, 6] fun n a =>
+  a (n - 1) * a (n - 2)
+
+end
+
+end A166470.P15947844069761440349
 
 namespace A166470
 
 /-- `a(n-1)*a(n-2)` -/
 def P15947844069761440349.Spec : Prop :=
   ∀ n, (P15947844069761440349.a n : ℤ) = A166470 n
-
-theorem P15947844069761440349.correct : P15947844069761440349.Spec := by
-  intro n
-  simp only [A166470]
 
 end A166470
 
@@ -9382,18 +9950,8 @@ end A166470
 
 `2^A000045(n+1)*3^A000045(n)`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B001.C008`.
 -/
-
-namespace A166470.P10526485562819132564
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (A000045 (n + 1) : ℤ) * (3 : ℚ) ^ (A000045 n : ℤ)
-
-end
-
-end A166470.P10526485562819132564
 
 namespace A166470
 
@@ -9429,7 +9987,7 @@ end A166470
 /-!
 # A166471: a(n) = 2^L(n+1)*3^L(n), where L(n) is the n-th Lucas number (A000032(n)).
 
-The programs for A166471, the canonical program `A166471.P15716541230611796` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166471 has offset 0).
+The programs for A166471, the canonical program `A166471.P15716541230611796` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166471 has offset 0).
 
 The definition of A166471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9438,7 +9996,7 @@ The definition of A166471 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*a(n-2)` with `a(0)=18, a(1)=24`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166471
@@ -9528,7 +10086,7 @@ end A166471
 /-!
 # A166472: a(n) = 2^F(n+2)*3^F(n+1)/12, where F(n) is the n-th Fibonacci number (A000045(n)).
 
-The programs for A166472, the canonical program `A166472.P15501550878082799753` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166472 has offset 1).
+The programs for A166472, the canonical program `A166472.P15501550878082799753` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166472 has offset 1).
 
 The definition of A166472 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9537,7 +10095,7 @@ The definition of A166472 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*a(n-1)*a(n-2)` with `a(0)=1, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166472
@@ -9652,7 +10210,7 @@ end A166472
 /-!
 # A166473: a(n) = 2^L(n+1) * 3^L(n)/12, where L(n) is the n-th Lucas number (A000032(n)).
 
-The programs for A166473, the canonical program `A166473.P2831343625938984203` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166473 has offset 1).
+The programs for A166473, the canonical program `A166473.P2831343625938984203` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166473 has offset 1).
 
 The definition of A166473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9661,7 +10219,7 @@ The definition of A166473 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*a(n-1)*a(n-2)` with `a(0)=2, a(1)=36`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166473
@@ -10078,7 +10636,7 @@ end A166480
 /-!
 # A166481: a(n) = 3*a(n-2) for n > 2; a(1) = 1; a(2) = 7.
 
-The programs for A166481, the canonical program `A166481.P18335506939025747773` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166481 has offset 1).
+The programs for A166481, the canonical program `A166481.P18335506939025747773` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166481 has offset 1).
 
 The definition of A166481 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-2)` (program `A166481.P18335506939025747773`, by `A166481.P18335506939025747773.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10110,7 +10668,7 @@ end A166481
 
 `3*a(n-2)` with `a(0)=1, a(1)=7`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166481
@@ -11000,7 +11558,7 @@ end A166484.P4179965881202532275
 /-!
 # A166486: Periodic sequence [0,1,1,1] of length 4; Characteristic function of numbers that are not multiples of 4.
 
-The programs for A166486, the canonical program `A166486.P13501783531280266850` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166486 has offset 0).
+The programs for A166486, the canonical program `A166486.P13501783531280266850` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166486 has offset 0).
 
 The definition of A166486 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11009,7 +11567,7 @@ The definition of A166486 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(n/4)-floor(n/4)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166486
@@ -11334,7 +11892,7 @@ end A166494.P1512620136899121783
 /-!
 # A166495: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^12 = I.
 
-The programs for A166495, the canonical program `A166495.P17304137265060671937` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166495 has offset 0).
+The programs for A166495, the canonical program `A166495.P17304137265060671937` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166495 has offset 0).
 
 The definition of A166495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11343,7 +11901,7 @@ The definition of A166495 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-x^12-x^13)/(1-4x+9x^12-6x^13))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A166495
@@ -12053,28 +12611,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A166498.P15789587108358249194
-
-/-! ## A166498.P5147792151543809848
-
-`∪[A261713(n+1), n²]`
--/
-
-namespace A166498.P5147792151543809848
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261713 (n + 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = x) n
-
-end
-
-end A166498.P5147792151543809848
 
 /-! ## A166498.P8459360190703832370
 

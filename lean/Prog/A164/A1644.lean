@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -23,7 +22,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -35,6 +34,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
@@ -44,7 +44,9 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,22 +63,20 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C004
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +104,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A164400: Number of binary strings of length n with no substrings equal to 0001 or 1100.
 
-The programs for A164400, the canonical program `A164400.P17589728889325735112` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164400 has offset 0).
+The programs for A164400, the canonical program `A164400.P17589728889325735112` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164400 has offset 0).
 
 The definition of A164400 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -113,7 +113,7 @@ The definition of A164400 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x^5-x^6)/(1-2x+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164400
@@ -235,7 +235,7 @@ end A164400
 /-!
 # A164401: Number of binary strings of length n with no substrings equal to 0010 or 0101.
 
-The programs for A164401, the canonical program `A164401.P9074182780316539144` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164401 has offset 0).
+The programs for A164401, the canonical program `A164401.P9074182780316539144` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164401 has offset 0).
 
 The definition of A164401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -267,7 +267,7 @@ end A164401
 
 `2*a(n-1)-a(n-2)+a(n-3)+a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=14, a(5)=25`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164401
@@ -360,7 +360,7 @@ end A164401
 /-!
 # A164402: Number of binary strings of length n with no substrings equal to 0010 or 0110.
 
-The programs for A164402, the canonical program `A164402.P3635009239224654016` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164402 has offset 0).
+The programs for A164402, the canonical program `A164402.P3635009239224654016` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164402 has offset 0).
 
 The definition of A164402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -392,7 +392,7 @@ end A164402
 
 `2*a(n-1)-2*a(n-3)+2*a(n-4)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164402
@@ -485,7 +485,7 @@ end A164402
 /-!
 # A164403: Number of binary strings of length n with no substrings equal to 0010 or 1001.
 
-The programs for A164403, the canonical program `A164403.P11378959313934342286` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164403 has offset 4).
+The programs for A164403, the canonical program `A164403.P11378959313934342286` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164403 has offset 4).
 
 The definition of A164403 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -494,7 +494,7 @@ The definition of A164403 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((14-3x-5x^2+4x^3+8x^4)/(1-2x+x^3-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164403
@@ -558,7 +558,7 @@ end A164403
 /-!
 # A164404: Number of binary strings of length n with no substrings equal to 0010 or 1011.
 
-The programs for A164404, the canonical program `A164404.P6773825665800367998` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164404 has offset 4).
+The programs for A164404, the canonical program `A164404.P6773825665800367998` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164404 has offset 4).
 
 The definition of A164404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -567,7 +567,7 @@ The definition of A164404 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((14-4x-7x^2+16x^3)/(1-2x+2x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164404
@@ -677,7 +677,7 @@ end A164404
 /-!
 # A164405: Number of binary strings of length n with no substrings equal to 0010 or 1100.
 
-The programs for A164405, the canonical program `A164405.P13494739047571857953` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164405 has offset 0).
+The programs for A164405, the canonical program `A164405.P13494739047571857953` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164405 has offset 0).
 
 The definition of A164405 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -709,7 +709,7 @@ end A164405
 
 `2*a(n-1)-a(n-3)+a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=14, a(5)=24`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164405
@@ -776,7 +776,7 @@ end A164405
 /-!
 # A164406: Number of binary strings of length n with no substrings equal to 0011 or 0101.
 
-The programs for A164406, the canonical program `A164406.P9724344063056008445` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164406 has offset 0).
+The programs for A164406, the canonical program `A164406.P9724344063056008445` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164406 has offset 0).
 
 The definition of A164406 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -785,7 +785,7 @@ The definition of A164406 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2)/(1-2x+x^2-2x^3+2x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164406
@@ -1016,7 +1016,7 @@ end A164406
 /-!
 # A164407: Number of binary strings of length n with no substrings equal to 0000 0001 or 0010.
 
-The programs for A164407, the canonical program `A164407.P6583849532377495148` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164407 has offset 4).
+The programs for A164407, the canonical program `A164407.P6583849532377495148` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164407 has offset 4).
 
 The definition of A164407 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1025,7 +1025,7 @@ The definition of A164407 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+10x+4x^2+8x^3)/(1-x-x^2-x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164407
@@ -1181,7 +1181,7 @@ end A164407
 /-!
 # A164408: Number of binary strings of length n with no substrings equal to 0000 0001 or 0011.
 
-The programs for A164408, the canonical program `A164408.P10362682633183645367` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164408 has offset 0).
+The programs for A164408, the canonical program `A164408.P10362682633183645367` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164408 has offset 0).
 
 The definition of A164408 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1190,7 +1190,7 @@ The definition of A164408 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+x^3)/(1-x-x^2-x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164408
@@ -1378,7 +1378,7 @@ end A164408
 /-!
 # A164409: Number of binary strings of length n with no substrings equal to 0000 0001 or 0100.
 
-The programs for A164409, the canonical program `A164409.P9386467674251624076` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164409 has offset 4).
+The programs for A164409, the canonical program `A164409.P9386467674251624076` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164409 has offset 4).
 
 The definition of A164409 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1387,7 +1387,7 @@ The definition of A164409 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-4x+8x^2)/(1-2x+x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164409
@@ -1664,7 +1664,7 @@ end A164409
 /-!
 # A164410: Number of binary strings of length n with no substrings equal to 0000 0001 or 0101.
 
-The programs for A164410, the canonical program `A164410.P17742219393313290094` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164410 has offset 4).
+The programs for A164410, the canonical program `A164410.P17742219393313290094` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164410 has offset 4).
 
 The definition of A164410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1673,7 +1673,7 @@ The definition of A164410 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+16x^2)/(1-x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164410
@@ -1861,7 +1861,7 @@ end A164410
 /-!
 # A164411: Number of binary strings of length n with no substrings equal to 0000, 0001, or 0110.
 
-The programs for A164411, the canonical program `A164411.P4606939906619254259` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164411 has offset 0).
+The programs for A164411, the canonical program `A164411.P4606939906619254259` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164411 has offset 0).
 
 The definition of A164411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1870,7 +1870,7 @@ The definition of A164411 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3+x^4)/(1-x-x^2-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164411
@@ -1980,7 +1980,7 @@ end A164411
 /-!
 # A164412: Number of binary strings of length n with no substrings equal to 0000 0001 or 0111.
 
-The programs for A164412, the canonical program `A164412.P9028629250546101702` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164412 has offset 4).
+The programs for A164412, the canonical program `A164412.P9028629250546101702` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164412 has offset 4).
 
 The definition of A164412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1989,7 +1989,7 @@ The definition of A164412 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+2x^2-12x^3-8x^4)/(1-x-x^2-x^3+x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164412
@@ -2099,7 +2099,7 @@ end A164412
 /-!
 # A164413: Number of binary strings of length n with no substrings equal to 0000, 0001 or 1001.
 
-The programs for A164413, the canonical program `A164413.P9155242093717820697` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164413 has offset 0).
+The programs for A164413, the canonical program `A164413.P9155242093717820697` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164413 has offset 0).
 
 The definition of A164413 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2131,7 +2131,7 @@ end A164413
 
 `a(n-1)+a(n-2)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13, a(5)=22, a(6)=36`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164413
@@ -2287,7 +2287,7 @@ end A164413
 /-!
 # A164414: Number of binary strings of length n with no substrings equal to 0000, 0001, or 1010.
 
-The programs for A164414, the canonical program `A164414.P16801501112284168521` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164414 has offset 0).
+The programs for A164414, the canonical program `A164414.P16801501112284168521` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164414 has offset 0).
 
 The definition of A164414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2296,7 +2296,7 @@ The definition of A164414 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2+2x^3+x^4+x^5-x^6)/(1-x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164414
@@ -2409,7 +2409,7 @@ end A164414
 /-!
 # A164415: Number of binary strings of length n with no substrings equal to 0000, 0001, or 1100.
 
-The programs for A164415, the canonical program `A164415.P15364172490454912219` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164415 has offset 0).
+The programs for A164415, the canonical program `A164415.P15364172490454912219` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164415 has offset 0).
 
 The definition of A164415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2418,7 +2418,7 @@ The definition of A164415 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+x^3-x^5-x^6)/(1-x-x^2-x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164415
@@ -2528,7 +2528,7 @@ end A164415
 /-!
 # A164416: Number of binary strings of length n with no substrings equal to 0000 0001 or 1111.
 
-The programs for A164416, the canonical program `A164416.P16492415613445680408` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164416 has offset 4).
+The programs for A164416, the canonical program `A164416.P16492415613445680408` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164416 has offset 4).
 
 The definition of A164416 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2537,7 +2537,7 @@ The definition of A164416 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+23x+27x^2+20x^3+8x^4)/(1-x^2-2x^3-2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164416
@@ -2652,7 +2652,7 @@ end A164417.P11995986803888327017
 /-!
 # A164418: Number of binary strings of length n with no substrings equal to 0000 0010 or 0101.
 
-The programs for A164418, the canonical program `A164418.P6636798516373322320` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164418 has offset 4).
+The programs for A164418, the canonical program `A164418.P6636798516373322320` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164418 has offset 4).
 
 The definition of A164418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2661,7 +2661,7 @@ The definition of A164418 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+16x^2+15x^3+14x^4+12x^5+8x^6)/(1-x-x^3-x^4-x^5-x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164418
@@ -2748,7 +2748,7 @@ end A164418
 /-!
 # A164419: Number of binary strings of length n with no substrings equal to 0000, 0010, or 0110.
 
-The programs for A164419, the canonical program `A164419.P9270243983601456507` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164419 has offset 0).
+The programs for A164419, the canonical program `A164419.P9270243983601456507` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164419 has offset 0).
 
 The definition of A164419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2757,7 +2757,7 @@ The definition of A164419 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+3x^3+2x^4+x^5)/(1-x-x^2+x^3-x^4-x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164419
@@ -2879,7 +2879,7 @@ end A164419
 /-!
 # A164420: Number of binary strings of length n with no substrings equal to 0000, 0010, or 0111.
 
-The programs for A164420, the canonical program `A164420.P5083329203442261010` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164420 has offset 0).
+The programs for A164420, the canonical program `A164420.P5083329203442261010` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164420 has offset 0).
 
 The definition of A164420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2888,7 +2888,7 @@ The definition of A164420 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3+x^4)/(1-x-x^2+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164420
@@ -3004,7 +3004,7 @@ end A164420
 /-!
 # A164421: Number of binary strings of length n with no substrings equal to 0000 0010 or 1001.
 
-The programs for A164421, the canonical program `A164421.P18066691477411697098` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164421 has offset 4).
+The programs for A164421, the canonical program `A164421.P18066691477411697098` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164421 has offset 4).
 
 The definition of A164421 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3013,7 +3013,7 @@ The definition of A164421 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+3x^2+5x^3+8x^4)/(1-x-x^2-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164421
@@ -3132,7 +3132,7 @@ end A164421
 /-!
 # A164422: Number of binary strings of length n with no substrings equal to 0000 0010 or 1010.
 
-The programs for A164422, the canonical program `A164422.P4801676896176507129` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164422 has offset 4).
+The programs for A164422, the canonical program `A164422.P4801676896176507129` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164422 has offset 4).
 
 The definition of A164422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3141,7 +3141,7 @@ The definition of A164422 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+14x^2+12x^3+8x^4)/(1-x-x^3-x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164422
@@ -3185,7 +3185,7 @@ end A164422
 /-!
 # A164423: Number of binary strings of length n with no substrings equal to 0000 0010 or 1100.
 
-The programs for A164423, the canonical program `A164423.P15346722781020574515` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164423 has offset 4).
+The programs for A164423, the canonical program `A164423.P15346722781020574515` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164423 has offset 4).
 
 The definition of A164423 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3194,7 +3194,7 @@ The definition of A164423 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+x^2+3x^3+6x^4+12x^5+8x^6)/(1-x-x^2-x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164423
@@ -3235,7 +3235,7 @@ end A164423
 /-!
 # A164424: Number of binary strings of length n with no substrings equal to 0000 0010 or 1101.
 
-The programs for A164424, the canonical program `A164424.P4462755335717508551` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164424 has offset 4).
+The programs for A164424, the canonical program `A164424.P4462755335717508551` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164424 has offset 4).
 
 The definition of A164424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3244,7 +3244,7 @@ The definition of A164424 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+4x^2+6x^3-4x^4-8x^5)/(1-2x+x^2-x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164424
@@ -3334,7 +3334,7 @@ end A164424
 /-!
 # A164425: Number of binary strings of length n with no substrings equal to 0000 0010 or 1111.
 
-The programs for A164425, the canonical program `A164425.P1368021740870985755` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164425 has offset 4).
+The programs for A164425, the canonical program `A164425.P1368021740870985755` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164425 has offset 4).
 
 The definition of A164425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3343,7 +3343,7 @@ The definition of A164425 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+15x^2+12x^3+8x^4)/(1-x-x^3-x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164425
@@ -3407,7 +3407,7 @@ end A164425
 /-!
 # A164426: Number of binary strings of length n with no substrings equal to 0000 0011 or 0101.
 
-The programs for A164426, the canonical program `A164426.P11073829202015276493` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164426 has offset 4).
+The programs for A164426, the canonical program `A164426.P11073829202015276493` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164426 has offset 4).
 
 The definition of A164426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3439,7 +3439,7 @@ end A164426
 
 `a(n-1)+2*a(n-3)-a(n-5)-a(n-6)-a(n-7)` with `a(0)=13, a(1)=21, a(2)=34, a(3)=53, a(4)=81, a(5)=124, a(6)=188`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164426
@@ -3480,7 +3480,7 @@ end A164426
 /-!
 # A164427: Number of binary strings of length n with no substrings equal to 0000 0011 or 0110.
 
-The programs for A164427, the canonical program `A164427.P5379352325120477163` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164427 has offset 4).
+The programs for A164427, the canonical program `A164427.P5379352325120477163` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164427 has offset 4).
 
 The definition of A164427 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3489,7 +3489,7 @@ The definition of A164427 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+2x^2+4x^3-8x^4)/(1-x-x^2-x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164427
@@ -3559,7 +3559,7 @@ end A164427
 /-!
 # A164428: Number of binary strings of length n with no substrings equal to 0000, 0011, or 1001.
 
-The programs for A164428, the canonical program `A164428.P10554036992614650271` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164428 has offset 0).
+The programs for A164428, the canonical program `A164428.P10554036992614650271` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164428 has offset 0).
 
 The definition of A164428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3568,7 +3568,7 @@ The definition of A164428 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3-x^7)/(1-x-x^2-x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164428
@@ -3681,7 +3681,7 @@ end A164428
 /-!
 # A164429: Number of binary strings of length n with no substrings equal to 0000, 0011, or 1011.
 
-The programs for A164429, the canonical program `A164429.P13915276554889762475` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164429 has offset 0).
+The programs for A164429, the canonical program `A164429.P13915276554889762475` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164429 has offset 0).
 
 The definition of A164429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3713,7 +3713,7 @@ end A164429
 
 `a(n-1)+a(n-3)+4` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164429
@@ -3923,7 +3923,7 @@ end A164429
 /-!
 # A164430: Number of binary strings of length n with no substrings equal to 0000 0011 or 1100.
 
-The programs for A164430, the canonical program `A164430.P7351154974765904415` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164430 has offset 4).
+The programs for A164430, the canonical program `A164430.P7351154974765904415` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164430 has offset 4).
 
 The definition of A164430 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3932,7 +3932,7 @@ The definition of A164430 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+2x^2-8x^3-14x^4-12x^5-8x^6)/(1-x-x^2-x^3+x^5+x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164430
@@ -3973,7 +3973,7 @@ end A164430
 /-!
 # A164431: Number of binary strings of length n with no substrings equal to 0000, 0011 or 1101.
 
-The programs for A164431, the canonical program `A164431.P5162592454069432442` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164431 has offset 0).
+The programs for A164431, the canonical program `A164431.P5162592454069432442` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164431 has offset 0).
 
 The definition of A164431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3982,7 +3982,7 @@ The definition of A164431 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2+x^3+x^5)/(1-2x+x^2-x^3+x^4-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164431
@@ -4092,7 +4092,7 @@ end A164431
 /-!
 # A164432: Number of binary strings of length n with no substrings equal to 0000 0101 or 0110.
 
-The programs for A164432, the canonical program `A164432.P5470583252269508333` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164432 has offset 4).
+The programs for A164432, the canonical program `A164432.P5470583252269508333` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164432 has offset 4).
 
 The definition of A164432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4101,7 +4101,7 @@ The definition of A164432 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+13x^2+10x^3+4x^4+8x^5)/(1-x-x^3-x^4-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164432
@@ -4165,7 +4165,7 @@ end A164432
 /-!
 # A164433: Number of binary strings of length n with no substrings equal to 0000 0101 or 0111.
 
-The programs for A164433, the canonical program `A164433.P10977610598766326005` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164433 has offset 4).
+The programs for A164433, the canonical program `A164433.P10977610598766326005` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164433 has offset 4).
 
 The definition of A164433 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4174,7 +4174,7 @@ The definition of A164433 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+13x^2-6x^3-12x^4-8x^5)/(1-x-2x^3+x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164433
@@ -4215,7 +4215,7 @@ end A164433
 /-!
 # A164434: Number of binary strings of length n with no substrings equal to 0000 0101 or 1010.
 
-The programs for A164434, the canonical program `A164434.P10380527050027693516` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164434 has offset 4).
+The programs for A164434, the canonical program `A164434.P10380527050027693516` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164434 has offset 4).
 
 The definition of A164434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4247,7 +4247,7 @@ end A164434
 
 `a(n-1)+2*a(n-3)+a(n-4)-a(n-6)-a(n-7)` with `a(0)=13, a(1)=23, a(2)=40, a(3)=70, a(4)=122, a(5)=213, a(6)=372`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164434
@@ -4317,7 +4317,7 @@ end A164434
 /-!
 # A164435: Number of binary strings of length n with no substrings equal to 0000 0101 or 1011.
 
-The programs for A164435, the canonical program `A164435.P8614676294007498674` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164435 has offset 4).
+The programs for A164435, the canonical program `A164435.P8614676294007498674` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164435 has offset 4).
 
 The definition of A164435 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4326,7 +4326,7 @@ The definition of A164435 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+15x^2+12x^3+7x^4+12x^5+8x^6)/(1-x-x^3-x^4-x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164435
@@ -4390,7 +4390,7 @@ end A164435
 /-!
 # A164436: Number of binary strings of length n with no substrings equal to 0000 0101 or 1110.
 
-The programs for A164436, the canonical program `A164436.P11836264847990076348` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164436 has offset 4).
+The programs for A164436, the canonical program `A164436.P11836264847990076348` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164436 has offset 4).
 
 The definition of A164436 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4399,7 +4399,7 @@ The definition of A164436 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+12x^2-7x^3-13x^4-8x^5)/(1-x-2x^3+x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164436
@@ -4466,7 +4466,7 @@ end A164436
 /-!
 # A164437: Number of binary strings of length n with no substrings equal to 0000, 0101, or 1111.
 
-The programs for A164437, the canonical program `A164437.P10901553434260267919` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164437 has offset 0).
+The programs for A164437, the canonical program `A164437.P10901553434260267919` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164437 has offset 0).
 
 The definition of A164437 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4475,7 +4475,7 @@ The definition of A164437 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+4x^2+6x^3+6x^4+6x^5+4x^6+2x^7+x^8)/(1-2x^3-3x^4-2x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164437
@@ -4605,7 +4605,7 @@ end A164437
 /-!
 # A164438: Number of binary strings of length n with no substrings equal to 0000 0110 or 0111.
 
-The programs for A164438, the canonical program `A164438.P11556131656220062559` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164438 has offset 4).
+The programs for A164438, the canonical program `A164438.P11556131656220062559` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164438 has offset 4).
 
 The definition of A164438 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4614,7 +4614,7 @@ The definition of A164438 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x-2x^2-4x^3-8x^4)/(1-x-x^2+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164438
@@ -4753,7 +4753,7 @@ end A164438
 /-!
 # A164439: Number of binary strings of length n with no substrings equal to 0000 0110 or 1001.
 
-The programs for A164439, the canonical program `A164439.P6401523715684320119` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164439 has offset 4).
+The programs for A164439, the canonical program `A164439.P6401523715684320119` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164439 has offset 4).
 
 The definition of A164439 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4762,7 +4762,7 @@ The definition of A164439 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x+14x^3-3x^4+8x^5)/(1-x-x^2+x^3-2x^4+x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164439
@@ -4826,7 +4826,7 @@ end A164439
 /-!
 # A164440: Number of binary strings of length n with no substrings equal to 0000 0110 or 1011.
 
-The programs for A164440, the canonical program `A164440.P1856277761140627068` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164440 has offset 4).
+The programs for A164440, the canonical program `A164440.P1856277761140627068` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164440 has offset 4).
 
 The definition of A164440 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4858,7 +4858,7 @@ end A164440
 
 `2*a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)` with `a(0)=13, a(1)=22, a(2)=37, a(3)=62, a(4)=104`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164440
@@ -4945,7 +4945,7 @@ end A164440
 /-!
 # A164441: Number of binary strings of length n with no substrings equal to 0000, 0110, or 1111.
 
-The programs for A164441, the canonical program `A164441.P309007213704091010` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164441 has offset 0).
+The programs for A164441, the canonical program `A164441.P309007213704091010` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164441 has offset 0).
 
 The definition of A164441 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4954,7 +4954,7 @@ The definition of A164441 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+3x^2+5x^3+5x^4+5x^5+4x^6+2x^7+x^8)/(1-x^2-x^3-2x^4-x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164441
@@ -5070,7 +5070,7 @@ end A164441
 /-!
 # A164442: Number of binary strings of length n with no substrings equal to 0000 0111 or 1001.
 
-The programs for A164442, the canonical program `A164442.P4416421021040526825` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164442 has offset 4).
+The programs for A164442, the canonical program `A164442.P4416421021040526825` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164442 has offset 4).
 
 The definition of A164442 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5079,7 +5079,7 @@ The definition of A164442 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x-x^2-3x^3-5x^4-8x^5)/(1-x-x^2+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164442
@@ -5189,7 +5189,7 @@ end A164442
 /-!
 # A164443: Number of binary strings of length n with no substrings equal to 0000, 0111 or 1110.
 
-The programs for A164443, the canonical program `A164443.P8207089754481361288` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164443 has offset 0).
+The programs for A164443, the canonical program `A164443.P8207089754481361288` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164443 has offset 0).
 
 The definition of A164443 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5198,7 +5198,7 @@ The definition of A164443 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+x^3-x^4-2x^5-3x^6-2x^7-x^8)/(1-x-x^2-x^3+x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164443
@@ -5308,7 +5308,7 @@ end A164443
 /-!
 # A164444: Number of binary strings of length n with no substrings equal to 0000 1001 or 1011.
 
-The programs for A164444, the canonical program `A164444.P17521599906760075916` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164444 has offset 4).
+The programs for A164444, the canonical program `A164444.P17521599906760075916` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164444 has offset 4).
 
 The definition of A164444 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5317,7 +5317,7 @@ The definition of A164444 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x-2x^2+8x^3)/(1-x-x^2+x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164444
@@ -5358,7 +5358,7 @@ end A164444
 /-!
 # A164445: Number of binary strings of length n with no substrings equal to 0001 0010 or 0100.
 
-The programs for A164445, the canonical program `A164445.P8405493169813149914` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164445 has offset 4).
+The programs for A164445, the canonical program `A164445.P8405493169813149914` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164445 has offset 4).
 
 The definition of A164445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5367,7 +5367,7 @@ The definition of A164445 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+3x^2+6x^3-4x^4-8x^5)/(1-x-x^2-x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164445
@@ -5411,7 +5411,7 @@ end A164445
 /-!
 # A164446: Number of binary strings of length n with no substrings equal to 0001 0010 or 0101.
 
-The programs for A164446, the canonical program `A164446.P2139708238904513187` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164446 has offset 4).
+The programs for A164446, the canonical program `A164446.P2139708238904513187` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164446 has offset 4).
 
 The definition of A164446 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5420,7 +5420,7 @@ The definition of A164446 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-4x+6x^2-3x^3-6x^4+4x^5-8x^6)/(1-2x+x^2-x^3+x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164446
@@ -5461,7 +5461,7 @@ end A164446
 /-!
 # A164447: Number of binary strings of length n with no substrings equal to 0001 0010 or 0110.
 
-The programs for A164447, the canonical program `A164447.P10491228386454488481` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164447 has offset 4).
+The programs for A164447, the canonical program `A164447.P10491228386454488481` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164447 has offset 4).
 
 The definition of A164447 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5470,7 +5470,7 @@ The definition of A164447 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-9x^2+14x^3-4x^4-8x^5)/(1-2x+2x^3-2x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164447
@@ -5684,7 +5684,7 @@ end A164447
 /-!
 # A164448: Number of binary strings of length n with no substrings equal to 0001 0010 or 0111.
 
-The programs for A164448, the canonical program `A164448.P13986502339937278264` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164448 has offset 4).
+The programs for A164448, the canonical program `A164448.P13986502339937278264` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164448 has offset 4).
 
 The definition of A164448 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5693,7 +5693,7 @@ The definition of A164448 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-9x^2-2x^3-4x^4+8x^5)/(1-2x+x^3+x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164448
@@ -5896,7 +5896,7 @@ end A164448
 /-!
 # A164449: Number of binary strings of length n with no substrings equal to 0001 0010 or 1010.
 
-The programs for A164449, the canonical program `A164449.P925532381258203535` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164449 has offset 4).
+The programs for A164449, the canonical program `A164449.P925532381258203535` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164449 has offset 4).
 
 The definition of A164449 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5905,7 +5905,7 @@ The definition of A164449 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+5x^2-4x^3-8x^4)/(1-2x+x^2-x^3+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164449
@@ -6038,7 +6038,7 @@ end A164449
 /-!
 # A164450: Number of binary strings of length n with no substrings equal to 0001 0010 or 1011.
 
-The programs for A164450, the canonical program `A164450.P5731069385489707534` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164450 has offset 4).
+The programs for A164450, the canonical program `A164450.P5731069385489707534` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164450 has offset 4).
 
 The definition of A164450 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6047,7 +6047,7 @@ The definition of A164450 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-9x^2+11x^3-8x^4)/(1-2x+2x^3-2x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164450
@@ -6203,7 +6203,7 @@ end A164450
 /-!
 # A164451: Number of binary strings of length n with no substrings equal to 0001 0010 or 1100.
 
-The programs for A164451, the canonical program `A164451.P3599386254143969433` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164451 has offset 4).
+The programs for A164451, the canonical program `A164451.P3599386254143969433` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164451 has offset 4).
 
 The definition of A164451 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6212,7 +6212,7 @@ The definition of A164451 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-8x^2+x^3+2x^4+4x^5-8x^6)/(1-2x+x^3-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164451
@@ -6279,7 +6279,7 @@ end A164451
 /-!
 # A164452: Number of binary strings of length n with no substrings equal to 0001 0010 or 1101.
 
-The programs for A164452, the canonical program `A164452.P13424732826828689325` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164452 has offset 4).
+The programs for A164452, the canonical program `A164452.P13424732826828689325` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164452 has offset 4).
 
 The definition of A164452 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6288,7 +6288,7 @@ The definition of A164452 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-18x+8x^2+2x^3-12x^4+8x^5)/(1-3x+3x^2-x^3-x^4+2x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164452
@@ -6352,7 +6352,7 @@ end A164452
 /-!
 # A164453: Number of binary strings of length n with no substrings equal to 0001 0011 or 0100.
 
-The programs for A164453, the canonical program `A164453.P2939799733480647412` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164453 has offset 4).
+The programs for A164453, the canonical program `A164453.P2939799733480647412` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164453 has offset 4).
 
 The definition of A164453 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6361,7 +6361,7 @@ The definition of A164453 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+6x^2-4x^3+8x^4)/(1-2x+x^2-x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164453
@@ -6454,7 +6454,7 @@ end A164453
 /-!
 # A164454: Number of binary strings of length n with no substrings equal to 0001 0011 or 0101.
 
-The programs for A164454, the canonical program `A164454.P8464166604096083662` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164454 has offset 4).
+The programs for A164454, the canonical program `A164454.P8464166604096083662` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164454 has offset 4).
 
 The definition of A164454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6463,7 +6463,7 @@ The definition of A164454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+5x^2-21x^3+6x^4-4x^5+8x^6)/(1-2x+x^2-2x^3+3x^4-x^5+x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164454
@@ -6723,7 +6723,7 @@ end A164454
 /-!
 # A164455: Number of binary strings of length n with no substrings equal to 0001 0011 or 0111.
 
-The programs for A164455, the canonical program `A164455.P2203544670309041550` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164455 has offset 4).
+The programs for A164455, the canonical program `A164455.P2203544670309041550` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164455 has offset 4).
 
 The definition of A164455 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6732,7 +6732,7 @@ The definition of A164455 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-4x-8x^2-16x^3+16x^4)/(1-2x+3x^4-2x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164455
@@ -6773,7 +6773,7 @@ end A164455
 /-!
 # A164456: Number of binary strings of length n with no substrings equal to 0001 0011 or 1000.
 
-The programs for A164456, the canonical program `A164456.P968171715519126975` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164456 has offset 4).
+The programs for A164456, the canonical program `A164456.P968171715519126975` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164456 has offset 4).
 
 The definition of A164456 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6782,7 +6782,7 @@ The definition of A164456 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-4x-7x^2-11x^3+8x^4)/(1-2x+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164456
@@ -6973,7 +6973,7 @@ end A164456
 /-!
 # A164457: Number of binary strings of length n with no substrings equal to 0001, 0011, or 1010.
 
-The programs for A164457, the canonical program `A164457.P16346975365494415027` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164457 has offset 0).
+The programs for A164457, the canonical program `A164457.P16346975365494415027` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164457 has offset 0).
 
 The definition of A164457 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6982,7 +6982,7 @@ The definition of A164457 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2-2x^6+x^7)/(1-2x+x^2-2x^3+3x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164457
@@ -7242,7 +7242,7 @@ end A164457
 /-!
 # A164458: Number of binary strings of length n with no substrings equal to 0001 0011 or 1011.
 
-The programs for A164458, the canonical program `A164458.P7898566392889586050` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164458 has offset 4).
+The programs for A164458, the canonical program `A164458.P7898566392889586050` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164458 has offset 4).
 
 The definition of A164458 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7251,7 +7251,7 @@ The definition of A164458 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-10x^2-4x^3+8x^4)/(1-2x+x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164458
@@ -7436,7 +7436,7 @@ end A164458
 /-!
 # A164459: Number of binary strings of length n with no substrings equal to 0001 0011 or 1100.
 
-The programs for A164459, the canonical program `A164459.P4722357969111656273` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164459 has offset 4).
+The programs for A164459, the canonical program `A164459.P4722357969111656273` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164459 has offset 4).
 
 The definition of A164459 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7468,7 +7468,7 @@ end A164459
 
 `2*a(n-1)-2*a(n-4)+a(n-5)-a(n-6)+a(n-7)` with `a(0)=13, a(1)=21, a(2)=35, a(3)=58, a(4)=96, a(5)=159, a(6)=264`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164459
@@ -7532,7 +7532,7 @@ end A164459
 /-!
 # A164460: Number of binary strings of length n with no substrings equal to 0001 0011 or 1101.
 
-The programs for A164460, the canonical program `A164460.P12512390334361400115` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164460 has offset 4).
+The programs for A164460, the canonical program `A164460.P12512390334361400115` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164460 has offset 4).
 
 The definition of A164460 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7541,7 +7541,7 @@ The definition of A164460 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-9x^2-3x^3+10x^4+4x^5-8x^6)/(1-2x+x^3+x^4-x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164460
@@ -7605,7 +7605,7 @@ end A164460
 /-!
 # A164461: Number of binary strings of length n with no substrings equal to 0001 0011 or 1110.
 
-The programs for A164461, the canonical program `A164461.P11287365187759530614` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164461 has offset 4).
+The programs for A164461, the canonical program `A164461.P11287365187759530614` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164461 has offset 4).
 
 The definition of A164461 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7614,7 +7614,7 @@ The definition of A164461 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+8x-x^2-16x^3)/(1-x-x^2-x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164461
@@ -7710,7 +7710,7 @@ end A164461
 /-!
 # A164462: Number of binary strings of length n with no substrings equal to 0001 0100 or 0101.
 
-The programs for A164462, the canonical program `A164462.P18311663304449538185` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164462 has offset 4).
+The programs for A164462, the canonical program `A164462.P18311663304449538185` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164462 has offset 4).
 
 The definition of A164462 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7719,7 +7719,7 @@ The definition of A164462 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x+6x^2-4x^3-8x^4)/(1-2x+x^2-x^3+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164462
@@ -7913,7 +7913,7 @@ end A164462
 /-!
 # A164463: Number of binary strings of length n with no substrings equal to 0001 0100 or 0110.
 
-The programs for A164463, the canonical program `A164463.P7302855577284514675` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164463 has offset 4).
+The programs for A164463, the canonical program `A164463.P7302855577284514675` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164463 has offset 4).
 
 The definition of A164463 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7922,7 +7922,7 @@ The definition of A164463 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x+4x^2+8x^3)/(1-2x+x^2-x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164463
@@ -8093,7 +8093,7 @@ end A164463
 /-!
 # A164464: Number of binary strings of length n with no substrings equal to 0001, 0100, or 0111.
 
-The programs for A164464, the canonical program `A164464.P12226052964285216476` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164464 has offset 4).
+The programs for A164464, the canonical program `A164464.P12226052964285216476` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164464 has offset 4).
 
 The definition of A164464 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8125,7 +8125,7 @@ end A164464
 
 `a(n-1)+a(n-3)+3` with `a(0)=13, a(1)=20, a(2)=31`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164464
@@ -8411,7 +8411,7 @@ end A164464
 /-!
 # A164465: Number of binary strings of length n with no substrings equal to 0001 0100 or 1010.
 
-The programs for A164465, the canonical program `A164465.P7190166449619379243` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164465 has offset 4).
+The programs for A164465, the canonical program `A164465.P7190166449619379243` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164465 has offset 4).
 
 The definition of A164465 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8420,7 +8420,7 @@ The definition of A164465 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+6x^2-3x^3-5x^4+4x^5-8x^6)/(1-2x+x^2-x^3+x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164465
@@ -8461,7 +8461,7 @@ end A164465
 /-!
 # A164466: Number of binary strings of length n with no substrings equal to 0001, 0100, or 1011.
 
-The programs for A164466, the canonical program `A164466.P6924250854396519901` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164466 has offset 0).
+The programs for A164466, the canonical program `A164466.P6924250854396519901` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164466 has offset 0).
 
 The definition of A164466 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8470,7 +8470,7 @@ The definition of A164466 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2+2x^3+x^5+x^6)/(1-2x+x^2-x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164466
@@ -8693,7 +8693,7 @@ end A164466
 /-!
 # A164467: Number of binary strings of length n with no substrings equal to 0001 0100 or 1101.
 
-The programs for A164467, the canonical program `A164467.P16715183256081902244` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164467 has offset 4).
+The programs for A164467, the canonical program `A164467.P16715183256081902244` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164467 has offset 4).
 
 The definition of A164467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8702,7 +8702,7 @@ The definition of A164467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x-9x^2+12x^3-8x^4)/(1-2x+2x^3-2x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164467
@@ -8792,7 +8792,7 @@ end A164467
 /-!
 # A164468: Number of binary strings of length n with no substrings equal to 0001, 0100, or 1110.
 
-The programs for A164468, the canonical program `A164468.P17099430422981162265` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164468 has offset 4).
+The programs for A164468, the canonical program `A164468.P17099430422981162265` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164468 has offset 4).
 
 The definition of A164468 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8824,7 +8824,7 @@ end A164468
 
 `a(n-1)+a(n-3)+2` with `a(0)=13, a(1)=20, a(2)=30`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164468
@@ -9144,7 +9144,7 @@ end A164468
 /-!
 # A164469: Number of binary strings of length n with no substrings equal to 0001 0101 or 0110.
 
-The programs for A164469, the canonical program `A164469.P5604902319045448620` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164469 has offset 4).
+The programs for A164469, the canonical program `A164469.P5604902319045448620` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164469 has offset 4).
 
 The definition of A164469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9176,7 +9176,7 @@ end A164469
 
 `2*a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)-a(n-6)` with `a(0)=13, a(1)=20, a(2)=32, a(3)=51, a(4)=81, a(5)=128`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164469
@@ -9240,7 +9240,7 @@ end A164469
 /-!
 # A164470: Number of binary strings of length n with no substrings equal to 0001 0101 or 0111.
 
-The programs for A164470, the canonical program `A164470.P10338016320916664079` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164470 has offset 4).
+The programs for A164470, the canonical program `A164470.P10338016320916664079` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164470 has offset 4).
 
 The definition of A164470 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9249,7 +9249,7 @@ The definition of A164470 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x+5x^2-22x^3+4x^4+8x^5)/(1-2x+x^2-2x^3+3x^4-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164470
@@ -9290,7 +9290,7 @@ end A164470
 /-!
 # A164471: Number of binary strings of length n with no substrings equal to 0001 0101 or 1000.
 
-The programs for A164471, the canonical program `A164471.P7216192020936630209` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164471 has offset 4).
+The programs for A164471, the canonical program `A164471.P7216192020936630209` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164471 has offset 4).
 
 The definition of A164471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9299,7 +9299,7 @@ The definition of A164471 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+6x^2-16x^3)/(1-2x+x^2-2x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164471
@@ -9438,7 +9438,7 @@ end A164471
 /-!
 # A164472: Number of binary strings of length n with no substrings equal to 0001 0101 or 1010.
 
-The programs for A164472, the canonical program `A164472.P2133971473388946373` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164472 has offset 4).
+The programs for A164472, the canonical program `A164472.P2133971473388946373` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164472 has offset 4).
 
 The definition of A164472 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9447,7 +9447,7 @@ The definition of A164472 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+9x+15x^2-2x^3-4x^4-8x^5)/(1-x-2x^3+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164472
@@ -9488,7 +9488,7 @@ end A164472
 /-!
 # A164473: Number of binary strings of length n with no substrings equal to 0001 0101 or 1011.
 
-The programs for A164473, the canonical program `A164473.P15438211634996421805` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164473 has offset 4).
+The programs for A164473, the canonical program `A164473.P15438211634996421805` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164473 has offset 4).
 
 The definition of A164473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9497,7 +9497,7 @@ The definition of A164473 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+5x^2-7x^3+2x^4+4x^5-8x^6)/(1-2x+x^2-x^3+x^4-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164473
@@ -9561,7 +9561,7 @@ end A164473
 /-!
 # A164474: Number of binary strings of length n with no substrings equal to 0001 0101 or 1100.
 
-The programs for A164474, the canonical program `A164474.P845654595523885375` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164474 has offset 4).
+The programs for A164474, the canonical program `A164474.P845654595523885375` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164474 has offset 4).
 
 The definition of A164474 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9570,7 +9570,7 @@ The definition of A164474 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x+4x^2-20x^3+8x^4)/(1-2x+x^2-2x^3+3x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164474
@@ -9657,7 +9657,7 @@ end A164474
 /-!
 # A164475: Number of binary strings of length n with no substrings equal to 0001 0101 or 1110.
 
-The programs for A164475, the canonical program `A164475.P17646786074635769641` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164475 has offset 4).
+The programs for A164475, the canonical program `A164475.P17646786074635769641` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164475 has offset 4).
 
 The definition of A164475 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9666,7 +9666,7 @@ The definition of A164475 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+7x+10x^2-12x^3-8x^4)/(1-x-2x^3+x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164475
@@ -9730,7 +9730,7 @@ end A164475
 /-!
 # A164476: Number of binary strings of length n with no substrings equal to 0001, 0110, or 0111.
 
-The programs for A164476, the canonical program `A164476.P10167830512731810611` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164476 has offset 0).
+The programs for A164476, the canonical program `A164476.P10167830512731810611` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164476 has offset 0).
 
 The definition of A164476 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9739,7 +9739,7 @@ The definition of A164476 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^3-x^5)/(1-2x+x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164476
@@ -9939,7 +9939,7 @@ end A164476
 /-!
 # A164477: Number of binary strings of length n with no substrings equal to 0001 0110 or 1000.
 
-The programs for A164477, the canonical program `A164477.P10418596633984336571` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164477 has offset 4).
+The programs for A164477, the canonical program `A164477.P10418596633984336571` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164477 has offset 4).
 
 The definition of A164477 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9971,7 +9971,7 @@ end A164477
 
 `2*a(n-1)-a(n-3)+a(n-5)-a(n-6)` with `a(0)=13, a(1)=21, a(2)=35, a(3)=59, a(4)=100, a(5)=170`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164477
@@ -10087,7 +10087,7 @@ end A164477
 /-!
 # A164478: Number of binary strings of length n with no substrings equal to 0001 0110 or 1010.
 
-The programs for A164478, the canonical program `A164478.P448157652148831822` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164478 has offset 4).
+The programs for A164478, the canonical program `A164478.P448157652148831822` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164478 has offset 4).
 
 The definition of A164478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10096,7 +10096,7 @@ The definition of A164478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x+4x^2-6x^3+4x^4-8x^5)/(1-2x+x^2-x^3+x^4-x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164478
@@ -10183,7 +10183,7 @@ end A164478
 /-!
 # A164479: Number of binary strings of length n with no substrings equal to 0001 0110 or 1011.
 
-The programs for A164479, the canonical program `A164479.P14383323820158384934` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164479 has offset 4).
+The programs for A164479, the canonical program `A164479.P14383323820158384934` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164479 has offset 4).
 
 The definition of A164479 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10192,7 +10192,7 @@ The definition of A164479 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-8x^2-x^3+11x^4-8x^5)/(1-2x+x^3+x^4-2x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164479
@@ -10256,7 +10256,7 @@ end A164479
 /-!
 # A164480: Number of binary strings of length n with no substrings equal to 0001, 0110 or 1100.
 
-The programs for A164480, the canonical program `A164480.P1765826876704746153` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164480 has offset 0).
+The programs for A164480, the canonical program `A164480.P1765826876704746153` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164480 has offset 0).
 
 The definition of A164480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10288,7 +10288,7 @@ end A164480
 
 `2*a(n-1)-a(n-3)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13, a(5)=21, a(6)=34, a(7)=55, a(8)=88`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164480
@@ -10378,7 +10378,7 @@ end A164480
 /-!
 # A164481: Number of binary strings of length n with no substrings equal to 0001 0110 or 1101.
 
-The programs for A164481, the canonical program `A164481.P17060668803672350956` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164481 has offset 4).
+The programs for A164481, the canonical program `A164481.P17060668803672350956` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164481 has offset 4).
 
 The definition of A164481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10410,7 +10410,7 @@ end A164481
 
 `2*a(n-1)-a(n-3)-a(n-4)+2*a(n-5)-a(n-6)` with `a(0)=13, a(1)=21, a(2)=34, a(3)=53, a(4)=84, a(5)=131`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164481
@@ -10474,7 +10474,7 @@ end A164481
 /-!
 # A164482: Number of binary strings of length n with no substrings equal to 0001, 0110, or 1110.
 
-The programs for A164482, the canonical program `A164482.P5879313098539383352` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164482 has offset 0).
+The programs for A164482, the canonical program `A164482.P5879313098539383352` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164482 has offset 0).
 
 The definition of A164482 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10483,7 +10483,7 @@ The definition of A164482 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3+2x^4+x^5)/(1-x-x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164482
@@ -10793,7 +10793,7 @@ end A164482
 /-!
 # A164483: Number of binary strings of length n with no substrings equal to 0001 0111 or 1010.
 
-The programs for A164483, the canonical program `A164483.P4916964034134601224` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164483 has offset 4).
+The programs for A164483, the canonical program `A164483.P4916964034134601224` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164483 has offset 4).
 
 The definition of A164483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10825,7 +10825,7 @@ end A164483
 
 `2*a(n-1)-a(n-2)+2*a(n-3)-3*a(n-4)+a(n-6)` with `a(0)=13, a(1)=20, a(2)=30, a(3)=44, a(4)=64, a(5)=92`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164483
@@ -10866,7 +10866,7 @@ end A164483
 /-!
 # A164484: Number of binary strings of length n with no substrings equal to 0001 0111 or 1100.
 
-The programs for A164484, the canonical program `A164484.P4988101665108253058` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164484 has offset 4).
+The programs for A164484, the canonical program `A164484.P4988101665108253058` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164484 has offset 4).
 
 The definition of A164484 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10875,7 +10875,7 @@ The definition of A164484 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x-9x^2-14x^3+17x^4)/(1-2x+3x^4-2x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164484
@@ -10985,7 +10985,7 @@ end A164484
 /-!
 # A164485: Number of binary strings of length n with no substrings equal to 0001, 1000 or 1001.
 
-The programs for A164485, the canonical program `A164485.P12227170851971904139` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164485 has offset 4).
+The programs for A164485, the canonical program `A164485.P12227170851971904139` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164485 has offset 4).
 
 The definition of A164485 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11040,7 +11040,7 @@ end A164485
 
 `2*a(n-1)-a(n-3)` with `a(0)=13, a(1)=21, a(2)=33`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164485
@@ -11449,7 +11449,7 @@ end A164485
 /-!
 # A164487: Number of binary strings of length n with no substrings equal to 0001, 1010, or 1100.
 
-The programs for A164487, the canonical program `A164487.P3092606981207047791` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164487 has offset 0).
+The programs for A164487, the canonical program `A164487.P3092606981207047791` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164487 has offset 0).
 
 The definition of A164487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11458,7 +11458,7 @@ The definition of A164487 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x+x^2-x^4-x^6)/(1-3x+3x^2-2x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164487
@@ -11658,7 +11658,7 @@ end A164487
 /-!
 # A164488: Number of binary strings of length n with no substrings equal to 0001 1010 or 1101.
 
-The programs for A164488, the canonical program `A164488.P5314830565154780343` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164488 has offset 4).
+The programs for A164488, the canonical program `A164488.P5314830565154780343` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164488 has offset 4).
 
 The definition of A164488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11667,7 +11667,7 @@ The definition of A164488 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+4x^2-6x^3+2x^4+4x^5-8x^6)/(1-2x+x^2-x^3+x^4-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164488
@@ -11731,7 +11731,7 @@ end A164488
 /-!
 # A164489: Number of binary strings of length n with no substrings equal to 0001 1011 or 1100.
 
-The programs for A164489, the canonical program `A164489.P3012511915913014791` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164489 has offset 4).
+The programs for A164489, the canonical program `A164489.P3012511915913014791` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164489 has offset 4).
 
 The definition of A164489 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11740,7 +11740,7 @@ The definition of A164489 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-6x-10x^2-2x^3+11x^4+4x^5-8x^6)/(1-2x+x^3+x^4-x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164489
@@ -11830,7 +11830,7 @@ end A164489
 /-!
 # A164490: Number of binary strings of length n with no substrings equal to 0010 0011 or 0110.
 
-The programs for A164490, the canonical program `A164490.P5736606995312955222` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164490 has offset 4).
+The programs for A164490, the canonical program `A164490.P5736606995312955222` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164490 has offset 4).
 
 The definition of A164490 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11839,7 +11839,7 @@ The definition of A164490 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-10x^2+12x^3-8x^4)/(1-2x+2x^3-2x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164490
@@ -11903,7 +11903,7 @@ end A164490
 /-!
 # A164491: Number of binary strings of length n with no substrings equal to 0010 0100 or 1001.
 
-The programs for A164491, the canonical program `A164491.P11328479357986098957` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164491 has offset 4).
+The programs for A164491, the canonical program `A164491.P11328479357986098957` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164491 has offset 4).
 
 The definition of A164491 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11912,7 +11912,7 @@ The definition of A164491 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13+10x+4x^2+7x^3+12x^4+8x^5)/(1-x-x^2-x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164491
@@ -12008,7 +12008,7 @@ end A164491
 /-!
 # A164492: Number of binary strings of length n with no substrings equal to 0010 0101 or 0110.
 
-The programs for A164492, the canonical program `A164492.P338345279015077758` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164492 has offset 4).
+The programs for A164492, the canonical program `A164492.P338345279015077758` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164492 has offset 4).
 
 The definition of A164492 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12017,7 +12017,7 @@ The definition of A164492 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x+5x^2+9x^3+2x^4+4x^5+8x^6)/(1-2x+x^2-x^4-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164492
@@ -12081,7 +12081,7 @@ end A164492
 /-!
 # A164493: Number of binary strings of length n with no substrings equal to 0010 0101 or 1001.
 
-The programs for A164493, the canonical program `A164493.P12813415359424652732` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164493 has offset 4).
+The programs for A164493, the canonical program `A164493.P12813415359424652732` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164493 has offset 4).
 
 The definition of A164493 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12090,7 +12090,7 @@ The definition of A164493 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-4x+7x^2-2x^3+10x^4+4x^5+8x^6)/(1-2x+x^2-x^3+x^4-x^5-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164493
@@ -12154,7 +12154,7 @@ end A164493
 /-!
 # A164494: Number of binary strings of length n with no substrings equal to 0010 0101 or 1010.
 
-The programs for A164494, the canonical program `A164494.P17393898788326072999` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164494 has offset 4).
+The programs for A164494, the canonical program `A164494.P17393898788326072999` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164494 has offset 4).
 
 The definition of A164494 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12163,7 +12163,7 @@ The definition of A164494 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-3x+7x^2)/(1-2x+x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164494
@@ -12627,7 +12627,7 @@ end A164494
 /-!
 # A164495: Number of binary strings of length n with no substrings equal to 0010 0101 or 1011.
 
-The programs for A164495, the canonical program `A164495.P15928502323414917915` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164495 has offset 4).
+The programs for A164495, the canonical program `A164495.P15928502323414917915` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164495 has offset 4).
 
 The definition of A164495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12659,7 +12659,7 @@ end A164495
 
 `2*a(n-1)-a(n-2)+a(n-4)+a(n-6)` with `a(0)=13, a(1)=22, a(2)=37, a(3)=62, a(4)=105, a(5)=178`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164495
@@ -12729,7 +12729,7 @@ end A164495
 /-!
 # A164496: Number of binary strings of length n with no substrings equal to 0010 0110 or 1001.
 
-The programs for A164496, the canonical program `A164496.P1111571064567968918` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164496 has offset 4).
+The programs for A164496, the canonical program `A164496.P1111571064567968918` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164496 has offset 4).
 
 The definition of A164496 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12738,7 +12738,7 @@ The definition of A164496 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-7x^2+14x^3-4x^4+8x^5)/(1-2x+2x^3-2x^4+x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164496
@@ -12825,7 +12825,7 @@ end A164496
 /-!
 # A164497: Number of binary strings of length n with no substrings equal to 0010 0110 or 1011.
 
-The programs for A164497, the canonical program `A164497.P14116661018336961114` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164497 has offset 4).
+The programs for A164497, the canonical program `A164497.P14116661018336961114` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164497 has offset 4).
 
 The definition of A164497 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12834,7 +12834,7 @@ The definition of A164497 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-5x-8x^2+12x^3+8x^4)/(1-2x+2x^3-x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164497
@@ -12949,7 +12949,7 @@ end A164498.P15332045228725183962
 /-!
 # A164499: Number of binary strings of length n with no substrings equal to 0010 0110 or 1101.
 
-The programs for A164499, the canonical program `A164499.P5490548145911945850` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164499 has offset 4).
+The programs for A164499, the canonical program `A164499.P5490548145911945850` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164499 has offset 4).
 
 The definition of A164499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12958,7 +12958,7 @@ The definition of A164499 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((13-18x+9x^2+2x^3+4x^4-8x^5)/(1-3x+3x^2-x^3-x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A164499

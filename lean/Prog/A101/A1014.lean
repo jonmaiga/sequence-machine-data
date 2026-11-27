@@ -26,8 +26,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -42,10 +41,13 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,6 +68,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -79,14 +82,13 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -110,7 +112,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1474,102 +1475,6 @@ theorem P5750135604737806173.correct : P5750135604737806173.Spec := by
   simp only [A101407]
 
 end A101407
-
-/-!
-# A101408: Primes p such that p+1000 or p-1000 are also primes.
-
-The programs for A101408, there is no canonical definition to state claims against.
--/
-
-/-! ## A101408.P2316272287476387606
-
-`p?[A000040(n+1)-1000]`
--/
-
-namespace A101408.P2316272287476387606
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1) - 1000
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101408.P2316272287476387606
-
-/-! ## A101408.P7297402526941035529
-
-`p?[A004139(n+1)-1000]`
--/
-
-namespace A101408.P7297402526941035529
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004139 (n + 1) - 1000
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101408.P7297402526941035529
-
-/-! ## A101408.P14365244966302390767
-
-`p?[A008578(n+1)-1000]`
--/
-
-namespace A101408.P14365244966302390767
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008578 (n + 1) - 1000
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101408.P14365244966302390767
-
-/-! ## A101408.P17597850261201181715
-
-`p?[A065091(n+1)-1000]`
--/
-
-namespace A101408.P17597850261201181715
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065091 (n + 1) - 1000
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101408.P17597850261201181715
-
-/-! ## A101408.P2883757614123412317
-
-`p?[A193339(n+1)-1000]`
--/
-
-namespace A101408.P2883757614123412317
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193339 (n + 1) - 1000
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101408.P2883757614123412317
 
 /-!
 # A101410: Divisors of 100K, reversed.
@@ -4654,7 +4559,7 @@ end A101427
 /-!
 # A101428: Number of ways to write n as an ordered sum of a triangular number (A000217) and a square (A000290).
 
-The programs for A101428, the canonical program `A101428.P10351250407509594824` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101428 has offset 0).
+The programs for A101428, the canonical program `A101428.P10351250407509594824` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101428 has offset 0).
 
 The definition of A101428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4801,7 +4706,7 @@ end A101428
 
 `A216282(8*n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A101428
@@ -6031,21 +5936,6 @@ end A101438
 The programs for A101440, there is no canonical definition to state claims against.
 -/
 
-/-! ## A101440.P18056328604267786266
-
-`A184617(A054842(n))`
--/
-
-namespace A101440.P18056328604267786266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184617 (A054842 n).toNat
-
-end
-
-end A101440.P18056328604267786266
-
 /-! ## A101440.P8203602220308885564
 
 `A397768(A193409(n+1))`
@@ -7239,29 +7129,6 @@ namespace A101448
 /-- `A155722(1+n)-1` -/
 def P13685421695016031477.Spec : Prop :=
   ∀ n, P13685421695016031477.a n = A101448 (n + 1)
-
-end A101448
-
-/-! ## A101448.P16491899674408297903
-
-`-1+A155722(n+1)`
--/
-
-namespace A101448.P16491899674408297903
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A155722 (n + 1)
-
-end
-
-end A101448.P16491899674408297903
-
-namespace A101448
-
-/-- `-1+A155722(n+1)` -/
-def P16491899674408297903.Spec : Prop :=
-  ∀ n, P16491899674408297903.a n = A101448 (n + 1)
 
 end A101448
 
@@ -11654,21 +11521,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A101494.P14461784479860754321
-
-/-! ## A101494.P13508567800971854785
-
-`A124460(A061579(n+1))`
--/
-
-namespace A101494.P13508567800971854785
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124460 (A061579 (n + 1)).toNat
-
-end
-
-end A101494.P13508567800971854785
 
 /-! ## A101494.P2960226531647173638
 

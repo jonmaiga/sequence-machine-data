@@ -4,36 +4,39 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,8 +55,8 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -61,17 +64,18 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,6 +90,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -436,7 +441,7 @@ end A067511.P6684837493600864033
 /-!
 # A067513: Number of divisors d of n such that d+1 is prime.
 
-The programs for A067513, the canonical program `A067513.P3561303849225168493` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067513 has offset 1).
+The programs for A067513, the canonical program `A067513.P3561303849225168493` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067513 has offset 1).
 
 The definition of A067513 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027760, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -468,7 +473,7 @@ end A067513
 
 `A001221(A027760(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A067513
@@ -2524,7 +2529,7 @@ end A067533.P5937830540135537348
 /-!
 # A067534: a(n) = 4^n * Sum_{i=1..n} i^4/4^i.
 
-The programs for A067534, the canonical program `A067534.P17280178159656179340` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067534 has offset 1).
+The programs for A067534, the canonical program `A067534.P17280178159656179340` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067534 has offset 1).
 
 The definition of A067534 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2533,7 +2538,7 @@ The definition of A067534 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+(n+1)^4` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A067534
@@ -4449,7 +4454,7 @@ end A067549.P15734674799661750241
 /-!
 # A067550: a(n) = (n-1)!(n+2)!/(3*2^n).
 
-The programs for A067550, the canonical program `A067550.P2915293281010861943` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067550 has offset 1).
+The programs for A067550, the canonical program `A067550.P2915293281010861943` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067550 has offset 1).
 
 The definition of A067550 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4458,7 +4463,7 @@ The definition of A067550 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!*(n+3)!/(3*2^(n+1))`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A067550
@@ -5249,7 +5254,7 @@ end A067554.P6019419715670847936
 /-!
 # A067556: Terms in the decimal expansion of 1/(7*2^n) before the block of decimals 142857 (the period of 1/7) appears.
 
-The programs for A067556, the canonical program `A067556.P2130873490670003943` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067556 has offset 1).
+The programs for A067556, the canonical program `A067556.P2130873490670003943` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067556 has offset 1).
 
 The definition of A067556 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5258,7 +5263,7 @@ The definition of A067556 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/7*(5^(n+1)*10^((n+1)%6)-1)`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A067556
@@ -7228,21 +7233,6 @@ end
 
 end A067573.P6239551837190754113
 
-/-! ## A067573.P4918914043645450728
-
-`A103199(n+1)`
--/
-
-namespace A067573.P4918914043645450728
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103199 (n + 1)
-
-end
-
-end A067573.P4918914043645450728
-
 /-! ## A067573.P8487123572208124545
 
 `A126762(A372092(n+1))`
@@ -7418,27 +7408,6 @@ def P6219250909826945068.Spec : Prop :=
   ∀ n, P6219250909826945068.a n = A067574 (n + 1)
 
 end A067574
-
-/-!
-# A067575: Numbers k that divide phi(k)*bigomega(k).
-
-The programs for A067575, there is no canonical definition to state claims against.
--/
-
-/-! ## A067575.P14133635257450204404
-
-`A193022(n+1)`
--/
-
-namespace A067575.P14133635257450204404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193022 (n + 1)
-
-end
-
-end A067575.P14133635257450204404
 
 /-!
 # A067576: Array T(i,j) read by downward antidiagonals, where T(i,j) is the j-th term whose binary expansion has i 1's.
@@ -8289,21 +8258,6 @@ end
 
 end A067586.P7159644120784407301
 
-/-! ## A067586.P6095158523673253412
-
-`A080791(A066884(n+1)+0)`
--/
-
-namespace A067586.P6095158523673253412
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080791 (A066884 (n + 1) + 0).toNat
-
-end
-
-end A067586.P6095158523673253412
-
 /-!
 # A067587: Inverse of A066884 considered as a permutation of the positive integers.
 
@@ -8457,7 +8411,7 @@ end A067588.P9651751177394120177
 /-!
 # A067589: Numbers k such that A067588(k) is an odd number.
 
-The programs for A067589, the canonical program `A067589.P983407005055868196` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067589 has offset 1).
+The programs for A067589, the canonical program `A067589.P983407005055868196` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067589 has offset 1).
 
 The definition of A067589 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8492,7 +8446,7 @@ end A067589
 
 `C(or(2, n), 2)+n²+n`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A067589
@@ -9065,24 +9019,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A067592.P1277259035609974810
-
-/-! ## A067592.P7062243877871395746
-
-`∑[A029260(n)]`
--/
-
-namespace A067592.P7062243877871395746
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029260 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A067592.P7062243877871395746
 
 /-! ## A067592.P4822503248028384268
 

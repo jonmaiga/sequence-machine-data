@@ -2,28 +2,27 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C027
+import Seq.B000.C022
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C042
+import Seq.B000.C031
 import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -39,6 +38,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -48,9 +48,10 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C003
+import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B008.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,7 +76,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -917,21 +917,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010341.P7958492132211921865
-
-/-! ## A010341.P8244182579609664351
-
-`and(A002349(n+1), A006703(n+1))`
--/
-
-namespace A010341.P8244182579609664351
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A002349 (n + 1)) (A006703 (n + 1))
-
-end
-
-end A010341.P8244182579609664351
 
 /-! ## A010341.P15839843027057375680
 
@@ -3617,21 +3602,6 @@ end A010388.P3078463799954295722
 The programs for A010391, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010391.P261881764154544123
-
-`A010419(n+1)`
--/
-
-namespace A010391.P261881764154544123
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010419 (n + 1)
-
-end
-
-end A010391.P261881764154544123
-
 /-! ## A010391.P16481218702418298033
 
 `record[n*A011587(n)]`
@@ -3739,21 +3709,6 @@ end
 
 end A010392.P12736481735174616146
 
-/-! ## A010392.P13411827879272101975
-
-`A010423(n+1)`
--/
-
-namespace A010392.P13411827879272101975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010423 (n + 1)
-
-end
-
-end A010392.P13411827879272101975
-
 /-! ## A010392.P13334515212361860948
 
 `record[n*A011588(n)]`
@@ -3819,21 +3774,6 @@ end A010392.P15700154953277177770
 
 The programs for A010394, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010394.P14302081143225157658
-
-`A010427(n+1)`
--/
-
-namespace A010394.P14302081143225157658
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010427 (n + 1)
-
-end
-
-end A010394.P14302081143225157658
 
 /-! ## A010394.P8231202347863461885
 
@@ -3954,21 +3894,6 @@ end
 
 end A010395.P14776569303223129920
 
-/-! ## A010395.P16440726599111180508
-
-`A136805(n+1)`
--/
-
-namespace A010395.P16440726599111180508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136805 (n + 1)
-
-end
-
-end A010395.P16440726599111180508
-
 /-! ## A010395.P6331177622224361106
 
 `lt[(1-n)*A011584(n), 1]`
@@ -4037,21 +3962,6 @@ end A010395.P7342107816737594510
 
 The programs for A010398, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010398.P6430067597474065548
-
-`A010435(n+1)`
--/
-
-namespace A010398.P6430067597474065548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010435 (n + 1)
-
-end
-
-end A010398.P6430067597474065548
 
 /-! ## A010398.P10138623308609293517
 

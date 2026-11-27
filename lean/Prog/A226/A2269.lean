@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -22,22 +22,26 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,8 +60,8 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,12 +72,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,6 +100,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -438,7 +442,7 @@ end A226902.P9198188749355564166
 /-!
 # A226903: Shiraishi numbers: a parametrized family of solutions c to the Diophantine equation a^3 + b^3 + c^3 = d^3 with d = c+1.
 
-The programs for A226903, the canonical program `A226903.P3830906731259372129` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226903 has offset 1).
+The programs for A226903, the canonical program `A226903.P3830906731259372129` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226903 has offset 1).
 
 The definition of A226903 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -447,7 +451,7 @@ The definition of A226903 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((5+13x+20x^2+10x^3+5x^4+x^5)/(1-x-3x^2+3x^3+3x^4-3x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226903
@@ -821,7 +825,7 @@ end A226909.P1019987490503437364
 /-!
 # A226910: a(n) = Sum_{k=0..floor(n/5)} binomial(n,5*k)*binomial(6*k,k)/(5*k+1).
 
-The programs for A226910, the canonical program `A226910.P9685997824466143396` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226910 has offset 0).
+The programs for A226910, the canonical program `A226910.P9685997824466143396` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226910 has offset 0).
 
 The definition of A226910 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -830,7 +834,7 @@ The definition of A226910 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor(n/5), C(n, 5*#)*C(6*#, #)/(5*#+1)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226910
@@ -1743,7 +1747,7 @@ end A226915.P6752406841578190302
 /-!
 # A226916: Number of (17,11)-reverse multiples with n digits.
 
-The programs for A226916, the canonical program `A226916.P14110521250199670476` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226916 has offset 0).
+The programs for A226916, the canonical program `A226916.P14110521250199670476` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226916 has offset 0).
 
 The definition of A226916 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1752,7 +1756,7 @@ The definition of A226916 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^4-x^6+x^7+x^8)/(1-x^2-x^6))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226916
@@ -1839,27 +1843,6 @@ def P11513808191788555167.Spec : Prop :=
   ∀ n, P11513808191788555167.a n = A226917 (n + 2)
 
 end A226917
-
-/-!
-# A226919: Asymptotic number of completely symmetric polynomials of degree n up to momentum conservation in the limit as the number of particles increases.
-
-The programs for A226919, there is no canonical definition to state claims against.
--/
-
-/-! ## A226919.P8842495951144287706
-
-`A307316(n)`
--/
-
-namespace A226919.P8842495951144287706
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307316 n
-
-end
-
-end A226919.P8842495951144287706
 
 /-!
 # A226920: Array read by antidiagonals: T(n,k) = number of completely symmetric polynomials of degree k up to momentum conservation for n particles (n >= 4, k >= 0).
@@ -3196,7 +3179,7 @@ end A226939.P7122481328226430140
 /-!
 # A226940: a(0)=0; if a(n-1) is odd, a(n) = n + a(n-1), otherwise a(n) = n - a(n-1).
 
-The programs for A226940, the canonical program `A226940.P10505677404392577552` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226940 has offset 0).
+The programs for A226940, the canonical program `A226940.P10505677404392577552` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226940 has offset 0).
 
 The definition of A226940 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3205,7 +3188,7 @@ The definition of A226940 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+3x^2+6x^3-2x^4+4x^5+4x^6+2x^7-6x^8+3x^9+x^10)/(1-3x^4+3x^8-x^12))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226940
@@ -3792,7 +3775,7 @@ end A226945.P1864634675676097471
 /-!
 # A226946: Numbers that can't be written as x^2 + x*y + y^2, with 0 <= x <= y and gcd(x,y) = 1.
 
-The programs for A226946, the canonical program `A226946.P17769537648463145620` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226946 has offset 1).
+The programs for A226946, the canonical program `A226946.P17769537648463145620` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226946 has offset 1).
 
 The definition of A226946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3801,7 +3784,7 @@ The definition of A226946 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A034017(1+n)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A226946
@@ -4314,7 +4297,7 @@ end A226953
 /-!
 # A226956: a(0)=a(1)=1, a(n+2) = a(n+1) + a(n) - A128834(n).
 
-The programs for A226956, the canonical program `A226956.P12621786179869718558` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226956 has offset 0).
+The programs for A226956, the canonical program `A226956.P12621786179869718558` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226956 has offset 0).
 
 The definition of A226956 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4346,7 +4329,7 @@ end A226956
 
 `2*a(n-1)-a(n-2)+a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226956
@@ -4892,7 +4875,7 @@ end A226957
 /-!
 # A226958: a(n) = Fibonacci(n-2)*Fibonacci(n)*Fibonacci(n+2).
 
-The programs for A226958, the canonical program `A226958.P7067408086003296208` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226958 has offset 1).
+The programs for A226958, the canonical program `A226958.P7067408086003296208` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226958 has offset 1).
 
 The definition of A226958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4924,7 +4907,7 @@ end A226958
 
 `3*a(n-1)+6*a(n-2)-3*a(n-3)-a(n-4)` with `a(0)=2, a(1)=0, a(2)=10, a(3)=24`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226958
@@ -7803,8 +7786,29 @@ end A226987.P713521891387622700
 /-!
 # A226988: Number of n X 2 0..4 arrays of sums of 2 X 2 subblocks of some (n+1) X 3 binary array with rows and columns of the latter in lexicographically nondecreasing order.
 
-The programs for A226988, there is no canonical definition to state claims against.
+The programs for A226988, the canonical program `A226988.P7006685663806714122` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226988 has offset 1).
+
+The definition of A226988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A226988.P7006685663806714122
+
+`ogf((10-38x+64x^2-31x^3-67x^4+148x^5-137x^6+56x^7+12x^8-26x^9+12x^10-2x^11)/(1-8x+28x^2-56x^3+70x^4-56x^5+28x^6-8x^7+x^8))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A226988
+
+/-- `ogf((10-38x+64x^2-31x^3-67x^4+148x^5-137x^6+56x^7+12x^8-26x^9+12x^10-2x^11)/(1-8x+28x^2-56x^3+70x^4-56x^5+28x^6-8x^7+x^8))` -/
+def P7006685663806714122.Spec : Prop :=
+  ∀ n, P7006685663806714122.a n = A226988 (n + 1)
+
+theorem P7006685663806714122.correct : P7006685663806714122.Spec := by
+  intro n
+  simp only [A226988, Nat.add_sub_cancel]
+
+end A226988
 
 /-! ## A226988.P6908064312532196322
 
@@ -7824,6 +7828,14 @@ end
 
 end A226988.P6908064312532196322
 
+namespace A226988
+
+/-- `A226992(∑[n+1]+2)` -/
+def P6908064312532196322.Spec : Prop :=
+  ∀ n, P6908064312532196322.a n = A226988 (n + 1)
+
+end A226988
+
 /-! ## A226988.P4881404092442073213
 
 `record[A023531(n)*A226992(n+3)]`
@@ -7841,6 +7853,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226988.P4881404092442073213
+
+namespace A226988
+
+/-- `record[A023531(n)*A226992(n+3)]` -/
+def P4881404092442073213.Spec : Prop :=
+  ∀ n, P4881404092442073213.a n = A226988 (n + 1)
+
+end A226988
 
 /-! ## A226988.P17078261863148180031
 
@@ -7860,6 +7880,14 @@ end
 
 end A226988.P17078261863148180031
 
+namespace A226988
+
+/-- `record[gcd(A002262(n), A226992(n+2))]` -/
+def P17078261863148180031.Spec : Prop :=
+  ∀ n, (P17078261863148180031.a n : ℤ) = A226988 (n + 1)
+
+end A226988
+
 /-! ## A226988.P10109989120083266966
 
 `record[gcd(A226992(n+3), A229001(n+1))]`
@@ -7878,23 +7906,13 @@ end
 
 end A226988.P10109989120083266966
 
-/-! ## A226988.P14331588770471727548
+namespace A226988
 
-`record[A226992(abs(A201163(n)))]`
--/
+/-- `record[gcd(A226992(n+3), A229001(n+1))]` -/
+def P10109989120083266966.Spec : Prop :=
+  ∀ n, (P10109989120083266966.a n : ℤ) = A226988 (n + 1)
 
-namespace A226988.P14331588770471727548
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226992 |A201163 n|.toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A226988.P14331588770471727548
+end A226988
 
 /-!
 # A226989: Number of nX3 0..4 arrays of sums of 2X2 subblocks of some (n+1)X4 binary array with rows and columns of the latter in lexicographically nondecreasing order.

@@ -4,29 +4,29 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C038
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C004
 import Seq.B001.C005
@@ -36,7 +36,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -49,7 +49,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
 
 /-!
@@ -76,8 +75,29 @@ end A251401.P1761970144171396837
 /-!
 # A251403: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock summing to a prime.
 
-The programs for A251403, there is no canonical definition to state claims against.
+The programs for A251403, the canonical program `A251403.P12203604312593422933` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251403 has offset 1).
+
+The definition of A251403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A251403.P12203604312593422933
+
+`ogf((46+146x-212x^2-444x^3+108x^4)/(1-2x-21x^2+14x^3+52x^4-12x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A251403
+
+/-- `ogf((46+146x-212x^2-444x^3+108x^4)/(1-2x-21x^2+14x^3+52x^4-12x^5))` -/
+def P12203604312593422933.Spec : Prop :=
+  ∀ n, P12203604312593422933.a n = A251403 (n + 1)
+
+theorem P12203604312593422933.correct : P12203604312593422933.Spec := by
+  intro n
+  simp only [A251403, Nat.add_sub_cancel]
+
+end A251403
 
 /-! ## A251403.P8327026714322017399
 
@@ -97,6 +117,14 @@ end
 
 end A251403.P8327026714322017399
 
+namespace A251403
+
+/-- `A251410(∑[n]+1)` -/
+def P8327026714322017399.Spec : Prop :=
+  ∀ n, P8327026714322017399.a n = A251403 (n + 1)
+
+end A251403
+
 /-! ## A251403.P6475341154797865343
 
 `record[root(A251410(n+1), A059268(n))]`
@@ -114,6 +142,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A251403.P6475341154797865343
+
+namespace A251403
+
+/-- `record[root(A251410(n+1), A059268(n))]` -/
+def P6475341154797865343.Spec : Prop :=
+  ∀ n, P6475341154797865343.a n = (A251403 (n + 1) : ℝ)
+
+end A251403
 
 /-! ## A251403.P7139851724494299294
 
@@ -133,6 +169,14 @@ end
 
 end A251403.P7139851724494299294
 
+namespace A251403
+
+/-- `record[root(A251410(n+1), A193592(n))]` -/
+def P7139851724494299294.Spec : Prop :=
+  ∀ n, P7139851724494299294.a n = (A251403 (n + 1) : ℝ)
+
+end A251403
+
 /-! ## A251403.P13878763773576035831
 
 `record[gcd(A002262(n), A251410(n+1))]`
@@ -150,6 +194,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A251403.P13878763773576035831
+
+namespace A251403
+
+/-- `record[gcd(A002262(n), A251410(n+1))]` -/
+def P13878763773576035831.Spec : Prop :=
+  ∀ n, (P13878763773576035831.a n : ℤ) = A251403 (n + 1)
+
+end A251403
 
 /-!
 # A251404: Number of (n+1)X(2+1) 0..2 arrays with every 2X2 subblock summing to a prime.
@@ -948,7 +1000,7 @@ end A251417.P11342477422925789274
 /-!
 # A251418: Floor((n^2+7n-23)/14).
 
-The programs for A251418, the canonical program `A251418.P12315282928756465335` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251418 has offset 0).
+The programs for A251418, the canonical program `A251418.P12315282928756465335` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251418 has offset 0).
 
 The definition of A251418 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n²+7*n-23)/14)` (program `A251418.P12315282928756465335`, by `A251418.P12315282928756465335.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -957,7 +1009,7 @@ The definition of A251418 is `verified`: the Lean definition is proven equivalen
 
 `floor((n²+7*n-23)/14)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251418
@@ -1165,7 +1217,7 @@ end A251418
 /-!
 # A251420: Decimal expansion of Fisher's percolation exponent in two dimensions, 187/91.
 
-The programs for A251420, the canonical program `A251420.P4855938670452155235` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251420 has offset 1).
+The programs for A251420, the canonical program `A251420.P4855938670452155235` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251420 has offset 1).
 
 The definition of A251420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1174,7 +1226,7 @@ The definition of A251420 is `conjectured`: the Lean definition is a formula tha
 
 `9-a(n-3)` with `a(0)=2, a(1)=0, a(2)=5, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251420
@@ -1192,7 +1244,7 @@ end A251420
 /-!
 # A251421: Number of length n+2 0..1 arrays with the sum of the maximum minus twice the median plus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A251421, the canonical program `A251421.P13053030303204829899` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251421 has offset 1).
+The programs for A251421, the canonical program `A251421.P13053030303204829899` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251421 has offset 1).
 
 The definition of A251421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1201,7 +1253,7 @@ The definition of A251421 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+8x-16x^2)/(1-2x-2x^2+4x^3))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251421
@@ -1866,7 +1918,7 @@ end A251427.P13784972494984767710
 /-!
 # A251429: Number of length 2+2 0..n arrays with the sum of the maximum minus twice the median plus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A251429, the canonical program `A251429.P8764740529924941746` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251429 has offset 1).
+The programs for A251429, the canonical program `A251429.P8764740529924941746` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251429 has offset 1).
 
 The definition of A251429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1875,7 +1927,7 @@ The definition of A251429 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((12+29x+75x^2+97x^3+125x^4+114x^5+98x^6+55x^7+27x^8+x^9-x^10)/(1-x-2x^3+x^4+x^5+x^6+x^7-2x^8-x^10+x^11))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251429
@@ -2263,8 +2315,29 @@ end A251443.P13490194141805663665
 /-!
 # A251444: Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having the minimum of its diagonal elements less than the absolute difference of its antidiagonal elements.
 
-The programs for A251444, there is no canonical definition to state claims against.
+The programs for A251444, the canonical program `A251444.P6585812563275129085` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251444 has offset 1).
+
+The definition of A251444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A251444.P6585812563275129085
+
+`ogf((45+5x-107x^2-35x^3+57x^4+36x^5)/(1-5x-4x^2+11x^3+6x^4-5x^5-4x^6))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A251444
+
+/-- `ogf((45+5x-107x^2-35x^3+57x^4+36x^5)/(1-5x-4x^2+11x^3+6x^4-5x^5-4x^6))` -/
+def P6585812563275129085.Spec : Prop :=
+  ∀ n, P6585812563275129085.a n = A251444 (n + 1)
+
+theorem P6585812563275129085.correct : P6585812563275129085.Spec := by
+  intro n
+  simp only [A251444, Nat.add_sub_cancel]
+
+end A251444
 
 /-! ## A251444.P8539672054131056469
 
@@ -2284,6 +2357,14 @@ end
 
 end A251444.P8539672054131056469
 
+namespace A251444
+
+/-- `A251451(∑[n]+1)` -/
+def P8539672054131056469.Spec : Prop :=
+  ∀ n, P8539672054131056469.a n = A251444 (n + 1)
+
+end A251444
+
 /-! ## A251444.P4657040260894422772
 
 `record[A251451(n+1)/A154338(n)]`
@@ -2301,6 +2382,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A251444.P4657040260894422772
+
+namespace A251444
+
+/-- `record[A251451(n+1)/A154338(n)]` -/
+def P4657040260894422772.Spec : Prop :=
+  ∀ n, P4657040260894422772.a n = (A251444 (n + 1) : ℚ)
+
+end A251444
 
 /-! ## A251444.P12996265544691323678
 
@@ -2320,6 +2409,14 @@ end
 
 end A251444.P12996265544691323678
 
+namespace A251444
+
+/-- `record[root(A251451(n+1), A289192(n))]` -/
+def P12996265544691323678.Spec : Prop :=
+  ∀ n, P12996265544691323678.a n = (A251444 (n + 1) : ℝ)
+
+end A251444
+
 /-! ## A251444.P1402603627182710493
 
 `record[gcd(A002262(n), A251451(n+1))]`
@@ -2337,6 +2434,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A251444.P1402603627182710493
+
+namespace A251444
+
+/-- `record[gcd(A002262(n), A251451(n+1))]` -/
+def P1402603627182710493.Spec : Prop :=
+  ∀ n, (P1402603627182710493.a n : ℤ) = A251444 (n + 1)
+
+end A251444
 
 /-!
 # A251445: Number of (n+1)X(2+1) 0..2 arrays with no 2X2 subblock having the minimum of its diagonal elements less than the absolute difference of its antidiagonal elements.
@@ -3688,6 +3793,21 @@ end A251483.P14394101031570168286
 The programs for A251484, there is no canonical definition to state claims against.
 -/
 
+/-! ## A251484.P13177415611983056567
+
+`ogf((236-320x)/(1-16x+20x^2))`
+-/
+
+namespace A251484.P13177415611983056567
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [236, -320] [1, -16, 20] n
+
+end
+
+end A251484.P13177415611983056567
+
 /-! ## A251484.P17684164422548589054
 
 `A251491(∑[n]+1)`
@@ -3948,6 +4068,21 @@ end A251490.P11158326125521059866
 
 The programs for A251492, there is no canonical definition to state claims against.
 -/
+
+/-! ## A251492.P18237016105367480265
+
+`ogf((186-148x-736x^2+768x^3)/(1-13x+5x^2+52x^3-48x^4))`
+-/
+
+namespace A251492.P18237016105367480265
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [186, -148, -736, 768] [1, -13, 5, 52, -48] n
+
+end
+
+end A251492.P18237016105367480265
 
 /-! ## A251492.P17044651027656238222
 

@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -23,11 +24,10 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -39,9 +39,11 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,31 +55,34 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C005
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +107,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -229,42 +233,6 @@ end A037401.P8178044813542298431
 The programs for A037402, there is no canonical definition to state claims against.
 -/
 
-/-! ## A037402.P10073426185082910679
-
-`A048332(n+1)`
--/
-
-namespace A037402.P10073426185082910679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048332 (n + 1)
-
-end
-
-end A037402.P10073426185082910679
-
-/-! ## A037402.P1727734097666293906
-
-`eq[2, A165074(n)]`
--/
-
-namespace A037402.P1727734097666293906
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165074 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A037402.P1727734097666293906
-
 /-! ## A037402.P6019318844774118498
 
 `eq[A037901(n), A151810(n)]`
@@ -354,21 +322,6 @@ end A037404.P4102195356814004866
 
 The programs for A037405, there is no canonical definition to state claims against.
 -/
-
-/-! ## A037405.P14184844015374127893
-
-`A048333(n+1)`
--/
-
-namespace A037405.P14184844015374127893
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048333 (n + 1)
-
-end
-
-end A037405.P14184844015374127893
 
 /-! ## A037405.P16250659385569714462
 
@@ -549,21 +502,6 @@ end A037406.P17734007664598158767
 
 The programs for A037407, there is no canonical definition to state claims against.
 -/
-
-/-! ## A037407.P4263636969737921744
-
-`A048334(n+1)`
--/
-
-namespace A037407.P4263636969737921744
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048334 (n + 1)
-
-end
-
-end A037407.P4263636969737921744
 
 /-! ## A037407.P8594518042617936916
 
@@ -2694,21 +2632,6 @@ end
 
 end A037440.P7638760081078152581
 
-/-! ## A037440.P15621928194514517761
-
-`A130604(n+2)`
--/
-
-namespace A037440.P15621928194514517761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130604 (n + 2)
-
-end
-
-end A037440.P15621928194514517761
-
 /-!
 # A037441: Positive numbers having the same set of digits in base 8 and base 9.
 
@@ -3027,25 +2950,17 @@ end A037444.P2165356759641005183
 /-!
 # A037445: Number of infinitary divisors (or i-divisors) of n.
 
-The programs for A037445, the canonical program `A037445.P3100727209440750910` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037445 has offset 1).
+The programs for A037445, the canonical program `A037445.P940018258936822646` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037445 has offset 1).
 
-The definition of A037445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A037445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A037445.P940018258936822646
 
 `2^A064547(n+1)`
+
+The canonical program, it is in `Seq.B006.C000`.
 -/
-
-namespace A037445.P940018258936822646
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (A064547 (n + 1) : ℤ)
-
-end
-
-end A037445.P940018258936822646
 
 namespace A037445
 
@@ -3162,19 +3077,26 @@ end A037445
 /-! ## A037445.P3100727209440750910
 
 `∏{e}[1+n, A001316(#)]`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A037445.P3100727209440750910
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n), A001316 (Nat.factorization (f1 n) p)
+
+end
+
+end A037445.P3100727209440750910
 
 namespace A037445
 
 /-- `∏{e}[1+n, A001316(#)]` -/
 def P3100727209440750910.Spec : Prop :=
   ∀ n, P3100727209440750910.a n = A037445 (n + 1)
-
-theorem P3100727209440750910.correct : P3100727209440750910.Spec := by
-  intro n
-  simp only [A037445, Nat.add_sub_cancel]
 
 end A037445
 
@@ -3450,12 +3372,6 @@ namespace A037445
 def P10701249348047582825.Spec : Prop :=
   ∀ n, P10701249348047582825.a n = A037445 (n + 1)
 
-theorem P10701249348047582825.correct : P10701249348047582825.Spec := by
-  intro n
-  simp only [A037445, Nat.add_sub_cancel, A037445.P10701249348047582825.a, A037445.P3100727209440750910.f1, A037445.P3100727209440750910.a, A000005, A000005.P16091521709108585461.a, A001316, A001316.P6434973587264609955.f1, A001316.P6434973587264609955.a, A348341, A348341.P11276104296330033514.a, A032741, A032741.P7902726259890016945.f1, A032741.P7902726259890016945.a, A051731, A051731.P11318043630102858095.a, A000007, A000007.P6599383543502402472.a, A048158, A048158.P1757030368331788429.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A037445
 
 /-! ## A037445.P1583886975048750111
@@ -3530,7 +3446,7 @@ end A037445
 /-!
 # A037446: Floor of (n/e)^(n/e).
 
-The programs for A037446, the canonical program `A037446.P18370416512073906743` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037446 has offset 1).
+The programs for A037446, the canonical program `A037446.P18370416512073906743` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037446 has offset 1).
 
 The definition of A037446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3539,7 +3455,7 @@ The definition of A037446 is `conjectured`: the Lean definition is a formula tha
 
 `floor(((n+1)/e)^((n+1)/e))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037446
@@ -3670,7 +3586,7 @@ end A037447.P11296989380360583735
 /-!
 # A037448: a(n) = floor(cot(n)).
 
-The programs for A037448, the canonical program `A037448.P492079538144767690` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037448 has offset 1).
+The programs for A037448, the canonical program `A037448.P492079538144767690` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037448 has offset 1).
 
 The definition of A037448 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(cot(n+1))` (program `A037448.P492079538144767690`, by `A037448.P492079538144767690.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3679,7 +3595,7 @@ The definition of A037448 is `verified`: the Lean definition is proven equivalen
 
 `floor(cot(n+1))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037448
@@ -5277,7 +5193,7 @@ end A037452.P8961358602503039666
 /-!
 # A037453: Positive numbers whose base-5 representation contains no 3 or 4.
 
-The programs for A037453, the canonical program `A037453.P2958615793513436964` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037453 has offset 1).
+The programs for A037453, the canonical program `A037453.P2958615793513436964` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037453 has offset 1).
 
 The definition of A037453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5286,7 +5202,7 @@ The definition of A037453 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*(5^val(n+1, 3)+1)/4]`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037453
@@ -6194,7 +6110,7 @@ end A037454.P5209388827676328786
 /-!
 # A037455: a(n)=Sum{d(i)*7^i: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is the base 3 representation of n.
 
-The programs for A037455, the canonical program `A037455.P4163353995444016703` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037455 has offset 0).
+The programs for A037455, the canonical program `A037455.P4163353995444016703` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037455 has offset 0).
 
 The definition of A037455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 486 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6229,7 +6145,7 @@ end A037455
 
 `record[gcd(A037466(2*n), A037466(n))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A037455
@@ -6829,7 +6745,7 @@ end A037456.P1938631977339694930
 /-!
 # A037458: a(1)=1; for n > 1, a(n) = n - a(n-floor(sqrt(n))).
 
-The programs for A037458, the canonical program `A037458.P12163390544781379402` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037458 has offset 1).
+The programs for A037458, the canonical program `A037458.P12163390544781379402` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037458 has offset 1).
 
 The definition of A037458 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1-a(n-floor(sqrt(n+1)))` (program `A037458.P12163390544781379402`, by `A037458.P12163390544781379402.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6838,7 +6754,7 @@ The definition of A037458 is `verified`: the Lean definition is proven equivalen
 
 `n+1-a(n-floor(sqrt(n+1)))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037458
@@ -7420,21 +7336,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037459.P5007447915966899942
-
-/-! ## A037459.P18223914939249670935
-
-`-1+A020655(n+2)`
--/
-
-namespace A037459.P18223914939249670935
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A020655 (n + 2)
-
-end
-
-end A037459.P18223914939249670935
 
 /-! ## A037459.P14577493085800447216
 
@@ -8593,7 +8494,7 @@ end A037463.P15038165789628407549
 /-!
 # A037464: Bisection of A076605.
 
-The programs for A037464, the canonical program `A037464.P6205142235644604405` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037464 has offset 1).
+The programs for A037464, the canonical program `A037464.P6205142235644604405` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037464 has offset 1).
 
 The definition of A037464 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A076605, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8625,7 +8526,7 @@ end A037464
 
 `A076605(2*(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A037464
@@ -8833,7 +8734,7 @@ end A037464
 /-!
 # A037465: a(n) = Sum_{i=0..m} d(i)*6^i, where Sum_{i=0..m} d(i)*5^i is the base 5 representation of n.
 
-The programs for A037465, the canonical program `A037465.P15946311442774448769` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037465 has offset 0).
+The programs for A037465, the canonical program `A037465.P15946311442774448769` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037465 has offset 0).
 
 The definition of A037465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6950 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8842,7 +8743,7 @@ The definition of A037465 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A333656(1+n)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A037465
@@ -9202,7 +9103,7 @@ end A037465
 /-!
 # A037466: a(n)=Sum{d(i)*7^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
-The programs for A037466, the canonical program `A037466.P5572666431852063936` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037466 has offset 0).
+The programs for A037466, the canonical program `A037466.P5572666431852063936` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037466 has offset 0).
 
 The definition of A037466 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9264,7 +9165,7 @@ end A037466
 
 `lt[A190596(n), 5]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A037466
@@ -9462,7 +9363,7 @@ end A037466
 /-!
 # A037467: Sum{d(i)*8^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
-The programs for A037467, the canonical program `A037467.P2964122890397976009` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037467 has offset 0).
+The programs for A037467, the canonical program `A037467.P2964122890397976009` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037467 has offset 0).
 
 The definition of A037467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9554,7 +9455,7 @@ end A037467
 
 `A037474(A037466(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A037467
@@ -9801,7 +9702,7 @@ end A037467
 /-!
 # A037468: a(n)=Sum{d(i)*9^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
-The programs for A037468, the canonical program `A037468.P8981474126117510266` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037468 has offset 0).
+The programs for A037468, the canonical program `A037468.P8981474126117510266` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037468 has offset 0).
 
 The definition of A037468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2654 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9833,7 +9734,7 @@ end A037468
 
 `A037475(A037466(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A037468
@@ -10320,7 +10221,7 @@ end A037468
 /-!
 # A037471: a(n)=Sum{d(i)*8^i: i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.
 
-The programs for A037471, the canonical program `A037471.P8190266980563573188` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037471 has offset 0).
+The programs for A037471, the canonical program `A037471.P8190266980563573188` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037471 has offset 0).
 
 The definition of A037471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2722 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10440,7 +10341,7 @@ end A037471
 
 `record[A008585(A037474(n))-A037474(2*n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A037471
@@ -10580,7 +10481,7 @@ end A037471
 /-!
 # A037472: a(n)=Sum{d(i)*9^i: i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.
 
-The programs for A037472, the canonical program `A037472.P13823202368914928265` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037472 has offset 0).
+The programs for A037472, the canonical program `A037472.P13823202368914928265` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037472 has offset 0).
 
 The definition of A037472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3397 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10698,7 +10599,7 @@ end A037472
 
 `A037477(A037471(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A037472
@@ -10910,7 +10811,7 @@ end A037472
 /-!
 # A037474: a(n) = Sum{d(i)*8^i: i=0,1,...,m}, where Sum{d(i)*7^i: i=0,1,...,m} is the base 7 representation of n.
 
-The programs for A037474, the canonical program `A037474.P6444879889403224104` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037474 has offset 0).
+The programs for A037474, the canonical program `A037474.P6444879889403224104` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037474 has offset 0).
 
 The definition of A037474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6041 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10979,7 +10880,7 @@ end A037474
 
 `lt[A006530(A338881(n)), 6]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A037474
@@ -12564,7 +12465,7 @@ end A037479
 /-!
 # A037480: Base-3 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037480, the canonical program `A037480.P5278072409334160727` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037480 has offset 1).
+The programs for A037480, the canonical program `A037480.P5278072409334160727` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037480 has offset 1).
 
 The definition of A037480 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037480.anchor (n : ℕ) (hn : 1 ≤ n) : A037480 n = ((Nat.ofDigits 3 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037480`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12596,7 +12497,7 @@ end A037480
 
 `2*a(n-1)+3*a(n-2)+3` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037480
@@ -13077,7 +12978,7 @@ end A037480
 /-!
 # A037481: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037481, the canonical program `A037481.P10494666032556963771` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037481 has offset 0).
+The programs for A037481, the canonical program `A037481.P10494666032556963771` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037481 has offset 0).
 
 The definition of A037481 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037481.anchor (n : ℕ) : A037481 n = ((Nat.ofDigits 4 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037481`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13109,7 +13010,7 @@ end A037481
 
 `4*a(n-1)+a(n-2)-4*a(n-3)` with `a(0)=0, a(1)=1, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037481
@@ -13348,12 +13249,6 @@ namespace A037481
 def P7777035269558573767.Spec : Prop :=
   ∀ n, P7777035269558573767.a n = A037481 n
 
-theorem P7777035269558573767.correct : P7777035269558573767.Spec := by
-  intro n
-  simp only [A037481, Nat.add_sub_cancel, A037481.P7777035269558573767.a, A037481.P10494666032556963771.a, A363773, A363773.P7965947977853477985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A037481
 
 /-! ## A037481.P11203879044894671532
@@ -13549,7 +13444,7 @@ end A037481
 /-!
 # A037482: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037482, the canonical program `A037482.P2219289928729598603` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037482 has offset 1).
+The programs for A037482, the canonical program `A037482.P2219289928729598603` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037482 has offset 1).
 
 The definition of A037482 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037482.anchor (n : ℕ) (hn : 1 ≤ n) : A037482 n = ((Nat.ofDigits 5 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037482`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13558,7 +13453,7 @@ The definition of A037482 is `verified`: an anchor theorem with a hand-written p
 
 `5*a(n-1)+a(n-2)-5*a(n-3)` with `a(0)=1, a(1)=7, a(2)=36`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037482
@@ -13794,7 +13689,7 @@ end A037482
 /-!
 # A037483: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037483, the canonical program `A037483.P10990877128170278243` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037483 has offset 1).
+The programs for A037483, the canonical program `A037483.P10990877128170278243` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037483 has offset 1).
 
 The definition of A037483 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037483.anchor (n : ℕ) (hn : 1 ≤ n) : A037483 n = ((Nat.ofDigits 6 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037483`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13826,7 +13721,7 @@ end A037483
 
 `5*a(n-1)+6*a(n-2)+3` with `a(0)=1, a(1)=8`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037483
@@ -14089,7 +13984,7 @@ end A037483
 /-!
 # A037484: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037484, the canonical program `A037484.P8053303010544516777` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037484 has offset 1).
+The programs for A037484, the canonical program `A037484.P8053303010544516777` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037484 has offset 1).
 
 The definition of A037484 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037484.anchor (n : ℕ) (hn : 1 ≤ n) : A037484 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037484`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14098,7 +13993,7 @@ The definition of A037484 is `verified`: an anchor theorem with a hand-written p
 
 `7*a(n-1)+a(n-2)-7*a(n-3)` with `a(0)=1, a(1)=9, a(2)=64`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037484
@@ -14409,7 +14304,7 @@ end A037484
 /-!
 # A037485: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037485, the canonical program `A037485.P11695239398446449233` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037485 has offset 1).
+The programs for A037485, the canonical program `A037485.P11695239398446449233` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037485 has offset 1).
 
 The definition of A037485 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037485.anchor (n : ℕ) (hn : 1 ≤ n) : A037485 n = ((Nat.ofDigits 8 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037485`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14441,7 +14336,7 @@ end A037485
 
 `8*a(n-1)+a(n-2)-8*a(n-3)` with `a(0)=1, a(1)=10, a(2)=81`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037485
@@ -14841,16 +14736,16 @@ end A037485
 /-!
 # A037486: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037486, the canonical program `A037486.P17349878466517459121` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037486 has offset 1).
+The programs for A037486, the canonical program `A037486.P17349878466517459121` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037486 has offset 1).
 
-The definition of A037486 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A037486 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037486.anchor (n : ℕ) (hn : 1 ≤ n) : A037486 n = ((Nat.ofDigits 9 ((List.range n).reverse.map fun i => [1, 2].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037486`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A037486.P17349878466517459121
 
 `ogf((1+2x)/(1-9x-x^2+9x^3))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037486
@@ -15214,7 +15109,7 @@ end A037486
 /-!
 # A037487: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,2.
 
-The programs for A037487, the canonical program `A037487.P11004034175781705646` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037487 has offset 1).
+The programs for A037487, the canonical program `A037487.P11004034175781705646` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037487 has offset 1).
 
 The definition of A037487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15269,7 +15164,7 @@ end A037487
 
 `10*a(n-1)+a(n-2)-10*a(n-3)` with `a(0)=1, a(1)=12, a(2)=121`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037487
@@ -15700,7 +15595,7 @@ end A037487
 /-!
 # A037488: Base 3 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037488, the canonical program `A037488.P15133340106791633188` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037488 has offset 1).
+The programs for A037488, the canonical program `A037488.P15133340106791633188` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037488 has offset 1).
 
 The definition of A037488 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037488.anchor (n : ℕ) (hn : 1 ≤ n) : A037488 n = ((Nat.ofDigits 3 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037488`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15755,7 +15650,7 @@ end A037488
 
 `3*a(n-1)+a(n-2)-3*a(n-3)` with `a(0)=2, a(1)=7, a(2)=23`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037488
@@ -16193,7 +16088,7 @@ end A037488
 /-!
 # A037489: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037489, the canonical program `A037489.P11356628586925819228` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037489 has offset 1).
+The programs for A037489, the canonical program `A037489.P11356628586925819228` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037489 has offset 1).
 
 The definition of A037489 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037489.anchor (n : ℕ) (hn : 1 ≤ n) : A037489 n = ((Nat.ofDigits 4 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037489`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16225,7 +16120,7 @@ end A037489
 
 `4*a(n-1)+a(n-2)-4*a(n-3)` with `a(0)=2, a(1)=9, a(2)=38`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037489
@@ -16669,7 +16564,7 @@ end A037489
 /-!
 # A037490: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037490, the canonical program `A037490.P7366785758651936149` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037490 has offset 1).
+The programs for A037490, the canonical program `A037490.P7366785758651936149` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037490 has offset 1).
 
 The definition of A037490 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037490.anchor (n : ℕ) (hn : 1 ≤ n) : A037490 n = ((Nat.ofDigits 5 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037490`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16701,7 +16596,7 @@ end A037490
 
 `5*a(n-1)+a(n-2)-5*a(n-3)` with `a(0)=2, a(1)=11, a(2)=57`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037490
@@ -16951,7 +16846,7 @@ end A037490
 /-!
 # A037491: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037491, the canonical program `A037491.P9979592323610380005` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037491 has offset 1).
+The programs for A037491, the canonical program `A037491.P9979592323610380005` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037491 has offset 1).
 
 The definition of A037491 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037491.anchor (n : ℕ) (hn : 1 ≤ n) : A037491 n = ((Nat.ofDigits 6 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037491`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16983,7 +16878,7 @@ end A037491
 
 `6*a(n-1)+a(n-2)-6*a(n-3)` with `a(0)=2, a(1)=13, a(2)=80`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037491
@@ -17266,7 +17161,7 @@ end A037491
 /-!
 # A037492: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037492, the canonical program `A037492.P12534664945778785394` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037492 has offset 1).
+The programs for A037492, the canonical program `A037492.P12534664945778785394` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037492 has offset 1).
 
 The definition of A037492 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037492.anchor (n : ℕ) (hn : 1 ≤ n) : A037492 n = ((Nat.ofDigits 7 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037492`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17298,7 +17193,7 @@ end A037492
 
 `7*a(n-1)+a(n-2)-7*a(n-3)` with `a(0)=2, a(1)=15, a(2)=107`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037492
@@ -17556,7 +17451,7 @@ end A037492
 /-!
 # A037493: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037493, the canonical program `A037493.P11884723274599503264` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037493 has offset 1).
+The programs for A037493, the canonical program `A037493.P11884723274599503264` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037493 has offset 1).
 
 The definition of A037493 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037493.anchor (n : ℕ) (hn : 1 ≤ n) : A037493 n = ((Nat.ofDigits 8 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037493`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17588,7 +17483,7 @@ end A037493
 
 `8*a(n-1)+a(n-2)-8*a(n-3)` with `a(0)=2, a(1)=17, a(2)=138`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037493
@@ -17920,7 +17815,7 @@ end A037493
 /-!
 # A037494: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037494, the canonical program `A037494.P8789448745735977114` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037494 has offset 1).
+The programs for A037494, the canonical program `A037494.P8789448745735977114` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037494 has offset 1).
 
 The definition of A037494 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037494.anchor (n : ℕ) (hn : 1 ≤ n) : A037494 n = ((Nat.ofDigits 9 ((List.range n).reverse.map fun i => [2, 1].getD (i % 2) 0) : ℕ) : ℤ)` in `Proof.A037.A037494`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17952,7 +17847,7 @@ end A037494
 
 `9*a(n-1)+a(n-2)-9*a(n-3)` with `a(0)=2, a(1)=19, a(2)=173`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037494
@@ -18235,7 +18130,7 @@ end A037494
 /-!
 # A037495: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,1.
 
-The programs for A037495, the canonical program `A037495.P26554536577676756` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037495 has offset 1).
+The programs for A037495, the canonical program `A037495.P26554536577676756` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037495 has offset 1).
 
 The definition of A037495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18244,7 +18139,7 @@ The definition of A037495 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x)/(1-10x-x^2+10x^3))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037495
@@ -18717,7 +18612,7 @@ end A037495
 /-!
 # A037496: Base-3 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2.
 
-The programs for A037496, the canonical program `A037496.P16844071048061808176` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037496 has offset 1).
+The programs for A037496, the canonical program `A037496.P16844071048061808176` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037496 has offset 1).
 
 The definition of A037496 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037496.anchor (n : ℕ) (hn : 1 ≤ n) : A037496 n = ((Nat.ofDigits 3 ((List.range n).reverse.map fun i => [1, 0, 2].getD (i % 3) 0) : ℕ) : ℤ)` in `Proof.A037.A037496`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18749,7 +18644,7 @@ end A037496
 
 `3*a(n-1)+a(n-3)-3*a(n-4)` with `a(0)=1, a(1)=3, a(2)=11, a(3)=34`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037496
@@ -18980,7 +18875,7 @@ end A037496
 /-!
 # A037497: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2.
 
-The programs for A037497, the canonical program `A037497.P3893065333787281505` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037497 has offset 1).
+The programs for A037497, the canonical program `A037497.P3893065333787281505` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037497 has offset 1).
 
 The definition of A037497 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037497.anchor (n : ℕ) (hn : 1 ≤ n) : A037497 n = ((Nat.ofDigits 4 ((List.range n).reverse.map fun i => [1, 0, 2].getD (i % 3) 0) : ℕ) : ℤ)` in `Proof.A037.A037497`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19012,7 +18907,7 @@ end A037497
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=18, a(3)=73`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037497
@@ -19471,16 +19366,16 @@ end A037497
 /-!
 # A037498: Base-5 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2.
 
-The programs for A037498, the canonical program `A037498.P13397092882707254449` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037498 has offset 1).
+The programs for A037498, the canonical program `A037498.P13397092882707254449` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037498 has offset 1).
 
-The definition of A037498 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A037498 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037498.anchor (n : ℕ) (hn : 1 ≤ n) : A037498 n = ((Nat.ofDigits 5 ((List.range n).reverse.map fun i => [1, 0, 2].getD (i % 3) 0) : ℕ) : ℤ)` in `Proof.A037.A037498`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A037498.P13397092882707254449
 
 `ogf((1+2x^2)/(1-5x-x^3+5x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037498
@@ -19711,16 +19606,16 @@ end A037498
 /-!
 # A037499: Base-6 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2.
 
-The programs for A037499, the canonical program `A037499.P14642500495370652078` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037499 has offset 1).
+The programs for A037499, the canonical program `A037499.P14642500495370652078` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037499 has offset 1).
 
-The definition of A037499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A037499 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A037499.anchor (n : ℕ) (hn : 1 ≤ n) : A037499 n = ((Nat.ofDigits 6 ((List.range n).reverse.map fun i => [1, 0, 2].getD (i % 3) 0) : ℕ) : ℤ)` in `Proof.A037.A037499`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A037499.P14642500495370652078
 
 `ogf((1+2x^2)/(1-6x-x^3+6x^4))`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A037499

@@ -16,30 +16,29 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +48,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -81,7 +79,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -11120,27 +11117,6 @@ def P12013345117351745319.Spec : Prop :=
 end A039734
 
 /-!
-# A039735: Triangle read by rows: T(n,k) = number of nonisomorphic unlabeled planar graphs with n >= 1 nodes and 0 <= k <= 3n-6 edges.
-
-The programs for A039735, there is no canonical definition to state claims against.
--/
-
-/-! ## A039735.P8976290440495089932
-
-`A008406(A348553(n))`
--/
-
-namespace A039735.P8976290440495089932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008406 (A348553 n).toNat
-
-end
-
-end A039735.P8976290440495089932
-
-/-!
 # A039736: a(n) = number of primes q<p having (p mod q) = 2, where p = n-th prime.
 
 The programs for A039736, the canonical program `A039736.P7194080173085563073` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039736 has offset 1).
@@ -13985,24 +13961,6 @@ end
 
 end A039765.P14291745079800919900
 
-/-! ## A039765.P8976861974553894449
-
-`Δ[A174436(n-A057427(n))+2]`
--/
-
-namespace A039765.P8976861974553894449
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174436 ((n : ℤ) - A057427 n).toNat + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A039765.P8976861974553894449
-
 /-!
 # A039766: Numbers k such that gcd(phi(k), k-1) = number of divisors of k.
 
@@ -15321,7 +15279,7 @@ end A039771
 /-!
 # A039772: Even numbers k such that phi(k) and k-1 are distinct and have a common factor > 1.
 
-The programs for A039772, the canonical program `A039772.P1797590160730133632` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039772 has offset 1).
+The programs for A039772, the canonical program `A039772.P1797590160730133632` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039772 has offset 1).
 
 The definition of A039772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15330,7 +15288,7 @@ The definition of A039772 is `conjectured`: the Lean definition is a formula tha
 
 `A330279(1+n)+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A039772
@@ -16197,7 +16155,7 @@ end A039785.P9934253496720978050
 /-!
 # A039786: phi(a(n)) is equal to the multiplicative projection of (a(n)-1).
 
-The programs for A039786, the canonical program `A039786.P9524563486631671772` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039786 has offset 1).
+The programs for A039786, the canonical program `A039786.P9524563486631671772` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039786 has offset 1).
 
 The definition of A039786 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3688 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16236,7 +16194,7 @@ end A039786
 
 `filter[A210845(2+n), A351957(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A039786

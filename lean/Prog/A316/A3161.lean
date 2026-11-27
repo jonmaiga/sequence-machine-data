@@ -13,23 +13,23 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,24 +44,23 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B007.C001
+import Seq.B008.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +88,7 @@ import Seq.Opaque.C023
 /-!
 # A316100: Numbers k such that k is deficient but k+1 is abundant, that is, a deficient number followed by an abundant number.
 
-The programs for A316100, the canonical program `A316100.P8393922168383599559` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316100 has offset 1).
+The programs for A316100, the canonical program `A316100.P8393922168383599559` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316100 has offset 1).
 
 The definition of A316100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4058 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -98,7 +97,7 @@ The definition of A316100 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A294937(n+1)+n]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A316100
@@ -305,29 +304,6 @@ namespace A316100
 /-- `lt[A142433(2*n+3), A142433(A000203(n+1))]` -/
 def P14398130651134817627.Spec : Prop :=
   ∀ n, (P14398130651134817627.a n : ℤ) = A316100 (n + 1)
-
-end A316100
-
-/-! ## A316100.P12465713750345361572
-
-`A005101(n+1)-1`
--/
-
-namespace A316100.P12465713750345361572
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005101 (n + 1) - 1
-
-end
-
-end A316100.P12465713750345361572
-
-namespace A316100
-
-/-- `A005101(n+1)-1` -/
-def P12465713750345361572.Spec : Prop :=
-  ∀ n, P12465713750345361572.a n = A316100 (n + 1)
 
 end A316100
 
@@ -3018,7 +2994,7 @@ end A316159
 /-!
 # A316160: Number of pairs of compositions of n corresponding to a seaweed algebra of index n-3.
 
-The programs for A316160, the canonical program `A316160.P3384596665128637693` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316160 has offset 3).
+The programs for A316160, the canonical program `A316160.P3384596665128637693` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316160 has offset 3).
 
 The definition of A316160 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3027,7 +3003,7 @@ The definition of A316160 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((6-10x-4x^2+10x^3-4x^4)/(1-6x+12x^2-8x^3))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316160

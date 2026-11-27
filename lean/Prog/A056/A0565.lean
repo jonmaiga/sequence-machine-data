@@ -34,12 +34,14 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,22 +70,23 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,12 +99,14 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -244,16 +249,16 @@ end A056500
 /-!
 # A056501: Number of primitive (period n) periodic palindromes using exactly five different symbols.
 
-The programs for A056501, the canonical program `A056501.P14421561252309052722` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056501 has offset 1).
+The programs for A056501, the canonical program `A056501.P14421561252309052722` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056501 has offset 1).
 
-The definition of A056501 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056491, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A056501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A056501.P14421561252309052722
 
 `∑{d}[n+1, A008683(#)*A056491((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056501
@@ -451,7 +456,7 @@ end A056502
 /-!
 # A056503: Number of periodic palindromic structures of length n using a maximum of two different symbols.
 
-The programs for A056503, the canonical program `A056503.P12078029325460103094` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056503 has offset 1).
+The programs for A056503, the canonical program `A056503.P12078029325460103094` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056503 has offset 1).
 
 The definition of A056503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -581,7 +586,7 @@ end A056503
 
 `A000011(n+1)-A045677(n+1)/2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A056503
@@ -3876,21 +3881,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A056525.P11034981417827399240
-
-/-! ## A056525.P10051230989574818917
-
-`A056142(n+1)`
--/
-
-namespace A056525.P10051230989574818917
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056142 (n + 1)
-
-end
-
-end A056525.P10051230989574818917
 
 /-! ## A056525.P1825305613559893162
 
@@ -7979,42 +7969,6 @@ def P1309646289833294985.Spec : Prop :=
   ∀ n, P1309646289833294985.a n = A056543 (n + 1)
 
 end A056543
-
-/-!
-# A056544: Smallest palindrome containing the digits of n as a subsequence.
-
-The programs for A056544, there is no canonical definition to state claims against.
--/
-
-/-! ## A056544.P876251001860119354
-
-`A082216(A328447(1+n))`
--/
-
-namespace A056544.P876251001860119354
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082216 (A328447 (1 + n)).toNat
-
-end
-
-end A056544.P876251001860119354
-
-/-! ## A056544.P14260795348865762532
-
-`A082216(n+1)`
--/
-
-namespace A056544.P14260795348865762532
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082216 (n + 1)
-
-end
-
-end A056544.P14260795348865762532
 
 /-!
 # A056545: a(n) = 4*n*a(n-1) + 1 with a(0)=1.
@@ -19458,8 +19412,29 @@ end A056589
 /-!
 # A056590: Fourth column sequence of triangle A056588.
 
-The programs for A056590, there is no canonical definition to state claims against.
+The programs for A056590, the canonical program `A056590.P5931649051081271394` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056590 has offset 0).
+
+The definition of A056590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A056590.P5931649051081271394
+
+`ogf((1-3x+8x^2-3x^3-3x^4-4x^5)/(1-10x+25x^2+34x^3-170x^4-14x^5+343x^6+16x^7-171x^8+14x^9+12x^10))`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A056590
+
+/-- `ogf((1-3x+8x^2-3x^3-3x^4-4x^5)/(1-10x+25x^2+34x^3-170x^4-14x^5+343x^6+16x^7-171x^8+14x^9+12x^10))` -/
+def P5931649051081271394.Spec : Prop :=
+  ∀ n, P5931649051081271394.a n = A056590 n
+
+theorem P5931649051081271394.correct : P5931649051081271394.Spec := by
+  intro n
+  simp only [A056590]
+
+end A056590
 
 /-! ## A056590.P6094621139340469464
 
@@ -19475,6 +19450,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A056590.P6094621139340469464
+
+namespace A056590
+
+/-- `A056588(A167614(n+2))` -/
+def P6094621139340469464.Spec : Prop :=
+  ∀ n, P6094621139340469464.a n = A056590 n
+
+end A056590
 
 /-!
 # A056591: Fifth column sequence of triangle A056588.
@@ -20288,28 +20271,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A056598.P4290310122731134551
-
-/-!
-# A056599: Series for first perpendicular moment of square lattice bond percolation near a wall (eventually goes negative).
-
-The programs for A056599, there is no canonical definition to state claims against.
--/
-
-/-! ## A056599.P9487156026261687646
-
-`∑[A089098(n+1)]`
--/
-
-namespace A056599.P9487156026261687646
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089098 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A056599.P9487156026261687646
 

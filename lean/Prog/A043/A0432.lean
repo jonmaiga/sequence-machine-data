@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -11,24 +12,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,14 +53,16 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +84,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
@@ -335,21 +336,6 @@ end A043202.P14307095247587844764
 The programs for A043203, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043203.P6675676792120255856
-
-`A037477(A043172(n+1))`
--/
-
-namespace A043203.P6675676792120255856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (A043172 (n + 1)).toNat
-
-end
-
-end A043203.P6675676792120255856
-
 /-! ## A043203.P900356693632762544
 
 `A037475(A043148(n+1)%A255093(n+1))`
@@ -400,21 +386,6 @@ end A043203.P2842068364322904926
 
 The programs for A043204, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043204.P1607429186729501572
-
-`A028904(A043243(n+1))`
--/
-
-namespace A043204.P1607429186729501572
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A043243 (n + 1)).toNat
-
-end
-
-end A043204.P1607429186729501572
 
 /-! ## A043204.P4742388215501976314
 
@@ -635,21 +606,6 @@ end A043207.P7275369977000360489
 The programs for A043208, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043208.P7390204109002100519
-
-`A037477(A043176(n+1))`
--/
-
-namespace A043208.P7390204109002100519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (A043176 (n + 1)).toNat
-
-end
-
-end A043208.P7390204109002100519
-
 /-! ## A043208.P3895712119762411787
 
 `A043209(n+1)+A039388(n+1)-A043212(A062399(n+1))`
@@ -704,36 +660,6 @@ end
 
 end A043209.P13597559620004139550
 
-/-! ## A043209.P18283682397032101195
-
-`A028904(A043249(n+1))`
--/
-
-namespace A043209.P18283682397032101195
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A043249 (n + 1)).toNat
-
-end
-
-end A043209.P18283682397032101195
-
-/-! ## A043209.P5369623007638689058
-
-`A043989(n+1)`
--/
-
-namespace A043209.P5369623007638689058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043989 (n + 1)
-
-end
-
-end A043209.P5369623007638689058
-
 /-!
 # A043210: Numbers k such that 5 and 6 occur juxtaposed in the base-9 representation of k but not of k-1.
 
@@ -776,36 +702,6 @@ end A043210.P227009926427209790
 The programs for A043211, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043211.P5183570201398770030
-
-`A028904(A043252(n+1))`
--/
-
-namespace A043211.P5183570201398770030
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A043252 (n + 1)).toNat
-
-end
-
-end A043211.P5183570201398770030
-
-/-! ## A043211.P16332113421482436779
-
-`A037477(A043178(n+1))`
--/
-
-namespace A043211.P16332113421482436779
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (A043178 (n + 1)).toNat
-
-end
-
-end A043211.P16332113421482436779
-
 /-! ## A043211.P17442506118589919996
 
 `A043991(∑[A053501(n)])`
@@ -823,27 +719,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043211.P17442506118589919996
-
-/-!
-# A043212: Numbers k such that 5 and 8 occur juxtaposed in the base-9 representation of k but not of k-1.
-
-The programs for A043212, there is no canonical definition to state claims against.
--/
-
-/-! ## A043212.P439078919582386456
-
-`A043992(n+1)`
--/
-
-namespace A043212.P439078919582386456
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043992 (n + 1)
-
-end
-
-end A043212.P439078919582386456
 
 /-!
 # A043213: Numbers k such that 6 and 7 occur juxtaposed in the base-9 representation of k but not of k-1.
@@ -869,42 +744,6 @@ end
 
 end A043213.P5660593893711469603
 
-/-! ## A043213.P11766154251261029548
-
-`A028904(A043255(n+1))`
--/
-
-namespace A043213.P11766154251261029548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A043255 (n + 1)).toNat
-
-end
-
-end A043213.P11766154251261029548
-
-/-!
-# A043214: Numbers k such that 6 and 8 occur juxtaposed in the base-9 representation of k but not of k-1.
-
-The programs for A043214, there is no canonical definition to state claims against.
--/
-
-/-! ## A043214.P2273038084906399027
-
-`A043994(n+1)`
--/
-
-namespace A043214.P2273038084906399027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043994 (n + 1)
-
-end
-
-end A043214.P2273038084906399027
-
 /-!
 # A043215: Numbers k such that 7 and 8 occur juxtaposed in the base-9 representation of k but not of k-1.
 
@@ -925,27 +764,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043215.P10299822945525750004
-
-/-!
-# A043216: Numbers k such that 0 and 1 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043216, there is no canonical definition to state claims against.
--/
-
-/-! ## A043216.P14161611729247973014
-
-`A007095(A043180(n+1))`
--/
-
-namespace A043216.P14161611729247973014
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043180 (n + 1)).toNat
-
-end
-
-end A043216.P14161611729247973014
 
 /-!
 # A043217: Numbers k such that 0 and 2 occur juxtaposed in the base-10 representation of k but not of k-1.
@@ -1100,27 +918,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043218.P7387521873627695462
-
-/-!
-# A043219: Numbers k such that 0 and 4 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043219, there is no canonical definition to state claims against.
--/
-
-/-! ## A043219.P7886159296088596336
-
-`A007095(A043183(n+1))`
--/
-
-namespace A043219.P7886159296088596336
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043183 (n + 1)).toNat
-
-end
-
-end A043219.P7886159296088596336
 
 /-!
 # A043220: Numbers k such that 0 and 5 occur juxtaposed in the base-10 representation of k but not of k-1.
@@ -1372,67 +1169,10 @@ end
 end A043222.P4673291278016519158
 
 /-!
-# A043223: Numbers k such that 0 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043223, there is no canonical definition to state claims against.
--/
-
-/-! ## A043223.P14509045911964511863
-
-`A007095(A043187(n+1))`
--/
-
-namespace A043223.P14509045911964511863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043187 (n + 1)).toNat
-
-end
-
-end A043223.P14509045911964511863
-
-/-!
-# A043225: Numbers k such that 1 and 2 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043225, there is no canonical definition to state claims against.
--/
-
-/-! ## A043225.P9968086854995796667
-
-`A007095(A043188(n+1))`
--/
-
-namespace A043225.P9968086854995796667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043188 (n + 1)).toNat
-
-end
-
-end A043225.P9968086854995796667
-
-/-!
 # A043226: Numbers k such that 1 and 3 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043226, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043226.P5928966751378628374
-
-`A007095(A043189(n+1))`
--/
-
-namespace A043226.P5928966751378628374
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043189 (n + 1)).toNat
-
-end
-
-end A043226.P5928966751378628374
 
 /-! ## A043226.P6867292617430133468
 
@@ -1448,27 +1188,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043226.P6867292617430133468
-
-/-!
-# A043227: Numbers k such that 1 and 4 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043227, there is no canonical definition to state claims against.
--/
-
-/-! ## A043227.P1311316659740666130
-
-`A007095(A043190(n+1))`
--/
-
-namespace A043227.P1311316659740666130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043190 (n + 1)).toNat
-
-end
-
-end A043227.P1311316659740666130
 
 /-!
 # A043228: Numbers k such that 1 and 5 occur juxtaposed in the base-10 representation of k but not of k-1.
@@ -1491,92 +1210,11 @@ end
 
 end A043228.P14721309030672471459
 
-/-! ## A043228.P10763737846973233890
-
-`A007094(A043162(n+1))`
--/
-
-namespace A043228.P10763737846973233890
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043162 (n + 1)).toNat
-
-end
-
-end A043228.P10763737846973233890
-
-/-! ## A043228.P7624057331001626162
-
-`A007095(A043191(n+1))`
--/
-
-namespace A043228.P7624057331001626162
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043191 (n + 1)).toNat
-
-end
-
-end A043228.P7624057331001626162
-
-/-!
-# A043229: Numbers k such that 1 and 6 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043229, there is no canonical definition to state claims against.
--/
-
-/-! ## A043229.P17432292668240462390
-
-`A007095(A043192(n+1))`
--/
-
-namespace A043229.P17432292668240462390
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043192 (n + 1)).toNat
-
-end
-
-end A043229.P17432292668240462390
-
-/-! ## A043229.P1220530127509914784
-
-`A007094(A043163(n+1))`
--/
-
-namespace A043229.P1220530127509914784
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043163 (n + 1)).toNat
-
-end
-
-end A043229.P1220530127509914784
-
 /-!
 # A043230: Numbers k such that 1 and 7 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043230, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043230.P13443426635919661255
-
-`A007095(A043193(n+1))`
--/
-
-namespace A043230.P13443426635919661255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043193 (n + 1)).toNat
-
-end
-
-end A043230.P13443426635919661255
 
 /-! ## A043230.P4267140060498229180
 
@@ -1592,27 +1230,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043230.P4267140060498229180
-
-/-!
-# A043231: Numbers k such that 1 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043231, there is no canonical definition to state claims against.
--/
-
-/-! ## A043231.P1299396385742828264
-
-`A007095(A043194(n+1))`
--/
-
-namespace A043231.P1299396385742828264
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043194 (n + 1)).toNat
-
-end
-
-end A043231.P1299396385742828264
 
 /-!
 # A043232: Numbers k such that 1 and 9 occur juxtaposed in the base-10 representation of k but not of k-1.
@@ -1636,46 +1253,10 @@ end
 end A043232.P1446977018478196139
 
 /-!
-# A043233: Numbers k such that 2 and 3 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043233, there is no canonical definition to state claims against.
--/
-
-/-! ## A043233.P17432692529903382586
-
-`A007095(A043195(n+1))`
--/
-
-namespace A043233.P17432692529903382586
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043195 (n + 1)).toNat
-
-end
-
-end A043233.P17432692529903382586
-
-/-!
 # A043234: Numbers k such that 2 and 4 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043234, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043234.P2187050038153490704
-
-`A007095(A043196(n+1))`
--/
-
-namespace A043234.P2187050038153490704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043196 (n + 1)).toNat
-
-end
-
-end A043234.P2187050038153490704
 
 /-! ## A043234.P13612621496144709679
 
@@ -1693,61 +1274,10 @@ end
 end A043234.P13612621496144709679
 
 /-!
-# A043235: Numbers k such that 2 and 5 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043235, there is no canonical definition to state claims against.
--/
-
-/-! ## A043235.P16415868052009817363
-
-`A007094(A043167(n+1))`
--/
-
-namespace A043235.P16415868052009817363
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043167 (n + 1)).toNat
-
-end
-
-end A043235.P16415868052009817363
-
-/-! ## A043235.P9642017508062495321
-
-`A007095(A043197(n+1))`
--/
-
-namespace A043235.P9642017508062495321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043197 (n + 1)).toNat
-
-end
-
-end A043235.P9642017508062495321
-
-/-!
 # A043236: Numbers k such that 2 and 6 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043236, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043236.P6180918324789484602
-
-`A007095(A043198(n+1))`
--/
-
-namespace A043236.P6180918324789484602
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043198 (n + 1)).toNat
-
-end
-
-end A043236.P6180918324789484602
 
 /-! ## A043236.P17225930903041665491
 
@@ -1785,57 +1315,6 @@ end
 
 end A043237.P5713150837329517942
 
-/-! ## A043237.P2092074174574038555
-
-`A007095(A043199(n+1))`
--/
-
-namespace A043237.P2092074174574038555
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043199 (n + 1)).toNat
-
-end
-
-end A043237.P2092074174574038555
-
-/-! ## A043237.P12858437540602668173
-
-`A007094(A043169(n+1))`
--/
-
-namespace A043237.P12858437540602668173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043169 (n + 1)).toNat
-
-end
-
-end A043237.P12858437540602668173
-
-/-!
-# A043238: Numbers k such that 2 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043238, there is no canonical definition to state claims against.
--/
-
-/-! ## A043238.P11254708820508377489
-
-`A007095(A043200(n+1))`
--/
-
-namespace A043238.P11254708820508377489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043200 (n + 1)).toNat
-
-end
-
-end A043238.P11254708820508377489
-
 /-!
 # A043239: Numbers k such that 2 and 9 occur juxtaposed in the base-10 representation of k but not of k-1.
 
@@ -1862,21 +1341,6 @@ end A043239.P1597899034152162269
 
 The programs for A043240, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043240.P11641834286134768299
-
-`A007095(A043201(n+1))`
--/
-
-namespace A043240.P11641834286134768299
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043201 (n + 1)).toNat
-
-end
-
-end A043240.P11641834286134768299
 
 /-! ## A043240.P125365816064587162
 
@@ -1914,36 +1378,6 @@ end A043240.P5647177366197376790
 The programs for A043241, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043241.P4660262355617298341
-
-`A007095(A043202(n+1))`
--/
-
-namespace A043241.P4660262355617298341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043202 (n + 1)).toNat
-
-end
-
-end A043241.P4660262355617298341
-
-/-! ## A043241.P2607219464813851426
-
-`A007094(A043171(n+1))`
--/
-
-namespace A043241.P2607219464813851426
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043171 (n + 1)).toNat
-
-end
-
-end A043241.P2607219464813851426
-
 /-! ## A043241.P16128619419385159562
 
 `A044021(A032551(n+2))`
@@ -1964,21 +1398,6 @@ end A043241.P16128619419385159562
 
 The programs for A043242, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043242.P10824980907815707088
-
-`A007095(A043203(n+1))`
--/
-
-namespace A043242.P10824980907815707088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043203 (n + 1)).toNat
-
-end
-
-end A043242.P10824980907815707088
 
 /-! ## A043242.P17377719774726569117
 
@@ -2001,21 +1420,6 @@ end A043242.P17377719774726569117
 The programs for A043243, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043243.P6134289233813343266
-
-`A037479(A043204(n+1))`
--/
-
-namespace A043243.P6134289233813343266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037479 (A043204 (n + 1)).toNat
-
-end
-
-end A043243.P6134289233813343266
-
 /-! ## A043243.P7622327915457363301
 
 `A007095(A043204(n+1)%A134595(n))`
@@ -2031,56 +1435,11 @@ end
 
 end A043243.P7622327915457363301
 
-/-! ## A043243.P9226033387734570883
-
-`A235049(A043249(n+3))`
--/
-
-namespace A043243.P9226033387734570883
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235049 (A043249 (n + 3)).toNat
-
-end
-
-end A043243.P9226033387734570883
-
-/-! ## A043243.P7895880363775961030
-
-`A007094(A043173(n+1))`
--/
-
-namespace A043243.P7895880363775961030
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043173 (n + 1)).toNat
-
-end
-
-end A043243.P7895880363775961030
-
 /-!
 # A043244: Numbers k such that 3 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043244, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043244.P17737559838896601225
-
-`A007095(A043205(n+1))`
--/
-
-namespace A043244.P17737559838896601225
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043205 (n + 1)).toNat
-
-end
-
-end A043244.P17737559838896601225
 
 /-! ## A043244.P3842946576279553076
 
@@ -2154,21 +1513,6 @@ end A043245.P12316621214382372532
 The programs for A043246, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043246.P13136133840203169120
-
-`A007095(A043206(n+1))`
--/
-
-namespace A043246.P13136133840203169120
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043206 (n + 1)).toNat
-
-end
-
-end A043246.P13136133840203169120
-
 /-! ## A043246.P6730611952726323281
 
 `A007093(A043149(n+1)^A119788(n+1))`
@@ -2204,21 +1548,6 @@ end A043246.P9442889039297032920
 
 The programs for A043247, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043247.P12924123345778798932
-
-`A007095(A043207(n+1))`
--/
-
-namespace A043247.P12924123345778798932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043207 (n + 1)).toNat
-
-end
-
-end A043247.P12924123345778798932
 
 /-! ## A043247.P12787003990324257498
 
@@ -2271,36 +1600,6 @@ end
 
 end A043248.P17643658152663983849
 
-/-! ## A043248.P16558740688169936006
-
-`A007094(A043176(n+1))`
--/
-
-namespace A043248.P16558740688169936006
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043176 (n + 1)).toNat
-
-end
-
-end A043248.P16558740688169936006
-
-/-! ## A043248.P6476335829414902392
-
-`A007095(A043208(n+1))`
--/
-
-namespace A043248.P6476335829414902392
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043208 (n + 1)).toNat
-
-end
-
-end A043248.P6476335829414902392
-
 /-! ## A043248.P483940752325302970
 
 `A044028(A032555(n+1))`
@@ -2321,21 +1620,6 @@ end A043248.P483940752325302970
 
 The programs for A043249, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043249.P7302182510925635937
-
-`A007095(A043209(n+1))`
--/
-
-namespace A043249.P7302182510925635937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043209 (n + 1)).toNat
-
-end
-
-end A043249.P7302182510925635937
 
 /-! ## A043249.P14625598085097595008
 
@@ -2388,21 +1672,6 @@ end A043250.P12658439427617386856
 The programs for A043251, there is no canonical definition to state claims against.
 -/
 
-/-! ## A043251.P15929720407255217673
-
-`A007095(A043210(n+1))`
--/
-
-namespace A043251.P15929720407255217673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043210 (n + 1)).toNat
-
-end
-
-end A043251.P15929720407255217673
-
 /-! ## A043251.P1766980306254376002
 
 `A007094(A043177(n+1)%A153048(n+1))`
@@ -2454,63 +1723,6 @@ end
 
 end A043252.P13327077698083112731
 
-/-! ## A043252.P14215898316257938820
-
-`A007094(A043178(n+1))`
--/
-
-namespace A043252.P14215898316257938820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007094 (A043178 (n + 1)).toNat
-
-end
-
-end A043252.P14215898316257938820
-
-/-!
-# A043253: Numbers k such that 5 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043253, there is no canonical definition to state claims against.
--/
-
-/-! ## A043253.P15740748492334603553
-
-`A007095(A043212(n+1))`
--/
-
-namespace A043253.P15740748492334603553
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043212 (n + 1)).toNat
-
-end
-
-end A043253.P15740748492334603553
-
-/-!
-# A043255: Numbers k such that 6 and 7 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043255, there is no canonical definition to state claims against.
--/
-
-/-! ## A043255.P16413794081255633733
-
-`A007095(A043213(n+1))`
--/
-
-namespace A043255.P16413794081255633733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043213 (n + 1)).toNat
-
-end
-
-end A043255.P16413794081255633733
-
 /-!
 # A043256: Numbers k such that 6 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
 
@@ -2532,83 +1744,11 @@ end
 
 end A043256.P6746582773161822504
 
-/-! ## A043256.P1541087995804510577
-
-`A007095(A043214(n+1))`
--/
-
-namespace A043256.P1541087995804510577
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A043214 (n + 1)).toNat
-
-end
-
-end A043256.P1541087995804510577
-
-/-!
-# A043257: Numbers k such that 6 and 9 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043257, there is no canonical definition to state claims against.
--/
-
-/-! ## A043257.P4560634194391282381
-
-`A044037(n+1)`
--/
-
-namespace A043257.P4560634194391282381
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044037 (n + 1)
-
-end
-
-end A043257.P4560634194391282381
-
-/-!
-# A043258: Numbers k such that 7 and 8 occur juxtaposed in the base-10 representation of k but not of k-1.
-
-The programs for A043258, there is no canonical definition to state claims against.
--/
-
-/-! ## A043258.P1634897866409464299
-
-`A044038(n+1)`
--/
-
-namespace A043258.P1634897866409464299
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044038 (n + 1)
-
-end
-
-end A043258.P1634897866409464299
-
 /-!
 # A043259: Numbers k such that 7 and 9 occur juxtaposed in the base-10 representation of k but not of k-1.
 
 The programs for A043259, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043259.P5964640324489324278
-
-`A044039(n+1)`
--/
-
-namespace A043259.P5964640324489324278
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044039 (n + 1)
-
-end
-
-end A043259.P5964640324489324278
 
 /-! ## A043259.P1231567098516990206
 
@@ -2667,7 +1807,7 @@ end A043260.P9067049080878799704
 /-!
 # A043261: Sum of the binary digits of the n-th base-2 palindrome.
 
-The programs for A043261, the canonical program `A043261.P11586141180231525670` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043261 has offset 1).
+The programs for A043261, the canonical program `A043261.P11586141180231525670` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043261 has offset 1).
 
 The definition of A043261 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2676,7 +1816,7 @@ The definition of A043261 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A057148(1+n), #]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A043261
@@ -3362,7 +2502,7 @@ end A043264.P10513457898970297439
 /-!
 # A043265: Sum of the digits of the n-th base 6 palindrome.
 
-The programs for A043265, the canonical program `A043265.P16558491353191641742` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043265 has offset 1).
+The programs for A043265, the canonical program `A043265.P16558491353191641742` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043265 has offset 1).
 
 The definition of A043265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3371,7 +2511,7 @@ The definition of A043265 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A118597(1+n), #]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A043265
@@ -4487,21 +3627,6 @@ end
 
 end A043273.P11958626867345376365
 
-/-! ## A043273.P9772052185259638266
-
-`A053834(A048325(n))`
--/
-
-namespace A043273.P9772052185259638266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053834 (A048325 n).toNat
-
-end
-
-end A043273.P9772052185259638266
-
 /-!
 # A043274: Sum of the digits of the n-th base 15 palindrome.
 
@@ -4522,21 +3647,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043274.P17399661017633119116
-
-/-! ## A043274.P12129249521979336015
-
-`A053835(A048326(n))`
--/
-
-namespace A043274.P12129249521979336015
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053835 (A048326 n).toNat
-
-end
-
-end A043274.P12129249521979336015
 
 /-!
 # A043275: Sum of the digits of the n-th base 16 palindrome.
@@ -5291,7 +4401,7 @@ end A043278.P1605451548792699187
 /-!
 # A043279: Maximal run length in base 5 representation of n.
 
-The programs for A043279, the canonical program `A043279.P17090456312154926930` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043279 has offset 1).
+The programs for A043279, the canonical program `A043279.P17090456312154926930` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043279 has offset 1).
 
 The definition of A043279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3906 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5323,7 +4433,7 @@ end A043279
 
 `A043283(A037468(1+n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A043279
@@ -5410,7 +4520,7 @@ end A043279
 /-!
 # A043280: Maximal run length in base 6 representation of n.
 
-The programs for A043280, the canonical program `A043280.P14008103423448566025` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043280 has offset 1).
+The programs for A043280, the canonical program `A043280.P14008103423448566025` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043280 has offset 1).
 
 The definition of A043280 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5419,7 +4529,7 @@ The definition of A043280 is `conjectured`: the Lean definition is a formula tha
 
 `A043283(A037472(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A043280
@@ -5931,21 +5041,6 @@ end
 
 end A043284.P4741143772930369428
 
-/-! ## A043284.P5651484568690053756
-
-`1+A044941(n+1)`
--/
-
-namespace A043284.P5651484568690053756
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A044941 (n + 1)
-
-end
-
-end A043284.P5651484568690053756
-
 /-! ## A043284.P17087547696929720362
 
 `round(ratio[A278566(A332550(n))])`
@@ -5997,7 +5092,7 @@ end A043284.P498897933417238744
 /-!
 # A043285: Maximal run length in base 11 representation of n.
 
-The programs for A043285, the canonical program `A043285.P5992412748016172201` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043285 has offset 1).
+The programs for A043285, the canonical program `A043285.P3545604117206483998` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043285 has offset 1).
 
 The definition of A043285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6057,129 +5152,6 @@ def P1546965028360689851.Spec : Prop :=
 
 end A043285
 
-/-! ## A043285.P5992412748016172201
-
-`1+val(n+1, 12)`
-
-The canonical program, it is in `Seq.B000.C008`.
--/
-
-namespace A043285
-
-/-- `1+val(n+1, 12)` -/
-def P5992412748016172201.Spec : Prop :=
-  ∀ n, (P5992412748016172201.a n : ℤ) = A043285 (n + 1)
-
-theorem P5992412748016172201.correct : P5992412748016172201.Spec := by
-  intro n
-  simp only [A043285, Nat.add_sub_cancel]
-
-end A043285
-
-/-! ## A043285.P8698524198504319580
-
-`Δ[A113763(n+1)]`
--/
-
-namespace A043285.P8698524198504319580
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113763 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043285.P8698524198504319580
-
-namespace A043285
-
-/-- `Δ[A113763(n+1)]` -/
-def P8698524198504319580.Spec : Prop :=
-  ∀ n, P8698524198504319580.a n = A043285 (n + 1)
-
-end A043285
-
-/-! ## A043285.P11414112306282094991
-
-`Δ[A023806(n+2)]`
--/
-
-namespace A043285.P11414112306282094991
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023806 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043285.P11414112306282094991
-
-namespace A043285
-
-/-- `Δ[A023806(n+2)]` -/
-def P11414112306282094991.Spec : Prop :=
-  ∀ n, P11414112306282094991.a n = A043285 (n + 1)
-
-end A043285
-
-/-! ## A043285.P5689762541995767053
-
-`Δ[A043651(n+2)]`
--/
-
-namespace A043285.P5689762541995767053
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043651 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043285.P5689762541995767053
-
-namespace A043285
-
-/-- `Δ[A043651(n+2)]` -/
-def P5689762541995767053.Spec : Prop :=
-  ∀ n, P5689762541995767053.a n = A043285 (n + 1)
-
-end A043285
-
-/-! ## A043285.P6749409544674003713
-
-`Δ[A043701(n+2)]`
--/
-
-namespace A043285.P6749409544674003713
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043701 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043285.P6749409544674003713
-
-namespace A043285
-
-/-- `Δ[A043701(n+2)]` -/
-def P6749409544674003713.Spec : Prop :=
-  ∀ n, P6749409544674003713.a n = A043285 (n + 1)
-
-end A043285
-
 /-! ## A043285.P3262727784655559767
 
 `val(A042869(n), 13)+1`
@@ -6206,26 +5178,19 @@ end A043285
 /-! ## A043285.P3545604117206483998
 
 `A100063(∑[A047201(n+7)])`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
-
-namespace A043285.P3545604117206483998
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047201 (n + 7)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100063 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A043285.P3545604117206483998
 
 namespace A043285
 
 /-- `A100063(∑[A047201(n+7)])` -/
 def P3545604117206483998.Spec : Prop :=
   ∀ n, P3545604117206483998.a n = A043285 (n + 1)
+
+theorem P3545604117206483998.correct : P3545604117206483998.Spec := by
+  intro n
+  simp only [A043285, Nat.add_sub_cancel]
 
 end A043285
 
@@ -6357,58 +5322,6 @@ The programs for A043286, the canonical program `A043286.P8083685496794825638` i
 
 The definition of A043286 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A043286.P7441442546332245346
-
-`Δ[A043657(2+n)]`
--/
-
-namespace A043286.P7441442546332245346
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043657 (2 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043286.P7441442546332245346
-
-namespace A043286
-
-/-- `Δ[A043657(2+n)]` -/
-def P7441442546332245346.Spec : Prop :=
-  ∀ n, P7441442546332245346.a n = A043286 (n + 1)
-
-end A043286
-
-/-! ## A043286.P10290594371379652773
-
-`Δ[A043702(2+n)]`
--/
-
-namespace A043286.P10290594371379652773
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043702 (2 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043286.P10290594371379652773
-
-namespace A043286
-
-/-- `Δ[A043702(2+n)]` -/
-def P10290594371379652773.Spec : Prop :=
-  ∀ n, P10290594371379652773.a n = A043286 (n + 1)
-
-end A043286
 
 /-! ## A043286.P2964352083388603597
 
@@ -6761,58 +5674,6 @@ def P11764241306904494228.Spec : Prop :=
 
 end A043287
 
-/-! ## A043287.P6212155469982913483
-
-`Δ[A043663(n+2)]`
--/
-
-namespace A043287.P6212155469982913483
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043663 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043287.P6212155469982913483
-
-namespace A043287
-
-/-- `Δ[A043663(n+2)]` -/
-def P6212155469982913483.Spec : Prop :=
-  ∀ n, P6212155469982913483.a n = A043287 (n + 1)
-
-end A043287
-
-/-! ## A043287.P10665545172849123801
-
-`Δ[A043703(n+2)]`
--/
-
-namespace A043287.P10665545172849123801
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043703 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043287.P10665545172849123801
-
-namespace A043287
-
-/-- `Δ[A043703(n+2)]` -/
-def P10665545172849123801.Spec : Prop :=
-  ∀ n, P10665545172849123801.a n = A043287 (n + 1)
-
-end A043287
-
 /-! ## A043287.P16355303422840842669
 
 `char[14*A300383(n+1)-1]+1`
@@ -6943,9 +5804,9 @@ end A043287
 /-!
 # A043288: Maximal run length in base-14 representation of n.
 
-The programs for A043288, the canonical program `A043288.P335549344883481070` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043288 has offset 1).
+The programs for A043288, the canonical program `A043288.P8571686919809726339` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043288 has offset 1).
 
-The definition of A043288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 195 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A043288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A043288.P2894743892399180961
@@ -7000,51 +5861,6 @@ namespace A043288
 /-- `A214708(Δ[A043704(n+2)]^ceil((n+1)/∏{p}[n+1, (n+1)/#]))` -/
 def P5025082266217717510.Spec : Prop :=
   ∀ n, P5025082266217717510.a n = A043288 (n + 1)
-
-end A043288
-
-/-! ## A043288.P335549344883481070
-
-`Δ[A043669(2+n)]`
-
-The canonical program, it is in `Seq.B006.C000`.
--/
-
-namespace A043288
-
-/-- `Δ[A043669(2+n)]` -/
-def P335549344883481070.Spec : Prop :=
-  ∀ n, P335549344883481070.a n = A043288 (n + 1)
-
-theorem P335549344883481070.correct : P335549344883481070.Spec := by
-  intro n
-  simp only [A043288, Nat.add_sub_cancel]
-
-end A043288
-
-/-! ## A043288.P8578290238147720400
-
-`Δ[A043704(2+n)]`
--/
-
-namespace A043288.P8578290238147720400
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043704 (2 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043288.P8578290238147720400
-
-namespace A043288
-
-/-- `Δ[A043704(2+n)]` -/
-def P8578290238147720400.Spec : Prop :=
-  ∀ n, P8578290238147720400.a n = A043288 (n + 1)
 
 end A043288
 
@@ -7276,23 +6092,19 @@ end A043288
 /-! ## A043288.P8571686919809726339
 
 `A177706(A032765(n))`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
-
-namespace A043288.P8571686919809726339
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177706 (A032765 n).toNat
-
-end
-
-end A043288.P8571686919809726339
 
 namespace A043288
 
 /-- `A177706(A032765(n))` -/
 def P8571686919809726339.Spec : Prop :=
   ∀ n, P8571686919809726339.a n = A043288 (n + 1)
+
+theorem P8571686919809726339.correct : P8571686919809726339.Spec := by
+  intro n
+  simp only [A043288, Nat.add_sub_cancel]
 
 end A043288
 
@@ -7431,58 +6243,6 @@ namespace A043289
 /-- `A071187(gcd(Δ[A043675(n+2)]!, A076413(n+1)))` -/
 def P16118394781775462950.Spec : Prop :=
   ∀ n, P16118394781775462950.a n = A043289 (n + 1)
-
-end A043289
-
-/-! ## A043289.P7643747296999416839
-
-`Δ[A043675(2+n)]`
--/
-
-namespace A043289.P7643747296999416839
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043675 (2 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043289.P7643747296999416839
-
-namespace A043289
-
-/-- `Δ[A043675(2+n)]` -/
-def P7643747296999416839.Spec : Prop :=
-  ∀ n, P7643747296999416839.a n = A043289 (n + 1)
-
-end A043289
-
-/-! ## A043289.P6750468918356007487
-
-`Δ[A043705(2+n)]`
--/
-
-namespace A043289.P6750468918356007487
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043705 (2 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A043289.P6750468918356007487
-
-namespace A043289
-
-/-- `Δ[A043705(2+n)]` -/
-def P6750468918356007487.Spec : Prop :=
-  ∀ n, P6750468918356007487.a n = A043289 (n + 1)
 
 end A043289
 
@@ -8303,7 +7063,7 @@ end A043290
 /-!
 # A043291: Every run length in base 2 is 2.
 
-The programs for A043291, the canonical program `A043291.P14424377653976249789` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043291 has offset 1).
+The programs for A043291, the canonical program `A043291.P14424377653976249789` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043291 has offset 1).
 
 The definition of A043291 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8335,7 +7095,7 @@ end A043291
 
 `4*a(n-1)+a(n-2)-4*a(n-3)` with `a(0)=3, a(1)=12, a(2)=51`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A043291
@@ -8953,7 +7713,7 @@ end A043293.P4420482420928042619
 /-!
 # A043294: Sum of digits of binomial(2n,n).
 
-The programs for A043294, the canonical program `A043294.P17313216890179425883` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043294 has offset 1).
+The programs for A043294, the canonical program `A043294.P17313216890179425883` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043294 has offset 1).
 
 The definition of A043294 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8962,7 +7722,7 @@ The definition of A043294 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[∏[2/(n+1)-4], #]`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A043294
@@ -9456,7 +8216,7 @@ end A043296
 /-!
 # A043297: Primes p such that B(4*p) has denominator 30 where B(2n) are the Bernoulli numbers.
 
-The programs for A043297, the canonical program `A043297.P1803761097073732209` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043297 has offset 1).
+The programs for A043297, the canonical program `A043297.P1803761097073732209` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043297 has offset 1).
 
 The definition of A043297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9465,7 +8225,7 @@ The definition of A043297 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A119480(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A043297

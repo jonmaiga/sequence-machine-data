@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
@@ -11,16 +12,18 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C020
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
+import Seq.B000.C030
 import Seq.B000.C037
-import Seq.B000.C045
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,17 +38,17 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -449,7 +452,7 @@ end A155211.P3914249665505351538
 /-!
 # A155212: a(n) = (n^2 + 9*n + 4)/2.
 
-The programs for A155212, the canonical program `A155212.P18289356943293586603` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155212 has offset 0).
+The programs for A155212, the canonical program `A155212.P18289356943293586603` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155212 has offset 0).
 
 The definition of A155212 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n²+9*n+4)/2` (program `A155212.P4387845708213689030`, by `A155212.P4387845708213689030.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -525,7 +528,7 @@ end A155212
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=2, a(1)=7, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A155212
@@ -1565,7 +1568,7 @@ end A155214.P16509261494534292111
 /-!
 # A155216: Number of decompositions of positive even numbers 2n into unordered sums of a prime and a prime or semiprime (Chen's partitions).
 
-The programs for A155216, the canonical program `A155216.P1128644809084863402` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155216 has offset 1).
+The programs for A155216, the canonical program `A155216.P1128644809084863402` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155216 has offset 1).
 
 The definition of A155216 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1574,7 +1577,7 @@ The definition of A155216 is `conjectured`: the Lean definition is a formula tha
 
 `A100949(2*(1+n))+A045917(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A155216
@@ -2219,57 +2222,6 @@ end
 end A155236.P1760827952944386914
 
 /-!
-# A155237: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,0 4,0 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155237, there is no canonical definition to state claims against.
--/
-
-/-! ## A155237.P12868348299221274840
-
-`A155278(n+5)`
--/
-
-namespace A155237.P12868348299221274840
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155278 (n + 5)
-
-end
-
-end A155237.P12868348299221274840
-
-/-! ## A155237.P4020261900281953583
-
-`A155330(n+6)`
--/
-
-namespace A155237.P4020261900281953583
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155330 (n + 6)
-
-end
-
-end A155237.P4020261900281953583
-
-/-! ## A155237.P12740533986274534683
-
-`A155386(n+7)`
--/
-
-namespace A155237.P12740533986274534683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155386 (n + 7)
-
-end
-
-end A155237.P12740533986274534683
-
-/-!
 # A155238: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 3,0 4,1 polyhexes in any orientation on a planar n X n X n triangular grid.
 
 The programs for A155238, there is no canonical definition to state claims against.
@@ -2310,27 +2262,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155239.P13607210686097631438
-
-/-!
-# A155240: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 3,2 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155240, there is no canonical definition to state claims against.
--/
-
-/-! ## A155240.P4980482134367598251
-
-`A155306(n+4)`
--/
-
-namespace A155240.P4980482134367598251
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155306 (n + 4)
-
-end
-
-end A155240.P4980482134367598251
 
 /-!
 # A155242: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 4,2 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -2450,27 +2381,6 @@ end
 end A155247.P6581089194206376007
 
 /-!
-# A155248: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 2,1 3,0 3,1 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155248, there is no canonical definition to state claims against.
--/
-
-/-! ## A155248.P2535194059657940787
-
-`A155367(n+5)`
--/
-
-namespace A155248.P2535194059657940787
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155367 (n + 5)
-
-end
-
-end A155248.P2535194059657940787
-
-/-!
 # A155249: Number of ways to place zero or more nonadjacent 0,0 1,0 1,1 2,0 2,1 2,2 polyhexes in any orientation on a planar nXnXn triangular grid.
 
 The programs for A155249, there is no canonical definition to state claims against.
@@ -2556,27 +2466,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A155250.P5220998216125903850
-
-/-!
-# A155251: Number of ways to place zero or more nonadjacent 1,0 1,1 2,1 2,2 3,1 4,1 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155251, there is no canonical definition to state claims against.
--/
-
-/-! ## A155251.P6665475810959584861
-
-`A155255(n+4)`
--/
-
-namespace A155251.P6665475810959584861
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155255 (n + 4)
-
-end
-
-end A155251.P6665475810959584861
 
 /-!
 # A155252: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 2,1 3,0 4,0 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -3035,42 +2924,6 @@ end
 end A155274.P9271186136811916779
 
 /-!
-# A155278: Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,0 4,0 5,0 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155278, there is no canonical definition to state claims against.
--/
-
-/-! ## A155278.P4020261900281953583
-
-`A155330(n+6)`
--/
-
-namespace A155278.P4020261900281953583
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155330 (n + 6)
-
-end
-
-end A155278.P4020261900281953583
-
-/-! ## A155278.P12740533986274534683
-
-`A155386(n+7)`
--/
-
-namespace A155278.P12740533986274534683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155386 (n + 7)
-
-end
-
-end A155278.P12740533986274534683
-
-/-!
 # A155279: Number of ways to place zero or more nonadjacent 1,0 1,1 2,0 3,0 4,0 5,1 polyhexes in any orientation on a planar nXnXn triangular grid.
 
 The programs for A155279, there is no canonical definition to state claims against.
@@ -3168,27 +3021,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155283.P17595893247793453719
-
-/-!
-# A155284: Number of ways to place zero or more nonadjacent 1,0 1,1 2,1 3,1 4,2 4,3 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155284, there is no canonical definition to state claims against.
--/
-
-/-! ## A155284.P2731410886607843907
-
-`A155304(n+4)`
--/
-
-namespace A155284.P2731410886607843907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155304 (n + 4)
-
-end
-
-end A155284.P2731410886607843907
 
 /-!
 # A155286: Number of ways to place zero or more nonadjacent 1,1 2,1 3,0 3,1 4,2 4,3 polyhexes in any orientation on a planar nXnXn triangular grid.
@@ -3336,27 +3168,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155291.P5128246545865137801
-
-/-!
-# A155292: Number of ways to place zero or more nonadjacent 1,1 2,0 2,1 3,1 4,2 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.
-
-The programs for A155292, there is no canonical definition to state claims against.
--/
-
-/-! ## A155292.P12530871851438684585
-
-`A155298(n+4)`
--/
-
-namespace A155292.P12530871851438684585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155298 (n + 4)
-
-end
-
-end A155292.P12530871851438684585
 
 /-!
 # A155293: Number of ways to place zero or more nonadjacent 1,1 2,1 3,0 3,1 4,2 5,2 polyhexes in any orientation on a planar nXnXn triangular grid.

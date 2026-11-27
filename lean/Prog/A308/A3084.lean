@@ -10,6 +10,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,29 +18,32 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,9 +60,11 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -67,15 +73,15 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B005.C003
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +93,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -1017,7 +1022,7 @@ end A308421.P9531625817202666060
 /-!
 # A308422: a(n) = n^2 if n odd, 3*n^2/4 if n even.
 
-The programs for A308422, the canonical program `A308422.P5686290696795046031` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308422 has offset 0).
+The programs for A308422, the canonical program `A308422.P5686290696795046031` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308422 has offset 0).
 
 The definition of A308422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1026,7 +1031,7 @@ The definition of A308422 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7-(-1)^n)*n²/8`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A308422
@@ -1712,21 +1717,6 @@ end A308426.P12751485463082558930
 The programs for A308427, there is no canonical definition to state claims against.
 -/
 
-/-! ## A308427.P1107930058130660436
-
-`A230980(A324190(n+1))`
--/
-
-namespace A308427.P1107930058130660436
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A230980 (A324190 (n + 1)).toNat
-
-end
-
-end A308427.P1107930058130660436
-
 /-! ## A308427.P17764708725853910961
 
 `A023967(A356231(n+1))`
@@ -1756,21 +1746,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308427.P6110147287244761713
-
-/-! ## A308427.P7861391377965864984
-
-`A276806(n+1)`
--/
-
-namespace A308427.P7861391377965864984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276806 (n + 1)
-
-end
-
-end A308427.P7861391377965864984
 
 /-! ## A308427.P2945039773181207144
 
@@ -2676,55 +2651,6 @@ end A308436.P8221386025927844203
 
 The programs for A308437, there is no canonical definition to state claims against.
 -/
-
-/-! ## A308437.P1281539594713507431
-
-`A059573(n+1)+char[11]`
--/
-
-namespace A308437.P1281539594713507431
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059573 (n + 1) + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A308437.P1281539594713507431
-
-/-! ## A308437.P8020269976944432134
-
-`or(A059573(n+1), A174903(n+1))`
--/
-
-namespace A308437.P8020269976944432134
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A059573 (n + 1)) (A174903 (n + 1))
-
-end
-
-end A308437.P8020269976944432134
-
-/-! ## A308437.P13208803914006590437
-
-`or(A304819(n+1)², A059573(n+1))`
--/
-
-namespace A308437.P13208803914006590437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A304819 (n + 1) ^ 2) (A059573 (n + 1))
-
-end
-
-end A308437.P13208803914006590437
 
 /-! ## A308437.P2263202163466143614
 
@@ -4387,7 +4313,7 @@ end A308464
 /-!
 # A308467: The smallest positive n-digit 4th power.
 
-The programs for A308467, the canonical program `A308467.P7652503042713339015` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308467 has offset 1).
+The programs for A308467, the canonical program `A308467.P7652503042713339015` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308467 has offset 1).
 
 The definition of A308467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4396,7 +4322,7 @@ The definition of A308467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(10^(n/4))^4`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A308467
@@ -4820,7 +4746,7 @@ end A308468.P897912083039201134
 /-!
 # A308469: a(1) = 1, a(2)=2, a(n) = a(n-1) + gcd(a(n-2), n-2).
 
-The programs for A308469, the canonical program `A308469.P16090462020291730428` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308469 has offset 1).
+The programs for A308469, the canonical program `A308469.P16090462020291730428` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308469 has offset 1).
 
 The definition of A308469 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+gcd(a(n-2), n-1)` (program `A308469.P16090462020291730428`, by `A308469.P16090462020291730428.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4829,7 +4755,7 @@ The definition of A308469 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+gcd(a(n-2), n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A308469

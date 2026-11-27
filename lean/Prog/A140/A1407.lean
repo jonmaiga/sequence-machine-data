@@ -25,13 +25,12 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -43,7 +42,10 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -76,13 +78,15 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1534,21 +1538,6 @@ end A140712
 
 The programs for A140715, there is no canonical definition to state claims against.
 -/
-
-/-! ## A140715.P10328645617530833576
-
-`A143117(n+1)-1`
--/
-
-namespace A140715.P10328645617530833576
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143117 (n + 1) - 1
-
-end
-
-end A140715.P10328645617530833576
 
 /-! ## A140715.P12658777212171546423
 
@@ -5583,21 +5572,6 @@ end
 
 end A140740.P17476498576863127641
 
-/-! ## A140740.P2822058571953469814
-
-`A280577(A089606(n+1))`
--/
-
-namespace A140740.P2822058571953469814
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280577 (A089606 (n + 1)).toNat
-
-end
-
-end A140740.P2822058571953469814
-
 /-! ## A140740.P7098129346351180994
 
 `A000005(A134145(∑[A008284(n+1)]))`
@@ -6467,21 +6441,6 @@ end
 
 end A140747.P18389265815936890552
 
-/-! ## A140747.P10602051005391275193
-
-`A330757(n+1)`
--/
-
-namespace A140747.P10602051005391275193
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330757 (n + 1)
-
-end
-
-end A140747.P10602051005391275193
-
 /-!
 # A140748: a(n) is the number of divisors of n that are not coprime to the next larger divisor of n.
 
@@ -6674,21 +6633,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A140750.P4863543996833248092
-
-/-! ## A140750.P6570110689652383385
-
-`A245212(A249095(n))`
--/
-
-namespace A140750.P6570110689652383385
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245212 (A249095 n).toNat
-
-end
-
-end A140750.P6570110689652383385
 
 /-! ## A140750.P6915608399924774731
 
@@ -7069,21 +7013,6 @@ end A140754.P12849643406340881211
 
 The programs for A140755, there is no canonical definition to state claims against.
 -/
-
-/-! ## A140755.P15742667217956800285
-
-`A273756(n+1)`
--/
-
-namespace A140755.P15742667217956800285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A273756 (n + 1)
-
-end
-
-end A140755.P15742667217956800285
 
 /-! ## A140755.P8185182512405599069
 
@@ -11149,7 +11078,7 @@ end A140775.P8928823018940633040
 /-!
 # A140776: A number n is included if (p + n/p) is prime, where p is the largest prime that divides n.
 
-The programs for A140776, the canonical program `A140776.P5718510351764920094` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140776 has offset 1).
+The programs for A140776, the canonical program `A140776.P5718510351764920094` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140776 has offset 1).
 
 The definition of A140776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1649 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11158,7 +11087,7 @@ The definition of A140776 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A064920(n+2)+1)]+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A140776

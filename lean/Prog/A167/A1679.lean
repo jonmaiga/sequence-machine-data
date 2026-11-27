@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -15,36 +16,39 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -62,15 +66,13 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -95,7 +97,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -673,7 +674,7 @@ end A167909.P12034593631451947911
 /-!
 # A167910: a(n) = (4*3^n - 5*2^n + (-2)^n)/20.
 
-The programs for A167910, the canonical program `A167910.P1736445513397883246` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167910 has offset 0).
+The programs for A167910, the canonical program `A167910.P1736445513397883246` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167910 has offset 0).
 
 The definition of A167910 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(4*3^n-5*2^n+(-2)^n)/20` (program `A167910.P1994386017248168589`, by `A167910.P1994386017248168589.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -705,7 +706,7 @@ end A167910
 
 `3*a(n-1)+4*a(n-2)-12*a(n-3)` with `a(0)=0, a(1)=0, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A167910
@@ -3744,7 +3745,7 @@ end A167948.P9995980201818219627
 /-!
 # A167963: a(n) = n*(n^5 + 1)/2.
 
-The programs for A167963, the canonical program `A167963.P13145154254571842283` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167963 has offset 0).
+The programs for A167963, the canonical program `A167963.P13145154254571842283` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167963 has offset 0).
 
 The definition of A167963 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A167963.anchor (n : ℕ) : (A167963 n : ℚ) = (n * (n ^ 5 + 1) : ℚ) / 2` in `Proof.A167.A167963`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3753,7 +3754,7 @@ The definition of A167963 is `verified`: an anchor theorem with a hand-written p
 
 `n*(n^5+1)/2`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A167963
@@ -4219,7 +4220,7 @@ end A167963
 /-!
 # A167964: Signature sequence of phi^8 = 0.021286236252208..., where phi is A094214.
 
-The programs for A167964, the canonical program `A167964.P17091979798249878903` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167964 has offset 1).
+The programs for A167964, the canonical program `A167964.P17091979798249878903` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167964 has offset 1).
 
 The definition of A167964 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4411,7 +4412,7 @@ end A167964
 
 `ceil(∑[and(1, n)-a(n-1)]/30)` with `a(0)=7, a(1)=1, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A167964
@@ -5320,21 +5321,6 @@ end
 
 end A167969.P6530266697124031851
 
-/-! ## A167969.P16528036845863926490
-
-`A110654(A194902(n+1))`
--/
-
-namespace A167969.P16528036845863926490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110654 (A194902 (n + 1)).toNat
-
-end
-
-end A167969.P16528036845863926490
-
 /-!
 # A167971: Signature sequence of Phi^3 = 4.2360679774998..., where Phi is the golden ratio 1.6180339887499... .
 
@@ -5437,21 +5423,6 @@ end A167971.P7524061508706980408
 The programs for A167972, there is no canonical definition to state claims against.
 -/
 
-/-! ## A167972.P2312638191491702228
-
-`A035215(A318588(n+1))`
--/
-
-namespace A167972.P2312638191491702228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035215 (A318588 (n + 1)).toNat
-
-end
-
-end A167972.P2312638191491702228
-
 /-! ## A167972.P1879858169348204366
 
 `A035182(A318588(n+1)%A335580(n+1))`
@@ -5538,30 +5509,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A167973.P11313838862763218277
-
-/-!
-# A167974: Signature sequence of Phi^6 = 17.944271909999..., where Phi is the golden ratio 1.6180339887499... .
-
-The programs for A167974, there is no canonical definition to state claims against.
--/
-
-/-! ## A167974.P686228945105732094
-
-`A025682(∑[1+n])+1`
--/
-
-namespace A167974.P686228945105732094
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025682 (∑ j ∈ Finset.range (n + 1), f1 j) + 1
-
-end
-
-end A167974.P686228945105732094
 
 /-!
 # A167975: Signature sequence of Phi^7 = 29.034441853749..., where Phi is the golden ratio 1.6180339887499... .
@@ -6152,29 +6099,6 @@ def P10677474923168882208.Spec : Prop :=
 
 end A167990
 
-/-! ## A167990.P10772342308746391073
-
-`(A155029(n+1)+(-1))*A174557(n+1)`
--/
-
-namespace A167990.P10772342308746391073
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A155029 (n + 1) + (-1)) * A174557 (n + 1)
-
-end
-
-end A167990.P10772342308746391073
-
-namespace A167990
-
-/-- `(A155029(n+1)+(-1))*A174557(n+1)` -/
-def P10772342308746391073.Spec : Prop :=
-  ∀ n, P10772342308746391073.a n = A167990 (n + 1)
-
-end A167990
-
 /-!
 # A167991: Blocks of size 2n, each with 2n-1 replicas of 2n followed by 2n+1; n=1, 2, 3, ...
 
@@ -6546,7 +6470,7 @@ end A167991
 /-!
 # A167993: Expansion of x^2/((3*x-1)*(3*x^2-1)).
 
-The programs for A167993, the canonical program `A167993.P5991641104029034736` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167993 has offset 0).
+The programs for A167993, the canonical program `A167993.P5991641104029034736` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167993 has offset 0).
 
 The definition of A167993 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(x^2/(1-3x-3x^2+9x^3))` (program `A167993.P5991641104029034736`, by `A167993.P5991641104029034736.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6555,7 +6479,7 @@ The definition of A167993 is `verified`: the Lean definition is proven equivalen
 
 `ogf(x^2/(1-3x-3x^2+9x^3))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A167993

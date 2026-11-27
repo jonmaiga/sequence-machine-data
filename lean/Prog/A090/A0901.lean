@@ -20,28 +20,25 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C045
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,16 +59,18 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
@@ -81,8 +80,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4291,27 +4288,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090141.P10393564690019439129
-
-/-!
-# A090144: Numbers n which when converted to some base between 2 and 9 yield a result with the same digits as n in a different order.
-
-The programs for A090144, there is no canonical definition to state claims against.
--/
-
-/-! ## A090144.P17219072486362762118
-
-`A162572(n+1)`
--/
-
-namespace A090144.P17219072486362762118
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162572 (n + 1)
-
-end
-
-end A090144.P17219072486362762118
 
 /-!
 # A090145: Even-indexed terms of the binomial transform equal 1 and the odd-indexed terms of the second binomial transform equal 1.
@@ -12176,6 +12152,29 @@ The programs for A090199, the canonical program `A090199.P11983814238188661416` 
 
 The definition of A090199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A090199.P15089525157990280729
+
+`ogf((1+126x+126x^2-154x^3+21x^4)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
+-/
+
+namespace A090199.P15089525157990280729
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 126, 126, -154, 21] [1, -6, 15, -20, 15, -6, 1] n
+
+end
+
+end A090199.P15089525157990280729
+
+namespace A090199
+
+/-- `ogf((1+126x+126x^2-154x^3+21x^4)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))` -/
+def P15089525157990280729.Spec : Prop :=
+  ∀ n, P15089525157990280729.a n = A090199 n
+
+end A090199
 
 /-! ## A090199.P11983814238188661416
 

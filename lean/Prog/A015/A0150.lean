@@ -5,35 +5,35 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -48,8 +48,9 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,7 +74,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -275,14 +275,14 @@ end A015000
 /-!
 # A015001: q-factorial numbers for q=3.
 
-The programs for A015001, the canonical program `A015001.P16715836200427200684` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015001 has offset 0).
+The programs for A015001, the canonical program `A015001.P4336605817624175512` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015001 has offset 0).
 
 The definition of A015001 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015001.P16715836200427200684
+/-! ## A015001.P4336605817624175512
 
-`(3^n-1)*a(n-1)/2` with `a(0)=1, a(1)=1`
+`(3^n-1)*a(n-1)/2` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -290,8 +290,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015001
 
 /-- `(3^n-1)*a(n-1)/2` -/
-def P16715836200427200684.Spec : Prop :=
-  ∀ n, P16715836200427200684.a n = (A015001 n : ℚ)
+def P4336605817624175512.Spec : Prop :=
+  ∀ n, P4336605817624175512.a n = (A015001 n : ℚ)
 
 end A015001
 
@@ -674,14 +674,14 @@ end A015004
 /-!
 # A015005: q-factorial numbers for q=6.
 
-The programs for A015005, the canonical program `A015005.P14610494491017664976` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015005 has offset 0).
+The programs for A015005, the canonical program `A015005.P15247733199297215773` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015005 has offset 0).
 
 The definition of A015005 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015005.P14610494491017664976
+/-! ## A015005.P15247733199297215773
 
-`(6^n-1)*a(n-1)/5` with `a(0)=1, a(1)=1`
+`(6^n-1)*a(n-1)/5` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -689,8 +689,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015005
 
 /-- `(6^n-1)*a(n-1)/5` -/
-def P14610494491017664976.Spec : Prop :=
-  ∀ n, P14610494491017664976.a n = (A015005 n : ℚ)
+def P15247733199297215773.Spec : Prop :=
+  ∀ n, P15247733199297215773.a n = (A015005 n : ℚ)
 
 end A015005
 
@@ -1055,14 +1055,14 @@ end A015007
 /-!
 # A015008: q-factorial numbers for q=9.
 
-The programs for A015008, the canonical program `A015008.P16246641068067880191` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015008 has offset 0).
+The programs for A015008, the canonical program `A015008.P16387147393766979612` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015008 has offset 0).
 
 The definition of A015008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015008.P16246641068067880191
+/-! ## A015008.P16387147393766979612
 
-`(9^n-1)*a(n-1)/8` with `a(0)=1`
+`(9^n-1)*a(n-1)/8` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -1070,8 +1070,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015008
 
 /-- `(9^n-1)*a(n-1)/8` -/
-def P16246641068067880191.Spec : Prop :=
-  ∀ n, P16246641068067880191.a n = (A015008 n : ℚ)
+def P16387147393766979612.Spec : Prop :=
+  ∀ n, P16387147393766979612.a n = (A015008 n : ℚ)
 
 end A015008
 
@@ -1182,14 +1182,14 @@ end A015008
 /-!
 # A015009: q-factorial numbers for q=10.
 
-The programs for A015009, the canonical program `A015009.P12255071492626218849` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015009 has offset 0).
+The programs for A015009, the canonical program `A015009.P3768471358616252661` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015009 has offset 0).
 
 The definition of A015009 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015009.P12255071492626218849
+/-! ## A015009.P3768471358616252661
 
-`(10^n-1)*a(n-1)/9` with `a(0)=1, a(1)=1`
+`(10^n-1)*a(n-1)/9` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -1197,8 +1197,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015009
 
 /-- `(10^n-1)*a(n-1)/9` -/
-def P12255071492626218849.Spec : Prop :=
-  ∀ n, P12255071492626218849.a n = (A015009 n : ℚ)
+def P3768471358616252661.Spec : Prop :=
+  ∀ n, P3768471358616252661.a n = (A015009 n : ℚ)
 
 end A015009
 
@@ -1390,14 +1390,14 @@ end A015010.P2902084585358545528
 /-!
 # A015011: q-factorial numbers for q=11.
 
-The programs for A015011, the canonical program `A015011.P876427803233427724` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015011 has offset 0).
+The programs for A015011, the canonical program `A015011.P4981731908642903968` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015011 has offset 0).
 
 The definition of A015011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A015011.P876427803233427724
+/-! ## A015011.P4981731908642903968
 
-`(11^n-1)*a(n-1)/10` with `a(0)=1, a(1)=1`
+`(11^n-1)*a(n-1)/10` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
@@ -1405,8 +1405,8 @@ The canonical program, it is in `Seq.B000.C003`.
 namespace A015011
 
 /-- `(11^n-1)*a(n-1)/10` -/
-def P876427803233427724.Spec : Prop :=
-  ∀ n, P876427803233427724.a n = (A015011 n : ℚ)
+def P4981731908642903968.Spec : Prop :=
+  ∀ n, P4981731908642903968.a n = (A015011 n : ℚ)
 
 end A015011
 
@@ -1767,66 +1767,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015014.P10426149212037912370
-
-/-! ## A015014.P10461142247029397841
-
-`A015074(n)`
--/
-
-namespace A015014.P10461142247029397841
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015074 n
-
-end
-
-end A015014.P10461142247029397841
-
-/-! ## A015014.P18255085139529969469
-
-`A015104(n)`
--/
-
-namespace A015014.P18255085139529969469
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015104 n
-
-end
-
-end A015014.P18255085139529969469
-
-/-! ## A015014.P2300588006402256707
-
-`A015194(n)`
--/
-
-namespace A015014.P2300588006402256707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015194 n
-
-end
-
-end A015014.P2300588006402256707
-
-/-! ## A015014.P9716873384055708087
-
-`A015254(n)`
--/
-
-namespace A015014.P9716873384055708087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015254 n
-
-end
-
-end A015014.P9716873384055708087
 
 /-!
 # A015015: q-factorial numbers for q=-3.
@@ -2470,21 +2410,6 @@ end
 
 end A015021.P4254713147516848730
 
-/-! ## A015021.P3689490101952116518
-
-`A015285(n)`
--/
-
-namespace A015021.P3689490101952116518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015285 n
-
-end
-
-end A015021.P3689490101952116518
-
 /-!
 # A015022: q-factorial numbers for q=-8.
 
@@ -2926,21 +2851,6 @@ end
 
 end A015029.P6130553906638420377
 
-/-! ## A015029.P676465392337837777
-
-`A015149(n)`
--/
-
-namespace A015029.P676465392337837777
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015149 n
-
-end
-
-end A015029.P676465392337837777
-
 /-!
 # A015030: q-Catalan numbers (binomial version) for q=2.
 
@@ -3223,51 +3133,6 @@ end
 
 end A015032.P9229990819340594569
 
-/-! ## A015032.P17251651947632531144
-
-`A015230(n)`
--/
-
-namespace A015032.P17251651947632531144
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015230 n
-
-end
-
-end A015032.P17251651947632531144
-
-/-! ## A015032.P18304862565555505587
-
-`A015362(n)`
--/
-
-namespace A015032.P18304862565555505587
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015362 n
-
-end
-
-end A015032.P18304862565555505587
-
-/-! ## A015032.P2525556042503315036
-
-`A015428(n)`
--/
-
-namespace A015032.P2525556042503315036
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015428 n
-
-end
-
-end A015032.P2525556042503315036
-
 /-!
 # A015033: q-Catalan numbers (binomial version) for q=3.
 
@@ -3471,21 +3336,6 @@ end
 
 end A015036.P18154634180682468019
 
-/-! ## A015036.P16331001021574905900
-
-`A015420(n+4)`
--/
-
-namespace A015036.P16331001021574905900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015420 (n + 4)
-
-end
-
-end A015036.P16331001021574905900
-
 /-! ## A015036.P8165356642215188609
 
 `A015166(lt[A015161(n), A228740(3*n+5)])`
@@ -3611,51 +3461,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015043.P8868322854221179023
-
-/-! ## A015043.P12310939794723914205
-
-`A015175(n)`
--/
-
-namespace A015043.P12310939794723914205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015175 n
-
-end
-
-end A015043.P12310939794723914205
-
-/-! ## A015043.P10973461033321437349
-
-`A015307(n)`
--/
-
-namespace A015043.P10973461033321437349
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015307 n
-
-end
-
-end A015043.P10973461033321437349
-
-/-! ## A015043.P10778331121072311175
-
-`A015351(n)`
--/
-
-namespace A015043.P10778331121072311175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015351 n
-
-end
-
-end A015043.P10778331121072311175
 
 /-!
 # A015044: Inverse of 1035th cyclotomic polynomial.
@@ -4005,7 +3810,7 @@ end A015049
 /-!
 # A015050: Let m = A013929(n); then a(n) = smallest k such that m divides k^3.
 
-The programs for A015050, the canonical program `A015050.P15472429519790437892` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015050 has offset 1).
+The programs for A015050, the canonical program `A015050.P15472429519790437892` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015050 has offset 1).
 
 The definition of A015050 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, A019555, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4014,7 +3819,7 @@ The definition of A015050 is `conditional`: the Lean definition is an OEIS formu
 
 `A019555(A013929(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A015050
@@ -5167,21 +4972,6 @@ end
 
 end A015073.P13002886509570469228
 
-/-! ## A015073.P14764592252998498355
-
-`A015297(n)`
--/
-
-namespace A015073.P14764592252998498355
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015297 n
-
-end
-
-end A015073.P14764592252998498355
-
 /-!
 # A015074: Inverse of 1065th cyclotomic polynomial.
 
@@ -5217,21 +5007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015074.P4635254189260115220
-
-/-! ## A015074.P9716873384055708087
-
-`A015254(n)`
--/
-
-namespace A015074.P9716873384055708087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015254 n
-
-end
-
-end A015074.P9716873384055708087
 
 /-! ## A015074.P3849831851914413781
 
@@ -5637,66 +5412,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015080.P14806709157036163478
-
-/-! ## A015080.P12824867071792126321
-
-`A015206(n)`
--/
-
-namespace A015080.P12824867071792126321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015206 n
-
-end
-
-end A015080.P12824867071792126321
-
-/-! ## A015080.P15073846672248125517
-
-`A015458(n)`
--/
-
-namespace A015080.P15073846672248125517
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015458 n
-
-end
-
-end A015080.P15073846672248125517
-
-/-! ## A015080.P9232147125725791099
-
-`A015836(n)`
--/
-
-namespace A015080.P9232147125725791099
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015836 n
-
-end
-
-end A015080.P9232147125725791099
-
-/-! ## A015080.P10920086727017156608
-
-`A015962(n)`
--/
-
-namespace A015080.P10920086727017156608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015962 n
-
-end
-
-end A015080.P10920086727017156608
 
 /-!
 # A015082: Inverse of 1073rd cyclotomic polynomial.

@@ -15,24 +15,26 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C023
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,19 +57,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2536,27 +2539,6 @@ end
 
 end A046510.P18109489102571025380
 
-/-! ## A046510.P2375820280724756280
-
-`eq[1, A335808(n)]`
--/
-
-namespace A046510.P2375820280724756280
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335808 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A046510.P2375820280724756280
-
 /-!
 # A046511: Numbers with multiplicative persistence value 2.
 
@@ -2844,27 +2826,6 @@ end
 
 end A046512.P2604460026564216175
 
-/-! ## A046512.P7526423360675989167
-
-`eq[3, A335808(n)]`
--/
-
-namespace A046512.P7526423360675989167
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335808 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A046512.P7526423360675989167
-
 /-!
 # A046513: Numbers with multiplicative persistence value 4.
 
@@ -3138,21 +3099,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A046516.P2921831803780027506
-
-/-! ## A046516.P12590445305619370237
-
-`A199997(n+1)`
--/
-
-namespace A046516.P12590445305619370237
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A199997 (n + 1)
-
-end
-
-end A046516.P12590445305619370237
 
 /-!
 # A046517: Numbers with multiplicative persistence value 8.
@@ -4335,16 +4281,16 @@ end A046522
 /-!
 # A046523: Smallest number with same prime signature as n.
 
-The programs for A046523, the canonical program `A046523.P3407874444772092792` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046523 has offset 1).
+The programs for A046523, the canonical program `A046523.P3407874444772092792` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046523 has offset 1).
 
-The definition of A046523 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, A181821, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A046523 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A046523.P3407874444772092792
 
 `A181821(A181819(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A046523
@@ -4799,7 +4745,7 @@ end A046523
 /-!
 # A046524: Number of coverings of Klein bottle with n lists.
 
-The programs for A046524, the canonical program `A046524.P2188047089783141020` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046524 has offset 1).
+The programs for A046524, the canonical program `A046524.P2188047089783141020` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046524 has offset 1).
 
 The definition of A046524 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4808,7 +4754,7 @@ The definition of A046524 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[1+n, A008619(A133622(#))]`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046524
@@ -5600,21 +5546,6 @@ end
 
 end A046532.P12019873248384368351
 
-/-! ## A046532.P4735417720089821976
-
-`A323467(A046581(n+1))`
--/
-
-namespace A046532.P4735417720089821976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323467 (A046581 (n + 1)).toNat
-
-end
-
-end A046532.P4735417720089821976
-
 /-!
 # A046533: First denominator and then numerator of 1/2-Pascal triangle (by row), excluding 2's.
 
@@ -5636,21 +5567,6 @@ end
 
 end A046533.P10155254437075878505
 
-/-! ## A046533.P14020658371567842370
-
-`A226190(A046582(n+1))`
--/
-
-namespace A046533.P14020658371567842370
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226190 (A046582 (n + 1)).toNat
-
-end
-
-end A046533.P14020658371567842370
-
 /-!
 # A046534: First numerator and then denominator of the 1/3-Pascal triangle (by row). To get a 1/3-Pascal triangle, replace "2" in the third row of the Pascal triangle with "1/3" and calculate all other rows as in the Pascal triangle.
 
@@ -5671,21 +5587,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046534.P7802780111300068417
-
-/-! ## A046534.P1170937357652035181
-
-`A004396(A046601(n+1))`
--/
-
-namespace A046534.P1170937357652035181
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004396 (A046601 (n + 1)).toNat
-
-end
-
-end A046534.P1170937357652035181
 
 /-!
 # A046535: First denominator and then numerator of each element of the 1/3-Pascal triangle (by row).
@@ -7474,21 +7375,6 @@ end
 
 end A046563.P11712747090262872891
 
-/-! ## A046563.P12262253320878706209
-
-`A046591(n+1)`
--/
-
-namespace A046563.P12262253320878706209
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046591 (n + 1)
-
-end
-
-end A046563.P12262253320878706209
-
 /-!
 # A046564: First denominator and then numerator of each element of the 1/4-Pascal triangle (by row).
 
@@ -7587,21 +7473,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046565.P15069366929455047491
-
-/-! ## A046565.P1581708253833089093
-
-`A046566(A065190(n+1))`
--/
-
-namespace A046565.P1581708253833089093
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046566 (A065190 (n + 1)).toNat
-
-end
-
-end A046565.P1581708253833089093
 
 /-!
 # A046566: First denominator and then numerator of the 1/4-Pascal triangle (by row), excluding 1's.

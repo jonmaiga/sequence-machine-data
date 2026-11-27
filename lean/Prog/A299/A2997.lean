@@ -9,24 +9,24 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C029
-import Seq.B000.C037
+import Seq.B000.C030
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +39,6 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -50,15 +49,17 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,6 +73,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -2300,21 +2302,6 @@ end
 
 end A299753.P6917629628059713669
 
-/-! ## A299753.P20812072826504707
-
-`A300267(n+1)`
--/
-
-namespace A299753.P20812072826504707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300267 (n + 1)
-
-end
-
-end A299753.P20812072826504707
-
 /-!
 # A299754: Number of distinct sums of n complex n-th roots of 1.
 
@@ -3492,16 +3479,16 @@ end A299764.P3771699265608793919
 /-!
 # A299766: Greatest odd noncomposite divisor of n.
 
-The programs for A299766, the canonical program `A299766.P1328271149826463585` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
+The programs for A299766, the canonical program `A299766.P1328271149826463585` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
 
-The definition of A299766 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A299766 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A299766.P1328271149826463585
 
 `A006530(A000265(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A299766
@@ -5659,57 +5646,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299792.P7374863196547078450
-
-/-!
-# A299794: Number of ways to write n^2 as x^2 + y^2 + z^2 + w^2 with x >= y >= 0 <= z <= w such that x or 2*y is a power of 4 (including 4^0 = 1) and x + 15*y is also a power of 4.
-
-The programs for A299794, there is no canonical definition to state claims against.
--/
-
-/-! ## A299794.P5958350552139007261
-
-`A300356(2*(n+1))`
--/
-
-namespace A299794.P5958350552139007261
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300356 (2 * (n + 1))
-
-end
-
-end A299794.P5958350552139007261
-
-/-! ## A299794.P15642706041715558025
-
-`A300360(2*(n+1))`
--/
-
-namespace A299794.P15642706041715558025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300360 (2 * (n + 1))
-
-end
-
-end A299794.P15642706041715558025
-
-/-! ## A299794.P17044797080869429866
-
-`A300396(2*(n+1))`
--/
-
-namespace A299794.P17044797080869429866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300396 (2 * (n + 1))
-
-end
-
-end A299794.P17044797080869429866
 
 /-!
 # A299795: Numbers of the form p*2^(p-1) where p is prime.

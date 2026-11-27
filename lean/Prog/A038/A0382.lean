@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -24,21 +23,21 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,15 +56,14 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B007.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C005
@@ -81,7 +79,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -9779,7 +9777,7 @@ end A038228
 /-!
 # A038229: Triangle whose (i,j)-th entry is binomial(i,j)*3^(i-j)*11^j.
 
-The programs for A038229, the canonical program `A038229.P16179588272599030162` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038229 has offset 0).
+The programs for A038229, the canonical program `A038229.P16179588272599030162` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038229 has offset 0).
 
 The definition of A038229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4067 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9811,7 +9809,7 @@ end A038229
 
 `A013618(n)*A140303(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038229
@@ -12877,7 +12875,7 @@ end A038235
 /-!
 # A038236: Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*6^j.
 
-The programs for A038236, the canonical program `A038236.P5554220315760387373` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038236 has offset 0).
+The programs for A038236, the canonical program `A038236.P5554220315760387373` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038236 has offset 0).
 
 The definition of A038236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5305 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12909,7 +12907,7 @@ end A038236
 
 `A036561(n)*A038208(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038236
@@ -14005,7 +14003,7 @@ end A038238
 /-!
 # A038239: Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*9^j.
 
-The programs for A038239, the canonical program `A038239.P16420463137512601868` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038239 has offset 0).
+The programs for A038239, the canonical program `A038239.P16420463137512601868` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038239 has offset 0).
 
 The definition of A038239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14060,7 +14058,7 @@ end A038239
 
 `A013620(n)*A036561(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038239
@@ -14282,9 +14280,9 @@ def P12177937464783432518.Spec : Prop :=
 
 theorem P12177937464783432518.correct : P12177937464783432518.Spec := by
   intro n
-  simp only [A038239, Nat.add_sub_cancel, A038239.P12177937464783432518.a, A038239.P16420463137512601868.a, A013620, A013620.P1203707902224045086.a, A036561, A036561.P7490084913005378529.a, A094617, A094617.P8506004990279302888.a, A002260, A002260.P9170571874073898642.a, A004736, A004736.P10337537277358081527.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, SequenceMachineLib.memo_apply]
+  simp only [A038239, Nat.add_sub_cancel, A038239.P12177937464783432518.a, A038239.P16420463137512601868.a, A013620, A013620.P1203707902224045086.a, A036561, A036561.P15934191307956815672.a, A094617, A094617.P8506004990279302888.a, SequenceMachineLib.memo_apply]
   try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A038239
 
@@ -15265,7 +15263,7 @@ end A038241
 /-!
 # A038242: Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*12^j.
 
-The programs for A038242, the canonical program `A038242.P689435181887055728` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038242 has offset 0).
+The programs for A038242, the canonical program `A038242.P689435181887055728` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038242 has offset 0).
 
 The definition of A038242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3630 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15320,7 +15318,7 @@ end A038242
 
 `A036561(n)*A038210(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038242
@@ -20532,7 +20530,7 @@ end A038256
 /-!
 # A038257: Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*3^j.
 
-The programs for A038257, the canonical program `A038257.P13466949147217766730` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038257 has offset 0).
+The programs for A038257, the canonical program `A038257.P13466949147217766730` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038257 has offset 0).
 
 The definition of A038257 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5704 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20587,7 +20585,7 @@ end A038257
 
 `A027465(n)*A036561(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038257
@@ -22891,7 +22889,7 @@ end A038262
 /-!
 # A038263: Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*9^j.
 
-The programs for A038263, the canonical program `A038263.P7438079468923778165` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038263 has offset 0).
+The programs for A038263, the canonical program `A038263.P7438079468923778165` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038263 has offset 0).
 
 The definition of A038263 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3790 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22946,7 +22944,7 @@ end A038263
 
 `A036561(n)*A038221(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038263
@@ -23658,7 +23656,7 @@ end A038264
 /-!
 # A038265: Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*11^j.
 
-The programs for A038265, the canonical program `A038265.P17989473238907539147` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038265 has offset 0).
+The programs for A038265, the canonical program `A038265.P17989473238907539147` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038265 has offset 0).
 
 The definition of A038265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3530 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23690,7 +23688,7 @@ end A038265
 
 `A038229(n)*A130321(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A038265
@@ -23869,7 +23867,7 @@ end A038265
 /-!
 # A038266: Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*12^j.
 
-The programs for A038266, the canonical program `A038266.P12892791961704358879` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038266 has offset 0).
+The programs for A038266, the canonical program `A038266.P12892791961704358879` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038266 has offset 0).
 
 The definition of A038266 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3368 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23924,7 +23922,7 @@ end A038266
 
 `A036561(n)*A038222(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038266
@@ -28120,7 +28118,7 @@ end A038280
 /-!
 # A038281: Triangle whose (i,j)-th entry is binomial(i,j)*8^(i-j)*3^j.
 
-The programs for A038281, the canonical program `A038281.P5950782525459084005` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038281 has offset 0).
+The programs for A038281, the canonical program `A038281.P5950782525459084005` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038281 has offset 0).
 
 The definition of A038281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4869 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -28152,7 +28150,7 @@ end A038281
 
 `A036561(n)*A038231(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038281
@@ -31595,7 +31593,7 @@ end A038289
 /-!
 # A038290: Triangle whose (i,j)-th entry is binomial(i,j)*8^(i-j)*12^j.
 
-The programs for A038290, the canonical program `A038290.P9369119644896590896` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038290 has offset 0).
+The programs for A038290, the canonical program `A038290.P9369119644896590896` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038290 has offset 0).
 
 The definition of A038290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -31627,7 +31625,7 @@ end A038290
 
 `A036561(n)*A038234(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038290
@@ -34714,7 +34712,7 @@ end A038296
 /-!
 # A038297: Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*7^j.
 
-The programs for A038297, the canonical program `A038297.P5251436414743647897` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038297 has offset 0).
+The programs for A038297, the canonical program `A038297.P5251436414743647897` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038297 has offset 0).
 
 The definition of A038297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3604 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -34746,7 +34744,7 @@ end A038297
 
 `A013624(n)*A140303(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038297

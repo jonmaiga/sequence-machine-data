@@ -13,28 +13,31 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,6 +47,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -63,10 +67,12 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -74,11 +80,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -428,21 +431,6 @@ end A026403.P3266378853989259339
 
 The programs for A026405, there is no canonical definition to state claims against.
 -/
-
-/-! ## A026405.P11562410655909996194
-
-`A034887(A102487(n+2))`
--/
-
-namespace A026405.P11562410655909996194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034887 (A102487 (n + 2)).toNat
-
-end
-
-end A026405.P11562410655909996194
 
 /-! ## A026405.P16151939508228899429
 
@@ -821,21 +809,6 @@ end A026408.P5753388022390086094
 
 The programs for A026409, there is no canonical definition to state claims against.
 -/
-
-/-! ## A026409.P6869866879976306875
-
-`xor(A026400(n+1), A243966(n))`
--/
-
-namespace A026409.P6869866879976306875
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A026400 (n + 1)) (A243966 n)
-
-end
-
-end A026409.P6869866879976306875
 
 /-! ## A026409.P9975859189957103565
 
@@ -1217,40 +1190,6 @@ end A026415.P12411958695913146129
 
 The programs for A026416, there is no canonical definition to state claims against.
 -/
-
-/-! ## A026416.P18134131348663572611
-
-`A123193(1+n)`
--/
-
-namespace A026416.P18134131348663572611
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123193 (1 + n)
-
-end
-
-end A026416.P18134131348663572611
-
-/-! ## A026416.P5698253422275608662
-
-`comp[A123240(n+1)-1]+1`
--/
-
-namespace A026416.P5698253422275608662
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123240 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A026416.P5698253422275608662
 
 /-! ## A026416.P17656022481359517075
 
@@ -1639,27 +1578,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026419.P5384799677689352064
-
-/-!
-# A026420: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 2,4.
-
-The programs for A026420, there is no canonical definition to state claims against.
--/
-
-/-! ## A026420.P762405684308233928
-
-`A026479(n+2)`
--/
-
-namespace A026420.P762405684308233928
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026479 (n + 2)
-
-end
-
-end A026420.P762405684308233928
 
 /-!
 # A026421: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 3,4.
@@ -3273,27 +3191,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026425.P11336717764108447119
-
-/-!
-# A026426: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<=j<=n, n >= 2.
-
-The programs for A026426, there is no canonical definition to state claims against.
--/
-
-/-! ## A026426.P17588154135414933345
-
-`1+A026506(n+1)`
--/
-
-namespace A026426.P17588154135414933345
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A026506 (n + 1)
-
-end
-
-end A026426.P17588154135414933345
 
 /-!
 # A026427: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j) for 1<=i<=j<=n.
@@ -6445,27 +6342,6 @@ end
 
 end A026447.P5659959214872641210
 
-/-! ## A026447.P7875900240304631291
-
-`3+lt[A000005(2*(n+1)), 8]`
--/
-
-namespace A026447.P7875900240304631291
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (2 * (n + 1))
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 + SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A026447.P7875900240304631291
-
 /-!
 # A026448: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for i<=1<=j<=n.
 
@@ -7564,21 +7440,6 @@ end A026456.P11523214934305073706
 The programs for A026457, there is no canonical definition to state claims against.
 -/
 
-/-! ## A026457.P10838312184429792230
-
-`A171944(n+1)+2`
--/
-
-namespace A026457.P10838312184429792230
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171944 (n + 1) + 2
-
-end
-
-end A026457.P10838312184429792230
-
 /-! ## A026457.P14481667832471296783
 
 `∑[A014675(2*A195024(n))]`
@@ -8226,21 +8087,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026461.P11974635953444301531
-
-/-! ## A026461.P14236522768728936204
-
-`A325442(n+1)+1`
--/
-
-namespace A026461.P14236522768728936204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325442 (n + 1) + 1
-
-end
-
-end A026461.P14236522768728936204
 
 /-! ## A026461.P29482691107165417
 
@@ -10572,21 +10418,6 @@ end
 
 end A026481.P2206148971030087625
 
-/-! ## A026481.P1425577301807847093
-
-`A026417(n+1)`
--/
-
-namespace A026481.P1425577301807847093
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026417 (n + 1)
-
-end
-
-end A026481.P1425577301807847093
-
 /-!
 # A026482: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k<n.
 
@@ -12833,27 +12664,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026496.P10977610212963256317
-
-/-! ## A026496.P11896867870713885240
-
-`lt[A257653(n), 1]`
--/
-
-namespace A026496.P11896867870713885240
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257653 n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A026496.P11896867870713885240
 
 /-! ## A026496.P7110225179069321448
 

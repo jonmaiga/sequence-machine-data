@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -24,7 +25,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,18 +33,19 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -74,15 +75,16 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3987,7 +3989,7 @@ end A141324
 
 The programs for A141325, the canonical program `A141325.P2371812307783591660` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141325 has offset 0).
 
-The definition of A141325 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A141325 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(n)+A131531(n+3)` (program `A141325.P2371812307783591660`, by `A141325.P2371812307783591660.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A141325.P14929550133079884747
@@ -5056,21 +5058,6 @@ end
 
 end A141332.P799904849043591949
 
-/-! ## A141332.P9121342311051785490
-
-`A141333(n+1)*(-1)+n`
--/
-
-namespace A141332.P9121342311051785490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141333 (n + 1) * (-1) + (n : ℤ)
-
-end
-
-end A141332.P9121342311051785490
-
 /-! ## A141332.P18119288259346693715
 
 `abs(A141333(n+1)+A001489(n))`
@@ -5266,21 +5253,6 @@ end
 
 end A141334.P11325060424479303607
 
-/-! ## A141334.P14005693306443954961
-
-`gcd(A141335(n+1)+A001489(n), 0)`
--/
-
-namespace A141334.P14005693306443954961
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A141335 (n + 1) + A001489 n) 0
-
-end
-
-end A141334.P14005693306443954961
-
 /-! ## A141334.P13608926052881684520
 
 `lcm(A141335(n+1)+A001489(n), A033999(n))`
@@ -5379,21 +5351,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A141335.P5384851896936653044
-
-/-! ## A141335.P1226298379604917548
-
-`(A141334(n+1)+A001489(n))/(-1)`
--/
-
-namespace A141335.P1226298379604917548
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A141334 (n + 1) + A001489 n : ℚ) / (-1)
-
-end
-
-end A141335.P1226298379604917548
 
 /-! ## A141335.P17949842112370556675
 
@@ -9960,21 +9917,6 @@ end A141359.P11372308236042032485
 The programs for A141360, there is no canonical definition to state claims against.
 -/
 
-/-! ## A141360.P15749560226544329270
-
-`A162659(n)-A052722(n)`
--/
-
-namespace A141360.P15749560226544329270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162659 n - A052722 n
-
-end
-
-end A141360.P15749560226544329270
-
 /-! ## A141360.P6190880891741280100
 
 `A319630(A001833(n)-A333700(n+1))`
@@ -10077,29 +10019,6 @@ def P16742336055309194620.Spec : Prop :=
 theorem P16742336055309194620.correct : P16742336055309194620.Spec := by
   intro n
   simp only [A141364]
-
-end A141364
-
-/-! ## A141364.P10513001378758641678
-
-`-1-A115141(n+1)`
--/
-
-namespace A141364.P10513001378758641678
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 - A115141 (n + 1)
-
-end
-
-end A141364.P10513001378758641678
-
-namespace A141364
-
-/-- `-1-A115141(n+1)` -/
-def P10513001378758641678.Spec : Prop :=
-  ∀ n, P10513001378758641678.a n = A141364 n
 
 end A141364
 
@@ -10870,21 +10789,6 @@ end A141370.P3629853687287243745
 
 The programs for A141371, there is no canonical definition to state claims against.
 -/
-
-/-! ## A141371.P5105536051194376119
-
-`floor(A107708(n)/(n+3))+1`
--/
-
-namespace A141371.P5105536051194376119
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A107708 n : ℚ) / (n + 3 : ℚ)⌋ + 1
-
-end
-
-end A141371.P5105536051194376119
 
 /-! ## A141371.P5316252414884557260
 

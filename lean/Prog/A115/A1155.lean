@@ -21,25 +21,25 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +51,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -67,6 +66,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -76,10 +76,7 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +87,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -98,7 +94,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -695,7 +690,7 @@ end A115511.P17269352053514241317
 /-!
 # A115512: Number triangle (1,x)+(x,x^3) expressed in terms of Riordan arrays.
 
-The programs for A115512, the canonical program `A115512.P17971829937860406712` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115512 has offset 0).
+The programs for A115512, the canonical program `A115512.P17971829937860406712` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115512 has offset 0).
 
 The definition of A115512 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9859 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -806,7 +801,7 @@ end A115512
 
 `A117198(A183572(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A115512
@@ -920,32 +915,6 @@ namespace A115512
 /-- `abs(A010815(2*A083920(n)+n+1))` -/
 def P393193380317803492.Spec : Prop :=
   ∀ n, P393193380317803492.a n = A115512 n
-
-end A115512
-
-/-! ## A115512.P7252222516405176907
-
-`0^Δ[A062707(n)]²`
--/
-
-namespace A115512.P7252222516405176907
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062707 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (0 : ℚ) ^ ((f1 (n + 1) - f1 n) ^ 2 : ℤ)
-
-end
-
-end A115512.P7252222516405176907
-
-namespace A115512
-
-/-- `0^Δ[A062707(n)]²` -/
-def P7252222516405176907.Spec : Prop :=
-  ∀ n, P7252222516405176907.a n = (A115512 n : ℚ)
 
 end A115512
 
@@ -4036,9 +4005,9 @@ end A115560.P13817184800122111033
 /-!
 # A115561: a(n) = lpf((n/lpf(n))/lpf(n/lpf(n))), where lpf=A020639, least prime factor.
 
-The programs for A115561, the canonical program `A115561.P2240366611019160350` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115561 has offset 1).
+The programs for A115561, the canonical program `A115561.P2240366611019160350` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115561 has offset 1).
 
-The definition of A115561 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020639, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A115561 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A020639((n+1)/A020639(n+1)/A020639((n+1)/A020639(n+1)))` (program `A115561.P2240366611019160350`, by `A115561.P2240366611019160350.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A115561.P14023101975619189765
@@ -4068,7 +4037,7 @@ end A115561
 
 `A020639((n+1)/A020639(n+1)/A020639((n+1)/A020639(n+1)))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A115561
@@ -5513,24 +5482,6 @@ end
 
 end A115569.P11750538827197507126
 
-/-! ## A115569.P6938293858970855091
-
-`record[A351868(A034838(n+1))]`
--/
-
-namespace A115569.P6938293858970855091
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351868 (A034838 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A115569.P6938293858970855091
-
 /-! ## A115569.P12197480079941246484
 
 `record[A071785(A343681(n+1))%A144427(n+1)]`
@@ -5569,51 +5520,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115570.P12968338157851210922
-
-/-! ## A115570.P14856503190123002922
-
-`A115577(1+n)`
--/
-
-namespace A115570.P14856503190123002922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115577 (1 + n)
-
-end
-
-end A115570.P14856503190123002922
-
-/-! ## A115570.P3969770166783722886
-
-`A115574(n+1)`
--/
-
-namespace A115570.P3969770166783722886
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115574 (n + 1)
-
-end
-
-end A115570.P3969770166783722886
-
-/-! ## A115570.P190097294144013675
-
-`A115583(n+1)`
--/
-
-namespace A115570.P190097294144013675
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115583 (n + 1)
-
-end
-
-end A115570.P190097294144013675
 
 /-! ## A115570.P9034946388121900907
 
@@ -5724,57 +5630,6 @@ end
 end A115571.P5196577253540170641
 
 /-!
-# A115572: Array read by rows: row n (>= 1) gives the Betti numbers for the n-th element of the Weyl group of type A4 (in Goresky's standard ordering).
-
-The programs for A115572, there is no canonical definition to state claims against.
--/
-
-/-! ## A115572.P1141855178076169105
-
-`A115576(n+1)`
--/
-
-namespace A115572.P1141855178076169105
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115576 (n + 1)
-
-end
-
-end A115572.P1141855178076169105
-
-/-! ## A115572.P3221887358238572134
-
-`A115581(n+1)`
--/
-
-namespace A115572.P3221887358238572134
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115581 (n + 1)
-
-end
-
-end A115572.P3221887358238572134
-
-/-! ## A115572.P9026231000009313420
-
-`A115575(n+1)`
--/
-
-namespace A115572.P9026231000009313420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115575 (n + 1)
-
-end
-
-end A115572.P9026231000009313420
-
-/-!
 # A115573: Array read by rows: row n (>= 1) gives the Betti numbers for the n-th element of the Weyl group of type A_5 (in Goresky's standard ordering).
 
 The programs for A115573, there is no canonical definition to state claims against.
@@ -5827,21 +5682,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115573.P15913506727678905370
-
-/-! ## A115573.P384160651736843220
-
-`A347516(2*n+3)`
--/
-
-namespace A115573.P384160651736843220
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347516 (2 * n + 3)
-
-end
-
-end A115573.P384160651736843220
 
 /-! ## A115573.P6709227889926208001
 
@@ -6043,21 +5883,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115576.P18057232160395692948
-
-/-! ## A115576.P3221887358238572134
-
-`A115581(n+1)`
--/
-
-namespace A115576.P3221887358238572134
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115581 (n + 1)
-
-end
-
-end A115576.P3221887358238572134
 
 /-!
 # A115578: Array read by rows: row n (>= 1) gives the Betti numbers for the n-th element of the affine Weyl group of type A3_tilde (in Goresky's standard ordering).
@@ -6399,87 +6224,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A115582.P15240216681569166285
-
-/-! ## A115582.P17781865461882157022
-
-`A115572(n+1)`
--/
-
-namespace A115582.P17781865461882157022
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115572 (n + 1)
-
-end
-
-end A115582.P17781865461882157022
-
-/-! ## A115582.P9026231000009313420
-
-`A115575(n+1)`
--/
-
-namespace A115582.P9026231000009313420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115575 (n + 1)
-
-end
-
-end A115582.P9026231000009313420
-
-/-! ## A115582.P1141855178076169105
-
-`A115576(n+1)`
--/
-
-namespace A115582.P1141855178076169105
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115576 (n + 1)
-
-end
-
-end A115582.P1141855178076169105
-
-/-! ## A115582.P3221887358238572134
-
-`A115581(n+1)`
--/
-
-namespace A115582.P3221887358238572134
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115581 (n + 1)
-
-end
-
-end A115582.P3221887358238572134
-
-/-!
-# A115583: Array read by rows: row n (>= 1) gives the Betti numbers for the n-th element of the affine Weyl group of type G2_tilde (in Goresky's standard ordering).
-
-The programs for A115583, there is no canonical definition to state claims against.
--/
-
-/-! ## A115583.P14387147918531871393
-
-`A115574(1+n)`
--/
-
-namespace A115583.P14387147918531871393
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115574 (1 + n)
-
-end
-
-end A115583.P14387147918531871393
 
 /-!
 # A115584: Number of partitions of n in which each part k occurs more than k times.
@@ -8255,21 +7999,6 @@ end A115593.P774958406376650359
 
 The programs for A115594, there is no canonical definition to state claims against.
 -/
-
-/-! ## A115594.P7866615472179742176
-
-`A086623(n)`
--/
-
-namespace A115594.P7866615472179742176
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086623 n
-
-end
-
-end A115594.P7866615472179742176
 
 /-! ## A115594.P769080138702950849
 

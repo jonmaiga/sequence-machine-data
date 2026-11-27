@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -16,28 +17,28 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,25 +53,25 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +96,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -556,21 +556,6 @@ end
 
 end A316008.P15406844106625169981
 
-/-! ## A316008.P13872670918461687467
-
-`A316009(n)`
--/
-
-namespace A316008.P13872670918461687467
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316009 n
-
-end
-
-end A316008.P13872670918461687467
-
 /-! ## A316008.P17850087511349128598
 
 `A316005(n)+A025469(A026641(n))`
@@ -750,21 +735,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A316015.P164896084261766628
-
-/-! ## A316015.P12281940962499176485
-
-`A316016(n)`
--/
-
-namespace A316015.P12281940962499176485
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316016 n
-
-end
-
-end A316015.P12281940962499176485
 
 /-!
 # A316016: Coordination sequence Gal.6.607.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -955,21 +925,6 @@ end
 
 end A316019.P12140145247706838254
 
-/-! ## A316019.P5859270924681592690
-
-`A316020(n)`
--/
-
-namespace A316019.P5859270924681592690
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316020 n
-
-end
-
-end A316019.P5859270924681592690
-
 /-!
 # A316020: Coordination sequence Gal.5.260.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
@@ -1147,7 +1102,7 @@ end A316024.P1928089571529382725
 /-!
 # A316026: Coordination sequence Gal.3.36.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A316026, the canonical program `A316026.P4023097474816276442` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316026 has offset 0).
+The programs for A316026, the canonical program `A316026.P4023097474816276442` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316026 has offset 0).
 
 The definition of A316026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2399 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1156,7 +1111,7 @@ The definition of A316026 is `conjectured`: the Lean definition is a formula tha
 
 `3*floor(a(n-1)/8+n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316026
@@ -4732,30 +4687,9 @@ end
 end A316084.P12064303815702619817
 
 /-!
-# A316085: Product_{k>=1} 1/(1 - a(k)*x^k) = Sum_{k>=0} (k*x)^k.
-
-The programs for A316085, there is no canonical definition to state claims against.
--/
-
-/-! ## A316085.P8839493889935065884
-
-`or(A052590(n), A215143(n))`
--/
-
-namespace A316085.P8839493889935065884
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A052590 n) (A215143 n)
-
-end
-
-end A316085.P8839493889935065884
-
-/-!
 # A316087: Expansion of 1/(1 + Sum_{k>=1} k^2 * x^k).
 
-The programs for A316087, the canonical program `A316087.P18205932350151207741` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316087 has offset 0).
+The programs for A316087, the canonical program `A316087.P18205932350151207741` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316087 has offset 0).
 
 The definition of A316087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4764,7 +4698,7 @@ The definition of A316087 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x+3x^2-x^3)/(1-2x+4x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316087
@@ -4782,7 +4716,7 @@ end A316087
 /-!
 # A316088: Expansion of 1/(1 + Sum_{k>=1} k^3 * x^k).
 
-The programs for A316088, the canonical program `A316088.P17423804625064477979` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316088 has offset 0).
+The programs for A316088, the canonical program `A316088.P17423804625064477979` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316088 has offset 0).
 
 The definition of A316088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4791,7 +4725,7 @@ The definition of A316088 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-4x+6x^2-4x^3+x^4)/(1-3x+10x^2-3x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316088
@@ -5087,28 +5021,6 @@ end A316091.P2089398711104965374
 
 The programs for A316092, there is no canonical definition to state claims against.
 -/
-
-/-! ## A316092.P13391065476684012367
-
-`∪[A316151(n+1), A316153(n+1)]`
--/
-
-namespace A316092.P13391065476684012367
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316151 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316153 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A316092.P13391065476684012367
 
 /-! ## A316092.P2908811622019293022
 

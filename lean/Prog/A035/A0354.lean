@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -27,18 +28,17 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C039
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,7 +55,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
@@ -65,13 +64,13 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2905,21 +2904,6 @@ end A035431.P11243099848738680249
 The programs for A035432, there is no canonical definition to state claims against.
 -/
 
-/-! ## A035432.P12723104954730036694
-
-`A029189(n+1)`
--/
-
-namespace A035432.P12723104954730036694
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029189 (n + 1)
-
-end
-
-end A035432.P12723104954730036694
-
 /-! ## A035432.P9546263471030177298
 
 `A001221(A008809(n+1)!)`
@@ -3052,27 +3036,6 @@ end A035433.P18431985731730376624
 The programs for A035434, there is no canonical definition to state claims against.
 -/
 
-/-! ## A035434.P14770154273127818052
-
-`Δ[Δ[A347549(n+1)]]`
--/
-
-namespace A035434.P14770154273127818052
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347549 (n + 1 + 10)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A035434.P14770154273127818052
-
 /-! ## A035434.P5280434433798022936
 
 `A046081(A060395(n)^A025787(n))`
@@ -3193,21 +3156,6 @@ end
 
 end A035436.P10359985137332097157
 
-/-! ## A035436.P14729043279749708897
-
-`A109705(2*(n+1))`
--/
-
-namespace A035436.P14729043279749708897
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109705 (2 * (n + 1))
-
-end
-
-end A035436.P14729043279749708897
-
 /-! ## A035436.P6402048305468344868
 
 `A082858(A170892(n)+5)`
@@ -3264,24 +3212,6 @@ end A035436.P13039402049683914388
 
 The programs for A035437, there is no canonical definition to state claims against.
 -/
-
-/-! ## A035437.P18100533907519587591
-
-`Δ[A109701(2*(n+1))]`
--/
-
-namespace A035437.P18100533907519587591
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109701 (2 * (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A035437.P18100533907519587591
 
 /-! ## A035437.P9697824701299591508
 
@@ -3486,21 +3416,6 @@ end A035439.P103039516795602406
 
 The programs for A035440, there is no canonical definition to state claims against.
 -/
-
-/-! ## A035440.P4265383498691063584
-
-`A109707(A109712(2*n+3))`
--/
-
-namespace A035440.P4265383498691063584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109707 (A109712 (2 * n + 3)).toNat
-
-end
-
-end A035440.P4265383498691063584
 
 /-! ## A035440.P16984139722351187334
 
@@ -3835,21 +3750,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035443.P5756151113363457890
-
-/-! ## A035443.P17314058795160226978
-
-`A396912(3*n+3)`
--/
-
-namespace A035443.P17314058795160226978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396912 (3 * n + 3)
-
-end
-
-end A035443.P17314058795160226978
 
 /-! ## A035443.P9609986981195045587
 
@@ -4312,21 +4212,6 @@ end A035448.P15890333921469030499
 
 The programs for A035449, there is no canonical definition to state claims against.
 -/
-
-/-! ## A035449.P4461150606172452088
-
-`A029055(A130481(n))`
--/
-
-namespace A035449.P4461150606172452088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029055 (A130481 n).toNat
-
-end
-
-end A035449.P4461150606172452088
 
 /-! ## A035449.P6817942986119700336
 
@@ -5374,24 +5259,6 @@ end A035460.P13356178942385234080
 The programs for A035461, there is no canonical definition to state claims against.
 -/
 
-/-! ## A035461.P8872493171884310803
-
-`A025842(∏{p}[n+1, gcd((n+1)*(n+2), #²)])`
--/
-
-namespace A035461.P8872493171884310803
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025842 (∏ p ∈ Nat.primeFactors (f1 n), Nat.gcd ((n + 1) * (n + 2)) (p ^ 2))
-
-end
-
-end A035461.P8872493171884310803
-
 /-! ## A035461.P18084996652201712456
 
 `and(∑[A121374(n+1)], A100405(n+1))`
@@ -5523,21 +5390,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035462.P17408551732173915046
-
-/-! ## A035462.P595920714611133135
-
-`A178786(A263136(n))`
--/
-
-namespace A035462.P595920714611133135
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178786 (A263136 n).toNat
-
-end
-
-end A035462.P595920714611133135
 
 /-!
 # A035463: Number of partitions of n into parts 8k+4 or 8k+5.
@@ -6602,27 +6454,6 @@ def P6007239659828631213.Spec : Prop :=
 end A035473
 
 /-!
-# A035475: Coordination sequence for lattice D*_12 (with edges defined by l_1 norm = 1).
-
-The programs for A035475, there is no canonical definition to state claims against.
--/
-
-/-! ## A035475.P9408726814464814030
-
-`A035707(n)`
--/
-
-namespace A035475.P9408726814464814030
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035707 n
-
-end
-
-end A035475.P9408726814464814030
-
-/-!
 # A035476: Coordination sequence for lattice D*_14 (with edges defined by l_1 norm = 1).
 
 The programs for A035476, there is no canonical definition to state claims against.
@@ -6665,27 +6496,6 @@ end
 end A035477.P5001565004604955841
 
 /-!
-# A035478: Coordination sequence for lattice D*_18 (with edges defined by l_1 norm = 1).
-
-The programs for A035478, there is no canonical definition to state claims against.
--/
-
-/-! ## A035478.P10176106197624987843
-
-`A035713(n)`
--/
-
-namespace A035478.P10176106197624987843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035713 n
-
-end
-
-end A035478.P10176106197624987843
-
-/-!
 # A035480: Pseudoperfect numbers (A005835) that are not practical (second definition, A007620).
 
 The programs for A035480, there is no canonical definition to state claims against.
@@ -6708,36 +6518,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035480.P2148406134401993130
-
-/-! ## A035480.P4820556836838737523
-
-`A007621(n+2)`
--/
-
-namespace A035480.P4820556836838737523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007621 (n + 2)
-
-end
-
-end A035480.P4820556836838737523
-
-/-! ## A035480.P8715327270816847478
-
-`A353061(n+2)`
--/
-
-namespace A035480.P8715327270816847478
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353061 (n + 2)
-
-end
-
-end A035480.P8715327270816847478
 
 /-! ## A035480.P586224353956065868
 
@@ -8247,21 +8027,6 @@ end A035490.P931703972778906889
 
 The programs for A035491, there is no canonical definition to state claims against.
 -/
-
-/-! ## A035491.P9822429904358268419
-
-`A318574(n+3)`
--/
-
-namespace A035491.P9822429904358268419
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318574 (n + 3)
-
-end
-
-end A035491.P9822429904358268419
 
 /-! ## A035491.P12315810237648833305
 

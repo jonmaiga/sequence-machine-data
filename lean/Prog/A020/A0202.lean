@@ -2,8 +2,8 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C008
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C006
@@ -12,8 +12,8 @@ import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B008.C000
-import Seq.B012.C000
+import Seq.B005.C002
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -29,6 +29,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020

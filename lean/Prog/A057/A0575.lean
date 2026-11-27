@@ -7,6 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -17,10 +18,8 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -37,14 +36,14 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,24 +64,30 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7439,56 +7444,6 @@ def P10920393827130998413.Spec : Prop :=
 
 end A057536
 
-/-! ## A057536.P14036677561698607612
-
-`A245574(n)`
--/
-
-namespace A057536.P14036677561698607612
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245574 n
-
-end
-
-end A057536.P14036677561698607612
-
-namespace A057536
-
-/-- `A245574(n)` -/
-def P14036677561698607612.Spec : Prop :=
-  ∀ n, P14036677561698607612.a n = A057536 n
-
-end A057536
-
-/-!
-# A057537: Number of ways of making change for n Euro-cents using the Euro currency.
-
-The programs for A057537, the canonical program `A057537.P1162771409738233923` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057537 has offset 0).
-
-The definition of A057537 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A057537.P1162771409738233923
-
-`A339094(n)`
-
-The canonical program, it is in `Seq.B004.C000`.
--/
-
-namespace A057537
-
-/-- `A339094(n)` -/
-def P1162771409738233923.Spec : Prop :=
-  ∀ n, P1162771409738233923.a n = A057537 n
-
-theorem P1162771409738233923.correct : P1162771409738233923.Spec := by
-  intro n
-  simp only [A057537]
-
-end A057537
-
 /-!
 # A057538: Birthday set of order 5: numbers congruent to +-1 modulo 2, 3, 4 and 5.
 
@@ -9071,21 +9026,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057545.P10467303973151604193
-
-/-! ## A057545.P16231166840909508705
-
-`A089878(n)`
--/
-
-namespace A057545.P16231166840909508705
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089878 n
-
-end
-
-end A057545.P16231166840909508705
 
 /-!
 # A057546: Number of Catalan objects of size n fixed by Catalan Automorphism A057511/A057512 (deep rotation of general parenthesizations/plane trees).
@@ -11168,7 +11108,7 @@ end A057553
 /-!
 # A057554: Lexicographic ordering of MxM, where M={0,1,2,...}.
 
-The programs for A057554, the canonical program `A057554.P2016188426634242539` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057554 has offset 1).
+The programs for A057554, the canonical program `A057554.P2016188426634242539` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057554 has offset 1).
 
 The definition of A057554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11223,7 +11163,7 @@ end A057554
 
 `val(A036561(floor(n/2)), gcd(2, n)+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A057554
@@ -11521,33 +11461,10 @@ def P6836550531429187410.Spec : Prop :=
 
 end A057554
 
-/-! ## A057554.P14452570384605286737
-
-`-1+A057555(n+1)`
--/
-
-namespace A057554.P14452570384605286737
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A057555 (n + 1)
-
-end
-
-end A057554.P14452570384605286737
-
-namespace A057554
-
-/-- `-1+A057555(n+1)` -/
-def P14452570384605286737.Spec : Prop :=
-  ∀ n, P14452570384605286737.a n = A057554 (n + 1)
-
-end A057554
-
 /-!
 # A057555: Lexicographic ordering of N x N, where N = {1,2,3...}.
 
-The programs for A057555, the canonical program `A057555.P16292502493182197962` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057555 has offset 1).
+The programs for A057555, the canonical program `A057555.P16292502493182197962` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057555 has offset 1).
 
 The definition of A057555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11556,7 +11473,7 @@ The definition of A057555 is `conjectured`: the Lean definition is a formula tha
 
 `A057554(1+n)+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A057555
@@ -11765,21 +11682,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057556.P13543302103732864457
-
-/-! ## A057556.P16422276806958983267
-
-`-1+A057557(n+1)`
--/
-
-namespace A057556.P16422276806958983267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A057557 (n + 1)
-
-end
-
-end A057556.P16422276806958983267
 
 /-! ## A057556.P14346063290937559956
 

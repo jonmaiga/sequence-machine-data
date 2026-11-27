@@ -3,42 +3,39 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,21 +53,23 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -220,7 +219,7 @@ end A357903.P7782354255778083712
 /-!
 # A357905: a(n) = log_3(A060839(n)).
 
-The programs for A357905, the canonical program `A357905.P15745059854745034649` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357905 has offset 1).
+The programs for A357905, the canonical program `A357905.P15745059854745034649` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357905 has offset 1).
 
 The definition of A357905 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -540,7 +539,7 @@ end A357905
 
 `A267142(n+1)+A005088(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357905
@@ -1725,42 +1724,6 @@ end
 
 end A357929.P13672583864235807301
 
-/-! ## A357929.P3745689855489888361
-
-`lt[1, A121041(n+1)]+1`
--/
-
-namespace A357929.P3745689855489888361
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121041 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A357929.P3745689855489888361
-
-/-! ## A357929.P3497876048816395585
-
-`A038770(n+10)`
--/
-
-namespace A357929.P3497876048816395585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038770 (n + 10)
-
-end
-
-end A357929.P3497876048816395585
-
 /-! ## A357929.P6971169074292125878
 
 `lt[A119999(A347323(n)²), A119999(n)²]`
@@ -2281,21 +2244,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357936.P2665081656964719701
-
-/-! ## A357936.P15608716907198823256
-
-`(n+1)*(A337819(n+1)+0)`
--/
-
-namespace A357936.P15608716907198823256
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (A337819 (n + 1) + 0)
-
-end
-
-end A357936.P15608716907198823256
 
 /-! ## A357936.P5222943015679214898
 
@@ -2872,21 +2820,6 @@ end A357938
 The programs for A357940, there is no canonical definition to state claims against.
 -/
 
-/-! ## A357940.P11496351447642384082
-
-`A357941(A039100(n+1))`
--/
-
-namespace A357940.P11496351447642384082
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357941 (A039100 (n + 1)).toNat
-
-end
-
-end A357940.P11496351447642384082
-
 /-! ## A357940.P4424727922260056796
 
 `A046929(xor(2, A365894(n)))`
@@ -3436,7 +3369,7 @@ end A357948.P9678669703568211475
 /-!
 # A357949: a(n) = Sum_{k=0..floor(n/4)} (n-3*k)!/k!.
 
-The programs for A357949, the canonical program `A357949.P11686173173330783731` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357949 has offset 0).
+The programs for A357949, the canonical program `A357949.P11686173173330783731` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357949 has offset 0).
 
 The definition of A357949 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3445,7 +3378,7 @@ The definition of A357949 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor(n/4), (n-3*#)!/#!]`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A357949
@@ -3594,7 +3527,7 @@ end A357952.P7061668049160989767
 /-!
 # A357955: a(n) = 3*binomial(4*n,n) - 20*binomial(3*n,n) + 54*binomial(2*n,n).
 
-The programs for A357955, the canonical program `A357955.P12233206917270134364` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357955 has offset 0).
+The programs for A357955, the canonical program `A357955.P12233206917270134364` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357955 has offset 0).
 
 The definition of A357955 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*C(4*n, n)-20*C(3*n, n)+54*C(2*n, n)` (program `A357955.P12233206917270134364`, by `A357955.P12233206917270134364.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3626,7 +3559,7 @@ end A357955
 
 `3*C(4*n, n)-20*C(3*n, n)+54*C(2*n, n)`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A357955
@@ -4071,36 +4004,6 @@ end A357967.P11772848532372317603
 
 The programs for A357968, there is no canonical definition to state claims against.
 -/
-
-/-! ## A357968.P10299597214925671534
-
-`A397321(n)`
--/
-
-namespace A357968.P10299597214925671534
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397321 n
-
-end
-
-end A357968.P10299597214925671534
-
-/-! ## A357968.P10994651070689465425
-
-`A397322(n)`
--/
-
-namespace A357968.P10994651070689465425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397322 n
-
-end
-
-end A357968.P10994651070689465425
 
 /-! ## A357968.P12978109783807848180
 
@@ -4680,21 +4583,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357980.P7754450528894712161
-
-/-! ## A357980.P4583345934748200271
-
-`A016729(A000265(n+1)+0)`
--/
-
-namespace A357980.P4583345934748200271
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016729 (A000265 (n + 1) + 0).toNat
-
-end
-
-end A357980.P4583345934748200271
 
 /-! ## A357980.P9641206700611664372
 

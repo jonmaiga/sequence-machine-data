@@ -12,27 +12,29 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,6 +54,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,11 +70,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -108,24 +111,6 @@ set_option linter.unreachableTactic false
 
 The programs for A002100, there is no canonical definition to state claims against.
 -/
-
-/-! ## A002100.P15632571783587737355
-
-`Δ[A239508(n)]`
--/
-
-namespace A002100.P15632571783587737355
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A239508 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A002100.P15632571783587737355
 
 /-! ## A002100.P8902223216181311016
 
@@ -2877,21 +2862,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002124.P15448792549255229134
-
-/-! ## A002124.P3116966968748694410
-
-`A077608(n)`
--/
-
-namespace A002124.P3116966968748694410
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077608 n
-
-end
-
-end A002124.P3116966968748694410
 
 /-!
 # A002125: a(n) = Sum_{k=0..n} f(k)*f(n-k) where f(k) = A002124(k).
@@ -11574,21 +11544,6 @@ end
 
 end A002182.P14735322791495701693
 
-/-! ## A002182.P9508116423127185221
-
-`-1+A135372(n+1)`
--/
-
-namespace A002182.P9508116423127185221
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A135372 (n + 1)
-
-end
-
-end A002182.P9508116423127185221
-
 /-! ## A002182.P14436488532080674228
 
 `sqrt(A046952(n+1))`
@@ -12233,21 +12188,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002189.P8320048900586039312
-
-/-! ## A002189.P6726521081478532115
-
-`A401222(n)`
--/
-
-namespace A002189.P6726521081478532115
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A401222 n
-
-end
-
-end A002189.P6726521081478532115
 
 /-!
 # A002190: Sum_{n>=0} a(n)*x^n/n!^2 = -log(BesselJ(0,2*sqrt(x))).

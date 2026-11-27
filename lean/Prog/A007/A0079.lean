@@ -24,7 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -37,16 +37,17 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -69,16 +70,19 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -90,8 +94,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -670,21 +672,6 @@ end A007901.P10239979210557625656
 
 The programs for A007902, there is no canonical definition to state claims against.
 -/
-
-/-! ## A007902.P1310322605659520200
-
-`A057417(round(sqrt(n²+1)))`
--/
-
-namespace A007902.P1310322605659520200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057417 (SequenceMachineLib.roundAway (Real.sqrt (n ^ 2 + 1 : ℝ))).toNat
-
-end
-
-end A007902.P1310322605659520200
 
 /-! ## A007902.P18280781649762648100
 
@@ -8907,21 +8894,6 @@ end
 
 end A007934.P17352916991846178722
 
-/-! ## A007934.P10933649222189854380
-
-`A097312(n+5)`
--/
-
-namespace A007934.P10933649222189854380
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097312 (n + 5)
-
-end
-
-end A007934.P10933649222189854380
-
 /-!
 # A007935: Composite numbers such that some permutation of digits is a prime.
 
@@ -10179,21 +10151,6 @@ end A007937.P7527918014260032546
 
 The programs for A007938, there is no canonical definition to state claims against.
 -/
-
-/-! ## A007938.P6007722250485704035
-
-`A356417(n+5)`
--/
-
-namespace A007938.P6007722250485704035
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356417 (n + 5)
-
-end
-
-end A007938.P6007722250485704035
 
 /-! ## A007938.P7679881732406301167
 
@@ -12688,21 +12645,6 @@ end A007950.P14448757857526714036
 The programs for A007951, there is no canonical definition to state claims against.
 -/
 
-/-! ## A007951.P5890517275594535292
-
-`A001651(A168183(n+1))`
--/
-
-namespace A007951.P5890517275594535292
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001651 (A168183 (n + 1)).toNat
-
-end
-
-end A007951.P5890517275594535292
-
 /-! ## A007951.P14912855517746821092
 
 `eq[A347706(2*n+1)+1, A007862(2*n+3)]`
@@ -14119,7 +14061,7 @@ end A007954
 
 The programs for A007955, the canonical program `A007955.P14752630106558465512` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007955 has offset 1).
 
-The definition of A007955 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A007955 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A007955.anchor (n : ℕ) (hn : 1 ≤ n) : A007955 n = ∏ d ∈ n.divisors, (d : ℤ)` in `Proof.A007.A007955`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A007955.P8770333074879441749
@@ -19286,21 +19228,6 @@ end
 
 end A007978.P1456472565013329522
 
-/-! ## A007978.P12346921838370940937
-
-`A232098(n+1)+1`
--/
-
-namespace A007978.P12346921838370940937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232098 (n + 1) + 1
-
-end
-
-end A007978.P12346921838370940937
-
 /-! ## A007978.P17401906237613582190
 
 `A217607(A114964(n+1))`
@@ -20997,6 +20924,29 @@ The programs for A007986, the canonical program `A007986.P2390076210566125810` i
 The definition of A007986 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A007986.P10781932460254743373
+
+`ogf((2-10x+132x^2)/(1-11x+11x^2-121x^3))`
+-/
+
+namespace A007986.P10781932460254743373
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -10, 132] [1, -11, 11, -121] n
+
+end
+
+end A007986.P10781932460254743373
+
+namespace A007986
+
+/-- `ogf((2-10x+132x^2)/(1-11x+11x^2-121x^3))` -/
+def P10781932460254743373.Spec : Prop :=
+  ∀ n, P10781932460254743373.a n = A007986 (n + 1)
+
+end A007986
+
 /-! ## A007986.P2390076210566125810
 
 `11*a(n-1)-11*a(n-2)+121*a(n-3)` with `a(0)=2, a(1)=12, a(2)=242`
@@ -21616,27 +21566,6 @@ end
 end A007991.P6525284403511459114
 
 /-!
-# A007992: Augmented amicable pairs (smaller member of each pair).
-
-The programs for A007992, there is no canonical definition to state claims against.
--/
-
-/-! ## A007992.P3641652302784155793
-
-`A281265(2*n+1)`
--/
-
-namespace A007992.P3641652302784155793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A281265 (2 * n + 1)
-
-end
-
-end A007992.P3641652302784155793
-
-/-!
 # A007993: Poincaré series [or Poincare series] of Lie algebra associated with a certain braid group.
 
 The programs for A007993, the canonical program `A007993.P5200342048077932814` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007993 has offset 1).
@@ -21746,6 +21675,33 @@ def P6997804698765123731.Spec : Prop :=
   ∀ n, P6997804698765123731.a n = A007993 (n + 1)
 
 end A007993
+
+/-!
+# A007994: Poincaré series (or Poincare series) of Lie algebra associated with a certain braid group.
+
+The programs for A007994, the canonical program `A007994.P18358874401725649617` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007994 has offset 1).
+
+The definition of A007994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A007994.P18358874401725649617
+
+`ogf((4-18x+70x^2-137x^3+102x^4+60x^5-178x^6+144x^7-54x^8+8x^9)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A007994
+
+/-- `ogf((4-18x+70x^2-137x^3+102x^4+60x^5-178x^6+144x^7-54x^8+8x^9)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P18358874401725649617.Spec : Prop :=
+  ∀ n, P18358874401725649617.a n = A007994 (n + 1)
+
+theorem P18358874401725649617.correct : P18358874401725649617.Spec := by
+  intro n
+  simp only [A007994, Nat.add_sub_cancel]
+
+end A007994
 
 /-!
 # A007996: Primes that divide at least one term of Sylvester's sequence s = A000058: s(n+1) = s(n)^2 - s(n) + 1, s(0) = 2.

@@ -12,20 +12,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C040
-import Seq.B000.C049
+import Seq.B000.C032
+import Seq.B000.C041
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,24 +35,24 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -64,6 +64,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -109,21 +110,6 @@ end A025300.P9619571977613843053
 The programs for A025301, there is no canonical definition to state claims against.
 -/
 
-/-! ## A025301.P10534990617757905060
-
-`5*A025318(n+1)`
--/
-
-namespace A025301.P10534990617757905060
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * A025318 (n + 1)
-
-end
-
-end A025301.P10534990617757905060
-
 /-! ## A025301.P16951055666679057161
 
 `A001055(A264498(2*n+3))*A025299(n+1)`
@@ -142,7 +128,7 @@ end A025301.P16951055666679057161
 /-!
 # A025302: Numbers that are the sum of 2 distinct nonzero squares in exactly 1 way.
 
-The programs for A025302, the canonical program `A025302.P9122936174072266987` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025302 has offset 1).
+The programs for A025302, the canonical program `A025302.P9122936174072266987` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025302 has offset 1).
 
 The definition of A025302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -151,7 +137,7 @@ The definition of A025302 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A230779(n+1), A232438(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A025302
@@ -11008,21 +10994,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025397.P16239076806593678442
-
-/-! ## A025397.P2542656349835565259
-
-`A025398(A022293(n))`
--/
-
-namespace A025397.P2542656349835565259
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025398 (A022293 n).toNat
-
-end
-
-end A025397.P2542656349835565259
 
 /-!
 # A025398: Numbers that are the sum of 3 positive cubes in 3 or more ways.

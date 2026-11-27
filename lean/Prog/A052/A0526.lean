@@ -12,7 +12,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -23,24 +22,27 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,13 +57,14 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B011.C000
+import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,6 +74,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -8119,12 +8123,12 @@ end A052648.P15597575772076780602
 /-!
 # A052649: Expansion of e.g.f. (2+x-x^2)/(1-x)^2.
 
-The programs for A052649, the canonical program `A052649.P5845231323599826257` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052649 has offset 0).
+The programs for A052649, the canonical program `A052649.P6613961499011631855` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052649 has offset 0).
 
 The definition of A052649 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A052649.P5845231323599826257
+/-! ## A052649.P6613961499011631855
 
 `a(n-1)*n*(2*n+3)/(2*n+1)` with `a(0)=2, a(1)=5`
 
@@ -8134,8 +8138,8 @@ The canonical program, it is in `Seq.B000.C010`.
 namespace A052649
 
 /-- `a(n-1)*n*(2*n+3)/(2*n+1)` -/
-def P5845231323599826257.Spec : Prop :=
-  ∀ n, P5845231323599826257.a n = (A052649 n : ℚ)
+def P6613961499011631855.Spec : Prop :=
+  ∀ n, P6613961499011631855.a n = (A052649 n : ℚ)
 
 end A052649
 
@@ -9617,6 +9621,35 @@ theorem P1580207677496219470.correct : P1580207677496219470.Spec := by
 
 end A052657
 
+/-! ## A052657.P14922324913815544447
+
+`n!*A004526(n)`
+-/
+
+namespace A052657.P14922324913815544447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial n : ℤ) * A004526 n
+
+end
+
+end A052657.P14922324913815544447
+
+namespace A052657
+
+/-- `n!*A004526(n)` -/
+def P14922324913815544447.Spec : Prop :=
+  ∀ n, P14922324913815544447.a n = A052657 n
+
+theorem P14922324913815544447.correct : P14922324913815544447.Spec := by
+  intro n
+  simp only [A052657, Nat.add_sub_cancel, A052657.P14922324913815544447.a, A052657.P1580207677496219470.a, A004526, A004526.P10084182425416171735.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A052657
+
 /-! ## A052657.P14403191739455706461
 
 `(2*n-1+(-1)^n)*n!/4`
@@ -9804,29 +9837,6 @@ namespace A052657
 /-- `round((or(1, n)-1)/2*n!)` -/
 def P7897519400206552002.Spec : Prop :=
   ∀ n, P7897519400206552002.a n = A052657 n
-
-end A052657
-
-/-! ## A052657.P2123795569309461266
-
-`A052558(n)-A000142(n)`
--/
-
-namespace A052657.P2123795569309461266
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052558 n - A000142 n
-
-end
-
-end A052657.P2123795569309461266
-
-namespace A052657
-
-/-- `A052558(n)-A000142(n)` -/
-def P2123795569309461266.Spec : Prop :=
-  ∀ n, P2123795569309461266.a n = A052657 n
 
 end A052657
 

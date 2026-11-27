@@ -25,25 +25,26 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,25 +64,27 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,6 +108,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -8922,17 +8926,25 @@ end A058371.P6896566302275472881
 /-!
 # A058372: a(n) = -(n + 1)*(2*n^2 + n - 12)/6.
 
-The programs for A058372, the canonical program `A058372.P2548486593713506636` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058372 has offset 0).
+The programs for A058372, the canonical program `A058372.P5088186543462007447` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058372 has offset 0).
 
-The definition of A058372 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A058372 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A058372.anchor (n : ℕ) : (A058372 n : ℚ) = ((-(n + 1 : ℤ)) * ((2 * n ^ 2 + n : ℤ) - 12) : ℚ) / 6` in `Proof.A058.A058372`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A058372.P2548486593713506636
 
 `ogf((2-5x+x^2)/(1-4x+6x^2-4x^3+x^4))`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A058372.P2548486593713506636
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -5, 1] [1, -4, 6, -4, 1] n
+
+end
+
+end A058372.P2548486593713506636
 
 namespace A058372
 
@@ -8940,28 +8952,14 @@ namespace A058372
 def P2548486593713506636.Spec : Prop :=
   ∀ n, P2548486593713506636.a n = A058372 n
 
-theorem P2548486593713506636.correct : P2548486593713506636.Spec := by
-  intro n
-  simp only [A058372]
-
 end A058372
 
 /-! ## A058372.P5088186543462007447
 
 `-(n+1)*(2*n²+n-12)/6`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C011`.
 -/
-
-namespace A058372.P5088186543462007447
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((-(n + 1 : ℤ)) * ((2 * n ^ 2 + n : ℤ) - 12) : ℚ) / 6
-
-end
-
-end A058372.P5088186543462007447
 
 namespace A058372
 
@@ -12005,21 +12003,6 @@ end A058394.P15994256915732564460
 
 The programs for A058395, there is no canonical definition to state claims against.
 -/
-
-/-! ## A058395.P14114130753869761117
-
-`A080595(A057884(n))`
--/
-
-namespace A058395.P14114130753869761117
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080595 (A057884 n).toNat
-
-end
-
-end A058395.P14114130753869761117
 
 /-! ## A058395.P3365051651109402340
 

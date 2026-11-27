@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -16,23 +15,26 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,7 +56,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -647,7 +649,7 @@ end A071700
 /-!
 # A071701: Number of twin prime pairs <= n of form (4*k+1,4*k+3), k>0.
 
-The programs for A071701, the canonical program `A071701.P18388032048899093452` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071701 has offset 1).
+The programs for A071701, the canonical program `A071701.P18388032048899093452` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071701 has offset 1).
 
 The definition of A071701 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -837,7 +839,7 @@ end A071701
 
 `A071538(n+1)-A071702(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A071701
@@ -10012,7 +10014,7 @@ end A071738
 /-!
 # A071739: Expansion of (1+x^3*C^4)*C^2, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071739, the canonical program `A071739.P1815555829644906627` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071739 has offset 0).
+The programs for A071739, the canonical program `A071739.P1815555829644906627` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071739 has offset 0).
 
 The definition of A071739 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10021,7 +10023,7 @@ The definition of A071739 is `conjectured`: the Lean definition is a formula tha
 
 `A071736(n)-A099376(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071739
@@ -10524,7 +10526,7 @@ end A071739
 /-!
 # A071740: Expansion of (1+x^3*C^4)*C^3, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071740, the canonical program `A071740.P5522841597563350787` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071740 has offset 0).
+The programs for A071740, the canonical program `A071740.P5522841597563350787` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071740 has offset 0).
 
 The definition of A071740 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10559,7 +10561,7 @@ end A071740
 
 `A026029(n)+A000245(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071740
@@ -11051,7 +11053,7 @@ end A071740
 /-!
 # A071741: Expansion of (1+x^3*C^4)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071741, the canonical program `A071741.P9703723317413013413` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071741 has offset 0).
+The programs for A071741, the canonical program `A071741.P9703723317413013413` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071741 has offset 0).
 
 The definition of A071741 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11060,7 +11062,7 @@ The definition of A071741 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A026029(n)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071741
@@ -11862,7 +11864,7 @@ end A071744
 /-!
 # A071745: Expansion of (1+x^4*C)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071745, the canonical program `A071745.P1552346463266665555` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071745 has offset 0).
+The programs for A071745, the canonical program `A071745.P1552346463266665555` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071745 has offset 0).
 
 The definition of A071745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11949,7 +11951,7 @@ end A071745
 
 `A071719(n)+A071748(n)-A071722(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071745
@@ -12481,7 +12483,7 @@ end A071748
 /-!
 # A071749: Expansion of (1+x^4*C^2)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071749, the canonical program `A071749.P11877832049882480316` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071749 has offset 0).
+The programs for A071749, the canonical program `A071749.P11877832049882480316` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071749 has offset 0).
 
 The definition of A071749 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12490,7 +12492,7 @@ The definition of A071749 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A071728(n)]-A071717(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071749
@@ -12760,7 +12762,7 @@ end A071750.P18283121422516146960
 /-!
 # A071751: Expansion of (1+x^4*C^3)*C^2, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071751, the canonical program `A071751.P10296614711207118545` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071751 has offset 0).
+The programs for A071751, the canonical program `A071751.P10296614711207118545` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071751 has offset 0).
 
 The definition of A071751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12769,7 +12771,7 @@ The definition of A071751 is `conjectured`: the Lean definition is a formula tha
 
 `A071748(n)-A099376(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071751
@@ -14011,7 +14013,7 @@ end A071756
 /-!
 # A071757: Expansion of (1+x^4*C^4)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
 
-The programs for A071757, the canonical program `A071757.P8104647612587833424` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071757 has offset 0).
+The programs for A071757, the canonical program `A071757.P8104647612587833424` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071757 has offset 0).
 
 The definition of A071757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14069,7 +14071,7 @@ end A071757
 
 `Δ[A071736(n)-A000245(n)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071757
@@ -14538,6 +14540,29 @@ The programs for A071765, the canonical program `A071765.P3052751461873436079` i
 
 The definition of A071765 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A071765.P18107614002350061747
+
+`ogf((96x-360x^2)/(1-20x+115x^2-240x^3+144x^4))`
+-/
+
+namespace A071765.P18107614002350061747
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 96, -360] [1, -20, 115, -240, 144] n
+
+end
+
+end A071765.P18107614002350061747
+
+namespace A071765
+
+/-- `ogf((96x-360x^2)/(1-20x+115x^2-240x^3+144x^4))` -/
+def P18107614002350061747.Spec : Prop :=
+  ∀ n, P18107614002350061747.a n = A071765 (n + 1)
+
+end A071765
 
 /-! ## A071765.P3052751461873436079
 

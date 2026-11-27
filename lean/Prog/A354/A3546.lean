@@ -7,25 +7,25 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C041
-import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,21 +38,23 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B005.C001
 import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -194,21 +196,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354601.P3859754035003883139
-
-/-! ## A354601.P17888151343787142570
-
-`A327394(0+A305195(3*n+1))`
--/
-
-namespace A354601.P17888151343787142570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327394 (0 + A305195 (3 * n + 1)).toNat
-
-end
-
-end A354601.P17888151343787142570
 
 /-! ## A354601.P6340910908113129808
 
@@ -587,7 +574,7 @@ end A354607.P17074262471526198637
 /-!
 # A354608: Number of quadruples (p_1, ..., p_4) of positive integers such that p_{i-1} <= p_i <= n^(i-1).
 
-The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
+The programs for A354608, the canonical program `A354608.P10661157815454466776` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354608 has offset 0).
 
 The definition of A354608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -619,7 +606,7 @@ end A354608
 
 `(((((6*n-6)*n+3)*n+4)*n-3)*n+2)*n/6`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A354608
@@ -1958,21 +1945,6 @@ end
 
 end A354657.P13778373686140179145
 
-/-! ## A354657.P761371856604440322
-
-`(A354650(A003682(n+2))-0)/3`
--/
-
-namespace A354657.P761371856604440322
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A354650 (A003682 (n + 2)).toNat - 0 : ℚ) / 3
-
-end
-
-end A354657.P761371856604440322
-
 /-! ## A354657.P17695748954617829163
 
 `(A354650(A014206(n+1))+2-4/2)/3`
@@ -2673,6 +2645,33 @@ end
 end A354668.P1981478775188786914
 
 /-!
+# A354670: Number of graph minors in the n-book graph.
+
+The programs for A354670, the canonical program `A354670.P8021534182146196513` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354670 has offset 1).
+
+The definition of A354670 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A354670.P8021534182146196513
+
+`ogf((13-57x+190x^2-333x^3+351x^4-254x^5+140x^6-55x^7+12x^8-x^9)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C048`.
+-/
+
+namespace A354670
+
+/-- `ogf((13-57x+190x^2-333x^3+351x^4-254x^5+140x^6-55x^7+12x^8-x^9)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P8021534182146196513.Spec : Prop :=
+  ∀ n, P8021534182146196513.a n = A354670 (n + 1)
+
+theorem P8021534182146196513.correct : P8021534182146196513.Spec := by
+  intro n
+  simp only [A354670, Nat.add_sub_cancel]
+
+end A354670
+
+/-!
 # A354671: Number of minors in the n-sunlet graph.
 
 The programs for A354671, there is no canonical definition to state claims against.
@@ -2696,7 +2695,7 @@ end A354671.P14230828788784214556
 /-!
 # A354673: Smallest number of unit cells that must be removed from an n X n square board in order to avoid any cycles.
 
-The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
+The programs for A354673, the canonical program `A354673.P15005755192682061621` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354673 has offset 1).
 
 The definition of A354673 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2728,7 +2727,7 @@ end A354673
 
 `2*a(n-1)-a(n-2)+a(n-6)-2*a(n-7)+a(n-8)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4, a(4)=6, a(5)=10, a(6)=13, a(7)=18, a(8)=22, a(9)=28`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A354673

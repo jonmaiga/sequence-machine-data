@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -24,22 +23,23 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,25 +47,24 @@ import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -1202,27 +1201,6 @@ end
 end A028715.P1571226277187504521
 
 /-!
-# A028716: Expansion of (theta_3(z)*theta_3(6z)*theta_3(36z)+theta_2(z)*theta_2(6z)*theta_2(36z))^3.
-
-The programs for A028716, there is no canonical definition to state claims against.
--/
-
-/-! ## A028716.P11585477198429044766
-
-`A028592(A088440(n))`
--/
-
-namespace A028716.P11585477198429044766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028592 (A088440 n).toNat
-
-end
-
-end A028716.P11585477198429044766
-
-/-!
 # A028717: Expansion of (theta_3(z)*theta_3(6z)*theta_3(36z)+theta_2(z)*theta_2(6z)*theta_2(36z))^4.
 
 The programs for A028717, there is no canonical definition to state claims against.
@@ -1521,21 +1499,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A028721.P11593781728669928700
-
-/-! ## A028721.P7514010615028681141
-
-`A236925(lcm(2, n)+n%2)`
--/
-
-namespace A028721.P7514010615028681141
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236925 (Nat.lcm 2 n + n % 2)
-
-end
-
-end A028721.P7514010615028681141
 
 /-! ## A028721.P9459126751275657403
 
@@ -2221,21 +2184,6 @@ end
 
 end A028742.P16832515442323167382
 
-/-! ## A028742.P14383956720697717177
-
-`A028771(n+1)`
--/
-
-namespace A028742.P14383956720697717177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028771 (n + 1)
-
-end
-
-end A028742.P14383956720697717177
-
 /-! ## A028742.P15577856145541631154
 
 `A063988(n+47)`
@@ -2428,21 +2376,6 @@ end
 
 end A028744.P1421140613075946434
 
-/-! ## A028744.P493914174109635705
-
-`A028775(n+1)`
--/
-
-namespace A028744.P493914174109635705
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028775 (n + 1)
-
-end
-
-end A028744.P493914174109635705
-
 /-! ## A028744.P10304570131215965739
 
 `comp[n*A011588(n)]`
@@ -2622,21 +2555,6 @@ end
 
 end A028746.P10358112306000054071
 
-/-! ## A028746.P12130971742418142711
-
-`A028779(n+1)`
--/
-
-namespace A028746.P12130971742418142711
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028779 (n + 1)
-
-end
-
-end A028746.P12130971742418142711
-
 /-! ## A028746.P16757237111349939494
 
 `comp[A004086(n)-(n^6)%33]`
@@ -2731,21 +2649,6 @@ end
 
 end A028747.P2474755055010110953
 
-/-! ## A028747.P11381971351907627725
-
-`A136806(n+1)`
--/
-
-namespace A028747.P11381971351907627725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136806 (n + 1)
-
-end
-
-end A028747.P11381971351907627725
-
 /-! ## A028747.P11117970909414748833
 
 `lt[A011584(n)+n, n]`
@@ -2825,21 +2728,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A028748.P16873973809848464635
-
-/-! ## A028748.P498409738058383575
-
-`A028783(n+1)`
--/
-
-namespace A028748.P498409738058383575
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028783 (n + 1)
-
-end
-
-end A028748.P498409738058383575
 
 /-! ## A028748.P6893706337182166339
 
@@ -2985,21 +2873,6 @@ end A028749.P5135490882643943925
 
 The programs for A028750, there is no canonical definition to state claims against.
 -/
-
-/-! ## A028750.P16503126134998674675
-
-`A028787(n+1)`
--/
-
-namespace A028750.P16503126134998674675
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028787 (n + 1)
-
-end
-
-end A028750.P16503126134998674675
 
 /-! ## A028750.P9970809708443264537
 
@@ -3208,21 +3081,6 @@ end
 
 end A028752.P11177622221886972906
 
-/-! ## A028752.P17436874909859009506
-
-`A028791(n+1)`
--/
-
-namespace A028752.P17436874909859009506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028791 (n + 1)
-
-end
-
-end A028752.P17436874909859009506
-
 /-!
 # A028753: Nonsquares mod 40.
 
@@ -3365,21 +3223,6 @@ end
 
 end A028754.P13348300024115646759
 
-/-! ## A028754.P9398583110416942490
-
-`A028795(n+1)`
--/
-
-namespace A028754.P9398583110416942490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028795 (n + 1)
-
-end
-
-end A028754.P9398583110416942490
-
 /-! ## A028754.P14420108602678327163
 
 `A063988(n+94)`
@@ -3507,21 +3350,6 @@ end A028755.P8706521131973135965
 
 The programs for A028756, there is no canonical definition to state claims against.
 -/
-
-/-! ## A028756.P13755184787807816218
-
-`A028799(n+1)`
--/
-
-namespace A028756.P13755184787807816218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028799 (n + 1)
-
-end
-
-end A028756.P13755184787807816218
 
 /-! ## A028756.P11603758359203477434
 
@@ -3703,21 +3531,6 @@ end
 
 end A028758.P2868056013819976345
 
-/-! ## A028758.P2685575829074239197
-
-`A028803(n+1)`
--/
-
-namespace A028758.P2685575829074239197
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028803 (n + 1)
-
-end
-
-end A028758.P2685575829074239197
-
 /-! ## A028758.P1183322603995036807
 
 `eq[A000122(n), A030215(n)]`
@@ -3787,21 +3600,6 @@ end A028758.P14160774035572735293
 The programs for A028759, there is no canonical definition to state claims against.
 -/
 
-/-! ## A028759.P12574490781750051751
-
-`A278579(n+1)`
--/
-
-namespace A028759.P12574490781750051751
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278579 (n + 1)
-
-end
-
-end A028759.P12574490781750051751
-
 /-! ## A028759.P4697391296153291620
 
 `lt[A011586(n), char[∑[n+1]]]`
@@ -3835,21 +3633,6 @@ end A028759.P4697391296153291620
 
 The programs for A028760, there is no canonical definition to state claims against.
 -/
-
-/-! ## A028760.P6428630258594316178
-
-`A028807(n+1)`
--/
-
-namespace A028760.P6428630258594316178
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028807 (n + 1)
-
-end
-
-end A028760.P6428630258594316178
 
 /-! ## A028760.P13889113584719588783
 

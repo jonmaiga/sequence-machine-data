@@ -3,16 +3,15 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -22,17 +21,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C037
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C047
+import Seq.B000.C043
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +42,7 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,7 +54,6 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -63,16 +62,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3897,29 +3896,10 @@ end
 
 end A034022.P11339041410832159339
 
-/-! ## A034022.P9091587080164479130
-
-`comp[A087943(n+1)]`
--/
-
-namespace A034022.P9091587080164479130
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087943 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A034022.P9091587080164479130
-
 /-!
 # A034023: Imprimitively represented by x^2+y^2.
 
-The programs for A034023, the canonical program `A034023.P16116273836108491271` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034023 has offset 0).
+The programs for A034023, the canonical program `A034023.P16116273836108491271` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034023 has offset 0).
 
 The definition of A034023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3928,7 +3908,7 @@ The definition of A034023 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A034024(n), A034025(n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A034023
@@ -5593,7 +5573,7 @@ end A034025
 /-!
 # A034026: Numbers that are primitively or imprimitively represented by x^2+y^2, but not both.
 
-The programs for A034026, the canonical program `A034026.P15509753546454466882` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034026 has offset 1).
+The programs for A034026, the canonical program `A034026.P15509753546454466882` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034026 has offset 1).
 
 The definition of A034026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5602,7 +5582,7 @@ The definition of A034026 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A020893(1+n), A034024(n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A034026
@@ -5672,29 +5652,6 @@ namespace A034026
 /-- `lt[A330234(n+1), A255591(A004018(n))]` -/
 def P9767668355063488185.Spec : Prop :=
   ∀ n, (P9767668355063488185.a n : ℤ) = A034026 (n + 1)
-
-end A034026
-
-/-! ## A034026.P16046197445807365349
-
-`A125022(n+2)`
--/
-
-namespace A034026.P16046197445807365349
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125022 (n + 2)
-
-end
-
-end A034026.P16046197445807365349
-
-namespace A034026
-
-/-- `A125022(n+2)` -/
-def P16046197445807365349.Spec : Prop :=
-  ∀ n, P16046197445807365349.a n = A034026 (n + 1)
 
 end A034026
 
@@ -12270,21 +12227,6 @@ end A034063.P5202020472433284861
 The programs for A034064, there is no canonical definition to state claims against.
 -/
 
-/-! ## A034064.P12480766018574801454
-
-`A034074(n)`
--/
-
-namespace A034064.P12480766018574801454
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034074 n
-
-end
-
-end A034064.P12480766018574801454
-
 /-! ## A034064.P8199488527956466731
 
 `A226763(A192709(n+1))`
@@ -12352,42 +12294,6 @@ end
 end A034065.P8003546929423617768
 
 /-!
-# A034066: Decimal part of a(n)^(1/11) starts with n (11th powers excluded).
-
-The programs for A034066, there is no canonical definition to state claims against.
--/
-
-/-! ## A034066.P8424030842261278689
-
-`A034076(A004086(n))`
--/
-
-namespace A034066.P8424030842261278689
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034076 (A004086 n).toNat
-
-end
-
-end A034066.P8424030842261278689
-
-/-! ## A034066.P317798752402983829
-
-`A034076(n)`
--/
-
-namespace A034066.P317798752402983829
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034076 n
-
-end
-
-end A034066.P317798752402983829
-
-/-!
 # A034069: Decimal part of a(n)^(1/4) starts with n so that a(n)<a(n+1).
 
 The programs for A034069, there is no canonical definition to state claims against.
@@ -12413,42 +12319,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A034069.P17151478142916352084
-
-/-!
-# A034076: a(0)=2; a(n) is the smallest k > a(n-1) such that the fractional part of k^(1/11) starts with n.
-
-The programs for A034076, there is no canonical definition to state claims against.
--/
-
-/-! ## A034076.P4881182730767224778
-
-`A034066(A008592(n))`
--/
-
-namespace A034076.P4881182730767224778
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034066 (A008592 n).toNat
-
-end
-
-end A034076.P4881182730767224778
-
-/-! ## A034076.P17446647740064452910
-
-`A034066(10*n)`
--/
-
-namespace A034076.P17446647740064452910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034066 (10 * n)
-
-end
-
-end A034076.P17446647740064452910
 
 /-!
 # A034077: Decimal part of n-th root of a(n) starts with digit 0.

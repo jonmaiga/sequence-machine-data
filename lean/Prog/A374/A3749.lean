@@ -3,35 +3,37 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,8 +55,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -64,15 +68,16 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
+import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,6 +89,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -306,7 +312,7 @@ end A374903.P2100334856828720247
 /-!
 # A374904: Numbers whose divisors have an integer mean number of divisors.
 
-The programs for A374904, the canonical program `A374904.P9238241195218232398` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374904 has offset 1).
+The programs for A374904, the canonical program `A374904.P9238241195218232398` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374904 has offset 1).
 
 The definition of A374904 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5077 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -315,7 +321,7 @@ The definition of A374904 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A238952(n+1)%A000005(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A374904
@@ -802,7 +808,7 @@ end A374909.P2972258844729670982
 /-!
 # A374911: a(n) = a(2^n mod n) + a(3^n mod n), with a(0) = 1.
 
-The programs for A374911, the canonical program `A374911.P12574324929445073926` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374911 has offset 0).
+The programs for A374911, the canonical program `A374911.P12574324929445073926` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374911 has offset 0).
 
 The definition of A374911 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a((2^n)%n)+a((3^n)%n)` (program `A374911.P12574324929445073926`, by `A374911.P12574324929445073926.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -811,7 +817,7 @@ The definition of A374911 is `verified`: the Lean definition is proven equivalen
 
 `a((2^n)%n)+a((3^n)%n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C050`.
 -/
 
 namespace A374911
@@ -829,7 +835,7 @@ end A374911
 /-!
 # A374912: Primes p such that (p - 1)^p == p (mod 2*p - 1).
 
-The programs for A374912, the canonical program `A374912.P16986917820188115762` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374912 has offset 1).
+The programs for A374912, the canonical program `A374912.P16986917820188115762` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374912 has offset 1).
 
 The definition of A374912 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 607 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -864,7 +870,7 @@ end A374912
 
 `record[A006530(A374913(n+1)+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A374912
@@ -1422,7 +1428,7 @@ end A374912
 /-!
 # A374913: Numbers k such that k^(k + 1) == k + 1 (mod 2*k + 1).
 
-The programs for A374913, the canonical program `A374913.P2721120150570507897` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374913 has offset 1).
+The programs for A374913, the canonical program `A374913.P2721120150570507897` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374913 has offset 1).
 
 The definition of A374913 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1460,7 +1466,7 @@ end A374913
 
 `A004526(A003628(n+1)%A078426(2*n+5))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A374913
@@ -1573,29 +1579,6 @@ def P4026554526382869573.Spec : Prop :=
 
 end A374913
 
-/-! ## A374913.P16350481668504494294
-
-`floor((A003628(n+1)+0)/2)`
--/
-
-namespace A374913.P16350481668504494294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A003628 (n + 1) + 0 : ℚ) / 2⌋
-
-end
-
-end A374913.P16350481668504494294
-
-namespace A374913
-
-/-- `floor((A003628(n+1)+0)/2)` -/
-def P16350481668504494294.Spec : Prop :=
-  ∀ n, P16350481668504494294.a n = A374913 (n + 1)
-
-end A374913
-
 /-! ## A374913.P7068788077149372050
 
 `eq[A037288(n), A397489(n)]`
@@ -1680,6 +1663,29 @@ namespace A374913
 /-- `eq[A037288(n), A063890(n)]` -/
 def P6659914152912558997.Spec : Prop :=
   ∀ n, (P6659914152912558997.a n : ℤ) = A374913 (n + 1)
+
+end A374913
+
+/-! ## A374913.P12781522190957010278
+
+`A263458(n+1)/2`
+-/
+
+namespace A374913.P12781522190957010278
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A263458 (n + 1) : ℚ) / 2
+
+end
+
+end A374913.P12781522190957010278
+
+namespace A374913
+
+/-- `A263458(n+1)/2` -/
+def P12781522190957010278.Spec : Prop :=
+  ∀ n, P12781522190957010278.a n = (A374913 (n + 1) : ℚ)
 
 end A374913
 
@@ -3353,7 +3359,7 @@ end A374931.P5889528167249583340
 /-!
 # A374933: Maximum number of squares covered (i.e., attacked) by 2 independent (i.e., non-attacking) queens on an n X n chessboard.
 
-The programs for A374933, the canonical program `A374933.P7589115173799642160` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374933 has offset 3).
+The programs for A374933, the canonical program `A374933.P7589115173799642160` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374933 has offset 3).
 
 The definition of A374933 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3362,7 +3368,7 @@ The definition of A374933 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((9-3x+2x^2-x^3+x^6)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C050`.
 -/
 
 namespace A374933
@@ -3418,21 +3424,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374935.P13493650925586491206
-
-/-! ## A374935.P17773057528467747747
-
-`A235717(n+2)`
--/
-
-namespace A374935.P17773057528467747747
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235717 (n + 2)
-
-end
-
-end A374935.P17773057528467747747
 
 /-! ## A374935.P2151784558265638125
 
@@ -5622,21 +5613,6 @@ end
 
 end A374987.P11691172558368843547
 
-/-! ## A374987.P7494759296551137977
-
-`2*A299638(n)`
--/
-
-namespace A374987.P7494759296551137977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A299638 n
-
-end
-
-end A374987.P7494759296551137977
-
 /-! ## A374987.P14990985789502748140
 
 `A001650(A001844(3*n))+5`
@@ -5868,21 +5844,6 @@ end
 
 end A374992.P11757688630409669410
 
-/-! ## A374992.P3296002563159009176
-
-`A374994(n)`
--/
-
-namespace A374992.P3296002563159009176
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374994 n
-
-end
-
-end A374992.P3296002563159009176
-
 /-!
 # A374993: Total cost when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the transpose updating strategy.
 
@@ -5936,21 +5897,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374993.P11548185062013496002
-
-/-! ## A374993.P16981154546284668037
-
-`A374995(n)`
--/
-
-namespace A374993.P16981154546284668037
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374995 n
-
-end
-
-end A374993.P16981154546284668037
 
 /-! ## A374993.P11517345166962415177
 
@@ -6114,51 +6060,6 @@ end A374995.P3592725686468676679
 The programs for A374996, there is no canonical definition to state claims against.
 -/
 
-/-! ## A374996.P16281898372701165701
-
-`ceil(log2(A122203(n)+1))`
--/
-
-namespace A374996.P16281898372701165701
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.logb 2 (A122203 n + 1 : ℝ)⌉
-
-end
-
-end A374996.P16281898372701165701
-
-/-! ## A374996.P8323256017148849621
-
-`A071673(0+A089840(n))`
--/
-
-namespace A374996.P8323256017148849621
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071673 (0 + A089840 n).toNat
-
-end
-
-end A374996.P8323256017148849621
-
-/-! ## A374996.P11775697949414017642
-
-`A071673(A089840(n))`
--/
-
-namespace A374996.P11775697949414017642
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071673 (A089840 n).toNat
-
-end
-
-end A374996.P11775697949414017642
-
 /-! ## A374996.P5994958006709667267
 
 `A276806(A182946(n+1))`
@@ -6254,21 +6155,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374997.P8542899652106104870
-
-/-! ## A374997.P5878294273789504221
-
-`A374999(n+1)`
--/
-
-namespace A374997.P5878294273789504221
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374999 (n + 1)
-
-end
-
-end A374997.P5878294273789504221
 
 /-!
 # A374998: Position of the last requested element when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the transpose updating strategy.

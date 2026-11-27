@@ -15,23 +15,21 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C031
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C044
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B001.C007
@@ -39,22 +37,19 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,21 +81,6 @@ import SequenceMachineLib.Triangle
 
 The programs for A010400, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010400.P3562890780558223252
-
-`A010439(n+1)`
--/
-
-namespace A010400.P3562890780558223252
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010439 (n + 1)
-
-end
-
-end A010400.P3562890780558223252
 
 /-! ## A010400.P4494077390410904809
 
@@ -304,21 +284,6 @@ end A010401.P13343825627309614455
 The programs for A010402, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010402.P14460771992330784185
-
-`A010443(n+1)`
--/
-
-namespace A010402.P14460771992330784185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010443 (n + 1)
-
-end
-
-end A010402.P14460771992330784185
-
 /-! ## A010402.P10702610420964763265
 
 `A096008(344+n)`
@@ -508,21 +473,6 @@ end A010403.P18016583740096265396
 
 The programs for A010404, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010404.P16976497011253989108
-
-`A010447(n+1)`
--/
-
-namespace A010404.P16976497011253989108
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010447 (n + 1)
-
-end
-
-end A010404.P16976497011253989108
 
 /-! ## A010404.P17428456457574311622
 
@@ -743,21 +693,6 @@ end
 
 end A010406.P11703083388058442710
 
-/-! ## A010406.P14371135805584166334
-
-`A010451(n+1)`
--/
-
-namespace A010406.P14371135805584166334
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010451 (n + 1)
-
-end
-
-end A010406.P14371135805584166334
-
 /-! ## A010406.P16133055169959929690
 
 `comp[A028803(comp[30*n])]`
@@ -936,21 +871,6 @@ end A010407.P13676529772374819450
 
 The programs for A010408, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010408.P5473133966641991524
-
-`A010455(n+1)`
--/
-
-namespace A010408.P5473133966641991524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010455 (n + 1)
-
-end
-
-end A010408.P5473133966641991524
 
 /-! ## A010408.P10223142845899175256
 

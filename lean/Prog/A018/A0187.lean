@@ -12,17 +12,16 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,13 +32,15 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,7 +48,6 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C011
-import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,7 +56,6 @@ import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -66,15 +65,14 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +96,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -4434,36 +4431,6 @@ end A018759.P13824580532905247287
 The programs for A018760, there is no canonical definition to state claims against.
 -/
 
-/-! ## A018760.P11392024907680050858
-
-`A050614(n)`
--/
-
-namespace A018760.P11392024907680050858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050614 n
-
-end
-
-end A018760.P11392024907680050858
-
-/-! ## A018760.P3798663840407021647
-
-`A050613(2*n)`
--/
-
-namespace A018760.P3798663840407021647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050613 (2 * n)
-
-end
-
-end A018760.P3798663840407021647
-
 /-! ## A018760.P3780678339503547485
 
 `A133021(n+58)`
@@ -4478,21 +4445,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018760.P3780678339503547485
-
-/-! ## A018760.P17396671205325499516
-
-`A075149(2*n+1)`
--/
-
-namespace A018760.P17396671205325499516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075149 (2 * n + 1)
-
-end
-
-end A018760.P17396671205325499516
 
 /-!
 # A018761: Divisors of 988.
@@ -5959,21 +5911,6 @@ end A018779.P701773407288360783
 The programs for A018780, there is no canonical definition to state claims against.
 -/
 
-/-! ## A018780.P11798626975719946769
-
-`A132997(n+1)`
--/
-
-namespace A018780.P11798626975719946769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A132997 (n + 1)
-
-end
-
-end A018780.P11798626975719946769
-
 /-! ## A018780.P1363698546201721193
 
 `record[(n+1)%3*A117981(n)]`
@@ -6049,21 +5986,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018782.P12416647433464249365
-
-/-! ## A018782.P14833568827372391733
-
-`A340388(n+1)`
--/
-
-namespace A018782.P14833568827372391733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340388 (n + 1)
-
-end
-
-end A018782.P14833568827372391733
 
 /-! ## A018782.P15645355869331204398
 
@@ -6518,21 +6440,6 @@ end A018785.P10967433729675950907
 The programs for A018787, there is no canonical definition to state claims against.
 -/
 
-/-! ## A018787.P2923718254458014480
-
-`A344804(n+1)`
--/
-
-namespace A018787.P2923718254458014480
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344804 (n + 1)
-
-end
-
-end A018787.P2923718254458014480
-
 /-! ## A018787.P10324652785747273146
 
 `record[A344804(A023193(A029579(n)))]`
@@ -6917,21 +6824,6 @@ end
 
 end A018793.P15117298518507152458
 
-/-! ## A018793.P8564115473418730698
-
-`A018794(n+1)`
--/
-
-namespace A018793.P8564115473418730698
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018794 (n + 1)
-
-end
-
-end A018793.P8564115473418730698
-
 /-!
 # A018794: Number of subsets of { 1, ..., n } containing an A.P. of length 9.
 
@@ -6982,21 +6874,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018794.P4438682097128562376
-
-/-! ## A018794.P11154813724344821411
-
-`A018795(n+1)`
--/
-
-namespace A018794.P11154813724344821411
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018795 (n + 1)
-
-end
-
-end A018794.P11154813724344821411
 
 /-! ## A018794.P2613499373875246088
 

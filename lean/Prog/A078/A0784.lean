@@ -25,18 +25,17 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
@@ -45,7 +44,9 @@ import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,12 +69,14 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -85,11 +88,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -124,7 +126,7 @@ set_option linter.unreachableTactic false
 /-!
 # A078400: Iterated sum-of-digits of A078403(n).
 
-The programs for A078400, the canonical program `A078400.P8887944924361904284` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078400 has offset 1).
+The programs for A078400, the canonical program `A078400.P8887944924361904284` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078400 has offset 1).
 
 The definition of A078400 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -133,7 +135,7 @@ The definition of A078400 is `conjectured`: the Lean definition is a formula tha
 
 `dr(p?[a(n-4)+9])` with `a(0)=2, a(1)=3, a(2)=5, a(3)=7`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078400
@@ -1073,7 +1075,7 @@ end A078402.P12264028424047286978
 /-!
 # A078403: Primes whose digital root (A038194) is prime.
 
-The programs for A078403, the canonical program `A078403.P4462971799349308732` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078403 has offset 1).
+The programs for A078403, the canonical program `A078403.P4462971799349308732` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078403 has offset 1).
 
 The definition of A078403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1082,7 +1084,7 @@ The definition of A078403 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-4)+9]` with `a(0)=2, a(1)=3, a(2)=5, a(3)=7`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078403
@@ -3053,7 +3055,7 @@ end A078410.P1715453485901843401
 /-!
 # A078411: Expansion of Molien series for a certain 4-D group of order 48.
 
-The programs for A078411, the canonical program `A078411.P5322989500803542836` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078411 has offset 0).
+The programs for A078411, the canonical program `A078411.P5322989500803542836` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078411 has offset 0).
 
 The definition of A078411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3085,7 +3087,7 @@ end A078411
 
 `floor((2*n^3+6*n²+27*n+36)/36-n%2*n/4)`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078411
@@ -3886,7 +3888,7 @@ end A078426
 /-!
 # A078427: Sum of all the decimal digits of numbers from 1 to 10^n.
 
-The programs for A078427, the canonical program `A078427.P550555891873791751` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078427 has offset 1).
+The programs for A078427, the canonical program `A078427.P550555891873791751` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078427 has offset 1).
 
 The definition of A078427 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3918,7 +3920,7 @@ end A078427
 
 `45*(n+1)*10^n+1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078427
@@ -4568,7 +4570,7 @@ end A078429
 /-!
 # A078430: Sum of gcd(k^2,n) for 1 <= k <= n.
 
-The programs for A078430, the canonical program `A078430.P18184114598254949560` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078430 has offset 1).
+The programs for A078430, the canonical program `A078430.P18184114598254949560` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078430 has offset 1).
 
 The definition of A078430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1024 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4577,7 +4579,7 @@ The definition of A078430 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[n, gcd(n+1, #²)]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078430
@@ -7527,7 +7529,7 @@ end A078445
 /-!
 # A078446: a(1)=a(2)=1; a(n)=a(n-2)/2 if a(n-2) is even, a(n)=a(n-1)+a(n-2) otherwise.
 
-The programs for A078446, the canonical program `A078446.P4984706147977569458` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078446 has offset 1).
+The programs for A078446, the canonical program `A078446.P4984706147977569458` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078446 has offset 1).
 
 The definition of A078446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7536,7 +7538,7 @@ The definition of A078446 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(2, a(n-2)+2*a(n-1))/2-a(n-1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078446
@@ -7839,7 +7841,7 @@ end A078449.P11686652270317459002
 /-!
 # A078451: a(1)=1, a(n) = ceiling(n/a(a(n-1))).
 
-The programs for A078451, the canonical program `A078451.P18268623160831132939` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078451 has offset 1).
+The programs for A078451, the canonical program `A078451.P18268623160831132939` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078451 has offset 1).
 
 The definition of A078451 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((n+1)/a(a(n-1)-1))` (program `A078451.P18268623160831132939`, by `A078451.P18268623160831132939.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7848,7 +7850,7 @@ The definition of A078451 is `verified`: the Lean definition is proven equivalen
 
 `ceil((n+1)/a(a(n-1)-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078451
@@ -7958,7 +7960,7 @@ end A078451
 /-!
 # A078452: a(1)=1, a(n) = ceiling(n/a(a(a(n-1)))).
 
-The programs for A078452, the canonical program `A078452.P8527333108874711303` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078452 has offset 1).
+The programs for A078452, the canonical program `A078452.P8527333108874711303` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078452 has offset 1).
 
 The definition of A078452 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((n+1)/a(a(a(n-1)-1)-1))` (program `A078452.P8527333108874711303`, by `A078452.P8527333108874711303.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7967,7 +7969,7 @@ The definition of A078452 is `verified`: the Lean definition is proven equivalen
 
 `ceil((n+1)/a(a(a(n-1)-1)-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078452
@@ -9670,7 +9672,7 @@ end A078465.P9057297879916625716
 /-!
 # A078467: a(n) = a(n-1) + a(n-4); first four terms are 0,1,2,3.
 
-The programs for A078467, the canonical program `A078467.P469941307673899794` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078467 has offset 0).
+The programs for A078467, the canonical program `A078467.P469941307673899794` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078467 has offset 0).
 
 The definition of A078467 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-4)` (program `A078467.P469941307673899794`, by `A078467.P469941307673899794.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9702,7 +9704,7 @@ end A078467
 
 `a(n-1)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078467
@@ -10206,7 +10208,7 @@ end A078468
 /-!
 # A078469: Number of different compositions of the ladder graph L_n.
 
-The programs for A078469, the canonical program `A078469.P16516907361107625573` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078469 has offset 0).
+The programs for A078469, the canonical program `A078469.P16516907361107625573` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078469 has offset 0).
 
 The definition of A078469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10238,7 +10240,7 @@ end A078469
 
 `6*a(n-1)+a(n-2)` with `a(0)=1, a(1)=2, a(2)=12`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078469
@@ -10894,7 +10896,7 @@ end A078471
 /-!
 # A078472: Partial sums of A035282.
 
-The programs for A078472, the canonical program `A078472.P15045031413920336838` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078472 has offset 1).
+The programs for A078472, the canonical program `A078472.P15045031413920336838` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078472 has offset 1).
 
 The definition of A078472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10903,7 +10905,7 @@ The definition of A078472 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A035282(1+n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A078472
@@ -11245,7 +11247,7 @@ end A078473
 /-!
 # A078474: a(1)=a(2)=a(3)=1, a(n)=n-a(a(n-1))-a(a(n-2))-a(a(n-3)).
 
-The programs for A078474, the canonical program `A078474.P10299551153779084113` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078474 has offset 1).
+The programs for A078474, the canonical program `A078474.P10299551153779084113` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078474 has offset 1).
 
 The definition of A078474 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1-a(a(n-1)-1)-a(a(n-2)-1)-a(a(n-3)-1)` (program `A078474.P10299551153779084113`, by `A078474.P10299551153779084113.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11254,7 +11256,7 @@ The definition of A078474 is `verified`: the Lean definition is proven equivalen
 
 `n+1-a(a(n-1)-1)-a(a(n-2)-1)-a(a(n-3)-1)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078474
@@ -11695,7 +11697,7 @@ end A078474
 /-!
 # A078476: Time taken to get n people from one side of a bridge to the other where (a) the only flashlight must be carried when crossing; (b) only one or two people may cross at the same time; (c) a pair crosses at the speed of the slowest member; and (d) the k-th person's speed requires k seconds to cross the bridge.
 
-The programs for A078476, the canonical program `A078476.P15043509866121774640` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078476 has offset 1).
+The programs for A078476, the canonical program `A078476.P15043509866121774640` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078476 has offset 1).
 
 The definition of A078476 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11704,7 +11706,7 @@ The definition of A078476 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x^2+x^3-3x^4)/(1-2x+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078476
@@ -12225,7 +12227,7 @@ end A078476
 /-!
 # A078477: Number of rational knots with n crossings and unknotting number = 1 (chiral pairs counted only once).
 
-The programs for A078477, the canonical program `A078477.P2737672699933253609` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078477 has offset 3).
+The programs for A078477, the canonical program `A078477.P2737672699933253609` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078477 has offset 3).
 
 The definition of A078477 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12257,7 +12259,7 @@ end A078477
 
 `2*a(n-2)+a(n-4)-2*a(n-6)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=3, a(4)=3, a(5)=6, a(6)=7, a(7)=15`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078477
@@ -12477,7 +12479,7 @@ end A078479.P3081706949569784366
 /-!
 # A078480: Number of permutations p of {1,2,...,n} such that |p(i)-i| != 1 for all i.
 
-The programs for A078480, the canonical program `A078480.P15840012077536578544` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078480 has offset 0).
+The programs for A078480, the canonical program `A078480.P15840012077536578544` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078480 has offset 0).
 
 The definition of A078480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12486,7 +12488,7 @@ The definition of A078480 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)-(n-2)*a(n-3)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078480
@@ -12951,7 +12953,7 @@ end A078482.P3783963988690327766
 /-!
 # A078483: Expansion of g.f. -2*x/(1 - 5*x - sqrt(1-4*x) + x*sqrt(1-4*x) + 2*x^2).
 
-The programs for A078483, the canonical program `A078483.P6111359030099331564` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078483 has offset 0).
+The programs for A078483, the canonical program `A078483.P6111359030099331564` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078483 has offset 0).
 
 The definition of A078483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12960,7 +12962,7 @@ The definition of A078483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor(n/3), (5*#+1)*C(2*n-#+1, n-3*#)/(2*n-#+1)]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078483
@@ -13046,7 +13048,7 @@ end A078483
 /-!
 # A078484: G.f.: -x*(1-2*x+2*x^2)/(2*x^3-4*x^2+4*x-1).
 
-The programs for A078484, the canonical program `A078484.P7462744529974171622` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078484 has offset 0).
+The programs for A078484, the canonical program `A078484.P7462744529974171622` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078484 has offset 0).
 
 The definition of A078484 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13055,7 +13057,7 @@ The definition of A078484 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-4*a(n-2)+2*a(n-3)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078484
@@ -13421,7 +13423,7 @@ end A078484
 /-!
 # A078485: Number of irreducible indecomposable permutations of degree n.
 
-The programs for A078485, the canonical program `A078485.P15658383341369921247` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078485 has offset 0).
+The programs for A078485, the canonical program `A078485.P15658383341369921247` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078485 has offset 0).
 
 The definition of A078485 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13453,7 +13455,7 @@ end A078485
 
 `3*a(n-1)-2*a(n-2)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=1, a(4)=7, a(5)=15`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078485
@@ -13724,7 +13726,7 @@ end A078485
 /-!
 # A078486: Expansion of (x-7*x^2+19*x^3-21*x^4+10*x^5-6*x^6) / (1-9*x+31*x^2-53*x^3+44*x^4-16*x^5+6*x^6).
 
-The programs for A078486, the canonical program `A078486.P3679292448395638830` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078486 has offset 0).
+The programs for A078486, the canonical program `A078486.P3679292448395638830` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078486 has offset 0).
 
 The definition of A078486 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-7x^2+19x^3-21x^4+10x^5-6x^6)/(1-9x+31x^2-53x^3+44x^4-16x^5+6x^6))` (program `A078486.P3679292448395638830`, by `A078486.P3679292448395638830.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13733,7 +13735,7 @@ The definition of A078486 is `verified`: the Lean definition is proven equivalen
 
 `ogf((x-7x^2+19x^3-21x^4+10x^5-6x^6)/(1-9x+31x^2-53x^3+44x^4-16x^5+6x^6))`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078486
@@ -13842,7 +13844,7 @@ end A078487.P5737722238644778290
 /-!
 # A078488: First differences of coefficients of g.f. (1-x)^24.
 
-The programs for A078488, the canonical program `A078488.P3165912564717000144` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078488 has offset 1).
+The programs for A078488, the canonical program `A078488.P3165912564717000144` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078488 has offset 1).
 
 The definition of A078488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13851,7 +13853,7 @@ The definition of A078488 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(n+1)*C(25, n+1)`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078488
@@ -13869,7 +13871,7 @@ end A078488
 /-!
 # A078489: a(n)=j such that binomial(n,j)<binomial(n-1,j-2).
 
-The programs for A078489, the canonical program `A078489.P12901953989768602075` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078489 has offset 1).
+The programs for A078489, the canonical program `A078489.P12901953989768602075` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078489 has offset 1).
 
 The definition of A078489 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1197 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13927,7 +13929,7 @@ end A078489
 
 `n+1-floor(n-(n+1)²/(a(n-1)+n+1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078489
@@ -15055,7 +15057,7 @@ end A078494
 /-!
 # A078495: a(n) = (a(n-1) * a(n-6) + a(n-3) * a(n-4)) / a(n-7) (a variant of Somos-7).
 
-The programs for A078495, the canonical program `A078495.P5440528365581570052` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078495 has offset 0).
+The programs for A078495, the canonical program `A078495.P5440528365581570052` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078495 has offset 0).
 
 The definition of A078495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15064,7 +15066,7 @@ The definition of A078495 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(a(n-1)*a(n-6)+a(n-3)*a(n-4))/a(n-7)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A078495

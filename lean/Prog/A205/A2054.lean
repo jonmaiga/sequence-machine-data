@@ -7,7 +7,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -16,24 +15,25 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C035
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,18 +48,18 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C004
+import Seq.B005.C002
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,6 +72,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -88,7 +89,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A205400: Ordered differences of quarter-squares.
 
-The programs for A205400, the canonical program `A205400.P4756614166770997903` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205400 has offset 1).
+The programs for A205400, the canonical program `A205400.P4756614166770997903` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205400 has offset 1).
 
 The definition of A205400 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -97,7 +98,7 @@ The definition of A205400 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((row(n)+2)/2)+T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A205400
@@ -2809,7 +2810,7 @@ end A205447.P16738025605303707936
 /-!
 # A205448: Ordered differences of even-indexed Fibonacci numbers.
 
-The programs for A205448, the canonical program `A205448.P7225875672701463311` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205448 has offset 1).
+The programs for A205448, the canonical program `A205448.P7225875672701463311` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205448 has offset 1).
 
 The definition of A205448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2818,7 +2819,7 @@ The definition of A205448 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(ϕ*A205371(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205448
@@ -4231,8 +4232,29 @@ end A205467.P8968139155410683305
 /-!
 # A205468: Number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having the same number of equal edges, and new values 0..2 introduced in row major order.
 
-The programs for A205468, there is no canonical definition to state claims against.
+The programs for A205468, the canonical program `A205468.P3335759618107626462` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205468 has offset 1).
+
+The definition of A205468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A205468.P3335759618107626462
+
+`ogf((14-78x+37x^2+264x^3-105x^4-180x^5)/(1-9x+21x^2+11x^3-66x^4+6x^5+36x^6))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A205468
+
+/-- `ogf((14-78x+37x^2+264x^3-105x^4-180x^5)/(1-9x+21x^2+11x^3-66x^4+6x^5+36x^6))` -/
+def P3335759618107626462.Spec : Prop :=
+  ∀ n, P3335759618107626462.a n = A205468 (n + 1)
+
+theorem P3335759618107626462.correct : P3335759618107626462.Spec := by
+  intro n
+  simp only [A205468, Nat.add_sub_cancel]
+
+end A205468
 
 /-! ## A205468.P11220517651955292050
 
@@ -4252,6 +4274,14 @@ end
 
 end A205468.P11220517651955292050
 
+namespace A205468
+
+/-- `A205475(∑[n]+1)` -/
+def P11220517651955292050.Spec : Prop :=
+  ∀ n, P11220517651955292050.a n = A205468 (n + 1)
+
+end A205468
+
 /-! ## A205468.P14960102901544470247
 
 `record[A205475(A056534(n+1))]`
@@ -4269,6 +4299,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205468.P14960102901544470247
+
+namespace A205468
+
+/-- `record[A205475(A056534(n+1))]` -/
+def P14960102901544470247.Spec : Prop :=
+  ∀ n, P14960102901544470247.a n = A205468 (n + 1)
+
+end A205468
 
 /-! ## A205468.P13932224424229079735
 
@@ -4288,6 +4326,14 @@ end
 
 end A205468.P13932224424229079735
 
+namespace A205468
+
+/-- `A205753(∑[n]+1)` -/
+def P13932224424229079735.Spec : Prop :=
+  ∀ n, P13932224424229079735.a n = A205468 (n + 1)
+
+end A205468
+
 /-! ## A205468.P1541101674406097245
 
 `record[A010054(n)*A205753(n+1)]`
@@ -4305,6 +4351,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205468.P1541101674406097245
+
+namespace A205468
+
+/-- `record[A010054(n)*A205753(n+1)]` -/
+def P1541101674406097245.Spec : Prop :=
+  ∀ n, P1541101674406097245.a n = A205468 (n + 1)
+
+end A205468
 
 /-!
 # A205469: Number of (n+1)X3 0..2 arrays with every 2X2 subblock having the same number of equal edges, and new values 0..2 introduced in row major order.
@@ -5068,7 +5122,7 @@ end A205491.P3285440598766830116
 /-!
 # A205492: Expansion of (1-x^2-x^3-x^4+x^5)/((1-x)^3*(1-x-x^2)^2*(1-2*x-x^2+x^3)).
 
-The programs for A205492, the canonical program `A205492.P17952808073976807473` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205492 has offset 0).
+The programs for A205492, the canonical program `A205492.P17952808073976807473` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205492 has offset 0).
 
 The definition of A205492 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2-x^3-x^4+x^5)/(1-7x+17x^2-12x^3-15x^4+26x^5-3x^6-13x^7+5x^8+2x^9-x^10))` (program `A205492.P17952808073976807473`, by `A205492.P17952808073976807473.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5077,7 +5131,7 @@ The definition of A205492 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x^2-x^3-x^4+x^5)/(1-7x+17x^2-12x^3-15x^4+26x^5-3x^6-13x^7+5x^8+2x^9-x^10))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A205492

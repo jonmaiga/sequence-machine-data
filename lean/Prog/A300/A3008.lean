@@ -8,31 +8,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C041
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -68,12 +66,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +95,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -630,7 +626,7 @@ end A300819.P692532684521172744
 /-!
 # A300820: Length of the longest sequence of consecutive primes in the prime factorization of n. a(1) = 0.
 
-The programs for A300820, the canonical program `A300820.P15044450781705937351` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300820 has offset 1).
+The programs for A300820, the canonical program `A300820.P15044450781705937351` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300820 has offset 1).
 
 The definition of A300820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -662,7 +658,7 @@ end A300820
 
 `1+a(A330749(n+1)-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A300820
@@ -2393,21 +2389,6 @@ end
 
 end A300826.P12935721900547284776
 
-/-! ## A300826.P7901780410648818635
-
-`A302110(n+1)+1`
--/
-
-namespace A300826.P7901780410648818635
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302110 (n + 1) + 1
-
-end
-
-end A300826.P7901780410648818635
-
 /-! ## A300826.P16488927399501062540
 
 `A244051(A160664(n)+n)`
@@ -3120,27 +3101,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300832.P1121674064121046987
-
-/-!
-# A300833: Filter sequence combining A300830(n), A300831(n) and A300832(n), three products formed from such proper divisors d of n for which mu(n/d) = 0, +1 or -1 respectively, where mu is Möbius mu function (A008683).
-
-The programs for A300833, there is no canonical definition to state claims against.
--/
-
-/-! ## A300833.P8327799834912664611
-
-`A373150(1+n)`
--/
-
-namespace A300833.P8327799834912664611
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373150 (1 + n)
-
-end
-
-end A300833.P8327799834912664611
 
 /-!
 # A300834: a(n) = Product_{d|n, d<n} A019565(A003714(d)), where A003714(n) is the n-th Fibbinary number.
@@ -4055,7 +4015,7 @@ end A300841.P13629242665069794513
 /-!
 # A300843: Number of 4-cycles in the n-transposition graph.
 
-The programs for A300843, the canonical program `A300843.P3386035531213949245` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300843 has offset 1).
+The programs for A300843, the canonical program `A300843.P3386035531213949245` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300843 has offset 1).
 
 The definition of A300843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4064,7 +4024,7 @@ The definition of A300843 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(n+6)*C(n+1, 3)*(n+1)!/16`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300843
@@ -4099,7 +4059,7 @@ end A300845.P12303374430214419147
 /-!
 # A300846: a(n) = 3*(n - 1)^2*n^3.
 
-The programs for A300846, the canonical program `A300846.P12101239082248860777` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300846 has offset 0).
+The programs for A300846, the canonical program `A300846.P12101239082248860777` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300846 has offset 0).
 
 The definition of A300846 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*(n-1)²*n^3` (program `A300846.P12101239082248860777`, by `A300846.P12101239082248860777.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4108,7 +4068,7 @@ The definition of A300846 is `verified`: the Lean definition is proven equivalen
 
 `3*(n-1)²*n^3`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300846
@@ -4259,7 +4219,7 @@ end A300846
 /-!
 # A300847: a(n) = 12*binomial(n, 5).
 
-The programs for A300847, the canonical program `A300847.P3184734527947357789` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300847 has offset 0).
+The programs for A300847, the canonical program `A300847.P3184734527947357789` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300847 has offset 0).
 
 The definition of A300847 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `12*C(n, 5)` (program `A300847.P3184734527947357789`, by `A300847.P3184734527947357789.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4268,7 +4228,7 @@ The definition of A300847 is `verified`: the Lean definition is proven equivalen
 
 `12*C(n, 5)`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300847
@@ -4582,7 +4542,7 @@ end A300850
 /-!
 # A300851: Number of 6-cycles in the n-transposition graph.
 
-The programs for A300851, the canonical program `A300851.P1869142198542685985` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300851 has offset 1).
+The programs for A300851, the canonical program `A300851.P1869142198542685985` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300851 has offset 1).
 
 The definition of A300851 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4620,7 +4580,7 @@ end A300851
 
 `(n+1)!*(C(n+1, 3)+116*C(n+1, 4)+105*C(n+1, 5)+30*C(n+1, 6))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300851
@@ -5530,7 +5490,7 @@ end A300859.P918065784797057591
 /-!
 # A300861: Records in A300858.
 
-The programs for A300861, the canonical program `A300861.P7350183992813062012` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300861 has offset 1).
+The programs for A300861, the canonical program `A300861.P7350183992813062012` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300861 has offset 1).
 
 The definition of A300861 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5539,7 +5499,7 @@ The definition of A300861 is `conjectured`: the Lean definition is a formula tha
 
 `record[A300858(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A300861
@@ -6343,21 +6303,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300881.P11272085845593854120
-
-/-! ## A300881.P15853307337793190280
-
-`A301491(n+1)`
--/
-
-namespace A300881.P15853307337793190280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301491 (n + 1)
-
-end
-
-end A300881.P15853307337793190280
 
 /-!
 # A300882: Number of n X n 0..1 arrays with every element equal to 0, 1, 3, 4 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.

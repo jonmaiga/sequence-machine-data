@@ -8,28 +8,29 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C015
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +44,9 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -63,8 +66,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -353,21 +354,6 @@ end A332305.P13947142273434263766
 
 The programs for A332306, there is no canonical definition to state claims against.
 -/
-
-/-! ## A332306.P1593988798471187353
-
-`A048675(A318954(n+1))`
--/
-
-namespace A332306.P1593988798471187353
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048675 (A318954 (n + 1)).toNat
-
-end
-
-end A332306.P1593988798471187353
 
 /-! ## A332306.P12323216834556886605
 
@@ -1385,7 +1371,7 @@ end A332347.P11503714737690257073
 /-!
 # A332348: Number of maximal independent sets in the 3 X n king graph.
 
-The programs for A332348, the canonical program `A332348.P7423062207171270866` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332348 has offset 0).
+The programs for A332348, the canonical program `A332348.P7423062207171270866` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332348 has offset 0).
 
 The definition of A332348 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1394,7 +1380,7 @@ The definition of A332348 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2-3x^3+2x^4-2x^5)/(1-x-2x^2-x^3+2x^4-2x^5+2x^6))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A332348
@@ -1438,7 +1424,7 @@ end A332348
 /-!
 # A332349: Number of maximal independent sets in the 4 X n king graph.
 
-The programs for A332349, the canonical program `A332349.P4165957570088303137` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332349 has offset 0).
+The programs for A332349, the canonical program `A332349.P4165957570088303137` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332349 has offset 0).
 
 The definition of A332349 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1447,7 +1433,7 @@ The definition of A332349 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+5x^2-5x^3+4x^4-3x^5-6x^6)/(1-x-4x^2-3x^3+4x^4-6x^5+3x^6+6x^7))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A332349
@@ -5068,24 +5054,6 @@ end A332379.P16825884817926078425
 The programs for A332380, there is no canonical definition to state claims against.
 -/
 
-/-! ## A332380.P9015125187834970114
-
-`∑[A353526(n+1)-2]`
--/
-
-namespace A332380.P9015125187834970114
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353526 (n + 1) - 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A332380.P9015125187834970114
-
 /-! ## A332380.P10460278921472332307
 
 `∑[A163533(A141566(n+1))]`
@@ -6545,7 +6513,7 @@ end A332391.P17356776591725428827
 /-!
 # A332392: Number of minimal total dominating sets in the 2 X n king graph.
 
-The programs for A332392, the canonical program `A332392.P4887248494044157942` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332392 has offset 0).
+The programs for A332392, the canonical program `A332392.P4887248494044157942` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332392 has offset 0).
 
 The definition of A332392 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6554,7 +6522,7 @@ The definition of A332392 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+5x^2+4x^3-8x^6-48x^7-64x^8)/(1-x^2-5x^3-4x^4-8x^5-16x^6+8x^7+48x^8+64x^9))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A332392

@@ -3,37 +3,41 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C019
+import Seq.B000.C013
+import Seq.B000.C016
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C040
+import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C000
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -476,21 +480,6 @@ end A195737.P14134589159595951200
 The programs for A195738, there is no canonical definition to state claims against.
 -/
 
-/-! ## A195738.P7946653522591310936
-
-`A066096(A049430(n+1))`
--/
-
-namespace A195738.P7946653522591310936
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066096 (A049430 (n + 1)).toNat
-
-end
-
-end A195738.P7946653522591310936
-
 /-! ## A195738.P10633953469947305396
 
 `floor(ϕ*(A085852(n)+A046080(A318576(n+1))))`
@@ -656,7 +645,7 @@ end A195743.P7209983881688870933
 /-!
 # A195744: a(n) = 15*2^(n+1) + 1.
 
-The programs for A195744, the canonical program `A195744.P16037549295852236584` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195744 has offset 0).
+The programs for A195744, the canonical program `A195744.P16037549295852236584` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195744 has offset 0).
 
 The definition of A195744 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `15*2^(n+1)+1` (program `A195744.P16037549295852236584`, by `A195744.P16037549295852236584.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -717,7 +706,7 @@ end A195744
 
 `15*2^(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195744
@@ -1035,16 +1024,16 @@ end A195745.P6154459850342578726
 /-!
 # A195758: Lesser prime factor of n-th Blum number.
 
-The programs for A195758, the canonical program `A195758.P1261912212943539930` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195758 has offset 1).
+The programs for A195758, the canonical program `A195758.P1261912212943539930` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195758 has offset 1).
 
-The definition of A195758 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A016105, A020639, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A195758 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A016105, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A195758.P1261912212943539930
 
 `A020639(A016105(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A195758
@@ -1255,7 +1244,7 @@ end A195758
 /-!
 # A195759: Greater prime factor of n-th Blum number.
 
-The programs for A195759, the canonical program `A195759.P17761450723360096639` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195759 has offset 1).
+The programs for A195759, the canonical program `A195759.P17761450723360096639` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195759 has offset 1).
 
 The definition of A195759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1264,7 +1253,7 @@ The definition of A195759 is `conjectured`: the Lean definition is a formula tha
 
 `A016105(1+n)/A195758(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A195759
@@ -1520,27 +1509,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195760.P4897873819309576798
-
-/-!
-# A195761: G.f.: exp( Sum_{n>=1} A055457(n) * 5^A055457(n) * x^n/n ) where 5^A055457(n) exactly divides 5*n.
-
-The programs for A195761, there is no canonical definition to state claims against.
--/
-
-/-! ## A195761.P11569324637754125091
-
-`A321418(3*n)`
--/
-
-namespace A195761.P11569324637754125091
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321418 (3 * n)
-
-end
-
-end A195761.P11569324637754125091
 
 /-!
 # A195763: Number of triangular nXnXn 0..n arrays with all row sums equal to the length of the row and all diagonal sums equal to the length of the respective diagonal.

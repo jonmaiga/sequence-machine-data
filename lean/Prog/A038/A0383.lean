@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -13,7 +14,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,22 +24,25 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,24 +62,25 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,11 +89,11 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -457,7 +462,7 @@ end A038300
 /-!
 # A038301: Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*11^j.
 
-The programs for A038301, the canonical program `A038301.P13802189218561258901` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038301 has offset 0).
+The programs for A038301, the canonical program `A038301.P13802189218561258901` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038301 has offset 0).
 
 The definition of A038301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -489,7 +494,7 @@ end A038301
 
 `A038229(n)*A140303(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A038301
@@ -550,9 +555,9 @@ def P9777508428314938076.Spec : Prop :=
 
 theorem P9777508428314938076.correct : P9777508428314938076.Spec := by
   intro n
-  simp only [A038301, Nat.add_sub_cancel, A038301.P9777508428314938076.a, A038301.P13802189218561258901.a, A013618, A013618.P569339467479548709.a, A038229, A038229.P16179588272599030162.a, A140303, A140303.P8111893884846108163.a, A000244, A000244.P17162167222172810417.a, SequenceMachineLib.memo_apply]
+  simp only [A038301, Nat.add_sub_cancel, A038301.P9777508428314938076.a, A038301.P13802189218561258901.a, A013618, A013618.P569339467479548709.a, A038229, A038229.P16179588272599030162.a, A140303, A140303.P12138749446598600265.a, SequenceMachineLib.memo_apply]
   try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A038301
 
@@ -3042,7 +3047,7 @@ end A038307
 /-!
 # A038308: Triangle whose (i,j)-th entry is binomial(i,j)*10^(i-j)*6^j.
 
-The programs for A038308, the canonical program `A038308.P13048394951449472334` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038308 has offset 0).
+The programs for A038308, the canonical program `A038308.P13048394951449472334` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038308 has offset 0).
 
 The definition of A038308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3599 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3074,7 +3079,7 @@ end A038308
 
 `A036561(n)*A038244(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A038308
@@ -18070,29 +18075,6 @@ theorem P4711874104874146746.correct : P4711874104874146746.Spec := by
 
 end A038366
 
-/-! ## A038366.P2114997084467172025
-
-`A343131(n+10)`
--/
-
-namespace A038366.P2114997084467172025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343131 (n + 10)
-
-end
-
-end A038366.P2114997084467172025
-
-namespace A038366
-
-/-- `A343131(n+10)` -/
-def P2114997084467172025.Spec : Prop :=
-  ∀ n, P2114997084467172025.a n = A038366 (n + 1)
-
-end A038366
-
 /-!
 # A038367: Numbers n with property that (product of digits of n) is divisible by (sum of digits of n).
 
@@ -18647,7 +18629,7 @@ end A038373.P11877820396172956118
 /-!
 # A038374: Length of longest contiguous block of 1's in binary expansion of n.
 
-The programs for A038374, the canonical program `A038374.P3033651353033527985` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038374 has offset 1).
+The programs for A038374, the canonical program `A038374.P3033651353033527985` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038374 has offset 1).
 
 The definition of A038374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18656,7 +18638,7 @@ The definition of A038374 is `conjectured`: the Lean definition is a formula tha
 
 `val(A278222(1+n), 2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038374
@@ -22666,25 +22648,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038396.P11904947177682518115
-
-/-!
-# A038399: Concatenate first n nonzero Fibonacci numbers in reverse order.
-
-The programs for A038399, there is no canonical definition to state claims against.
--/
-
-/-! ## A038399.P12142052744998333808
-
-`A249604(n+1)`
--/
-
-namespace A038399.P12142052744998333808
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249604 (n + 1)
-
-end
-
-end A038399.P12142052744998333808
 

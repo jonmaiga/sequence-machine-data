@@ -24,7 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,18 +33,20 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,21 +67,23 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2987,23 +2991,29 @@ end A002720
 /-!
 # A002721: Number of 3 X 3 X 3 arrays M_ijk (1 <= i,j,k <= 3) with entries satisfying 0 <= M_ijk <= n and all line sums equal to n.
 
-The programs for A002721, there is no canonical definition to state claims against.
+The programs for A002721, the canonical program `A002721.P16854494376131214288` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002721 has offset 0).
+
+The definition of A002721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A002721.P3852621996943032558
+/-! ## A002721.P16854494376131214288
 
-`A111085(n)`
+`ogf((1+3x+60x^2+7x^3+168x^4+7x^5+60x^6+3x^7+x^8)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C000`.
 -/
 
-namespace A002721.P3852621996943032558
-noncomputable section
+namespace A002721
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111085 n
+/-- `ogf((1+3x+60x^2+7x^3+168x^4+7x^5+60x^6+3x^7+x^8)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P16854494376131214288.Spec : Prop :=
+  ∀ n, P16854494376131214288.a n = A002721 n
 
-end
+theorem P16854494376131214288.correct : P16854494376131214288.Spec := by
+  intro n
+  simp only [A002721]
 
-end A002721.P3852621996943032558
+end A002721
 
 /-!
 # A002723: Number of rotatable partitions of [n].
@@ -4815,7 +4825,7 @@ end A002731
 /-!
 # A002732: Numbers k such that (4*k^2 + 1)/5 is prime.
 
-The programs for A002732, the canonical program `A002732.P11978341477715930787` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002732 has offset 1).
+The programs for A002732, the canonical program `A002732.P11978341477715930787` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002732 has offset 1).
 
 The definition of A002732 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4853,7 +4863,7 @@ end A002732
 
 `A000463(eq[5, A248516(n+1)])`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A002732
@@ -9398,36 +9408,6 @@ def P4248270235713208730.Spec : Prop :=
 
 end A002760
 
-/-! ## A002760.P16409428971224775664
-
-`0+∪[n*n², n²]`
--/
-
-namespace A002760.P16409428971224775664
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * n ^ 2
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0 + SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
-
-end
-
-end A002760.P16409428971224775664
-
-namespace A002760
-
-/-- `0+∪[n*n², n²]` -/
-def P16409428971224775664.Spec : Prop :=
-  ∀ n, (P16409428971224775664.a n : ℤ) = A002760 (n + 1)
-
-end A002760
-
 /-! ## A002760.P15505330275293560374
 
 `record[A125643(n+1)-char[1]]`
@@ -11601,21 +11581,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A002780.P4286761510725809566
-
-/-! ## A002780.P11952659811504136604
-
-`A069748(n+1)`
--/
-
-namespace A002780.P11952659811504136604
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069748 (n + 1)
-
-end
-
-end A002780.P11952659811504136604
 
 /-!
 # A002781: Palindromic cubes.

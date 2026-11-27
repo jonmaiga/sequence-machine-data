@@ -3,18 +3,17 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -24,16 +23,17 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -55,14 +55,14 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +71,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -87,7 +86,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1602,21 +1600,6 @@ end A114921.P2138447625426669251
 The programs for A114924, there is no canonical definition to state claims against.
 -/
 
-/-! ## A114924.P11996168806864606444
-
-`A362066(n+1)`
--/
-
-namespace A114924.P11996168806864606444
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362066 (n + 1)
-
-end
-
-end A114924.P11996168806864606444
-
 /-! ## A114924.P11201013816293124531
 
 `A000040(A362060(n+1))`
@@ -2445,7 +2428,7 @@ end A114944
 /-!
 # A114945: Number of monic irreducible polynomials over GF(3) of degree <= n.
 
-The programs for A114945, the canonical program `A114945.P7619896337304005441` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114945 has offset 1).
+The programs for A114945, the canonical program `A114945.P7619896337304005441` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114945 has offset 1).
 
 The definition of A114945 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2480,7 +2463,7 @@ end A114945
 
 `∑[A185171(1+n)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114945
@@ -2657,7 +2640,7 @@ end A114945
 /-!
 # A114946: Number of monic irreducible polynomials over GF(4) of degree <= n.
 
-The programs for A114946, the canonical program `A114946.P5383616517876517335` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114946 has offset 1).
+The programs for A114946, the canonical program `A114946.P5383616517876517335` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114946 has offset 1).
 
 The definition of A114946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2692,7 +2675,7 @@ end A114946
 
 `∑[A185172(1+n)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114946
@@ -4380,7 +4363,7 @@ end A114965
 /-!
 # A114966: Prime(n) + Semiprime(n) + 3AlmostPrime(n) + 4AlmostPrime(n) + 5AlmostPrime(n).
 
-The programs for A114966, the canonical program `A114966.P15379347381698072828` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114966 has offset 1).
+The programs for A114966, the canonical program `A114966.P15379347381698072828` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114966 has offset 1).
 
 The definition of A114966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014614, A114944, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4389,7 +4372,7 @@ The definition of A114966 is `conditional`: the Lean definition is an OEIS formu
 
 `A114944(n+1)+A014614(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A114966

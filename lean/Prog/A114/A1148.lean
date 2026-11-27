@@ -9,15 +9,13 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
@@ -28,17 +26,18 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,28 +52,29 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -223,27 +223,6 @@ def P16925129803110783074.Spec : Prop :=
   ∀ n, P16925129803110783074.a n = A114800 n
 
 end A114800
-
-/-!
-# A114801: 2-concatenation-free sequence starting (1,2).
-
-The programs for A114801, there is no canonical definition to state claims against.
--/
-
-/-! ## A114801.P5286089289834480602
-
-`A114802(n+1)`
--/
-
-namespace A114801.P5286089289834480602
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114802 (n + 1)
-
-end
-
-end A114801.P5286089289834480602
 
 /-!
 # A114802: 3-concatenation-free sequence starting (1,2).
@@ -2858,7 +2837,7 @@ end A114826.P10645946419798035262
 /-!
 # A114828: Numbers k such that the k-th octagonal number has 9 prime factors counted with multiplicity.
 
-The programs for A114828, the canonical program `A114828.P6699849165971789855` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114828 has offset 1).
+The programs for A114828, the canonical program `A114828.P6699849165971789855` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114828 has offset 1).
 
 The definition of A114828 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 223 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2867,7 +2846,7 @@ The definition of A114828 is `conjectured`: the Lean definition is a formula tha
 
 `eq[10, A193295(3*n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114828
@@ -3196,21 +3175,6 @@ end A114831.P3692939323506712314
 
 The programs for A114832, there is no canonical definition to state claims against.
 -/
-
-/-! ## A114832.P10079328842441872524
-
-`A114831(n+2)-1`
--/
-
-namespace A114832.P10079328842441872524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114831 (n + 2) - 1
-
-end
-
-end A114832.P10079328842441872524
 
 /-! ## A114832.P8600372920471047797
 
@@ -5372,27 +5336,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114851.P17431326455201867608
-
-/-!
-# A114852: The number of closed lambda calculus terms of size n, where size(lambda x.M)=2+size(M), size(M N)=2+size(M)+size(N), and size(V)=1+i for a variable V bound by the i-th enclosing lambda (corresponding to a binary encoding).
-
-The programs for A114852, there is no canonical definition to state claims against.
--/
-
-/-! ## A114852.P563334622796702308
-
-`A333958(A028310(n))`
--/
-
-namespace A114852.P563334622796702308
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333958 (A028310 n).toNat
-
-end
-
-end A114852.P563334622796702308
 
 /-!
 # A114853: a(n) = floor(n^n/n!!).

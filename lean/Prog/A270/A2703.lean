@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -20,22 +19,22 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -50,9 +49,9 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -60,17 +59,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +93,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -455,7 +452,7 @@ end A270305.P14470581834415386771
 /-!
 # A270307: Expansion of -(4*x^3+8*x^2+4*x+1)/(2*x^4+4*x^3+2*x^2-x-1).
 
-The programs for A270307, the canonical program `A270307.P6454519374419731181` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270307 has offset 0).
+The programs for A270307, the canonical program `A270307.P6454519374419731181` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270307 has offset 0).
 
 The definition of A270307 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+4x+8x^2+4x^3)/(1+x-2x^2-4x^3-2x^4))` (program `A270307.P6454519374419731181`, by `A270307.P6454519374419731181.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -464,7 +461,7 @@ The definition of A270307 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+4x+8x^2+4x^3)/(1+x-2x^2-4x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270307
@@ -1319,7 +1316,7 @@ end A270312
 /-!
 # A270313: Denominator of Fibonacci(n)/n.
 
-The programs for A270313, the canonical program `A270313.P12699358592740471625` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270313 has offset 1).
+The programs for A270313, the canonical program `A270313.P12699358592740471625` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270313 has offset 1).
 
 The definition of A270313 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1328,7 +1325,7 @@ The definition of A270313 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)/A104714(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A270313
@@ -3434,7 +3431,7 @@ end A270340.P15460985612248455169
 /-!
 # A270342: Positive integers n such that the sum of the Pell numbers A000129(0) + ... + A000129(n-1) is divisible by n.
 
-The programs for A270342, the canonical program `A270342.P13108582808500830394` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270342 has offset 1).
+The programs for A270342, the canonical program `A270342.P13108582808500830394` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270342 has offset 1).
 
 The definition of A270342 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3443,7 +3440,7 @@ The definition of A270342 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A270388(2+n)]+2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A270342
@@ -3996,7 +3993,7 @@ end A270345.P9462902576955686702
 /-!
 # A270346: a(n) is the number whose base-11 digits are, in order, the first n terms of the simple periodic sequence: repeat 2,3,5,7.
 
-The programs for A270346, the canonical program `A270346.P7328034309224935787` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270346 has offset 1).
+The programs for A270346, the canonical program `A270346.P7328034309224935787` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270346 has offset 1).
 
 The definition of A270346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4005,7 +4002,7 @@ The definition of A270346 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x+5x^2+7x^3)/(1-11x-x^4+11x^5))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270346
@@ -5049,7 +5046,7 @@ end A270368.P7807459739248472476
 /-!
 # A270369: Expansion of g.f. (1-7*x)/(1-9*x).
 
-The programs for A270369, the canonical program `A270369.P13136369714176242248` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270369 has offset 0).
+The programs for A270369, the canonical program `A270369.P13136369714176242248` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270369 has offset 0).
 
 The definition of A270369 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-7x)/(1-9x))` (program `A270369.P13136369714176242248`, by `A270369.P13136369714176242248.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5058,7 +5055,7 @@ The definition of A270369 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-7x)/(1-9x))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270369
@@ -5549,7 +5546,7 @@ end A270369
 /-!
 # A270370: a(n) = Sum_{k=0..n} (-1)^k*floor(k^(1/3)).
 
-The programs for A270370, the canonical program `A270370.P10737048825820246784` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270370 has offset 0).
+The programs for A270370, the canonical program `A270370.P10737048825820246784` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270370 has offset 0).
 
 The definition of A270370 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5558,7 +5555,7 @@ The definition of A270370 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n^(1/3))*(-1)^n/2-((-1)^(floor(n^(1/3))+1)+1)/4`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270370
@@ -6208,7 +6205,7 @@ end A270383
 /-!
 # A270384: Primes p such that (3/4)(p + 1) - 1 is also prime.
 
-The programs for A270384, the canonical program `A270384.P1537396231614344993` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270384 has offset 1).
+The programs for A270384, the canonical program `A270384.P1537396231614344993` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270384 has offset 1).
 
 The definition of A270384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6217,7 +6214,7 @@ The definition of A270384 is `conjectured`: the Lean definition is a formula tha
 
 `p?[ceil(A001749(n+1)/3)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A270384
@@ -7085,7 +7082,7 @@ end A270389.P9086299061009147378
 /-!
 # A270390: Greatest common divisor of 2^n-1 and 5^n-1.
 
-The programs for A270390, the canonical program `A270390.P9819227380121629144` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270390 has offset 1).
+The programs for A270390, the canonical program `A270390.P9819227380121629144` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270390 has offset 1).
 
 The definition of A270390 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7094,7 +7091,7 @@ The definition of A270390 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `gcd(2^(n+1)-1, 5^(n+1)-1)`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270390

@@ -24,21 +24,21 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,7 +57,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -69,6 +69,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
@@ -77,7 +78,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +102,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3040,21 +3039,6 @@ end
 
 end A139331.P12303956889807907039
 
-/-! ## A139331.P17621560166306298127
-
-`A145892(A321884(n))`
--/
-
-namespace A139331.P17621560166306298127
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145892 (A321884 n).toNat
-
-end
-
-end A139331.P17621560166306298127
-
 /-!
 # A139333: Floor of entry (2,1) of [0,1; 1,phi]^n.
 
@@ -3572,7 +3556,7 @@ end A139338.P11661688607165505107
 /-!
 # A139351: Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence gives e(n).
 
-The programs for A139351, the canonical program `A139351.P13370593459202110274` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139351 has offset 0).
+The programs for A139351, the canonical program `A139351.P13370593459202110274` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139351 has offset 0).
 
 The definition of A139351 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3581,7 +3565,7 @@ The definition of A139351 is `conjectured`: the Lean definition is a formula tha
 
 `n%2+a(floor(n/4))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139351
@@ -6002,21 +5986,6 @@ end
 
 end A139365.P8588019523246727364
 
-/-! ## A139365.P6663683847594494108
-
-`A366386(A043547(n+1))`
--/
-
-namespace A139365.P6663683847594494108
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366386 (A043547 (n + 1)).toNat
-
-end
-
-end A139365.P6663683847594494108
-
 /-! ## A139365.P9450202345090533227
 
 `A124764((n+1)*A124773(n)-1)`
@@ -6601,7 +6570,7 @@ end A139368
 /-!
 # A139370: Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence lists n such that e(n) < o(n).
 
-The programs for A139370, the canonical program `A139370.P2408068397612457127` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139370 has offset 1).
+The programs for A139370, the canonical program `A139370.P2408068397612457127` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139370 has offset 1).
 
 The definition of A139370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6610,7 +6579,7 @@ The definition of A139370 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n%2-a(floor(n/2)), 0]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139370
@@ -6945,7 +6914,7 @@ end A139370
 /-!
 # A139371: Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence lists n such that e(n) <= o(n).
 
-The programs for A139371, the canonical program `A139371.P17514018940283828399` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139371 has offset 1).
+The programs for A139371, the canonical program `A139371.P17514018940283828399` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139371 has offset 1).
 
 The definition of A139371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6954,7 +6923,7 @@ The definition of A139371 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n%2-a(floor(n/2)), 1]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139371
@@ -7377,7 +7346,7 @@ end A139371
 /-!
 # A139372: Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence lists n such that e(n) >= o(n).
 
-The programs for A139372, the canonical program `A139372.P4983247544806522449` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139372 has offset 1).
+The programs for A139372, the canonical program `A139372.P4983247544806522449` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139372 has offset 1).
 
 The definition of A139372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7386,7 +7355,7 @@ The definition of A139372 is `conjectured`: the Lean definition is a formula tha
 
 `lt[-1, n%2-a(floor(n/2))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139372
@@ -7842,7 +7811,7 @@ end A139372
 /-!
 # A139373: Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence lists n such that e(n) > o(n).
 
-The programs for A139373, the canonical program `A139373.P5569708354631426412` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139373 has offset 1).
+The programs for A139373, the canonical program `A139373.P5569708354631426412` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139373 has offset 1).
 
 The definition of A139373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7851,7 +7820,7 @@ The definition of A139373 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, n%2-a(floor(n/2))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139373
@@ -9321,7 +9290,7 @@ end A139380.P1156488035340936612
 /-!
 # A139382: Triangle read by rows, T(n,k) = (2^k-1) * T(n-1,k) + T(n-1,k-1).
 
-The programs for A139382, the canonical program `A139382.P8674882290541734608` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139382 has offset 1).
+The programs for A139382, the canonical program `A139382.P8674882290541734608` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139382 has offset 1).
 
 The definition of A139382 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^(col(n)+1)-1)*T(n-1,k)+T(n-1,k-1)` (program `A139382.P8674882290541734608`, by `A139382.P8674882290541734608.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9330,7 +9299,7 @@ The definition of A139382 is `verified`: the Lean definition is proven equivalen
 
 `(2^(col(n)+1)-1)*T(n-1,k)+T(n-1,k-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139382
@@ -9675,7 +9644,7 @@ end A139386.P8854178126565485636
 /-!
 # A139388: Nearest integer to (log(744+(12(n^2-1))^3)/Pi)^2.
 
-The programs for A139388, the canonical program `A139388.P18415126692525519429` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139388 has offset 1).
+The programs for A139388, the canonical program `A139388.P18415126692525519429` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139388 has offset 1).
 
 The definition of A139388 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9684,7 +9653,7 @@ The definition of A139388 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round((log(744+(12*((n+1)²-1))^3)/π)²)`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139388
@@ -10817,7 +10786,7 @@ end A139393.P3372675684897147900
 /-!
 # A139394: a(n) = A024899(n)-A024898(n).
 
-The programs for A139394, the canonical program `A139394.P5885882405696362686` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139394 has offset 1).
+The programs for A139394, the canonical program `A139394.P5885882405696362686` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139394 has offset 1).
 
 The definition of A139394 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024898, A024899, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10826,7 +10795,7 @@ The definition of A139394 is `conditional`: the Lean definition is an OEIS formu
 
 `A024899(n+1)-A024898(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A139394
@@ -11208,7 +11177,7 @@ end A139397.P2913686350744834112
 /-!
 # A139398: a(n) = Sum_{k >= 0} binomial(n,5*k).
 
-The programs for A139398, the canonical program `A139398.P11613439635550847659` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139398 has offset 0).
+The programs for A139398, the canonical program `A139398.P11613439635550847659` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139398 has offset 0).
 
 The definition of A139398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11240,7 +11209,7 @@ end A139398
 
 `round(2/5*(2^(n-1)+ϕ^n*cos(π*n/5)))`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A139398

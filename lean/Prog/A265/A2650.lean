@@ -23,26 +23,27 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,7 +60,6 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -70,14 +70,13 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -700,21 +699,6 @@ end
 
 end A265010.P10393118031106846460
 
-/-! ## A265010.P1454710326374397769
-
-`A334115(n+1)`
--/
-
-namespace A265010.P1454710326374397769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334115 (n + 1)
-
-end
-
-end A265010.P1454710326374397769
-
 /-!
 # A265012: a(n) = 10^(prime(n)-1) mod prime(n)^2.
 
@@ -1170,7 +1154,7 @@ end A265020.P2919326862243485489
 /-!
 # A265021: Sum of fifth powers of the first n even numbers.
 
-The programs for A265021, the canonical program `A265021.P3608315180476438173` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265021 has offset 0).
+The programs for A265021, the canonical program `A265021.P3608315180476438173` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265021 has offset 0).
 
 The definition of A265021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1179,7 +1163,7 @@ The definition of A265021 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8/3*n²*(n+1)²*(2*n²+2*n-1)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265021
@@ -1917,7 +1901,7 @@ end A265024
 /-!
 # A265026: First differences of A048701.
 
-The programs for A265026, the canonical program `A265026.P15314511607540541398` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265026 has offset 1).
+The programs for A265026, the canonical program `A265026.P15314511607540541398` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265026 has offset 1).
 
 The definition of A265026 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048701, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1926,7 +1910,7 @@ The definition of A265026 is `conditional`: the Lean definition is an OEIS formu
 
 `A048701(n+1)-A048701(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A265026
@@ -3491,7 +3475,7 @@ end A265036.P9152112896784727120
 /-!
 # A265037: G.f.: (1 + 22*x - 34*x^2 + 14*x^3)/((1 - x)^2*(1 - 6*x + 8*x^2)).
 
-The programs for A265037, the canonical program `A265037.P16345106435264009009` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265037 has offset 0).
+The programs for A265037, the canonical program `A265037.P16345106435264009009` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265037 has offset 0).
 
 The definition of A265037 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3500,7 +3484,7 @@ The definition of A265037 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-21*a(n-2)+22*a(n-3)-8*a(n-4)` with `a(0)=1, a(1)=30, a(2)=185, a(3)=886`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265037
@@ -3561,7 +3545,7 @@ end A265037
 /-!
 # A265038: Partial sums of A009927.
 
-The programs for A265038, the canonical program `A265038.P7397363918746298259` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265038 has offset 0).
+The programs for A265038, the canonical program `A265038.P7397363918746298259` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265038 has offset 0).
 
 The definition of A265038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3570,7 +3554,7 @@ The definition of A265038 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+12x+51x^2+130x^3+243x^4+350x^5+450x^6+418x^7+327x^8+182x^9+51x^10+16x^11-7x^12+8x^13+12x^14)/(1-x+x^2-3x^3+x^4-x^5+2x^6+2x^7-x^8+x^9-3x^10+x^11-x^12+x^13))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265038
@@ -3830,7 +3814,7 @@ end A265042.P11592694891093454164
 /-!
 # A265044: Poincaré series for hyperbolic reflection group with Coxeter diagram o---o-(5)-o---o.
 
-The programs for A265044, the canonical program `A265044.P12845324478930971763` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265044 has offset 0).
+The programs for A265044, the canonical program `A265044.P12845324478930971763` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265044 has offset 0).
 
 The definition of A265044 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3839,7 +3823,7 @@ The definition of A265044 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+2x^3+2x^4+3x^5+3x^6+2x^7+2x^8+2x^9+2x^10+x^11)/(1-2x+x^2-x^4+2x^5-2x^6+x^7-x^9+2x^10-x^11))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265044
@@ -3938,7 +3922,7 @@ end A265044
 /-!
 # A265045: Coordination sequence for a 6.6.6 point in the 3-transitive tiling {4.6.6, 6.6.6, 6.6.6.6} of the plane by squares and dominoes (hexagons).
 
-The programs for A265045, the canonical program `A265045.P2661015035624583840` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265045 has offset 0).
+The programs for A265045, the canonical program `A265045.P2661015035624583840` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265045 has offset 0).
 
 The definition of A265045 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3947,7 +3931,7 @@ The definition of A265045 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2-x^4+x^5+x^6-x^8)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265045
@@ -3965,7 +3949,7 @@ end A265045
 /-!
 # A265046: Coordination sequence for a 4.6.6 point in the 3-transitive tiling {4.6.6, 6.6.6, 6.6.6.6} of the plane by squares and dominoes (hexagons).
 
-The programs for A265046, the canonical program `A265046.P17657992589959063692` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265046 has offset 0).
+The programs for A265046, the canonical program `A265046.P17657992589959063692` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265046 has offset 0).
 
 The definition of A265046 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3974,7 +3958,7 @@ The definition of A265046 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^3+2x^4-x^8)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265046
@@ -4100,7 +4084,7 @@ end A265047.P6213430543055590487
 /-!
 # A265048: Poincaré series for hyperbolic reflection group with Coxeter diagram o-(5)-o---o-(5)-o.
 
-The programs for A265048, the canonical program `A265048.P2540223622273980528` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265048 has offset 0).
+The programs for A265048, the canonical program `A265048.P2540223622273980528` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265048 has offset 0).
 
 The definition of A265048 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4109,7 +4093,7 @@ The definition of A265048 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+3x^3+4x^4+4x^5+4x^6+4x^7+4x^8+4x^9+3x^10+2x^11+2x^12+x^13)/(1-2x+x^2-x^4+x^5-x^6+x^7-x^8+x^9-x^11+2x^12-x^13))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265048
@@ -4303,7 +4287,7 @@ end A265049.P3799499470721378084
 /-!
 # A265050: Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 
-The programs for A265050, the canonical program `A265050.P7133319112786784661` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265050 has offset 0).
+The programs for A265050, the canonical program `A265050.P7133319112786784661` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265050 has offset 0).
 
 The definition of A265050 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4312,7 +4296,7 @@ The definition of A265050 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+3x^3+3x^4+2x^5+2x^6+x^7)/(1-2x+2x^3-2x^4+2x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265050
@@ -4446,7 +4430,7 @@ end A265050
 /-!
 # A265051: Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 
-The programs for A265051, the canonical program `A265051.P14690999481172658019` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265051 has offset 0).
+The programs for A265051, the canonical program `A265051.P14690999481172658019` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265051 has offset 0).
 
 The definition of A265051 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4455,7 +4439,7 @@ The definition of A265051 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+3x^3+3x^4+2x^5+2x^6+x^7)/(1-2x+x^3-x^4+2x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265051
@@ -4589,7 +4573,7 @@ end A265051
 /-!
 # A265052: Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 
-The programs for A265052, the canonical program `A265052.P4076836406706963724` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265052 has offset 0).
+The programs for A265052, the canonical program `A265052.P4076836406706963724` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265052 has offset 0).
 
 The definition of A265052 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4598,7 +4582,7 @@ The definition of A265052 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3+x^4+2x^5+2x^6+x^7+2x^8+x^9+x^10+x^11)/(1-3x+3x^2-2x^3+2x^5-2x^6+2x^8-3x^9+3x^10-x^11))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265052
@@ -4729,7 +4713,7 @@ end A265052
 /-!
 # A265053: Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 
-The programs for A265053, the canonical program `A265053.P17825722574061136638` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265053 has offset 0).
+The programs for A265053, the canonical program `A265053.P17825722574061136638` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265053 has offset 0).
 
 The definition of A265053 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4738,7 +4722,7 @@ The definition of A265053 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+2x^3+x^4+2x^5+2x^6+x^7+2x^8+x^9+x^10+x^11)/(1-3x+3x^2-x^3-2x^4+4x^5-4x^6+2x^7+x^8-3x^9+3x^10-x^11))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265053
@@ -4869,7 +4853,7 @@ end A265053
 /-!
 # A265054: Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 
-The programs for A265054, the canonical program `A265054.P15861329458655190632` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265054 has offset 0).
+The programs for A265054, the canonical program `A265054.P15861329458655190632` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265054 has offset 0).
 
 The definition of A265054 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4878,7 +4862,7 @@ The definition of A265054 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^3+x^4+x^5+x^6+x^8+x^9)/(1-3x+2x^2+x^3-3x^4+3x^5-x^6-2x^7+3x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265054
@@ -4977,7 +4961,7 @@ end A265054
 /-!
 # A265055: Expansion of b(2)*b(4)*b(6)/(x^8-x^4-x+1), where b(k) = (1-x^k)/(1-x).
 
-The programs for A265055, the canonical program `A265055.P12018692043729984256` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265055 has offset 0).
+The programs for A265055, the canonical program `A265055.P12018692043729984256` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265055 has offset 0).
 
 The definition of A265055 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4986,7 +4970,7 @@ The definition of A265055 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+7x^3+8x^4+8x^5+7x^6+5x^7+3x^8+x^9)/(1-x-x^4+x^8))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265055
@@ -5105,7 +5089,7 @@ end A265055
 /-!
 # A265056: Partial sums of A234275.
 
-The programs for A265056, the canonical program `A265056.P5274687067658637690` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265056 has offset 0).
+The programs for A265056, the canonical program `A265056.P5274687067658637690` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265056 has offset 0).
 
 The definition of A265056 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5137,7 +5121,7 @@ end A265056
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=1, a(1)=5, a(2)=21, a(3)=45`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265056
@@ -5599,7 +5583,7 @@ end A265056
 /-!
 # A265057: Coordination sequence for (2,3,7) tiling of hyperbolic plane.
 
-The programs for A265057, the canonical program `A265057.P375401059107331673` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265057 has offset 0).
+The programs for A265057, the canonical program `A265057.P375401059107331673` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265057 has offset 0).
 
 The definition of A265057 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5608,7 +5592,7 @@ The definition of A265057 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+8x^2+11x^3+12x^4+12x^5+12x^6+11x^7+8x^8+4x^9+x^10)/(1+x-x^3-x^4-x^5-x^6-x^7+x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265057
@@ -5733,7 +5717,7 @@ end A265057
 /-!
 # A265058: Coordination sequence for (2,3,8) tiling of hyperbolic plane.
 
-The programs for A265058, the canonical program `A265058.P1697358880475620679` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265058 has offset 0).
+The programs for A265058, the canonical program `A265058.P1697358880475620679` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265058 has offset 0).
 
 The definition of A265058 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5742,7 +5726,7 @@ The definition of A265058 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+6x^3+6x^4+6x^5+6x^6+6x^7+5x^8+3x^9+x^10)/(1-x^3-x^5-x^7+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265058
@@ -5838,7 +5822,7 @@ end A265058
 /-!
 # A265059: Coordination sequence for (2,3,9) tiling of hyperbolic plane.
 
-The programs for A265059, the canonical program `A265059.P17368220322019279536` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265059 has offset 0).
+The programs for A265059, the canonical program `A265059.P17368220322019279536` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265059 has offset 0).
 
 The definition of A265059 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5847,7 +5831,7 @@ The definition of A265059 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+4x^2+4x^3+4x^4+4x^5+4x^6+4x^7+4x^8+3x^9+x^10)/(1-x^2-x^5-x^8+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265059
@@ -5978,7 +5962,7 @@ end A265059
 /-!
 # A265060: Coordination sequence for (2,4,5) tiling of hyperbolic plane.
 
-The programs for A265060, the canonical program `A265060.P8882505203029919033` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265060 has offset 0).
+The programs for A265060, the canonical program `A265060.P8882505203029919033` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265060 has offset 0).
 
 The definition of A265060 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5987,7 +5971,7 @@ The definition of A265060 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+7x^3+8x^4+7x^5+5x^6+3x^7+x^8)/(1-x^3-x^4-x^5+x^8))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265060
@@ -6112,7 +6096,7 @@ end A265060
 /-!
 # A265061: Coordination sequence for (2,4,6) tiling of hyperbolic plane.
 
-The programs for A265061, the canonical program `A265061.P10343419404526759312` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265061 has offset 0).
+The programs for A265061, the canonical program `A265061.P10343419404526759312` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265061 has offset 0).
 
 The definition of A265061 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6121,7 +6105,7 @@ The definition of A265061 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+3x^2+4x^3+4x^4+4x^5+3x^6+2x^7+x^8)/(1-x+x^2-2x^3+x^4-2x^5+x^6-x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265061
@@ -6255,7 +6239,7 @@ end A265061
 /-!
 # A265062: Coordination sequence for (2,4,7) tiling of hyperbolic plane.
 
-The programs for A265062, the canonical program `A265062.P8220914574895865121` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265062 has offset 0).
+The programs for A265062, the canonical program `A265062.P8220914574895865121` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265062 has offset 0).
 
 The definition of A265062 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6264,7 +6248,7 @@ The definition of A265062 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+7x^3+8x^4+8x^5+8x^6+7x^7+5x^8+3x^9+x^10)/(1-x^3-x^4-x^5-x^6-x^7+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265062
@@ -6383,7 +6367,7 @@ end A265062
 /-!
 # A265063: Coordination sequence for (2,4,8) tiling of hyperbolic plane.
 
-The programs for A265063, the canonical program `A265063.P7586995506737966907` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265063 has offset 0).
+The programs for A265063, the canonical program `A265063.P7586995506737966907` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265063 has offset 0).
 
 The definition of A265063 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6392,7 +6376,7 @@ The definition of A265063 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+2x^3+2x^4+2x^5+2x^6+2x^7+x^8)/(1-x-x^3+x^4-x^5-x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265063
@@ -6505,7 +6489,7 @@ end A265063
 /-!
 # A265064: Coordination sequence for (2,5,5) tiling of hyperbolic plane.
 
-The programs for A265064, the canonical program `A265064.P4522362589601959168` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265064 has offset 0).
+The programs for A265064, the canonical program `A265064.P4522362589601959168` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265064 has offset 0).
 
 The definition of A265064 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6514,7 +6498,7 @@ The definition of A265064 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+4x^2+4x^3+4x^4+3x^5+x^6)/(1-x^2-x^3-x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265064
@@ -6601,7 +6585,7 @@ end A265064
 /-!
 # A265065: Coordination sequence for (2,5,6) tiling of hyperbolic plane.
 
-The programs for A265065, the canonical program `A265065.P5341626457126158236` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265065 has offset 0).
+The programs for A265065, the canonical program `A265065.P5341626457126158236` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265065 has offset 0).
 
 The definition of A265065 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6610,7 +6594,7 @@ The definition of A265065 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+7x^3+9x^4+10x^5+9x^6+7x^7+5x^8+3x^9+x^10)/(1-x^3-x^4-2x^5-x^6-x^7+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265065
@@ -6729,7 +6713,7 @@ end A265065
 /-!
 # A265066: Coordination sequence for (2,5,7) tiling of hyperbolic plane.
 
-The programs for A265066, the canonical program `A265066.P18001748583244624661` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265066 has offset 0).
+The programs for A265066, the canonical program `A265066.P18001748583244624661` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265066 has offset 0).
 
 The definition of A265066 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6738,7 +6722,7 @@ The definition of A265066 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+8x^2+12x^3+16x^4+19x^5+20x^6+19x^7+16x^8+12x^9+8x^10+4x^11+x^12)/(1+x-x^3-2x^4-3x^5-3x^6-3x^7-2x^8-x^9+x^11+x^12))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265066
@@ -6860,7 +6844,7 @@ end A265066
 /-!
 # A265067: Coordination sequence for (2,5,8) tiling of hyperbolic plane.
 
-The programs for A265067, the canonical program `A265067.P11098035595516432267` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265067 has offset 0).
+The programs for A265067, the canonical program `A265067.P11098035595516432267` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265067 has offset 0).
 
 The definition of A265067 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6869,7 +6853,7 @@ The definition of A265067 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+7x^3+9x^4+10x^5+10x^6+10x^7+9x^8+7x^9+5x^10+3x^11+x^12)/(1-x^3-x^4-2x^5-x^6-2x^7-x^8-x^9+x^12))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265067
@@ -6982,7 +6966,7 @@ end A265067
 /-!
 # A265068: Coordination sequence for (2,5,infinity) tiling of hyperbolic plane.
 
-The programs for A265068, the canonical program `A265068.P6791336971652563610` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265068 has offset 0).
+The programs for A265068, the canonical program `A265068.P6791336971652563610` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265068 has offset 0).
 
 The definition of A265068 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6991,7 +6975,7 @@ The definition of A265068 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+4x^2+4x^3+4x^4+3x^5+x^6)/(1-x^2-x^3-x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265068
@@ -7104,7 +7088,7 @@ end A265068
 /-!
 # A265069: Coordination sequence for (2,6,6) tiling of hyperbolic plane.
 
-The programs for A265069, the canonical program `A265069.P8155014327313403603` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265069 has offset 0).
+The programs for A265069, the canonical program `A265069.P8155014327313403603` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265069 has offset 0).
 
 The definition of A265069 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7113,7 +7097,7 @@ The definition of A265069 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+2x^3+2x^4+2x^5+x^6)/(1-x-x^3-x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265069
@@ -7226,7 +7210,7 @@ end A265069
 /-!
 # A265070: Coordination sequence for (2,6,infinity) tiling of hyperbolic plane.
 
-The programs for A265070, the canonical program `A265070.P7302077500375369542` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265070 has offset 0).
+The programs for A265070, the canonical program `A265070.P7302077500375369542` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265070 has offset 0).
 
 The definition of A265070 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7258,7 +7242,7 @@ end A265070
 
 `a(n-1)+a(n-3)+a(n-5)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=8, a(4)=13, a(5)=21, a(6)=33`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265070
@@ -7354,7 +7338,7 @@ end A265070
 /-!
 # A265071: Coordination sequence for (3,3,4) tiling of hyperbolic plane.
 
-The programs for A265071, the canonical program `A265071.P17620935214342358587` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265071 has offset 0).
+The programs for A265071, the canonical program `A265071.P17620935214342358587` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265071 has offset 0).
 
 The definition of A265071 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7386,7 +7370,7 @@ end A265071
 
 `a(n-2)+a(n-3)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=10, a(4)=15, a(5)=22, a(6)=31`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265071
@@ -7488,7 +7472,7 @@ end A265071
 /-!
 # A265072: Coordination sequence for (3,3,5) tiling of hyperbolic plane.
 
-The programs for A265072, the canonical program `A265072.P7413551850559261746` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265072 has offset 0).
+The programs for A265072, the canonical program `A265072.P7413551850559261746` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265072 has offset 0).
 
 The definition of A265072 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7497,7 +7481,7 @@ The definition of A265072 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+3x^2+3x^3+3x^4+2x^5+x^6)/(1-x-x^3-x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265072
@@ -7628,7 +7612,7 @@ end A265072
 /-!
 # A265073: Coordination sequence for (3,3,6) tiling of hyperbolic plane.
 
-The programs for A265073, the canonical program `A265073.P2188948965683314815` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265073 has offset 0).
+The programs for A265073, the canonical program `A265073.P2188948965683314815` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265073 has offset 0).
 
 The definition of A265073 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7637,7 +7621,7 @@ The definition of A265073 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+2x^2+2x^3+2x^4+2x^5+x^6)/(1-x-x^2+x^3-x^4-x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265073
@@ -7762,7 +7746,7 @@ end A265073
 /-!
 # A265074: Coordination sequence for (3,3,7) tiling of hyperbolic plane.
 
-The programs for A265074, the canonical program `A265074.P3861643776228917807` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265074 has offset 0).
+The programs for A265074, the canonical program `A265074.P3861643776228917807` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265074 has offset 0).
 
 The definition of A265074 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7794,7 +7778,7 @@ end A265074
 
 `a(n-1)+a(n-3)+a(n-5)+a(n-7)-a(n-8)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=10, a(4)=16, a(5)=26, a(6)=42, a(7)=67, a(8)=106`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265074
@@ -7890,7 +7874,7 @@ end A265074
 /-!
 # A265075: Coordination sequence for (3,4,4) tiling of hyperbolic plane.
 
-The programs for A265075, the canonical program `A265075.P13755250030638109170` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265075 has offset 0).
+The programs for A265075, the canonical program `A265075.P13755250030638109170` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265075 has offset 0).
 
 The definition of A265075 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7899,7 +7883,7 @@ The definition of A265075 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+5x^2+6x^3+5x^4+3x^5+x^6)/(1-x^2-2x^3-x^4+x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265075
@@ -8027,7 +8011,7 @@ end A265075
 /-!
 # A265076: Coordination sequence for (3,5,5) tiling of hyperbolic plane.
 
-The programs for A265076, the canonical program `A265076.P7643481419899896412` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265076 has offset 0).
+The programs for A265076, the canonical program `A265076.P7643481419899896412` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265076 has offset 0).
 
 The definition of A265076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8059,7 +8043,7 @@ end A265076
 
 `a(n-1)+2*a(n-3)+a(n-5)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=11, a(4)=20, a(5)=35, a(6)=60`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265076
@@ -8158,7 +8142,7 @@ end A265076
 /-!
 # A265077: Coordination sequence for (3,6,8) tiling of hyperbolic plane.
 
-The programs for A265077, the canonical program `A265077.P9566099730679701037` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265077 has offset 0).
+The programs for A265077, the canonical program `A265077.P9566099730679701037` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265077 has offset 0).
 
 The definition of A265077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8190,7 +8174,7 @@ end A265077
 
 `a(n-1)+a(n-2)+a(n-4)+a(n-5)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=11, a(4)=20, a(5)=37, a(6)=66`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265077
@@ -8254,7 +8238,7 @@ end A265077
 /-!
 # A265078: Partial sums of A072154.
 
-The programs for A265078, the canonical program `A265078.P18444495648062331933` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265078 has offset 0).
+The programs for A265078, the canonical program `A265078.P18444495648062331933` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265078 has offset 0).
 
 The definition of A265078 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8286,7 +8270,7 @@ end A265078
 
 `2*a(n-1)-a(n-2)+a(n-5)-2*a(n-6)+a(n-7)` with `a(0)=1, a(1)=4, a(2)=9, a(3)=16, a(4)=25, a(5)=37, a(6)=52`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265078
@@ -8781,21 +8765,6 @@ end A265078
 
 The programs for A265080, there is no canonical definition to state claims against.
 -/
-
-/-! ## A265080.P286963483638247482
-
-`A265533(0+A229079(n))`
--/
-
-namespace A265080.P286963483638247482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265533 (0 + A229079 n).toNat
-
-end
-
-end A265080.P286963483638247482
 
 /-! ## A265080.P10304633134338477095
 

@@ -17,21 +17,21 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -41,12 +41,13 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
@@ -65,19 +66,23 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,7 +91,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
@@ -99,7 +103,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -1789,27 +1792,6 @@ end
 end A134113.P3501830044498520515
 
 /-!
-# A134114: Powers of 8 written backwards and sorted.
-
-The programs for A134114, there is no canonical definition to state claims against.
--/
-
-/-! ## A134114.P16148487772464956255
-
-`A071586(A113218(n))`
--/
-
-namespace A134114.P16148487772464956255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071586 (A113218 n).toNat
-
-end
-
-end A134114.P16148487772464956255
-
-/-!
 # A134116: Primes p such that q-p = 34, where q is the next prime after p.
 
 The programs for A134116, there is no canonical definition to state claims against.
@@ -1851,21 +1833,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134116.P14411192872246232313
-
-/-! ## A134116.P12907538625420204663
-
-`-1+A055670(A320715(n+1))`
--/
-
-namespace A134116.P12907538625420204663
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A055670 (A320715 (n + 1)).toNat
-
-end
-
-end A134116.P12907538625420204663
 
 /-! ## A134116.P12430825423839004358
 
@@ -2001,21 +1968,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134118.P12733380661546764066
-
-/-! ## A134118.P4484868923751644260
-
-`-1+A055670(A320717(n+1))`
--/
-
-namespace A134118.P4484868923751644260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A055670 (A320717 (n + 1)).toNat
-
-end
-
-end A134118.P4484868923751644260
 
 /-! ## A134118.P13995355836229862809
 
@@ -10796,27 +10748,6 @@ end
 end A134189.P16623093373542751111
 
 /-!
-# A134190: a(1)=1. a(n) = n*a(n-1) if n*a(n-1) has a fewer number of divisors than n+a(n-1) does. a(n) = n+a(n-1) if n*a(n-1) has a greater or equal number of divisors than n+a(n-1) does.
-
-The programs for A134190, there is no canonical definition to state claims against.
--/
-
-/-! ## A134190.P5652726612820497035
-
-`A047905(n+2)`
--/
-
-namespace A134190.P5652726612820497035
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047905 (n + 2)
-
-end
-
-end A134190.P5652726612820497035
-
-/-!
 # A134191: Impure numbers in the Collatz (3x+1) iteration.
 
 The programs for A134191, there is no canonical definition to state claims against.
@@ -11130,16 +11061,16 @@ end A134192.P5588287836782253200
 /-!
 # A134193: a(1) = 1; for n>1, a(n) = the smallest positive integer not occurring among the exponents in the prime-factorization of n.
 
-The programs for A134193, the canonical program `A134193.P2911934929747497720` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134193 has offset 1).
+The programs for A134193, the canonical program `A134193.P2911934929747497720` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134193 has offset 1).
 
-The definition of A134193 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A134193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A134193.P2911934929747497720
 
 `A257993(A181819(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A134193

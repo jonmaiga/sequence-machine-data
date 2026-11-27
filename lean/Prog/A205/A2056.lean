@@ -5,30 +5,34 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,16 +41,16 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -54,13 +58,14 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,12 +78,12 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 /-!
 # A205600: Start with first run [1,2] then, for n >= 2, the n-th run is a(n) times [a(1),...,a(n-1)].
@@ -635,8 +640,29 @@ end A205619.P12551939812476861668
 /-!
 # A205620: Number of (n+1) X 3 0..2 arrays with every 2 X 2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..2 introduced in row major order.
 
-The programs for A205620, there is no canonical definition to state claims against.
+The programs for A205620, the canonical program `A205620.P8197442417542520069` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205620 has offset 1).
+
+The definition of A205620 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A205620.P8197442417542520069
+
+`ogf((50+306x+52x^2-440x^3+14x^4)/(1-40x^2-40x^3+28x^4))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A205620
+
+/-- `ogf((50+306x+52x^2-440x^3+14x^4)/(1-40x^2-40x^3+28x^4))` -/
+def P8197442417542520069.Spec : Prop :=
+  ∀ n, P8197442417542520069.a n = A205620 (n + 1)
+
+theorem P8197442417542520069.correct : P8197442417542520069.Spec := by
+  intro n
+  simp only [A205620, Nat.add_sub_cancel]
+
+end A205620
 
 /-! ## A205620.P5804990449747328230
 
@@ -656,6 +682,14 @@ end
 
 end A205620.P5804990449747328230
 
+namespace A205620
+
+/-- `A205626(∑[n+2])` -/
+def P5804990449747328230.Spec : Prop :=
+  ∀ n, P5804990449747328230.a n = A205620 (n + 1)
+
+end A205620
+
 /-! ## A205620.P126532497343968919
 
 `record[A205626(abs(A201163(n)))]`
@@ -674,6 +708,14 @@ end
 
 end A205620.P126532497343968919
 
+namespace A205620
+
+/-- `record[A205626(abs(A201163(n)))]` -/
+def P126532497343968919.Spec : Prop :=
+  ∀ n, P126532497343968919.a n = A205620 (n + 1)
+
+end A205620
+
 /-! ## A205620.P427607710433087056
 
 `record[gcd(A205626(n+2), A306814(n+1))]`
@@ -691,6 +733,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A205620.P427607710433087056
+
+namespace A205620
+
+/-- `record[gcd(A205626(n+2), A306814(n+1))]` -/
+def P427607710433087056.Spec : Prop :=
+  ∀ n, (P427607710433087056.a n : ℤ) = A205620 (n + 1)
+
+end A205620
 
 /-! ## A205620.P13275436659724297630
 
@@ -716,6 +766,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205620.P13275436659724297630
+
+namespace A205620
+
+/-- `record[A205626(A000096(C(comp[∑[n]]-n, 2)-n))]` -/
+def P13275436659724297630.Spec : Prop :=
+  ∀ n, P13275436659724297630.a n = A205620 (n + 1)
+
+end A205620
 
 /-!
 # A205621: Number of (n+1) X 4 0..2 arrays with every 2 X 2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..2 introduced in row major order.
@@ -859,8 +917,29 @@ end A205625.P13312116568493825330
 /-!
 # A205627: Number of 3 X (n+1) 0..2 arrays with every 2 X 2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..2 introduced in row major order.
 
-The programs for A205627, there is no canonical definition to state claims against.
+The programs for A205627, the canonical program `A205627.P16546766258874167411` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205627 has offset 1).
+
+The definition of A205627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A205627.P16546766258874167411
+
+`ogf((72-126x-468x^2+336x^3+768x^4)/(1-6x-2x^2+28x^3-32x^5))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A205627
+
+/-- `ogf((72-126x-468x^2+336x^3+768x^4)/(1-6x-2x^2+28x^3-32x^5))` -/
+def P16546766258874167411.Spec : Prop :=
+  ∀ n, P16546766258874167411.a n = A205627 (n + 1)
+
+theorem P16546766258874167411.correct : P16546766258874167411.Spec := by
+  intro n
+  simp only [A205627, Nat.add_sub_cancel]
+
+end A205627
 
 /-! ## A205627.P12048406729553847189
 
@@ -880,6 +959,14 @@ end
 
 end A205627.P12048406729553847189
 
+namespace A205627
+
+/-- `A205626(∑[n+1]+2)` -/
+def P12048406729553847189.Spec : Prop :=
+  ∀ n, P12048406729553847189.a n = A205627 (n + 1)
+
+end A205627
+
 /-! ## A205627.P11054690083316897957
 
 `record[A205626(A115017(n+1)+2)]`
@@ -898,6 +985,14 @@ end
 
 end A205627.P11054690083316897957
 
+namespace A205627
+
+/-- `record[A205626(A115017(n+1)+2)]` -/
+def P11054690083316897957.Spec : Prop :=
+  ∀ n, P11054690083316897957.a n = A205627 (n + 1)
+
+end A205627
+
 /-! ## A205627.P2941409675664505143
 
 `record[A205626(n+3)/A078939(n)]`
@@ -915,6 +1010,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A205627.P2941409675664505143
+
+namespace A205627
+
+/-- `record[A205626(n+3)/A078939(n)]` -/
+def P2941409675664505143.Spec : Prop :=
+  ∀ n, P2941409675664505143.a n = (A205627 (n + 1) : ℚ)
+
+end A205627
 
 /-! ## A205627.P474119113933556260
 
@@ -940,6 +1043,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A205627.P474119113933556260
+
+namespace A205627
+
+/-- `record[A205626(A133263(C(comp[∑[n]]-n, 2)-n))]` -/
+def P474119113933556260.Spec : Prop :=
+  ∀ n, P474119113933556260.a n = A205627 (n + 1)
+
+end A205627
 
 /-!
 # A205628: Number of 4X(n+1) 0..2 arrays with every 2X2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..2 introduced in row major order.
@@ -1912,7 +2023,7 @@ end A205640.P18004736229204841418
 /-!
 # A205646: Number of empty faces in Freij's family of Hansen polytopes.
 
-The programs for A205646, the canonical program `A205646.P14950017872745976362` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205646 has offset 0).
+The programs for A205646, the canonical program `A205646.P14950017872745976362` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205646 has offset 0).
 
 The definition of A205646 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1921,7 +2032,7 @@ The definition of A205646 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^n+16`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A205646
@@ -2463,7 +2574,7 @@ end A205650
 /-!
 # A205651: Period 6: repeat [1, 6, 5, 4, 9, 0].
 
-The programs for A205651, the canonical program `A205651.P9301164766259284354` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205651 has offset 1).
+The programs for A205651, the canonical program `A205651.P9301164766259284354` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205651 has offset 1).
 
 The definition of A205651 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A205651.anchor (n : ℕ) (hn : 1 ≤ n) : A205651 n = (([1, 6, 5, 4, 9, 0].getD ((n - 1) % 6) 0 : ℕ) : ℤ)` in `Proof.A205.A205651`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2472,7 +2583,7 @@ The definition of A205651 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-6)` with `a(0)=1, a(1)=6, a(2)=5, a(3)=4, a(4)=9, a(5)=0`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A205651

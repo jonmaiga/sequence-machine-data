@@ -11,31 +11,31 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,6 +53,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -60,6 +61,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,11 +72,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,8 +86,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -7506,6 +7508,29 @@ def P116404473214068725.Spec : Prop :=
 
 end A030648
 
+/-! ## A030648.P12911126012044380103
+
+`A105944(n)/165`
+-/
+
+namespace A030648.P12911126012044380103
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A105944 n : ℚ) / 165
+
+end
+
+end A030648.P12911126012044380103
+
+namespace A030648
+
+/-- `A105944(n)/165` -/
+def P12911126012044380103.Spec : Prop :=
+  ∀ n, P12911126012044380103.a n = (A030648 n : ℚ)
+
+end A030648
+
 /-! ## A030648.P12818567523775461088
 
 `A030647(n)+a(n-1)` with `a(0)=1`
@@ -7598,29 +7623,6 @@ namespace A030648
 /-- `A000581(n+8)/A105250(n)*A105254(n)` -/
 def P18044113273730731971.Spec : Prop :=
   ∀ n, P18044113273730731971.a n = (A030648 n : ℚ)
-
-end A030648
-
-/-! ## A030648.P12911126012044380103
-
-`A105944(n)/165`
--/
-
-namespace A030648.P12911126012044380103
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A105944 n : ℚ) / 165
-
-end
-
-end A030648.P12911126012044380103
-
-namespace A030648
-
-/-- `A105944(n)/165` -/
-def P12911126012044380103.Spec : Prop :=
-  ∀ n, P12911126012044380103.a n = (A030648 n : ℚ)
 
 end A030648
 
@@ -10374,21 +10376,6 @@ end
 
 end A030665.P12394769096124855456
 
-/-! ## A030665.P11039908224103198490
-
-`A077501(n+1)`
--/
-
-namespace A030665.P11039908224103198490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077501 (n + 1)
-
-end
-
-end A030665.P11039908224103198490
-
 /-! ## A030665.P13616982345624273649
 
 `A256481(A242474(n+1))`
@@ -10787,36 +10774,6 @@ end A030669.P665314873512783936
 
 The programs for A030670, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030670.P5042750670688711348
-
-`A064792(n+1)`
--/
-
-namespace A030670.P5042750670688711348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064792 (n + 1)
-
-end
-
-end A030670.P5042750670688711348
-
-/-! ## A030670.P2979216054109169734
-
-`A030665(A000040(n+1))`
--/
-
-namespace A030670.P2979216054109169734
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030665 (A000040 (n + 1)).toNat
-
-end
-
-end A030670.P2979216054109169734
 
 /-! ## A030670.P15578558654975859880
 
@@ -11255,21 +11212,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030675.P13667157142985502641
-
-/-! ## A030675.P13580504310995018800
-
-`A110786(n+1)`
--/
-
-namespace A030675.P13580504310995018800
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110786 (n + 1)
-
-end
-
-end A030675.P13580504310995018800
 
 /-! ## A030675.P13126330640613837536
 
@@ -12015,66 +11957,6 @@ end A030684.P6685192805291405945
 The programs for A030685, there is no canonical definition to state claims against.
 -/
 
-/-! ## A030685.P13534022941451063765
-
-`A065145(n+1)`
--/
-
-namespace A030685.P13534022941451063765
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065145 (n + 1)
-
-end
-
-end A030685.P13534022941451063765
-
-/-! ## A030685.P5720702338016742653
-
-`A018800((1+n)²)`
--/
-
-namespace A030685.P5720702338016742653
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018800 ((1 + n) ^ 2)
-
-end
-
-end A030685.P5720702338016742653
-
-/-! ## A030685.P15296472008623227975
-
-`A030665((n+1)²)`
--/
-
-namespace A030685.P15296472008623227975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030665 ((n + 1) ^ 2)
-
-end
-
-end A030685.P15296472008623227975
-
-/-! ## A030685.P5782455408572462252
-
-`A258337((n+1)²)`
--/
-
-namespace A030685.P5782455408572462252
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A258337 ((n + 1) ^ 2)
-
-end
-
-end A030685.P5782455408572462252
-
 /-! ## A030685.P1710354367058302580
 
 `A159477(A033583(n+1))`
@@ -12491,21 +12373,6 @@ end A030691.P11566585042579248336
 
 The programs for A030692, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030692.P10648875491242810191
-
-`A018800((n+1)^3)`
--/
-
-namespace A030692.P10648875491242810191
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018800 ((n + 1) ^ 3)
-
-end
-
-end A030692.P10648875491242810191
 
 /-! ## A030692.P10304476178669202571
 

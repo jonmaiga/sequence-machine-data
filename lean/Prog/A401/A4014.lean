@@ -5,12 +5,11 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -18,20 +17,21 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
@@ -47,6 +47,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -59,7 +60,6 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
@@ -67,9 +67,9 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,10 +79,10 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -904,7 +904,7 @@ end A401408
 /-!
 # A401409: Partial sums of A209615.
 
-The programs for A401409, the canonical program `A401409.P8439132667654787690` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401409 has offset 0).
+The programs for A401409, the canonical program `A401409.P8439132667654787690` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401409 has offset 0).
 
 The definition of A401409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -913,7 +913,7 @@ The definition of A401409 is `conjectured`: the Lean definition is a formula tha
 
 `∑[n]%2-a(floor(n/2))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401409
@@ -1535,7 +1535,7 @@ end A401421
 /-!
 # A401422: The number of terms in A138302 that divide the smallest coreful infinitary divisor of n.
 
-The programs for A401422, the canonical program `A401422.P2863499948558819369` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401422 has offset 1).
+The programs for A401422, the canonical program `A401422.P2863499948558819369` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401422 has offset 1).
 
 The definition of A401422 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A353898, A365296, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1544,7 +1544,7 @@ The definition of A401422 is `conditional`: the Lean definition is an OEIS formu
 
 `A353898(A365296(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A401422
@@ -1827,7 +1827,7 @@ end A401422
 /-!
 # A401423: The number of coreful divisors of the smallest coreful infinitary divisor of n.
 
-The programs for A401423, the canonical program `A401423.P862875318019210488` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401423 has offset 1).
+The programs for A401423, the canonical program `A401423.P862875318019210488` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401423 has offset 1).
 
 The definition of A401423 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A365296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1836,7 +1836,7 @@ The definition of A401423 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(A365296(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A401423
@@ -2197,7 +2197,7 @@ end A401423
 /-!
 # A401424: The sum of coreful divisors of the smallest coreful infinitary divisor of n.
 
-The programs for A401424, the canonical program `A401424.P13827627055239304936` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401424 has offset 1).
+The programs for A401424, the canonical program `A401424.P13827627055239304936` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401424 has offset 1).
 
 The definition of A401424 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A365296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2206,7 +2206,7 @@ The definition of A401424 is `conditional`: the Lean definition is an OEIS formu
 
 `A057723(A365296(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A401424
@@ -2492,7 +2492,7 @@ end A401426.P17024297341244157352
 /-!
 # A401432: Distance between n^2 and the nearest triangular number, either above or below n^2.
 
-The programs for A401432, the canonical program `A401432.P8014818857472625557` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401432 has offset 0).
+The programs for A401432, the canonical program `A401432.P8014818857472625557` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401432 has offset 0).
 
 The definition of A401432 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053616, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2501,7 +2501,7 @@ The definition of A401432 is `conditional`: the Lean definition is an OEIS formu
 
 `A053616(n²)`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A401432
@@ -3145,21 +3145,6 @@ end
 
 end A401450.P4175843545394360167
 
-/-! ## A401450.P6603148950334976963
-
-`A111854(A000037(n+1))`
--/
-
-namespace A401450.P6603148950334976963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111854 (A000037 (n + 1)).toNat
-
-end
-
-end A401450.P6603148950334976963
-
 /-! ## A401450.P4467962311696088729
 
 `∑[A010054(A273717(n+2))]`
@@ -3732,27 +3717,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A401472.P10970676514327030221
-
-/-!
-# A401478: Numbers that are not the sum of at most seven 6-full numbers.
-
-The programs for A401478, there is no canonical definition to state claims against.
--/
-
-/-! ## A401478.P3177931058429646518
-
-`8+n`
--/
-
-namespace A401478.P3177931058429646518
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8 + n
-
-end
-
-end A401478.P3177931058429646518
 
 /-!
 # A401479: a(n) is the size of the largest Sidon subset of the first n positive cubes.

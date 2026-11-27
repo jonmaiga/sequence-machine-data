@@ -4,34 +4,35 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C032
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,6 +50,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -59,17 +61,15 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,27 +100,6 @@ import SequenceMachineLib.Triangle
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
-
-/-!
-# A051300: a(n) = a(n-1) + rotate( a(n-1), 1 digit right), a(1) = 1.
-
-The programs for A051300, there is no canonical definition to state claims against.
--/
-
-/-! ## A051300.P1904943614611581645
-
-`A374732(n+1)`
--/
-
-namespace A051300.P1904943614611581645
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374732 (n + 1)
-
-end
-
-end A051300.P1904943614611581645
 
 /-!
 # A051301: Smallest prime factor of n!+1.
@@ -274,27 +253,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A051301.P3616838474053752323
-
-/-!
-# A051302: Numbers whose square can be expressed as the sum of two positive cubes in more than one way.
-
-The programs for A051302, there is no canonical definition to state claims against.
--/
-
-/-! ## A051302.P9007600858976764557
-
-`A145553(1+n)`
--/
-
-namespace A051302.P9007600858976764557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145553 (1 + n)
-
-end
-
-end A051302.P9007600858976764557
 
 /-!
 # A051303: Number of 3-element proper antichains of an n-element set.
@@ -2495,92 +2453,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A051345.P6519836778803455441
-
-/-!
-# A051346: Numbers that can be written as k/d(k) in four or more ways, where d(k) = number of divisors of k.
-
-The programs for A051346, there is no canonical definition to state claims against.
--/
-
-/-! ## A051346.P1327630838715480881
-
-`∪[A217125(n+1), A217126(n+1)]`
--/
-
-namespace A051346.P1327630838715480881
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217125 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217126 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A051346.P1327630838715480881
-
-/-! ## A051346.P16917323611196329834
-
-`A217125(n+1)`
--/
-
-namespace A051346.P16917323611196329834
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217125 (n + 1)
-
-end
-
-end A051346.P16917323611196329834
-
-/-!
-# A051347: Numbers that are the sum of two (possibly negative) cubes in at least 2 ways.
-
-The programs for A051347, there is no canonical definition to state claims against.
--/
-
-/-! ## A051347.P6643671330066502271
-
-`∪[A225908(n+1), A293647(n+1)]`
--/
-
-namespace A051347.P6643671330066502271
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225908 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293647 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A051347.P6643671330066502271
-
-/-! ## A051347.P3906529365505558390
-
-`A293647(n+1)`
--/
-
-namespace A051347.P3906529365505558390
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293647 (n + 1)
-
-end
-
-end A051347.P3906529365505558390
 
 /-!
 # A051348: a(n) = F(n) / Product_{p|n} F(p), where F(k) is k-th Fibonacci number and the p's in product are the distinct primes dividing n.
@@ -7107,21 +6979,6 @@ end A051377.P13933110548776688349
 The programs for A051378, there is no canonical definition to state claims against.
 -/
 
-/-! ## A051378.P15460487236664184447
-
-`A333926(n+1)`
--/
-
-namespace A051378.P15460487236664184447
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333926 (n + 1)
-
-end
-
-end A051378.P15460487236664184447
-
 /-! ## A051378.P4068651569173138546
 
 `A383867(A054496(n+1))`
@@ -7908,56 +7765,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A051386.P6176162186058470675
-
-/-!
-# A051388: Numbers whose 4th power can be expressed as the sum of two positive cubes in more than one way.
-
-The programs for A051388, there is no canonical definition to state claims against.
--/
-
-/-! ## A051388.P12347222717768533537
-
-`∪[A001235(n+1), A282872(n+1)]`
--/
-
-namespace A051388.P12347222717768533537
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001235 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A282872 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A051388.P12347222717768533537
-
-/-! ## A051388.P8707759569662794617
-
-`∪[A282872(n+1), A343708(n+1)]`
--/
-
-namespace A051388.P8707759569662794617
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A282872 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343708 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A051388.P8707759569662794617
 
 /-!
 # A051389: Number of resistance values that can be constructed using exactly n 1-ohm resistors in series or parallel but not with fewer resistors.

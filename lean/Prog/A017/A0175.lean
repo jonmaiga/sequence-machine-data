@@ -9,27 +9,26 @@ import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C048
 import Seq.B001.C000
-import Seq.B011.C000
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -9963,27 +9962,50 @@ end A017520
 /-!
 # A017521: Expansion of 1/((1-3*x)*(1-5*x)*(1-8*x)).
 
-The programs for A017521, the canonical program `A017521.P6920701402188550665` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017521 has offset 0).
+The programs for A017521, the canonical program `A017521.P10679545054611461736` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017521 has offset 0).
 
-The definition of A017521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A017521 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-16x+79x^2-120x^3))` (program `A017521.P10679545054611461736`, by `A017521.P10679545054611461736.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A017521.P6920701402188550665
+/-! ## A017521.P10679545054611461736
 
-`13*a(n-1)-40*a(n-2)+3^n` with `a(0)=1, a(1)=16`
+`ogf(1/(1-16x+79x^2-120x^3))`
 
 The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017521
 
+/-- `ogf(1/(1-16x+79x^2-120x^3))` -/
+def P10679545054611461736.Spec : Prop :=
+  ∀ n, P10679545054611461736.a n = A017521 n
+
+theorem P10679545054611461736.correct : P10679545054611461736.Spec := by
+  intro n
+  simp only [A017521]
+
+end A017521
+
+/-! ## A017521.P6920701402188550665
+
+`13*a(n-1)-40*a(n-2)+3^n` with `a(0)=1, a(1)=16`
+-/
+
+namespace A017521.P6920701402188550665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 16] fun n a =>
+  13 * a (n - 1) - 40 * a (n - 2) + (3 ^ n : ℤ)
+
+end
+
+end A017521.P6920701402188550665
+
+namespace A017521
+
 /-- `13*a(n-1)-40*a(n-2)+3^n` -/
 def P6920701402188550665.Spec : Prop :=
   ∀ n, P6920701402188550665.a n = A017521 n
-
-theorem P6920701402188550665.correct : P6920701402188550665.Spec := by
-  intro n
-  simp only [A017521]
 
 end A017521
 
@@ -10007,24 +10029,6 @@ namespace A017521
 /-- `(2^(7+3*n)+3^(3+n)-5^(3+n))/30` -/
 def P10134597060736924332.Spec : Prop :=
   ∀ n, P10134597060736924332.a n = (A017521 n : ℚ)
-
-theorem P10134597060736924332.correct : P10134597060736924332.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A017521, Nat.add_sub_cancel, A017521.P10134597060736924332.a, A017521.P6920701402188550665.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A017521, Nat.add_sub_cancel, A017521.P10134597060736924332.a, A017521.P6920701402188550665.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A017521
 

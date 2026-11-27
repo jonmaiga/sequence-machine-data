@@ -3,37 +3,37 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C015
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,9 +55,8 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +79,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -112,7 +110,7 @@ end A220300.P3034535584622910484
 /-!
 # A220304: Majority value maps: number of n X 2 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..1 n X 2 array.
 
-The programs for A220304, the canonical program `A220304.P8342076980679028710` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220304 has offset 1).
+The programs for A220304, the canonical program `A220304.P8342076980679028710` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220304 has offset 1).
 
 The definition of A220304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 189 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -121,7 +119,7 @@ The definition of A220304 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+x+3x^2+3x^3+2x^4+5x^5+2x^6+2x^7+x^8+x^9)/(1-3x-x^2+x^3-6x^4-3x^6-3x^7+x^8-3x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A220304
@@ -340,7 +338,7 @@ end A220307.P8525986390362843538
 /-!
 # A220309: Majority value maps: number of n X 2 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 n X 2 array.
 
-The programs for A220309, the canonical program `A220309.P12960531213229547374` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220309 has offset 1).
+The programs for A220309, the canonical program `A220309.P12960531213229547374` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220309 has offset 1).
 
 The definition of A220309 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -349,7 +347,7 @@ The definition of A220309 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+x-7x^3-5x^4+8x^5+6x^6-5x^7-2x^8+x^9)/(1-4x-2x^2+8x^3+3x^4-9x^5+2x^6+2x^7+x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A220309
@@ -559,40 +557,27 @@ end
 end A220312.P3808904467545274700
 
 /-!
-# A220313: T(n,k)=Majority value maps: number of nXk binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nXk array.
-
-The programs for A220313, there is no canonical definition to state claims against.
--/
-
-/-! ## A220313.P14476505549901320531
-
-`A220369(n+1)`
--/
-
-namespace A220313.P14476505549901320531
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220369 (n + 1)
-
-end
-
-end A220313.P14476505549901320531
-
-/-!
 # A220314: binomial(2n,n) - (2n)^pi(n), where pi(n) is the number of primes <= n.
 
-The programs for A220314, the canonical program `A220314.P12330248929035524189` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220314 has offset 1).
+The programs for A220314, the canonical program `A220314.P17635233766100633060` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220314 has offset 1).
 
-The definition of A220314 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A220314 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A220314.anchor (n : ℕ) : (A220314 (n + 1) : ℚ) = (Nat.choose (2 * (n + 1)) (n + 1) : ℚ) - (2 * (n + 1) : ℚ) ^ (A000720 (n + 1) : ℤ)` in `Proof.A220.A220314`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A220314.P12330248929035524189
 
 `A000984(n+1)-(2*(n+1))^A000720(n+1)`
-
-The canonical program, it is in `Seq.B001.C010`.
 -/
+
+namespace A220314.P12330248929035524189
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000984 (n + 1) : ℚ) - (2 * (n + 1) : ℚ) ^ (A000720 (n + 1) : ℤ)
+
+end
+
+end A220314.P12330248929035524189
 
 namespace A220314
 
@@ -606,18 +591,8 @@ end A220314
 
 `C(2*(n+1), n+1)-(2*(n+1))^A000720(n+1)`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B001.C010`.
 -/
-
-namespace A220314.P17635233766100633060
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (2 * (n + 1)) (n + 1) : ℚ) - (2 * (n + 1) : ℚ) ^ (A000720 (n + 1) : ℤ)
-
-end
-
-end A220314.P17635233766100633060
 
 namespace A220314
 
@@ -960,7 +935,7 @@ end A220323.P236269646485780987
 /-!
 # A220324: Equals two maps: number of n X 3 binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..1 n X 3 array.
 
-The programs for A220324, the canonical program `A220324.P6191242927477380117` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220324 has offset 1).
+The programs for A220324, the canonical program `A220324.P6191242927477380117` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220324 has offset 1).
 
 The definition of A220324 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -992,7 +967,7 @@ end A220324
 
 `7*a(n-1)-9*a(n-2)+3*a(n-3)+6*a(n-4)` with `a(0)=2, a(1)=16, a(2)=92, a(3)=508`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A220324
@@ -1957,21 +1932,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A220347.P17159038416173462978
-
-/-! ## A220347.P7214819376306874910
-
-`A254104(A191450(n+1))`
--/
-
-namespace A220347.P7214819376306874910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254104 (A191450 (n + 1)).toNat
-
-end
-
-end A220347.P7214819376306874910
 
 /-! ## A220347.P15896028484060064107
 
@@ -4841,27 +4801,6 @@ end
 end A220374.P8567111579983719937
 
 /-!
-# A220375: T(n,k)=Equals two maps: number of nXk binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and vertical neighbors in a random 0..2 nXk array.
-
-The programs for A220375, there is no canonical definition to state claims against.
--/
-
-/-! ## A220375.P8541969254139724650
-
-`A220430(n+1)`
--/
-
-namespace A220375.P8541969254139724650
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220430 (n + 1)
-
-end
-
-end A220375.P8541969254139724650
-
-/-!
 # A220376: a(n) = position of first occurrence of n-th "early bird" number (cf. A116700) in the string 1234567891011121314151617181920212223242526272... .
 
 The programs for A220376, there is no canonical definition to state claims against.
@@ -5122,7 +5061,7 @@ end A220380.P15415351917059249379
 /-!
 # A220381: Majority value maps: number of n X 3 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal and antidiagonal neighbors in a random 0..1 n X 3 array.
 
-The programs for A220381, the canonical program `A220381.P13353326866797882208` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220381 has offset 1).
+The programs for A220381, the canonical program `A220381.P13353326866797882208` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220381 has offset 1).
 
 The definition of A220381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5131,7 +5070,7 @@ The definition of A220381 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+9x+4x^2-3x^3-3x^4)/(1-4x-8x^2-3x^3+3x^4+2x^5))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A220381
@@ -5499,7 +5438,7 @@ end A220392.P18212358390496853239
 /-!
 # A220399: A convolution triangle of numbers obtained from A057682.
 
-The programs for A220399, the canonical program `A220399.P16320609389315581256` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220399 has offset 0).
+The programs for A220399, the canonical program `A220399.P16320609389315581256` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220399 has offset 0).
 
 The definition of A220399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5508,7 +5447,7 @@ The definition of A220399 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*T(n-1,k)+T(n-1,k-1)-3*T(n-2,k)-T(n-2,k-1)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A220399

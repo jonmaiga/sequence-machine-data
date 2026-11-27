@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,27 +13,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -64,10 +68,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5028,21 +5029,6 @@ end
 
 end A053039.P3618368731245482146
 
-/-! ## A053039.P2709174779501287806
-
-`-1+A053035(n+1)`
--/
-
-namespace A053039.P2709174779501287806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A053035 (n + 1)
-
-end
-
-end A053039.P2709174779501287806
-
 /-! ## A053039.P11623323203706169495
 
 `A023443(A053035(1+n))`
@@ -5905,7 +5891,7 @@ def P4587994811646773151.Spec : Prop :=
 
 theorem P4587994811646773151.correct : P4587994811646773151.Spec := by
   intro n
-  simp only [A053044, Nat.add_sub_cancel, A053044.P4587994811646773151.a, A053044.P12715760243015014670.a, A004526, A004526.P10084182425416171735.a, A060606, A060606.P8446617235737320077.a, A335429, A335429.P967647323544039556.a, A335860, A335860.P17749243859278538825.a, A060605, A060605.P5019509305243332605.f2, A060605.P5019509305243332605.f3, A060605.P5019509305243332605.f1, A060605.P5019509305243332605.a, A329697, A329697.P2581860713454041978.a, A087436, A087436.P13287701826401831056.a, A336466, A336466.P16200719452775638290.a, A000265, A000265.P16482698636471710744.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A003958, A003958.P196685604458257440.a, A007814, A007814.P13537437864234730737.a, SequenceMachineLib.memo_apply]
+  simp only [A053044, Nat.add_sub_cancel, A053044.P4587994811646773151.a, A053044.P12715760243015014670.a, A004526, A004526.P10084182425416171735.a, A060606, A060606.P8446617235737320077.a, A335429, A335429.P17581116199218262941.a, A335860, A335860.P17749243859278538825.a, A060605, A060605.P5019509305243332605.f2, A060605.P5019509305243332605.f3, A060605.P5019509305243332605.f1, A060605.P5019509305243332605.a, A329697, A329697.P2581860713454041978.a, A087436, A087436.P13287701826401831056.a, A336466, A336466.P16200719452775638290.a, A000265, A000265.P16482698636471710744.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A003958, A003958.P196685604458257440.a, A007814, A007814.P13537437864234730737.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -6070,7 +6056,7 @@ end A053044
 /-!
 # A053045: a(n) is the number of powers of 2 among the iterates of the Euler phi function when it is iterated with initial value n!.
 
-The programs for A053045, the canonical program `A053045.P10567594955266095024` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053045 has offset 1).
+The programs for A053045, the canonical program `A053045.P10567594955266095024` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053045 has offset 1).
 
 The definition of A053045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6102,7 +6088,7 @@ end A053045
 
 `∑[A054725(n+1)]-A053046(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A053045
@@ -6241,7 +6227,7 @@ end A053045
 /-!
 # A053046: a(n) is the number of terms that are not powers of 2 among the iterates of the Euler phi function when it is iterated with initial value n!.
 
-The programs for A053046, the canonical program `A053046.P12680013529470750958` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053046 has offset 1).
+The programs for A053046, the canonical program `A053046.P12680013529470750958` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053046 has offset 1).
 
 The definition of A053046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6273,7 +6259,7 @@ end A053046
 
 `∑[val(A309243(1+n), 3)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A053046
@@ -6309,12 +6295,6 @@ namespace A053046
 def P4598465123150688090.Spec : Prop :=
   ∀ n, P4598465123150688090.a n = A053046 (n + 1)
 
-theorem P4598465123150688090.correct : P4598465123150688090.Spec := by
-  intro n
-  simp only [A053046, Nat.add_sub_cancel, A053046.P4598465123150688090.a, A053046.P12680013529470750958.f1, A053046.P12680013529470750958.a, A053044, A053044.P12715760243015014670.a, A053048, A053048.P551333329361959550.a, A309243, A309243.P2615360336711731693.a, A004526, A004526.P10084182425416171735.a, A060606, A060606.P8446617235737320077.a, A171462, A171462.P186066025836437895.a, A052126, A052126.P1944428405920482243.a, A060605, A060605.P5019509305243332605.f2, A060605.P5019509305243332605.f3, A060605.P5019509305243332605.f1, A060605.P5019509305243332605.a, A006530, A006530.P13372528560459906635.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A053046
 
 /-! ## A053046.P18112259863598996103
@@ -6340,12 +6320,6 @@ namespace A053046
 /-- `∑[A054725(n+1)]-A053045(n+1)` -/
 def P18112259863598996103.Spec : Prop :=
   ∀ n, P18112259863598996103.a n = A053046 (n + 1)
-
-theorem P18112259863598996103.correct : P18112259863598996103.Spec := by
-  intro n
-  simp only [A053046, Nat.add_sub_cancel, A053046.P18112259863598996103.f1, A053046.P18112259863598996103.a, A053046.P12680013529470750958.f1, A053046.P12680013529470750958.a, A053045, A053045.P10567594955266095024.f1, A053045.P10567594955266095024.a, A054725, A054725.P2713192423509460817.a, A309243, A309243.P2615360336711731693.a, A003434, A003434.P4346144669055339103.a, A171462, A171462.P186066025836437895.a, A049108, A049108.P3374025278854896554.a, A052126, A052126.P1944428405920482243.a, A000010, A000010.P4673923239450215316.a, A006530, A006530.P13372528560459906635.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A053046
 
@@ -6557,7 +6531,7 @@ end A053046
 /-!
 # A053047: a(n) is the first (and maximal) power of 2 arising during iterations of the Euler phi function with initial value n!.
 
-The programs for A053047, the canonical program `A053047.P4059544056433008088` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053047 has offset 1).
+The programs for A053047, the canonical program `A053047.P4059544056433008088` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053047 has offset 1).
 
 The definition of A053047 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053048, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6566,7 +6540,7 @@ The definition of A053047 is `conditional`: the Lean definition is an OEIS formu
 
 `2^A053048(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A053047
@@ -6695,7 +6669,7 @@ end A053047
 /-!
 # A053048: a(n) is the number of terminal iterations applied to powers of 2 arising in the iterations of the Euler phi function with initial value n!.
 
-The programs for A053048, the canonical program `A053048.P551333329361959550` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053048 has offset 1).
+The programs for A053048, the canonical program `A053048.P551333329361959550` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053048 has offset 1).
 
 The definition of A053048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6750,7 +6724,7 @@ end A053048
 
 `A053044(n+1)-A053046(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A053048
@@ -6814,29 +6788,6 @@ namespace A053048
 /-- `∑[A054725(n+1)]-(A053046(n+1)+1)` -/
 def P8542765563169357679.Spec : Prop :=
   ∀ n, P8542765563169357679.a n = A053048 (n + 1)
-
-end A053048
-
-/-! ## A053048.P8297416918546321541
-
-`-1+A053045(n+1)`
--/
-
-namespace A053048.P8297416918546321541
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A053045 (n + 1)
-
-end
-
-end A053048.P8297416918546321541
-
-namespace A053048
-
-/-- `-1+A053045(n+1)` -/
-def P8297416918546321541.Spec : Prop :=
-  ∀ n, P8297416918546321541.a n = A053048 (n + 1)
 
 end A053048
 
@@ -6977,27 +6928,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A053052.P10520260187735255292
-
-/-!
-# A053053: Append n-th prime to previous term, reverse alternate terms.
-
-The programs for A053053, there is no canonical definition to state claims against.
--/
-
-/-! ## A053053.P11803700202166582234
-
-`A053054(n+1)`
--/
-
-namespace A053053.P11803700202166582234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053054 (n + 1)
-
-end
-
-end A053053.P11803700202166582234
 
 /-!
 # A053056: Fibonacci numbers whose digit sum is also a Fibonacci number.

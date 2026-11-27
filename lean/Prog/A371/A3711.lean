@@ -15,29 +15,28 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,30 +50,32 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -204,21 +204,6 @@ end
 
 end A371105.P12370667454649838528
 
-/-! ## A371105.P18046777535441373921
-
-`A371055(n+1)`
--/
-
-namespace A371105.P18046777535441373921
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371055 (n + 1)
-
-end
-
-end A371105.P18046777535441373921
-
 /-!
 # A371106: Integers whose ternary representation consists of concatenated runs A(1)B(1)C(1)A(2)B(2)C(2)...A(k)B(k)C(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
 
@@ -246,21 +231,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371106.P9978704981660885980
-
-/-! ## A371106.P3213534852301679636
-
-`A371054(n+1)`
--/
-
-namespace A371106.P3213534852301679636
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371054 (n + 1)
-
-end
-
-end A371106.P3213534852301679636
 
 /-! ## A371106.P17863629318735715379
 
@@ -298,57 +268,6 @@ end
 
 end A371107.P6744255270329462047
 
-/-! ## A371107.P12876856626030628995
-
-`A371051(n+1)`
--/
-
-namespace A371107.P12876856626030628995
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371051 (n + 1)
-
-end
-
-end A371107.P12876856626030628995
-
-/-! ## A371107.P8493318892020162891
-
-`A007089(A371050(n+1))`
--/
-
-namespace A371107.P8493318892020162891
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007089 (A371050 (n + 1)).toNat
-
-end
-
-end A371107.P8493318892020162891
-
-/-!
-# A371108: Integers whose ternary representation consists of concatenated runs A(1)C(1)B(1)A(2)C(2)B(2)...A(k)C(k)B(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
-
-The programs for A371108, there is no canonical definition to state claims against.
--/
-
-/-! ## A371108.P9060432173580619620
-
-`A371050(n+1)`
--/
-
-namespace A371108.P9060432173580619620
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371050 (n + 1)
-
-end
-
-end A371108.P9060432173580619620
-
 /-!
 # A371109: Ternary numbers that are concatenated runs C(1)B(1)A(1)C(2)B(2)A(2)...C(k)B(k)A(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
 
@@ -369,42 +288,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371109.P17158816611831904973
-
-/-! ## A371109.P2148350802456637158
-
-`A371057(n+1)`
--/
-
-namespace A371109.P2148350802456637158
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371057 (n + 1)
-
-end
-
-end A371109.P2148350802456637158
-
-/-!
-# A371110: Integers whose ternary representation consists of concatenated runs C(1)B(1)A(1)C(2)B(2)A(2)...C(k)B(k)A(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
-
-The programs for A371110, there is no canonical definition to state claims against.
--/
-
-/-! ## A371110.P5301701581057511425
-
-`A371056(n+1)`
--/
-
-namespace A371110.P5301701581057511425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371056 (n + 1)
-
-end
-
-end A371110.P5301701581057511425
 
 /-!
 # A371111: Ternary numbers that are concatenated runs C(1)A(1)B(1)C(2)A(2)B(2)...C(k)A(k)B(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
@@ -441,42 +324,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371111.P10683985305306086403
-
-/-! ## A371111.P11774633768854182947
-
-`A371053(n+1)`
--/
-
-namespace A371111.P11774633768854182947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371053 (n + 1)
-
-end
-
-end A371111.P11774633768854182947
-
-/-!
-# A371112: Integers whose ternary representation consists of concatenated runs C(1)A(1)B(1)C(2)A(2)B(2)...C(k)A(k)B(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
-
-The programs for A371112, there is no canonical definition to state claims against.
--/
-
-/-! ## A371112.P4550225481390645517
-
-`A371052(n+1)`
--/
-
-namespace A371112.P4550225481390645517
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371052 (n + 1)
-
-end
-
-end A371112.P4550225481390645517
 
 /-!
 # A371113: The sequence is a succession of triples of nonnegative integers. In each triple, the digits form a palindromic pattern. The sequence starts with a(0)=0 and is always extended with the smallest available integer not yet present in the sequence.
@@ -1988,21 +1835,6 @@ end A371147.P12032690996169421056
 The programs for A371148, there is no canonical definition to state claims against.
 -/
 
-/-! ## A371148.P8742987744204072592
-
-`A362333(n+2)`
--/
-
-namespace A371148.P8742987744204072592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362333 (n + 2)
-
-end
-
-end A371148.P8742987744204072592
-
 /-! ## A371148.P4990483328431760248
 
 `A071178(A385216(2+n))`
@@ -2530,30 +2362,9 @@ end
 end A371151.P14649052520101436303
 
 /-!
-# A371152: Array read by antidiagonals: row n lists numbers m >= 2 with A362333(m) = n.
-
-The programs for A371152, there is no canonical definition to state claims against.
--/
-
-/-! ## A371152.P6286417087086287956
-
-`A362814(n+1)`
--/
-
-namespace A371152.P6286417087086287956
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362814 (n + 1)
-
-end
-
-end A371152.P6286417087086287956
-
-/-!
 # A371154: Maximum number of vertices for a given diameter n of a Cayley digraph on the cyclic group with generators s=1 and t>s.
 
-The programs for A371154, the canonical program `A371154.P10633725049606300987` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371154 has offset 0).
+The programs for A371154, the canonical program `A371154.P10633725049606300987` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371154 has offset 0).
 
 The definition of A371154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2562,7 +2373,7 @@ The definition of A371154 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-x^4+2x^5-x^6)/(1-2x+x^2-x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C050`.
 -/
 
 namespace A371154
@@ -3012,21 +2823,6 @@ end A371157.P9079977015515891347
 The programs for A371158, there is no canonical definition to state claims against.
 -/
 
-/-! ## A371158.P15682243844461389148
-
-`A371198(n)`
--/
-
-namespace A371158.P15682243844461389148
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371198 n
-
-end
-
-end A371158.P15682243844461389148
-
 /-! ## A371158.P3646769489273386122
 
 `A297331(A088930(n))`
@@ -3083,27 +2879,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371159.P16080778834841778902
-
-/-!
-# A371160: Expansion of e.g.f. 1/(1 - x^3 - x^4)^x.
-
-The programs for A371160, there is no canonical definition to state claims against.
--/
-
-/-! ## A371160.P9561697974316974984
-
-`A371200(n)`
--/
-
-namespace A371160.P9561697974316974984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371200 n
-
-end
-
-end A371160.P9561697974316974984
 
 /-!
 # A371161: Maximum number of unlabeled graphs with at most n nodes such that neither one is a subgraph of another.
@@ -3444,21 +3219,6 @@ end
 
 end A371166.P13299154172730895589
 
-/-! ## A371166.P17687019061443733677
-
-`A309649(n+2)`
--/
-
-namespace A371166.P17687019061443733677
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A309649 (n + 2)
-
-end
-
-end A371166.P17687019061443733677
-
 /-! ## A371166.P13628874374813660367
 
 `A000040(A377033(∑[n]))`
@@ -3503,27 +3263,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371167.P9047622517173505400
-
-/-! ## A371167.P11550037291546930444
-
-`eq[0, A121559(n+1)]`
--/
-
-namespace A371167.P11550037291546930444
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121559 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A371167.P11550037291546930444
 
 /-!
 # A371168: Positive integers with fewer prime factors (A001222) than distinct divisors of prime indices (A370820).
@@ -3902,21 +3641,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371170.P17563835931332710782
-
-/-! ## A371170.P16871753278412590384
-
-`A370422(n+1)`
--/
-
-namespace A371170.P16871753278412590384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A370422 (n + 1)
-
-end
-
-end A371170.P16871753278412590384
 
 /-!
 # A371172: Number of integer partitions of n with as many submultisets as distinct divisors of parts.
@@ -4593,21 +4317,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371177.P16354022499700356865
-
-/-! ## A371177.P1577698115904356767
-
-`A076450(n+1)`
--/
-
-namespace A371177.P1577698115904356767
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076450 (n + 1)
-
-end
-
-end A371177.P1577698115904356767
 
 /-! ## A371177.P9384610319534722283
 
@@ -5306,7 +5015,7 @@ end A371187.P8104977456751173298
 /-!
 # A371188: Indices of the squarefree numbers in the sequence of cubefree numbers.
 
-The programs for A371188, the canonical program `A371188.P488392441008500169` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371188 has offset 1).
+The programs for A371188, the canonical program `A371188.P488392441008500169` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371188 has offset 1).
 
 The definition of A371188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7305 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5431,7 +5140,7 @@ end A371188
 
 `lt[A368712(1+n), 2]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A371188
@@ -5655,7 +5364,7 @@ end A371190.P814343346010949830
 /-!
 # A371193: a(n) = 2^(4*n-4)*(2^n-1).
 
-The programs for A371193, the canonical program `A371193.P16807310514170765857` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371193 has offset 0).
+The programs for A371193, the canonical program `A371193.P16807310514170765857` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371193 has offset 0).
 
 The definition of A371193 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(4*n-4)*(2^n-1)` (program `A371193.P16132567020786419494`, by `A371193.P16132567020786419494.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5730,7 +5439,7 @@ end A371193
 
 `48*a(n-1)-512*a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C048`.
+The canonical program, it is in `Seq.B000.C050`.
 -/
 
 namespace A371193

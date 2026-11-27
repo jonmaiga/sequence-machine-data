@@ -12,8 +12,10 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -22,24 +24,24 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +50,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C013
@@ -63,22 +64,24 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -620,7 +623,7 @@ end A059403
 /-!
 # A059404: Numbers with different exponents in their prime factorizations.
 
-The programs for A059404, the canonical program `A059404.P7325982925562044201` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059404 has offset 1).
+The programs for A059404, the canonical program `A059404.P7325982925562044201` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059404 has offset 1).
 
 The definition of A059404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -687,7 +690,7 @@ end A059404
 
 `lt[3, A323014(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A059404
@@ -6802,7 +6805,7 @@ end A059451.P9600993970794409668
 /-!
 # A059452: Safe primes (A005385) that are not Sophie Germain primes.
 
-The programs for A059452, the canonical program `A059452.P10430348383427026406` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059452 has offset 1).
+The programs for A059452, the canonical program `A059452.P10430348383427026406` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059452 has offset 1).
 
 The definition of A059452 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 328 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7051,7 +7054,7 @@ end A059452
 
 `∩[A005385(n+1), A156543(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A059452
@@ -9022,21 +9025,6 @@ end
 
 end A059459.P10715944342128669303
 
-/-! ## A059459.P3913942025602873383
-
-`A294205(n+1)`
--/
-
-namespace A059459.P3913942025602873383
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294205 (n + 1)
-
-end
-
-end A059459.P3913942025602873383
-
 /-!
 # A059460: Iteration of unitary-sigma function: a(1) = 2, a(n) = usigma(a(n-1)).
 
@@ -9163,27 +9151,6 @@ theorem P2669425483821427750.correct : P2669425483821427750.Spec := by
 end A059460
 
 /-!
-# A059469: Numbers that are the products of distinct substrings of themselves.
-
-The programs for A059469, there is no canonical definition to state claims against.
--/
-
-/-! ## A059469.P5513925252323527782
-
-`A162305(n+4)`
--/
-
-namespace A059469.P5513925252323527782
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162305 (n + 4)
-
-end
-
-end A059469.P5513925252323527782
-
-/-!
 # A059470: Numbers that are the products of distinct substrings (>1) of themselves and do not end in 0.
 
 The programs for A059470, there is no canonical definition to state claims against.
@@ -9224,27 +9191,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A059470.P8481924388040444276
-
-/-!
-# A059471: a(1) = 2; a(n+1) is obtained by trying to change just one digit of a(n), starting with the least significant digit, until a new prime is reached.
-
-The programs for A059471, there is no canonical definition to state claims against.
--/
-
-/-! ## A059471.P13269546937546144008
-
-`A059496(n+1)`
--/
-
-namespace A059471.P13269546937546144008
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059496 (n + 1)
-
-end
-
-end A059471.P13269546937546144008
 
 /-!
 # A059472: Primes omitted from A059471.

@@ -26,11 +26,11 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -41,9 +41,11 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +63,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -71,7 +74,8 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B011.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,6 +84,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -201,21 +206,6 @@ end
 
 end A229502.P17107742050643279984
 
-/-! ## A229502.P6706105974188646150
-
-`0-A227618(2*(n+1))`
--/
-
-namespace A229502.P6706105974188646150
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 - A227618 (2 * (n + 1))
-
-end
-
-end A229502.P6706105974188646150
-
 /-! ## A229502.P13718737122044955634
 
 `-(A227618(Δ[A002378(n)])%A157485(n+1))`
@@ -279,7 +269,7 @@ end A229503.P4156682967140369298
 /-!
 # A229504: Number of defective 3-colorings of an n X 2 0..2 array connected diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229504, the canonical program `A229504.P488237861805680013` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229504 has offset 1).
+The programs for A229504, the canonical program `A229504.P488237861805680013` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229504 has offset 1).
 
 The definition of A229504 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -288,7 +278,7 @@ The definition of A229504 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3/2*n*4^n`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229504
@@ -754,7 +744,7 @@ end A229504
 /-!
 # A229505: Number of defective 3-colorings of an n X 3 0..2 array connected diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229505, the canonical program `A229505.P17308966243932917914` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229505 has offset 1).
+The programs for A229505, the canonical program `A229505.P17308966243932917914` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229505 has offset 1).
 
 The definition of A229505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -786,7 +776,7 @@ end A229505
 
 `12*a(n-1)-36*a(n-2)` with `a(0)=0, a(1)=48, a(2)=480`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229505
@@ -1730,7 +1720,7 @@ end A229513.P8787944009914094788
 /-!
 # A229514: Number of n X 1 0..2 arrays of the median of the corresponding element, the element to the east and the element to the south in a larger (n+1) X 2 0..2 array without adjacent equal elements in the latter.
 
-The programs for A229514, the canonical program `A229514.P17259181171795286150` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229514 has offset 1).
+The programs for A229514, the canonical program `A229514.P17259181171795286150` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229514 has offset 1).
 
 The definition of A229514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 272 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1762,7 +1752,7 @@ end A229514
 
 `2*a(n-1)+a(n-2)-a(n-3)+a(n-4)` with `a(0)=3, a(1)=7, a(2)=17, a(3)=39`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229514
@@ -2135,7 +2125,7 @@ end A229520.P17222406211818393425
 /-!
 # A229522: Final digit (in decimal system) of (n^n)^n, i.e., (n^n)^n mod 10.
 
-The programs for A229522, the canonical program `A229522.P18014892526736871707` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229522 has offset 1).
+The programs for A229522, the canonical program `A229522.P18014892526736871707` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229522 has offset 1).
 
 The definition of A229522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2144,7 +2134,7 @@ The definition of A229522 is `conjectured`: the Lean definition is a formula tha
 
 `((n+1)^(5-n%2))%10`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229522
@@ -2189,7 +2179,7 @@ end A229523
 /-!
 # A229525: Sum of coefficients of the transform a*x^2 + (4*a/k - b)*x + 4*a/k^2 + 2*b/k + c = 0 for a,b,c = 1,-1,-1, k = 1,2,3...
 
-The programs for A229525, the canonical program `A229525.P6943540399474459169` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229525 has offset 1).
+The programs for A229525, the canonical program `A229525.P6943540399474459169` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229525 has offset 1).
 
 The definition of A229525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2221,7 +2211,7 @@ end A229525
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=11, a(1)=5, a(2)=31, a(3)=11, a(4)=59, a(5)=19`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229525
@@ -2564,7 +2554,7 @@ end A229525
 /-!
 # A229526: The c coefficients of the transform a*x^2 + (4*a/k - b)*x + 4*a/k^2 + 2*b/k + c = 0 for a,b,c = 1,-1,-1, k = 1,2,3...
 
-The programs for A229526, the canonical program `A229526.P16544832626549431579` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229526 has offset 1).
+The programs for A229526, the canonical program `A229526.P16544832626549431579` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229526 has offset 1).
 
 The definition of A229526 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2596,7 +2586,7 @@ end A229526
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=5, a(1)=1, a(2)=1, a(3)=-1, a(4)=-11, a(5)=-5`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229526
@@ -3314,7 +3304,7 @@ end A229528.P1692708468015876247
 /-!
 # A229529: Number of defective 3-colorings of an n X 3 0..2 array connected horizontally, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229529, the canonical program `A229529.P2577269629239549528` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229529 has offset 1).
+The programs for A229529, the canonical program `A229529.P2577269629239549528` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229529 has offset 1).
 
 The definition of A229529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3323,7 +3313,7 @@ The definition of A229529 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2-12x+36x^2-32x^3+8x^4)/(1-10x+29x^2-20x^3+4x^4))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229529
@@ -3416,8 +3406,29 @@ end A229529
 /-!
 # A229530: Number of defective 3-colorings of an n X 4 0..2 array connected horizontally, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229530, there is no canonical definition to state claims against.
+The programs for A229530, the canonical program `A229530.P1023103085469675362` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229530 has offset 1).
+
+The definition of A229530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A229530.P1023103085469675362
+
+`ogf((6-48x+199x^2-274x^3+105x^4)/(1-14x+57x^2-56x^3+16x^4))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A229530
+
+/-- `ogf((6-48x+199x^2-274x^3+105x^4)/(1-14x+57x^2-56x^3+16x^4))` -/
+def P1023103085469675362.Spec : Prop :=
+  ∀ n, P1023103085469675362.a n = A229530 (n + 1)
+
+theorem P1023103085469675362.correct : P1023103085469675362.Spec := by
+  intro n
+  simp only [A229530, Nat.add_sub_cancel]
+
+end A229530
 
 /-! ## A229530.P17614569251647918454
 
@@ -3434,6 +3445,20 @@ end
 
 end A229530.P17614569251647918454
 
+namespace A229530
+
+/-- `A269031(n+1)/6` -/
+def P17614569251647918454.Spec : Prop :=
+  ∀ n, P17614569251647918454.a n = (A229530 (n + 1) : ℚ)
+
+theorem P17614569251647918454.correct : P17614569251647918454.Spec := by
+  intro n
+  simp only [A229530, Nat.add_sub_cancel, A229530.P17614569251647918454.a, A229530.P1023103085469675362.a, A269031, A269031.P6220414311641273728.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A229530
+
 /-! ## A229530.P5667070551595699748
 
 `(A269048(n+1)-A223373(n+1))/6`
@@ -3448,6 +3473,20 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A229530.P5667070551595699748
+
+namespace A229530
+
+/-- `(A269048(n+1)-A223373(n+1))/6` -/
+def P5667070551595699748.Spec : Prop :=
+  ∀ n, P5667070551595699748.a n = (A229530 (n + 1) : ℚ)
+
+theorem P5667070551595699748.correct : P5667070551595699748.Spec := by
+  intro n
+  simp only [A229530, Nat.add_sub_cancel, A229530.P5667070551595699748.a, A229530.P1023103085469675362.a, A223373, A223373.P15280993736744581091.a, A269048, A269048.P10214764849750222702.a, A269031, A269031.P6220414311641273728.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A229530
 
 /-! ## A229530.P6721963769901230134
 
@@ -3467,6 +3506,14 @@ end
 
 end A229530.P6721963769901230134
 
+namespace A229530
+
+/-- `A229534(∑[n+4]+3)` -/
+def P6721963769901230134.Spec : Prop :=
+  ∀ n, P6721963769901230134.a n = A229530 (n + 1)
+
+end A229530
+
 /-! ## A229530.P3974793601451906120
 
 `A269035(A141214(n+1))/6`
@@ -3482,20 +3529,13 @@ end
 
 end A229530.P3974793601451906120
 
-/-! ## A229530.P4667772020202625968
+namespace A229530
 
-`A269035(A055998(n+2))/6`
--/
+/-- `A269035(A141214(n+1))/6` -/
+def P3974793601451906120.Spec : Prop :=
+  ∀ n, P3974793601451906120.a n = (A229530 (n + 1) : ℚ)
 
-namespace A229530.P4667772020202625968
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A269035 (A055998 (n + 2)).toNat : ℚ) / 6
-
-end
-
-end A229530.P4667772020202625968
+end A229530
 
 /-!
 # A229531: Number of defective 3-colorings of an n X 5 0..2 array connected horizontally, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
@@ -3767,7 +3807,7 @@ end A229534.P5353117216297474753
 /-!
 # A229535: Number of defective 3-colorings of a 2 X n 0..2 array connected horizontally, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229535, the canonical program `A229535.P332292831322738453` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229535 has offset 1).
+The programs for A229535, the canonical program `A229535.P332292831322738453` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229535 has offset 1).
 
 The definition of A229535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 225 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3799,7 +3839,7 @@ end A229535
 
 `4*a(n-1)-8*a(n-3)-4*a(n-4)` with `a(0)=0, a(1)=4, a(2)=8, a(3)=36`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229535
@@ -3970,7 +4010,7 @@ end A229535
 /-!
 # A229536: Number of defective 3-colorings of a 3 X n 0..2 array connected horizontally, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229536, the canonical program `A229536.P5536841384269820772` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229536 has offset 1).
+The programs for A229536, the canonical program `A229536.P5536841384269820772` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229536 has offset 1).
 
 The definition of A229536 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3979,7 +4019,7 @@ The definition of A229536 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((20x-62x^2+33x^3+40x^4-3x^5-16x^6+4x^7)/(1-6x+x^2+28x^3+4x^4-16x^5+4x^6))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229536
@@ -5230,7 +5270,7 @@ end A229552.P9378717314016009432
 /-!
 # A229554: a(n) = 7*n! + 1.
 
-The programs for A229554, the canonical program `A229554.P11068478950048054241` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229554 has offset 0).
+The programs for A229554, the canonical program `A229554.P11068478950048054241` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229554 has offset 0).
 
 The definition of A229554 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7*n!+1` (program `A229554.P11068478950048054241`, by `A229554.P11068478950048054241.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5239,7 +5279,7 @@ The definition of A229554 is `verified`: the Lean definition is proven equivalen
 
 `7*n!+1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229554
@@ -6499,7 +6539,7 @@ end A229572
 /-!
 # A229573: Number of defective 4-colorings of an n X 3 0..3 array connected horizontally, vertically, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..3 order.
 
-The programs for A229573, the canonical program `A229573.P8989098536119164596` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229573 has offset 1).
+The programs for A229573, the canonical program `A229573.P8989098536119164596` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229573 has offset 1).
 
 The definition of A229573 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 322 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6531,7 +6571,7 @@ end A229573
 
 `6*a(n-1)-13*a(n-2)+12*a(n-3)-4*a(n-4)` with `a(0)=2, a(1)=26, a(2)=76, a(3)=171, a(4)=362`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229573
@@ -6575,8 +6615,29 @@ end A229573
 /-!
 # A229574: Number of defective 4-colorings of an n X 4 0..3 array connected horizontally, vertically, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..3 order.
 
-The programs for A229574, there is no canonical definition to state claims against.
+The programs for A229574, the canonical program `A229574.P553027024182956060` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229574 has offset 1).
+
+The definition of A229574 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 322 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A229574.P553027024182956060
+
+`ogf((6+44x-231x^2+254x^3-17x^4-20x^5+4x^6)/(1-6x+13x^2-12x^3+4x^4))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A229574
+
+/-- `ogf((6+44x-231x^2+254x^3-17x^4-20x^5+4x^6)/(1-6x+13x^2-12x^3+4x^4))` -/
+def P553027024182956060.Spec : Prop :=
+  ∀ n, P553027024182956060.a n = A229574 (n + 1)
+
+theorem P553027024182956060.correct : P553027024182956060.Spec := by
+  intro n
+  simp only [A229574, Nat.add_sub_cancel]
+
+end A229574
 
 /-! ## A229574.P7693883952510780084
 
@@ -6593,11 +6654,40 @@ end
 
 end A229574.P7693883952510780084
 
+namespace A229574
+
+/-- `A229578(A374004(n+1))` -/
+def P7693883952510780084.Spec : Prop :=
+  ∀ n, P7693883952510780084.a n = A229574 (n + 1)
+
+end A229574
+
 /-!
 # A229575: Number of defective 4-colorings of an n X 5 0..3 array connected horizontally, vertically, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..3 order.
 
-The programs for A229575, there is no canonical definition to state claims against.
+The programs for A229575, the canonical program `A229575.P13407184017363178418` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229575 has offset 1).
+
+The definition of A229575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 322 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A229575.P13407184017363178418
+
+`ogf((20+96x-674x^2+964x^3-290x^4-64x^5+40x^6)/(1-6x+13x^2-12x^3+4x^4))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A229575
+
+/-- `ogf((20+96x-674x^2+964x^3-290x^4-64x^5+40x^6)/(1-6x+13x^2-12x^3+4x^4))` -/
+def P13407184017363178418.Spec : Prop :=
+  ∀ n, P13407184017363178418.a n = A229575 (n + 1)
+
+theorem P13407184017363178418.correct : P13407184017363178418.Spec := by
+  intro n
+  simp only [A229575, Nat.add_sub_cancel]
+
+end A229575
 
 /-! ## A229575.P3816849532692951513
 
@@ -6613,6 +6703,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A229575.P3816849532692951513
+
+namespace A229575
+
+/-- `A229578(A374005(n+1))` -/
+def P3816849532692951513.Spec : Prop :=
+  ∀ n, P3816849532692951513.a n = A229575 (n + 1)
+
+end A229575
 
 /-!
 # A229576: Number of defective 4-colorings of an n X 6 0..3 array connected horizontally, vertically, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..3 order.
@@ -6731,7 +6829,7 @@ end A229579.P12080092802858574329
 /-!
 # A229580: Number of defective 3-colorings of an n X 2 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229580, the canonical program `A229580.P1563403694311787037` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229580 has offset 1).
+The programs for A229580, the canonical program `A229580.P1563403694311787037` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229580 has offset 1).
 
 The definition of A229580 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6740,7 +6838,7 @@ The definition of A229580 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+4^n` with `a(0)=1, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229580
@@ -7222,7 +7320,7 @@ end A229580
 /-!
 # A229581: Number of defective 3-colorings of an n X 3 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229581, the canonical program `A229581.P3206840737242883942` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229581 has offset 1).
+The programs for A229581, the canonical program `A229581.P3206840737242883942` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229581 has offset 1).
 
 The definition of A229581 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7231,7 +7329,7 @@ The definition of A229581 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+4x)/(1-12x+36x^2))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229581
@@ -7410,7 +7508,7 @@ end A229581
 /-!
 # A229582: Number of defective 3-colorings of an n X 4 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229582, the canonical program `A229582.P17159816216225776909` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229582 has offset 1).
+The programs for A229582, the canonical program `A229582.P17159816216225776909` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229582 has offset 1).
 
 The definition of A229582 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7419,7 +7517,7 @@ The definition of A229582 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((6+8x+18x^2)/(1-18x+81x^2))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229582
@@ -7577,6 +7675,21 @@ end A229582
 
 The programs for A229583, there is no canonical definition to state claims against.
 -/
+
+/-! ## A229583.P15299547373446259548
+
+`ogf((16-36x+12x^2-72x^3)/(1-30x+261x^2-540x^3+324x^4))`
+-/
+
+namespace A229583.P15299547373446259548
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [16, -36, 12, -72] [1, -30, 261, -540, 324] n
+
+end
+
+end A229583.P15299547373446259548
 
 /-! ## A229583.P15285092593321159255
 
@@ -7836,7 +7949,7 @@ end A229586.P17487624807981606620
 /-!
 # A229587: Number of defective 3-colorings of a 2 X n 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229587, the canonical program `A229587.P6883557368480973696` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229587 has offset 1).
+The programs for A229587, the canonical program `A229587.P6883557368480973696` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229587 has offset 1).
 
 The definition of A229587 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7845,7 +7958,7 @@ The definition of A229587 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-1)-9*a(n-2)` with `a(0)=0, a(1)=6, a(2)=28, a(3)=116`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229587
@@ -7984,8 +8097,29 @@ end A229587
 /-!
 # A229588: Number of defective 3-colorings of a 3 X n 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
 
-The programs for A229588, there is no canonical definition to state claims against.
+The programs for A229588, the canonical program `A229588.P4519272295797210900` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229588 has offset 1).
+
+The definition of A229588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A229588.P4519272295797210900
+
+`ogf((40x-136x^2+140x^3-188x^4+148x^5)/(1-10x+29x^2-20x^3+4x^4))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A229588
+
+/-- `ogf((40x-136x^2+140x^3-188x^4+148x^5)/(1-10x+29x^2-20x^3+4x^4))` -/
+def P4519272295797210900.Spec : Prop :=
+  ∀ n, P4519272295797210900.a n = A229588 (n + 1)
+
+theorem P4519272295797210900.correct : P4519272295797210900.Spec := by
+  intro n
+  simp only [A229588, Nat.add_sub_cancel]
+
+end A229588
 
 /-! ## A229588.P10104361277058577218
 
@@ -8001,6 +8135,20 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A229588.P10104361277058577218
+
+namespace A229588
+
+/-- `A268906(n+1)/6` -/
+def P10104361277058577218.Spec : Prop :=
+  ∀ n, P10104361277058577218.a n = (A229588 (n + 1) : ℚ)
+
+theorem P10104361277058577218.correct : P10104361277058577218.Spec := by
+  intro n
+  simp only [A229588, Nat.add_sub_cancel, A229588.P10104361277058577218.a, A229588.P4519272295797210900.a, A268906, A268906.P11169872143519623355.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A229588
 
 /-! ## A229588.P18409468301714407618
 
@@ -8020,6 +8168,14 @@ end
 
 end A229588.P18409468301714407618
 
+namespace A229588
+
+/-- `A229586(∑[n+2]+4)` -/
+def P18409468301714407618.Spec : Prop :=
+  ∀ n, P18409468301714407618.a n = A229588 (n + 1)
+
+end A229588
+
 /-! ## A229588.P6995869119976948983
 
 `A268904(A167614(n+1))/6`
@@ -8034,6 +8190,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A229588.P6995869119976948983
+
+namespace A229588
+
+/-- `A268904(A167614(n+1))/6` -/
+def P6995869119976948983.Spec : Prop :=
+  ∀ n, P6995869119976948983.a n = (A229588 (n + 1) : ℚ)
+
+end A229588
 
 /-! ## A229588.P10012859662030104464
 
@@ -8052,6 +8216,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A229588.P10012859662030104464
+
+namespace A229588
+
+/-- `A268904(∑[n+2]+4)/A267884(n+2)` -/
+def P10012859662030104464.Spec : Prop :=
+  ∀ n, P10012859662030104464.a n = (A229588 (n + 1) : ℚ)
+
+end A229588
 
 /-!
 # A229589: Number of defective 3-colorings of a 4 X n 0..2 array connected horizontally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..2 order.
@@ -8200,7 +8372,7 @@ end A229592.P9338341424995600756
 /-!
 # A229593: Number of boomerang patterns appearing in n X n coins, rotation not allowed.
 
-The programs for A229593, the canonical program `A229593.P2204322222876940530` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229593 has offset 2).
+The programs for A229593, the canonical program `A229593.P2204322222876940530` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229593 has offset 2).
 
 The definition of A229593 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8209,7 +8381,7 @@ The definition of A229593 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*floor((n+2)/3)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229593
@@ -8737,7 +8909,7 @@ end A229593
 /-!
 # A229598: Voids left when packing boomerangs into n X n coins.
 
-The programs for A229598, the canonical program `A229598.P10624151354738347624` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229598 has offset 2).
+The programs for A229598, the canonical program `A229598.P10624151354738347624` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229598 has offset 2).
 
 The definition of A229598 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8775,7 +8947,7 @@ end A229598
 
 `floor(((n+2)%3+n)²/3)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229598

@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
@@ -12,27 +13,27 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C041
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -44,29 +45,30 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
@@ -80,7 +82,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A045000: Numbers whose base-3 representation contains exactly two 0's and one 2.
@@ -2655,21 +2656,6 @@ end A045012
 The programs for A045013, there is no canonical definition to state claims against.
 -/
 
-/-! ## A045013.P6824866767570469730
-
-`2*A044989(n+1)`
--/
-
-namespace A045013.P6824866767570469730
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A044989 (n + 1)
-
-end
-
-end A045013.P6824866767570469730
-
 /-! ## A045013.P13398261550589707289
 
 `A117968(A044989(n+1))`
@@ -5129,21 +5115,6 @@ end A045026
 The programs for A045027, there is no canonical definition to state claims against.
 -/
 
-/-! ## A045027.P3425025748986666079
-
-`A023717(A044979(n+1))`
--/
-
-namespace A045027.P3425025748986666079
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023717 (A044979 (n + 1)).toNat
-
-end
-
-end A045027.P3425025748986666079
-
 /-! ## A045027.P9951567989537831950
 
 `A329101(A045051(n+1))`
@@ -5602,21 +5573,6 @@ end A045031
 The programs for A045032, there is no canonical definition to state claims against.
 -/
 
-/-! ## A045032.P10767699811992755648
-
-`A045056(n+1)/2`
--/
-
-namespace A045032.P10767699811992755648
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A045056 (n + 1) : ℚ) / 2
-
-end
-
-end A045032.P10767699811992755648
-
 /-! ## A045032.P13936435889507900819
 
 `A004468(A045056(n+1))`
@@ -5863,21 +5819,6 @@ end A045035.P12488301900642622551
 
 The programs for A045036, there is no canonical definition to state claims against.
 -/
-
-/-! ## A045036.P15887873457320008718
-
-`A045060(n+1)/2`
--/
-
-namespace A045036.P15887873457320008718
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A045060 (n + 1) : ℚ) / 2
-
-end
-
-end A045036.P15887873457320008718
 
 /-! ## A045036.P16493285688288898498
 
@@ -8034,36 +7975,6 @@ end A045050
 The programs for A045051, there is no canonical definition to state claims against.
 -/
 
-/-! ## A045051.P12220878309349711493
-
-`A023717(A045003(n+1))`
--/
-
-namespace A045051.P12220878309349711493
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023717 (A045003 (n + 1)).toNat
-
-end
-
-end A045051.P12220878309349711493
-
-/-! ## A045051.P449199563524773912
-
-`A163241(A045075(n+1))`
--/
-
-namespace A045051.P449199563524773912
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045075 (n + 1)).toNat
-
-end
-
-end A045051.P449199563524773912
-
 /-! ## A045051.P167770828713021343
 
 `A030127(A045027(n+1))`
@@ -8387,29 +8298,6 @@ def P6784549457526436461.Spec : Prop :=
 theorem P6784549457526436461.correct : P6784549457526436461.Spec := by
   intro n
   simp only [A045055, Nat.add_sub_cancel]
-
-end A045055
-
-/-! ## A045055.P15224576635538177376
-
-`A163241(A045079(n+1))`
--/
-
-namespace A045055.P15224576635538177376
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045079 (n + 1)).toNat
-
-end
-
-end A045055.P15224576635538177376
-
-namespace A045055
-
-/-- `A163241(A045079(n+1))` -/
-def P15224576635538177376.Spec : Prop :=
-  ∀ n, P15224576635538177376.a n = A045055 (n + 1)
 
 end A045055
 
@@ -8763,27 +8651,6 @@ def P16748620478605815901.Spec : Prop :=
   ∀ n, P16748620478605815901.a n = A045058 (n + 1)
 
 end A045058
-
-/-!
-# A045059: Numbers whose base-4 representation contains exactly four 0's and two 2's.
-
-The programs for A045059, there is no canonical definition to state claims against.
--/
-
-/-! ## A045059.P5973339243561044682
-
-`A163241(A045083(n+1))`
--/
-
-namespace A045059.P5973339243561044682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045083 (n + 1)).toNat
-
-end
-
-end A045059.P5973339243561044682
 
 /-!
 # A045060: Numbers whose base-4 representation contains exactly four 0's and three 2's.
@@ -10507,21 +10374,6 @@ end
 
 end A045070.P9055380433756455058
 
-/-! ## A045070.P3024006260874589696
-
-`A043348(3*n+4)`
--/
-
-namespace A045070.P3024006260874589696
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043348 (3 * n + 4)
-
-end
-
-end A045070.P3024006260874589696
-
 /-! ## A045070.P13855448934151634641
 
 `filter[A045137(2*n+1), A232750(#)]`
@@ -11136,36 +10988,6 @@ end A045074
 The programs for A045075, there is no canonical definition to state claims against.
 -/
 
-/-! ## A045075.P3932304884787569127
-
-`A163241(A045051(n+1))`
--/
-
-namespace A045075.P3932304884787569127
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045051 (n + 1)).toNat
-
-end
-
-end A045075.P3932304884787569127
-
-/-! ## A045075.P1072390851491881969
-
-`3*A045027(n+1)`
--/
-
-namespace A045075.P1072390851491881969
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A045027 (n + 1)
-
-end
-
-end A045075.P1072390851491881969
-
 /-! ## A045075.P15800254062966136810
 
 `A001281(3*A045051(n+1))`
@@ -11607,29 +11429,6 @@ def P8083848136019737740.Spec : Prop :=
 
 end A045079
 
-/-! ## A045079.P4082563795243879246
-
-`A163241(A045055(n+1))`
--/
-
-namespace A045079.P4082563795243879246
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045055 (n + 1)).toNat
-
-end
-
-end A045079.P4082563795243879246
-
-namespace A045079
-
-/-- `A163241(A045055(n+1))` -/
-def P4082563795243879246.Spec : Prop :=
-  ∀ n, P4082563795243879246.a n = A045079 (n + 1)
-
-end A045079
-
 /-! ## A045079.P6357681719632924023
 
 `filter[A045052(n+1), A115517(#)]`
@@ -11991,70 +11790,11 @@ theorem P11121397618110216211.correct : P11121397618110216211.Spec := by
 
 end A045082
 
-/-! ## A045082.P7906231917308521451
-
-`A043336(3*(n+1))`
--/
-
-namespace A045082.P7906231917308521451
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043336 (3 * (n + 1))
-
-end
-
-end A045082.P7906231917308521451
-
-namespace A045082
-
-/-- `A043336(3*(n+1))` -/
-def P7906231917308521451.Spec : Prop :=
-  ∀ n, P7906231917308521451.a n = A045082 (n + 1)
-
-end A045082
-
-/-!
-# A045083: Numbers whose base-4 representation contains exactly four 0's and two 3's.
-
-The programs for A045083, there is no canonical definition to state claims against.
--/
-
-/-! ## A045083.P5407267271108208659
-
-`A163241(A045059(n+1))`
--/
-
-namespace A045083.P5407267271108208659
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045059 (n + 1)).toNat
-
-end
-
-end A045083.P5407267271108208659
-
 /-!
 # A045084: Numbers whose base-4 representation contains exactly four 0's and three 3's.
 
 The programs for A045084, there is no canonical definition to state claims against.
 -/
-
-/-! ## A045084.P274900003209693233
-
-`3*A045036(n+1)`
--/
-
-namespace A045084.P274900003209693233
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A045036 (n + 1)
-
-end
-
-end A045084.P274900003209693233
 
 /-! ## A045084.P3711090755720079201
 
@@ -13430,29 +13170,6 @@ namespace A045089
 /-- `A008486(A045129(n+1))-A023713(A023695(n+1)+1)` -/
 def P7055194453733119789.Spec : Prop :=
   ∀ n, P7055194453733119789.a n = A045089 (n + 1)
-
-end A045089
-
-/-! ## A045089.P9600758611035263764
-
-`A329180(1*A045105(n+1))`
--/
-
-namespace A045089.P9600758611035263764
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329180 (1 * A045105 (n + 1)).toNat
-
-end
-
-end A045089.P9600758611035263764
-
-namespace A045089
-
-/-- `A329180(1*A045105(n+1))` -/
-def P9600758611035263764.Spec : Prop :=
-  ∀ n, P9600758611035263764.a n = A045089 (n + 1)
 
 end A045089
 
@@ -16123,21 +15840,6 @@ end A045098
 
 The programs for A045099, there is no canonical definition to state claims against.
 -/
-
-/-! ## A045099.P13661208001537130112
-
-`A163241(A045123(n+1))`
--/
-
-namespace A045099.P13661208001537130112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163241 (A045123 (n + 1)).toNat
-
-end
-
-end A045099.P13661208001537130112
 
 /-! ## A045099.P15947683633337336642
 

@@ -12,31 +12,30 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,10 +59,12 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -75,7 +76,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,11 +85,11 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -2817,21 +2817,6 @@ end
 
 end A100927.P17471352498004567515
 
-/-! ## A100927.P5871071816780948725
-
-`A001687(n+3)`
--/
-
-namespace A100927.P5871071816780948725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001687 (n + 3)
-
-end
-
-end A100927.P5871071816780948725
-
 /-! ## A100927.P18178871467701188928
 
 `Δ[A115180(a(n-1)+1)]-a(n-1)` with `a(0)=1`
@@ -2906,27 +2891,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A100928.P508122924606217421
-
-/-!
-# A100929: Sophie Germain primes multiplied by a safe primes.
-
-The programs for A100929, there is no canonical definition to state claims against.
--/
-
-/-! ## A100929.P15125319961743579059
-
-`A359371(A067026(n+2))`
--/
-
-namespace A100929.P15125319961743579059
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359371 (A067026 (n + 2)).toNat
-
-end
-
-end A100929.P15125319961743579059
 
 /-!
 # A100930: Semiprimes of the form (2*p+1)*(p-1)/2, p prime.
@@ -3241,21 +3205,6 @@ end
 
 end A100936.P13541872119025035903
 
-/-! ## A100936.P14989870507599867341
-
-`A108359(n)`
--/
-
-namespace A100936.P14989870507599867341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108359 n
-
-end
-
-end A100936.P14989870507599867341
-
 /-!
 # A100937: Main diagonal of symmetric square array A100936.
 
@@ -3472,16 +3421,16 @@ end A100948
 /-!
 # A100949: Number of partitions of n into a prime and a semiprime.
 
-The programs for A100949, the canonical program `A100949.P1469308779833043243` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100949 has offset 1).
+The programs for A100949, the canonical program `A100949.P1469308779833043243` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100949 has offset 1).
 
-The definition of A100949 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064911, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A100949 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A100949.P1469308779833043243
 
 `∑{#}[floor((n+1)/2)-1, A010051(#+1)*A064911(n+1-(#+1))+A010051(n+1-(#+1))*A064911(#+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A100949
@@ -3659,21 +3608,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A100950.P17417222512494669021
-
-/-! ## A100950.P15602293997683116997
-
-`A369224(A000010(n+1))`
--/
-
-namespace A100950.P15602293997683116997
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369224 (A000010 (n + 1)).toNat
-
-end
-
-end A100950.P15602293997683116997
 
 /-!
 # A100951: Number of ways to write n = p*q + r with three distinct primes p, q and r.
@@ -5006,7 +4940,7 @@ end A100961
 /-!
 # A100962: Numbers that can neither be written as the sum nor as the product of two primes.
 
-The programs for A100962, the canonical program `A100962.P10061685594962046942` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100962 has offset 1).
+The programs for A100962, the canonical program `A100962.P10061685594962046942` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100962 has offset 1).
 
 The definition of A100962 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5104,7 +5038,7 @@ end A100962
 
 `eq[A064911(n+1), A243485(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A100962
@@ -6306,27 +6240,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A100982.P8744492874863347360
-
-/-!
-# A100986: Smallest k such that concatenation of r*k and 1 is a prime for all r = 1 to n but not prime for r = n+1, or smallest k such that 10*r*k+1 is a prime for all r = 1 to n but not prime for r = n+1.
-
-The programs for A100986, there is no canonical definition to state claims against.
--/
-
-/-! ## A100986.P2017550537516203090
-
-`A089323(n+1)`
--/
-
-namespace A100986.P2017550537516203090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089323 (n + 1)
-
-end
-
-end A100986.P2017550537516203090
 
 /-!
 # A100989: Number of partitions of n into parts free of odd hexagonal numbers and the only number with multiplicity in the unrestricted partitions is the number 2 with multiplicity of the form 3k+l, where k is a positive integer and l=0,1.

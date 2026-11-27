@@ -13,33 +13,32 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B002.C000
@@ -48,20 +47,23 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +86,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5564,7 +5565,7 @@ end A048249.P13930157726419769223
 /-!
 # A048250: Sum of the squarefree divisors of n.
 
-The programs for A048250, the canonical program `A048250.P17960441032552816313` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048250 has offset 1).
+The programs for A048250, the canonical program `A048250.P17960441032552816313` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048250 has offset 1).
 
 The definition of A048250 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A048250.anchor (n : ℕ) (hn : 1 ≤ n) : A048250 n = ((∑ d ∈ n.divisors with Squarefree d, d : ℕ) : ℤ)` in `Proof.A048.A048250`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6102,7 +6103,7 @@ end A048250
 
 `∏{p}[n+1, #+1]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A048250
@@ -6315,7 +6316,7 @@ end A048256.P7526240938769488764
 /-!
 # A048259: Number of distinct solutions to x + y + z = 0 (mod n), where two solutions are equivalent if one can be obtained from the other by multiplying by units in Z/nZ and permuting x,y,z.
 
-The programs for A048259, the canonical program `A048259.P11908636629173438456` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048259 has offset 0).
+The programs for A048259, the canonical program `A048259.P11908636629173438456` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048259 has offset 0).
 
 The definition of A048259 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 586 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6324,7 +6325,7 @@ The definition of A048259 is `conjectured`: the Lean definition is a formula tha
 
 `A065033(2*∑{d}[n, A003050(#)])`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A048259
@@ -7760,8 +7761,29 @@ end A048268.P15175677256583504655
 /-!
 # A048269: First palindrome greater than n+2 in bases n+2 and n.
 
-The programs for A048269, there is no canonical definition to state claims against.
+The programs for A048269, the canonical program `A048269.P9251477348631373614` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048269 has offset 2).
+
+The definition of A048269 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A048269.P9251477348631373614
+
+`ogf((5+26x+6x^2-54x^3+106x^4+46x^5-283x^6-14x^7+259x^8-81x^10)/(1-3x^2+3x^4-x^6))`
+
+The canonical program, it is in `Seq.B000.C010`.
+-/
+
+namespace A048269
+
+/-- `ogf((5+26x+6x^2-54x^3+106x^4+46x^5-283x^6-14x^7+259x^8-81x^10)/(1-3x^2+3x^4-x^6))` -/
+def P9251477348631373614.Spec : Prop :=
+  ∀ n, P9251477348631373614.a n = A048269 (n + 2)
+
+theorem P9251477348631373614.correct : P9251477348631373614.Spec := by
+  intro n
+  simp only [A048269, Nat.add_sub_cancel]
+
+end A048269
 
 /-! ## A048269.P132157618280727217
 
@@ -7780,6 +7802,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048269.P132157618280727217
+
+namespace A048269
+
+/-- `A293925(∑[2+n]+2)` -/
+def P132157618280727217.Spec : Prop :=
+  ∀ n, P132157618280727217.a n = A048269 (n + 2)
+
+end A048269
 
 /-!
 # A048270: Sequence of 2 Pythagorean triangles, each with a leg and hypotenuse prime. The leg of the second triangle is the hypotenuse of the first.
@@ -8210,7 +8240,7 @@ end A048270.P17906744571063599160
 /-!
 # A048271: a(0) = 1, a(n+1) = -3*a(n) mod 11.
 
-The programs for A048271, the canonical program `A048271.P335202611030016388` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048271 has offset 0).
+The programs for A048271, the canonical program `A048271.P335202611030016388` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048271 has offset 0).
 
 The definition of A048271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8219,7 +8249,7 @@ The definition of A048271 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+7x+x^2-3x^3-2x^4+7x^5)/(1-x+x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A048271
@@ -10061,21 +10091,6 @@ end A048287.P4229827785557363632
 
 The programs for A048288, there is no canonical definition to state claims against.
 -/
-
-/-! ## A048288.P16357699860498327167
-
-`A003313(A110757(n+1))`
--/
-
-namespace A048288.P16357699860498327167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003313 (A110757 (n + 1)).toNat
-
-end
-
-end A048288.P16357699860498327167
 
 /-! ## A048288.P15451921936729386537
 

@@ -38,7 +38,6 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -47,7 +46,8 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -73,18 +73,22 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1677,27 +1681,6 @@ end
 
 end A128515.P18220859180392425290
 
-/-! ## A128515.P11203445228371419352
-
-`A008507((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1])`
--/
-
-namespace A128515.P11203445228371419352
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008507 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))).toNat
-
-end
-
-end A128515.P11203445228371419352
-
 /-!
 # A128518: Expansion of q^(-1) * (chi(-q^13) / chi(-q))^2 in powers of q where chi() is a Ramanujan theta function.
 
@@ -1746,29 +1729,6 @@ def P1711371075922577191.Spec : Prop :=
 theorem P1711371075922577191.correct : P1711371075922577191.Spec := by
   intro n
   simp only [A128521, Nat.add_sub_cancel]
-
-end A128521
-
-/-! ## A128521.P6695927959577781398
-
-`2-A128184(n+1)`
--/
-
-namespace A128521.P6695927959577781398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A128184 (n + 1)
-
-end
-
-end A128521.P6695927959577781398
-
-namespace A128521
-
-/-- `2-A128184(n+1)` -/
-def P6695927959577781398.Spec : Prop :=
-  ∀ n, P6695927959577781398.a n = A128521 (n + 1)
 
 end A128521
 
@@ -5374,21 +5334,6 @@ end
 
 end A128546.P9896998810701145616
 
-/-! ## A128546.P4420004166742920028
-
-`A289868(n+10)`
--/
-
-namespace A128546.P4420004166742920028
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289868 (n + 10)
-
-end
-
-end A128546.P4420004166742920028
-
 /-!
 # A128547: Primes p such that p*q-p-q is prime where q=nextprime(p).
 
@@ -8805,29 +8750,6 @@ def P684908251658449014.Spec : Prop :=
 
 end A128582
 
-/-! ## A128582.P780543076365887937
-
-`A258587(2*n+1)/(-2)`
--/
-
-namespace A128582.P780543076365887937
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A258587 (2 * n + 1) : ℚ) / (-2)
-
-end
-
-end A128582.P780543076365887937
-
-namespace A128582
-
-/-- `A258587(2*n+1)/(-2)` -/
-def P780543076365887937.Spec : Prop :=
-  ∀ n, P780543076365887937.a n = (A128582 n : ℚ)
-
-end A128582
-
 /-! ## A128582.P1191963216508183368
 
 `A129402(3*n+2)/2`
@@ -11374,21 +11296,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128596.P15749471459941378004
-
-/-! ## A128596.P2385353200686709812
-
-`A309583(A078121(n))`
--/
-
-namespace A128596.P2385353200686709812
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A309583 (A078121 n).toNat
-
-end
-
-end A128596.P2385353200686709812
 
 /-! ## A128596.P8991751911870211472
 

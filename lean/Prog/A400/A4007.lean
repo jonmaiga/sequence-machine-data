@@ -16,38 +16,39 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C040
+import Seq.B000.C035
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C049
+import Seq.B000.C046
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,12 +60,11 @@ import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,6 +76,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -98,7 +99,7 @@ set_option linter.unreachableTactic false
 /-!
 # A400700: Start with a set of four adjacent collinear points in a hexagonal lattice. Every iteration, add to the set the points in the lattice which are adjacent to at least two points already in the set. This sequence gives the number of points in the set after n iterations.
 
-The programs for A400700, the canonical program `A400700.P1160826016266712974` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400700 has offset 0).
+The programs for A400700, the canonical program `A400700.P1160826016266712974` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400700 has offset 0).
 
 The definition of A400700 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -107,7 +108,7 @@ The definition of A400700 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4+2x+2x^2-4x^3+2x^4)/(1-2x+x^2-x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400700
@@ -467,7 +468,7 @@ end A400700
 /-!
 # A400701: Start with a set of five adjacent collinear points in a hexagonal lattice. Every iteration, add to the set the points in the lattice which are adjacent to at least two points already in the set. This sequence gives the number of points in the set after n iterations.
 
-The programs for A400701, the canonical program `A400701.P3330372214790239244` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400701 has offset 0).
+The programs for A400701, the canonical program `A400701.P3330372214790239244` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400701 has offset 0).
 
 The definition of A400701 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -476,7 +477,7 @@ The definition of A400701 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((5+3x+2x^2-5x^3+x^4-2x^5+2x^6)/(1-2x+x^2-x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400701
@@ -976,34 +977,19 @@ end
 
 end A400720.P11587198104868870007
 
-/-! ## A400720.P14697227025431078367
-
-`A052382(A052382(n+1))`
--/
-
-namespace A400720.P14697227025431078367
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052382 (A052382 (n + 1)).toNat
-
-end
-
-end A400720.P14697227025431078367
-
 /-!
 # A400721: Greatest prime factor of 3^n - 2^n.
 
-The programs for A400721, the canonical program `A400721.P13587266622380998546` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400721 has offset 1).
+The programs for A400721, the canonical program `A400721.P13587266622380998546` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400721 has offset 1).
 
-The definition of A400721 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A400721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A400721.P13587266622380998546
 
 `A006530(A001047(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A400721
@@ -1179,16 +1165,16 @@ end A400725.P1446418476879109367
 /-!
 # A400727: Greatest prime factor of 4^n - 3^n.
 
-The programs for A400727, the canonical program `A400727.P14444583782514175406` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400727 has offset 2).
+The programs for A400727, the canonical program `A400727.P14444583782514175406` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400727 has offset 2).
 
-The definition of A400727 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A400727 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A400727.P14444583782514175406
 
 `A006530(A005061(n+2))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A400727
@@ -1391,7 +1377,7 @@ end A400729.P14482445992975443193
 /-!
 # A400730: Numbers k such that k^2 + 1 is an exponentially odd number (A268335).
 
-The programs for A400730, the canonical program `A400730.P15721063541631280415` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400730 has offset 1).
+The programs for A400730, the canonical program `A400730.P15721063541631280415` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400730 has offset 1).
 
 The definition of A400730 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 288 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1458,7 +1444,7 @@ end A400730
 
 `eq[2, A006530(A000005(n²+1))]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A400730
@@ -2062,7 +2048,7 @@ end A400751.P2983567484851328524
 /-!
 # A400753: Row sums of the Riordan array (1/(1-3*x), x/(1-3*x)^3).
 
-The programs for A400753, the canonical program `A400753.P10274350832908785409` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400753 has offset 0).
+The programs for A400753, the canonical program `A400753.P10274350832908785409` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400753 has offset 0).
 
 The definition of A400753 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2071,7 +2057,7 @@ The definition of A400753 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x+9x^2)/(1-10x+27x^2-27x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400753
@@ -2184,7 +2170,7 @@ end A400753
 /-!
 # A400754: Row sums of the Riordan array (1/(1-3*x)^2, x/(1-3*x)^3).
 
-The programs for A400754, the canonical program `A400754.P4279432807320805709` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400754 has offset 0).
+The programs for A400754, the canonical program `A400754.P4279432807320805709` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400754 has offset 0).
 
 The definition of A400754 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2193,7 +2179,7 @@ The definition of A400754 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x)/(1-10x+27x^2-27x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400754
@@ -2762,7 +2748,7 @@ end A400758.P8270565981089312977
 /-!
 # A400763: Numbers k such that the k-th composition in standard order is a palindrome. Positions of palindromes in A066099.
 
-The programs for A400763, the canonical program `A400763.P8225141009874305220` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400763 has offset 1).
+The programs for A400763, the canonical program `A400763.P8225141009874305220` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400763 has offset 1).
 
 The definition of A400763 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A044051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2771,7 +2757,7 @@ The definition of A400763 is `conditional`: the Lean definition is an OEIS formu
 
 `A044051(n+1)-1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A400763
@@ -4621,7 +4607,7 @@ end A400778.P12591392111334385990
 /-!
 # A400779: a(n) = Sum_{d|n} gcd(n,d+1).
 
-The programs for A400779, the canonical program `A400779.P9186177373831134570` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400779 has offset 1).
+The programs for A400779, the canonical program `A400779.P9186177373831134570` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400779 has offset 1).
 
 The definition of A400779 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{d}[n+1, gcd(n+1, #+1)]` (program `A400779.P9186177373831134570`, by `A400779.P9186177373831134570.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4630,7 +4616,7 @@ The definition of A400779 is `verified`: the Lean definition is proven equivalen
 
 `∑{d}[n+1, gcd(n+1, #+1)]`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400779
@@ -5093,7 +5079,7 @@ end A400794.P10529522286566377912
 /-!
 # A400796: a(n) = (n^2 + 4*Legendre(n,5))/5.
 
-The programs for A400796, the canonical program `A400796.P792017740949119045` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400796 has offset 0).
+The programs for A400796, the canonical program `A400796.P792017740949119045` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400796 has offset 0).
 
 The definition of A400796 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5102,7 +5088,7 @@ The definition of A400796 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-2x^2+2x^3+2x^4-2x^5+x^6)/(1-2x+x^2-x^5+2x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400796

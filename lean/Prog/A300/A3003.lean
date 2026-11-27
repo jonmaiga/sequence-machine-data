@@ -8,17 +8,15 @@ import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -26,12 +24,12 @@ import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -56,14 +54,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2197,21 +2197,6 @@ end
 
 end A300334.P8545528403018130875
 
-/-! ## A300334.P7551251147445989161
-
-`A289993(n+1)`
--/
-
-namespace A300334.P7551251147445989161
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289993 (n + 1)
-
-end
-
-end A300334.P7551251147445989161
-
 /-!
 # A300335: Number of ordered set partitions of {1,...,n} with weakly increasing block-sums.
 
@@ -2593,7 +2578,7 @@ end A300343.P13844192196493361849
 /-!
 # A300344: Number of n X 2 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A300344, the canonical program `A300344.P328044221799417559` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300344 has offset 1).
+The programs for A300344, the canonical program `A300344.P328044221799417559` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300344 has offset 1).
 
 The definition of A300344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2625,7 +2610,7 @@ end A300344
 
 `a(n-1)+2*a(n-2)+3*a(n-3)+2*a(n-4)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=15, a(4)=37`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300344
@@ -3222,7 +3207,7 @@ end A300359.P3501592170665439962
 /-!
 # A300361: a(n) = 2^A000325(n).
 
-The programs for A300361, the canonical program `A300361.P5125295162513310737` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300361 has offset 0).
+The programs for A300361, the canonical program `A300361.P5125295162513310737` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300361 has offset 0).
 
 The definition of A300361 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3231,7 +3216,7 @@ The definition of A300361 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(2^n-n)`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300361
@@ -3642,7 +3627,7 @@ end A300373.P226981458312200308
 /-!
 # A300374: Number of nX2 0..1 arrays with every element equal to 0, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A300374, the canonical program `A300374.P9766366193239129148` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300374 has offset 1).
+The programs for A300374, the canonical program `A300374.P9766366193239129148` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300374 has offset 1).
 
 The definition of A300374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3651,7 +3636,7 @@ The definition of A300374 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)+2*a(n-3)+a(n-5)-3*a(n-6)+a(n-7)` with `a(0)=1, a(1)=3, a(2)=2, a(3)=10, a(4)=13, a(5)=42, a(6)=74`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300374
@@ -4125,21 +4110,6 @@ end
 
 end A300383.P500298812310737357
 
-/-! ## A300383.P3355617672963282858
-
-`A000041(A318995(n+1)+1)`
--/
-
-namespace A300383.P3355617672963282858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (A318995 (n + 1) + 1).toNat
-
-end
-
-end A300383.P3355617672963282858
-
 /-! ## A300383.P13690118816293633574
 
 `A243288(2^A318995(n+1))`
@@ -4184,27 +4154,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300383.P16665299497956491152
-
-/-!
-# A300384: In the ranked poset of integer partitions ordered by refinement, number of maximal chains from the local minimum to the partition with Heinz number n.
-
-The programs for A300384, there is no canonical definition to state claims against.
--/
-
-/-! ## A300384.P3474480801452312644
-
-`A300385(A241909(n+1))`
--/
-
-namespace A300384.P3474480801452312644
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300385 (A241909 (n + 1)).toNat
-
-end
-
-end A300384.P3474480801452312644
 
 /-!
 # A300385: In the ranked poset of integer partitions ordered by refinement, number of maximal chains from the partition with Heinz number n to the local maximum.
@@ -4316,36 +4265,6 @@ end A300393.P9439762722500335187
 
 The programs for A300396, there is no canonical definition to state claims against.
 -/
-
-/-! ## A300396.P8106827868701236770
-
-`A300360(n+1)`
--/
-
-namespace A300396.P8106827868701236770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300360 (n + 1)
-
-end
-
-end A300396.P8106827868701236770
-
-/-! ## A300396.P17703742612884604042
-
-`A300356(n+1)`
--/
-
-namespace A300396.P17703742612884604042
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300356 (n + 1)
-
-end
-
-end A300396.P17703742612884604042
 
 /-! ## A300396.P14877923938665547800
 

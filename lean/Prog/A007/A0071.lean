@@ -11,12 +11,12 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -25,10 +25,12 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C043
-import Seq.B000.C045
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +60,6 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,7 +84,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -166,27 +166,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007102.P7826387274029298684
-
-/-!
-# A007104: Number of elements (a b, c d) in GL(2,Z) with det = -1, trace n and 0 <= a <= {b, c} <= d.
-
-The programs for A007104, there is no canonical definition to state claims against.
--/
-
-/-! ## A007104.P14772168976640027926
-
-`A325676(A111248(n+1))`
--/
-
-namespace A007104.P14772168976640027926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325676 (A111248 (n + 1)).toNat
-
-end
-
-end A007104.P14772168976640027926
 
 /-!
 # A007105: Number of labeled Eulerian 3-regular digraphs with n nodes.
@@ -893,21 +872,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007117.P11120686873261536314
-
-/-! ## A007117.P14325528452645993462
-
-`A298669(n+2)`
--/
-
-namespace A007117.P14325528452645993462
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298669 (n + 2)
-
-end
-
-end A007117.P14325528452645993462
 
 /-!
 # A007118: Expansion of e.g.f. (1+x)^sin(x).
@@ -2704,7 +2668,7 @@ end A007146.P216652829863147315
 /-!
 # A007147: Number of self-dual 2-colored necklaces with 2n beads.
 
-The programs for A007147, the canonical program `A007147.P16521925321400448179` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007147 has offset 1).
+The programs for A007147, the canonical program `A007147.P16521925321400448179` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007147 has offset 1).
 
 The definition of A007147 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000016, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2713,7 +2677,7 @@ The definition of A007147 is `conditional`: the Lean definition is an OEIS formu
 
 `1/2*(A016116(n)+A000016(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A007147
@@ -2963,7 +2927,7 @@ end A007147
 /-!
 # A007148: Number of self-complementary 2-colored bracelets (turnover necklaces) with 2n beads.
 
-The programs for A007148, the canonical program `A007148.P13473997143567085578` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
+The programs for A007148, the canonical program `A007148.P13473997143567085578` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
 
 The definition of A007148 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2972,7 +2936,7 @@ The definition of A007148 is `conditional`: the Lean definition is an OEIS formu
 
 `1/2*(A000079(n)+A000013(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A007148

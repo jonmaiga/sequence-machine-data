@@ -10,15 +10,12 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -29,20 +26,19 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,8 +55,8 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -77,10 +73,9 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3803,7 +3798,7 @@ end A131117.P14223881048262143083
 /-!
 # A131118: a(4n) = -n^2, a(4n+1) = n^2, a(4n+2) = 1-n^2, a(4n+3) = n*(n+1).
 
-The programs for A131118, the canonical program `A131118.P125086775750791246` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131118 has offset 0).
+The programs for A131118, the canonical program `A131118.P125086775750791246` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131118 has offset 0).
 
 The definition of A131118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3812,7 +3807,7 @@ The definition of A131118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^2+2x^3+x^4+x^5)/(1+2x+2x^2+2x^3-2x^5-2x^6-2x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131118
@@ -3957,7 +3952,7 @@ end A131118
 /-!
 # A131119: a(n) = (-1)^n * Sum_{i=1..floor(n/2)} i * floor(n/(n-i)).
 
-The programs for A131119, the canonical program `A131119.P8925691249782972562` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131119 has offset 0).
+The programs for A131119, the canonical program `A131119.P8925691249782972562` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131119 has offset 0).
 
 The definition of A131119 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(-1)^n*∑{#}[floor(n/2)-1, (#+1)*floor(n/(n-(#+1)))]` (program `A131119.P8925691249782972562`, by `A131119.P8925691249782972562.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3966,7 +3961,7 @@ The definition of A131119 is `verified`: the Lean definition is proven equivalen
 
 `(-1)^n*∑{#}[floor(n/2)-1, (#+1)*floor(n/(n-(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131119
@@ -5577,7 +5572,7 @@ end A131127
 /-!
 # A131128: Binomial transform of [1, 1, 5, 1, 5, 1, 5, ...].
 
-The programs for A131128, the canonical program `A131128.P16377922990764128353` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131128 has offset 0).
+The programs for A131128, the canonical program `A131128.P16377922990764128353` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131128 has offset 0).
 
 The definition of A131128 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5609,7 +5604,7 @@ end A131128
 
 `2*a(n-1)+4` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131128
@@ -6419,7 +6414,7 @@ end A131129
 /-!
 # A131130: Binomial transform of [1,1,7,1,7,1,7,1,...].
 
-The programs for A131130, the canonical program `A131130.P10997269673454646675` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131130 has offset 0).
+The programs for A131130, the canonical program `A131130.P10997269673454646675` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131130 has offset 0).
 
 The definition of A131130 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6451,7 +6446,7 @@ end A131130
 
 `2*a(n-1)+6` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131130
@@ -7593,7 +7588,7 @@ end A131132
 /-!
 # A131133: a(0)=1; for n > 0, a(n) = (1/n + 1/a(n-1))*lcm(n, a(n-1)).
 
-The programs for A131133, the canonical program `A131133.P16864320305885586365` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131133 has offset 0).
+The programs for A131133, the canonical program `A131133.P16864320305885586365` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131133 has offset 0).
 
 The definition of A131133 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7602,7 +7597,7 @@ The definition of A131133 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1/n+1/a(n-1))*lcm(n, a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131133
@@ -7662,7 +7657,7 @@ end A131133
 /-!
 # A131134: a(1)=1. a(n) = (1/n + 1/a(n-1)) * lcm(n,a(n-1)).
 
-The programs for A131134, the canonical program `A131134.P4120481473754267989` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131134 has offset 1).
+The programs for A131134, the canonical program `A131134.P4120481473754267989` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131134 has offset 1).
 
 The definition of A131134 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7671,7 +7666,7 @@ The definition of A131134 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1+a(n-1))/gcd(n+1, a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131134
@@ -7998,7 +7993,7 @@ end A131135
 /-!
 # A131136: Denominator of (exponential) expansion of log((x/2-1)/(x-1)).
 
-The programs for A131136, the canonical program `A131136.P9962847662885508772` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131136 has offset 0).
+The programs for A131136, the canonical program `A131136.P9962847662885508772` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131136 has offset 0).
 
 The definition of A131136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8007,7 +8002,7 @@ The definition of A131136 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(2, n)*a(ceil(n/2))` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131136
@@ -8838,27 +8833,6 @@ end
 end A131138.P4360499717906192532
 
 /-!
-# A131140: Counts 3-wild partitions. In general p-wild partitions of n are defined so that they are in bijection with geometric equivalence classes of degree n algebra extensions of the p-adic field Q_p. Here two algebra extensions are equivalent if they become isomorphic after tensoring with the maximal unramified extension of Q_p.
-
-The programs for A131140, there is no canonical definition to state claims against.
--/
-
-/-! ## A131140.P6830601604115524601
-
-`A037314(A000041(n))`
--/
-
-namespace A131140.P6830601604115524601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037314 (A000041 n).toNat
-
-end
-
-end A131140.P6830601604115524601
-
-/-!
 # A131141: Signature permutation of a Catalan automorphism: row 3 of A122285.
 
 The programs for A131141, there is no canonical definition to state claims against.
@@ -9200,21 +9174,6 @@ end
 
 end A131143.P10200041034731607560
 
-/-! ## A131143.P2170036419633640855
-
-`A131148(n)`
--/
-
-namespace A131143.P2170036419633640855
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131148 n
-
-end
-
-end A131143.P2170036419633640855
-
 /-!
 # A131144: Signature permutation of a Catalan automorphism: row 6 of A122286.
 
@@ -9269,21 +9228,6 @@ end
 
 end A131144.P8540146839158082352
 
-/-! ## A131144.P2619133726835712549
-
-`A131147(n)`
--/
-
-namespace A131144.P2619133726835712549
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131147 n
-
-end
-
-end A131144.P2619133726835712549
-
 /-!
 # A131145: Signature permutation of a Catalan automorphism: row 5 of A122285.
 
@@ -9322,21 +9266,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131145.P2370529594115464751
-
-/-! ## A131145.P7778132738466940348
-
-`A131146(n)`
--/
-
-namespace A131145.P7778132738466940348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131146 n
-
-end
-
-end A131145.P7778132738466940348
 
 /-!
 # A131146: Signature permutation of a Catalan automorphism: row 5 of A122286.
@@ -9494,21 +9423,6 @@ end
 
 end A131149.P16775884931033584598
 
-/-! ## A131149.P7399091358015822874
-
-`A131154(n)`
--/
-
-namespace A131149.P7399091358015822874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131154 n
-
-end
-
-end A131149.P7399091358015822874
-
 /-!
 # A131150: Signature permutation of a Catalan automorphism: row 11 of A122286.
 
@@ -9533,21 +9447,6 @@ end
 
 end A131150.P16401359289020029403
 
-/-! ## A131150.P13786884446247732479
-
-`A131153(n)`
--/
-
-namespace A131150.P13786884446247732479
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131153 n
-
-end
-
-end A131150.P13786884446247732479
-
 /-!
 # A131151: Signature permutation of a Catalan automorphism: row 10 of A122285.
 
@@ -9568,21 +9467,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131151.P17615169489348464884
-
-/-! ## A131151.P17052699841257760253
-
-`A131152(n)`
--/
-
-namespace A131151.P17052699841257760253
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131152 n
-
-end
-
-end A131151.P17052699841257760253
 
 /-!
 # A131152: Signature permutation of a Catalan automorphism: row 10 of A122286.
@@ -9677,21 +9561,6 @@ end
 
 end A131155.P4638115267847484203
 
-/-! ## A131155.P14094337327137403911
-
-`A122349(A131171(n))`
--/
-
-namespace A131155.P14094337327137403911
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122349 (A131171 n).toNat
-
-end
-
-end A131155.P14094337327137403911
-
 /-!
 # A131156: Signature permutation of a Catalan automorphism: row 18 of A122286.
 
@@ -9715,21 +9584,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A131156.P14019317986269079081
-
-/-! ## A131156.P5095320426477282325
-
-`A131172(A073288(n))`
--/
-
-namespace A131156.P5095320426477282325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131172 (A073288 n).toNat
-
-end
-
-end A131156.P5095320426477282325
 
 /-!
 # A131157: Signature permutation of a Catalan automorphism: row 14 of A122285.
@@ -9841,21 +9695,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A131158.P14483281736411461689
-
-/-! ## A131158.P4993439497012857152
-
-`A130376(A122335(n))`
--/
-
-namespace A131158.P4993439497012857152
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130376 (A122335 n).toNat
-
-end
-
-end A131158.P4993439497012857152
 
 /-! ## A131158.P4091947023212012651
 
@@ -10085,21 +9924,6 @@ end
 
 end A131160.P2580826163129635779
 
-/-! ## A131160.P14962056383394929312
-
-`A122349(A082346(n))`
--/
-
-namespace A131160.P14962056383394929312
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122349 (A082346 n).toNat
-
-end
-
-end A131160.P14962056383394929312
-
 /-!
 # A131161: Signature permutation of a Catalan automorphism: row 16 of A122285.
 
@@ -10123,21 +9947,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A131161.P7667783704887373617
-
-/-! ## A131161.P10328137394785346847
-
-`A131001(A122282(n))`
--/
-
-namespace A131161.P10328137394785346847
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131001 (A122282 n).toNat
-
-end
-
-end A131161.P10328137394785346847
 
 /-! ## A131161.P4419677439730177124
 
@@ -10232,21 +10041,6 @@ end
 
 end A131163.P7356622198861404966
 
-/-! ## A131163.P5359089413776370584
-
-`A131003(A085170(n))`
--/
-
-namespace A131163.P5359089413776370584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131003 (A085170 n).toNat
-
-end
-
-end A131163.P5359089413776370584
-
 /-!
 # A131164: Signature permutation of a Catalan automorphism: row 13 of A122286.
 
@@ -10340,36 +10134,6 @@ end
 
 end A131165.P16591030895430328040
 
-/-! ## A131165.P14862180393761862267
-
-`A130381(A069768(n))`
--/
-
-namespace A131165.P14862180393761862267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130381 (A069768 n).toNat
-
-end
-
-end A131165.P14862180393761862267
-
-/-! ## A131165.P13359651171897338520
-
-`A122343(A069768(n))`
--/
-
-namespace A131165.P13359651171897338520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122343 (A069768 n).toNat
-
-end
-
-end A131165.P13359651171897338520
-
 /-!
 # A131166: Signature permutation of a Catalan automorphism: row 14 of A122286.
 
@@ -10393,21 +10157,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A131166.P1165069707784381398
-
-/-! ## A131166.P17708100163720032920
-
-`A069767(A130382(n))`
--/
-
-namespace A131166.P17708100163720032920
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069767 (A130382 n).toNat
-
-end
-
-end A131166.P17708100163720032920
 
 /-!
 # A131167: Signature permutation of a Catalan automorphism: row 20 of A122285.
@@ -10433,21 +10182,6 @@ end
 
 end A131167.P11957064295405490612
 
-/-! ## A131167.P10198251221047119529
-
-`A130383(A069768(n))`
--/
-
-namespace A131167.P10198251221047119529
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130383 (A069768 n).toNat
-
-end
-
-end A131167.P10198251221047119529
-
 /-!
 # A131168: Signature permutation of a Catalan automorphism: row 16 of A122286.
 
@@ -10472,36 +10206,6 @@ end
 
 end A131168.P17830412710685132576
 
-/-! ## A131168.P10943495856662782876
-
-`A069767(A130949(n))`
--/
-
-namespace A131168.P10943495856662782876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069767 (A130949 n).toNat
-
-end
-
-end A131168.P10943495856662782876
-
-/-! ## A131168.P9147953254900043447
-
-`A069767(A130384(n))`
--/
-
-namespace A131168.P9147953254900043447
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069767 (A130384 n).toNat
-
-end
-
-end A131168.P9147953254900043447
-
 /-!
 # A131169: Signature permutation of a Catalan automorphism: row 8 of A122285.
 
@@ -10522,21 +10226,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131169.P306028066995430112
-
-/-! ## A131169.P11362956111401696974
-
-`A131170(n)`
--/
-
-namespace A131169.P11362956111401696974
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131170 n
-
-end
-
-end A131169.P11362956111401696974
 
 /-!
 # A131171: Signature permutation of a Catalan automorphism: row 12 of A122285.
@@ -10577,36 +10266,6 @@ end
 
 end A131171.P8630099889127403083
 
-/-! ## A131171.P4682305238803834472
-
-`A073288(A131155(n))`
--/
-
-namespace A131171.P4682305238803834472
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073288 (A131155 n).toNat
-
-end
-
-end A131171.P4682305238803834472
-
-/-! ## A131171.P8157041297999354876
-
-`A130993(A082347(n))`
--/
-
-namespace A131171.P8157041297999354876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130993 (A082347 n).toNat
-
-end
-
-end A131171.P8157041297999354876
-
 /-!
 # A131172: Signature permutation of a Catalan automorphism: row 17 of A122286.
 
@@ -10630,36 +10289,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A131172.P12432329961472090661
-
-/-! ## A131172.P172063958371045421
-
-`A057501(A130376(n))`
--/
-
-namespace A131172.P172063958371045421
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057501 (A130376 n).toNat
-
-end
-
-end A131172.P172063958371045421
-
-/-! ## A131172.P3948491509684243102
-
-`A130372(A057501(n)+0)`
--/
-
-namespace A131172.P3948491509684243102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130372 (A057501 n + 0).toNat
-
-end
-
-end A131172.P3948491509684243102
 
 /-! ## A131172.P10566718304217230425
 
@@ -10790,7 +10419,7 @@ end A131173.P8711749362289661692
 /-!
 # A131174: a(2n) = 2*A000217(n), a(2n+1) = A000217(n).
 
-The programs for A131174, the canonical program `A131174.P14078045204958418676` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131174 has offset 0).
+The programs for A131174, the canonical program `A131174.P14078045204958418676` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131174 has offset 0).
 
 The definition of A131174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10822,7 +10451,7 @@ end A131174
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=1, a(4)=6, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131174
@@ -11297,7 +10926,7 @@ end A131174
 /-!
 # A131176: a(n) = (n^5-n-10)/10.
 
-The programs for A131176, the canonical program `A131176.P2054598060584698952` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131176 has offset 0).
+The programs for A131176, the canonical program `A131176.P2054598060584698952` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131176 has offset 0).
 
 The definition of A131176 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131176.anchor (n : ℕ) : (A131176 n : ℚ) = ((n ^ 5 : ℤ) - (n : ℤ) - 10 : ℚ) / 10` in `Proof.A131.A131176`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11306,7 +10935,7 @@ The definition of A131176 is `verified`: an anchor theorem with a hand-written p
 
 `(n^5-n-10)/10`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131176
@@ -11623,7 +11252,7 @@ end A131178.P1671292510027325099
 /-!
 # A131179: a(n) = if n mod 2 == 0 then n*(n+1)/2, otherwise (n-1)*n/2 + 1.
 
-The programs for A131179, the canonical program `A131179.P5638546137738645987` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131179 has offset 0).
+The programs for A131179, the canonical program `A131179.P5638546137738645987` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131179 has offset 0).
 
 The definition of A131179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11655,7 +11284,7 @@ end A131179
 
 `(n²+1+(n-1)*(-1)^n)/2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131179
@@ -12188,7 +11817,7 @@ end A131181.P10215381531914954354
 /-!
 # A131182: Table T(n,k) = n!*k^n, read by upwards antidiagonals.
 
-The programs for A131182, the canonical program `A131182.P16503335572290702958` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131182 has offset 0).
+The programs for A131182, the canonical program `A131182.P16503335572290702958` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131182 has offset 0).
 
 The definition of A131182 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131182.anchor (n : ℕ) : (A131182 n : ℚ) = (Nat.factorial ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ) * (SequenceMachineLib.triCol n : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A131.A131182`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12197,7 +11826,7 @@ The definition of A131182 is `verified`: an anchor theorem with a hand-written p
 
 `(row(n)-col(n))!*col(n)^(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131182
@@ -12484,7 +12113,7 @@ end A131183.P6835960310678884779
 /-!
 # A131185: Period 6: repeat [0, 2, -1, 0, -1, 3].
 
-The programs for A131185, the canonical program `A131185.P17318038659646676962` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131185 has offset 0).
+The programs for A131185, the canonical program `A131185.P17318038659646676962` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131185 has offset 0).
 
 The definition of A131185 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131185.anchor (n : ℕ) : A131185 n = [0, 2, -1, 0, -1, 3].getD (n % 6) 0` in `Proof.A131.A131185`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12493,7 +12122,7 @@ The definition of A131185 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-6)` with `a(0)=0, a(1)=2, a(2)=-1, a(3)=0, a(4)=-1, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131185
@@ -12511,7 +12140,7 @@ end A131185
 /-!
 # A131186: Period 12: repeat [0, 1, 2, 0, 2, 4, 0, 4, 3, 0, 3, 1].
 
-The programs for A131186, the canonical program `A131186.P15269946928980497168` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131186 has offset 0).
+The programs for A131186, the canonical program `A131186.P15269946928980497168` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131186 has offset 0).
 
 The definition of A131186 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131186.anchor (n : ℕ) : A131186 n = [0, 1, 2, 0, 2, 4, 0, 4, 3, 0, 3, 1].getD (n % 12) 0` in `Proof.A131.A131186`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12543,7 +12172,7 @@ end A131186
 
 `a(n-2)+a(n-3)-a(n-4)-a(n-5)+a(n-7)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=0, a(4)=2, a(5)=4, a(6)=0`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131186
@@ -13117,7 +12746,7 @@ end A131188
 /-!
 # A131189: Numbers n >= 0 such that d(n) = (n^1 + 1)*(n^2 + 2) ... (n^14 + 14) / 14!, e(n) = (n^1 + 1)*(n^2 + 2) ... (n^15 + 15) / 15!, and f(n) = (n^1 + 1)*(n^2 + 2) ... (n^16 + 16) / 16! take nonintegral values.
 
-The programs for A131189, the canonical program `A131189.P3469740954538958039` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131189 has offset 1).
+The programs for A131189, the canonical program `A131189.P3469740954538958039` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131189 has offset 1).
 
 The definition of A131189 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13126,7 +12755,7 @@ The definition of A131189 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+7x+7x^2+7x^3+7x^4+7x^5+12x^6)/(1-x-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131189
@@ -13607,16 +13236,16 @@ end A131191.P14724896114425853871
 /-!
 # A131193: Period 6: repeat [0, 1, -3, 3, -1, 0].
 
-The programs for A131193, the canonical program `A131193.P13493483556749500854` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131193 has offset 0).
+The programs for A131193, the canonical program `A131193.P13493483556749500854` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131193 has offset 0).
 
-The definition of A131193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A131193 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A131193.anchor (n : ℕ) : A131193 n = [0, 1, -3, 3, -1, 0].getD (n % 6) 0` in `Proof.A131.A131193`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A131193.P13493483556749500854
 
 `ogf((x-2x^2+x^3)/(1+x+x^2+x^3+x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A131193

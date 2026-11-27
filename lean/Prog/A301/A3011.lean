@@ -4,27 +4,30 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C037
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C047
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -35,10 +38,12 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -49,7 +54,6 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -64,7 +68,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -73,7 +76,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -869,7 +871,7 @@ end A301134.P5939222895807992112
 /-!
 # A301137: Coordination sequence T1 for Zeolite Code NAB.
 
-The programs for A301137, the canonical program `A301137.P7974557138332433787` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301137 has offset 0).
+The programs for A301137, the canonical program `A301137.P7974557138332433787` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301137 has offset 0).
 
 The definition of A301137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -878,7 +880,7 @@ The definition of A301137 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+9x^2+16x^3+28x^4+28x^5+26x^6+7x^7-x^9+2x^11)/(1-3x^3+3x^6-x^9))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301137
@@ -896,7 +898,7 @@ end A301137
 /-!
 # A301138: Coordination sequence T2 for Zeolite Code NAB.
 
-The programs for A301138, the canonical program `A301138.P9442094132741063075` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301138 has offset 0).
+The programs for A301138, the canonical program `A301138.P9442094132741063075` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301138 has offset 0).
 
 The definition of A301138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -905,7 +907,7 @@ The definition of A301138 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+8x^2+18x^3+31x^4+32x^5+35x^6+22x^7+4x^8+4x^9+x^10)/(1-2x^3-x^4+x^6+2x^7-x^10))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301138
@@ -923,7 +925,7 @@ end A301138
 /-!
 # A301139: Coordination sequence T1 for Zeolite Code NPO.
 
-The programs for A301139, the canonical program `A301139.P4143244814413161815` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301139 has offset 0).
+The programs for A301139, the canonical program `A301139.P4143244814413161815` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301139 has offset 0).
 
 The definition of A301139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -932,7 +934,7 @@ The definition of A301139 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+10x^2+20x^3+31x^4+46x^5+52x^6+48x^7+45x^8+24x^9+6x^10+4x^11-x^12-2x^13)/(1-3x^4+3x^8-x^12))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301139
@@ -973,7 +975,7 @@ end A301139
 /-!
 # A301141: Coordination sequence T2 for Zeolite Code NSI.
 
-The programs for A301141, the canonical program `A301141.P13328045722741407979` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301141 has offset 0).
+The programs for A301141, the canonical program `A301141.P13328045722741407979` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301141 has offset 0).
 
 The definition of A301141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -982,7 +984,7 @@ The definition of A301141 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+4x+14x^2+32x^3+59x^4+88x^5+116x^6+123x^7+116x^8+88x^9+59x^10+32x^11+14x^12+4x^13+x^14)/(1+2x^2-2x^3-4x^5-x^6+x^8+4x^9+2x^11-2x^12-x^14))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301141

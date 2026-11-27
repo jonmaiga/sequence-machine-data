@@ -9,25 +9,25 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C031
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,15 +38,16 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -56,7 +57,6 @@ import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,7 +81,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1585,7 +1584,7 @@ end A337630.P6691447192525661546
 /-!
 # A337631: a(n) is the sum of the squares of diameters of all nonempty subsets of {1,2,...,n}.
 
-The programs for A337631, the canonical program `A337631.P9052327234039702644` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337631 has offset 1).
+The programs for A337631, the canonical program `A337631.P9052327234039702644` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337631 has offset 1).
 
 The definition of A337631 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1594,7 +1593,7 @@ The definition of A337631 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n+1)*((n-5)*(n+1)+13)-3*(n+1)-13`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A337631
@@ -3783,7 +3782,7 @@ end A337649.P648690222590363538
 /-!
 # A337654: Expansion of H(x)*(1+x^5)/(1-x^2-x^3-x^4) where H(x) = g.f. for A249665.
 
-The programs for A337654, the canonical program `A337654.P5363382881219176198` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337654 has offset 0).
+The programs for A337654, the canonical program `A337654.P5363382881219176198` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337654 has offset 0).
 
 The definition of A337654 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3792,7 +3791,7 @@ The definition of A337654 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-x^2+x^3-x^4+x^5)/(1-2x+x^2-2x^3-x^4-x^5+x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A337654
@@ -4238,36 +4237,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A337657.P14111522369116021199
-
-/-! ## A337657.P7869492362662259492
-
-`A055598(n+1)/2-1`
--/
-
-namespace A337657.P7869492362662259492
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A055598 (n + 1) : ℚ) / 2 - 1
-
-end
-
-end A337657.P7869492362662259492
-
-/-! ## A337657.P16967982261081220418
-
-`A008619(A055598(n+1))-2`
--/
-
-namespace A337657.P16967982261081220418
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A055598 (n + 1)).toNat - 2
-
-end
-
-end A337657.P16967982261081220418
 
 /-!
 # A337658: Let M_k denote the addition table for the first k terms of A337655. M_k contains exactly k*(k+1)/2 distinct numbers, and these numbers are a subset of the entries in M_{k+1}. The present sequence consists of the numbers that never appear in any M_k.
@@ -4974,21 +4943,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A337667.P217284446503381384
-
-/-! ## A337667.P14445126211370751127
-
-`A331888(n)`
--/
-
-namespace A337667.P14445126211370751127
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331888 n
-
-end
-
-end A337667.P14445126211370751127
 
 /-!
 # A337672: Numbers with binary expansion Sum_{k = 0..w} b_k * 2^k such that the polynomial Sum_{k = 0..w} (X+k)^2 * (-1)^b_k is constant.
@@ -5830,29 +5784,6 @@ def P5524140052368280422.Spec : Prop :=
 
 end A337690
 
-/-! ## A337690.P4179593284782468238
-
-`A341618(n+1)`
--/
-
-namespace A337690.P4179593284782468238
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341618 (n + 1)
-
-end
-
-end A337690.P4179593284782468238
-
-namespace A337690
-
-/-- `A341618(n+1)` -/
-def P4179593284782468238.Spec : Prop :=
-  ∀ n, P4179593284782468238.a n = A337690 (n + 1)
-
-end A337690
-
 /-! ## A337690.P9273546973086987884
 
 `A336835(A053439(n)^A336835(n+1))`
@@ -6159,21 +6090,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A337694.P8414394840409044009
-
-/-! ## A337694.P6854499152989116902
-
-`A328336(n+1)`
--/
-
-namespace A337694.P6854499152989116902
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328336 (n + 1)
-
-end
-
-end A337694.P6854499152989116902
 
 /-!
 # A337695: Numbers k such that the distinct parts of the k-th composition in standard order (A066099) are not pairwise coprime, where a singleton is always considered coprime.

@@ -10,32 +10,37 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,22 +68,21 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +106,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -159,21 +162,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038600.P13244046641274493916
-
-/-! ## A038600.P7798064500725679625
-
-`A236334(n+1)+(-1)+(-1)`
--/
-
-namespace A038600.P7798064500725679625
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236334 (n + 1) + (-1) + (-1)
-
-end
-
-end A038600.P7798064500725679625
 
 /-! ## A038600.P5083443976547284465
 
@@ -10235,21 +10223,6 @@ end
 
 end A038643.P16064126138731769359
 
-/-! ## A038643.P18235689759771098851
-
-`-2+A038644(n+1)`
--/
-
-namespace A038643.P18235689759771098851
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -2 + A038644 (n + 1)
-
-end
-
-end A038643.P18235689759771098851
-
 /-! ## A038643.P402292429232420942
 
 `A038593(A038633(1+n))`
@@ -13046,21 +13019,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038671.P6326408199792793992
-
-/-! ## A038671.P2587799484499865623
-
-`A123337(n)`
--/
-
-namespace A038671.P2587799484499865623
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123337 n
-
-end
-
-end A038671.P2587799484499865623
 
 /-!
 # A038672: Primes p such that the p-th Fibonacci number is composite.
@@ -16273,21 +16231,6 @@ end
 
 end A038692.P11437243203218731479
 
-/-! ## A038692.P14687677926723254832
-
-`A000290(A166503(n+1)+0)`
--/
-
-namespace A038692.P14687677926723254832
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A166503 (n + 1) + 0).toNat
-
-end
-
-end A038692.P14687677926723254832
-
 /-! ## A038692.P16833617334182911069
 
 `A137932(A166503(n+1)+1)+1`
@@ -17086,29 +17029,6 @@ namespace A038698
 /-- `∑[A212159(n+2)]-A212159(n+2)` -/
 def P7405574168583177618.Spec : Prop :=
   ∀ n, P7405574168583177618.a n = A038698 (n + 1)
-
-end A038698
-
-/-! ## A038698.P3638344650700900438
-
-`-1-A308567(n+1)`
--/
-
-namespace A038698.P3638344650700900438
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 - A308567 (n + 1)
-
-end
-
-end A038698.P3638344650700900438
-
-namespace A038698
-
-/-- `-1-A308567(n+1)` -/
-def P3638344650700900438.Spec : Prop :=
-  ∀ n, P3638344650700900438.a n = A038698 (n + 1)
 
 end A038698
 

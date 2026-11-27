@@ -2,30 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C029
+import Seq.B000.C025
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C040
+import Seq.B000.C034
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C050
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -33,12 +36,13 @@ import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B010.C000
+import Seq.B006.C002
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -53,12 +57,12 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A009600: Expansion of e.g.f. sin(tan(x))*x/2 (even powers only).
@@ -116,21 +120,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009601.P17752535794477680716
-
-/-! ## A009601.P9228585500224380798
-
-`A009676(n)`
--/
-
-namespace A009601.P9228585500224380798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009676 n
-
-end
-
-end A009601.P9228585500224380798
 
 /-!
 # A009602: Expansion of e.g.f. sinh(tan(sin(x))) (odd powers only).
@@ -2687,21 +2676,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009666.P1939144130607418208
-
-/-! ## A009666.P8006100227605929518
-
-`A024246(n)+A024246(0+n)`
--/
-
-namespace A009666.P8006100227605929518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024246 n + A024246 (0 + n)
-
-end
-
-end A009666.P8006100227605929518
 
 /-!
 # A009667: E.g.f. tan(sin(x))*x, even numbered terms only.

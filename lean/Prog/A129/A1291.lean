@@ -17,27 +17,28 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C033
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,18 +68,17 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,7 +101,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -2783,8 +2782,29 @@ end A129125.P7543611788790080357
 /-!
 # A129126: Ninth diagonal of table A060850 counting partitions into parts of k kinds.
 
-The programs for A129126, there is no canonical definition to state claims against.
+The programs for A129126, the canonical program `A129126.P6821133942048980675` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129126 has offset 1).
+
+The definition of A129126 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A129126.P6821133942048980675
+
+`ogf((22-13x-63x^2+102x^3-63x^4+18x^5-2x^6)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129126
+
+/-- `ogf((22-13x-63x^2+102x^3-63x^4+18x^5-2x^6)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P6821133942048980675.Spec : Prop :=
+  ∀ n, P6821133942048980675.a n = A129126 (n + 1)
+
+theorem P6821133942048980675.correct : P6821133942048980675.Spec := by
+  intro n
+  simp only [A129126, Nat.add_sub_cancel]
+
+end A129126
 
 /-! ## A129126.P5335469587846104984
 
@@ -2800,6 +2820,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129126.P5335469587846104984
+
+namespace A129126
+
+/-- `A144064(A167499(n+8)+3)` -/
+def P5335469587846104984.Spec : Prop :=
+  ∀ n, P5335469587846104984.a n = A129126 (n + 1)
+
+end A129126
 
 /-!
 # A129127: An irregular table of node numbers (in order of appearance) which generate two children in the tree described by A128628 and A129129.
@@ -3841,29 +3869,6 @@ namespace A129134
 /-- `A002325(n+1)*(-1)^floor(n/2)` -/
 def P13727256071399545709.Spec : Prop :=
   ∀ n, P13727256071399545709.a n = (A129134 (n + 1) : ℚ)
-
-end A129134
-
-/-! ## A129134.P3374461726471680440
-
-`A082564(n+1)/(-2)`
--/
-
-namespace A129134.P3374461726471680440
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A082564 (n + 1) : ℚ) / (-2)
-
-end
-
-end A129134.P3374461726471680440
-
-namespace A129134
-
-/-- `A082564(n+1)/(-2)` -/
-def P3374461726471680440.Spec : Prop :=
-  ∀ n, P3374461726471680440.a n = (A129134 (n + 1) : ℚ)
 
 end A129134
 

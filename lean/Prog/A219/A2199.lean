@@ -3,26 +3,24 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C037
+import Seq.B000.C042
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -36,15 +34,15 @@ import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B007.C001
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,6 +65,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -1247,21 +1246,6 @@ end A219923.P15329493981136343827
 The programs for A219924, there is no canonical definition to state claims against.
 -/
 
-/-! ## A219924.P12088411836128680384
-
-`A226444(n)`
--/
-
-namespace A219924.P12088411836128680384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226444 n
-
-end
-
-end A219924.P12088411836128680384
-
 /-! ## A219924.P5552692988415965713
 
 `A049113(A260340(n))`
@@ -1435,36 +1419,6 @@ end A219929.P10127799113744472453
 
 The programs for A219931, there is no canonical definition to state claims against.
 -/
-
-/-! ## A219931.P4874634333167728246
-
-`(2*n+1)*gcd(64, 1+n)`
--/
-
-namespace A219931.P4874634333167728246
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1) * Nat.gcd 64 (1 + n)
-
-end
-
-end A219931.P4874634333167728246
-
-/-! ## A219931.P4916806348806326213
-
-`(1+2*n)*A006519(n+1)`
--/
-
-namespace A219931.P4916806348806326213
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 + 2 * n : ℤ) * A006519 (n + 1)
-
-end
-
-end A219931.P4916806348806326213
 
 /-! ## A219931.P3593637570165054934
 
@@ -1760,7 +1714,7 @@ end A219938.P16259942691782247745
 /-!
 # A219940: Number of 2 X n arrays of the minimum value of corresponding elements and their horizontal or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 2 X n array.
 
-The programs for A219940, the canonical program `A219940.P15289633622967541480` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219940 has offset 1).
+The programs for A219940, the canonical program `A219940.P15289633622967541480` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219940 has offset 1).
 
 The definition of A219940 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1769,7 +1723,7 @@ The definition of A219940 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((10-37x+76x^2-43x^3-67x^4+109x^5-51x^6+11x^7)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219940
@@ -3082,7 +3036,7 @@ end A219967.P7508061546864975315
 /-!
 # A219968: Number of tilings of a 3 X n rectangle using straight (3 X 1) trominoes and 2 X 2 tiles.
 
-The programs for A219968, the canonical program `A219968.P15723132520277222245` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219968 has offset 0).
+The programs for A219968, the canonical program `A219968.P15723132520277222245` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219968 has offset 0).
 
 The definition of A219968 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3091,7 +3045,7 @@ The definition of A219968 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-2x^3+x^6)/(1-x-3x^3+2x^4+x^6-x^7-x^9))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219968
@@ -3350,7 +3304,7 @@ end A219975.P17496694562728767342
 /-!
 # A219977: Expansion of 1/(1+x+x^2+x^3).
 
-The programs for A219977, the canonical program `A219977.P5072315889939292338` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219977 has offset 0).
+The programs for A219977, the canonical program `A219977.P5072315889939292338` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219977 has offset 0).
 
 The definition of A219977 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+x^2+x^3))` (program `A219977.P5072315889939292338`, by `A219977.P5072315889939292338.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3359,7 +3313,7 @@ The definition of A219977 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219977

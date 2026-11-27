@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -21,7 +20,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -33,19 +31,19 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,12 +65,14 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -81,14 +81,15 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5031,14 +5032,14 @@ end A005326.P18121934099426086203
 /-!
 # A005327: Certain subgraphs of a directed graph (inverse binomial transform of A005321).
 
-The programs for A005327, the canonical program `A005327.P9669157031087633119` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005327 has offset 1).
+The programs for A005327, the canonical program `A005327.P3309680576410520721` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005327 has offset 1).
 
 The definition of A005327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A005327.P9669157031087633119
+/-! ## A005327.P3309680576410520721
 
-`(2^n-1)*a(n-1)+(-1)^n` with `a(0)=1`
+`(2^n-1)*a(n-1)+(-1)^n` with `a(0)=1, a(1)=0, a(2)=1`
 
 The canonical program, it is in `Seq.B000.C001`.
 -/
@@ -5046,10 +5047,10 @@ The canonical program, it is in `Seq.B000.C001`.
 namespace A005327
 
 /-- `(2^n-1)*a(n-1)+(-1)^n` -/
-def P9669157031087633119.Spec : Prop :=
-  ∀ n, P9669157031087633119.a n = A005327 (n + 1)
+def P3309680576410520721.Spec : Prop :=
+  ∀ n, P3309680576410520721.a n = A005327 (n + 1)
 
-theorem P9669157031087633119.correct : P9669157031087633119.Spec := by
+theorem P3309680576410520721.correct : P3309680576410520721.Spec := by
   intro n
   simp only [A005327, Nat.add_sub_cancel]
 
@@ -5098,12 +5099,6 @@ namespace A005327
 /-- `(-1)^n+(2^n-1)*a(n-1)` -/
 def P7383010881461266442.Spec : Prop :=
   ∀ n, P7383010881461266442.a n = A005327 (n + 1)
-
-theorem P7383010881461266442.correct : P7383010881461266442.Spec := by
-  intro n
-  simp only [A005327, Nat.add_sub_cancel, A005327.P7383010881461266442.a, A005327.P9669157031087633119.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A005327
 
@@ -13829,7 +13824,7 @@ end A005381
 /-!
 # A005382: Primes p such that 2p-1 is also prime.
 
-The programs for A005382, the canonical program `A005382.P6052769528681184091` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005382 has offset 1).
+The programs for A005382, the canonical program `A005382.P6052769528681184091` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005382 has offset 1).
 
 The definition of A005382 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14069,7 +14064,7 @@ end A005382
 
 `∪[A232667(n+1), A234999(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A005382
@@ -14898,7 +14893,7 @@ end A005383
 /-!
 # A005384: Sophie Germain primes p: 2p+1 is also prime.
 
-The programs for A005384, the canonical program `A005384.P4537023799186511760` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005384 has offset 1).
+The programs for A005384, the canonical program `A005384.P4537023799186511760` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005384 has offset 1).
 
 The definition of A005384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7746 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15158,7 +15153,7 @@ end A005384
 
 `p?[A348511(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A005384
@@ -15463,7 +15458,7 @@ end A005384
 /-!
 # A005385: Safe primes p: (p-1)/2 is also prime.
 
-The programs for A005385, the canonical program `A005385.P12850744102754472242` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005385 has offset 1).
+The programs for A005385, the canonical program `A005385.P12850744102754472242` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005385 has offset 1).
 
 The definition of A005385 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005384, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -15472,7 +15467,7 @@ The definition of A005385 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A005384(n+1)+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A005385
@@ -16524,42 +16519,6 @@ end
 end A005387.P10130972994118946785
 
 /-!
-# A005388: Number of degree-n permutations of order a power of 2.
-
-The programs for A005388, there is no canonical definition to state claims against.
--/
-
-/-! ## A005388.P4035362962158736389
-
-`A053503(n)`
--/
-
-namespace A005388.P4035362962158736389
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053503 n
-
-end
-
-end A005388.P4035362962158736389
-
-/-! ## A005388.P2232018572318058795
-
-`A053498(n)`
--/
-
-namespace A005388.P2232018572318058795
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053498 n
-
-end
-
-end A005388.P2232018572318058795
-
-/-!
 # A005389: Number of Hamiltonian circuits on 2n times 4 rectangle.
 
 The programs for A005389, the canonical program `A005389.P15386601127605430269` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005389 has offset 1).
@@ -16918,23 +16877,29 @@ end A005389
 /-!
 # A005390: Number of Hamiltonian circuits on 2n X 6 rectangle.
 
-The programs for A005390, there is no canonical definition to state claims against.
+The programs for A005390, the canonical program `A005390.P2437093582187374111` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005390 has offset 1).
+
+The definition of A005390 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A005390.P2437093582187374111
 
 `A145401(2*(n+1))`
+
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
-namespace A005390.P2437093582187374111
-noncomputable section
+namespace A005390
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145401 (2 * (n + 1))
+/-- `A145401(2*(n+1))` -/
+def P2437093582187374111.Spec : Prop :=
+  ∀ n, P2437093582187374111.a n = A005390 (n + 1)
 
-end
+theorem P2437093582187374111.correct : P2437093582187374111.Spec := by
+  intro n
+  simp only [A005390, Nat.add_sub_cancel]
 
-end A005390.P2437093582187374111
+end A005390
 
 /-! ## A005390.P6173742113136142669
 
@@ -16957,6 +16922,14 @@ end
 
 end A005390.P6173742113136142669
 
+namespace A005390
+
+/-- `record[A145401(1+gcd(∑[n], n+1))]` -/
+def P6173742113136142669.Spec : Prop :=
+  ∀ n, P6173742113136142669.a n = A005390 (n + 1)
+
+end A005390
+
 /-! ## A005390.P3879917145588497508
 
 `record[A145401(A133265(n))]`
@@ -16974,6 +16947,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A005390.P3879917145588497508
+
+namespace A005390
+
+/-- `record[A145401(A133265(n))]` -/
+def P3879917145588497508.Spec : Prop :=
+  ∀ n, P3879917145588497508.a n = A005390 (n + 1)
+
+end A005390
 
 /-! ## A005390.P4337446996101415064
 
@@ -16993,6 +16974,14 @@ end
 
 end A005390.P4337446996101415064
 
+namespace A005390
+
+/-- `record[A145401(A000265(1+n)+1)]` -/
+def P4337446996101415064.Spec : Prop :=
+  ∀ n, P4337446996101415064.a n = A005390 (n + 1)
+
+end A005390
+
 /-! ## A005390.P13047918694828619667
 
 `record[A145401(n+1)^A062157(n)]`
@@ -17010,6 +16999,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A005390.P13047918694828619667
+
+namespace A005390
+
+/-- `record[A145401(n+1)^A062157(n)]` -/
+def P13047918694828619667.Spec : Prop :=
+  ∀ n, P13047918694828619667.a n = (A005390 (n + 1) : ℚ)
+
+end A005390
 
 /-! ## A005390.P7636573323828634630
 
@@ -17029,6 +17026,14 @@ end
 
 end A005390.P7636573323828634630
 
+namespace A005390
+
+/-- `record[gcd(A035363(n), A145401(n+1))]` -/
+def P7636573323828634630.Spec : Prop :=
+  ∀ n, (P7636573323828634630.a n : ℤ) = A005390 (n + 1)
+
+end A005390
+
 /-! ## A005390.P15678694945966564205
 
 `record[A145401(n+2)/A062157(n+1)]`
@@ -17046,6 +17051,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A005390.P15678694945966564205
+
+namespace A005390
+
+/-- `record[A145401(n+2)/A062157(n+1)]` -/
+def P15678694945966564205.Spec : Prop :=
+  ∀ n, P15678694945966564205.a n = (A005390 (n + 1) : ℚ)
+
+end A005390
 
 /-!
 # A005391: Number of Hamiltonian circuits on 2n X 8 rectangle.

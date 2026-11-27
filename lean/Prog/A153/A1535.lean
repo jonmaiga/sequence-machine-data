@@ -8,20 +8,20 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C041
+import Seq.B000.C034
+import Seq.B000.C038
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C007
@@ -32,10 +32,11 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -43,10 +44,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B007.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +78,7 @@ set_option linter.unreachableTactic false
 /-!
 # A153500: First 3 terms coincide with A152756. For n>3, a(n) is the palindromic number formed from concatenation of 1, 0, A147759(n-3), 0, A147759(n-3), 0 and 1.
 
-The programs for A153500, the canonical program `A153500.P12368986149727124082` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153500 has offset 1).
+The programs for A153500, the canonical program `A153500.P12368986149727124082` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153500 has offset 1).
 
 The definition of A153500 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, A153499, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -89,7 +87,7 @@ The definition of A153500 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(A153499(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153500
@@ -261,7 +259,7 @@ end A153501.P1352464267017357535
 /-!
 # A153502: Primes of the form 3*n^2 - 3*n + 11.
 
-The programs for A153502, the canonical program `A153502.P6536647041228335970` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153502 has offset 1).
+The programs for A153502, the canonical program `A153502.P6536647041228335970` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153502 has offset 1).
 
 The definition of A153502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -270,7 +268,7 @@ The definition of A153502 is `conjectured`: the Lean definition is a formula tha
 
 `p?[∑[6*n]+11]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153502
@@ -600,21 +598,6 @@ end
 
 end A153504.P17206688691834926068
 
-/-! ## A153504.P17308278261718303346
-
-`A028310(A168149(n+1))+(-1)`
--/
-
-namespace A153504.P17308278261718303346
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A168149 (n + 1)).toNat + (-1)
-
-end
-
-end A153504.P17308278261718303346
-
 /-!
 # A153507: Primes p such that 2*p^3 + 3 is also prime.
 
@@ -731,16 +714,16 @@ end A153508.P5138376335491807595
 /-!
 # A153509: Period 9: repeat [6, 6, 6, 3, 3, 3, 0, 0, 0].
 
-The programs for A153509, the canonical program `A153509.P9459216566549605354` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153509 has offset 0).
+The programs for A153509, the canonical program `A153509.P9459216566549605354` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153509 has offset 0).
 
-The definition of A153509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153509 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A153509.anchor (n : ℕ) : A153509 n = [6, 6, 6, 3, 3, 3, 0, 0, 0].getD (n % 9) 0` in `Proof.A153.A153509`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153509.P9459216566549605354
 
 `ogf((6+3x^3)/(1-x+x^3-x^4+x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153509
@@ -1144,21 +1127,6 @@ end
 
 end A153514.P5851585699165059602
 
-/-! ## A153514.P2660931450136052440
-
-`A122780(A291719(n+1))`
--/
-
-namespace A153514.P2660931450136052440
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122780 (A291719 (n + 1)).toNat
-
-end
-
-end A153514.P2660931450136052440
-
 /-!
 # A153515: Terms of A122782 which are not Carmichael numbers A002997.
 
@@ -1288,7 +1256,7 @@ end A153517.P3359802147619797565
 /-!
 # A153518: Triangular T(n,k) = T(n-1, k) + T(n-1, k-1) + 5*T(n-2, k-1), read by rows.
 
-The programs for A153518, the canonical program `A153518.P5442369868311392207` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153518 has offset 1).
+The programs for A153518, the canonical program `A153518.P5442369868311392207` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153518 has offset 1).
 
 The definition of A153518 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `T(n-1,k)+T(n-1,k-1)+5*T(n-2,k-1)` (program `A153518.P5442369868311392207`, by `A153518.P5442369868311392207.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1297,7 +1265,7 @@ The definition of A153518 is `verified`: the Lean definition is proven equivalen
 
 `T(n-1,k)+T(n-1,k-1)+5*T(n-2,k-1)` with `a(0)=2, a(1)=5, a(2)=5, a(3)=2, a(4)=46, a(5)=2, a(6)=2, a(7)=123, a(8)=123`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153518
@@ -1407,7 +1375,7 @@ end A153518
 /-!
 # A153520: Triangle T(n,k) = T(n-1, k) + T(n-1, k-1) + 7*T(n-2, k-1), read by rows.
 
-The programs for A153520, the canonical program `A153520.P17964247520845104767` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153520 has offset 1).
+The programs for A153520, the canonical program `A153520.P17964247520845104767` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153520 has offset 1).
 
 The definition of A153520 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `T(n-1,k)+T(n-1,k-1)+7*T(n-2,k-1)` (program `A153520.P17964247520845104767`, by `A153520.P17964247520845104767.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1416,7 +1384,7 @@ The definition of A153520 is `verified`: the Lean definition is proven equivalen
 
 `T(n-1,k)+T(n-1,k-1)+7*T(n-2,k-1)` with `a(0)=2, a(1)=7, a(2)=7, a(3)=2, a(4)=94, a(5)=2, a(6)=2, a(7)=341, a(8)=341`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153520
@@ -1462,27 +1430,6 @@ def P5310722617306013468.Spec : Prop :=
   ∀ n, P5310722617306013468.a n = A153520 (n + 1)
 
 end A153520
-
-/-!
-# A153521: Triangle T(n, k) = T(n-1, k) + T(n-1, k-1) + 11*T(n-2, k-1), read by rows.
-
-The programs for A153521, there is no canonical definition to state claims against.
--/
-
-/-! ## A153521.P11681444295507487120
-
-`A153650(n+1)`
--/
-
-namespace A153521.P11681444295507487120
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153650 (n + 1)
-
-end
-
-end A153521.P11681444295507487120
 
 /-!
 # A153523: Number of planar n X n X n binary triangular grids with no more than 2 ones in any 3 X 3 X 3 subtriangle.
@@ -1552,27 +1499,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 8] fun n a =>
 end
 
 end A153525.P16611769137240811510
-
-/-!
-# A153526: Number of planar n X n X n binary triangular grids with no more than 5 ones in any 3 X 3 X 3 subtriangle.
-
-The programs for A153526, there is no canonical definition to state claims against.
--/
-
-/-! ## A153526.P10145654830754902790
-
-`A153554(n)`
--/
-
-namespace A153526.P10145654830754902790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153554 n
-
-end
-
-end A153526.P10145654830754902790
 
 /-!
 # A153527: Number of planar n X n X n binary triangular grids with no more than 2 ones in any 4 X 4 X 4 subtriangle.
@@ -1702,27 +1628,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153532.P6247102985747032367
-
-/-!
-# A153533: Number of planar n X n X n binary triangular grids with no more than 8 ones in any 4 X 4 X 4 subtriangle.
-
-The programs for A153533, there is no canonical definition to state claims against.
--/
-
-/-! ## A153533.P3002731333938805190
-
-`A153562(n)`
--/
-
-namespace A153533.P3002731333938805190
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153562 n
-
-end
-
-end A153533.P3002731333938805190
 
 /-!
 # A153534: Number of planar n X n X n binary triangular grids with no more than 9 ones in any 4 X 4 X 4 subtriangle.
@@ -1902,261 +1807,6 @@ end
 end A153537.P9796280676518577151
 
 /-!
-# A153538: Number of planar n X n X n binary triangular grids with no more than 4 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153538, there is no canonical definition to state claims against.
--/
-
-/-! ## A153538.P10151565755344818851
-
-`A153566(n)`
--/
-
-namespace A153538.P10151565755344818851
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153566 n
-
-end
-
-end A153538.P10151565755344818851
-
-/-!
-# A153539: Number of planar n X n X n binary triangular grids with no more than 5 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153539, there is no canonical definition to state claims against.
--/
-
-/-! ## A153539.P15522485285655975196
-
-`A153567(n)`
--/
-
-namespace A153539.P15522485285655975196
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153567 n
-
-end
-
-end A153539.P15522485285655975196
-
-/-! ## A153539.P7510689880526518760
-
-`A006261(∑[n])`
--/
-
-namespace A153539.P7510689880526518760
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006261 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153539.P7510689880526518760
-
-/-!
-# A153541: Number of planar n X n X n binary triangular grids with no more than 7 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153541, there is no canonical definition to state claims against.
--/
-
-/-! ## A153541.P2663822180487397569
-
-`A153569(n)`
--/
-
-namespace A153541.P2663822180487397569
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153569 n
-
-end
-
-end A153541.P2663822180487397569
-
-/-! ## A153541.P3173309965339093045
-
-`A008860(∑[n])`
--/
-
-namespace A153541.P3173309965339093045
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008860 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153541.P3173309965339093045
-
-/-!
-# A153542: Number of planar n X n X n binary triangular grids with no more than 8 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153542, there is no canonical definition to state claims against.
--/
-
-/-! ## A153542.P17580336438954578827
-
-`A153570(n)`
--/
-
-namespace A153542.P17580336438954578827
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153570 n
-
-end
-
-end A153542.P17580336438954578827
-
-/-! ## A153542.P17519009418373515632
-
-`A008861(∑[n])`
--/
-
-namespace A153542.P17519009418373515632
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008861 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153542.P17519009418373515632
-
-/-!
-# A153543: Number of planar n X n X n binary triangular grids with no more than 9 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153543, there is no canonical definition to state claims against.
--/
-
-/-! ## A153543.P13528119869457690470
-
-`A153571(n)`
--/
-
-namespace A153543.P13528119869457690470
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153571 n
-
-end
-
-end A153543.P13528119869457690470
-
-/-! ## A153543.P12891406810646089661
-
-`A008862(∑[n])`
--/
-
-namespace A153543.P12891406810646089661
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008862 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153543.P12891406810646089661
-
-/-!
-# A153544: Number of planar n X n X n binary triangular grids with no more than 10 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153544, there is no canonical definition to state claims against.
--/
-
-/-! ## A153544.P12240158172457906658
-
-`A153572(n)`
--/
-
-namespace A153544.P12240158172457906658
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153572 n
-
-end
-
-end A153544.P12240158172457906658
-
-/-! ## A153544.P7827374515446975805
-
-`A008863(∑[n])`
--/
-
-namespace A153544.P7827374515446975805
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008863 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153544.P7827374515446975805
-
-/-!
-# A153545: Number of planar n X n X n binary triangular grids with no more than 11 ones in any 5 X 5 X 5 subtriangle.
-
-The programs for A153545, there is no canonical definition to state claims against.
--/
-
-/-! ## A153545.P17638307634567095511
-
-`A153573(n)`
--/
-
-namespace A153545.P17638307634567095511
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153573 n
-
-end
-
-end A153545.P17638307634567095511
-
-/-! ## A153545.P10461552517075804342
-
-`A219531(∑[n])`
--/
-
-namespace A153545.P10461552517075804342
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219531 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153545.P10461552517075804342
-
-/-!
 # A153546: Number of planar n X n X n binary triangular grids with no more than 12 ones in any 5 X 5 X 5 subtriangle.
 
 The programs for A153546, there is no canonical definition to state claims against.
@@ -2185,21 +1835,6 @@ end A153546.P1363585985071015189
 
 The programs for A153547, there is no canonical definition to state claims against.
 -/
-
-/-! ## A153547.P2481606114704445036
-
-`A153575(n)`
--/
-
-namespace A153547.P2481606114704445036
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153575 n
-
-end
-
-end A153547.P2481606114704445036
 
 /-! ## A153547.P10817724258102774962
 
@@ -2507,24 +2142,6 @@ end A153561.P10050223677699154294
 
 The programs for A153568, there is no canonical definition to state claims against.
 -/
-
-/-! ## A153568.P16886098038568633030
-
-`A008859(∑[n])`
--/
-
-namespace A153568.P16886098038568633030
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008859 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A153568.P16886098038568633030
 
 /-! ## A153568.P2454022016749836791
 
@@ -4282,7 +3899,7 @@ end A153591.P9379911003952253539
 /-!
 # A153592: Triangle read by rows: T(n,k) = T(n-1,k-1) +T(n-1,k) +n*(n-1)*T(n-2,k-1) for n>4 and 1<=k<=n.
 
-The programs for A153592, the canonical program `A153592.P16890124380166060068` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153592 has offset 1).
+The programs for A153592, the canonical program `A153592.P16890124380166060068` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153592 has offset 1).
 
 The definition of A153592 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `T(n-1,k-1)+T(n-1,k)+(row(n)+1)*row(n)*T(n-2,k-1)` (program `A153592.P16890124380166060068`, by `A153592.P16890124380166060068.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4291,7 +3908,7 @@ The definition of A153592 is `verified`: the Lean definition is proven equivalen
 
 `T(n-1,k-1)+T(n-1,k)+(row(n)+1)*row(n)*T(n-2,k-1)` with `a(0)=2, a(1)=3, a(2)=3, a(3)=2, a(4)=20, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153592
@@ -4309,7 +3926,7 @@ end A153592
 /-!
 # A153593: a(n) = ((9 + sqrt(2))^n - (9 - sqrt(2))^n)/(2*sqrt(2)).
 
-The programs for A153593, the canonical program `A153593.P2268420670504911175` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153593 has offset 1).
+The programs for A153593, the canonical program `A153593.P2268420670504911175` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153593 has offset 1).
 
 The definition of A153593 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((9+sqrt(2))^(n+1)-(9-sqrt(2))^(n+1))/(2*sqrt(2))` (program `A153593.P6395140150421206394`, by `A153593.P6395140150421206394.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4341,7 +3958,7 @@ end A153593
 
 `18*a(n-1)-79*a(n-2)` with `a(0)=1, a(1)=18`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153593
@@ -4498,7 +4115,7 @@ end A153593
 /-!
 # A153594: a(n) = ((4 + sqrt(3))^n - (4 - sqrt(3))^n)/(2*sqrt(3)).
 
-The programs for A153594, the canonical program `A153594.P9367515302183602001` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153594 has offset 1).
+The programs for A153594, the canonical program `A153594.P9367515302183602001` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153594 has offset 1).
 
 The definition of A153594 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4530,7 +4147,7 @@ end A153594
 
 `8*a(n-1)-13*a(n-2)` with `a(0)=1, a(1)=8`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153594
@@ -4822,7 +4439,7 @@ end A153594
 /-!
 # A153596: a(n) = ((5 + sqrt(3))^n - (5 - sqrt(3))^n)/(2*sqrt(3)).
 
-The programs for A153596, the canonical program `A153596.P15509475417947682486` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153596 has offset 1).
+The programs for A153596, the canonical program `A153596.P15509475417947682486` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153596 has offset 1).
 
 The definition of A153596 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4854,7 +4471,7 @@ end A153596
 
 `10*a(n-1)-22*a(n-2)` with `a(0)=1, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153596
@@ -4993,7 +4610,7 @@ end A153596
 /-!
 # A153597: a(n) = ((6 + sqrt(3))^n - (6 - sqrt(3))^n)/(2*sqrt(3)).
 
-The programs for A153597, the canonical program `A153597.P12282363260150880066` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153597 has offset 1).
+The programs for A153597, the canonical program `A153597.P12282363260150880066` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153597 has offset 1).
 
 The definition of A153597 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((6+sqrt(3))^(n+1)-(6-sqrt(3))^(n+1))/(2*sqrt(3))` (program `A153597.P6359106190260565609`, by `A153597.P6359106190260565609.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5025,7 +4642,7 @@ end A153597
 
 `12*a(n-1)-33*a(n-2)` with `a(0)=1, a(1)=12`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153597
@@ -5185,7 +4802,7 @@ end A153597
 /-!
 # A153598: a(n) = ((7 + sqrt(3))^n - (7 - sqrt(3))^n)/(2*sqrt(3)).
 
-The programs for A153598, the canonical program `A153598.P3381881755261846917` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153598 has offset 1).
+The programs for A153598, the canonical program `A153598.P3381881755261846917` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153598 has offset 1).
 
 The definition of A153598 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((7+sqrt(3))^(n+1)-(7-sqrt(3))^(n+1))/(2*sqrt(3))` (program `A153598.P9951960917005742450`, by `A153598.P9951960917005742450.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5217,7 +4834,7 @@ end A153598
 
 `14*a(n-1)-46*a(n-2)` with `a(0)=1, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153598
@@ -5302,7 +4919,7 @@ end A153598
 /-!
 # A153599: a(n) = ((8 + sqrt(3))^n - (8 - sqrt(3))^n)/(2*sqrt(3)).
 
-The programs for A153599, the canonical program `A153599.P178518559727191977` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153599 has offset 1).
+The programs for A153599, the canonical program `A153599.P178518559727191977` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153599 has offset 1).
 
 The definition of A153599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5334,7 +4951,7 @@ end A153599
 
 `16*a(n-1)-61*a(n-2)` with `a(0)=1, a(1)=16`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A153599

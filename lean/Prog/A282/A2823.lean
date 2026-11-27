@@ -1,6 +1,7 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
@@ -10,19 +11,23 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C025
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +51,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -54,10 +60,9 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,10 +71,8 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -939,7 +942,7 @@ end A282309.P969508853408123281
 /-!
 # A282310: Number of n X 2 0..1 arrays with no 1 equal to more than four of its king-move neighbors.
 
-The programs for A282310, the canonical program `A282310.P12292779318306874923` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282310 has offset 1).
+The programs for A282310, the canonical program `A282310.P12292779318306874923` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282310 has offset 1).
 
 The definition of A282310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -971,7 +974,7 @@ end A282310
 
 `3*a(n-1)+3*a(n-2)+3*a(n-3)` with `a(0)=4, a(1)=16, a(2)=63`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A282310
@@ -1348,36 +1351,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282317.P1868351623837685925
-
-/-! ## A282317.P10130360953526871781
-
-`A089013(A365261(n)+0)`
--/
-
-namespace A282317.P10130360953526871781
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089013 (A365261 n + 0).toNat
-
-end
-
-end A282317.P10130360953526871781
-
-/-! ## A282317.P751629385918491150
-
-`A109247(A365261(n)+0)`
--/
-
-namespace A282317.P751629385918491150
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109247 (A365261 n + 0).toNat
-
-end
-
-end A282317.P751629385918491150
 
 /-! ## A282317.P11546661738408598350
 
@@ -6156,7 +6129,7 @@ end A282369.P10081745279975219173
 /-!
 # A282371: Number of n X 2 0..1 arrays with no 1 equal to more than four of its king-move neighbors, with the exception of exactly two elements.
 
-The programs for A282371, the canonical program `A282371.P8324467854272848524` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282371 has offset 1).
+The programs for A282371, the canonical program `A282371.P8324467854272848524` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282371 has offset 1).
 
 The definition of A282371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6165,7 +6138,7 @@ The definition of A282371 is `conjectured`: the Lean definition is a formula tha
 
 `ogf(x^2/(1-6x+3x^2+12x^3+27x^4+18x^5+9x^6))`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A282371
@@ -7656,7 +7629,7 @@ end A282392.P17042683546940493602
 /-!
 # A282393: Number of nX2 0..1 arrays with no 1 equal to more than three of its king-move neighbors.
 
-The programs for A282393, the canonical program `A282393.P18367221359066630879` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282393 has offset 1).
+The programs for A282393, the canonical program `A282393.P18367221359066630879` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282393 has offset 1).
 
 The definition of A282393 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7665,7 +7638,7 @@ The definition of A282393 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+4x+5x^2-2x^3-4x^4-4x^5)/(1-3x-x^2-7x^3+2x^4+4x^6))`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A282393
@@ -7764,7 +7737,7 @@ end A282393
 /-!
 # A282394: Number of nX3 0..1 arrays with no 1 equal to more than three of its king-move neighbors.
 
-The programs for A282394, the canonical program `A282394.P8319411867439518542` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282394 has offset 1).
+The programs for A282394, the canonical program `A282394.P8319411867439518542` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282394 has offset 1).
 
 The definition of A282394 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7773,7 +7746,7 @@ The definition of A282394 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((8+17x-x^2-25x^3-54x^4-36x^5-37x^6-58x^7+4x^8)/(1-5x-5x^2-21x^3+29x^4-7x^5+61x^6-25x^7+62x^8-4x^9))`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A282394

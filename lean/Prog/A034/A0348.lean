@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -29,20 +30,23 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -77,13 +81,14 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,13 +107,11 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4135,29 +4138,6 @@ namespace A034837
 /-- `lt[A045918(A347323(n)), A051730(2*(n+1))]` -/
 def P15845492041606648640.Spec : Prop :=
   ∀ n, (P15845492041606648640.a n : ℤ) = A034837 (n + 1)
-
-end A034837
-
-/-! ## A034837.P9516092438160092351
-
-`A096105(n+1)`
--/
-
-namespace A034837.P9516092438160092351
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096105 (n + 1)
-
-end
-
-end A034837.P9516092438160092351
-
-namespace A034837
-
-/-- `A096105(n+1)` -/
-def P9516092438160092351.Spec : Prop :=
-  ∀ n, P9516092438160092351.a n = A034837 (n + 1)
 
 end A034837
 
@@ -12857,27 +12837,6 @@ end
 
 end A034876.P2485776385379202966
 
-/-! ## A034876.P6389260585924591304
-
-`∑[0+Δ[A325509(n)]]`
--/
-
-namespace A034876.P6389260585924591304
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325509 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 + (f2 (n + 1) - f2 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A034876.P6389260585924591304
-
 /-! ## A034876.P12842645034158556143
 
 `(2+A325509(n+1))%3`
@@ -15696,27 +15655,6 @@ end
 
 end A034894.P4377962117687386668
 
-/-! ## A034894.P12224388491419643635
-
-`eq[A039997(n+1)+0, A010051(n+1)]+1`
--/
-
-namespace A034894.P12224388491419643635
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039997 (n + 1) + 0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010051 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A034894.P12224388491419643635
-
 /-!
 # A034895: Dropping any digit gives a prime number.
 
@@ -15782,21 +15720,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034895.P5565389024512306442
-
-/-! ## A034895.P2518688030774003453
-
-`A092619(n+1)`
--/
-
-namespace A034895.P2518688030774003453
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092619 (n + 1)
-
-end
-
-end A034895.P2518688030774003453
 
 /-!
 # A034896: Number of solutions to a^2 + b^2 + 3*c^2 + 3*d^2 = n.

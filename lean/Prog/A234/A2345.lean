@@ -4,39 +4,44 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
@@ -55,24 +60,25 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -603,30 +609,9 @@ end
 end A234502.P1632654302989858641
 
 /-!
-# A234503: Number of ways to write n = k + m with k > 0 and m > 0 such that 3^(phi(k)/2 + phi(m)/12) + 2 is prime, where phi(.) is Euler's totient function.
-
-The programs for A234503, there is no canonical definition to state claims against.
--/
-
-/-! ## A234503.P1685843150234706642
-
-`A236325(n+1)`
--/
-
-namespace A234503.P1685843150234706642
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236325 (n + 1)
-
-end
-
-end A234503.P1685843150234706642
-
-/-!
 # A234505: a(n) = 2*binomial(9*n+2,n)/(9*n+2).
 
-The programs for A234505, the canonical program `A234505.P5188876153610910442` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234505 has offset 0).
+The programs for A234505, the canonical program `A234505.P5188876153610910442` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234505 has offset 0).
 
 The definition of A234505 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234505.anchor (n : ℕ) : (A234505 n : ℚ) = (2 * Nat.choose (9 * n + 2) n : ℚ) / (9 * n + 2 : ℚ)` in `Proof.A234.A234505`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -635,7 +620,7 @@ The definition of A234505 is `verified`: an anchor theorem with a hand-written p
 
 `2*C(9*n+2, n)/(9*n+2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234505
@@ -695,7 +680,7 @@ end A234505
 /-!
 # A234506: a(n) = binomial(9*n+3, n)/(3*n+1).
 
-The programs for A234506, the canonical program `A234506.P11009094261416888985` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234506 has offset 0).
+The programs for A234506, the canonical program `A234506.P11009094261416888985` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234506 has offset 0).
 
 The definition of A234506 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234506.anchor (n : ℕ) : (A234506 n : ℚ) = (Nat.choose (9 * n + 3) n : ℚ) / (3 * n + 1 : ℚ)` in `Proof.A234.A234506`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -704,7 +689,7 @@ The definition of A234506 is `verified`: an anchor theorem with a hand-written p
 
 `C(9*n+3, n)/(3*n+1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234506
@@ -790,7 +775,7 @@ end A234506
 /-!
 # A234507: a(n) = 4*binomial(9*n+4,n)/(9*n+4).
 
-The programs for A234507, the canonical program `A234507.P1571797451760932957` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234507 has offset 0).
+The programs for A234507, the canonical program `A234507.P1571797451760932957` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234507 has offset 0).
 
 The definition of A234507 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234507.anchor (n : ℕ) : (A234507 n : ℚ) = (4 * Nat.choose (9 * n + 4) n : ℚ) / (9 * n + 4 : ℚ)` in `Proof.A234.A234507`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -799,7 +784,7 @@ The definition of A234507 is `verified`: an anchor theorem with a hand-written p
 
 `4*C(9*n+4, n)/(9*n+4)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234507
@@ -859,7 +844,7 @@ end A234507
 /-!
 # A234508: a(n) = 5*binomial(9*n+5,n)/(9*n+5).
 
-The programs for A234508, the canonical program `A234508.P15157110799197174239` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234508 has offset 0).
+The programs for A234508, the canonical program `A234508.P15157110799197174239` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234508 has offset 0).
 
 The definition of A234508 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234508.anchor (n : ℕ) : (A234508 n : ℚ) = (5 * Nat.choose (9 * n + 5) n : ℚ) / (9 * n + 5 : ℚ)` in `Proof.A234.A234508`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -868,7 +853,7 @@ The definition of A234508 is `verified`: an anchor theorem with a hand-written p
 
 `5*C(9*n+5, n)/(9*n+5)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234508
@@ -1038,7 +1023,7 @@ end A234508
 /-!
 # A234509: a(n) = 2*binomial(9*n+6,n)/(3*n+2).
 
-The programs for A234509, the canonical program `A234509.P4234925250788776153` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234509 has offset 0).
+The programs for A234509, the canonical program `A234509.P4234925250788776153` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234509 has offset 0).
 
 The definition of A234509 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234509.anchor (n : ℕ) : (A234509 n : ℚ) = (2 * Nat.choose (9 * n + 6) n : ℚ) / (3 * n + 2 : ℚ)` in `Proof.A234.A234509`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1047,7 +1032,7 @@ The definition of A234509 is `verified`: an anchor theorem with a hand-written p
 
 `2*C(9*n+6, n)/(3*n+2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234509
@@ -1107,7 +1092,7 @@ end A234509
 /-!
 # A234510: a(n) = 7*binomial(9*n+7,n)/(9*n+7).
 
-The programs for A234510, the canonical program `A234510.P3065776263212345378` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234510 has offset 0).
+The programs for A234510, the canonical program `A234510.P3065776263212345378` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234510 has offset 0).
 
 The definition of A234510 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234510.anchor (n : ℕ) : (A234510 n : ℚ) = (7 * Nat.choose (9 * n + 7) n : ℚ) / (9 * n + 7 : ℚ)` in `Proof.A234.A234510`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1116,7 +1101,7 @@ The definition of A234510 is `verified`: an anchor theorem with a hand-written p
 
 `7*C(9*n+7, n)/(9*n+7)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234510
@@ -1151,7 +1136,7 @@ end A234511.P17206588625693832822
 /-!
 # A234513: a(n) = 8*binomial(9*n+8,n)/(9*n+8).
 
-The programs for A234513, the canonical program `A234513.P3119452035174331306` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234513 has offset 0).
+The programs for A234513, the canonical program `A234513.P3119452035174331306` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234513 has offset 0).
 
 The definition of A234513 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234513.anchor (n : ℕ) : (A234513 n : ℚ) = (8 * Nat.choose (9 * n + 8) n : ℚ) / (9 * n + 8 : ℚ)` in `Proof.A234.A234513`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1183,7 +1168,7 @@ end A234513
 
 `8*C(9*n+8, n)/(9*n+8)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A234513
@@ -1354,39 +1339,6 @@ end A234517.P4485734032457634543
 
 The programs for A234521, there is no canonical definition to state claims against.
 -/
-
-/-! ## A234521.P10970027880265130038
-
-`record[A234519(n+1)]`
--/
-
-namespace A234521.P10970027880265130038
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234519 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A234521.P10970027880265130038
-
-/-! ## A234521.P5576379091625551469
-
-`A349898(n+1)*2`
--/
-
-namespace A234521.P5576379091625551469
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349898 (n + 1) * 2
-
-end
-
-end A234521.P5576379091625551469
 
 /-! ## A234521.P9359551032538643810
 
@@ -1646,7 +1598,7 @@ end A234524.P1846849293729064462
 /-!
 # A234525: a(n) = binomial(10*n+2,n)/(5*n+1).
 
-The programs for A234525, the canonical program `A234525.P3264981415550836132` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234525 has offset 0).
+The programs for A234525, the canonical program `A234525.P3264981415550836132` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234525 has offset 0).
 
 The definition of A234525 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234525.anchor (n : ℕ) : (A234525 n : ℚ) = (Nat.choose (10 * n + 2) n : ℚ) / (5 * n + 1 : ℚ)` in `Proof.A234.A234525`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1655,7 +1607,7 @@ The definition of A234525 is `verified`: an anchor theorem with a hand-written p
 
 `C(10*n+2, n)/(5*n+1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234525
@@ -1669,7 +1621,7 @@ end A234525
 /-!
 # A234526: a(n) = 3*binomial(10*n+3,n)/(10*n+3).
 
-The programs for A234526, the canonical program `A234526.P5556790500387693121` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234526 has offset 0).
+The programs for A234526, the canonical program `A234526.P5556790500387693121` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234526 has offset 0).
 
 The definition of A234526 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234526.anchor (n : ℕ) : (A234526 n : ℚ) = (3 * Nat.choose (10 * n + 3) n : ℚ) / (10 * n + 3 : ℚ)` in `Proof.A234.A234526`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1678,7 +1630,7 @@ The definition of A234526 is `verified`: an anchor theorem with a hand-written p
 
 `3*C(10*n+3, n)/(10*n+3)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234526
@@ -1715,7 +1667,7 @@ end A234526
 /-!
 # A234527: a(n) = 2*binomial(10*n+4,n)/(5*n+2).
 
-The programs for A234527, the canonical program `A234527.P693331108529264397` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234527 has offset 0).
+The programs for A234527, the canonical program `A234527.P693331108529264397` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234527 has offset 0).
 
 The definition of A234527 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234527.anchor (n : ℕ) : (A234527 n : ℚ) = (2 * Nat.choose (10 * n + 4) n : ℚ) / (5 * n + 2 : ℚ)` in `Proof.A234.A234527`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1724,7 +1676,7 @@ The definition of A234527 is `verified`: an anchor theorem with a hand-written p
 
 `2*C(10*n+4, n)/(5*n+2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234527
@@ -1738,7 +1690,7 @@ end A234527
 /-!
 # A234528: a(n) = binomial(10*n+5,n)/(2*n+1).
 
-The programs for A234528, the canonical program `A234528.P4635117636086265632` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234528 has offset 0).
+The programs for A234528, the canonical program `A234528.P4635117636086265632` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234528 has offset 0).
 
 The definition of A234528 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234528.anchor (n : ℕ) : (A234528 n : ℚ) = (Nat.choose (10 * n + 5) n : ℚ) / (2 * n + 1 : ℚ)` in `Proof.A234.A234528`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1747,7 +1699,7 @@ The definition of A234528 is `verified`: an anchor theorem with a hand-written p
 
 `C(10*n+5, n)/(2*n+1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234528
@@ -1784,7 +1736,7 @@ end A234528
 /-!
 # A234529: a(n) = 3*binomial(10*n+6,n)/(5*n+3).
 
-The programs for A234529, the canonical program `A234529.P17281859709367344883` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234529 has offset 0).
+The programs for A234529, the canonical program `A234529.P17281859709367344883` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234529 has offset 0).
 
 The definition of A234529 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234529.anchor (n : ℕ) : (A234529 n : ℚ) = (3 * Nat.choose (10 * n + 6) n : ℚ) / (5 * n + 3 : ℚ)` in `Proof.A234.A234529`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1793,7 +1745,7 @@ The definition of A234529 is `verified`: an anchor theorem with a hand-written p
 
 `3*C(10*n+6, n)/(5*n+3)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234529
@@ -2397,7 +2349,7 @@ end A234537
 /-!
 # A234538: (Number of positive digits of n written in base 3) modulo 3.
 
-The programs for A234538, the canonical program `A234538.P7848866361536063857` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234538 has offset 0).
+The programs for A234538, the canonical program `A234538.P7848866361536063857` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234538 has offset 0).
 
 The definition of A234538 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2406,7 +2358,7 @@ The definition of A234538 is `conjectured`: the Lean definition is a formula tha
 
 `(a(floor(n/3))+n²%3)%3` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234538
@@ -3804,7 +3756,7 @@ end A234567.P7089567974478745423
 /-!
 # A234568: Sum_{k=0..n} (n-k)^(2*k).
 
-The programs for A234568, the canonical program `A234568.P174715081067963260` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234568 has offset 0).
+The programs for A234568, the canonical program `A234568.P174715081067963260` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234568 has offset 0).
 
 The definition of A234568 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, (n-#)^(2*#)]` (program `A234568.P174715081067963260`, by `A234568.P174715081067963260.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3813,7 +3765,7 @@ The definition of A234568 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, (n-#)^(2*#)]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234568
@@ -3973,7 +3925,7 @@ end A234569.P5812050892914931366
 /-!
 # A234570: a(n) = 7*binomial(10*n+7,n)/(10*n+7).
 
-The programs for A234570, the canonical program `A234570.P12813262806252969297` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234570 has offset 0).
+The programs for A234570, the canonical program `A234570.P12813262806252969297` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234570 has offset 0).
 
 The definition of A234570 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234570.anchor (n : ℕ) : (A234570 n : ℚ) = (7 * Nat.choose (10 * n + 7) n : ℚ) / (10 * n + 7 : ℚ)` in `Proof.A234.A234570`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3982,7 +3934,7 @@ The definition of A234570 is `verified`: an anchor theorem with a hand-written p
 
 `7*C(10*n+7, n)/(10*n+7)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234570
@@ -3996,7 +3948,7 @@ end A234570
 /-!
 # A234571: a(n) = 4*binomial(10*n+8,n)/(5*n+4).
 
-The programs for A234571, the canonical program `A234571.P2626298362651717120` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234571 has offset 0).
+The programs for A234571, the canonical program `A234571.P2626298362651717120` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234571 has offset 0).
 
 The definition of A234571 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234571.anchor (n : ℕ) : (A234571 n : ℚ) = (4 * Nat.choose (10 * n + 8) n : ℚ) / (5 * n + 4 : ℚ)` in `Proof.A234.A234571`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4005,7 +3957,7 @@ The definition of A234571 is `verified`: an anchor theorem with a hand-written p
 
 `4*C(10*n+8, n)/(5*n+4)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234571
@@ -4040,7 +3992,7 @@ end A234572.P2139922449018769782
 /-!
 # A234573: a(n) = 9*binomial(10*n+9,n)/(10*n+9).
 
-The programs for A234573, the canonical program `A234573.P2537565463048657075` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234573 has offset 0).
+The programs for A234573, the canonical program `A234573.P2537565463048657075` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234573 has offset 0).
 
 The definition of A234573 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A234573.anchor (n : ℕ) : (A234573 n : ℚ) = (9 * Nat.choose (10 * n + 9) n : ℚ) / (10 * n + 9 : ℚ)` in `Proof.A234.A234573`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4049,7 +4001,7 @@ The definition of A234573 is `verified`: an anchor theorem with a hand-written p
 
 `9*C(10*n+9, n)/(10*n+9)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234573
@@ -4135,7 +4087,7 @@ end A234573
 /-!
 # A234575: Triangle T(n, k) read by rows: T(n, k) = floor(n/k) + n mod k.
 
-The programs for A234575, the canonical program `A234575.P14529585527392317832` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234575 has offset 1).
+The programs for A234575, the canonical program `A234575.P14529585527392317832` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234575 has offset 1).
 
 The definition of A234575 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((row(n)+1)/(col(n)+1))+(row(n)+1)%(col(n)+1)` (program `A234575.P14529585527392317832`, by `A234575.P14529585527392317832.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4167,7 +4119,7 @@ end A234575
 
 `floor((row(n)+1)/(col(n)+1))+(row(n)+1)%(col(n)+1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234575
@@ -4576,7 +4528,7 @@ end A234575
 /-!
 # A234576: Number of Weyl group elements, not containing s_1 or s_2, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type D and rank n.
 
-The programs for A234576, the canonical program `A234576.P5242596916492470615` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234576 has offset 4).
+The programs for A234576, the canonical program `A234576.P5242596916492470615` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234576 has offset 4).
 
 The definition of A234576 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4608,7 +4560,7 @@ end A234576
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=4, a(1)=7, a(2)=14, a(3)=34`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234576
@@ -5031,21 +4983,6 @@ end A234579.P13660297982453438837
 The programs for A234580, there is no canonical definition to state claims against.
 -/
 
-/-! ## A234580.P10549801711639331770
-
-`A234585(A024657(n))`
--/
-
-namespace A234580.P10549801711639331770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234585 (A024657 n).toNat
-
-end
-
-end A234580.P10549801711639331770
-
 /-! ## A234580.P9154010986422098554
 
 `and(A218254(2*n), A221671(A141213(2*n)))`
@@ -5219,27 +5156,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234582.P10354501342769860502
-
-/-! ## A234582.P8581140513356017529
-
-`A234583(lt[1, A051445(2*(n+2))])`
--/
-
-namespace A234582.P8581140513356017529
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051445 (2 * (n + 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234583 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
-
-end
-
-end A234582.P8581140513356017529
 
 /-! ## A234582.P17586801191835903160
 
@@ -5855,7 +5771,7 @@ end A234587
 /-!
 # A234589: Expansion of g.f.: (1+x^6+x^7)/(1-2*x+x^6-x^7-x^8).
 
-The programs for A234589, the canonical program `A234589.P18260223798493864587` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234589 has offset 0).
+The programs for A234589, the canonical program `A234589.P18260223798493864587` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234589 has offset 0).
 
 The definition of A234589 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x^6+x^7)/(1-2x+x^6-x^7-x^8))` (program `A234589.P18260223798493864587`, by `A234589.P18260223798493864587.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5864,7 +5780,7 @@ The definition of A234589 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+x^6+x^7)/(1-2x+x^6-x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234589
@@ -5905,7 +5821,7 @@ end A234589
 /-!
 # A234590: Number of binary words of length n which have no 0^b 1 1 0^a 1 0 1 0^b - matches, where a=0, b=2.
 
-The programs for A234590, the canonical program `A234590.P12100743694328349369` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234590 has offset 0).
+The programs for A234590, the canonical program `A234590.P12100743694328349369` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234590 has offset 0).
 
 The definition of A234590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5937,7 +5853,7 @@ end A234590
 
 `2*a(n-1)-a(n-7)+a(n-8)+a(n-9)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=16, a(5)=32, a(6)=64, a(7)=128, a(8)=256`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234590
@@ -5955,7 +5871,7 @@ end A234590
 /-!
 # A234591: Number of binary words of length n which have no 0^b 1 1 0^a 1 0 1 0^b - matches, where a=1, b=2.
 
-The programs for A234591, the canonical program `A234591.P16712786208938603051` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234591 has offset 0).
+The programs for A234591, the canonical program `A234591.P16712786208938603051` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234591 has offset 0).
 
 The definition of A234591 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5987,7 +5903,7 @@ end A234591
 
 `2*a(n-1)-a(n-8)+a(n-9)+a(n-10)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=16, a(5)=32, a(6)=64, a(7)=128, a(8)=256, a(9)=512`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234591
@@ -6077,7 +5993,7 @@ end A234591
 /-!
 # A234592: Number of binary words of length n which have no 0^b 1 1 0^a 1 0 1 0^b - matches, where a=b=2.
 
-The programs for A234592, the canonical program `A234592.P4626662778653179907` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234592 has offset 0).
+The programs for A234592, the canonical program `A234592.P4626662778653179907` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234592 has offset 0).
 
 The definition of A234592 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6086,7 +6002,7 @@ The definition of A234592 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^9+x^10)/(1-2x+x^9-x^10-x^11))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234592
@@ -6230,7 +6146,7 @@ end A234596.P13729861282080870768
 /-!
 # A234597: Number of Weyl group elements, not containing an s_1 factor, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type D and rank n.
 
-The programs for A234597, the canonical program `A234597.P4303821682388581585` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234597 has offset 4).
+The programs for A234597, the canonical program `A234597.P4303821682388581585` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234597 has offset 4).
 
 The definition of A234597 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6262,7 +6178,7 @@ end A234597
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=5, a(1)=11, a(2)=21, a(3)=48`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A234597

@@ -3,24 +3,26 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C040
+import Seq.B000.C023
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C047
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,7 +37,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -44,13 +45,14 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -291,21 +293,6 @@ end A395808.P866994146616837015
 The programs for A395811, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395811.P12984581339361169269
-
-`1+A063962(n+1)`
--/
-
-namespace A395811.P12984581339361169269
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A063962 (n + 1)
-
-end
-
-end A395811.P12984581339361169269
-
 /-! ## A395811.P9667007046744576233
 
 `A083399(A396079(n+1))`
@@ -345,7 +332,7 @@ end A395812.P15972101233057974799
 /-!
 # A395813: Number of perfect matchings in the complete 4-partite graph K_{n,n,n,n}.
 
-The programs for A395813, the canonical program `A395813.P11902416282784165986` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395813 has offset 0).
+The programs for A395813, the canonical program `A395813.P11902416282784165986` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395813 has offset 0).
 
 The definition of A395813 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -380,7 +367,7 @@ end A395813
 
 `(10*n²-10*n+3)*a(n-1)-9*(n-1)^4*a(n-2)` with `a(0)=1, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395813
@@ -470,7 +457,7 @@ end A395813
 /-!
 # A395815: Number of perfect matchings in the complete tripartite graph K_{2n,2n,2n}.
 
-The programs for A395815, the canonical program `A395815.P4122459993557326812` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395815 has offset 0).
+The programs for A395815, the canonical program `A395815.P4122459993557326812` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395815 has offset 0).
 
 The definition of A395815 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -479,7 +466,7 @@ The definition of A395815 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((2*n)!/n!)^3`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395815
@@ -957,7 +944,7 @@ end A395820.P17010661282985026716
 /-!
 # A395822: Degree of the minimal polynomial whose root is the square of the sidelength of the largest n-cube that fits inside a unit (n+1)-cube.
 
-The programs for A395822, the canonical program `A395822.P4184873766019434530` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395822 has offset 0).
+The programs for A395822, the canonical program `A395822.P4184873766019434530` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395822 has offset 0).
 
 The definition of A395822 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -966,7 +953,7 @@ The definition of A395822 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-3x^2-4x^3+10x^4+8x^5)/(1-4x-4x^2+16x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395822
@@ -1387,7 +1374,7 @@ end A395829
 /-!
 # A395830: Number of hexadecimal strings of length n that contain a specific string xx (where x is a single digit).
 
-The programs for A395830, the canonical program `A395830.P2485502439783120490` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395830 has offset 0).
+The programs for A395830, the canonical program `A395830.P2485502439783120490` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395830 has offset 0).
 
 The definition of A395830 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1396,7 +1383,7 @@ The definition of A395830 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(x^2/(1-31x+225x^2+240x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395830
@@ -1460,7 +1447,7 @@ end A395830
 /-!
 # A395831: Number of octal strings of length n that do not contain a specific string xx (where x is a single digit).
 
-The programs for A395831, the canonical program `A395831.P5367024056611957966` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395831 has offset 0).
+The programs for A395831, the canonical program `A395831.P5367024056611957966` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395831 has offset 0).
 
 The definition of A395831 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1469,7 +1456,7 @@ The definition of A395831 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x)/(1-7x-7x^2))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395831
@@ -1608,7 +1595,7 @@ end A395831
 /-!
 # A395832: Number of hexadecimal strings of length n that do not contain a specific string xx (where x is a single digit).
 
-The programs for A395832, the canonical program `A395832.P1538237766821388229` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395832 has offset 0).
+The programs for A395832, the canonical program `A395832.P1538237766821388229` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395832 has offset 0).
 
 The definition of A395832 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1617,7 +1604,7 @@ The definition of A395832 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x)/(1-15x-15x^2))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395832
@@ -1805,7 +1792,7 @@ end A395835.P1877842422894071891
 /-!
 # A395839: G.f. 10*C(x)^2 - C(x), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).
 
-The programs for A395839, the canonical program `A395839.P5228573350943917225` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395839 has offset 0).
+The programs for A395839, the canonical program `A395839.P5228573350943917225` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395839 has offset 0).
 
 The definition of A395839 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1814,7 +1801,7 @@ The definition of A395839 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*C(2*n+2, n)/(n+1)-C(2*n+1, n)/(2*n+1)`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395839
@@ -2163,27 +2150,6 @@ end
 end A395851.P18143945037541811162
 
 /-!
-# A395852: Divisors of the order of the Tits group, |T| = 17971200.
-
-The programs for A395852, there is no canonical definition to state claims against.
--/
-
-/-! ## A395852.P14315805787899571533
-
-`A068095(n+1)`
--/
-
-namespace A395852.P14315805787899571533
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068095 (n + 1)
-
-end
-
-end A395852.P14315805787899571533
-
-/-!
 # A395853: Numbers that can be written as the sum of a Fibonacci number and the square of a Fibonacci number.
 
 The programs for A395853, the canonical program `A395853.P3335866657025949553` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395853 has offset 1).
@@ -2456,21 +2422,6 @@ end A395867.P5628621103620388219
 The programs for A395868, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395868.P2877403038371972895
-
-`A001683(n+3)`
--/
-
-namespace A395868.P2877403038371972895
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001683 (n + 3)
-
-end
-
-end A395868.P2877403038371972895
-
 /-! ## A395868.P8012692881769621828
 
 `A401843(A339830(n+1))`
@@ -2674,21 +2625,6 @@ end A395871.P17199536172604249410
 
 The programs for A395872, there is no canonical definition to state claims against.
 -/
-
-/-! ## A395872.P13425106006730613856
-
-`A005034(1+n)`
--/
-
-namespace A395872.P13425106006730613856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005034 (1 + n)
-
-end
-
-end A395872.P13425106006730613856
 
 /-! ## A395872.P3935412030500663098
 
@@ -3025,27 +2961,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395886.P13466438822176951265
-
-/-!
-# A395887: Number of oriented polyominoes in the {7,7} tessellation of the hyperbolic plane.
-
-The programs for A395887, there is no canonical definition to state claims against.
--/
-
-/-! ## A395887.P12084472167685493971
-
-`A389561(n+1)`
--/
-
-namespace A395887.P12084472167685493971
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A389561 (n + 1)
-
-end
-
-end A395887.P12084472167685493971
 
 /-!
 # A395888: Number of oriented polyominoes in the {7,8} tessellation of the hyperbolic plane.

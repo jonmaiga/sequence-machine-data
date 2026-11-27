@@ -36,16 +36,17 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,6 +68,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
@@ -74,6 +76,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -81,9 +84,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -108,7 +108,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1023,21 +1022,6 @@ end
 
 end A195111.P17007177904373548261
 
-/-! ## A195111.P6503912436408515505
-
-`A066182(A194962(n+1))`
--/
-
-namespace A195111.P6503912436408515505
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066182 (A194962 (n + 1)).toNat
-
-end
-
-end A195111.P6503912436408515505
-
 /-!
 # A195112: Inverse permutation of A195111; every positive integer occurs exactly once.
 
@@ -1623,7 +1607,7 @@ end A195115.P18378135635739691304
 /-!
 # A195116: a(n) = (2+3^n)*(3+2^n).
 
-The programs for A195116, the canonical program `A195116.P11547272365167967252` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195116 has offset 0).
+The programs for A195116, the canonical program `A195116.P11547272365167967252` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195116 has offset 0).
 
 The definition of A195116 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2+3^n)*(3+2^n)` (program `A195116.P11547272365167967252`, by `A195116.P11547272365167967252.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1632,7 +1616,7 @@ The definition of A195116 is `verified`: the Lean definition is proven equivalen
 
 `(2+3^n)*(3+2^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195116
@@ -1644,6 +1628,29 @@ def P11547272365167967252.Spec : Prop :=
 theorem P11547272365167967252.correct : P11547272365167967252.Spec := by
   intro n
   simp only [A195116]
+
+end A195116
+
+/-! ## A195116.P9438451022973538604
+
+`ogf((12-119x+341x^2-294x^3)/(1-12x+47x^2-72x^3+36x^4))`
+-/
+
+namespace A195116.P9438451022973538604
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [12, -119, 341, -294] [1, -12, 47, -72, 36] n
+
+end
+
+end A195116.P9438451022973538604
+
+namespace A195116
+
+/-- `ogf((12-119x+341x^2-294x^3)/(1-12x+47x^2-72x^3+36x^4))` -/
+def P9438451022973538604.Spec : Prop :=
+  ∀ n, P9438451022973538604.a n = A195116 n
 
 end A195116
 
@@ -1907,7 +1914,7 @@ end A195118.P14875855951864855331
 /-!
 # A195119: a(n) = 2*n - floor(n*sqrt(2)).
 
-The programs for A195119, the canonical program `A195119.P10467395999653926645` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195119 has offset 0).
+The programs for A195119, the canonical program `A195119.P10467395999653926645` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195119 has offset 0).
 
 The definition of A195119 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n-floor(n*sqrt(2))` (program `A195119.P10467395999653926645`, by `A195119.P10467395999653926645.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1916,7 +1923,7 @@ The definition of A195119 is `verified`: the Lean definition is proven equivalen
 
 `2*n-floor(n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195119
@@ -2259,7 +2266,7 @@ end A195119
 /-!
 # A195120: a(n) = 2*n - floor(n*sqrt(3)).
 
-The programs for A195120, the canonical program `A195120.P16673535065325612968` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195120 has offset 0).
+The programs for A195120, the canonical program `A195120.P16673535065325612968` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195120 has offset 0).
 
 The definition of A195120 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n-floor(n*sqrt(3))` (program `A195120.P16673535065325612968`, by `A195120.P16673535065325612968.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2268,7 +2275,7 @@ The definition of A195120 is `verified`: the Lean definition is proven equivalen
 
 `2*n-floor(n*sqrt(3))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195120
@@ -2456,7 +2463,7 @@ end A195120
 /-!
 # A195121: a(n) = 2*n - floor(n/r), where r = (1 + sqrt(5))/2 (the golden ratio).
 
-The programs for A195121, the canonical program `A195121.P14500461516378876145` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195121 has offset 0).
+The programs for A195121, the canonical program `A195121.P14500461516378876145` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195121 has offset 0).
 
 The definition of A195121 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2465,7 +2472,7 @@ The definition of A195121 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n/ϕ)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195121
@@ -2807,7 +2814,7 @@ end A195121
 /-!
 # A195122: a(n) = 2*n - floor(n*r/2), where r=(1+sqrt(5))/2.
 
-The programs for A195122, the canonical program `A195122.P7223825868024058307` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195122 has offset 0).
+The programs for A195122, the canonical program `A195122.P7223825868024058307` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195122 has offset 0).
 
 The definition of A195122 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2816,7 +2823,7 @@ The definition of A195122 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n*ϕ/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195122
@@ -3015,7 +3022,7 @@ end A195122
 /-!
 # A195123: a(n) = 2*n - floor(n*r/3), where r = (1 + sqrt(5))/2.
 
-The programs for A195123, the canonical program `A195123.P16237776424251920251` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195123 has offset 0).
+The programs for A195123, the canonical program `A195123.P16237776424251920251` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195123 has offset 0).
 
 The definition of A195123 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3024,7 +3031,7 @@ The definition of A195123 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n*(1+sqrt(5))/6)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195123
@@ -3137,7 +3144,7 @@ end A195123
 /-!
 # A195124: 2n-floor(n*e/2).
 
-The programs for A195124, the canonical program `A195124.P13812946285917995958` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195124 has offset 0).
+The programs for A195124, the canonical program `A195124.P13812946285917995958` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195124 has offset 0).
 
 The definition of A195124 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n-floor(n*e/2)` (program `A195124.P13812946285917995958`, by `A195124.P13812946285917995958.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3146,7 +3153,7 @@ The definition of A195124 is `verified`: the Lean definition is proven equivalen
 
 `2*n-floor(n*e/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195124
@@ -3256,7 +3263,7 @@ end A195124
 /-!
 # A195125: a(n) = 2*n - floor(n*r), where r=Pi-3.
 
-The programs for A195125, the canonical program `A195125.P8024849299184485481` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195125 has offset 0).
+The programs for A195125, the canonical program `A195125.P8024849299184485481` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195125 has offset 0).
 
 The definition of A195125 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3265,7 +3272,7 @@ The definition of A195125 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n*(π-3))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195125
@@ -3355,33 +3362,10 @@ def P10090484599915367704.Spec : Prop :=
 
 end A195125
 
-/-! ## A195125.P16673306928730132826
-
-`A228295(n)`
--/
-
-namespace A195125.P16673306928730132826
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228295 n
-
-end
-
-end A195125.P16673306928730132826
-
-namespace A195125
-
-/-- `A228295(n)` -/
-def P16673306928730132826.Spec : Prop :=
-  ∀ n, P16673306928730132826.a n = A195125 n
-
-end A195125
-
 /-!
 # A195126: a(n) = 2*n - floor(n*r/4), where r = (1 + sqrt(5))/2.
 
-The programs for A195126, the canonical program `A195126.P1129693599105872537` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195126 has offset 0).
+The programs for A195126, the canonical program `A195126.P1129693599105872537` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195126 has offset 0).
 
 The definition of A195126 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3390,7 +3374,7 @@ The definition of A195126 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n*ϕ/4)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195126
@@ -3560,7 +3544,7 @@ end A195126
 /-!
 # A195127: a(n) = 2*n - floor(n*r/5), where r = (1 + sqrt(5))/2.
 
-The programs for A195127, the canonical program `A195127.P16570136897674608989` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195127 has offset 0).
+The programs for A195127, the canonical program `A195127.P16570136897674608989` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195127 has offset 0).
 
 The definition of A195127 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3569,7 +3553,7 @@ The definition of A195127 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n-floor(n*(1+sqrt(5))/10)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195127
@@ -3692,7 +3676,7 @@ end A195127
 /-!
 # A195128: a(n) = 2*n - floor(n*sqrt(1/2)).
 
-The programs for A195128, the canonical program `A195128.P17170821473884310959` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195128 has offset 0).
+The programs for A195128, the canonical program `A195128.P17170821473884310959` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195128 has offset 0).
 
 The definition of A195128 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n-floor(n*sqrt(1/2))` (program `A195128.P17170821473884310959`, by `A195128.P17170821473884310959.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3701,7 +3685,7 @@ The definition of A195128 is `verified`: the Lean definition is proven equivalen
 
 `2*n-floor(n*sqrt(1/2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195128
@@ -4082,7 +4066,7 @@ end A195128
 /-!
 # A195129: a(n) = 2*n - floor(n*sqrt(1/3)).
 
-The programs for A195129, the canonical program `A195129.P5321639596681128753` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195129 has offset 0).
+The programs for A195129, the canonical program `A195129.P5321639596681128753` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195129 has offset 0).
 
 The definition of A195129 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n-floor(n*sqrt(1/3))` (program `A195129.P5321639596681128753`, by `A195129.P5321639596681128753.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4091,7 +4075,7 @@ The definition of A195129 is `verified`: the Lean definition is proven equivalen
 
 `2*n-floor(n*sqrt(1/3))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195129
@@ -4333,21 +4317,6 @@ end
 
 end A195130.P12597322952229760097
 
-/-! ## A195130.P10577121149765907566
-
-`lcm(A005149(n+1), 1)`
--/
-
-namespace A195130.P10577121149765907566
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A005149 (n + 1)) 1
-
-end
-
-end A195130.P10577121149765907566
-
 /-! ## A195130.P9349187336478126658
 
 `A005149(n+1)*A033999(n)`
@@ -4492,7 +4461,7 @@ end A195135.P12989110205979824489
 /-!
 # A195136: a(n) = ((n+1)^(n-1) + (n-1)^(n-1))/2 for n>=1.
 
-The programs for A195136, the canonical program `A195136.P15582020837702847714` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195136 has offset 1).
+The programs for A195136, the canonical program `A195136.P15582020837702847714` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195136 has offset 1).
 
 The definition of A195136 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4501,7 +4470,7 @@ The definition of A195136 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n+2)^n+n^n)/2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195136
@@ -4683,7 +4652,7 @@ end A195139.P608654931359345820
 /-!
 # A195140: Multiples of 5 and odd numbers interleaved.
 
-The programs for A195140, the canonical program `A195140.P3508360453371235933` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195140 has offset 0).
+The programs for A195140, the canonical program `A195140.P3508360453371235933` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195140 has offset 0).
 
 The definition of A195140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4779,7 +4748,7 @@ end A195140
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=5, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195140
@@ -5254,7 +5223,7 @@ end A195141.P2600667201304262451
 /-!
 # A195142: Concentric 10-gonal numbers.
 
-The programs for A195142, the canonical program `A195142.P4354517717115517551` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195142 has offset 0).
+The programs for A195142, the canonical program `A195142.P4354517717115517551` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195142 has offset 0).
 
 The definition of A195142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5286,7 +5255,7 @@ end A195142
 
 `a(n-2)+10*(n-1)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195142
@@ -5744,7 +5713,7 @@ end A195142
 /-!
 # A195143: a(n) = n-th concentric 12-gonal number.
 
-The programs for A195143, the canonical program `A195143.P2466939833330599990` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195143 has offset 0).
+The programs for A195143, the canonical program `A195143.P2466939833330599990` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195143 has offset 0).
 
 The definition of A195143 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5753,7 +5722,7 @@ The definition of A195143 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*n²+(-1)^n-1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195143
@@ -6257,7 +6226,7 @@ end A195143
 /-!
 # A195145: Concentric 14-gonal numbers.
 
-The programs for A195145, the canonical program `A195145.P5155156773396495180` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195145 has offset 0).
+The programs for A195145, the canonical program `A195145.P5155156773396495180` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195145 has offset 0).
 
 The definition of A195145 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6289,7 +6258,7 @@ end A195145
 
 `(14*n²+5*(-1)^n-5)/4`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195145
@@ -6726,7 +6695,7 @@ end A195145
 /-!
 # A195146: Concentric 16-gonal numbers.
 
-The programs for A195146, the canonical program `A195146.P1828332237373484588` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195146 has offset 0).
+The programs for A195146, the canonical program `A195146.P1828332237373484588` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195146 has offset 0).
 
 The definition of A195146 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6735,7 +6704,7 @@ The definition of A195146 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8*n²+3*(-1)^n-3)/2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195146
@@ -7222,7 +7191,7 @@ end A195146
 /-!
 # A195147: Concentric 18-gonal numbers.
 
-The programs for A195147, the canonical program `A195147.P551270443851648918` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195147 has offset 0).
+The programs for A195147, the canonical program `A195147.P551270443851648918` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195147 has offset 0).
 
 The definition of A195147 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7254,7 +7223,7 @@ end A195147
 
 `(18*n²+7*(-1)^n-7)/4`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195147
@@ -7700,7 +7669,7 @@ end A195147
 /-!
 # A195148: Concentric 20-gonal numbers.
 
-The programs for A195148, the canonical program `A195148.P2399967165247152681` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195148 has offset 0).
+The programs for A195148, the canonical program `A195148.P2399967165247152681` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195148 has offset 0).
 
 The definition of A195148 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7732,7 +7701,7 @@ end A195148
 
 `5*n²+2*(-1)^n-2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195148
@@ -8065,7 +8034,7 @@ end A195148
 /-!
 # A195149: Concentric 22-gonal numbers.
 
-The programs for A195149, the canonical program `A195149.P11963823612132181127` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195149 has offset 0).
+The programs for A195149, the canonical program `A195149.P11963823612132181127` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195149 has offset 0).
 
 The definition of A195149 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8139,7 +8108,7 @@ end A195149
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=22, a(3)=45`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195149
@@ -9072,7 +9041,7 @@ end A195150
 /-!
 # A195151: Square array read by antidiagonals upwards: T(n,k) = n*((k-2)*(-1)^n+k+2)/4, n >= 0, k >= 0.
 
-The programs for A195151, the canonical program `A195151.P7203940250661188465` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195151 has offset 0).
+The programs for A195151, the canonical program `A195151.P7203940250661188465` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195151 has offset 0).
 
 The definition of A195151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9081,7 +9050,7 @@ The definition of A195151 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)-col(n))*((col(n)-2)*(-1)^(row(n)-col(n))+col(n)+2)/4`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195151
@@ -9266,7 +9235,7 @@ end A195152.P1790618731017435888
 /-!
 # A195153: Irregular triangle read by rows in which row n lists numbers d-1 that do not divide n, where d divides n.
 
-The programs for A195153, the canonical program `A195153.P2205361326836108706` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195153 has offset 3).
+The programs for A195153, the canonical program `A195153.P2205361326836108706` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195153 has offset 3).
 
 The definition of A195153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 457 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9275,7 +9244,7 @@ The definition of A195153 is `conjectured`: the Lean definition is a formula tha
 
 `A128227(eq[1, A176702(n+1)+2])`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A195153
@@ -9322,7 +9291,7 @@ end A195153
 /-!
 # A195155: Number of divisors d of n such that d-1 also divides n or d-1 = 0.
 
-The programs for A195155, the canonical program `A195155.P6480177575131545009` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195155 has offset 1).
+The programs for A195155, the canonical program `A195155.P6480177575131545009` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195155 has offset 1).
 
 The definition of A195155 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9331,7 +9300,7 @@ The definition of A195155 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+A129308(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A195155
@@ -9840,7 +9809,7 @@ end A195155
 /-!
 # A195156: a(n) = (16^n-1)/3.
 
-The programs for A195156, the canonical program `A195156.P10027544278641878220` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195156 has offset 0).
+The programs for A195156, the canonical program `A195156.P10027544278641878220` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195156 has offset 0).
 
 The definition of A195156 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(16^n-1)/3` (program `A195156.P7597220359218679695`, by `A195156.P7597220359218679695.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9914,7 +9883,7 @@ end A195156
 
 `16*a(n-1)+5` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195156
@@ -10120,7 +10089,7 @@ end A195157.P12266086989761468644
 /-!
 # A195158: Concentric 24-gonal numbers.
 
-The programs for A195158, the canonical program `A195158.P10262175725787316458` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195158 has offset 0).
+The programs for A195158, the canonical program `A195158.P10262175725787316458` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195158 has offset 0).
 
 The definition of A195158 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10152,7 +10121,7 @@ end A195158
 
 `6*n²+5*((-1)^n-1)/2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195158
@@ -10408,7 +10377,7 @@ end A195158
 /-!
 # A195159: Multiples of 7 and odd numbers interleaved.
 
-The programs for A195159, the canonical program `A195159.P1530607772894240542` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195159 has offset 0).
+The programs for A195159, the canonical program `A195159.P1530607772894240542` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195159 has offset 0).
 
 The definition of A195159 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10440,7 +10409,7 @@ end A195159
 
 `(5*(-1)^n+9)*n/4`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195159
@@ -10886,7 +10855,7 @@ end A195159
 /-!
 # A195160: Generalized 11-gonal (or hendecagonal) numbers: m*(9*m - 7)/2 with m = 0, 1, -1, 2, -2, 3, -3, ...
 
-The programs for A195160, the canonical program `A195160.P6788095328231958283` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195160 has offset 0).
+The programs for A195160, the canonical program `A195160.P6788095328231958283` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195160 has offset 0).
 
 The definition of A195160 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10918,7 +10887,7 @@ end A195160
 
 `(18*n*(n+1)+5*(2*n+1)*(-1)^n-5)/16`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195160
@@ -11386,7 +11355,7 @@ end A195160
 /-!
 # A195161: Multiples of 8 and odd numbers interleaved.
 
-The programs for A195161, the canonical program `A195161.P14193269120271702246` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195161 has offset 0).
+The programs for A195161, the canonical program `A195161.P14193269120271702246` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195161 has offset 0).
 
 The definition of A195161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11459,7 +11428,7 @@ end A195161
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=8, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195161
@@ -11886,7 +11855,7 @@ end A195161
 /-!
 # A195162: Generalized 12-gonal numbers: k*(5*k-4) for k = 0, +-1, +-2, ...
 
-The programs for A195162, the canonical program `A195162.P14419393006521997069` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195162 has offset 0).
+The programs for A195162, the canonical program `A195162.P14419393006521997069` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195162 has offset 0).
 
 The definition of A195162 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11962,7 +11931,7 @@ end A195162
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=9, a(3)=12, a(4)=28`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195162
@@ -12419,7 +12388,7 @@ end A195162
 /-!
 # A195163: 1000-gonal numbers: a(n) = n*(499*n - 498).
 
-The programs for A195163, the canonical program `A195163.P9909769284361871532` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195163 has offset 0).
+The programs for A195163, the canonical program `A195163.P9909769284361871532` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195163 has offset 0).
 
 The definition of A195163 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(499*n-498)` (program `A195163.P9909769284361871532`, by `A195163.P9909769284361871532.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12428,7 +12397,7 @@ The definition of A195163 is `verified`: the Lean definition is proven equivalen
 
 `n*(499*n-498)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195163
@@ -12717,7 +12686,7 @@ end A195166.P1784689745838063834
 /-!
 # A195167: a(n) = 3*n - floor(n*r/2), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195167, the canonical program `A195167.P17142565667869507811` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195167 has offset 0).
+The programs for A195167, the canonical program `A195167.P17142565667869507811` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195167 has offset 0).
 
 The definition of A195167 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12726,7 +12695,7 @@ The definition of A195167 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*n-floor(n*(1+sqrt(5))/4)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195167
@@ -12836,7 +12805,7 @@ end A195167
 /-!
 # A195168: a(n) = 3*n - floor(n*r/3), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195168, the canonical program `A195168.P1378177063111106929` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195168 has offset 0).
+The programs for A195168, the canonical program `A195168.P1378177063111106929` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195168 has offset 0).
 
 The definition of A195168 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12845,7 +12814,7 @@ The definition of A195168 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*n-floor(n*(1+sqrt(5))/6)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195168
@@ -12955,7 +12924,7 @@ end A195168
 /-!
 # A195169: a(n) = 3*n - floor(2*n*r/3), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195169, the canonical program `A195169.P9511558670231736998` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195169 has offset 0).
+The programs for A195169, the canonical program `A195169.P9511558670231736998` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195169 has offset 0).
 
 The definition of A195169 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12964,7 +12933,7 @@ The definition of A195169 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*n-floor(n*(1+sqrt(5))/3)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195169
@@ -13085,7 +13054,7 @@ end A195169
 /-!
 # A195170: a(n) = 4*n - floor(n*r), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195170, the canonical program `A195170.P6294937364221952630` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195170 has offset 0).
+The programs for A195170, the canonical program `A195170.P6294937364221952630` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195170 has offset 0).
 
 The definition of A195170 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13094,7 +13063,7 @@ The definition of A195170 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*n-floor(n*(1+sqrt(5))/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195170
@@ -13425,7 +13394,7 @@ end A195170
 /-!
 # A195171: a(n) = 5*n - floor(n*r), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195171, the canonical program `A195171.P4088353901745982545` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195171 has offset 0).
+The programs for A195171, the canonical program `A195171.P4088353901745982545` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195171 has offset 0).
 
 The definition of A195171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13434,7 +13403,7 @@ The definition of A195171 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*n-floor(n*(1+sqrt(5))/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195171
@@ -13547,7 +13516,7 @@ end A195171
 /-!
 # A195172: a(n) = 4*n - floor(2*n*r), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195172, the canonical program `A195172.P3774427057211869333` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195172 has offset 0).
+The programs for A195172, the canonical program `A195172.P3774427057211869333` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195172 has offset 0).
 
 The definition of A195172 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13556,7 +13525,7 @@ The definition of A195172 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*n-floor(n*(1+sqrt(5)))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195172
@@ -13848,7 +13817,7 @@ end A195172
 /-!
 # A195173: a(n) = 5*n - floor(2n*r), where r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A195173, the canonical program `A195173.P5525217484699142708` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195173 has offset 0).
+The programs for A195173, the canonical program `A195173.P5525217484699142708` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195173 has offset 0).
 
 The definition of A195173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13857,7 +13826,7 @@ The definition of A195173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*n-floor(n*(1+sqrt(5)))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195173
@@ -14061,7 +14030,7 @@ end A195173
 /-!
 # A195174: a(n) = 5*n - floor(3*n*r), where r=(1+sqrt(5))/2 (the golden ratio.)
 
-The programs for A195174, the canonical program `A195174.P17306231674566011983` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195174 has offset 0).
+The programs for A195174, the canonical program `A195174.P17306231674566011983` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195174 has offset 0).
 
 The definition of A195174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14070,7 +14039,7 @@ The definition of A195174 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*n-floor(3*n*(1+sqrt(5))/2)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195174
@@ -14243,7 +14212,7 @@ end A195174
 /-!
 # A195175: a(n) = 8*n - floor(4*n*r), where r=(1+sqrt(5))/2 (the golden ratio.)
 
-The programs for A195175, the canonical program `A195175.P9347037866918536876` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195175 has offset 0).
+The programs for A195175, the canonical program `A195175.P9347037866918536876` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195175 has offset 0).
 
 The definition of A195175 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14252,7 +14221,7 @@ The definition of A195175 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*n-floor(2*n*(1+sqrt(5)))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195175
@@ -14454,7 +14423,7 @@ end A195175
 /-!
 # A195176: a(n) = 3*n - floor(n*sqrt(2)).
 
-The programs for A195176, the canonical program `A195176.P10049885742152514298` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195176 has offset 0).
+The programs for A195176, the canonical program `A195176.P10049885742152514298` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195176 has offset 0).
 
 The definition of A195176 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*n-floor(n*sqrt(2))` (program `A195176.P10049885742152514298`, by `A195176.P10049885742152514298.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14463,7 +14432,7 @@ The definition of A195176 is `verified`: the Lean definition is proven equivalen
 
 `3*n-floor(n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195176
@@ -14604,7 +14573,7 @@ end A195176
 /-!
 # A195177: a(n) = 3*n - floor(2*n*sqrt(2)).
 
-The programs for A195177, the canonical program `A195177.P651983526202513123` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195177 has offset 0).
+The programs for A195177, the canonical program `A195177.P651983526202513123` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195177 has offset 0).
 
 The definition of A195177 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*n-floor(2*n*sqrt(2))` (program `A195177.P651983526202513123`, by `A195177.P651983526202513123.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14613,7 +14582,7 @@ The definition of A195177 is `verified`: the Lean definition is proven equivalen
 
 `3*n-floor(2*n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195177
@@ -14779,7 +14748,7 @@ end A195177
 /-!
 # A195178: a(n) = 4*n - floor(2*n*sqrt(2)).
 
-The programs for A195178, the canonical program `A195178.P13129221249738795055` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195178 has offset 0).
+The programs for A195178, the canonical program `A195178.P13129221249738795055` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195178 has offset 0).
 
 The definition of A195178 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*n-floor(2*n*sqrt(2))` (program `A195178.P13129221249738795055`, by `A195178.P13129221249738795055.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14788,7 +14757,7 @@ The definition of A195178 is `verified`: the Lean definition is proven equivalen
 
 `4*n-floor(2*n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195178
@@ -15064,7 +15033,7 @@ end A195178
 /-!
 # A195179: a(n) = 5*n - floor(2*n*sqrt(2)).
 
-The programs for A195179, the canonical program `A195179.P15459766949902108573` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195179 has offset 0).
+The programs for A195179, the canonical program `A195179.P15459766949902108573` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195179 has offset 0).
 
 The definition of A195179 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n-floor(2*n*sqrt(2))` (program `A195179.P15459766949902108573`, by `A195179.P15459766949902108573.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15073,7 +15042,7 @@ The definition of A195179 is `verified`: the Lean definition is proven equivalen
 
 `5*n-floor(2*n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195179
@@ -15216,7 +15185,7 @@ end A195179
 /-!
 # A195180: a(n) = 5*n - floor(3*n*sqrt(2)).
 
-The programs for A195180, the canonical program `A195180.P11712917834602884078` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195180 has offset 0).
+The programs for A195180, the canonical program `A195180.P11712917834602884078` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195180 has offset 0).
 
 The definition of A195180 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n-floor(3*n*sqrt(2))` (program `A195180.P11712917834602884078`, by `A195180.P11712917834602884078.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15225,7 +15194,7 @@ The definition of A195180 is `verified`: the Lean definition is proven equivalen
 
 `5*n-floor(3*n*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195180
@@ -15468,7 +15437,7 @@ end A195181
 /-!
 # A195182: a(n) = 6*n - floor(2*n*e).
 
-The programs for A195182, the canonical program `A195182.P2082398744835701677` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195182 has offset 0).
+The programs for A195182, the canonical program `A195182.P2082398744835701677` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195182 has offset 0).
 
 The definition of A195182 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6*n-floor(2*n*e)` (program `A195182.P2082398744835701677`, by `A195182.P2082398744835701677.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15477,7 +15446,7 @@ The definition of A195182 is `verified`: the Lean definition is proven equivalen
 
 `6*n-floor(2*n*e)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195182
@@ -16448,7 +16417,7 @@ end A195196.P5758074825923536703
 /-!
 # A195198: Characteristic function of squares or three times squares.
 
-The programs for A195198, the canonical program `A195198.P16259848613954439039` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195198 has offset 0).
+The programs for A195198, the canonical program `A195198.P16259848613954439039` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195198 has offset 0).
 
 The definition of A195198 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16457,7 +16426,7 @@ The definition of A195198 is `conjectured`: the Lean definition is a formula tha
 
 `char[∪[3*n², n²]]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A195198

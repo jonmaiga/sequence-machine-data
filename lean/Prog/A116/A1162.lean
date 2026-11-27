@@ -4,17 +4,16 @@ import Seq.B000.C001
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C036
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C027
+import Seq.B000.C033
+import Seq.B000.C038
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -23,16 +22,17 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C001
+import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -46,7 +46,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C023
 
@@ -1279,21 +1278,6 @@ end
 
 end A116226.P5287501873855514513
 
-/-! ## A116226.P4600143754833078159
-
-`-1+A115446(n+1)`
--/
-
-namespace A116226.P4600143754833078159
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A115446 (n + 1)
-
-end
-
-end A116226.P4600143754833078159
-
 /-! ## A116226.P7669903495037537806
 
 `record[A115446(A126759(n))-1]`
@@ -1401,21 +1385,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116227.P2608350156951073524
-
-/-! ## A116227.P11603526033221834204
-
-`-1+A116247(n+1)`
--/
-
-namespace A116227.P11603526033221834204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116247 (n + 1)
-
-end
-
-end A116227.P11603526033221834204
 
 /-! ## A116227.P15810998508115394146
 
@@ -1554,21 +1523,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116229.P4668995552965892111
-
-/-! ## A116229.P13206532975508155310
-
-`-1+A116260(n+1)`
--/
-
-namespace A116229.P13206532975508155310
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116260 (n + 1)
-
-end
-
-end A116229.P13206532975508155310
 
 /-! ## A116229.P13878919711661928886
 
@@ -2035,21 +1989,6 @@ end
 
 end A116241.P9475730522601001253
 
-/-! ## A116241.P2855169827613111413
-
-`-1+A116251(n+2)`
--/
-
-namespace A116241.P2855169827613111413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116251 (n + 2)
-
-end
-
-end A116241.P2855169827613111413
-
 /-!
 # A116242: Numbers k such that k*(k+6) gives the concatenation of two numbers m and m-7.
 
@@ -2245,21 +2184,6 @@ end
 
 end A116244.P7698908585325843073
 
-/-! ## A116244.P376929288548895687
-
-`-1+A116290(n+2)`
--/
-
-namespace A116244.P376929288548895687
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116290 (n + 2)
-
-end
-
-end A116244.P376929288548895687
-
 /-! ## A116244.P564808378315814689
 
 `A023443(A116290(n+2))`
@@ -2392,21 +2316,6 @@ end
 
 end A116247.P7562302628579245467
 
-/-! ## A116247.P7421593994851489978
-
-`-1+A115444(n+1)`
--/
-
-namespace A116247.P7421593994851489978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A115444 (n + 1)
-
-end
-
-end A116247.P7421593994851489978
-
 /-! ## A116247.P4330120172028568013
 
 `record[A115444(A126759(n))-1]`
@@ -2461,21 +2370,6 @@ end
 
 end A116248.P13670338010404510931
 
-/-! ## A116248.P16787050798234465608
-
-`-1+A116266(n+2)`
--/
-
-namespace A116248.P16787050798234465608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116266 (n + 2)
-
-end
-
-end A116248.P16787050798234465608
-
 /-! ## A116248.P3009262443498414722
 
 `record[A115442(gcd(n, A000038(n)))-1]-1`
@@ -2514,21 +2408,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116250.P12635205862722792182
-
-/-! ## A116250.P10371070947306285892
-
-`-1+A116289(n+2)`
--/
-
-namespace A116250.P10371070947306285892
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116289 (n + 2)
-
-end
-
-end A116250.P10371070947306285892
 
 /-! ## A116250.P16349616290285875539
 
@@ -2580,21 +2459,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116252.P10937015187233212502
-
-/-! ## A116252.P2562743625129073098
-
-`-1+A115443(n+1)`
--/
-
-namespace A116252.P2562743625129073098
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A115443 (n + 1)
-
-end
-
-end A116252.P2562743625129073098
 
 /-! ## A116252.P9693125979277665819
 
@@ -3068,21 +2932,6 @@ end
 
 end A116261.P350221816683745578
 
-/-! ## A116261.P10258054314062025242
-
-`-1+A116287(n+1)`
--/
-
-namespace A116261.P10258054314062025242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116287 (n + 1)
-
-end
-
-end A116261.P10258054314062025242
-
 /-! ## A116261.P13202807168143349650
 
 `record[A116287(A126759(n))-1]`
@@ -3167,21 +3016,6 @@ end
 
 end A116262.P15487821979899777595
 
-/-! ## A116262.P10793966424208384280
-
-`-1+A116297(n+3)`
--/
-
-namespace A116262.P10793966424208384280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116297 (n + 3)
-
-end
-
-end A116262.P10793966424208384280
-
 /-!
 # A116263: n times n+7 gives the concatenation of two numbers m and m-4.
 
@@ -3232,21 +3066,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116263.P11952953069334734919
-
-/-! ## A116263.P7186030856892825613
-
-`-1+A116303(n+2)`
--/
-
-namespace A116263.P7186030856892825613
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116303 (n + 2)
-
-end
-
-end A116263.P7186030856892825613
 
 /-!
 # A116264: n times n+9 gives the concatenation of two numbers m and m-4.
@@ -3325,21 +3144,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116266.P6290281804756029382
-
-/-! ## A116266.P9092332734146402422
-
-`-1+A115442(n+1)`
--/
-
-namespace A116266.P9092332734146402422
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A115442 (n + 1)
-
-end
-
-end A116266.P9092332734146402422
 
 /-! ## A116266.P633667654209908637
 
@@ -3659,21 +3463,6 @@ end
 
 end A116273.P17728925153441174733
 
-/-! ## A116273.P4525858901570649681
-
-`-1+A054216(n+1)`
--/
-
-namespace A116273.P4525858901570649681
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A054216 (n + 1)
-
-end
-
-end A116273.P4525858901570649681
-
 /-! ## A116273.P17201586750087076819
 
 `record[A054216(A126759(n))-1]`
@@ -3968,21 +3757,6 @@ end
 
 end A116280.P2136513518260473538
 
-/-! ## A116280.P11190132364005252200
-
-`-1+A116294(n+2)`
--/
-
-namespace A116280.P11190132364005252200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116294 (n + 2)
-
-end
-
-end A116280.P11190132364005252200
-
 /-!
 # A116281: Numbers k such that k*(k+5) gives the concatenation of two numbers m and m-1.
 
@@ -4174,21 +3948,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116284.P12857385900096076985
-
-/-! ## A116284.P3422227766100669610
-
-`-1+A116340(n+2)`
--/
-
-namespace A116284.P3422227766100669610
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A116340 (n + 2)
-
-end
-
-end A116284.P3422227766100669610
 
 /-!
 # A116285: Numbers k such that k * (k+1) is the concatenation of a number m with itself.

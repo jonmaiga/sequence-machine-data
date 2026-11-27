@@ -7,31 +7,31 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,14 +53,15 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1009,27 +1010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236827.P8313497681609692406
-
-/-!
-# A236829: Number T(n,k) of equivalence classes of ways of placing k 6 X 6 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=6, 0<=k<=floor(n/6)^2, read by rows.
-
-The programs for A236829, there is no canonical definition to state claims against.
--/
-
-/-! ## A236829.P15710064945274924325
-
-`A236939(n)`
--/
-
-namespace A236829.P15710064945274924325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236939 (n + 10)
-
-end
-
-end A236829.P15710064945274924325
 
 /-!
 # A236831: Number of ordered ways to write n = p + q with q > 0 such that p, p + 2 and p + prime(q) + 1 are all prime.
@@ -3643,21 +3623,6 @@ end
 
 end A236846.P14300023343673241454
 
-/-! ## A236846.P17360618450238672623
-
-`A236847(n)`
--/
-
-namespace A236846.P17360618450238672623
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236847 n
-
-end
-
-end A236846.P17360618450238672623
-
 /-!
 # A236848: Numbers that have at least one prime divisor encoding a reducible polynomial in ring GF(2)[X]; multiples of terms of A091209.
 
@@ -4207,21 +4172,6 @@ end
 
 end A236853.P14548342876490322225
 
-/-! ## A236853.P5047863831846044557
-
-`A236862(n)`
--/
-
-namespace A236853.P5047863831846044557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236862 n
-
-end
-
-end A236853.P5047863831846044557
-
 /-! ## A236853.P18094777627708365122
 
 `char[fo[A236846(n)]]`
@@ -4339,21 +4289,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236854.P509012475275609440
-
-/-! ## A236854.P7731635937301937458
-
-`A227413(A237427(n+1))`
--/
-
-namespace A236854.P7731635937301937458
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227413 (A237427 (n + 1)).toNat
-
-end
-
-end A236854.P7731635937301937458
 
 /-!
 # A236855: a(n) is the sum of digits in A239903(n).
@@ -4956,7 +4891,7 @@ end A236856
 /-!
 # A236857: Each n occurs the least common multiple (LCM) of {1, 2, ..., n} (= A003418(n)) times.
 
-The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
+The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
 
 The definition of A236857 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4965,7 +4900,7 @@ The definition of A236857 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[lcm(n, a(n-1))]]]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A236857

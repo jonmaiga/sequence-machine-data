@@ -8,7 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -20,9 +20,9 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -31,13 +31,15 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -49,18 +51,18 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.Opaque.C000
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C007
+import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C017
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -136,29 +138,6 @@ namespace A010900
 /-- `round(a(n-1)²/a(n-2))` -/
 def P5345373536412480142.Spec : Prop :=
   ∀ n, P5345373536412480142.a n = A010900 n
-
-end A010900
-
-/-! ## A010900.P14788307711381559742
-
-`A274952(n)`
--/
-
-namespace A010900.P14788307711381559742
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274952 n
-
-end
-
-end A010900.P14788307711381559742
-
-namespace A010900
-
-/-- `A274952(n)` -/
-def P14788307711381559742.Spec : Prop :=
-  ∀ n, P14788307711381559742.a n = A010900 n
 
 end A010900
 
@@ -4473,29 +4452,6 @@ def P1220567768108517047.Spec : Prop :=
 
 end A010916
 
-/-! ## A010916.P9594060263256791461
-
-`A275627(n)`
--/
-
-namespace A010916.P9594060263256791461
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A275627 n
-
-end
-
-end A010916.P9594060263256791461
-
-namespace A010916
-
-/-- `A275627(n)` -/
-def P9594060263256791461.Spec : Prop :=
-  ∀ n, P9594060263256791461.a n = A010916 n
-
-end A010916
-
 /-! ## A010916.P10951220790229242210
 
 `A385880(A026960(n+1))`
@@ -4810,29 +4766,6 @@ namespace A010919
 /-- `ceil(a(n-1)²/a(n-2))-1` -/
 def P14514449319728016335.Spec : Prop :=
   ∀ n, P14514449319728016335.a n = A010919 n
-
-end A010919
-
-/-! ## A010919.P15116281390654038793
-
-`A022029(n)`
--/
-
-namespace A010919.P15116281390654038793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022029 n
-
-end
-
-end A010919.P15116281390654038793
-
-namespace A010919
-
-/-- `A022029(n)` -/
-def P15116281390654038793.Spec : Prop :=
-  ∀ n, P15116281390654038793.a n = A010919 n
 
 end A010919
 
@@ -5352,29 +5285,6 @@ namespace A010925
 /-- `ceil(a(n-1)²/a(n-2))-1` -/
 def P13992604033856814729.Spec : Prop :=
   ∀ n, P13992604033856814729.a n = A010925 n
-
-end A010925
-
-/-! ## A010925.P8499889744946942178
-
-`A019992(n)`
--/
-
-namespace A010925.P8499889744946942178
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019992 n
-
-end
-
-end A010925.P8499889744946942178
-
-namespace A010925
-
-/-- `A019992(n)` -/
-def P8499889744946942178.Spec : Prop :=
-  ∀ n, P8499889744946942178.a n = A010925 n
 
 end A010925
 

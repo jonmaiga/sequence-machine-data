@@ -15,26 +15,27 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C031
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C042
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,6 +56,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -66,15 +68,15 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +93,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -3356,24 +3357,6 @@ end
 
 end A031127.P15500262389295057642
 
-/-! ## A031127.P13653863772425541449
-
-`A033999(Δ[n*n])+A000465(n)`
--/
-
-namespace A031127.P13653863772425541449
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033999 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat + A000465 n
-
-end
-
-end A031127.P13653863772425541449
-
 /-! ## A031127.P12573843404666361157
 
 `A023443(A000465(n))`
@@ -5188,29 +5171,6 @@ def P15238951982546735835.Spec : Prop :=
 
 end A031146
 
-/-! ## A031146.P13584546144885949379
-
-`A330790(n+1)`
--/
-
-namespace A031146.P13584546144885949379
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330790 (n + 1)
-
-end
-
-end A031146.P13584546144885949379
-
-namespace A031146
-
-/-- `A330790(n+1)` -/
-def P13584546144885949379.Spec : Prop :=
-  ∀ n, P13584546144885949379.a n = A031146 n
-
-end A031146
-
 /-!
 # A031147: Smallest power of 2 containing exactly n zeros.
 
@@ -6397,21 +6357,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031158.P15932677648542981785
-
-/-! ## A031158.P9493133675277872026
-
-`-1+A031160(n+1)`
--/
-
-namespace A031158.P9493133675277872026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A031160 (n + 1)
-
-end
-
-end A031158.P9493133675277872026
 
 /-! ## A031158.P18063548587602739077
 
@@ -15191,51 +15136,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031193.P278535931271810460
-
-/-! ## A031193.P4130214621004407948
-
-`3*(n+1)`
--/
-
-namespace A031193.P4130214621004407948
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * (n + 1)
-
-end
-
-end A031193.P4130214621004407948
-
-/-! ## A031193.P11706692456187253069
-
-`1+A016789(n)`
--/
-
-namespace A031193.P11706692456187253069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A016789 n
-
-end
-
-end A031193.P11706692456187253069
-
-/-! ## A031193.P529235097342276882
-
-`A016777(n)+2`
--/
-
-namespace A031193.P529235097342276882
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016777 n + 2
-
-end
-
-end A031193.P529235097342276882
 
 /-! ## A031193.P15944006715479170923
 

@@ -14,6 +14,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -24,12 +25,11 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -37,16 +37,16 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -74,6 +74,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -82,8 +83,10 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -2487,7 +2490,7 @@ end A007509.P3606051613078585175
 /-!
 # A007510: Single (or isolated or non-twin) primes: Primes p such that neither p-2 nor p+2 is prime.
 
-The programs for A007510, the canonical program `A007510.P12699692636498883418` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007510 has offset 1).
+The programs for A007510, the canonical program `A007510.P12699692636498883418` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007510 has offset 1).
 
 The definition of A007510 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A176656, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2496,7 +2499,7 @@ The definition of A007510 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A176656(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A007510
@@ -5022,30 +5025,30 @@ def P1529481798339303074.Spec : Prop :=
 
 end A007520
 
-/-! ## A007520.P9791343789241252400
+/-! ## A007520.P1345759882619238000
 
-`A186298(n+1)+2`
+`2+A186298(n+1)`
 -/
 
-namespace A007520.P9791343789241252400
+namespace A007520.P1345759882619238000
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186298 (n + 1) + 2
+  2 + A186298 (n + 1)
 
 end
 
-end A007520.P9791343789241252400
+end A007520.P1345759882619238000
 
 namespace A007520
 
-/-- `A186298(n+1)+2` -/
-def P9791343789241252400.Spec : Prop :=
-  ∀ n, P9791343789241252400.a n = A007520 (n + 1)
+/-- `2+A186298(n+1)` -/
+def P1345759882619238000.Spec : Prop :=
+  ∀ n, P1345759882619238000.a n = A007520 (n + 1)
 
-theorem P9791343789241252400.correct : P9791343789241252400.Spec := by
+theorem P1345759882619238000.correct : P1345759882619238000.Spec := by
   intro n
-  simp only [A007520, Nat.add_sub_cancel, A007520.P9791343789241252400.a, A007520.P9970468352635506010.f1, A007520.P9970468352635506010.a, A186298, A186298.P971007839183561830.a, SequenceMachineLib.memo_apply]
+  simp only [A007520, Nat.add_sub_cancel, A007520.P1345759882619238000.a, A007520.P9970468352635506010.f1, A007520.P9970468352635506010.a, A186298, A186298.P971007839183561830.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8770,36 +8773,6 @@ end A007531
 The programs for A007532, there is no canonical definition to state claims against.
 -/
 
-/-! ## A007532.P13758883441234542130
-
-`A061862(n+2)`
--/
-
-namespace A007532.P13758883441234542130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061862 (n + 2)
-
-end
-
-end A007532.P13758883441234542130
-
-/-! ## A007532.P6536678717028991190
-
-`A134703(n+2)`
--/
-
-namespace A007532.P6536678717028991190
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134703 (n + 2)
-
-end
-
-end A007532.P6536678717028991190
-
 /-! ## A007532.P12653803097976872229
 
 `A048197(A342810(n+1))`
@@ -11351,21 +11324,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007562.P11151717539883107133
-
-/-! ## A007562.P7057510535919959999
-
-`A329699(n+1)`
--/
-
-namespace A007562.P7057510535919959999
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329699 (n + 1)
-
-end
-
-end A007562.P7057510535919959999
 
 /-! ## A007562.P4084032850963880194
 

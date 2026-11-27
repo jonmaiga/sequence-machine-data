@@ -13,29 +13,31 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C045
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,11 +56,12 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -68,11 +71,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,6 +84,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -246,27 +246,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247707.P3267938547031893696
-
-/-!
-# A247710: Number T(n,k) of tilings of a 5 X n rectangle with pentominoes of any shape and exactly k pentominoes of shape W; triangle T(n,k), n>=0, 0<=k<=max(0,floor((n-2)/2)*2) read by rows.
-
-The programs for A247710, there is no canonical definition to state claims against.
--/
-
-/-! ## A247710.P3329312731718248338
-
-`A247774(n)`
--/
-
-namespace A247710.P3329312731718248338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247774 n
-
-end
-
-end A247710.P3329312731718248338
 
 /-!
 # A247711: Number T(n,k) of tilings of a 5 X n rectangle with pentominoes of any shape and exactly k pentominoes of shape X; triangle T(n,k), n>=0, read by rows.
@@ -467,16 +446,39 @@ end A247718.P17108137043769404116
 /-!
 # A247720: Number of length n+3 0..2 arrays with no disjoint pairs in any consecutive four terms having the same sum.
 
-The programs for A247720, the canonical program `A247720.P14333623328461256008` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247720 has offset 1).
+The programs for A247720, the canonical program `A247720.P14333623328461256008` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247720 has offset 1).
 
 The definition of A247720 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 327 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A247720.P6904063893694618223
+
+`ogf((48-6x-8x^2-10x^3-108x^4)/(1-2x-2x^4+4x^5))`
+-/
+
+namespace A247720.P6904063893694618223
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [48, -6, -8, -10, -108] [1, -2, 0, 0, -2, 4] n
+
+end
+
+end A247720.P6904063893694618223
+
+namespace A247720
+
+/-- `ogf((48-6x-8x^2-10x^3-108x^4)/(1-2x-2x^4+4x^5))` -/
+def P6904063893694618223.Spec : Prop :=
+  ∀ n, P6904063893694618223.a n = A247720 (n + 1)
+
+end A247720
 
 /-! ## A247720.P14333623328461256008
 
 `2*a(n-1)+2*a(n-4)-4*a(n-5)` with `a(0)=48, a(1)=90, a(2)=172, a(3)=334, a(4)=656`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A247720
@@ -784,7 +786,7 @@ end A247725.P2076171243135130125
 /-!
 # A247727: Number of length 1+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum.
 
-The programs for A247727, the canonical program `A247727.P1820377216581337255` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247727 has offset 1).
+The programs for A247727, the canonical program `A247727.P1820377216581337255` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247727 has offset 1).
 
 The definition of A247727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -793,7 +795,7 @@ The definition of A247727 is `conjectured`: the Lean definition is a formula tha
 
 `8*C(1+∑[1+n], 2)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A247727
@@ -1287,7 +1289,7 @@ end A247727
 /-!
 # A247728: Number of length 2+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum.
 
-The programs for A247728, the canonical program `A247728.P13563905570788399968` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247728 has offset 1).
+The programs for A247728, the canonical program `A247728.P13563905570788399968` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247728 has offset 1).
 
 The definition of A247728 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1296,7 +1298,7 @@ The definition of A247728 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((8+58x+128x^2+160x^3+80x^4+46x^5)/(1-4x+4x^2+4x^3-10x^4+4x^5+4x^6-4x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A247728
@@ -4450,7 +4452,7 @@ end A247783.P7786962642923551444
 /-!
 # A247784: a(n) = floor(1/(e - (1 + 1/n)^n)).
 
-The programs for A247784, the canonical program `A247784.P10901521591986100322` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247784 has offset 1).
+The programs for A247784, the canonical program `A247784.P10901521591986100322` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247784 has offset 1).
 
 The definition of A247784 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(1/(e-(1+1/(n+1))^(n+1)))` (program `A247784.P10901521591986100322`, by `A247784.P10901521591986100322.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4459,7 +4461,7 @@ The definition of A247784 is `verified`: the Lean definition is proven equivalen
 
 `floor(1/(e-(1+1/(n+1))^(n+1)))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A247784
@@ -4580,29 +4582,6 @@ namespace A247784
 /-- `a(n-1)+C(n+1, A247778(a(n-1)+1))` -/
 def P1190753987094624576.Spec : Prop :=
   ∀ n, (P1190753987094624576.a n : ℤ) = A247784 (n + 1)
-
-end A247784
-
-/-! ## A247784.P16267515009226020950
-
-`A054404(2*n+3)`
--/
-
-namespace A247784.P16267515009226020950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054404 (2 * n + 3)
-
-end
-
-end A247784.P16267515009226020950
-
-namespace A247784
-
-/-- `A054404(2*n+3)` -/
-def P16267515009226020950.Spec : Prop :=
-  ∀ n, P16267515009226020950.a n = A247784 (n + 1)
 
 end A247784
 
@@ -5548,7 +5527,7 @@ end A247789.P10495501597295561197
 /-!
 # A247792: a(n) = 9*n^2 + 1.
 
-The programs for A247792, the canonical program `A247792.P16742175569055729181` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247792 has offset 0).
+The programs for A247792, the canonical program `A247792.P16742175569055729181` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247792 has offset 0).
 
 The definition of A247792 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*n²+1` (program `A247792.P16742175569055729181`, by `A247792.P16742175569055729181.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5586,7 +5565,7 @@ end A247792
 
 `9*n²+1`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A247792
@@ -6460,21 +6439,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247797.P11509608403313298222
-
-/-! ## A247797.P1444760370159596189
-
-`A069678(A250552(n+1))`
--/
-
-namespace A247797.P1444760370159596189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069678 (A250552 (n + 1)).toNat
-
-end
-
-end A247797.P1444760370159596189
 
 /-!
 # A247798: n-th positive integer relatively prime to 2*n - 1.

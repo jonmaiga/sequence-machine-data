@@ -2,6 +2,8 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -17,12 +19,12 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -34,25 +36,25 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
 import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C045
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
@@ -60,12 +62,10 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +79,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -86,6 +87,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
@@ -95,6 +97,21 @@ import SequenceMachineLib.Triangle
 
 The programs for A251500, there is no canonical definition to state claims against.
 -/
+
+/-! ## A251500.P5177438158183052241
+
+`ogf((226+312x-312x^2-384x^3)/(1-13x-21x^2+18x^3+24x^4))`
+-/
+
+namespace A251500.P5177438158183052241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [226, 312, -312, -384] [1, -13, -21, 18, 24] n
+
+end
+
+end A251500.P5177438158183052241
 
 /-! ## A251500.P12229936137810055740
 
@@ -167,24 +184,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A251500.P1174922075401842982
-
-/-! ## A251500.P8242642119665637485
-
-`record[gcd(A025581(n), A251507(n+1))]`
--/
-
-namespace A251500.P8242642119665637485
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A025581 n) (A251507 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A251500.P8242642119665637485
 
 /-!
 # A251501: Number of (n+1)X(2+1) 0..3 arrays with every 2X2 subblock summing to 3 4 5 6 7 8 or 9.
@@ -639,6 +638,21 @@ end A251516.P11403724794930422662
 The programs for A251517, there is no canonical definition to state claims against.
 -/
 
+/-! ## A251517.P4515064242040029333
+
+`ogf((246+108x-320x^2)/(1-15x-8x^2+20x^3))`
+-/
+
+namespace A251517.P4515064242040029333
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [246, 108, -320] [1, -15, -8, 20] n
+
+end
+
+end A251517.P4515064242040029333
+
 /-! ## A251517.P12954947263638078746
 
 `A251524(∑[n]+1)`
@@ -710,24 +724,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A251517.P1322252113306883335
-
-/-! ## A251517.P16915140750609063392
-
-`record[A023531(n)*A251524(n+1)]`
--/
-
-namespace A251517.P16915140750609063392
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023531 n * A251524 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A251517.P16915140750609063392
 
 /-!
 # A251518: Number of (n+1)X(2+1) 0..3 arrays with every 2X2 subblock summing to 2 3 4 5 6 7 8 9 or 10.
@@ -4319,7 +4315,7 @@ end A251559.P15906840192650177356
 /-!
 # A251561: A permutation of the natural numbers: interchange p and 2p for every prime p.
 
-The programs for A251561, the canonical program `A251561.P11728925685089686627` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251561 has offset 1).
+The programs for A251561, the canonical program `A251561.P11728925685089686627` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251561 has offset 1).
 
 The definition of A251561 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4328,7 +4324,7 @@ The definition of A251561 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*(C(n, ∏{e}[n+1, n*#])+1)/(A353478(n+1)+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A251561
@@ -5377,7 +5373,7 @@ end A251582.P495862747984940981
 /-!
 # A251583: a(n) = 3^(n-1) * (n+1)^(n-3) * (n+3).
 
-The programs for A251583, the canonical program `A251583.P8910026891617991750` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251583 has offset 0).
+The programs for A251583, the canonical program `A251583.P8910026891617991750` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251583 has offset 0).
 
 The definition of A251583 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251583.anchor (n : ℕ) : (A251583 n : ℚ) = (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (n + 1 : ℚ) ^ ((n : ℤ) - 3 : ℤ) * (n + 3 : ℚ)` in `Proof.A251.A251583`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5386,7 +5382,7 @@ The definition of A251583 is `verified`: an anchor theorem with a hand-written p
 
 `3^(n-1)*(n+1)^(n-3)*(n+3)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251583
@@ -5400,7 +5396,7 @@ end A251583
 /-!
 # A251584: a(n) = 4^(n-2) * (n+1)^(n-4) * (3*n^2 + 13*n + 16).
 
-The programs for A251584, the canonical program `A251584.P7515185479979683614` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251584 has offset 0).
+The programs for A251584, the canonical program `A251584.P7515185479979683614` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251584 has offset 0).
 
 The definition of A251584 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251584.anchor (n : ℕ) : (A251584 n : ℚ) = (4 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (n + 1 : ℚ) ^ ((n : ℤ) - 4 : ℤ) * (3 * n ^ 2 + 13 * n + 16 : ℚ)` in `Proof.A251.A251584`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5409,7 +5405,7 @@ The definition of A251584 is `verified`: an anchor theorem with a hand-written p
 
 `4^(n-2)*(n+1)^(n-4)*(3*n²+13*n+16)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251584
@@ -5423,7 +5419,7 @@ end A251584
 /-!
 # A251585: a(n) = 5^(n-3) * (n+1)^(n-5) * (16*n^3 + 87*n^2 + 172*n + 125).
 
-The programs for A251585, the canonical program `A251585.P11109566970301105775` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251585 has offset 0).
+The programs for A251585, the canonical program `A251585.P11109566970301105775` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251585 has offset 0).
 
 The definition of A251585 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251585.anchor (n : ℕ) : (A251585 n : ℚ) = (5 : ℚ) ^ ((n : ℤ) - 3 : ℤ) * (n + 1 : ℚ) ^ ((n : ℤ) - 5 : ℤ) * (16 * n ^ 3 + 87 * n ^ 2 + 172 * n + 125 : ℚ)` in `Proof.A251.A251585`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5432,7 +5428,7 @@ The definition of A251585 is `verified`: an anchor theorem with a hand-written p
 
 `5^(n-3)*(n+1)^(n-5)*(16*n^3+87*n²+172*n+125)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251585
@@ -5906,7 +5902,7 @@ end A251598.P18068635543759487858
 /-!
 # A251599: Centers of rows of the triangular array formed by the natural numbers.
 
-The programs for A251599, the canonical program `A251599.P4941933345872631924` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251599 has offset 1).
+The programs for A251599, the canonical program `A251599.P4941933345872631924` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251599 has offset 1).
 
 The definition of A251599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5915,7 +5911,7 @@ The definition of A251599 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+x^4-x^5+x^6)/(1-x-2x^3+2x^4+x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251599

@@ -11,27 +11,29 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C030
 import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C040
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C046
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,6 +52,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -62,13 +65,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -87,6 +89,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -244,51 +247,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122201.P980488424266613279
-
-/-! ## A122201.P1227251084356695267
-
-`A122202(n)`
--/
-
-namespace A122201.P1227251084356695267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122202 n
-
-end
-
-end A122201.P1227251084356695267
-
-/-! ## A122201.P17414845854451356622
-
-`A122285(n)`
--/
-
-namespace A122201.P17414845854451356622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122285 n
-
-end
-
-end A122201.P17414845854451356622
-
-/-! ## A122201.P7042878523563701618
-
-`A122286(n)`
--/
-
-namespace A122201.P7042878523563701618
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122286 n
-
-end
-
-end A122201.P7042878523563701618
 
 /-!
 # A122202: Signature permutations of KROF-transformations of non-recursive Catalan automorphisms in table A089840.
@@ -1953,7 +1911,7 @@ end A122218
 
 The programs for A122219, the canonical program `A122219.P1460934616381314599` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122219 has offset 0).
 
-The definition of A122219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A122219 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A122219.anchor (n : ℕ) : A122219 n = [5, 4, 5, 4, 3, 4, 5, 4, 5].getD (n % 9) 0` in `Proof.A122.A122219`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A122219.P1460934616381314599
@@ -7026,7 +6984,7 @@ end A122258
 /-!
 # A122259: Primes p such that p - 1 is not 3-smooth.
 
-The programs for A122259, the canonical program `A122259.P14863377937943997555` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122259 has offset 1).
+The programs for A122259, the canonical program `A122259.P14863377937943997555` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122259 has offset 1).
 
 The definition of A122259 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9968 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7035,7 +6993,7 @@ The definition of A122259 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(lt[3, A006530(A005097(n+1))]+2)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122259
@@ -10703,21 +10661,6 @@ end
 
 end A122290.P17074369078993838595
 
-/-! ## A122290.P13782799114216695183
-
-`A122289(n)`
--/
-
-namespace A122290.P13782799114216695183
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122289 n
-
-end
-
-end A122290.P13782799114216695183
-
 /-!
 # A122291: Row 10 of A122201.
 
@@ -10771,36 +10714,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122291.P5648943421874847827
-
-/-! ## A122291.P62549916048332559
-
-`A130939(n)`
--/
-
-namespace A122291.P62549916048332559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130939 n
-
-end
-
-end A122291.P62549916048332559
-
-/-! ## A122291.P13334534361899659892
-
-`A130390(n)`
--/
-
-namespace A122291.P13334534361899659892
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130390 n
-
-end
-
-end A122291.P13334534361899659892
 
 /-!
 # A122292: Row 10 of A122202.
@@ -10955,21 +10868,6 @@ end
 
 end A122293.P11198959344035349457
 
-/-! ## A122293.P4301648835299079248
-
-`A130388(n)`
--/
-
-namespace A122293.P4301648835299079248
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130388 n
-
-end
-
-end A122293.P4301648835299079248
-
 /-!
 # A122294: Row 9 of A122202.
 
@@ -11023,36 +10921,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122294.P332108187755173467
-
-/-! ## A122294.P4645309369487653855
-
-`A130387(n)`
--/
-
-namespace A122294.P4645309369487653855
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130387 n
-
-end
-
-end A122294.P4645309369487653855
-
-/-! ## A122294.P2591701813291214673
-
-`A130938(n)`
--/
-
-namespace A122294.P2591701813291214673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130938 n
-
-end
-
-end A122294.P2591701813291214673
 
 /-!
 # A122295: Row 13 of A122201.

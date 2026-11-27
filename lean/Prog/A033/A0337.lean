@@ -16,23 +16,22 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +47,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -58,18 +57,17 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1441,7 +1439,7 @@ end A033714
 /-!
 # A033715: Number of integer solutions (x, y) to the equation x^2 + 2y^2 = n.
 
-The programs for A033715, the canonical program `A033715.P6517919621530533375` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033715 has offset 0).
+The programs for A033715, the canonical program `A033715.P6517919621530533375` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033715 has offset 0).
 
 The definition of A033715 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028572, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1496,7 +1494,7 @@ end A033715
 
 `A028572(4*n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A033715
@@ -2355,21 +2353,6 @@ end
 
 end A033718.P819491346441026708
 
-/-! ## A033718.P4777591538161515780
-
-`A033737(n)`
--/
-
-namespace A033718.P4777591538161515780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033737 n
-
-end
-
-end A033718.P4777591538161515780
-
 /-! ## A033718.P3296603949584880630
 
 `A010879(A000141(n))`
@@ -2706,21 +2689,6 @@ end
 
 end A033720.P16094079114128874114
 
-/-! ## A033720.P13235336757207598116
-
-`A033728(n)`
--/
-
-namespace A033720.P13235336757207598116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033728 n
-
-end
-
-end A033720.P13235336757207598116
-
 /-!
 # A033721: Product theta3(q^d); d | 9.
 
@@ -2946,36 +2914,6 @@ end
 
 end A033723.P9710706995149846893
 
-/-! ## A033723.P2196614868887036372
-
-`((-1)^n*A286346(n))%11`
--/
-
-namespace A033723.P2196614868887036372
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((-1) ^ n * A286346 n) 11
-
-end
-
-end A033723.P2196614868887036372
-
-/-! ## A033723.P11229804579017223061
-
-`A000145(n)%22`
--/
-
-namespace A033723.P11229804579017223061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000145 n) 22
-
-end
-
-end A033723.P11229804579017223061
-
 /-! ## A033723.P17336834296519667551
 
 `A033729(A118767(n+1))`
@@ -3071,27 +3009,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033725.P3565869689736120287
-
-/-!
-# A033728: Product theta3(q^d); d | 16.
-
-The programs for A033728, there is no canonical definition to state claims against.
--/
-
-/-! ## A033728.P12176805489330130524
-
-`A033744(n)`
--/
-
-namespace A033728.P12176805489330130524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033744 n
-
-end
-
-end A033728.P12176805489330130524
 
 /-!
 # A033729: Expansion of Product_{d | 17} theta_3(q^d).
@@ -3398,21 +3315,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033736.P6978597172070107169
-
-/-! ## A033736.P12230464145073848680
-
-`A033760(n)`
--/
-
-namespace A033736.P12230464145073848680
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033760 n
-
-end
-
-end A033736.P12230464145073848680
 
 /-!
 # A033737: Expansion of Product_{d | 25} theta_3(q^d).
@@ -3984,21 +3886,6 @@ end A033748.P16859688958811217548
 
 The programs for A033749, there is no canonical definition to state claims against.
 -/
-
-/-! ## A033749.P13363551901350485636
-
-`A033759(A032521(n))`
--/
-
-namespace A033749.P13363551901350485636
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033759 (A032521 n).toNat
-
-end
-
-end A033749.P13363551901350485636
 
 /-! ## A033749.P9661257728003124613
 
@@ -5236,21 +5123,6 @@ end
 
 end A033763.P990641605929124703
 
-/-! ## A033763.P9488381460905623080
-
-`A246833(2*n+1)/(-2)`
--/
-
-namespace A033763.P9488381460905623080
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A246833 (2 * n + 1) : ℚ) / (-2)
-
-end
-
-end A033763.P9488381460905623080
-
 /-! ## A033763.P9620449713014210647
 
 `A025427(15*n+14+n)`
@@ -5387,29 +5259,6 @@ namespace A033764
 /-- `A129390(Δ[n²])/2` -/
 def P9725936141408808768.Spec : Prop :=
   ∀ n, P9725936141408808768.a n = (A033764 n : ℚ)
-
-end A033764
-
-/-! ## A033764.P8110544411726168989
-
-`A129391(2*n+1)/(-2)`
--/
-
-namespace A033764.P8110544411726168989
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A129391 (2 * n + 1) : ℚ) / (-2)
-
-end
-
-end A033764.P8110544411726168989
-
-namespace A033764
-
-/-- `A129391(2*n+1)/(-2)` -/
-def P8110544411726168989.Spec : Prop :=
-  ∀ n, P8110544411726168989.a n = (A033764 n : ℚ)
 
 end A033764
 
@@ -5967,27 +5816,6 @@ end
 end A033774.P17750528220092794152
 
 /-!
-# A033775: Product t2(q^d); d | 16, where t2 = theta2(q)/(2*q^(1/4)).
-
-The programs for A033775, there is no canonical definition to state claims against.
--/
-
-/-! ## A033775.P6447793525918513373
-
-`A033791(n)`
--/
-
-namespace A033775.P6447793525918513373
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033791 n
-
-end
-
-end A033775.P6447793525918513373
-
-/-!
 # A033776: Product t2(q^d); d | 17, where t2 = theta2(q)/(2*q^(1/4)).
 
 The programs for A033776, there is no canonical definition to state claims against.
@@ -6250,21 +6078,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033782.P15542704643472938013
-
-/-! ## A033782.P4997185285164121094
-
-`and(1, A253183(2*n+6))`
--/
-
-namespace A033782.P4997185285164121094
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land 1 (A253183 (2 * n + 6))
-
-end
-
-end A033782.P4997185285164121094
 
 /-! ## A033782.P11863419802667629367
 
@@ -7048,21 +6861,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033796.P7150611923806398420
-
-/-! ## A033796.P5632115380422635781
-
-`A033806(A080036(n))`
--/
-
-namespace A033796.P5632115380422635781
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033806 (A080036 n).toNat
-
-end
-
-end A033796.P5632115380422635781
 
 /-! ## A033796.P5370757675729295725
 

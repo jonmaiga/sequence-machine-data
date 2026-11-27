@@ -8,16 +8,17 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C022
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C031
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -28,7 +29,7 @@ import Seq.B003.C001
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B007.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -40,7 +41,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -48,7 +48,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A013100: cosh(arcsinh(x)+tan(x))=1+4/2!*x^2+24/4!*x^4+534/6!*x^6+16520/8!*x^8...
@@ -550,21 +549,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A013133.P12872366317227141425
-
-/-! ## A013133.P14823956315138267843
-
-`A000079(n)*A139398(n)`
--/
-
-namespace A013133.P14823956315138267843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n * A139398 n
-
-end
-
-end A013133.P14823956315138267843
 
 /-! ## A013133.P8907820151658826793
 

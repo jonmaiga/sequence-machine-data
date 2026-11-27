@@ -9,29 +9,26 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C030
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +39,7 @@ import Seq.B001.C008
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -56,10 +53,9 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B008.C000
+import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5469,21 +5465,6 @@ end A040067.P10325282482742470524
 The programs for A040068, there is no canonical definition to state claims against.
 -/
 
-/-! ## A040068.P5923122191385590963
-
-`A354936(2*n+3)`
--/
-
-namespace A040068.P5923122191385590963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354936 (2 * n + 3)
-
-end
-
-end A040068.P5923122191385590963
-
 /-! ## A040068.P2130840474889281757
 
 `filter[A040066(n+1), A103582(#)]`
@@ -5682,21 +5663,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040070.P17121317743154393040
-
-/-! ## A040070.P8808381770492823811
-
-`A002476(A349690(n+2))`
--/
-
-namespace A040070.P8808381770492823811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002476 (A349690 (n + 2)).toNat
-
-end
-
-end A040070.P8808381770492823811
 
 /-! ## A040070.P8145350937037701114
 
@@ -6125,21 +6091,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040076.P8704425887916498304
-
-/-! ## A040076.P14227077751065835856
-
-`A225721(2+n)`
--/
-
-namespace A040076.P14227077751065835856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225721 (2 + n)
-
-end
-
-end A040076.P14227077751065835856
 
 /-!
 # A040078: Primes p such that x^3 = 17 has a solution mod p.

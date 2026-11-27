@@ -20,23 +20,24 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,17 +64,20 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -326,29 +330,6 @@ namespace A071403
 /-- `A112930(1+n)-1` -/
 def P10368150009244508500.Spec : Prop :=
   ∀ n, P10368150009244508500.a n = A071403 (n + 1)
-
-end A071403
-
-/-! ## A071403.P10250670372216677115
-
-`-1+A112930(n+1)`
--/
-
-namespace A071403.P10250670372216677115
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A112930 (n + 1)
-
-end
-
-end A071403.P10250670372216677115
-
-namespace A071403
-
-/-- `-1+A112930(n+1)` -/
-def P10250670372216677115.Spec : Prop :=
-  ∀ n, P10250670372216677115.a n = A071403 (n + 1)
 
 end A071403
 
@@ -1709,7 +1690,7 @@ end A071409.P2479825830594385305
 /-!
 # A071411: "Sum of n first primes" minus "sum of first n nonprimes".
 
-The programs for A071411, the canonical program `A071411.P1894007710603126055` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071411 has offset 1).
+The programs for A071411, the canonical program `A071411.P1894007710603126055` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071411 has offset 1).
 
 The definition of A071411 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051349, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1718,7 +1699,7 @@ The definition of A071411 is `conditional`: the Lean definition is an OEIS formu
 
 `A007504(n+1)-A051349(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071411
@@ -3930,27 +3911,6 @@ end
 
 end A071421.P608392292605239787
 
-/-! ## A071421.P11735677061611025546
-
-`∑[0+∑{digits}[A062018(n+1), #]]`
--/
-
-namespace A071421.P11735677061611025546
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062018 (n + 1)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0 + ((SequenceMachineLib.digits10 (f2 n).natAbs).map fun (x : ℕ) => x).sum
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A071421.P11735677061611025546
-
 /-!
 # A071422: a(n) = a(n-1) + sum of decimal digits of sigma(n), the sum of divisors of n.
 
@@ -4854,21 +4814,6 @@ end
 
 end A071426.P9751196395255211128
 
-/-! ## A071426.P5869018936493361812
-
-`A071441(A184117(n+1))`
--/
-
-namespace A071426.P5869018936493361812
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071441 (A184117 (n + 1)).toNat
-
-end
-
-end A071426.P5869018936493361812
-
 /-!
 # A071428: Numbers k such that x^k + x^(k-1) + x^(k-2) + ... + x + 1 is irreducible over GF(3).
 
@@ -5421,21 +5366,6 @@ end A071431.P5112683678096820697
 The programs for A071432, there is no canonical definition to state claims against.
 -/
 
-/-! ## A071432.P8153269744920018371
-
-`A002188(n+6)`
--/
-
-namespace A071432.P8153269744920018371
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002188 (n + 6)
-
-end
-
-end A071432.P8153269744920018371
-
 /-! ## A071432.P1849760969037131928
 
 `A343638(2*(n+1))-A327936(A000041(3*n+1))`
@@ -5532,21 +5462,6 @@ end
 
 end A071433.P14362970915582327494
 
-/-! ## A071433.P2792729692902287333
-
-`A002188(2*n+3)`
--/
-
-namespace A071433.P2792729692902287333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002188 (2 * n + 3)
-
-end
-
-end A071433.P2792729692902287333
-
 /-!
 # A071434: Sprague-Grundy values for octal game .1377.
 
@@ -5576,21 +5491,6 @@ end A071434.P8882933580118553010
 
 The programs for A071435, there is no canonical definition to state claims against.
 -/
-
-/-! ## A071435.P9076679453832870698
-
-`A002186(A210434(n))`
--/
-
-namespace A071435.P9076679453832870698
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002186 (A210434 n).toNat
-
-end
-
-end A071435.P9076679453832870698
 
 /-! ## A071435.P11744755809792115927
 
@@ -5630,40 +5530,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071436.P275319786423058561
-
-/-! ## A071436.P15928665501298075602
-
-`A071470(comp[3*n])`
--/
-
-namespace A071436.P15928665501298075602
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071470 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
-
-end
-
-end A071436.P15928665501298075602
-
-/-! ## A071436.P10626424087405925608
-
-`A071472(A008619(3*n+2))`
--/
-
-namespace A071436.P10626424087405925608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071472 (A008619 (3 * n + 2)).toNat
-
-end
-
-end A071436.P10626424087405925608
 
 /-!
 # A071440: Start with 1; add the digits of the previous term and the squares of the digits of the previous term.
@@ -5940,27 +5806,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071451.P2825735557776679941
-
-/-!
-# A071456: Sprague-Grundy values for octal game .13377.
-
-The programs for A071456, there is no canonical definition to state claims against.
--/
-
-/-! ## A071456.P14555709687596297460
-
-`A180600(A071508(n+1))`
--/
-
-namespace A071456.P14555709687596297460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180600 (A071508 (n + 1)).toNat
-
-end
-
-end A071456.P14555709687596297460
 
 /-!
 # A071458: Sprague-Grundy values for octal game .106.
@@ -6257,27 +6102,6 @@ end
 end A071461.P2005992179910789211
 
 /-!
-# A071462: Sprague-Grundy values for octal games .125 and .1251.
-
-The programs for A071462, there is no canonical definition to state claims against.
--/
-
-/-! ## A071462.P7076993761645869130
-
-`xor(A000035(n), A071466(n+1))`
--/
-
-namespace A071462.P7076993761645869130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A000035 n) (A071466 (n + 1))
-
-end
-
-end A071462.P7076993761645869130
-
-/-!
 # A071464: Sprague-Grundy values for octal games .127 and .1271.
 
 The programs for A071464, there is no canonical definition to state claims against.
@@ -6354,21 +6178,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071466.P17113185713039299491
-
-/-! ## A071466.P12124889777624816641
-
-`xor(A000035(n), A071462(n+1))`
--/
-
-namespace A071466.P12124889777624816641
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A000035 n) (A071462 (n + 1))
-
-end
-
-end A071466.P12124889777624816641
 
 /-!
 # A071467: Sprague-Grundy values for octal game .136.
@@ -6834,25 +6643,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071492.P16360491061095910289
-
-/-!
-# A071496: Sprague-Grundy values for octal games .354 and .3541.
-
-The programs for A071496, there is no canonical definition to state claims against.
--/
-
-/-! ## A071496.P8769173386743987499
-
-`A071502(n+1)`
--/
-
-namespace A071496.P8769173386743987499
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071502 (n + 1)
-
-end
-
-end A071496.P8769173386743987499
 

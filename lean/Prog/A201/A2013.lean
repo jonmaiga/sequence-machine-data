@@ -9,9 +9,8 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
+import Seq.B000.C012
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -20,28 +19,28 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
@@ -51,10 +50,8 @@ import Seq.B003.C001
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,12 +68,10 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -830,7 +825,7 @@ end A201313.P14533255564499791582
 /-!
 # A201314: Primes of the form n^2 - 17.
 
-The programs for A201314, the canonical program `A201314.P3485459216833196286` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201314 has offset 1).
+The programs for A201314, the canonical program `A201314.P3485459216833196286` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201314 has offset 1).
 
 The definition of A201314 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -839,7 +834,7 @@ The definition of A201314 is `conjectured`: the Lean definition is a formula tha
 
 `p?[n²-17]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201314
@@ -1549,21 +1544,6 @@ end A201344.P11259100140503197948
 The programs for A201345, there is no canonical definition to state claims against.
 -/
 
-/-! ## A201345.P14710844472176268182
-
-`A344574(A177984(n))`
--/
-
-namespace A201345.P14710844472176268182
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344574 (A177984 n).toNat
-
-end
-
-end A201345.P14710844472176268182
-
 /-! ## A201345.P4937618431106037785
 
 `A233970(A283347(n+1))`
@@ -1669,7 +1649,7 @@ end A201346.P17774460483340692585
 /-!
 # A201347: Number of n X 2 0..1 arrays with rows and columns lexicographically nondecreasing and every element equal to at least one horizontal or vertical neighbor.
 
-The programs for A201347, the canonical program `A201347.P18419925043797542016` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201347 has offset 1).
+The programs for A201347, the canonical program `A201347.P18419925043797542016` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201347 has offset 1).
 
 The definition of A201347 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1890,7 +1870,7 @@ end A201347
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=2, a(1)=4, a(2)=8, a(3)=14, a(4)=23`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201347
@@ -2177,7 +2157,7 @@ end A201347
 /-!
 # A201348: Number of n X 3 0..1 arrays with rows and columns lexicographically nondecreasing and every element equal to at least one horizontal or vertical neighbor.
 
-The programs for A201348, the canonical program `A201348.P17294005481318232435` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201348 has offset 1).
+The programs for A201348, the canonical program `A201348.P17294005481318232435` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201348 has offset 1).
 
 The definition of A201348 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2186,7 +2166,7 @@ The definition of A201348 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2-8x+10x^2+15x^3-62x^4+85x^5-59x^6+20x^7-2x^8)/(1-8x+28x^2-56x^3+70x^4-56x^5+28x^6-8x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201348
@@ -3416,7 +3396,7 @@ end A201370.P16175512252092027096
 /-!
 # A201371: Number of n X 4 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.
 
-The programs for A201371, the canonical program `A201371.P4978619889075734052` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201371 has offset 1).
+The programs for A201371, the canonical program `A201371.P4978619889075734052` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201371 has offset 1).
 
 The definition of A201371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3561,7 +3541,7 @@ end A201371
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=2, a(1)=5, a(2)=14, a(3)=36, a(4)=80`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201371
@@ -3891,7 +3871,7 @@ end A201371
 /-!
 # A201372: Number of n X 5 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.
 
-The programs for A201372, the canonical program `A201372.P18014467014229354396` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201372 has offset 1).
+The programs for A201372, the canonical program `A201372.P18014467014229354396` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201372 has offset 1).
 
 The definition of A201372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3900,7 +3880,7 @@ The definition of A201372 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2-8x+22x^2-18x^3+30x^4-12x^5)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201372
@@ -3944,8 +3924,29 @@ end A201372
 /-!
 # A201373: Number of n X 6 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.
 
-The programs for A201373, there is no canonical definition to state claims against.
+The programs for A201373, the canonical program `A201373.P2318851932496056046` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201373 has offset 1).
+
+The definition of A201373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A201373.P2318851932496056046
+
+`ogf((2-15x+65x^2-140x^3+324x^4-166x^5+20x^6-349x^7+391x^8-142x^9+18x^10)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A201373
+
+/-- `ogf((2-15x+65x^2-140x^3+324x^4-166x^5+20x^6-349x^7+391x^8-142x^9+18x^10)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P2318851932496056046.Spec : Prop :=
+  ∀ n, P2318851932496056046.a n = A201373 (n + 1)
+
+theorem P2318851932496056046.correct : P2318851932496056046.Spec := by
+  intro n
+  simp only [A201373, Nat.add_sub_cancel]
+
+end A201373
 
 /-! ## A201373.P2256967181189811512
 
@@ -3964,6 +3965,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201373.P2256967181189811512
+
+namespace A201373
+
+/-- `A201375(record[a(n-1)+n])` -/
+def P2256967181189811512.Spec : Prop :=
+  ∀ n, P2256967181189811512.a n = A201373 (n + 1)
+
+end A201373
 
 /-!
 # A201374: Number of nX7 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.
@@ -4036,21 +4045,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201375.P16154124163277393087
-
-/-! ## A201375.P14685772845633418581
-
-`A101515(n)+1`
--/
-
-namespace A201375.P14685772845633418581
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101515 n + 1
-
-end
-
-end A201375.P14685772845633418581
 
 /-! ## A201375.P8691531923928682407
 

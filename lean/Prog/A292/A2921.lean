@@ -3,7 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -11,22 +11,26 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C042
-import Seq.B000.C048
+import Seq.B000.C038
+import Seq.B000.C044
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,25 +40,24 @@ import Seq.B001.C008
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -714,7 +717,7 @@ end A292117.P13022611293660157031
 /-!
 # A292118: G.f.: 1 + 2*Sum_{k >= 1} (-1)^k*q^A003159(k).
 
-The programs for A292118, the canonical program `A292118.P14353429874146398271` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292118 has offset 0).
+The programs for A292118, the canonical program `A292118.P14353429874146398271` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292118 has offset 0).
 
 The definition of A292118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -723,7 +726,7 @@ The definition of A292118 is `conjectured`: the Lean definition is a formula tha
 
 `1-xor(a(n-1)+1, a(floor(n/2)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A292118
@@ -2147,21 +2150,6 @@ end A292138.P6021288434904425744
 The programs for A292140, there is no canonical definition to state claims against.
 -/
 
-/-! ## A292140.P5565763986832148378
-
-`-2*A292141(n)`
--/
-
-namespace A292140.P5565763986832148378
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-2) * A292141 n
-
-end
-
-end A292140.P5565763986832148378
-
 /-! ## A292140.P5028935722388392012
 
 `A292160(∑[n+3])`
@@ -2202,21 +2190,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A292141.P1006162469817614397
-
-/-! ## A292141.P11788794491267786781
-
-`A292140(n)/(-2)`
--/
-
-namespace A292141.P11788794491267786781
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A292140 n : ℚ) / (-2)
-
-end
-
-end A292141.P11788794491267786781
 
 /-!
 # A292142: Triangle read by rows: T(n,k) = (-4)^(k mod 2) * T(n-k,k-1) + T(n-k,k) with T(0,0) = 1 for 0 <= k <= A003056(n).
@@ -4158,6 +4131,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A292184.P16587355316849991553
+
+/-!
+# A292185: One-fifth of the rolling arithmetic mean of the fifth powers of the natural numbers taken five at a time.
+
+The programs for A292185, the canonical program `A292185.P13641884408761625875` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292185 has offset 1).
+
+The definition of A292185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A292185.P13641884408761625875
+
+`ogf((177-574x+886x^2-714x^3+301x^4-52x^5)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C044`.
+-/
+
+namespace A292185
+
+/-- `ogf((177-574x+886x^2-714x^3+301x^4-52x^5)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))` -/
+def P13641884408761625875.Spec : Prop :=
+  ∀ n, P13641884408761625875.a n = A292185 (n + 1)
+
+theorem P13641884408761625875.correct : P13641884408761625875.Spec := by
+  intro n
+  simp only [A292185, Nat.add_sub_cancel]
+
+end A292185
 
 /-!
 # A292186: Number of rooted unlabeled connected four-regular maps on a compact closed oriented surface with n vertices (and thus 2*n edges), with a(0) = 1.

@@ -24,7 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,16 +33,17 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,7 +62,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -69,17 +70,16 @@ import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -512,27 +512,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A095203.P2647183190510621103
-
-/-!
-# A095204: a(n) is the smallest number greater than a(n-1) such that in a(0) through a(n) no digit occurs more than once more than any other digit.
-
-The programs for A095204, there is no canonical definition to state claims against.
--/
-
-/-! ## A095204.P6588930552305266575
-
-`A106604(n)`
--/
-
-namespace A095204.P6588930552305266575
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106604 n
-
-end
-
-end A095204.P6588930552305266575
 
 /-!
 # A095205: Least nonnegative integer not already in the sequence such that the frequency of digits in the entire sequence is as close to a uniform distribution as possible. A difference in frequency of at most 1 across all digits is allowed, and that difference must always be in favor of digits closer to 0.
@@ -1799,27 +1778,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095230.P4248558722344920862
-
-/-!
-# A095231: a(1)=1; a(n)=least positive integer such that the concatenation of all terms, including a(n), is == 1 (mod n).
-
-The programs for A095231, there is no canonical definition to state claims against.
--/
-
-/-! ## A095231.P5658771311254821229
-
-`A140274(n+1)`
--/
-
-namespace A095231.P5658771311254821229
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140274 (n + 1)
-
-end
-
-end A095231.P5658771311254821229
 
 /-!
 # A095232: a(1) = 1, a(n+1) = floor(a(n)*10^n/n).
@@ -10910,21 +10868,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095285.P5243334210764582390
-
-/-! ## A095285.P11801497061244797780
-
-`A095313(n+1)`
--/
-
-namespace A095285.P11801497061244797780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095313 (n + 1)
-
-end
-
-end A095285.P11801497061244797780
 
 /-! ## A095285.P6498075405142542417
 

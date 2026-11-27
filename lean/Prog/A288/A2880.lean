@@ -8,31 +8,31 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,12 +48,15 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -63,9 +66,8 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +91,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -141,7 +142,7 @@ end A288001.P12371920039976159406
 /-!
 # A288002: L-fusc, sequence l of the mutual diatomic recurrence pair: l(1)=0, r(1)=1, l(2n) = l(n), r(2n) = r(n), l(2n+1) = l(n)+r(n), r(2n+1) = l(n+1)+r(n+1), where r(n) = A288003(n).
 
-The programs for A288002, the canonical program `A288002.P13918482005494738107` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288002 has offset 1).
+The programs for A288002, the canonical program `A288002.P13918482005494738107` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288002 has offset 1).
 
 The definition of A288002 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007306, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -179,7 +180,7 @@ end A288002
 
 `A007306(n+1)-A287896(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A288002
@@ -1513,41 +1514,11 @@ end
 
 end A288010.P80942557312113929
 
-/-! ## A288010.P12836990019330436512
-
-`A288663(n)`
--/
-
-namespace A288010.P12836990019330436512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288663 n
-
-end
-
-end A288010.P12836990019330436512
-
 /-!
 # A288011: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 397", based on the 5-celled von Neumann neighborhood.
 
 The programs for A288011, there is no canonical definition to state claims against.
 -/
-
-/-! ## A288011.P1491740121561644672
-
-`A288664(n)`
--/
-
-namespace A288011.P1491740121561644672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288664 n
-
-end
-
-end A288011.P1491740121561644672
 
 /-! ## A288011.P11472711797879949709
 
@@ -2107,8 +2078,29 @@ end A288019.P13041284267515764411
 /-!
 # A288020: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 501", based on the 5-celled von Neumann neighborhood.
 
-The programs for A288020, there is no canonical definition to state claims against.
+The programs for A288020, the canonical program `A288020.P7461123851244660596` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288020 has offset 0).
+
+The definition of A288020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A288020.P7461123851244660596
+
+`ogf((1+10x-100x^2+100x^3+10x^4-1000x^6-10x^7+1000x^9)/(1-101x^2+100x^4))`
+
+The canonical program, it is in `Seq.B000.C043`.
+-/
+
+namespace A288020
+
+/-- `ogf((1+10x-100x^2+100x^3+10x^4-1000x^6-10x^7+1000x^9)/(1-101x^2+100x^4))` -/
+def P7461123851244660596.Spec : Prop :=
+  ∀ n, P7461123851244660596.a n = A288020 n
+
+theorem P7461123851244660596.correct : P7461123851244660596.Spec := by
+  intro n
+  simp only [A288020]
+
+end A288020
 
 /-! ## A288020.P6510027065117451966
 
@@ -2129,6 +2121,14 @@ end
 
 end A288020.P6510027065117451966
 
+namespace A288020
+
+/-- `A287129(n)+char[2]` -/
+def P6510027065117451966.Spec : Prop :=
+  ∀ n, P6510027065117451966.a n = A288020 n
+
+end A288020
+
 /-! ## A288020.P5731728929358497897
 
 `A287129(n*A266678(n))`
@@ -2144,6 +2144,14 @@ end
 
 end A288020.P5731728929358497897
 
+namespace A288020
+
+/-- `A287129(n*A266678(n))` -/
+def P5731728929358497897.Spec : Prop :=
+  ∀ n, P5731728929358497897.a n = A288020 n
+
+end A288020
+
 /-! ## A288020.P9384473877637832780
 
 `or(A130713(n), A287129(n))`
@@ -2158,6 +2166,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288020.P9384473877637832780
+
+namespace A288020
+
+/-- `or(A130713(n), A287129(n))` -/
+def P9384473877637832780.Spec : Prop :=
+  ∀ n, P9384473877637832780.a n = A288020 n
+
+end A288020
 
 /-! ## A288020.P8861089222717404814
 
@@ -2178,6 +2194,14 @@ end
 
 end A288020.P8861089222717404814
 
+namespace A288020
+
+/-- `abs(A287129(n)-char[2]*A109128(n))` -/
+def P8861089222717404814.Spec : Prop :=
+  ∀ n, P8861089222717404814.a n = A288020 n
+
+end A288020
+
 /-! ## A288020.P1441030927957936411
 
 `gcd(A287129(n), A287146(A287117(n+1)))`
@@ -2193,6 +2217,14 @@ end
 
 end A288020.P1441030927957936411
 
+namespace A288020
+
+/-- `gcd(A287129(n), A287146(A287117(n+1)))` -/
+def P1441030927957936411.Spec : Prop :=
+  ∀ n, (P1441030927957936411.a n : ℤ) = A288020 n
+
+end A288020
+
 /-! ## A288020.P15728864092600059434
 
 `A287146(2*A287117(n+1))+A287129(n)`
@@ -2207,6 +2239,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288020.P15728864092600059434
+
+namespace A288020
+
+/-- `A287146(2*A287117(n+1))+A287129(n)` -/
+def P15728864092600059434.Spec : Prop :=
+  ∀ n, P15728864092600059434.a n = A288020 n
+
+end A288020
 
 /-!
 # A288021: Prime p1 of consecutive primes p1, p2, where p2 - p1 = 4, and p1, p2 are in different decades.
@@ -3860,7 +3900,7 @@ end A288028.P11855889743144360182
 /-!
 # A288029: Number of minimal edge covers in the ladder graph P_2 X P_n.
 
-The programs for A288029, the canonical program `A288029.P146658989041407590` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288029 has offset 0).
+The programs for A288029, the canonical program `A288029.P146658989041407590` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288029 has offset 0).
 
 The definition of A288029 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3892,7 +3932,7 @@ end A288029
 
 `2*a(n-1)+a(n-2)+2*a(n-3)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6, a(4)=17, a(5)=45`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A288029
@@ -4158,7 +4198,7 @@ end A288036.P7768375935649930580
 /-!
 # A288038: Number of independent vertex sets in the n-Andrásfai graph.
 
-The programs for A288038, the canonical program `A288038.P16181383783703015949` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288038 has offset 1).
+The programs for A288038, the canonical program `A288038.P16181383783703015949` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288038 has offset 1).
 
 The definition of A288038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4167,7 +4207,7 @@ The definition of A288038 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+(3*(n+1)-1)*2^n`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A288038
@@ -5090,21 +5130,6 @@ end
 
 end A288044.P5269342553403534066
 
-/-! ## A288044.P1076298338057872870
-
-`A198633(0+n)%(A289774(n)+1)`
--/
-
-namespace A288044.P1076298338057872870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A198633 (0 + n)) (A289774 n + 1)
-
-end
-
-end A288044.P1076298338057872870
-
 /-! ## A288044.P7724049016987134390
 
 `A288045(n)+A289775(n)-A289774(n)`
@@ -5745,21 +5770,6 @@ end A288054.P1583940187183702253
 The programs for A288056, there is no canonical definition to state claims against.
 -/
 
-/-! ## A288056.P4683833524853568160
-
-`A288127(n)`
--/
-
-namespace A288056.P4683833524853568160
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288127 n
-
-end
-
-end A288056.P4683833524853568160
-
 /-! ## A288056.P16028963823131371410
 
 `A007088(A288058(n))`
@@ -5781,21 +5791,6 @@ end A288056.P16028963823131371410
 The programs for A288057, there is no canonical definition to state claims against.
 -/
 
-/-! ## A288057.P10346244850036260836
-
-`A288128(n)`
--/
-
-namespace A288057.P10346244850036260836
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288128 n
-
-end
-
-end A288057.P10346244850036260836
-
 /-! ## A288057.P10869979808190183750
 
 `A007088(A288059(n))`
@@ -5810,48 +5805,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288057.P10869979808190183750
-
-/-!
-# A288058: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 417", based on the 5-celled von Neumann neighborhood.
-
-The programs for A288058, there is no canonical definition to state claims against.
--/
-
-/-! ## A288058.P7276963706367288633
-
-`A288129(n)`
--/
-
-namespace A288058.P7276963706367288633
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288129 n
-
-end
-
-end A288058.P7276963706367288633
-
-/-!
-# A288059: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 417", based on the 5-celled von Neumann neighborhood.
-
-The programs for A288059, there is no canonical definition to state claims against.
--/
-
-/-! ## A288059.P11073441942241910780
-
-`A288130(n)`
--/
-
-namespace A288059.P11073441942241910780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288130 n
-
-end
-
-end A288059.P11073441942241910780
 
 /-!
 # A288060: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 419", based on the 5-celled von Neumann neighborhood.
@@ -7350,25 +7303,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288089.P17673319598293233298
-
-/-!
-# A288099: Number of solutions to x^4 + y^4 = z^4 mod n.
-
-The programs for A288099, there is no canonical definition to state claims against.
--/
-
-/-! ## A288099.P12172804806335741496
-
-`A288103(n+1)`
--/
-
-namespace A288099.P12172804806335741496
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288103 (n + 1)
-
-end
-
-end A288099.P12172804806335741496
 

@@ -9,27 +9,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C046
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +45,7 @@ import Seq.B001.C013
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -50,12 +53,11 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -75,11 +77,11 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -233,7 +235,7 @@ end A226600
 /-!
 # A226602: Number of ordered triples (i,j,k) with i*j*k = n, i,j,k >= 0 and gcd(i,j,k) <= 1.
 
-The programs for A226602, the canonical program `A226602.P15401380654171723407` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226602 has offset 0).
+The programs for A226602, the canonical program `A226602.P15401380654171723407` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226602 has offset 0).
 
 The definition of A226602 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -242,7 +244,7 @@ The definition of A226602 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n, 3*#]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226602
@@ -496,21 +498,6 @@ end A226602
 
 The programs for A226606, there is no canonical definition to state claims against.
 -/
-
-/-! ## A226606.P9725202365401410166
-
-`abs(A226619(n+1))`
--/
-
-namespace A226606.P9725202365401410166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A226619 (n + 1)|
-
-end
-
-end A226606.P9725202365401410166
 
 /-! ## A226606.P17611230038898471474
 
@@ -1293,27 +1280,6 @@ end
 end A226624.P16953343953295659746
 
 /-!
-# A226626: Irregular array read by rows. a(n) is the number of odd elements in the primitive Collatz-like 3x-k cycle associated with A226623(n).
-
-The programs for A226626, there is no canonical definition to state claims against.
--/
-
-/-! ## A226626.P13789364608568025584
-
-`A020915(A226625(n+1))`
--/
-
-namespace A226626.P13789364608568025584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020915 (A226625 (n + 1)).toNat
-
-end
-
-end A226626.P13789364608568025584
-
-/-!
 # A226628: Index of the first element of row n of A226623.
 
 The programs for A226628, there is no canonical definition to state claims against.
@@ -1778,21 +1744,6 @@ end
 
 end A226635.P14778803354002168167
 
-/-! ## A226635.P9921126757010138754
-
-`A022597(2*n+1)/(-2)`
--/
-
-namespace A226635.P9921126757010138754
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A022597 (2 * n + 1) : ℚ) / (-2)
-
-end
-
-end A226635.P9921126757010138754
-
 /-! ## A226635.P6690216972872997614
 
 `abs(A089814(10*n+5)/2)`
@@ -2243,7 +2194,7 @@ end A226637.P3802510390519134053
 /-!
 # A226638: Product of Pell and Lucas numbers.
 
-The programs for A226638, the canonical program `A226638.P11166279411822104802` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226638 has offset 0).
+The programs for A226638, the canonical program `A226638.P11166279411822104802` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226638 has offset 0).
 
 The definition of A226638 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2275,7 +2226,7 @@ end A226638
 
 `2*a(n-1)+7*a(n-2)+2*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=6, a(3)=20`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A226638
@@ -3440,21 +3391,6 @@ end A226652.P3973794209563886280
 The programs for A226653, there is no canonical definition to state claims against.
 -/
 
-/-! ## A226653.P138550531276794021
-
-`A301590(n+2)`
--/
-
-namespace A226653.P138550531276794021
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301590 (n + 2)
-
-end
-
-end A226653.P138550531276794021
-
 /-! ## A226653.P16956523913717647364
 
 `p?[or(1, A203076(2*n))]`
@@ -4553,21 +4489,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226692.P2983220672046558790
-
-/-! ## A226692.P4062640277832528768
-
-`-1+A160917(n+1)`
--/
-
-namespace A226692.P4062640277832528768
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A160917 (n + 1)
-
-end
-
-end A226692.P4062640277832528768
 
 /-! ## A226692.P3187047808787313458
 

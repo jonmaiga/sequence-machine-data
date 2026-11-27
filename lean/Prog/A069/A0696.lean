@@ -3,30 +3,33 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -39,6 +42,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
@@ -47,6 +51,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -54,14 +59,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -191,27 +196,6 @@ end
 end A069614.P12527454795939484407
 
 /-!
-# A069615: a(1) = 3; a(2n) = smallest prime starting (in the most significant digits) with a(2n-1) (i.e., as a right concatenation of a(2n-1) and a number with no insignificant zeros); a(2n+1) = smallest prime ending in (the least significant digits) a(2n-1). Alternate left and right concatenation yielding primes.
-
-The programs for A069615, there is no canonical definition to state claims against.
--/
-
-/-! ## A069615.P5934353973167433288
-
-`A069630(n+1)`
--/
-
-namespace A069615.P5934353973167433288
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069630 (n + 1)
-
-end
-
-end A069615.P5934353973167433288
-
-/-!
 # A069616: a(1) = 4; a(2n) = smallest prime that is a right concatenation of a(2n-1) and a number with no insignificant zeros and a(2n+1) = smallest prime ending in ( the least significant digits) a(2n-1). Alternate left and right concatenation yielding primes.
 
 The programs for A069616, there is no canonical definition to state claims against.
@@ -231,21 +215,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A069616.P2315249934713429930
-
-/-! ## A069616.P12724154970483910126
-
-`A069631(n+1)`
--/
-
-namespace A069616.P12724154970483910126
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069631 (n + 1)
-
-end
-
-end A069616.P12724154970483910126
 
 /-!
 # A069617: a(1) = 5; a(2n) = smallest prime that is a right concatenation of a(2n-1) and a number with no insignificant zeros and a(2n+1) = smallest prime ending in ( the least significant digits) a(2n-1). Alternate left and right concatenation yielding primes.
@@ -469,7 +438,7 @@ end A069622.P10225636933033894518
 /-!
 # A069623: Number of perfect powers <= n.
 
-The programs for A069623, the canonical program `A069623.P8726476016285291526` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069623 has offset 1).
+The programs for A069623, the canonical program `A069623.P8726476016285291526` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069623 has offset 1).
 
 The definition of A069623 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -691,7 +660,7 @@ end A069623
 
 `∑[char[lt[1, A295931(n+1)]]]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A069623
@@ -804,7 +773,7 @@ def P14439416063811422925.Spec : Prop :=
 
 theorem P14439416063811422925.correct : P14439416063811422925.Spec := by
   intro n
-  simp only [A069623, Nat.add_sub_cancel, A069623.P14439416063811422925.a, A069623.P8726476016285291526.f3, A069623.P8726476016285291526.f4, A069623.P8726476016285291526.f2, A069623.P8726476016285291526.f1, A069623.P8726476016285291526.a, A075802, A075802.P15418155707765850726.a, A076411, A076411.P17634982879801196163.f2, A076411.P17634982879801196163.f1, A076411.P17634982879801196163.a, A295931, A295931.P15567185849400187992.f1, A295931.P15567185849400187992.a, A000005, A000005.P16091521709108585461.a, A007916, A007916.P1021710988916154839.f1, A007916.P1021710988916154839.a, A253641, A253641.P14128375645506887075.a, A032741, A032741.P7902726259890016945.f1, A032741.P7902726259890016945.a, A052409, A052409.P6239454430129886752.a, A028234, A028234.P14857795114050463851.f1, A028234.P14857795114050463851.a, A051731, A051731.P11318043630102858095.a, A067029, A067029.P6774187829245926468.a, SequenceMachineLib.memo_apply]
+  simp only [A069623, Nat.add_sub_cancel, A069623.P14439416063811422925.a, A069623.P8726476016285291526.f3, A069623.P8726476016285291526.f4, A069623.P8726476016285291526.f2, A069623.P8726476016285291526.f1, A069623.P8726476016285291526.a, A075802, A075802.P15418155707765850726.a, A076411, A076411.P17634982879801196163.f2, A076411.P17634982879801196163.f1, A076411.P17634982879801196163.a, A295931, A295931.P15567185849400187992.f1, A295931.P15567185849400187992.a, A000005, A000005.P16091521709108585461.a, A007916, A007916.P1021710988916154839.f1, A007916.P1021710988916154839.a, A253641, A253641.P14128375645506887075.a, A032741, A032741.P7902726259890016945.f1, A032741.P7902726259890016945.a, A052409, A052409.P6239454430129886752.a, A028234, A028234.P14857795114050463851.f1, A028234.P14857795114050463851.a, A051731, A051731.P11318043630102858095.a, A067029, A067029.P8935409760018782162.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -1488,7 +1457,7 @@ end A069626
 /-!
 # A069627: Sum_{k=1..n} floor(n*(n-1)/(2*k)).
 
-The programs for A069627, the canonical program `A069627.P9290248379873135147` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069627 has offset 0).
+The programs for A069627, the canonical program `A069627.P9290248379873135147` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069627 has offset 0).
 
 The definition of A069627 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n-1, floor(n*(n-1)/(2*(#+1)))]` (program `A069627.P9290248379873135147`, by `A069627.P9290248379873135147.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1497,7 +1466,7 @@ The definition of A069627 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n-1, floor(n*(n-1)/(2*(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A069627
@@ -3217,7 +3186,7 @@ end A069657.P1436572791848382404
 /-!
 # A069658: a(1) = 1; a(n) = smallest nontrivial n-digit perfect power.
 
-The programs for A069658, the canonical program `A069658.P14158974098747363290` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069658 has offset 1).
+The programs for A069658, the canonical program `A069658.P14158974098747363290` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069658 has offset 1).
 
 The definition of A069658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3226,7 +3195,7 @@ The definition of A069658 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(or(1, 10^n)))²`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A069658
@@ -3570,27 +3539,6 @@ end
 end A069669.P15389043335613225692
 
 /-!
-# A069671: Smallest n-digit triangular number with minimum digit sum.
-
-The programs for A069671, there is no canonical definition to state claims against.
--/
-
-/-! ## A069671.P9802314415625719732
-
-`A119033(floor(5*n/3)+1)`
--/
-
-namespace A069671.P9802314415625719732
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119033 (⌊5 * ((n : ℚ) / 3)⌋ + 1).toNat
-
-end
-
-end A069671.P9802314415625719732
-
-/-!
 # A069673: Nonpalindromic triangular numbers whose digit reversal is also a triangular number (possibly with fewer digits).
 
 The programs for A069673, there is no canonical definition to state claims against.
@@ -3664,21 +3612,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A069677.P538276003257795492
-
-/-! ## A069677.P12209586130331898704
-
-`A077390(n+1)`
--/
-
-namespace A069677.P12209586130331898704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077390 (n + 1)
-
-end
-
-end A069677.P12209586130331898704
 
 /-! ## A069677.P16838787128935933677
 

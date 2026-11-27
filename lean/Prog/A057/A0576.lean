@@ -25,21 +25,23 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,11 +56,12 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -71,11 +74,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +105,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -712,32 +716,6 @@ The programs for A057604, the canonical program `A057604.P13337693770831456801` 
 The definition of A057604 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 290 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A057604.P16830450962146176619
-
-`p?[163+n²]/1`
--/
-
-namespace A057604.P16830450962146176619
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  163 + n ^ 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n) : ℚ) / 1
-
-end
-
-end A057604.P16830450962146176619
-
-namespace A057604
-
-/-- `p?[163+n²]/1` -/
-def P16830450962146176619.Spec : Prop :=
-  ∀ n, P16830450962146176619.a n = (A057604 (n + 1) : ℚ)
-
-end A057604
-
 /-! ## A057604.P13337693770831456801
 
 `xor(1, p?[163+n²])+1`
@@ -809,32 +787,6 @@ def P310259223167330950.Spec : Prop :=
 
 end A057604
 
-/-! ## A057604.P14009761141925927961
-
-`0+p?[163+n²]`
--/
-
-namespace A057604.P14009761141925927961
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  163 + n ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0 + f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A057604.P14009761141925927961
-
-namespace A057604
-
-/-- `0+p?[163+n²]` -/
-def P14009761141925927961.Spec : Prop :=
-  ∀ n, (P14009761141925927961.a n : ℤ) = A057604 (n + 1)
-
-end A057604
-
 /-! ## A057604.P10636165745021970342
 
 `record[A006530(163+n²)]`
@@ -860,31 +812,6 @@ def P10636165745021970342.Spec : Prop :=
   ∀ n, P10636165745021970342.a n = A057604 (n + 1)
 
 end A057604
-
-/-!
-# A057605: Nonnegative n such that 4*n^2 + 163 is prime.
-
-The programs for A057605, there is no canonical definition to state claims against.
--/
-
-/-! ## A057605.P2144843711204985456
-
-`comp[A000217(n)+20]`
--/
-
-namespace A057605.P2144843711204985456
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 n + 20
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A057605.P2144843711204985456
 
 /-!
 # A057608: Maximal size of binary code of length n that corrects one transposition (end-around transposition not included).
@@ -1541,21 +1468,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057623.P13556935649848951902
-
-/-! ## A057623.P12176371161297428993
-
-`0-A234937(A000124(n+1))`
--/
-
-namespace A057623.P12176371161297428993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 - A234937 (A000124 (n + 1)).toNat
-
-end
-
-end A057623.P12176371161297428993
 
 /-! ## A057623.P3201936911573707973
 
@@ -4475,7 +4387,7 @@ end A057652.P13781948676337852338
 /-!
 # A057653: Odd numbers of form x^2 + y^2.
 
-The programs for A057653, the canonical program `A057653.P8862115344835850100` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057653 has offset 1).
+The programs for A057653, the canonical program `A057653.P8862115344835850100` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057653 has offset 1).
 
 The definition of A057653 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A097269, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4484,7 +4396,7 @@ The definition of A057653 is `conditional`: the Lean definition is an OEIS formu
 
 `A097269(n+1)/2`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A057653
@@ -10056,27 +9968,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057694.P9166835212433178037
-
-/-!
-# A057696: Number of letters in n in Brazilian Portuguese (not counting spaces).
-
-The programs for A057696, there is no canonical definition to state claims against.
--/
-
-/-! ## A057696.P12452472948331499876
-
-`A057697(n)`
--/
-
-namespace A057696.P12452472948331499876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057697 n
-
-end
-
-end A057696.P12452472948331499876
 
 /-!
 # A057697: Number of characters in n (including spaces) in Brazilian Portuguese.

@@ -7,30 +7,33 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C043
+import Seq.B000.C040
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +41,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
@@ -54,14 +56,14 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -229,7 +231,7 @@ end A298206.P1216238702634601367
 /-!
 # A298207: Numbers that are a product of zero, one, or three (not necessarily distinct) prime numbers.
 
-The programs for A298207, the canonical program `A298207.P6466011691375944331` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298207 has offset 1).
+The programs for A298207, the canonical program `A298207.P6466011691375944331` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298207 has offset 1).
 
 The definition of A298207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -387,7 +389,7 @@ end A298207
 
 `∪[A008578(n+1), A014612(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A298207
@@ -2266,7 +2268,7 @@ end A298233.P11517062781630912975
 /-!
 # A298234: Number of nX2 0..1 arrays with every element equal to 0, 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A298234, the canonical program `A298234.P2814153893250768694` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298234 has offset 1).
+The programs for A298234, the canonical program `A298234.P2814153893250768694` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298234 has offset 1).
 
 The definition of A298234 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2298,7 +2300,7 @@ end A298234
 
 `a(n-1)+5*a(n-2)+4*a(n-3)` with `a(0)=1, a(1)=5, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A298234
@@ -3660,21 +3662,6 @@ end A298258.P3948179219381148915
 The programs for A298259, there is no canonical definition to state claims against.
 -/
 
-/-! ## A298259.P14747641974411708316
-
-`A298930(n+1)`
--/
-
-namespace A298259.P14747641974411708316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298930 (n + 1)
-
-end
-
-end A298259.P14747641974411708316
-
 /-! ## A298259.P16879222807054112781
 
 `A298895(A242474(n+1))`
@@ -3762,7 +3749,7 @@ end A298262.P16405470246946780287
 /-!
 # A298267: a(n) is the maximum number of heptiamonds in a hexagon of order n.
 
-The programs for A298267, the canonical program `A298267.P2415672189885152104` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298267 has offset 0).
+The programs for A298267, the canonical program `A298267.P2415672189885152104` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298267 has offset 0).
 
 The definition of A298267 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3817,7 +3804,7 @@ end A298267
 
 `2*a(n-1)-a(n-2)+a(n-7)-2*a(n-8)+a(n-9)` with `a(0)=0, a(1)=3, a(2)=7, a(3)=13, a(4)=21, a(5)=30, a(6)=42, a(7)=54, a(8)=69`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A298267
@@ -4495,27 +4482,50 @@ end A298270.P375242474985250492
 /-!
 # A298271: Expansion of x/((1 - x)*(1 - 322*x + x^2)).
 
-The programs for A298271, the canonical program `A298271.P4561047088455179864` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298271 has offset 0).
+The programs for A298271, the canonical program `A298271.P2586412904252829200` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298271 has offset 0).
 
-The definition of A298271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A298271 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(x/(1-323x+323x^2-x^3))` (program `A298271.P2586412904252829200`, by `A298271.P2586412904252829200.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A298271.P2586412904252829200
+
+`ogf(x/(1-323x+323x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C044`.
+-/
+
+namespace A298271
+
+/-- `ogf(x/(1-323x+323x^2-x^3))` -/
+def P2586412904252829200.Spec : Prop :=
+  ∀ n, P2586412904252829200.a n = A298271 n
+
+theorem P2586412904252829200.correct : P2586412904252829200.Spec := by
+  intro n
+  simp only [A298271]
+
+end A298271
 
 /-! ## A298271.P4561047088455179864
 
 `323*a(n-1)-323*a(n-2)+a(n-3)` with `a(0)=0, a(1)=1, a(2)=323`
-
-The canonical program, it is in `Seq.B000.C043`.
 -/
+
+namespace A298271.P4561047088455179864
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 323] fun n a =>
+  323 * a (n - 1) - 323 * a (n - 2) + a (n - 3)
+
+end
+
+end A298271.P4561047088455179864
 
 namespace A298271
 
 /-- `323*a(n-1)-323*a(n-2)+a(n-3)` -/
 def P4561047088455179864.Spec : Prop :=
   ∀ n, P4561047088455179864.a n = A298271 n
-
-theorem P4561047088455179864.correct : P4561047088455179864.Spec := by
-  intro n
-  simp only [A298271]
 
 end A298271
 
@@ -4585,32 +4595,6 @@ namespace A298271
 /-- `A298101(n)-a(n-1)` -/
 def P3912000733583506060.Spec : Prop :=
   ∀ n, P3912000733583506060.a n = A298271 n
-
-end A298271
-
-/-! ## A298271.P6342089557225254699
-
-`∑[A000045(12*n)/4]/36`
--/
-
-namespace A298271.P6342089557225254699
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000045 (12 * n) : ℚ) / 4
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (∑ j ∈ Finset.range (n + 1), f1 j) / 36
-
-end
-
-end A298271.P6342089557225254699
-
-namespace A298271
-
-/-- `∑[A000045(12*n)/4]/36` -/
-def P6342089557225254699.Spec : Prop :=
-  ∀ n, P6342089557225254699.a n = (A298271 n : ℚ)
 
 end A298271
 
@@ -4893,7 +4877,7 @@ end A298281.P17999607347655507119
 /-!
 # A298282: Number of n X 3 0..1 arrays with every element equal to 0, 1, 2, 3 or 6 king-move adjacent elements, with upper left element zero.
 
-The programs for A298282, the canonical program `A298282.P815324383407599193` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298282 has offset 1).
+The programs for A298282, the canonical program `A298282.P815324383407599193` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298282 has offset 1).
 
 The definition of A298282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4902,7 +4886,7 @@ The definition of A298282 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+13x-x^2+12x^3+3x^4-13x^5-8x^6-19x^7-13x^8-7x^9-2x^10-4x^11)/(1-3x+x^2-2x^3-4x^4+x^5-2x^6+2x^7+3x^8+2x^9+2x^10+2x^11))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A298282
@@ -5141,57 +5125,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298286.P1926386776344231151
-
-/-!
-# A298287: T(n,k)=Number of nXk 0..1 arrays with every element equal to 0, 1, 2, 3 or 6 king-move adjacent elements, with upper left element zero.
-
-The programs for A298287, there is no canonical definition to state claims against.
--/
-
-/-! ## A298287.P11123987813068928153
-
-`A299359(n+1)`
--/
-
-namespace A298287.P11123987813068928153
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299359 (n + 1)
-
-end
-
-end A298287.P11123987813068928153
-
-/-! ## A298287.P17296716206519536445
-
-`A299180(n+1)`
--/
-
-namespace A298287.P17296716206519536445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299180 (n + 1)
-
-end
-
-end A298287.P17296716206519536445
-
-/-! ## A298287.P5745756204878393819
-
-`A299942(n+1)`
--/
-
-namespace A298287.P5745756204878393819
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299942 (n + 1)
-
-end
-
-end A298287.P5745756204878393819
 
 /-!
 # A298288: Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 4 or 6 king-move adjacent elements, with upper left element zero.
@@ -5471,21 +5404,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298294.P15220686909289346773
-
-/-! ## A298294.P79928993769514386
-
-`A299388(1+n)`
--/
-
-namespace A298294.P79928993769514386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299388 (1 + n)
-
-end
-
-end A298294.P79928993769514386
 
 /-!
 # A298295: Solution a( ) of the complementary equation a(n) = a(0)*b(n) + a(1)*b(n-1), where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, b(2) = 5, and (b(n)) is the increasing sequence of positive integers not in (a(n)). See Comments.

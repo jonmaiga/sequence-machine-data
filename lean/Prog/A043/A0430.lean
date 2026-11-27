@@ -14,26 +14,25 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
@@ -46,6 +45,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
@@ -56,14 +56,12 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -395,21 +393,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043001.P11580651331311925873
-
-/-! ## A043001.P4134905345714713896
-
-`-2+3*A043045(n+1)`
--/
-
-namespace A043001.P4134905345714713896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -2 + 3 * A043045 (n + 1)
-
-end
-
-end A043001.P4134905345714713896
 
 /-! ## A043001.P1294440710902996414
 
@@ -1860,21 +1843,6 @@ end
 
 end A043005.P2892699560130418743
 
-/-! ## A043005.P742096578522584801
-
-`-1+4*A043049(n+1)`
--/
-
-namespace A043005.P742096578522584801
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 4 * A043049 (n + 1)
-
-end
-
-end A043005.P742096578522584801
-
 /-! ## A043005.P11803145363650346234
 
 `A016825(A043049(n+1)-1)+1`
@@ -2750,21 +2718,6 @@ end
 
 end A043009.P4449859822949284614
 
-/-! ## A043009.P6252164424047768153
-
-`-1+5*A043053(n+1)`
--/
-
-namespace A043009.P6252164424047768153
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 5 * A043053 (n + 1)
-
-end
-
-end A043009.P6252164424047768153
-
 /-! ## A043009.P14470836162675111206
 
 `2*A043008(n+1)-A043007(n+1)`
@@ -3504,21 +3457,6 @@ end
 
 end A043013.P6585451030538014701
 
-/-! ## A043013.P2094803112314607788
-
-`-2+6*A043057(n+1)`
--/
-
-namespace A043013.P2094803112314607788
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -2 + 6 * A043057 (n + 1)
-
-end
-
-end A043013.P2094803112314607788
-
 /-! ## A043013.P10010499583207824385
 
 `A008458(A043057(n+1))-2`
@@ -3634,21 +3572,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043014.P8484176180729181739
-
-/-! ## A043014.P10418243251622618285
-
-`-1+6*A043058(n+1)`
--/
-
-namespace A043014.P10418243251622618285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 6 * A043058 (n + 1)
-
-end
-
-end A043014.P10418243251622618285
 
 /-! ## A043014.P14003161514528887040
 
@@ -17375,6 +17298,21 @@ end
 
 end A043087.P11698145852379292450
 
+/-! ## A043087.P7108778823266074152
+
+`round(A043043(n+1)/5)/2`
+-/
+
+namespace A043087.P7108778823266074152
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.roundAway ((A043043 (n + 1) : ℚ) / 5) : ℚ) / 2
+
+end
+
+end A043087.P7108778823266074152
+
 /-! ## A043087.P7114329716917364400
 
 `2*A043084(n+1)-A043081(n+1)`
@@ -17434,21 +17372,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043087.P12704508038081761322
-
-/-! ## A043087.P7108778823266074152
-
-`round(A043043(n+1)/5)/2`
--/
-
-namespace A043087.P7108778823266074152
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.roundAway ((A043043 (n + 1) : ℚ) / 5) : ℚ) / 2
-
-end
-
-end A043087.P7108778823266074152
 
 /-! ## A043087.P7789307342901833157
 
@@ -18466,7 +18389,7 @@ end A043091.P10949639850019924900
 /-!
 # A043092: Numbers in which every string of 2 consecutive base 6 digits contains exactly 2 distinct numbers.
 
-The programs for A043092, the canonical program `A043092.P11397553085002349887` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043092 has offset 1).
+The programs for A043092, the canonical program `A043092.P11397553085002349887` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043092 has offset 1).
 
 The definition of A043092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4531 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18533,7 +18456,7 @@ end A043092
 
 `eq[A043558(n), A390764(n)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A043092

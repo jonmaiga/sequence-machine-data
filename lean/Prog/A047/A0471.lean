@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -21,13 +22,13 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -35,9 +36,11 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,23 +57,23 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -769,21 +772,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047110.P8501622766968325825
-
-/-! ## A047110.P10371323168643928683
-
-`A125778(n)`
--/
-
-namespace A047110.P10371323168643928683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125778 n
-
-end
-
-end A047110.P10371323168643928683
 
 /-! ## A047110.P3714924515584327628
 
@@ -1747,21 +1735,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A047120.P2448564354849836637
-
-/-! ## A047120.P11635186090453888293
-
-`A047030(n)`
--/
-
-namespace A047120.P11635186090453888293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047030 n
-
-end
-
-end A047120.P11635186090453888293
 
 /-!
 # A047121: Sum{T(i,n-i): i=0,1,...,n}, array T as in A047120.
@@ -5321,21 +5294,6 @@ end A047162.P341945479811247537
 The programs for A047163, there is no canonical definition to state claims against.
 -/
 
-/-! ## A047163.P3666047770967704689
-
-`A333319(1+n)`
--/
-
-namespace A047163.P3666047770967704689
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333319 (1 + n)
-
-end
-
-end A047163.P3666047770967704689
-
 /-! ## A047163.P15860994259507754132
 
 `A320313(A026767(n))`
@@ -5367,67 +5325,10 @@ end
 end A047163.P1042484442595580002
 
 /-!
-# A047164: Number of nonempty subsets of {1,2,...,n} in which exactly 3/4 of the elements are <= n/2.
-
-The programs for A047164, there is no canonical definition to state claims against.
--/
-
-/-! ## A047164.P7647915148133413360
-
-`A330299(n+1)`
--/
-
-namespace A047164.P7647915148133413360
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330299 (n + 1)
-
-end
-
-end A047164.P7647915148133413360
-
-/-!
-# A047165: Number of nonempty subsets of {1,2,...,n} in which exactly 1/5 of the elements are <= n/2.
-
-The programs for A047165, there is no canonical definition to state claims against.
--/
-
-/-! ## A047165.P7891983424477785293
-
-`A333320(n+1)`
--/
-
-namespace A047165.P7891983424477785293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333320 (n + 1)
-
-end
-
-end A047165.P7891983424477785293
-
-/-!
 # A047166: Number of nonempty subsets of {1,2,...,n} in which exactly 2/5 of the elements are <= n/2.
 
 The programs for A047166, there is no canonical definition to state claims against.
 -/
-
-/-! ## A047166.P2172510249210506672
-
-`A028725(n+2)`
--/
-
-namespace A047166.P2172510249210506672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028725 (n + 2)
-
-end
-
-end A047166.P2172510249210506672
 
 /-! ## A047166.P12458178725041816383
 
@@ -5507,21 +5408,6 @@ end
 
 end A047167.P5421785150578969547
 
-/-! ## A047167.P7574145293690026817
-
-`A330300(n+1)`
--/
-
-namespace A047167.P7574145293690026817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330300 (n + 1)
-
-end
-
-end A047167.P7574145293690026817
-
 /-! ## A047167.P13078789702311939480
 
 `A265552(A015649(n+2))`
@@ -5536,27 +5422,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047167.P13078789702311939480
-
-/-!
-# A047168: Number of nonempty subsets of {1,2,...,n} in which exactly 4/5 of the elements are <= n/2.
-
-The programs for A047168, there is no canonical definition to state claims against.
--/
-
-/-! ## A047168.P12556123338095812893
-
-`A333321(n+1)`
--/
-
-namespace A047168.P12556123338095812893
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333321 (n + 1)
-
-end
-
-end A047168.P12556123338095812893
 
 /-!
 # A047169: Number of nonempty subsets of {1,2,...,n} in which exactly 1/6 of the elements are <= n/2.
@@ -6558,21 +6423,6 @@ end A047176.P8462978031038509408
 
 The programs for A047177, there is no canonical definition to state claims against.
 -/
-
-/-! ## A047177.P18219763482975131839
-
-`A048077(n+1)`
--/
-
-namespace A047177.P18219763482975131839
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048077 (n + 1)
-
-end
-
-end A047177.P18219763482975131839
 
 /-! ## A047177.P13938291110316271705
 

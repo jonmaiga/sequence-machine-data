@@ -3,11 +3,11 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -15,8 +15,9 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -33,8 +34,10 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C047
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,6 +52,7 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -57,19 +61,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2452,21 +2456,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213924.P3332649171253631512
-
-/-! ## A213924.P11006016016804755943
-
-`-1+2*A348262(n+1)`
--/
-
-namespace A213924.P11006016016804755943
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 2 * A348262 (n + 1)
-
-end
-
-end A213924.P11006016016804755943
 
 /-! ## A213924.P6384543207968427867
 
@@ -4831,7 +4820,7 @@ end A213966.P13656023252770521828
 /-!
 # A213967: a(n)=n for n<=3; thereafter a(n)=a(n-1)+a(n-2)+a(n-3)+1.
 
-The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
+The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
 
 The definition of A213967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)+a(n-3)+1` (program `A213967.P458744745567570496`, by `A213967.P458744745567570496.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4863,7 +4852,7 @@ end A213967
 
 `a(n-1)+a(n-2)+a(n-3)+1` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A213967
@@ -5336,29 +5325,30 @@ end A213971.P6184905152080099079
 /-!
 # A213972: List of imprimitive words over the alphabet {1,2}.
 
-The programs for A213972, the canonical program `A213972.P5176232075261778965` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213972 has offset 1).
-
-The definition of A213972 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A213972, there is no canonical definition to state claims against.
 -/
 
 /-! ## A213972.P5176232075261778965
 
 `∩[A007931(n+1), A239018(n+1)]`
-
-The canonical program, it is in `Seq.B008.C000`.
 -/
 
-namespace A213972
+namespace A213972.P5176232075261778965
+noncomputable section
 
-/-- `∩[A007931(n+1), A239018(n+1)]` -/
-def P5176232075261778965.Spec : Prop :=
-  ∀ n, (P5176232075261778965.a n : ℤ) = A213972 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007931 (n + 1)
 
-theorem P5176232075261778965.correct : P5176232075261778965.Spec := by
-  intro n
-  simp only [A213972, Nat.add_sub_cancel]
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239018 (n + 1)
 
-end A213972
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A213972.P5176232075261778965
 
 /-! ## A213972.P18168441617099713490
 
@@ -5382,14 +5372,6 @@ end
 
 end A213972.P18168441617099713490
 
-namespace A213972
-
-/-- `∩[A085184(n+1), A239018(n+1)]` -/
-def P18168441617099713490.Spec : Prop :=
-  ∀ n, (P18168441617099713490.a n : ℤ) = A213972 (n + 1)
-
-end A213972
-
 /-! ## A213972.P122437527447987006
 
 `∩[A239018(n+1), A007089(n)]`
@@ -5411,14 +5393,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A213972.P122437527447987006
-
-namespace A213972
-
-/-- `∩[A239018(n+1), A007089(n)]` -/
-def P122437527447987006.Spec : Prop :=
-  ∀ n, (P122437527447987006.a n : ℤ) = A213972 (n + 1)
-
-end A213972
 
 /-! ## A213972.P1923780662385580390
 
@@ -5442,14 +5416,6 @@ end
 
 end A213972.P1923780662385580390
 
-namespace A213972
-
-/-- `∩[A239018(n+1), A344939(n)]` -/
-def P1923780662385580390.Spec : Prop :=
-  ∀ n, (P1923780662385580390.a n : ℤ) = A213972 (n + 1)
-
-end A213972
-
 /-! ## A213972.P2734029791186796272
 
 `∩[A007931(n+1), A239019(n+1)]`
@@ -5471,14 +5437,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A213972.P2734029791186796272
-
-namespace A213972
-
-/-- `∩[A007931(n+1), A239019(n+1)]` -/
-def P2734029791186796272.Spec : Prop :=
-  ∀ n, (P2734029791186796272.a n : ℤ) = A213972 (n + 1)
-
-end A213972
 
 /-!
 # A213973: List of imprimitive words over the alphabet {1,3}.

@@ -7,31 +7,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,9 +48,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C001
@@ -62,9 +61,9 @@ import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -485,7 +484,7 @@ end A318009.P17331524172229781143
 /-!
 # A318010: Number of nX2 0..1 arrays with every element unequal to 0, 1, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318010, the canonical program `A318010.P11700517544221402171` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318010 has offset 1).
+The programs for A318010, the canonical program `A318010.P11700517544221402171` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318010 has offset 1).
 
 The definition of A318010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -517,7 +516,7 @@ end A318010
 
 `4*a(n-1)-2*a(n-2)+a(n-3)-a(n-4)` with `a(0)=2, a(1)=8, a(2)=28, a(3)=97`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A318010
@@ -847,27 +846,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318015.P4270906616157389041
-
-/-!
-# A318016: T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 1, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
-
-The programs for A318016, there is no canonical definition to state claims against.
--/
-
-/-! ## A318016.P8913087972504889993
-
-`A320402(n+1)`
--/
-
-namespace A318016.P8913087972504889993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320402 (n + 1)
-
-end
-
-end A318016.P8913087972504889993
 
 /-!
 # A318017: Number of nXn 0..1 arrays with every element unequal to 0, 1, 2 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -1304,21 +1282,6 @@ end A318025.P3103696061246369064
 The programs for A318026, there is no canonical definition to state claims against.
 -/
 
-/-! ## A318026.P11740004367599244362
-
-`A257655(n)`
--/
-
-namespace A318026.P11740004367599244362
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257655 n
-
-end
-
-end A318026.P11740004367599244362
-
 /-! ## A318026.P98663068815901786
 
 `A353866(A385012(n))`
@@ -1601,7 +1564,7 @@ end A318030.P11461901533264779886
 /-!
 # A318031: Number of nX2 0..1 arrays with every element unequal to 0, 1, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318031, the canonical program `A318031.P320335726501133931` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318031 has offset 1).
+The programs for A318031, the canonical program `A318031.P320335726501133931` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318031 has offset 1).
 
 The definition of A318031 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1610,7 +1573,7 @@ The definition of A318031 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+4*a(n-3)+a(n-5)-a(n-6)` with `a(0)=2, a(1)=3, a(2)=6, a(3)=11, a(4)=22, a(5)=46`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A318031
@@ -1834,21 +1797,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318037.P1508265512750169578
-
-/-! ## A318037.P1365972481927302980
-
-`A326165(1+n)`
--/
-
-namespace A318037.P1365972481927302980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326165 (1 + n)
-
-end
-
-end A318037.P1365972481927302980
 
 /-!
 # A318038: Number of nXn 0..1 arrays with every element unequal to 0, 2, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -2214,21 +2162,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318045.P10270195407881770880
-
-/-! ## A318045.P1687328799402713270
-
-`A250470(A100862(n))`
--/
-
-namespace A318045.P1687328799402713270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A250470 (A100862 n).toNat
-
-end
-
-end A318045.P1687328799402713270
 
 /-! ## A318045.P4269306337344663728
 
@@ -2747,7 +2680,7 @@ end A318052.P16811225669702302747
 /-!
 # A318053: a(n) = ceiling(sqrt(2*a(n-1)*a(n-2))), a(1) = a(2) = 1.
 
-The programs for A318053, the canonical program `A318053.P6733279276505114503` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318053 has offset 1).
+The programs for A318053, the canonical program `A318053.P6733279276505114503` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318053 has offset 1).
 
 The definition of A318053 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(sqrt(2*a(n-1)*a(n-2)))` (program `A318053.P6733279276505114503`, by `A318053.P6733279276505114503.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2756,7 +2689,7 @@ The definition of A318053 is `verified`: the Lean definition is proven equivalen
 
 `ceil(sqrt(2*a(n-1)*a(n-2)))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A318053
@@ -2869,7 +2802,7 @@ end A318053
 /-!
 # A318054: a(n) = n*(n + 1)*(n^2 + n + 22)/24.
 
-The programs for A318054, the canonical program `A318054.P2618741877506832120` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318054 has offset 0).
+The programs for A318054, the canonical program `A318054.P2618741877506832120` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318054 has offset 0).
 
 The definition of A318054 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n²+n+22)/24` (program `A318054.P11878374244078146378`, by `A318054.P11878374244078146378.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2947,7 +2880,7 @@ end A318054
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=2, a(2)=7, a(3)=17, a(4)=35`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A318054
@@ -3458,21 +3391,6 @@ end
 
 end A318058.P17217388515504798283
 
-/-! ## A318058.P6467444047615177383
-
-`-1+A369715(n+1)`
--/
-
-namespace A318058.P6467444047615177383
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A369715 (n + 1)
-
-end
-
-end A318058.P6467444047615177383
-
 /-! ## A318058.P4954404863253706948
 
 `A023443(A369715(1+n))`
@@ -3491,7 +3409,7 @@ end A318058.P4954404863253706948
 /-!
 # A318059: a(n) is the numerator of sigma(sigma(n))/n.
 
-The programs for A318059, the canonical program `A318059.P16582430127559491716` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318059 has offset 1).
+The programs for A318059, the canonical program `A318059.P16582430127559491716` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318059 has offset 1).
 
 The definition of A318059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3500,7 +3418,7 @@ The definition of A318059 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, A051027(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A318059
@@ -3710,7 +3628,7 @@ end A318059
 /-!
 # A318060: a(n) is the denominator of sigma(sigma(n))/n.
 
-The programs for A318060, the canonical program `A318060.P6031681000613286800` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318060 has offset 1).
+The programs for A318060, the canonical program `A318060.P6031681000613286800` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318060 has offset 1).
 
 The definition of A318060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3742,7 +3660,7 @@ end A318060
 
 `(n+1)/gcd(n+1, ∑[A111408(n)])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A318060
@@ -3867,7 +3785,7 @@ end A318061.P9166386281745287752
 /-!
 # A318062: Number of nX2 0..1 arrays with every element unequal to 1, 2, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318062, the canonical program `A318062.P5353415626621374821` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318062 has offset 1).
+The programs for A318062, the canonical program `A318062.P5353415626621374821` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318062 has offset 1).
 
 The definition of A318062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3899,7 +3817,7 @@ end A318062
 
 `3*a(n-1)+3*a(n-2)-a(n-3)-a(n-4)` with `a(0)=1, a(1)=5, a(2)=18, a(3)=67`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A318062
@@ -5142,21 +5060,6 @@ end A318090.P14301424720077858533
 
 The programs for A318091, there is no canonical definition to state claims against.
 -/
-
-/-! ## A318091.P11876766361782933585
-
-`A317871(n+1)+1`
--/
-
-namespace A318091.P11876766361782933585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317871 (n + 1) + 1
-
-end
-
-end A318091.P11876766361782933585
 
 /-! ## A318091.P7652229402094968591
 

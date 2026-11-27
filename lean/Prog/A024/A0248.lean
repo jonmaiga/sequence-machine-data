@@ -19,7 +19,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -33,15 +33,17 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -64,24 +66,23 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,10 +96,10 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -3806,21 +3807,6 @@ end A024825
 The programs for A024827, there is no canonical definition to state claims against.
 -/
 
-/-! ## A024827.P12141489857860103470
-
-`1+A054062(n+2)`
--/
-
-namespace A024827.P12141489857860103470
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A054062 (n + 2)
-
-end
-
-end A024827.P12141489857860103470
-
 /-! ## A024827.P10858223708913688489
 
 `A020725(A054062(n+2))`
@@ -4948,32 +4934,26 @@ theorem P9621386636406101993.correct : P9621386636406101993.Spec := by
 
 end A024839
 
-/-! ## A024839.P17856148154289524390
+/-! ## A024839.P17672543948186716165
 
-`-1+2*A024835(n+2)`
+`lcm(2, A024835(n+2))-1`
 -/
 
-namespace A024839.P17856148154289524390
+namespace A024839.P17672543948186716165
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 2 * A024835 (n + 2)
+  (Int.lcm 2 (A024835 (n + 2)) : ℤ) - 1
 
 end
 
-end A024839.P17856148154289524390
+end A024839.P17672543948186716165
 
 namespace A024839
 
-/-- `-1+2*A024835(n+2)` -/
-def P17856148154289524390.Spec : Prop :=
-  ∀ n, P17856148154289524390.a n = A024839 (n + 2)
-
-theorem P17856148154289524390.correct : P17856148154289524390.Spec := by
-  intro n
-  simp only [A024839, Nat.add_sub_cancel, A024839.P17856148154289524390.a, A024839.P9621386636406101993.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
+/-- `lcm(2, A024835(n+2))-1` -/
+def P17672543948186716165.Spec : Prop :=
+  ∀ n, P17672543948186716165.a n = A024839 (n + 2)
 
 end A024839
 
@@ -5089,29 +5069,6 @@ namespace A024839
 /-- `A024835(n+2)+A000027(xor(1, A024835(n+2)))` -/
 def P6993528689708688909.Spec : Prop :=
   ∀ n, P6993528689708688909.a n = A024839 (n + 2)
-
-end A024839
-
-/-! ## A024839.P17672543948186716165
-
-`lcm(2, A024835(n+2))-1`
--/
-
-namespace A024839.P17672543948186716165
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Int.lcm 2 (A024835 (n + 2)) : ℤ) - 1
-
-end
-
-end A024839.P17672543948186716165
-
-namespace A024839
-
-/-- `lcm(2, A024835(n+2))-1` -/
-def P17672543948186716165.Spec : Prop :=
-  ∀ n, P17672543948186716165.a n = A024839 (n + 2)
 
 end A024839
 
@@ -5766,21 +5723,6 @@ end A024847.P6745187233497226159
 
 The programs for A024848, there is no canonical definition to state claims against.
 -/
-
-/-! ## A024848.P16868946993183140010
-
-`A194431(n+2)`
--/
-
-namespace A024848.P16868946993183140010
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194431 (n + 2)
-
-end
-
-end A024848.P16868946993183140010
 
 /-! ## A024848.P15320816189442506699
 

@@ -14,15 +14,14 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -34,14 +33,16 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -64,6 +65,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,11 +75,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7019,7 +7021,7 @@ end A095751.P16774194672545369743
 
 The programs for A095752, the canonical program `A095752.P6157830035546302502` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095752 has offset 1).
 
-The definition of A095752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095752 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095752.anchor (n : ℕ) : (A095752 (n + 1) : ℚ) = (1 : ℚ) / 9 * (-1 + (10 ^ (n + 1) : ℤ) : ℚ) * (4 * (n + 1) + 3 : ℚ)` in `Proof.A095.A095752`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095752.P6157830035546302502
@@ -7359,6 +7361,29 @@ The programs for A095761, the canonical program `A095761.P6267607276850024697` i
 The definition of A095761 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A014824(2*(n+1)-1)` (program `A095761.P6267607276850024697`, by `A095761.P6267607276850024697.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
+/-! ## A095761.P10739887804136819533
+
+`ogf((1+21x)/(1-102x+201x^2-100x^3))`
+-/
+
+namespace A095761.P10739887804136819533
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 21] [1, -102, 201, -100] n
+
+end
+
+end A095761.P10739887804136819533
+
+namespace A095761
+
+/-- `ogf((1+21x)/(1-102x+201x^2-100x^3))` -/
+def P10739887804136819533.Spec : Prop :=
+  ∀ n, P10739887804136819533.a n = A095761 (n + 1)
+
+end A095761
+
 /-! ## A095761.P16077722988972851145
 
 `100*a(n-1)+22*(n+1)-21` with `a(0)=1`
@@ -7574,29 +7599,6 @@ namespace A095761
 /-- `A099672(2*n+1)/5` -/
 def P18036234823278640198.Spec : Prop :=
   ∀ n, P18036234823278640198.a n = (A095761 (n + 1) : ℚ)
-
-end A095761
-
-/-! ## A095761.P11441583313015706548
-
-`A099673(2*n+1)/6`
--/
-
-namespace A095761.P11441583313015706548
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A099673 (2 * n + 1) : ℚ) / 6
-
-end
-
-end A095761.P11441583313015706548
-
-namespace A095761
-
-/-- `A099673(2*n+1)/6` -/
-def P11441583313015706548.Spec : Prop :=
-  ∀ n, P11441583313015706548.a n = (A095761 (n + 1) : ℚ)
 
 end A095761
 
@@ -10162,42 +10164,6 @@ def P17724564560872515377.Spec : Prop :=
 end A095775
 
 /-!
-# A095776: Expansion of (1-9x-27x^3)^(-1/3).
-
-The programs for A095776, there is no canonical definition to state claims against.
--/
-
-/-! ## A095776.P7251094204634953088
-
-`3^n*A005773(n)`
--/
-
-namespace A095776.P7251094204634953088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 ^ n : ℤ) * A005773 n
-
-end
-
-end A095776.P7251094204634953088
-
-/-! ## A095776.P1124566210518901701
-
-`3^n*A086581(n)`
--/
-
-namespace A095776.P1124566210518901701
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 ^ n : ℤ) * A086581 n
-
-end
-
-end A095776.P1124566210518901701
-
-/-!
 # A095778: Values of n for which A095777(n) is 9 (those terms which are expressible in decimal digits for bases 2 through 10, but not for base 11).
 
 The programs for A095778, the canonical program `A095778.P11204796704169368350` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095778 has offset 1).
@@ -10916,27 +10882,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A095787.P18237078167141950016
-
-/-!
-# A095788: Table, read by antidiagonals, of iterated binomial transforms of A095148, which also forms the antidiagonal sums shift right.
-
-The programs for A095788, there is no canonical definition to state claims against.
--/
-
-/-! ## A095788.P5186956951642700890
-
-`A271025(A061579(n))`
--/
-
-namespace A095788.P5186956951642700890
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271025 (A061579 n).toNat
-
-end
-
-end A095788.P5186956951642700890
 
 /-!
 # A095789: Main diagonal of table A095788 of iterated binomial transforms of A095148, which also forms the antidiagonal sums shift right.

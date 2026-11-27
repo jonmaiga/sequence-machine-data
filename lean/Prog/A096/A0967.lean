@@ -3,10 +3,12 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -16,28 +18,29 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,6 +54,7 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -64,17 +68,18 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +103,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -2003,29 +2007,6 @@ def P17467665321834619853.Spec : Prop :=
 
 end A096738
 
-/-! ## A096738.P1542246775645975283
-
-`A167857(n+2)`
--/
-
-namespace A096738.P1542246775645975283
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167857 (n + 2)
-
-end
-
-end A096738.P1542246775645975283
-
-namespace A096738
-
-/-- `A167857(n+2)` -/
-def P1542246775645975283.Spec : Prop :=
-  ∀ n, P1542246775645975283.a n = A096738 (n + 1)
-
-end A096738
-
 /-! ## A096738.P16583377211151307816
 
 `∩[A346130(n+1), A400256(n+1)]`
@@ -2085,27 +2066,6 @@ def P3906615942855918441.Spec : Prop :=
   ∀ n, (P3906615942855918441.a n : ℤ) = A096738 (n + 1)
 
 end A096738
-
-/-!
-# A096739: Numbers k such that k^4 can be written as a sum of four distinct positive 4th powers.
-
-The programs for A096739, there is no canonical definition to state claims against.
--/
-
-/-! ## A096739.P7404350408835726444
-
-`A003294(n+1)`
--/
-
-namespace A096739.P7404350408835726444
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003294 (n + 1)
-
-end
-
-end A096739.P7404350408835726444
 
 /-!
 # A096740: Number of partitions of n into distinct parts >= 11.
@@ -3174,36 +3134,6 @@ end A096750
 
 The programs for A096751, there is no canonical definition to state claims against.
 -/
-
-/-! ## A096751.P13546303157659080909
-
-`A293551(n)`
--/
-
-namespace A096751.P13546303157659080909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293551 n
-
-end
-
-end A096751.P13546303157659080909
-
-/-! ## A096751.P5903092055471789806
-
-`A099233(n)`
--/
-
-namespace A096751.P5903092055471789806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099233 n
-
-end
-
-end A096751.P5903092055471789806
 
 /-! ## A096751.P8695492218702908464
 
@@ -5598,21 +5528,6 @@ end A096778.P7699592361926807274
 
 The programs for A096779, there is no canonical definition to state claims against.
 -/
-
-/-! ## A096779.P11659406252045667082
-
-`A375759(A375757(n+1))`
--/
-
-namespace A096779.P11659406252045667082
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375759 (A375757 (n + 1)).toNat
-
-end
-
-end A096779.P11659406252045667082
 
 /-! ## A096779.P15118336267685556160
 
@@ -8525,29 +8440,6 @@ namespace A096796
 /-- `A096824(1+n)-1` -/
 def P16502365725442096836.Spec : Prop :=
   ∀ n, P16502365725442096836.a n = A096796 n
-
-end A096796
-
-/-! ## A096796.P2385534922402210846
-
-`-1+A096824(n+1)`
--/
-
-namespace A096796.P2385534922402210846
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A096824 (n + 1)
-
-end
-
-end A096796.P2385534922402210846
-
-namespace A096796
-
-/-- `-1+A096824(n+1)` -/
-def P2385534922402210846.Spec : Prop :=
-  ∀ n, P2385534922402210846.a n = A096796 n
 
 end A096796
 

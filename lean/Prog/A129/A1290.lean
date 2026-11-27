@@ -12,6 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -22,19 +23,20 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,20 +56,20 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,13 +84,13 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -711,6 +713,29 @@ theorem P4245029837086348436.correct : P4245029837086348436.Spec := by
 
 end A129003
 
+/-! ## A129003.P6356635169139529574
+
+`ogf((6+36x)/(1-12x+54x^2-108x^3+81x^4))`
+-/
+
+namespace A129003.P6356635169139529574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, 36] [1, -12, 54, -108, 81] n
+
+end
+
+end A129003.P6356635169139529574
+
+namespace A129003
+
+/-- `ogf((6+36x)/(1-12x+54x^2-108x^3+81x^4))` -/
+def P6356635169139529574.Spec : Prop :=
+  ∀ n, P6356635169139529574.a n = A129003 (n + 1)
+
+end A129003
+
 /-! ## A129003.P1855107079980707894
 
 `lcm(n+2, (n+1)²)*3^(n+1)`
@@ -1001,6 +1026,29 @@ def P16620639643151888085.Spec : Prop :=
 theorem P16620639643151888085.correct : P16620639643151888085.Spec := by
   intro n
   simp only [A129004, Nat.add_sub_cancel]
+
+end A129004
+
+/-! ## A129004.P18127490552919159489
+
+`ogf((8+64x)/(1-16x+96x^2-256x^3+256x^4))`
+-/
+
+namespace A129004.P18127490552919159489
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, 64] [1, -16, 96, -256, 256] n
+
+end
+
+end A129004.P18127490552919159489
+
+namespace A129004
+
+/-- `ogf((8+64x)/(1-16x+96x^2-256x^3+256x^4))` -/
+def P18127490552919159489.Spec : Prop :=
+  ∀ n, P18127490552919159489.a n = A129004 (n + 1)
 
 end A129004
 
@@ -1357,6 +1405,29 @@ namespace A129005
 /-- `10*A081143(n+2)+100*A081143(n+1)` -/
 def P8916230383939401816.Spec : Prop :=
   ∀ n, P8916230383939401816.a n = A129005 n
+
+end A129005
+
+/-! ## A129005.P11125408275546336335
+
+`ogf((10x+100x^2)/(1-20x+150x^2-500x^3+625x^4))`
+-/
+
+namespace A129005.P11125408275546336335
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 10, 100] [1, -20, 150, -500, 625] n
+
+end
+
+end A129005.P11125408275546336335
+
+namespace A129005
+
+/-- `ogf((10x+100x^2)/(1-20x+150x^2-500x^3+625x^4))` -/
+def P11125408275546336335.Spec : Prop :=
+  ∀ n, P11125408275546336335.a n = A129005 n
 
 end A129005
 

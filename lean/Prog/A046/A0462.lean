@@ -9,7 +9,6 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
@@ -23,21 +22,19 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C036
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,6 +47,7 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -59,17 +57,17 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B008.C000
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,11 +79,13 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -95,7 +95,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A046200: Odd numbers in the triangle of denominators in Leibniz's Harmonic Triangle.
 
-The programs for A046200, the canonical program `A046200.P11881798545890118364` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046200 has offset 1).
+The programs for A046200, the canonical program `A046200.P11881798545890118364` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046200 has offset 1).
 
 The definition of A046200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 764 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -104,7 +104,7 @@ The definition of A046200 is `conjectured`: the Lean definition is a formula tha
 
 `A003506(eq[1, A003506(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046200
@@ -340,7 +340,7 @@ end A046202.P6287769280896366570
 /-!
 # A046203: Even numbers in the triangle of denominators in Leibniz's Harmonic Triangle.
 
-The programs for A046203, the canonical program `A046203.P12559141239243383564` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046203 has offset 1).
+The programs for A046203, the canonical program `A046203.P12559141239243383564` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046203 has offset 1).
 
 The definition of A046203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4633 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -404,7 +404,7 @@ end A046203
 
 `A003506(comp[n*A003506(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046203
@@ -706,7 +706,7 @@ end A046204.P17971539994473277065
 /-!
 # A046205: In Leibniz's Harmonic Triangle, write numerator first and then denominator of each element.
 
-The programs for A046205, the canonical program `A046205.P12720954446069382381` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046205 has offset 1).
+The programs for A046205, the canonical program `A046205.P12720954446069382381` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046205 has offset 1).
 
 The definition of A046205 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -761,7 +761,7 @@ end A046205
 
 `A003506(gcd(n+1, ∑[and(1, n)]))`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046205
@@ -940,7 +940,7 @@ end A046205
 /-!
 # A046206: In Leibniz's Harmonic Triangle, write denominator first and then numerator of each element.
 
-The programs for A046206, the canonical program `A046206.P4481990353055156933` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046206 has offset 1).
+The programs for A046206, the canonical program `A046206.P4481990353055156933` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046206 has offset 1).
 
 The definition of A046206 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -949,7 +949,7 @@ The definition of A046206 is `conjectured`: the Lean definition is a formula tha
 
 `A003506(n+1-2*lcm(2, n)/4)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046206
@@ -1696,7 +1696,7 @@ end A046208
 /-!
 # A046209: Number of ternary Lyndon words whose digits sum to 0 mod 3; also number of trace 0 irreducible polynomials over GF(3).
 
-The programs for A046209, the canonical program `A046209.P9712162930245462689` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046209 has offset 1).
+The programs for A046209, the canonical program `A046209.P9712162930245462689` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046209 has offset 1).
 
 The definition of A046209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1728,7 +1728,7 @@ end A046209
 
 `1/(3*(n+1))*∑{d}[n+1, gcd(#, 3)*A008683(#)*3^((n+1)/#)]`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046209
@@ -1956,7 +1956,7 @@ end A046211
 /-!
 # A046212: First numerator and then denominator of central elements of Leibniz's Harmonic Triangle.
 
-The programs for A046212, the canonical program `A046212.P17463355710712911798` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046212 has offset 1).
+The programs for A046212, the canonical program `A046212.P17463355710712911798` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046212 has offset 1).
 
 The definition of A046212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1965,7 +1965,7 @@ The definition of A046212 is `conjectured`: the Lean definition is a formula tha
 
 `A056040(n%2*n)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046212
@@ -3098,21 +3098,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046218.P7647891814211533408
-
-/-! ## A046218.P18005855161961692162
-
-`A046221(n+1)`
--/
-
-namespace A046218.P18005855161961692162
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046221 (n + 1)
-
-end
-
-end A046218.P18005855161961692162
 
 /-! ## A046218.P15832815085752802652
 
@@ -5787,21 +5772,6 @@ end
 
 end A046257.P11491007103964011964
 
-/-! ## A046257.P16075820931018773990
-
-`A074343(n+1)`
--/
-
-namespace A046257.P16075820931018773990
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074343 (n + 1)
-
-end
-
-end A046257.P16075820931018773990
-
 /-!
 # A046258: a(1) = 8; a(n) is smallest number >= a(n-1) such that the juxtaposition a(1)a(2)...a(n) is a prime.
 
@@ -5873,21 +5843,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046258.P3617160277804757168
-
-/-! ## A046258.P240686447893008737
-
-`A074344(n+1)`
--/
-
-namespace A046258.P240686447893008737
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074344 (n + 1)
-
-end
-
-end A046258.P240686447893008737
 
 /-!
 # A046260: Largest palindromic substring in 2^n.

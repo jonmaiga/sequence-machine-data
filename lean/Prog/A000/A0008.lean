@@ -9,28 +9,28 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C027
+import Seq.B000.C031
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C042
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,20 +49,18 @@ import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,7 +84,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -555,8 +552,29 @@ end A000803
 /-!
 # A000804: Permanent of a certain cyclic n X n (0,1) matrix.
 
-The programs for A000804, there is no canonical definition to state claims against.
+The programs for A000804, the canonical program `A000804.P16730401659036875429` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000804 has offset 0).
+
+The definition of A000804 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A000804.P16730401659036875429
+
+`ogf((1-2x-x^2+2x^3+10x^4+60x^5-75x^6-150x^7-158x^8-122x^9+190x^10+213x^11+113x^12+48x^13-64x^14-41x^15)/(1-3x+2x^3+2x^4+6x^5-2x^6-4x^7-2x^8-2x^9+x^10+x^11))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A000804
+
+/-- `ogf((1-2x-x^2+2x^3+10x^4+60x^5-75x^6-150x^7-158x^8-122x^9+190x^10+213x^11+113x^12+48x^13-64x^14-41x^15)/(1-3x+2x^3+2x^4+6x^5-2x^6-4x^7-2x^8-2x^9+x^10+x^11))` -/
+def P16730401659036875429.Spec : Prop :=
+  ∀ n, P16730401659036875429.a n = A000804 n
+
+theorem P16730401659036875429.correct : P16730401659036875429.Spec := by
+  intro n
+  simp only [A000804]
+
+end A000804
 
 /-! ## A000804.P2993226095996063739
 
@@ -572,6 +590,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000804.P2993226095996063739
+
+namespace A000804
+
+/-- `n!%A018717(2*n+3)` -/
+def P2993226095996063739.Spec : Prop :=
+  ∀ n, P2993226095996063739.a n = A000804 n
+
+end A000804
 
 /-! ## A000804.P12422527788626483794
 
@@ -591,20 +617,13 @@ end
 
 end A000804.P12422527788626483794
 
-/-! ## A000804.P53511351445083926
+namespace A000804
 
-`A000142(n)%A101002(A284311(n+1))`
--/
+/-- `A004890(n+1)!%∑[16*n+17]` -/
+def P12422527788626483794.Spec : Prop :=
+  ∀ n, (P12422527788626483794.a n : ℤ) = A000804 n
 
-namespace A000804.P53511351445083926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000142 n) (A101002 (A284311 (n + 1)).toNat)
-
-end
-
-end A000804.P53511351445083926
+end A000804
 
 /-!
 # A000805: Permanent of a certain cyclic n X n (0,1) matrix.

@@ -14,10 +14,8 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -25,7 +23,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -38,13 +35,14 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C046
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +59,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,14 +67,17 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -246,6 +248,29 @@ The programs for A005609, the canonical program `A005609.P5436122901212873318` i
 
 The definition of A005609 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A005609.P12825127046099338646
+
+`ogf((64-112x)/(1-29x+28x^2))`
+-/
+
+namespace A005609.P12825127046099338646
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [64, -112] [1, -29, 28] n
+
+end
+
+end A005609.P12825127046099338646
+
+namespace A005609
+
+/-- `ogf((64-112x)/(1-29x+28x^2))` -/
+def P12825127046099338646.Spec : Prop :=
+  ∀ n, P12825127046099338646.a n = A005609 (n + 1)
+
+end A005609
 
 /-! ## A005609.P5436122901212873318
 
@@ -2117,21 +2142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A005628.P3361949990516249535
-
-/-! ## A005628.P9396757895265402555
-
-`2*(A261336(A028310(n))+0)`
--/
-
-namespace A005628.P9396757895265402555
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A261336 (A028310 n).toNat + 0)
-
-end
-
-end A005628.P9396757895265402555
 
 /-! ## A005628.P4740539825529919940
 
@@ -12856,32 +12866,6 @@ namespace A005690
 /-- `A005689(n+8)-A005691(n+8)` -/
 def P6295874754561780061.Spec : Prop :=
   ∀ n, P6295874754561780061.a n = A005690 (n + 8)
-
-end A005690
-
-/-! ## A005690.P6013851817727502407
-
-`A374746(n)+record[n-A268289(n)]`
--/
-
-namespace A005690.P6013851817727502407
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A268289 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374746 n + f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A005690.P6013851817727502407
-
-namespace A005690
-
-/-- `A374746(n)+record[n-A268289(n)]` -/
-def P6013851817727502407.Spec : Prop :=
-  ∀ n, P6013851817727502407.a n = A005690 (n + 8)
 
 end A005690
 

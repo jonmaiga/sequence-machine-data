@@ -8,26 +8,24 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C031
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C044
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -40,7 +38,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -51,12 +49,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,7 +76,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -366,21 +360,6 @@ end A352307.P15626767094839779688
 
 The programs for A352308, there is no canonical definition to state claims against.
 -/
-
-/-! ## A352308.P11246193788909045880
-
-`A076726(n)-A343787(n)`
--/
-
-namespace A352308.P11246193788909045880
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076726 n - A343787 n
-
-end
-
-end A352308.P11246193788909045880
 
 /-! ## A352308.P18395825227305812512
 
@@ -1456,27 +1435,6 @@ end
 end A352328.P5732990219637539185
 
 /-!
-# A352329: Squares in A030299.
-
-The programs for A352329, there is no canonical definition to state claims against.
--/
-
-/-! ## A352329.P16666130131549896971
-
-`A353025(n+1)`
--/
-
-namespace A352329.P16666130131549896971
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353025 (n + 1)
-
-end
-
-end A352329.P16666130131549896971
-
-/-!
 # A352333: a(1) = 1. For n >= 2, a(n) is the number whose base a(n-1) + 1 digit values, written in base 10, are the terms from a(1) through a(n-1).
 
 The programs for A352333, there is no canonical definition to state claims against.
@@ -1646,21 +1604,6 @@ end A352337.P14440408857517801857
 
 The programs for A352338, there is no canonical definition to state claims against.
 -/
-
-/-! ## A352338.P1222470256247135177
-
-`A085420(A362850(n+2))`
--/
-
-namespace A352338.P1222470256247135177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085420 (A362850 (n + 2)).toNat
-
-end
-
-end A352338.P1222470256247135177
 
 /-! ## A352338.P15994881081171626591
 
@@ -1844,21 +1787,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A352340.P17448429280315716363
-
-/-! ## A352340.P15332502143150379259
-
-`dr(A352339(n))`
--/
-
-namespace A352340.P15332502143150379259
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A352339 n)
-
-end
-
-end A352340.P15332502143150379259
 
 /-!
 # A352341: Numbers whose maximal Pell representation (A352339) is palindromic.
@@ -2050,21 +1978,6 @@ end A352344.P14704627542500385660
 
 The programs for A352348, there is no canonical definition to state claims against.
 -/
-
-/-! ## A352348.P3181611247492090210
-
-`A057567(n+1)^A243349(n+1)`
--/
-
-namespace A352348.P3181611247492090210
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A057567 (n + 1) : ℚ) ^ (A243349 (n + 1) : ℤ)
-
-end
-
-end A352348.P3181611247492090210
 
 /-! ## A352348.P1955932255593451960
 
@@ -2843,21 +2756,6 @@ end
 
 end A352361.P15784908219481245464
 
-/-! ## A352361.P8595332896828334506
-
-`A059848(n)`
--/
-
-namespace A352361.P8595332896828334506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059848 n
-
-end
-
-end A352361.P8595332896828334506
-
 /-!
 # A352362: Array read by ascending antidiagonals. T(n, k) = L(k, n) where L are the Lucas polynomials.
 
@@ -3371,7 +3269,7 @@ end A352372.P10030380065227345347
 /-!
 # A352373: a(n) = [x^n] ( 1/((1 - x)^2*(1 - x^2)) )^n for n >= 1.
 
-The programs for A352373, the canonical program `A352373.P8291047676932121950` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352373 has offset 1).
+The programs for A352373, the canonical program `A352373.P8291047676932121950` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352373 has offset 1).
 
 The definition of A352373 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3380,7 +3278,7 @@ The definition of A352373 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor((n+1)/2), C(3*(n+1)-2*#-1, n+1-2*#)*C(n+1+#-1, #)]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A352373

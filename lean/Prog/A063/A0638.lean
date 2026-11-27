@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
@@ -15,23 +16,23 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C032
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,25 +63,23 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -3619,27 +3618,6 @@ end
 end A063850.P17993758633019852404
 
 /-!
-# A063851: Triangle T(n,k) (n >= 3, k = 1..n-2) read by rows giving number of nonisomorphic nondegenerate oriented matroids with n points in n-k dimensions.
-
-The programs for A063851, there is no canonical definition to state claims against.
--/
-
-/-! ## A063851.P2355491916405008247
-
-`A222317(n+3)`
--/
-
-namespace A063851.P2355491916405008247
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222317 (n + 3)
-
-end
-
-end A063851.P2355491916405008247
-
-/-!
 # A063852: Number of nonisomorphic nondegenerate oriented matroids with n points in dimensions 2 through n-1.
 
 The programs for A063852, there is no canonical definition to state claims against.
@@ -6709,27 +6687,31 @@ end A063895.P10955054476724125739
 /-!
 # A063896: a(n) = 2^Fibonacci(n) - 1.
 
-The programs for A063896, the canonical program `A063896.P13745238574859807931` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063896 has offset 0).
+The programs for A063896, the canonical program `A063896.P3317555825366484470` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063896 has offset 0).
 
-The definition of A063896 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A063896 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A063896.anchor (n : ℕ) : (A063896 n : ℚ) = (2 : ℚ) ^ (A000045 n : ℤ) - 1` in `Proof.A063.A063896`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A063896.P13745238574859807931
 
 `(a(n-1)+1)*(a(n-2)+1)-1` with `a(0)=0, a(1)=1`
-
-The canonical program, it is in `Seq.B000.C012`.
 -/
+
+namespace A063896.P13745238574859807931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
+  (a (n - 1) + 1) * (a (n - 2) + 1) - 1
+
+end
+
+end A063896.P13745238574859807931
 
 namespace A063896
 
 /-- `(a(n-1)+1)*(a(n-2)+1)-1` -/
 def P13745238574859807931.Spec : Prop :=
   ∀ n, P13745238574859807931.a n = A063896 n
-
-theorem P13745238574859807931.correct : P13745238574859807931.Spec := by
-  intro n
-  simp only [A063896]
 
 end A063896
 
@@ -6760,18 +6742,8 @@ end A063896
 
 `2^A000045(n)-1`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B001.C002`.
 -/
-
-namespace A063896.P3317555825366484470
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (A000045 n : ℤ) - 1
-
-end
-
-end A063896.P3317555825366484470
 
 namespace A063896
 

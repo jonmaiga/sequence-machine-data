@@ -17,31 +17,33 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,7 +62,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -77,15 +78,15 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -110,7 +111,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3044,7 +3044,7 @@ end A030514
 /-!
 # A030515: Numbers with exactly 6 divisors.
 
-The programs for A030515, the canonical program `A030515.P12955825658277504300` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030515 has offset 1).
+The programs for A030515, the canonical program `A030515.P12955825658277504300` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030515 has offset 1).
 
 The definition of A030515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3053,7 +3053,7 @@ The definition of A030515 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A050997(n+1), A054753(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A030515
@@ -6981,7 +6981,7 @@ end A030534.P4664360127045200551
 
 The programs for A030538, the canonical program `A030538.P16310134890815451101` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030538 has offset 0).
 
-The definition of A030538 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A030538 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A030538.anchor (n : ℕ) : (A030538 n : ℚ) = ((2 ^ n + 2) * (2 ^ n + 4) * (4 ^ n + 9 * 2 ^ n + 38) : ℚ) / 720` in `Proof.A030.A030538`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A030538.P16310134890815451101
@@ -7334,21 +7334,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A030548.P3340530888988337724
-
-/-! ## A030548.P14489098573481373987
-
-`A030586(n+1)*(-1)+5`
--/
-
-namespace A030548.P14489098573481373987
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030586 (n + 1) * (-1) + 5
-
-end
-
-end A030548.P14489098573481373987
 
 /-! ## A030548.P7966807042541244423
 
@@ -8792,21 +8777,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030559.P12496113879477145342
-
-/-! ## A030559.P3769952025982383271
-
-`A030579(A137929(1+n))`
--/
-
-namespace A030559.P3769952025982383271
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030579 (A137929 (1 + n)).toNat
-
-end
-
-end A030559.P3769952025982383271
 
 /-! ## A030559.P15154739337094422479
 
@@ -10707,21 +10677,6 @@ end
 
 end A030585.P11693811579500590742
 
-/-! ## A030585.P3142325950328233860
-
-`A105348(A102786(n+6))`
--/
-
-namespace A030585.P3142325950328233860
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105348 (A102786 (n + 6)).toNat
-
-end
-
-end A030585.P3142325950328233860
-
 /-! ## A030585.P15679350301917063930
 
 `val(A109613(A010785(n)), A000196(2*(n+2)))`
@@ -10772,21 +10727,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030586.P8506427430083463809
-
-/-! ## A030586.P15806431542564687179
-
-`A030548(n+1)*(-1)+5`
--/
-
-namespace A030586.P15806431542564687179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030548 (n + 1) * (-1) + 5
-
-end
-
-end A030586.P15806431542564687179
 
 /-! ## A030586.P5727885815581096677
 

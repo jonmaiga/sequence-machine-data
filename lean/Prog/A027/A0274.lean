@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -36,9 +37,11 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
-import Seq.B000.C049
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,10 +60,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -68,7 +73,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -82,7 +86,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -94,7 +97,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -6581,21 +6583,6 @@ end
 
 end A027459.P13808260067259165565
 
-/-! ## A027459.P6355564644662830702
-
-`A329108(n+1)`
--/
-
-namespace A027459.P6355564644662830702
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329108 (n + 1)
-
-end
-
-end A027459.P6355564644662830702
-
 /-! ## A027459.P16782228013945865609
 
 `record[A027447(A085736(n+1))]`
@@ -11148,6 +11135,29 @@ def P8035799825745201113.Spec : Prop :=
 
 end A027474
 
+/-! ## A027474.P3050507537850905220
+
+`ogf(1/(1-21x+147x^2-343x^3))`
+-/
+
+namespace A027474.P3050507537850905220
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -21, 147, -343] n
+
+end
+
+end A027474.P3050507537850905220
+
+namespace A027474
+
+/-- `ogf(1/(1-21x+147x^2-343x^3))` -/
+def P3050507537850905220.Spec : Prop :=
+  ∀ n, P3050507537850905220.a n = A027474 (n + 2)
+
+end A027474
+
 /-! ## A027474.P6396727223038614299
 
 `∑{#}[n+1, #*7^n]`
@@ -13136,17 +13146,25 @@ end A027483.P9177989870397061042
 /-!
 # A027484: a(n) = n*(n^4-1)/2.
 
-The programs for A027484, the canonical program `A027484.P8620201401820357656` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027484 has offset 2).
+The programs for A027484, the canonical program `A027484.P4086361051666705444` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027484 has offset 2).
 
-The definition of A027484 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A027484 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A027484.anchor (n : ℕ) : (A027484 (n + 2) : ℚ) = ((n + 2 : ℤ) * (((n + 2) ^ 4 : ℤ) - 1) : ℚ) / 2` in `Proof.A027.A027484`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A027484.P8620201401820357656
 
 `ogf((15+30x+15x^2)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A027484.P8620201401820357656
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [15, 30, 15] [1, -6, 15, -20, 15, -6, 1] n
+
+end
+
+end A027484.P8620201401820357656
 
 namespace A027484
 
@@ -13154,28 +13172,14 @@ namespace A027484
 def P8620201401820357656.Spec : Prop :=
   ∀ n, P8620201401820357656.a n = A027484 (n + 2)
 
-theorem P8620201401820357656.correct : P8620201401820357656.Spec := by
-  intro n
-  simp only [A027484, Nat.add_sub_cancel]
-
 end A027484
 
 /-! ## A027484.P4086361051666705444
 
 `(n+2)*((n+2)^4-1)/2`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C006`.
 -/
-
-namespace A027484.P4086361051666705444
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n + 2 : ℤ) * (((n + 2) ^ 4 : ℤ) - 1) : ℚ) / 2
-
-end
-
-end A027484.P4086361051666705444
 
 namespace A027484
 

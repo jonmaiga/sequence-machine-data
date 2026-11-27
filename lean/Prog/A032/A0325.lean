@@ -13,30 +13,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C033
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,6 +56,7 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B004.C004
@@ -7070,7 +7071,7 @@ end A032544.P6528053571113038768
 /-!
 # A032545: Integer part of decimal 'base-6 looking' numbers divided by their actual base-6 values, rounded down.
 
-The programs for A032545, the canonical program `A032545.P13922615595974255940` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032545 has offset 1).
+The programs for A032545, the canonical program `A032545.P13922615595974255940` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032545 has offset 1).
 
 The definition of A032545 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007092, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7079,7 +7080,7 @@ The definition of A032545 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(A007092(n+1)/(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A032545
@@ -7394,7 +7395,7 @@ end A032546.P5762269219762266170
 /-!
 # A032548: Integer part of decimal 'base-7 looking' numbers divided by their actual base-7 values.
 
-The programs for A032548, the canonical program `A032548.P8167031196265540055` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032548 has offset 1).
+The programs for A032548, the canonical program `A032548.P8167031196265540055` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032548 has offset 1).
 
 The definition of A032548 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7403,7 +7404,7 @@ The definition of A032548 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(A007093(n+1)/(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A032548
@@ -8966,28 +8967,6 @@ end A032573.P12518078295517244183
 
 The programs for A032575, there is no canonical definition to state claims against.
 -/
-
-/-! ## A032575.P16220380164906109366
-
-`∩[A051004(n+1), A085133(n+1)]`
--/
-
-namespace A032575.P16220380164906109366
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051004 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085133 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A032575.P16220380164906109366
 
 /-! ## A032575.P14031257643852287670
 
@@ -12020,21 +11999,6 @@ end A032590.P13080581667429664283
 The programs for A032591, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032591.P12880804914404766527
-
-`A136162(n+5)`
--/
-
-namespace A032591.P12880804914404766527
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136162 (n + 5)
-
-end
-
-end A032591.P12880804914404766527
-
 /-! ## A032591.P12955991800154336692
 
 `A306661(A347189(n+2))`
@@ -12268,21 +12232,6 @@ end A032592.P16161078352542862098
 The programs for A032593, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032593.P9431879175891190833
-
-`A246488(2*n+1)`
--/
-
-namespace A032593.P9431879175891190833
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246488 (2 * n + 1)
-
-end
-
-end A032593.P9431879175891190833
-
 /-! ## A032593.P13131838172803299233
 
 `∩[A246488(n+1), A271114(n)]`
@@ -12319,27 +12268,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032593.P14776243219036481659
-
-/-!
-# A032594: Greater of two consecutive palindromes, both of which are prime.
-
-The programs for A032594, there is no canonical definition to state claims against.
--/
-
-/-! ## A032594.P6703965403885177157
-
-`A246488(2*(n+1))`
--/
-
-namespace A032594.P6703965403885177157
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246488 (2 * (n + 1))
-
-end
-
-end A032594.P6703965403885177157
 
 /-!
 # A032596: Second of three consecutive palindromes all of which are prime.

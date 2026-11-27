@@ -8,16 +8,16 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C016
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C005
 import SequenceMachineLib.Triangle
@@ -3783,27 +3783,50 @@ end A016908
 /-!
 # A016909: Expansion of 1/((1-3*x)*(1-4*x)*(1-9*x)).
 
-The programs for A016909, the canonical program `A016909.P15125234924933395087` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016909 has offset 0).
+The programs for A016909, the canonical program `A016909.P4694015933510336226` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016909 has offset 0).
 
-The definition of A016909 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A016909 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-16x+75x^2-108x^3))` (program `A016909.P4694015933510336226`, by `A016909.P4694015933510336226.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A016909.P15125234924933395087
+/-! ## A016909.P4694015933510336226
 
-`13*a(n-1)-36*a(n-2)+3^n` with `a(0)=1, a(1)=16`
+`ogf(1/(1-16x+75x^2-108x^3))`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A016909
 
+/-- `ogf(1/(1-16x+75x^2-108x^3))` -/
+def P4694015933510336226.Spec : Prop :=
+  ∀ n, P4694015933510336226.a n = A016909 n
+
+theorem P4694015933510336226.correct : P4694015933510336226.Spec := by
+  intro n
+  simp only [A016909]
+
+end A016909
+
+/-! ## A016909.P15125234924933395087
+
+`13*a(n-1)-36*a(n-2)+3^n` with `a(0)=1, a(1)=16`
+-/
+
+namespace A016909.P15125234924933395087
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 16] fun n a =>
+  13 * a (n - 1) - 36 * a (n - 2) + (3 ^ n : ℤ)
+
+end
+
+end A016909.P15125234924933395087
+
+namespace A016909
+
 /-- `13*a(n-1)-36*a(n-2)+3^n` -/
 def P15125234924933395087.Spec : Prop :=
   ∀ n, P15125234924933395087.a n = A016909 n
-
-theorem P15125234924933395087.correct : P15125234924933395087.Spec := by
-  intro n
-  simp only [A016909]
 
 end A016909
 
@@ -3827,24 +3850,6 @@ namespace A016909
 /-- `3*3^n/2-16*4^n/5+27*9^n/10` -/
 def P14842082448683197498.Spec : Prop :=
   ∀ n, P14842082448683197498.a n = (A016909 n : ℚ)
-
-theorem P14842082448683197498.correct : P14842082448683197498.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A016909, Nat.add_sub_cancel, A016909.P14842082448683197498.a, A016909.P15125234924933395087.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A016909, Nat.add_sub_cancel, A016909.P14842082448683197498.a, A016909.P15125234924933395087.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A016909
 
@@ -31043,27 +31048,50 @@ end A016980
 /-!
 # A016981: Expansion of 1/((1-3x)(1-4x)(1-10x)).
 
-The programs for A016981, the canonical program `A016981.P15387433611499977652` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016981 has offset 0).
+The programs for A016981, the canonical program `A016981.P17017557752430919804` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016981 has offset 0).
 
-The definition of A016981 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A016981 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-17x+82x^2-120x^3))` (program `A016981.P17017557752430919804`, by `A016981.P17017557752430919804.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A016981.P15387433611499977652
+/-! ## A016981.P17017557752430919804
 
-`14*a(n-1)-40*a(n-2)+3^n` with `a(0)=1, a(1)=17`
+`ogf(1/(1-17x+82x^2-120x^3))`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A016981
 
+/-- `ogf(1/(1-17x+82x^2-120x^3))` -/
+def P17017557752430919804.Spec : Prop :=
+  ∀ n, P17017557752430919804.a n = A016981 n
+
+theorem P17017557752430919804.correct : P17017557752430919804.Spec := by
+  intro n
+  simp only [A016981]
+
+end A016981
+
+/-! ## A016981.P15387433611499977652
+
+`14*a(n-1)-40*a(n-2)+3^n` with `a(0)=1, a(1)=17`
+-/
+
+namespace A016981.P15387433611499977652
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 17] fun n a =>
+  14 * a (n - 1) - 40 * a (n - 2) + (3 ^ n : ℤ)
+
+end
+
+end A016981.P15387433611499977652
+
+namespace A016981
+
 /-- `14*a(n-1)-40*a(n-2)+3^n` -/
 def P15387433611499977652.Spec : Prop :=
   ∀ n, P15387433611499977652.a n = A016981 n
-
-theorem P15387433611499977652.correct : P15387433611499977652.Spec := by
-  intro n
-  simp only [A016981]
 
 end A016981
 
@@ -31087,24 +31115,6 @@ namespace A016981
 /-- `9*3^n/7-8*4^n/3+50*10^n/21` -/
 def P4948406778895181051.Spec : Prop :=
   ∀ n, P4948406778895181051.a n = (A016981 n : ℚ)
-
-theorem P4948406778895181051.correct : P4948406778895181051.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A016981, Nat.add_sub_cancel, A016981.P4948406778895181051.a, A016981.P15387433611499977652.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A016981, Nat.add_sub_cancel, A016981.P4948406778895181051.a, A016981.P15387433611499977652.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A016981
 

@@ -12,33 +12,31 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,6 +53,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -63,6 +62,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,7 +74,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -171,21 +170,6 @@ end A180400.P8773268915799190152
 
 The programs for A180401, there is no canonical definition to state claims against.
 -/
-
-/-! ## A180401.P13002267476720523942
-
-`and(A075504(n+1), A269944(n))`
--/
-
-namespace A180401.P13002267476720523942
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A075504 (n + 1)) (A269944 n)
-
-end
-
-end A180401.P13002267476720523942
 
 /-! ## A180401.P12697333987841882881
 
@@ -4370,12 +4354,6 @@ namespace A180444
 def P10168316211658825804.Spec : Prop :=
   ∀ n, P10168316211658825804.a n = A180444 n
 
-theorem P10168316211658825804.correct : P10168316211658825804.Spec := by
-  intro n
-  simp only [A180444, Nat.add_sub_cancel, A180444.P10168316211658825804.a, A180444.P789406692991955832.a, A000010, A000010.P4673923239450215316.a, A003972, A003972.P2423200350467876597.a, A377985, A377985.P6249672595049724567.a, A003557, A003557.P6364735403900941810.a, A003961, A003961.P5996473960037614004.a, A173557, A173557.P308518469657070908.f1, A173557.P308518469657070908.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A253885, A253885.P16715555451856890624.a, A243501, A243501.P10707292738867961998.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A180444
 
 /-! ## A180444.P16177924844618978518
@@ -8249,21 +8227,6 @@ end A180476.P4192382580732338207
 The programs for A180477, there is no canonical definition to state claims against.
 -/
 
-/-! ## A180477.P6216566971666526963
-
-`A271239(n+1)`
--/
-
-namespace A180477.P6216566971666526963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271239 (n + 1)
-
-end
-
-end A180477.P6216566971666526963
-
 /-! ## A180477.P1489722928874809461
 
 `∩[A263808(n+1), A359415(n+1)]`
@@ -8285,21 +8248,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A180477.P1489722928874809461
-
-/-! ## A180477.P53853652112873976
-
-`A263808(n+1)`
--/
-
-namespace A180477.P53853652112873976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263808 (n + 1)
-
-end
-
-end A180477.P53853652112873976
 
 /-!
 # A180479: Numbers m such that m/k is an integer. m = (x_1 x_2 ... x_r) where x_i are digits of m, k = x_1*r + x_2*(r-1) + ... + x_r*1.

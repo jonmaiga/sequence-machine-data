@@ -18,26 +18,28 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,11 +65,11 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A347501: Number of dominating sets in the n-alkane graph.
 
-The programs for A347501, the canonical program `A347501.P10494683398487443463` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347501 has offset 1).
+The programs for A347501, the canonical program `A347501.P10494683398487443463` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347501 has offset 1).
 
 The definition of A347501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -111,7 +113,7 @@ The definition of A347501 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((17-4x)/(1-5x))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347501
@@ -411,7 +413,7 @@ end A347502
 /-!
 # A347503: Number of dominating sets in the n-dipyramidal graph.
 
-The programs for A347503, the canonical program `A347503.P9761375208842288419` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347503 has offset 1).
+The programs for A347503, the canonical program `A347503.P9761375208842288419` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347503 has offset 1).
 
 The definition of A347503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -443,7 +445,7 @@ end A347503
 
 `4*a(n-1)-4*a(n-2)-a(n-4)+2*a(n-5)` with `a(0)=5, a(1)=13, a(2)=29, a(3)=57, a(4)=115`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347503
@@ -639,7 +641,7 @@ end A347510.P4319425402148250739
 /-!
 # A347512: Number of minimal dominating sets in the n-book graph.
 
-The programs for A347512, the canonical program `A347512.P16033218110707710585` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347512 has offset 1).
+The programs for A347512, the canonical program `A347512.P16033218110707710585` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347512 has offset 1).
 
 The definition of A347512 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -648,7 +650,7 @@ The definition of A347512 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((6-11x+2x^2)/(1-3x+2x^2))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347512
@@ -1102,7 +1104,7 @@ end A347512
 /-!
 # A347513: Number of minimal dominating sets in the n-cycle complement graph.
 
-The programs for A347513, the canonical program `A347513.P16061109865782157624` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347513 has offset 3).
+The programs for A347513, the canonical program `A347513.P16061109865782157624` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347513 has offset 3).
 
 The definition of A347513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1111,7 +1113,7 @@ The definition of A347513 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-4x^2+7x^3-8x^4+6x^5-2x^6)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347513
@@ -1726,24 +1728,6 @@ end
 
 end A347520.P7232231396470568524
 
-/-! ## A347520.P3404060038978731873
-
-`record[A053392(n)]`
--/
-
-namespace A347520.P3404060038978731873
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053392 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A347520.P3404060038978731873
-
 /-!
 # A347521: Number of polyominoes with n cells formed by coordinates that are not coprime.
 
@@ -2324,7 +2308,7 @@ end A347524.P7896570347484833240
 /-!
 # A347525: Number of minimum dominating sets in the n-Andrásfai graph.
 
-The programs for A347525, the canonical program `A347525.P13560795984447676131` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347525 has offset 1).
+The programs for A347525, the canonical program `A347525.P13560795984447676131` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347525 has offset 1).
 
 The definition of A347525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2333,7 +2317,7 @@ The definition of A347525 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+x+16x^2-21x^3+8x^4)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347525
@@ -3107,7 +3091,7 @@ end A347534.P3441299118793879600
 /-!
 # A347535: Number of minimum dominating sets in the complete bipartite graph K_{n,n}.
 
-The programs for A347535, the canonical program `A347535.P10289169845756184570` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347535 has offset 1).
+The programs for A347535, the canonical program `A347535.P10289169845756184570` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347535 has offset 1).
 
 The definition of A347535 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3116,7 +3100,7 @@ The definition of A347535 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-3x^2+5x^3-2x^4)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347535
@@ -3603,7 +3587,7 @@ end A347535
 /-!
 # A347536: Number of minimum dominating sets in the complete tripartite graph K_{n,n,n}.
 
-The programs for A347536, the canonical program `A347536.P14515302599324115495` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347536 has offset 1).
+The programs for A347536, the canonical program `A347536.P14515302599324115495` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347536 has offset 1).
 
 The definition of A347536 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3635,7 +3619,7 @@ end A347536
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=3, a(1)=15, a(2)=27, a(3)=48, a(4)=75`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347536
@@ -3929,7 +3913,7 @@ end A347537.P14158432785817037346
 /-!
 # A347538: Number of minimum dominating sets in the cycle graph C_n.
 
-The programs for A347538, the canonical program `A347538.P1960281545295632756` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347538 has offset 3).
+The programs for A347538, the canonical program `A347538.P1960281545295632756` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347538 has offset 3).
 
 The definition of A347538 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3938,7 +3922,7 @@ The definition of A347538 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-3*a(n-6)+a(n-9)` with `a(0)=3, a(1)=6, a(2)=5, a(3)=3, a(4)=14, a(5)=8, a(6)=3, a(7)=25, a(8)=11`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347538
@@ -4064,21 +4048,6 @@ end
 
 end A347542.P5124824976361492401
 
-/-! ## A347542.P3290876102028837425
-
-`A035298(n+1)`
--/
-
-namespace A347542.P3290876102028837425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035298 (n + 1)
-
-end
-
-end A347542.P3290876102028837425
-
 /-! ## A347542.P4616434993077324537
 
 `A123576(n²+n)+n+1`
@@ -4174,21 +4143,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A347543.P4396010287456340623
-
-/-! ## A347543.P17602016515345699138
-
-`A343940(n+1)`
--/
-
-namespace A347543.P17602016515345699138
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343940 (n + 1)
-
-end
-
-end A347543.P17602016515345699138
 
 /-!
 # A347544: Number of partitions of n into 8 or more parts.
@@ -4743,7 +4697,7 @@ end A347550.P834776784640426047
 /-!
 # A347551: Number of minimum dominating sets in the 2n-crossed prism graph.
 
-The programs for A347551, the canonical program `A347551.P1847169841166646546` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347551 has offset 2).
+The programs for A347551, the canonical program `A347551.P1847169841166646546` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347551 has offset 2).
 
 The definition of A347551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4775,7 +4729,7 @@ end A347551
 
 `4*a(n-2)-4*a(n-4)` with `a(0)=4, a(1)=51, a(2)=8, a(3)=170`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347551
@@ -4964,7 +4918,7 @@ end A347552.P17257608092641315866
 /-!
 # A347553: Number of minimum dominating sets in the n-cycle complement graph.
 
-The programs for A347553, the canonical program `A347553.P13469854583376819557` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347553 has offset 3).
+The programs for A347553, the canonical program `A347553.P13469854583376819557` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347553 has offset 3).
 
 The definition of A347553 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4973,7 +4927,7 @@ The definition of A347553 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x-4x^2+5x^3-2x^4)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347553
@@ -5541,7 +5495,7 @@ end A347555.P16205741067837755751
 /-!
 # A347558: Number of minimum dominating sets in the n-ladder graph.
 
-The programs for A347558, the canonical program `A347558.P11816180606456264473` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347558 has offset 1).
+The programs for A347558, the canonical program `A347558.P11816180606456264473` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347558 has offset 1).
 
 The definition of A347558 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5573,7 +5527,7 @@ end A347558
 
 `2*a(n-2)-a(n-4)` with `a(0)=2, a(1)=6, a(2)=3, a(3)=12, a(4)=2, a(5)=17, a(6)=2, a(7)=20, a(8)=2, a(9)=24`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347558
@@ -5617,7 +5571,7 @@ end A347558
 /-!
 # A347559: Number of minimum dominating sets in the n-Moebius ladder.
 
-The programs for A347559, the canonical program `A347559.P17940906561661544970` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347559 has offset 3).
+The programs for A347559, the canonical program `A347559.P17940906561661544970` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347559 has offset 3).
 
 The definition of A347559 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5626,7 +5580,7 @@ The definition of A347559 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((9+24x+10x^2+4x^3-13x^4+8x^5-12x^6-8x^7+7x^8+2x^10+4x^11-3x^12)/(1-3x^4+3x^8-x^12))`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A347559
@@ -5712,51 +5666,6 @@ end A347562.P13195359555778969005
 
 The programs for A347563, there is no canonical definition to state claims against.
 -/
-
-/-! ## A347563.P17001449828092547068
-
-`(A098361(n)-A000007(n))/A055642(n)`
--/
-
-namespace A347563.P17001449828092547068
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A098361 n - A000007 n : ℚ) / (A055642 n : ℚ)
-
-end
-
-end A347563.P17001449828092547068
-
-/-! ## A347563.P7839252997058132928
-
-`A057427(n)/A055642(n)*A098361(n)`
--/
-
-namespace A347563.P7839252997058132928
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A057427 n : ℚ) / (A055642 n : ℚ) * (A098361 n : ℚ)
-
-end
-
-end A347563.P7839252997058132928
-
-/-! ## A347563.P16339527122407054147
-
-`A098361(n)/A055642(n)*A178334(n)`
--/
-
-namespace A347563.P16339527122407054147
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A098361 n : ℚ) / (A055642 n : ℚ) * (A178334 n : ℚ)
-
-end
-
-end A347563.P16339527122407054147
 
 /-! ## A347563.P6165201603979242993
 
@@ -5992,21 +5901,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A347570.P10634786743909154790
-
-/-! ## A347570.P551530358049824809
-
-`A228881(A116925(n))`
--/
-
-namespace A347570.P551530358049824809
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228881 (A116925 n).toNat
-
-end
-
-end A347570.P551530358049824809
 
 /-!
 # A347571: Expansion of the e.g.f. (-1 - 2*x - 2*log(1 - x) + exp(-2*x) / (1 - x)^2) / 4 + 1.
@@ -6565,21 +6459,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A347577.P4723762879641656288
-
-/-! ## A347577.P11613048766336648540
-
-`A266774(2*n)`
--/
-
-namespace A347577.P11613048766336648540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266774 (2 * n)
-
-end
-
-end A347577.P11613048766336648540
 
 /-!
 # A347578: Number of partitions of n into at most 4 prime parts.
@@ -7626,29 +7505,6 @@ namespace A347587
 /-- `A001401(n)+A014591(n)-A008766(n)` -/
 def P3997828590553204265.Spec : Prop :=
   ∀ n, P3997828590553204265.a n = A347587 n
-
-end A347587
-
-/-! ## A347587.P13299182531281673304
-
-`A288001(n)`
--/
-
-namespace A347587.P13299182531281673304
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288001 n
-
-end
-
-end A347587.P13299182531281673304
-
-namespace A347587
-
-/-- `A288001(n)` -/
-def P13299182531281673304.Spec : Prop :=
-  ∀ n, P13299182531281673304.a n = A347587 n
 
 end A347587
 

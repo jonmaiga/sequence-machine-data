@@ -11,7 +11,8 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -20,20 +21,24 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C034
 import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,19 +57,17 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
@@ -77,8 +80,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7296,29 +7297,26 @@ end A038935.P5541412975529503193
 /-!
 # A038936: Primes p such that 57 is not a square mod p.
 
-The programs for A038936, the canonical program `A038936.P8125062723505700244` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038936 has offset 1).
-
-The definition of A038936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 618 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A038936, there is no canonical definition to state claims against.
 -/
 
 /-! ## A038936.P8125062723505700244
 
 `p?[n*A011585(n)*A257075(n)]`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A038936
+namespace A038936.P8125062723505700244
+noncomputable section
 
-/-- `p?[n*A011585(n)*A257075(n)]` -/
-def P8125062723505700244.Spec : Prop :=
-  ∀ n, P8125062723505700244.a n = A038936 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (A011585 n * A257075 n)
 
-theorem P8125062723505700244.correct : P8125062723505700244.Spec := by
-  intro n
-  simp only [A038936, Nat.add_sub_cancel]
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
 
-end A038936
+end
+
+end A038936.P8125062723505700244
 
 /-! ## A038936.P11659505933760922616
 
@@ -7344,14 +7342,6 @@ end
 
 end A038936.P11659505933760922616
 
-namespace A038936
-
-/-- `p?[eq[n%3, A002448(A028641(n)²)]]` -/
-def P11659505933760922616.Spec : Prop :=
-  ∀ n, (P11659505933760922616.a n : ℤ) = A038936 (n + 1)
-
-end A038936
-
 /-! ## A038936.P7392313071412743575
 
 `eq[A011585(n)*A072721(n), A257075(n)]`
@@ -7372,14 +7362,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038936.P7392313071412743575
-
-namespace A038936
-
-/-- `eq[A011585(n)*A072721(n), A257075(n)]` -/
-def P7392313071412743575.Spec : Prop :=
-  ∀ n, (P7392313071412743575.a n : ℤ) = A038936 (n + 1)
-
-end A038936
 
 /-! ## A038936.P5941653871670327196
 
@@ -7402,14 +7384,6 @@ end
 
 end A038936.P5941653871670327196
 
-namespace A038936
-
-/-- `eq[A011585(n)*A057078(n+1), A072721(n)]` -/
-def P5941653871670327196.Spec : Prop :=
-  ∀ n, (P5941653871670327196.a n : ℤ) = A038936 (n + 1)
-
-end A038936
-
 /-! ## A038936.P6204549335636300801
 
 `eq[A011585(n)*A057078(n+1), A210442(n)]`
@@ -7431,14 +7405,6 @@ end
 
 end A038936.P6204549335636300801
 
-namespace A038936
-
-/-- `eq[A011585(n)*A057078(n+1), A210442(n)]` -/
-def P6204549335636300801.Spec : Prop :=
-  ∀ n, (P6204549335636300801.a n : ℤ) = A038936 (n + 1)
-
-end A038936
-
 /-! ## A038936.P3627777695585478898
 
 `eq[n*A257075(n)*A011585(n), A051698(n+1)]`
@@ -7459,14 +7425,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038936.P3627777695585478898
-
-namespace A038936
-
-/-- `eq[n*A257075(n)*A011585(n), A051698(n+1)]` -/
-def P3627777695585478898.Spec : Prop :=
-  ∀ n, (P3627777695585478898.a n : ℤ) = A038936 (n + 1)
-
-end A038936
 
 /-!
 # A038937: Primes p such that 58 is a square mod p.
@@ -9745,43 +9703,6 @@ end
 
 end A038957.P12159432372779563452
 
-/-! ## A038957.P18129163019979699119
-
-`∪[A047979(n+1), A191045(n+1)]`
--/
-
-namespace A038957.P18129163019979699119
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047979 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191045 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A038957.P18129163019979699119
-
-/-! ## A038957.P169749578478710100
-
-`A141750(n+1)`
--/
-
-namespace A038957.P169749578478710100
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141750 (n + 1)
-
-end
-
-end A038957.P169749578478710100
-
 /-!
 # A038958: Primes p such that 73 is not a square mod p.
 
@@ -11586,21 +11507,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038977.P11541935227566010772
-
-/-! ## A038977.P842649176184705248
-
-`A141778(n+1)`
--/
-
-namespace A038977.P842649176184705248
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141778 (n + 1)
-
-end
-
-end A038977.P842649176184705248
 
 /-!
 # A038978: Primes p such that 89 is not a square mod p.
@@ -14527,7 +14433,7 @@ end A038997
 /-!
 # A038998: Sublattices of index n in generic 11-dimensional lattice.
 
-The programs for A038998, the canonical program `A038998.P11753800745655406242` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
+The programs for A038998, the canonical program `A038998.P11753800745655406242` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
 
 The definition of A038998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14536,7 +14442,7 @@ The definition of A038998 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[1+n, #*A038997(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038998

@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -16,7 +15,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -29,9 +27,9 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -39,11 +37,12 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,16 +51,18 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -74,13 +75,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -659,36 +661,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A082608.P4924954488381926821
-
-/-! ## A082608.P3072333850437319539
-
-`A058031(n+1)`
--/
-
-namespace A082608.P3072333850437319539
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058031 (n + 1)
-
-end
-
-end A082608.P3072333850437319539
-
-/-! ## A082608.P2547736154061715061
-
-`A002061(n+1)²`
--/
-
-namespace A082608.P2547736154061715061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002061 (n + 1) ^ 2
-
-end
-
-end A082608.P2547736154061715061
 
 /-! ## A082608.P16579307669202096165
 
@@ -1740,27 +1712,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A082637.P14572119885027527015
-
-/-!
-# A082638: A077388 sorted and duplicates removed.
-
-The programs for A082638, there is no canonical definition to state claims against.
--/
-
-/-! ## A082638.P2328139866558243975
-
-`A077388(A317044(n+1))`
--/
-
-namespace A082638.P2328139866558243975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077388 (A317044 (n + 1)).toNat
-
-end
-
-end A082638.P2328139866558243975
 
 /-!
 # A082639: Numbers k such that 2*k*(k+2) is a square.
@@ -5134,21 +5085,6 @@ end A082649
 The programs for A082650, there is no canonical definition to state claims against.
 -/
 
-/-! ## A082650.P1353078991497259715
-
-`A033270(A348717(n+1))`
--/
-
-namespace A082650.P1353078991497259715
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033270 (A348717 (n + 1)).toNat
-
-end
-
-end A082650.P1353078991497259715
-
 /-! ## A082650.P8689290981497619434
 
 `A001222(A005517(n+1))%A260739(n+1)`
@@ -5501,7 +5437,7 @@ end A082651
 /-!
 # A082652: Triangle read by rows: T(n,k) is the number of squares that can be found in a k X n rectangular grid of little squares, for 1 <= k <= n.
 
-The programs for A082652, the canonical program `A082652.P13720706004020418959` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082652 has offset 1).
+The programs for A082652, the canonical program `A082652.P13720706004020418959` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082652 has offset 1).
 
 The definition of A082652 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5671,7 +5607,7 @@ end A082652
 
 `A104634(A038722(n+1))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A082652
@@ -6386,7 +6322,7 @@ end A082658
 /-!
 # A082659: Integers expressible as the sum of a square and a triangular number in exactly three distinct ways.
 
-The programs for A082659, the canonical program `A082659.P17645007144944071936` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082659 has offset 1).
+The programs for A082659, the canonical program `A082659.P17645007144944071936` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082659 has offset 1).
 
 The definition of A082659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 367 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6395,7 +6331,7 @@ The definition of A082659 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A082660(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A082659
@@ -11833,7 +11769,7 @@ end A082692
 /-!
 # A082693: Pyramidal sequence built with powers of 2.
 
-The programs for A082693, the canonical program `A082693.P2141410081354610043` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082693 has offset 0).
+The programs for A082693, the canonical program `A082693.P2141410081354610043` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082693 has offset 0).
 
 The definition of A082693 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11940,7 +11876,7 @@ end A082693
 
 `A000079(A053615(n))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A082693

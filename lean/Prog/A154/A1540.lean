@@ -4,18 +4,16 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C043
+import Seq.B000.C034
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C007
 import Seq.B001.C010
@@ -32,7 +30,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -212,21 +209,6 @@ end A154003.P12928010869857179250
 
 The programs for A154004, there is no canonical definition to state claims against.
 -/
-
-/-! ## A154004.P8653531580969875626
-
-`or(A153998(n), A154001(n))`
--/
-
-namespace A154004.P8653531580969875626
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A153998 n) (A154001 n)
-
-end
-
-end A154004.P8653531580969875626
 
 /-! ## A154004.P15200593505274122393
 
@@ -1157,27 +1139,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A154052.P7810406724222357988
-
-/-!
-# A154097: A rational based combinatorial triangular sequence: f(n) = Product[Prime[a]*k + Prime[b],{k,0,n}]; a = 2; b = 1; t(n,m) = Denominator[f(n)/(f(n-m)*f(m))].
-
-The programs for A154097, there is no canonical definition to state claims against.
--/
-
-/-! ## A154097.P1244803798049834041
-
-`A089898(A202906(n+1))`
--/
-
-namespace A154097.P1244803798049834041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089898 (A202906 (n + 1)).toNat
-
-end
-
-end A154097.P1244803798049834041
 
 /-!
 # A154099: Maximal number of primes in intervals of size n containing the n-th prime.

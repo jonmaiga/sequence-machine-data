@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,47 +15,48 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C003
+import Seq.B003.C005
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C003
 import Seq.B006.C002
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -74,7 +76,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -306,41 +307,11 @@ end
 
 end A293701.P14672270858933182643
 
-/-! ## A293701.P17032387733366801667
-
-`A293704(n+1)+1+n`
--/
-
-namespace A293701.P17032387733366801667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293704 (n + 1) + (1 + n : ℤ)
-
-end
-
-end A293701.P17032387733366801667
-
 /-!
 # A293703: a(n) is the length of the longest palindromic subsequence in the first differences of the list of the first n negative and positive roots of floor(tan(k))=1.
 
 The programs for A293703, there is no canonical definition to state claims against.
 -/
-
-/-! ## A293703.P349378832928522781
-
-`1+n-A293706(n+2)+n`
--/
-
-namespace A293703.P349378832928522781
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 + n : ℤ) - A293706 (n + 2) + (n : ℤ)
-
-end
-
-end A293703.P349378832928522781
 
 /-! ## A293703.P17295354475359406373
 
@@ -416,21 +387,6 @@ end A293703.P8413447698845797125
 
 The programs for A293704, there is no canonical definition to state claims against.
 -/
-
-/-! ## A293704.P7700340192473495686
-
-`A293701(n+1)+0-(n+1)`
--/
-
-namespace A293704.P7700340192473495686
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293701 (n + 1) + 0 - (n + 1 : ℤ)
-
-end
-
-end A293704.P7700340192473495686
 
 /-! ## A293704.P9740369810606065753
 
@@ -746,7 +702,7 @@ end A293709.P18143169709922976002
 /-!
 # A293710: Expansion of x^2/(1 - 4*x - 4*x^2 - x^3).
 
-The programs for A293710, the canonical program `A293710.P5526450087690189851` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
+The programs for A293710, the canonical program `A293710.P5526450087690189851` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
 
 The definition of A293710 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(x^2/(1-4x-4x^2-x^3))` (program `A293710.P5526450087690189851`, by `A293710.P5526450087690189851.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -755,7 +711,7 @@ The definition of A293710 is `verified`: the Lean definition is proven equivalen
 
 `ogf(x^2/(1-4x-4x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A293710
@@ -5075,7 +5031,7 @@ end A293771.P11320567049788567609
 /-!
 # A293774: Number of permutations of length n sortable by 3 passes through a pop-stack.
 
-The programs for A293774, the canonical program `A293774.P16303586779055971358` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293774 has offset 0).
+The programs for A293774, the canonical program `A293774.P16303586779055971358` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293774 has offset 0).
 
 The definition of A293774 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5084,7 +5040,7 @@ The definition of A293774 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x-2x^2-6x^3-6x^4-8x^5-11x^6-5x^7-2x^8-4x^9-2x^10)/(1-2x-2x^2-6x^3-8x^4-16x^5-22x^6-10x^7-4x^8-8x^9-4x^10))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A293774
@@ -7027,28 +6983,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A293796.P17643778460893304173
-
-/-! ## A293796.P14793878137776560094
-
-`A293785(comp[∑[n-1]])`
--/
-
-namespace A293796.P14793878137776560094
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293785 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A293796.P14793878137776560094
 
 /-! ## A293796.P3198427320754449653
 

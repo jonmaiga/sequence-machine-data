@@ -3,6 +3,8 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -11,28 +13,28 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,10 +48,12 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,9 +64,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -73,6 +74,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -931,7 +933,7 @@ end A233725.P2456769342053592114
 /-!
 # A233726: Number of (n+1) X (1+1) 0..3 arrays with every 2 X 2 subblock having the sum of the absolute values of the edge differences equal to 6 and no adjacent elements equal.
 
-The programs for A233726, the canonical program `A233726.P2515852289689003742` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233726 has offset 1).
+The programs for A233726, the canonical program `A233726.P2515852289689003742` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233726 has offset 1).
 
 The definition of A233726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -940,7 +942,7 @@ The definition of A233726 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((40+28x-88x^2-24x^3)/(1-3x-5x^2+7x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A233726
@@ -1407,7 +1409,7 @@ end A233734
 /-!
 # A233736: a(n) = 8*binomial(5*n + 8, n)/(5*n + 8).
 
-The programs for A233736, the canonical program `A233736.P17789680142832867079` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233736 has offset 0).
+The programs for A233736, the canonical program `A233736.P17789680142832867079` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233736 has offset 0).
 
 The definition of A233736 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A233736.anchor (n : ℕ) : (A233736 n : ℚ) = (8 * Nat.choose (5 * n + 8) n : ℚ) / (5 * n + 8 : ℚ)` in `Proof.A233.A233736`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1416,7 +1418,7 @@ The definition of A233736 is `verified`: an anchor theorem with a hand-written p
 
 `8*C(5*n+8, n)/(5*n+8)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A233736
@@ -1545,7 +1547,7 @@ end A233736
 /-!
 # A233737: a(n) = 9*binomial(5*n+9, n)/(5*n+9).
 
-The programs for A233737, the canonical program `A233737.P11445290408204490189` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233737 has offset 0).
+The programs for A233737, the canonical program `A233737.P11445290408204490189` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233737 has offset 0).
 
 The definition of A233737 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A233737.anchor (n : ℕ) : (A233737 n : ℚ) = (9 * Nat.choose (5 * n + 9) n : ℚ) / (5 * n + 9 : ℚ)` in `Proof.A233.A233737`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1554,7 +1556,7 @@ The definition of A233737 is `verified`: an anchor theorem with a hand-written p
 
 `9*C(5*n+9, n)/(5*n+9)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A233737
@@ -2350,7 +2352,7 @@ end A233742.P362498191669959279
 /-!
 # A233743: a(n) = 7*binomial(6*n + 7, n)/(6*n + 7).
 
-The programs for A233743, the canonical program `A233743.P16518700471986388449` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233743 has offset 0).
+The programs for A233743, the canonical program `A233743.P16518700471986388449` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233743 has offset 0).
 
 The definition of A233743 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A233743.anchor (n : ℕ) : (A233743 n : ℚ) = (7 * Nat.choose (6 * n + 7) n : ℚ) / (6 * n + 7 : ℚ)` in `Proof.A233.A233743`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2359,7 +2361,7 @@ The definition of A233743 is `verified`: an anchor theorem with a hand-written p
 
 `7*C(6*n+7, n)/(6*n+7)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A233743
@@ -4209,24 +4211,6 @@ end
 
 end A233761.P2534562535401702642
 
-/-! ## A233761.P16196857378017845242
-
-`Δ[A233760(n-A057427(n))+2]`
--/
-
-namespace A233761.P16196857378017845242
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233760 ((n : ℤ) - A057427 n).toNat + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A233761.P16196857378017845242
-
 /-! ## A233761.P15368368088477813823
 
 `A233760(n)-A233760(A004273(n)-n)`
@@ -4241,30 +4225,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233761.P15368368088477813823
-
-/-!
-# A233762: Number of toothpicks and D-toothpicks after n-th stage in the D-toothpick "narrow" triangle of the third kind, second version.
-
-The programs for A233762, there is no canonical definition to state claims against.
--/
-
-/-! ## A233762.P2514930629091951424
-
-`∑[A233763(n)]`
--/
-
-namespace A233762.P2514930629091951424
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233763 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A233762.P2514930629091951424
 
 /-!
 # A233763: Number of toothpicks or D-toothpicks added at n-th stage in the structure of the D-toothpick "narrow" triangle of A233762.
@@ -6906,8 +6866,29 @@ end A233784.P238804040864909230
 /-!
 # A233785: Number of (n+1) X (1+1) 0..3 arrays with every 2 X 2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11.
 
-The programs for A233785, there is no canonical definition to state claims against.
+The programs for A233785, the canonical program `A233785.P2019872369348152868` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233785 has offset 1).
+
+The definition of A233785 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A233785.P2019872369348152868
+
+`ogf((48+188x-144x^2-528x^3)/(1-18x^2+40x^4))`
+
+The canonical program, it is in `Seq.B000.C037`.
+-/
+
+namespace A233785
+
+/-- `ogf((48+188x-144x^2-528x^3)/(1-18x^2+40x^4))` -/
+def P2019872369348152868.Spec : Prop :=
+  ∀ n, P2019872369348152868.a n = A233785 (n + 1)
+
+theorem P2019872369348152868.correct : P2019872369348152868.Spec := by
+  intro n
+  simp only [A233785, Nat.add_sub_cancel]
+
+end A233785
 
 /-! ## A233785.P7903611680165006973
 
@@ -6927,6 +6908,14 @@ end
 
 end A233785.P7903611680165006973
 
+namespace A233785
+
+/-- `A233792(∑[n]+1)` -/
+def P7903611680165006973.Spec : Prop :=
+  ∀ n, P7903611680165006973.a n = A233785 (n + 1)
+
+end A233785
+
 /-! ## A233785.P2763841701459154039
 
 `record[gcd(A002262(n), A233792(n+1))]`
@@ -6944,6 +6933,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A233785.P2763841701459154039
+
+namespace A233785
+
+/-- `record[gcd(A002262(n), A233792(n+1))]` -/
+def P2763841701459154039.Spec : Prop :=
+  ∀ n, (P2763841701459154039.a n : ℤ) = A233785 (n + 1)
+
+end A233785
 
 /-! ## A233785.P16118516223190119729
 
@@ -6963,6 +6960,14 @@ end
 
 end A233785.P16118516223190119729
 
+namespace A233785
+
+/-- `record[A233792(n+1)/A126074(n+1)]` -/
+def P16118516223190119729.Spec : Prop :=
+  ∀ n, P16118516223190119729.a n = (A233785 (n + 1) : ℚ)
+
+end A233785
+
 /-! ## A233785.P8440449134067042819
 
 `record[A233792(n+1)/A033282(n+3)]`
@@ -6980,6 +6985,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A233785.P8440449134067042819
+
+namespace A233785
+
+/-- `record[A233792(n+1)/A033282(n+3)]` -/
+def P8440449134067042819.Spec : Prop :=
+  ∀ n, P8440449134067042819.a n = (A233785 (n + 1) : ℚ)
+
+end A233785
 
 /-!
 # A233786: Number of (n+1)X(2+1) 0..3 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11.

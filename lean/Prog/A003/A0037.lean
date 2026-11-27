@@ -7,64 +7,64 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3224,6 +3224,33 @@ theorem P17096264920570365029.correct : P17096264920570365029.Spec := by
 end A003735
 
 /-!
+# A003737: Number of Hamiltonian cycles in W_5 X P_n.
+
+The programs for A003737, the canonical program `A003737.P5989551735197770402` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003737 has offset 1).
+
+The definition of A003737 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A003737.P5989551735197770402
+
+`ogf((4+40x+36x^2-264x^3-24x^4+624x^5-416x^6+64x^7)/(1-13x-50x^2+80x^3+120x^4-188x^5-32x^6+16x^7))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003737
+
+/-- `ogf((4+40x+36x^2-264x^3-24x^4+624x^5-416x^6+64x^7)/(1-13x-50x^2+80x^3+120x^4-188x^5-32x^6+16x^7))` -/
+def P5989551735197770402.Spec : Prop :=
+  ∀ n, P5989551735197770402.a n = A003737 (n + 1)
+
+theorem P5989551735197770402.correct : P5989551735197770402.Spec := by
+  intro n
+  simp only [A003737, Nat.add_sub_cancel]
+
+end A003737
+
+/-!
 # A003739: Number of spanning trees in W_5 X P_n.
 
 The programs for A003739, there is no canonical definition to state claims against.
@@ -3243,6 +3270,33 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A003739.P5349705517779754657
+
+/-!
+# A003741: Number of perfect matchings (or domino tilings) in O_5 X P_2n.
+
+The programs for A003741, the canonical program `A003741.P498920840457330574` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003741 has offset 1).
+
+The definition of A003741 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A003741.P498920840457330574
+
+`ogf((40-403x+850x^2-523x^3+64x^4-x^5)/(1-65x+548x^2-995x^3+548x^4-65x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003741
+
+/-- `ogf((40-403x+850x^2-523x^3+64x^4-x^5)/(1-65x+548x^2-995x^3+548x^4-65x^5+x^6))` -/
+def P498920840457330574.Spec : Prop :=
+  ∀ n, P498920840457330574.a n = A003741 (n + 1)
+
+theorem P498920840457330574.correct : P498920840457330574.Spec := by
+  intro n
+  simp only [A003741, Nat.add_sub_cancel]
+
+end A003741
 
 /-!
 # A003745: Number of spanning trees in (K_5 - e) X P_n.
@@ -3291,6 +3345,60 @@ theorem P8217283095631097986.correct : P8217283095631097986.Spec := by
   simp only [A003747, Nat.add_sub_cancel]
 
 end A003747
+
+/-!
+# A003748: Number of 2-factors in K_5 X P_n.
+
+The programs for A003748, the canonical program `A003748.P8101432372811305035` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003748 has offset 1).
+
+The definition of A003748 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A003748.P8101432372811305035
+
+`ogf((12+250x-436x^2)/(1-47x-288x^2+436x^3))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003748
+
+/-- `ogf((12+250x-436x^2)/(1-47x-288x^2+436x^3))` -/
+def P8101432372811305035.Spec : Prop :=
+  ∀ n, P8101432372811305035.a n = A003748 (n + 1)
+
+theorem P8101432372811305035.correct : P8101432372811305035.Spec := by
+  intro n
+  simp only [A003748, Nat.add_sub_cancel]
+
+end A003748
+
+/-!
+# A003749: Number of Hamiltonian cycles in K_5 X P_n.
+
+The programs for A003749, the canonical program `A003749.P1810361851944825392` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003749 has offset 1).
+
+The definition of A003749 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A003749.P1810361851944825392
+
+`ogf((12+144x-144x^2)/(1-28x-12x^2))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003749
+
+/-- `ogf((12+144x-144x^2)/(1-28x-12x^2))` -/
+def P1810361851944825392.Spec : Prop :=
+  ∀ n, P1810361851944825392.a n = A003749 (n + 1)
+
+theorem P1810361851944825392.correct : P1810361851944825392.Spec := by
+  intro n
+  simp only [A003749, Nat.add_sub_cancel]
+
+end A003749
 
 /-!
 # A003751: Number of spanning trees in K_5 x P_n.
@@ -3345,8 +3453,29 @@ end A003751
 /-!
 # A003752: Number of Hamiltonian paths in C_4 X P_n.
 
-The programs for A003752, there is no canonical definition to state claims against.
+The programs for A003752, the canonical program `A003752.P7013025233175190745` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003752 has offset 1).
+
+The definition of A003752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A003752.P7013025233175190745
+
+`ogf((4+28x-64x^2+120x^3+84x^4-148x^5+16x^6+8x^7)/(1-11x+36x^2-16x^3-67x^4+9x^5+10x^6-2x^7))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003752
+
+/-- `ogf((4+28x-64x^2+120x^3+84x^4-148x^5+16x^6+8x^7)/(1-11x+36x^2-16x^3-67x^4+9x^5+10x^6-2x^7))` -/
+def P7013025233175190745.Spec : Prop :=
+  ∀ n, P7013025233175190745.a n = A003752 (n + 1)
+
+theorem P7013025233175190745.correct : P7013025233175190745.Spec := by
+  intro n
+  simp only [A003752, Nat.add_sub_cancel]
+
+end A003752
 
 /-! ## A003752.P11446594989313742208
 
@@ -3362,6 +3491,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003752.P11446594989313742208
+
+namespace A003752
+
+/-- `A173675(A110286(n))` -/
+def P11446594989313742208.Spec : Prop :=
+  ∀ n, P11446594989313742208.a n = A003752 (n + 1)
+
+end A003752
 
 /-!
 # A003753: Number of spanning trees in C_4 X P_n.
@@ -3491,7 +3628,7 @@ end A003753
 /-!
 # A003754: Numbers with no adjacent 0's in binary expansion.
 
-The programs for A003754, the canonical program `A003754.P7281650019262553655` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003754 has offset 1).
+The programs for A003754, the canonical program `A003754.P7281650019262553655` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003754 has offset 1).
 
 The definition of A003754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3758,7 +3895,7 @@ end A003754
 
 `(A365808(n+2)+1)/3-1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A003754
@@ -4017,6 +4154,29 @@ The programs for A003755, the canonical program `A003755.P15968671754711060225` 
 
 The definition of A003755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A003755.P3172311173491623404
+
+`ogf((1+6x-16x^2+6x^3+x^4)/(1-48x+336x^2-582x^3+336x^4-48x^5+x^6))`
+-/
+
+namespace A003755.P3172311173491623404
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 6, -16, 6, 1] [1, -48, 336, -582, 336, -48, 1] n
+
+end
+
+end A003755.P3172311173491623404
+
+namespace A003755
+
+/-- `ogf((1+6x-16x^2+6x^3+x^4)/(1-48x+336x^2-582x^3+336x^4-48x^5+x^6))` -/
+def P3172311173491623404.Spec : Prop :=
+  ∀ n, P3172311173491623404.a n = A003755 (n + 1)
+
+end A003755
 
 /-! ## A003755.P15968671754711060225
 
@@ -4728,6 +4888,33 @@ def P12036150576345990882.Spec : Prop :=
   ∀ n, P12036150576345990882.a n = A003767 (n + 1)
 
 end A003767
+
+/-!
+# A003768: Number of spanning trees with degrees 1 and 3 in W_4 X P_n.
+
+The programs for A003768, the canonical program `A003768.P7692332462076336302` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003768 has offset 1).
+
+The definition of A003768 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A003768.P7692332462076336302
+
+`ogf((2-12x+44x^2-104x^3+68x^4+184x^5-444x^6+368x^7-48x^8-128x^10)/(1-14x+62x^2-148x^3+264x^4-336x^5+256x^6-128x^7+64x^8))`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A003768
+
+/-- `ogf((2-12x+44x^2-104x^3+68x^4+184x^5-444x^6+368x^7-48x^8-128x^10)/(1-14x+62x^2-148x^3+264x^4-336x^5+256x^6-128x^7+64x^8))` -/
+def P7692332462076336302.Spec : Prop :=
+  ∀ n, P7692332462076336302.a n = A003768 (n + 1)
+
+theorem P7692332462076336302.correct : P7692332462076336302.Spec := by
+  intro n
+  simp only [A003768, Nat.add_sub_cancel]
+
+end A003768
 
 /-!
 # A003769: Number of perfect matchings (or domino tilings) in K_4 X P_n.

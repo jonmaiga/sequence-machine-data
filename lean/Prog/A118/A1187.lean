@@ -14,28 +14,30 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +47,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -69,12 +70,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +88,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -96,7 +95,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -434,7 +432,7 @@ end A118711.P14431159713177663417
 /-!
 # A118714: Determinant of n X n matrix whose diagonal contains the first n tetrahedral numbers and all other elements are 1's.
 
-The programs for A118714, the canonical program `A118714.P17832241545491048613` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118714 has offset 1).
+The programs for A118714, the canonical program `A118714.P17832241545491048613` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118714 has offset 1).
 
 The definition of A118714 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -443,7 +441,7 @@ The definition of A118714 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*(6+4*(n+1)+(n+1)²)*n/6` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A118714
@@ -1396,7 +1394,7 @@ end A118718.P6746272508750385161
 /-!
 # A118719: Cubes for which the digital root is also a cube.
 
-The programs for A118719, the canonical program `A118719.P7440261463154155925` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118719 has offset 1).
+The programs for A118719, the canonical program `A118719.P7440261463154155925` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118719 has offset 1).
 
 The definition of A118719 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1405,7 +1403,7 @@ The definition of A118719 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+7x^2+53x^3+40x^4+53x^5+7x^6+x^7)/(1-x-3x^2+3x^3+3x^4-3x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A118719
@@ -2828,7 +2826,7 @@ end A118728
 /-!
 # A118729: Rectangular array where row r contains the 8 numbers 4*r^2 - 3*r, 4*r^2 - 2*r, ..., 4*r^2 + 4*r.
 
-The programs for A118729, the canonical program `A118729.P9679017308414048272` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118729 has offset 0).
+The programs for A118729, the canonical program `A118729.P9679017308414048272` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118729 has offset 0).
 
 The definition of A118729 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2837,7 +2835,7 @@ The definition of A118729 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n/8)*(n-3-4*floor(n/8))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A118729
@@ -8712,21 +8710,6 @@ end A118756.P13697847421089154004
 The programs for A118757, there is no canonical definition to state claims against.
 -/
 
-/-! ## A118757.P1466092454028980775
-
-`A261725(n)`
--/
-
-namespace A118757.P1466092454028980775
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261725 n
-
-end
-
-end A118757.P1466092454028980775
-
 /-! ## A118757.P12371905773188138619
 
 `A118758(A118759(n))`
@@ -8807,21 +8790,6 @@ end A118757.P12251210495212467489
 
 The programs for A118758, there is no canonical definition to state claims against.
 -/
-
-/-! ## A118758.P6883542418405472629
-
-`A261729(n)`
--/
-
-namespace A118758.P6883542418405472629
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261729 n
-
-end
-
-end A118758.P6883542418405472629
 
 /-! ## A118758.P18297809583487809989
 
@@ -9479,21 +9447,6 @@ end
 
 end A118763.P5388576229997386706
 
-/-! ## A118763.P6261038612193443071
-
-`A398280(n)`
--/
-
-namespace A118763.P6261038612193443071
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A398280 n
-
-end
-
-end A118763.P6261038612193443071
-
 /-! ## A118763.P3606391227354248566
 
 `A398281(A118765(n))`
@@ -9532,21 +9485,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A118764.P6620085494642404617
-
-/-! ## A118764.P2515854597125348569
-
-`A398281(n)`
--/
-
-namespace A118764.P2515854597125348569
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A398281 n
-
-end
-
-end A118764.P2515854597125348569
 
 /-! ## A118764.P1641162828645860603
 
@@ -9935,24 +9873,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A118768.P9400449109807405271
-
-/-! ## A118768.P10581696471964757637
-
-`Δ[A398280(n)]`
--/
-
-namespace A118768.P10581696471964757637
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A398280 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A118768.P10581696471964757637
 
 /-! ## A118768.P1109232374572269685
 

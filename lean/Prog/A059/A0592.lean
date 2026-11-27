@@ -15,8 +15,8 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -29,21 +29,22 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C041
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,7 +63,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
@@ -79,14 +80,13 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +96,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -1904,63 +1903,6 @@ def P13244867899621672298.Spec : Prop :=
 end A059222
 
 /-!
-# A059223: Primes p such that x^37 = 2 has no solution mod p.
-
-The programs for A059223, there is no canonical definition to state claims against.
--/
-
-/-! ## A059223.P11888911308454871528
-
-`A216970(n+1)`
--/
-
-namespace A059223.P11888911308454871528
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216970 (n + 1)
-
-end
-
-end A059223.P11888911308454871528
-
-/-! ## A059223.P1937337731436590481
-
-`A000265(p?[74*n+1])`
--/
-
-namespace A059223.P1937337731436590481
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  74 * n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n))
-
-end
-
-end A059223.P1937337731436590481
-
-/-! ## A059223.P391396926638751895
-
-`record[A006530(74*(abs(n-(2*n+1))+1)+1)]`
--/
-
-namespace A059223.P391396926638751895
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (74 * (|(n : ℤ) - (2 * n + 1 : ℤ)| + 1) + 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A059223.P391396926638751895
-
-/-!
 # A059224: a(n) = 2^(n-3)*(n + 3)*(2*n - 3).
 
 The programs for A059224, the canonical program `A059224.P17600888059109192855` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059224 has offset 3).
@@ -2482,21 +2424,6 @@ end A059229.P10766515392327891663
 
 The programs for A059230, there is no canonical definition to state claims against.
 -/
-
-/-! ## A059230.P17866518861619454622
-
-`A212378(1+n)`
--/
-
-namespace A059230.P17866518861619454622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212378 (1 + n)
-
-end
-
-end A059230.P17866518861619454622
 
 /-! ## A059230.P10199098242169267959
 
@@ -3254,21 +3181,6 @@ end A059235.P7156392180041639313
 
 The programs for A059236, there is no canonical definition to state claims against.
 -/
-
-/-! ## A059236.P13764354897912802782
-
-`A212379(n+1)`
--/
-
-namespace A059236.P13764354897912802782
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212379 (n + 1)
-
-end
-
-end A059236.P13764354897912802782
 
 /-! ## A059236.P6523528384671959993
 
@@ -4111,21 +4023,6 @@ end
 
 end A059243.P6641645975031885439
 
-/-! ## A059243.P17544937447549888584
-
-`A142250(n+1)`
--/
-
-namespace A059243.P17544937447549888584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142250 (n + 1)
-
-end
-
-end A059243.P17544937447549888584
-
 /-!
 # A059244: Primes p such that x^19 = 2 has no solution mod p.
 
@@ -4149,21 +4046,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A059244.P10366439177799262887
-
-/-! ## A059244.P8631890313033355468
-
-`A141868(A004709(n+1))`
--/
-
-namespace A059244.P8631890313033355468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141868 (A004709 (n + 1)).toNat
-
-end
-
-end A059244.P8631890313033355468
 
 /-! ## A059244.P8140312295613447711
 
@@ -4206,21 +4088,6 @@ end A059244.P11839929113333713566
 
 The programs for A059245, there is no canonical definition to state claims against.
 -/
-
-/-! ## A059245.P14357551061724298348
-
-`A268753(n+1)`
--/
-
-namespace A059245.P14357551061724298348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268753 (n + 1)
-
-end
-
-end A059245.P14357551061724298348
 
 /-! ## A059245.P4578883573594015820
 
@@ -4823,7 +4690,7 @@ def P3788965053695709451.Spec : Prop :=
 
 theorem P3788965053695709451.correct : P3788965053695709451.Spec := by
   intro n
-  simp only [A059249, Nat.add_sub_cancel, A059249.P3788965053695709451.a, A059249.P16578205168379105390.a, A001489, A001489.P15233530513763566776.a, A004488, A004488.P15486159278781190577.a, A168237, A168237.P12346762420407185560.a, A300222, A300222.P16406266268068730929.a, A005836, A005836.P12367569128854000442.a, A289814, A289814.P11371932108795153936.a, SequenceMachineLib.memo_apply]
+  simp only [A059249, Nat.add_sub_cancel, A059249.P3788965053695709451.a, A059249.P16578205168379105390.a, A001489, A001489.P15233530513763566776.a, A004488, A004488.P15486159278781190577.a, A168237, A168237.P16144499980385937737.a, A300222, A300222.P16406266268068730929.a, A005836, A005836.P12367569128854000442.a, A289814, A289814.P11371932108795153936.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -4987,35 +4854,6 @@ namespace A059249
 /-- `n-A343766(A128173(n+1))` -/
 def P6326222604887212812.Spec : Prop :=
   ∀ n, P6326222604887212812.a n = A059249 (n + 1)
-
-end A059249
-
-/-! ## A059249.P14402017165107884751
-
-`-1+A004488(n+1)`
--/
-
-namespace A059249.P14402017165107884751
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A004488 (n + 1)
-
-end
-
-end A059249.P14402017165107884751
-
-namespace A059249
-
-/-- `-1+A004488(n+1)` -/
-def P14402017165107884751.Spec : Prop :=
-  ∀ n, P14402017165107884751.a n = A059249 (n + 1)
-
-theorem P14402017165107884751.correct : P14402017165107884751.Spec := by
-  intro n
-  simp only [A059249, Nat.add_sub_cancel, A059249.P14402017165107884751.a, A059249.P16578205168379105390.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A059249
 
@@ -6437,24 +6275,6 @@ end A059255
 The programs for A059256, there is no canonical definition to state claims against.
 -/
 
-/-! ## A059256.P5318643047370842120
-
-`p?[A248572(A228087(n))]`
--/
-
-namespace A059256.P5318643047370842120
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A248572 (A228087 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A059256.P5318643047370842120
-
 /-! ## A059256.P13979122012318704600
 
 `p?[A004442(29*A228087(n))]`
@@ -6474,59 +6294,12 @@ end
 end A059256.P13979122012318704600
 
 /-!
-# A059257: Primes p such that x^47 = 2 has no solution mod p.
-
-The programs for A059257, there is no canonical definition to state claims against.
--/
-
-/-! ## A059257.P13280601942439764874
-
-`p?[1+47*n]`
--/
-
-namespace A059257.P13280601942439764874
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + 47 * n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A059257.P13280601942439764874
-
-/-!
 # A059258: Primes p such that x^53 = 2 has no solution mod p.
 
 The programs for A059258, the canonical program `A059258.P11658451383634834992` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059258 has offset 1).
 
 The definition of A059258 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A059258.P15543406032350772716
-
-`A212377(1+n)`
--/
-
-namespace A059258.P15543406032350772716
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212377 (1 + n)
-
-end
-
-end A059258.P15543406032350772716
-
-namespace A059258
-
-/-- `A212377(1+n)` -/
-def P15543406032350772716.Spec : Prop :=
-  ∀ n, P15543406032350772716.a n = A059258 (n + 1)
-
-end A059258
 
 /-! ## A059258.P11658451383634834992
 
@@ -6622,32 +6395,6 @@ namespace A059258
 /-- `p?[A016825(13*(n+1))+n]` -/
 def P716512257328175763.Spec : Prop :=
   ∀ n, P716512257328175763.a n = A059258 (n + 1)
-
-end A059258
-
-/-! ## A059258.P17530779701834319937
-
-`p?[1+53*n]`
--/
-
-namespace A059258.P17530779701834319937
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + 53 * n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A059258.P17530779701834319937
-
-namespace A059258
-
-/-- `p?[1+53*n]` -/
-def P17530779701834319937.Spec : Prop :=
-  ∀ n, (P17530779701834319937.a n : ℤ) = A059258 (n + 1)
 
 end A059258
 
@@ -8008,21 +7755,6 @@ end
 
 end A059263.P15318648157301269266
 
-/-! ## A059263.P14890271574762803294
-
-`A059639(n+1)`
--/
-
-namespace A059263.P14890271574762803294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059639 (n + 1)
-
-end
-
-end A059263.P14890271574762803294
-
 /-! ## A059263.P18172640912842797204
 
 `∩[A059309(n+1), A102800(n+1)]`
@@ -8160,36 +7892,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A059264.P1741923235049960646
-
-/-! ## A059264.P14609459367372991501
-
-`A216484(n+1)`
--/
-
-namespace A059264.P14609459367372991501
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216484 (n + 1)
-
-end
-
-end A059264.P14609459367372991501
-
-/-! ## A059264.P17240002178399126239
-
-`A059362(n+1)`
--/
-
-namespace A059264.P17240002178399126239
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059362 (n + 1)
-
-end
-
-end A059264.P17240002178399126239
 
 /-!
 # A059265: Primes p such that x^14 = 2 has no solution mod p.

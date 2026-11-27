@@ -28,15 +28,17 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,15 +53,18 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,15 +73,15 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,7 +106,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3527,29 +3531,6 @@ theorem P1371099941682442546.correct : P1371099941682442546.Spec := by
 
 end A059716
 
-/-! ## A059716.P10395292683486278205
-
-`A141072(2*(n+1))-A051763(n+1)`
--/
-
-namespace A059716.P10395292683486278205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141072 (2 * (n + 1)) - A051763 (n + 1)
-
-end
-
-end A059716.P10395292683486278205
-
-namespace A059716
-
-/-- `A141072(2*(n+1))-A051763(n+1)` -/
-def P10395292683486278205.Spec : Prop :=
-  ∀ n, P10395292683486278205.a n = A059716 (n + 1)
-
-end A059716
-
 /-!
 # A059717: Start with decimal expansion of n; if all digits have the same parity, stop; otherwise write down the number formed by the even digits and the number formed by the odd digits and add them; repeat.
 
@@ -3651,21 +3632,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A059718.P14973872626472401761
-
-/-! ## A059718.P1931803020918447783
-
-`A209860(A064580(n))`
--/
-
-namespace A059718.P1931803020918447783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209860 (A064580 n).toNat
-
-end
-
-end A059718.P1931803020918447783
 
 /-! ## A059718.P2584512342260348284
 
@@ -5124,21 +5090,6 @@ end A059727
 The programs for A059728, there is no canonical definition to state claims against.
 -/
 
-/-! ## A059728.P17777409948764424557
-
-`3*A002426(n)`
--/
-
-namespace A059728.P17777409948764424557
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A002426 n
-
-end
-
-end A059728.P17777409948764424557
-
 /-! ## A059728.P16437832336961673430
 
 `3*A330827(∑[3^n])`
@@ -6224,21 +6175,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A059744.P2707795285071472457
-
-/-! ## A059744.P6563964398869033709
-
-`A251673(n+1)`
--/
-
-namespace A059744.P6563964398869033709
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251673 (n + 1)
-
-end
-
-end A059744.P6563964398869033709
 
 /-!
 # A059745: Palindromic squares of sporadic type.
@@ -8940,21 +8876,6 @@ end A059779
 The programs for A059780, there is no canonical definition to state claims against.
 -/
 
-/-! ## A059780.P15498342494862214752
-
-`A005811(A143505(n+1))`
--/
-
-namespace A059780.P15498342494862214752
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005811 (A143505 (n + 1)).toNat
-
-end
-
-end A059780.P15498342494862214752
-
 /-! ## A059780.P329454929168480378
 
 `A136480(A008624(A165891(n))*A165891(n))`
@@ -11018,7 +10939,7 @@ end A059789
 /-!
 # A059790: Distance between 2*(n-th prime) and nearest prime.
 
-The programs for A059790, the canonical program `A059790.P10689052542915216710` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059790 has offset 1).
+The programs for A059790, the canonical program `A059790.P10689052542915216710` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059790 has offset 1).
 
 The definition of A059790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3512 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11027,7 +10948,7 @@ The definition of A059790 is `conjectured`: the Lean definition is a formula tha
 
 `A334208(A161344(n+2))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A059790
@@ -12070,27 +11991,6 @@ def P1790470149379995627.Spec : Prop :=
   ∀ n, P1790470149379995627.a n = A059794 (n + 1)
 
 end A059794
-
-/-!
-# A059796: Degrees of irreducible representations of symmetric group S_14.
-
-The programs for A059796, there is no canonical definition to state claims against.
--/
-
-/-! ## A059796.P8842158964188424870
-
-`A060717(A008619(n))`
--/
-
-namespace A059796.P8842158964188424870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060717 (A008619 n).toNat
-
-end
-
-end A059796.P8842158964188424870
 
 /-!
 # A059797: Second in a series of arrays counting standard tableaux by partition type.

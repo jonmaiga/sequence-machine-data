@@ -22,21 +22,19 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C034
+import Seq.B000.C028
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C040
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,12 +55,11 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -11697,8 +11694,29 @@ end A022564.P11634297403092637834
 /-!
 # A022565: Expansion of 1/((1-x)*(1-5*x)*(1-8*x)*(1-10*x)).
 
-The programs for A022565, there is no canonical definition to state claims against.
+The programs for A022565, the canonical program `A022565.P8805243038169743457` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022565 has offset 0).
+
+The definition of A022565 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-24x+193x^2-570x^3+400x^4))` (program `A022565.P8805243038169743457`, by `A022565.P8805243038169743457.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A022565.P8805243038169743457
+
+`ogf(1/(1-24x+193x^2-570x^3+400x^4))`
+
+The canonical program, it is in `Seq.B000.C005`.
+-/
+
+namespace A022565
+
+/-- `ogf(1/(1-24x+193x^2-570x^3+400x^4))` -/
+def P8805243038169743457.Spec : Prop :=
+  ∀ n, P8805243038169743457.a n = A022565 n
+
+theorem P8805243038169743457.correct : P8805243038169743457.Spec := by
+  intro n
+  simp only [A022565]
+
+end A022565
 
 /-! ## A022565.P7494389167984861084
 
@@ -11718,6 +11736,14 @@ end
 
 end A022565.P7494389167984861084
 
+namespace A022565
+
+/-- `∑[A020346(n)]` -/
+def P7494389167984861084.Spec : Prop :=
+  ∀ n, P7494389167984861084.a n = A022565 n
+
+end A022565
+
 /-! ## A022565.P11195183256150972950
 
 `A016233(n)+10*a(n-1)` with `a(0)=1`
@@ -11732,6 +11758,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A022565.P11195183256150972950
+
+namespace A022565
+
+/-- `A016233(n)+10*a(n-1)` -/
+def P11195183256150972950.Spec : Prop :=
+  ∀ n, P11195183256150972950.a n = A022565 n
+
+end A022565
 
 /-! ## A022565.P15046991541239506261
 
@@ -11748,6 +11782,14 @@ end
 
 end A022565.P15046991541239506261
 
+namespace A022565
+
+/-- `2*A021268(n)-A021144(n)` -/
+def P15046991541239506261.Spec : Prop :=
+  ∀ n, P15046991541239506261.a n = A022565 n
+
+end A022565
+
 /-! ## A022565.P4657714737763676645
 
 `A021264(n)+A021284(n)-A021144(n)`
@@ -11763,6 +11805,14 @@ end
 
 end A022565.P4657714737763676645
 
+namespace A022565
+
+/-- `A021264(n)+A021284(n)-A021144(n)` -/
+def P4657714737763676645.Spec : Prop :=
+  ∀ n, P4657714737763676645.a n = A022565 n
+
+end A022565
+
 /-! ## A022565.P13926555504139147072
 
 `A021464(n)+A021644(n)-A021434(n)`
@@ -11777,6 +11827,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022565.P13926555504139147072
+
+namespace A022565
+
+/-- `A021464(n)+A021644(n)-A021434(n)` -/
+def P13926555504139147072.Spec : Prop :=
+  ∀ n, P13926555504139147072.a n = A022565 n
+
+end A022565
 
 /-!
 # A022566: Numbers that are not the sum of 4 nonnegative cubes.
@@ -12675,21 +12733,6 @@ end
 
 end A022571.P15503703060932188768
 
-/-! ## A022571.P14858832739934104466
-
-`A112145(2*n+1)/(-8)`
--/
-
-namespace A022571.P14858832739934104466
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A112145 (2 * n + 1) : ℚ) / (-8)
-
-end
-
-end A022571.P14858832739934104466
-
 /-! ## A022571.P16658760236323498020
 
 `record[A286335(abs(A046691(n)+n))]`
@@ -12818,21 +12861,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A022573.P5049065186582534727
-
-/-! ## A022573.P9140531228012013588
-
-`A007259(2*n+1)/(-8)`
--/
-
-namespace A022573.P9140531228012013588
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A007259 (2 * n + 1) : ℚ) / (-8)
-
-end
-
-end A022573.P9140531228012013588
 
 /-! ## A022573.P10880336523659170749
 
@@ -13447,27 +13475,6 @@ end
 end A022583.P11129441375249423217
 
 /-!
-# A022584: Expansion of Product_{m>=1} (1+x^m)^19.
-
-The programs for A022584, there is no canonical definition to state claims against.
--/
-
-/-! ## A022584.P18094152409826653820
-
-`A286335(C(15+n+5, 2)+n)`
--/
-
-namespace A022584.P18094152409826653820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286335 (Nat.choose (15 + n + 5) 2 + n)
-
-end
-
-end A022584.P18094152409826653820
-
-/-!
 # A022585: Expansion of Product_{m>=1} (1+x^m)^20.
 
 The programs for A022585, there is no canonical definition to state claims against.
@@ -13511,27 +13518,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022585.P3415376163056844701
-
-/-!
-# A022586: Expansion of Product_{m>=1} (1+x^m)^21.
-
-The programs for A022586, there is no canonical definition to state claims against.
--/
-
-/-! ## A022586.P3362730748226049763
-
-`A321952(n+7)`
--/
-
-namespace A022586.P3362730748226049763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321952 (n + 7)
-
-end
-
-end A022586.P3362730748226049763
 
 /-!
 # A022587: Expansion of Product_{m>=1} (1 + x^m)^22.
@@ -13634,27 +13620,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022590.P12087584373839277273
-
-/-!
-# A022591: Expansion of Product_{m>=1} (1+q^m)^27.
-
-The programs for A022591, there is no canonical definition to state claims against.
--/
-
-/-! ## A022591.P4587615181308879452
-
-`A321954(n+9)`
--/
-
-namespace A022591.P4587615181308879452
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321954 (n + 9)
-
-end
-
-end A022591.P4587615181308879452
 
 /-!
 # A022592: Expansion of Product_{m>=1} (1+q^m)^28.

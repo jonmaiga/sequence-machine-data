@@ -23,7 +23,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -36,14 +35,15 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -588,35 +588,6 @@ namespace A078003
 /-- `A122788(n+1)` -/
 def P2225901377526183988.Spec : Prop :=
   ∀ n, P2225901377526183988.a n = A078003 n
-
-end A078003
-
-/-! ## A078003.P17894372311597564476
-
-`∑[1*Δ[A122788(n)]]`
--/
-
-namespace A078003.P17894372311597564476
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122788 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * (f2 (n + 1) - f2 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A078003.P17894372311597564476
-
-namespace A078003
-
-/-- `∑[1*Δ[A122788(n)]]` -/
-def P17894372311597564476.Spec : Prop :=
-  ∀ n, P17894372311597564476.a n = A078003 n
 
 end A078003
 
@@ -16059,29 +16030,6 @@ def P7716457888422668852.Spec : Prop :=
 
 end A078065
 
-/-! ## A078065.P14868762081130605463
-
-`-1*A084338(2*n+1)*A033999(n+1)`
--/
-
-namespace A078065.P14868762081130605463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-1) * A084338 (2 * n + 1) * A033999 (n + 1)
-
-end
-
-end A078065.P14868762081130605463
-
-namespace A078065
-
-/-- `-1*A084338(2*n+1)*A033999(n+1)` -/
-def P14868762081130605463.Spec : Prop :=
-  ∀ n, P14868762081130605463.a n = A078065 n
-
-end A078065
-
 /-! ## A078065.P17238503428814511091
 
 `Δ[A084338(2*(n+1))]*A033999(n)`
@@ -16515,29 +16463,6 @@ namespace A078068
 /-- `Δ[A078004(n+1)]/A033999(n+3)` -/
 def P15223698627819799986.Spec : Prop :=
   ∀ n, P15223698627819799986.a n = (A078068 n : ℚ)
-
-end A078068
-
-/-! ## A078068.P1795163126116978886
-
-`0-(A233831(n+1)+A077992(n+1))`
--/
-
-namespace A078068.P1795163126116978886
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 - (A233831 (n + 1) + A077992 (n + 1))
-
-end
-
-end A078068.P1795163126116978886
-
-namespace A078068
-
-/-- `0-(A233831(n+1)+A077992(n+1))` -/
-def P1795163126116978886.Spec : Prop :=
-  ∀ n, P1795163126116978886.a n = A078068 n
 
 end A078068
 
@@ -17219,27 +17144,6 @@ def P10269965848768323178.Spec : Prop :=
   ∀ n, P10269965848768323178.a n = A078071 n
 
 end A078071
-
-/-!
-# A078077: Continued fraction expansion of Product_{p prime} (1 + 1/(p^2+p-1)).
-
-The programs for A078077, there is no canonical definition to state claims against.
--/
-
-/-! ## A078077.P11656693968099811429
-
-`A078082(n+1)`
--/
-
-namespace A078077.P11656693968099811429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078082 (n + 1)
-
-end
-
-end A078077.P11656693968099811429
 
 /-!
 # A078099: Array T(m,n) read by antidiagonals: T(m,n) = number of ways of 3-coloring an m X n grid (m >= 1, n >= 1).

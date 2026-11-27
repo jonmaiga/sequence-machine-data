@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -14,26 +15,28 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -43,7 +46,6 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -53,15 +55,16 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -278,25 +281,10 @@ end
 
 end A187100.P9877837033929719368
 
-/-! ## A187100.P3671760163658180460
-
-`abs(0-A213265(3*(n+1)))`
--/
-
-namespace A187100.P3671760163658180460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |0 - A213265 (3 * (n + 1))|
-
-end
-
-end A187100.P3671760163658180460
-
 /-!
 # A187101: Numbers whose largest proper divisor is a square.
 
-The programs for A187101, the canonical program `A187101.P13225097638393114850` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187101 has offset 1).
+The programs for A187101, the canonical program `A187101.P13225097638393114850` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187101 has offset 1).
 
 The definition of A187101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 477 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -305,7 +293,7 @@ The definition of A187101 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A228056(n+1), A392696(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A187101
@@ -833,7 +821,7 @@ end A187106.P9107486594640313017
 /-!
 # A187107: Number of nontrivial compositions of differential operations and directional derivative of the n-th order on the space R^9.
 
-The programs for A187107, the canonical program `A187107.P763811221868216661` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187107 has offset 1).
+The programs for A187107, the canonical program `A187107.P763811221868216661` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187107 has offset 1).
 
 The definition of A187107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -888,7 +876,7 @@ end A187107
 
 `2*a(n-1)-a(n-3)` with `a(0)=8, a(1)=8, a(2)=9`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187107
@@ -2500,7 +2488,7 @@ end A187128.P9899782381885724116
 /-!
 # A187129: Consider all pairs of primes (p,q) with p+q = 2n, p <= q; a(n) is the sum of all the q's.
 
-The programs for A187129, the canonical program `A187129.P10324479693814666476` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187129 has offset 2).
+The programs for A187129, the canonical program `A187129.P10324479693814666476` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187129 has offset 2).
 
 The definition of A187129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2532,7 +2520,7 @@ end A187129
 
 `A187619(n+2)+A185297(n+2)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A187129
@@ -3892,7 +3880,7 @@ end A187155.P11404999266811358663
 /-!
 # A187156: Number of 3-step one space at a time bishop's tours on an n X n board summed over all starting positions.
 
-The programs for A187156, the canonical program `A187156.P9473084626074256866` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187156 has offset 1).
+The programs for A187156, the canonical program `A187156.P9473084626074256866` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187156 has offset 1).
 
 The definition of A187156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3999,7 +3987,7 @@ end A187156
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=20, a(3)=64`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187156
@@ -4368,7 +4356,7 @@ end A187156
 /-!
 # A187157: Number of 4-step one space at a time bishop's tours on an n X n board summed over all starting positions.
 
-The programs for A187157, the canonical program `A187157.P3614727172789598087` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187157 has offset 1).
+The programs for A187157, the canonical program `A187157.P3614727172789598087` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187157 has offset 1).
 
 The definition of A187157 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4400,7 +4388,7 @@ end A187157
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=8, a(3)=92, a(4)=248`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187157
@@ -4444,7 +4432,7 @@ end A187157
 /-!
 # A187158: Number of 5-step one space at a time bishop's tours on an n X n board summed over all starting positions.
 
-The programs for A187158, the canonical program `A187158.P7422435963636944210` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187158 has offset 1).
+The programs for A187158, the canonical program `A187158.P7422435963636944210` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187158 has offset 1).
 
 The definition of A187158 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4476,7 +4464,7 @@ end A187158
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=72, a(4)=388, a(5)=904`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187158
@@ -4520,8 +4508,29 @@ end A187158
 /-!
 # A187159: Number of 6-step one space at a time bishop's tours on an n X n board summed over all starting positions.
 
-The programs for A187159, there is no canonical definition to state claims against.
+The programs for A187159, the canonical program `A187159.P15347950846969171190` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187159 has offset 1).
+
+The definition of A187159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A187159.P15347950846969171190
+
+`ogf((56x^3+288x^4+388x^5-164x^6)/(1-3x+3x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C031`.
+-/
+
+namespace A187159
+
+/-- `ogf((56x^3+288x^4+388x^5-164x^6)/(1-3x+3x^2-x^3))` -/
+def P15347950846969171190.Spec : Prop :=
+  ∀ n, P15347950846969171190.a n = A187159 (n + 1)
+
+theorem P15347950846969171190.correct : P15347950846969171190.Spec := by
+  intro n
+  simp only [A187159, Nat.add_sub_cancel]
+
+end A187159
 
 /-! ## A187159.P9467352066062643578
 
@@ -4541,11 +4550,40 @@ end
 
 end A187159.P9467352066062643578
 
+namespace A187159
+
+/-- `A187155(∑[n+5]+16)` -/
+def P9467352066062643578.Spec : Prop :=
+  ∀ n, P9467352066062643578.a n = A187159 (n + 1)
+
+end A187159
+
 /-!
 # A187160: Number of 7-step one space at a time bishop's tours on an n X n board summed over all starting positions.
 
-The programs for A187160, there is no canonical definition to state claims against.
+The programs for A187160, the canonical program `A187160.P5266722331713347737` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187160 has offset 1).
+
+The definition of A187160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A187160.P5266722331713347737
+
+`ogf((16x^3+496x^4+744x^5+804x^6-500x^7)/(1-3x+3x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C031`.
+-/
+
+namespace A187160
+
+/-- `ogf((16x^3+496x^4+744x^5+804x^6-500x^7)/(1-3x+3x^2-x^3))` -/
+def P5266722331713347737.Spec : Prop :=
+  ∀ n, P5266722331713347737.a n = A187160 (n + 1)
+
+theorem P5266722331713347737.correct : P5266722331713347737.Spec := by
+  intro n
+  simp only [A187160, Nat.add_sub_cancel]
+
+end A187160
 
 /-! ## A187160.P3655902483531460205
 
@@ -4561,6 +4599,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A187160.P3655902483531460205
+
+namespace A187160
+
+/-- `A187155(A056119(n)+28)` -/
+def P3655902483531460205.Spec : Prop :=
+  ∀ n, P3655902483531460205.a n = A187160 (n + 1)
+
+end A187160
 
 /-!
 # A187161: Number of 8-step one space at a time bishop's tours on an n X n board summed over all starting positions.
@@ -4601,7 +4647,7 @@ end A187161.P11815978402872601805
 /-!
 # A187163: Number of 2-step self-avoiding walks on an n X n X n cube summed over all starting positions.
 
-The programs for A187163, the canonical program `A187163.P15872126836893441574` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187163 has offset 1).
+The programs for A187163, the canonical program `A187163.P15872126836893441574` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187163 has offset 1).
 
 The definition of A187163 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4633,7 +4679,7 @@ end A187163
 
 `6*(n+1)^3-6*(n+1)²`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187163
@@ -5270,7 +5316,7 @@ end A187164
 /-!
 # A187165: Number of 4-step self-avoiding walks on an n X n X n cube summed over all starting positions.
 
-The programs for A187165, the canonical program `A187165.P1532187941958451018` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187165 has offset 1).
+The programs for A187165, the canonical program `A187165.P1532187941958451018` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187165 has offset 1).
 
 The definition of A187165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5279,7 +5325,7 @@ The definition of A187165 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((96x+720x^2+144x^3-84x^4+24x^5)/(1-4x+6x^2-4x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187165
@@ -5540,7 +5586,7 @@ end A187172.P700239218125054311
 /-!
 # A187173: Number of 3-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
 
-The programs for A187173, the canonical program `A187173.P14256466337889517115` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187173 has offset 1).
+The programs for A187173, the canonical program `A187173.P14256466337889517115` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187173 has offset 1).
 
 The definition of A187173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5549,7 +5595,7 @@ The definition of A187173 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((16x^3+12x^4-4x^5)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187173
@@ -5708,7 +5754,7 @@ end A187173
 /-!
 # A187174: Number of 4-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
 
-The programs for A187174, the canonical program `A187174.P17501641578614267758` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187174 has offset 1).
+The programs for A187174, the canonical program `A187174.P17501641578614267758` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187174 has offset 1).
 
 The definition of A187174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5717,7 +5763,7 @@ The definition of A187174 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((8x^3+24x^4+56x^5-8x^6-8x^7)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187174
@@ -5761,7 +5807,7 @@ end A187174
 /-!
 # A187175: Number of 5-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
 
-The programs for A187175, the canonical program `A187175.P5660132404619320335` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187175 has offset 1).
+The programs for A187175, the canonical program `A187175.P5660132404619320335` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187175 has offset 1).
 
 The definition of A187175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5770,7 +5816,7 @@ The definition of A187175 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((16x^4+88x^5+96x^6+48x^7-36x^8-12x^9)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187175
@@ -5811,7 +5857,7 @@ end A187175
 /-!
 # A187176: Number of 6-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
 
-The programs for A187176, the canonical program `A187176.P8409748906638483620` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187176 has offset 1).
+The programs for A187176, the canonical program `A187176.P8409748906638483620` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187176 has offset 1).
 
 The definition of A187176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5820,7 +5866,7 @@ The definition of A187176 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((88x^5+232x^6+216x^7+144x^8-24x^9-72x^10-16x^11)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187176
@@ -5887,8 +5933,29 @@ end A187176
 /-!
 # A187177: Number of 7-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
 
-The programs for A187177, there is no canonical definition to state claims against.
+The programs for A187177, the canonical program `A187177.P10922858195293058365` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187177 has offset 1).
+
+The definition of A187177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A187177.P10922858195293058365
+
+`ogf((16x^5+320x^6+544x^7+572x^8+340x^9+76x^10-172x^11-116x^12-20x^13)/(1-3x+3x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C031`.
+-/
+
+namespace A187177
+
+/-- `ogf((16x^5+320x^6+544x^7+572x^8+340x^9+76x^10-172x^11-116x^12-20x^13)/(1-3x+3x^2-x^3))` -/
+def P10922858195293058365.Spec : Prop :=
+  ∀ n, P10922858195293058365.a n = A187177 (n + 1)
+
+theorem P10922858195293058365.correct : P10922858195293058365.Spec := by
+  intro n
+  simp only [A187177, Nat.add_sub_cancel]
+
+end A187177
 
 /-! ## A187177.P4885216520396604494
 
@@ -5905,6 +5972,14 @@ end
 
 end A187177.P4885216520396604494
 
+namespace A187177
+
+/-- `A187172(A056119(n)+28)` -/
+def P4885216520396604494.Spec : Prop :=
+  ∀ n, P4885216520396604494.a n = A187177 (n + 1)
+
+end A187177
+
 /-! ## A187177.P1165291442400086344
 
 `A028662(A150210(n))`
@@ -5920,20 +5995,13 @@ end
 
 end A187177.P1165291442400086344
 
-/-! ## A187177.P160523304035662976
+namespace A187177
 
-`A277012(A052777(n))`
--/
+/-- `A028662(A150210(n))` -/
+def P1165291442400086344.Spec : Prop :=
+  ∀ n, P1165291442400086344.a n = A187177 (n + 1)
 
-namespace A187177.P160523304035662976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277012 (A052777 n).toNat
-
-end
-
-end A187177.P160523304035662976
+end A187177
 
 /-!
 # A187178: Number of 8-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.
@@ -5959,7 +6027,7 @@ end A187178.P15172998824720746873
 /-!
 # A187179: Number of nontrivial compositions of differential operations and directional derivative of the n-th order on the space R^10.
 
-The programs for A187179, the canonical program `A187179.P8637583078986797248` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187179 has offset 1).
+The programs for A187179, the canonical program `A187179.P8637583078986797248` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187179 has offset 1).
 
 The definition of A187179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6014,7 +6082,7 @@ end A187179
 
 `2*a(n-1)-a(n-3)` with `a(0)=7, a(1)=7, a(2)=8`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187179
@@ -6429,7 +6497,7 @@ end A187179
 /-!
 # A187180: Parse the infinite string 0101010101... into distinct phrases 0, 1, 01, 010, 10, ...; a(n) = length of n-th phrase.
 
-The programs for A187180, the canonical program `A187180.P4333977483086420231` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187180 has offset 1).
+The programs for A187180, the canonical program `A187180.P4333977483086420231` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187180 has offset 1).
 
 The definition of A187180 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6461,7 +6529,7 @@ end A187180
 
 `a(n-1)+a(n-4)-a(n-5)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=2, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187180
@@ -6928,7 +6996,7 @@ end A187180
 /-!
 # A187181: Parse the infinite string 012012012012... into distinct phrases 0, 1, 2, 01, 20, 12, 012, ...; a(n) = length of n-th phrase.
 
-The programs for A187181, the canonical program `A187181.P16622616558857538043` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187181 has offset 1).
+The programs for A187181, the canonical program `A187181.P16622616558857538043` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187181 has offset 1).
 
 The definition of A187181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6937,7 +7005,7 @@ The definition of A187181 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^3+x^6+x^7-x^8-x^10+x^11)/(1-x-x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187181
@@ -7702,7 +7770,7 @@ end A187189.P13512093383830028925
 /-!
 # A187190: Number of 3-turn rook's tours on an n X n board summed over all starting positions.
 
-The programs for A187190, the canonical program `A187190.P15433736891315465677` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187190 has offset 1).
+The programs for A187190, the canonical program `A187190.P15433736891315465677` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187190 has offset 1).
 
 The definition of A187190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7711,7 +7779,7 @@ The definition of A187190 is `conjectured`: the Lean definition is a formula tha
 
 `∑[12*n²-2]*n`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187190
@@ -8286,7 +8354,7 @@ end A187191
 /-!
 # A187192: Number of 5-turn rook's tours on an n X n board summed over all starting positions.
 
-The programs for A187192, the canonical program `A187192.P9941186061569523802` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187192 has offset 1).
+The programs for A187192, the canonical program `A187192.P9941186061569523802` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187192 has offset 1).
 
 The definition of A187192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8295,7 +8363,7 @@ The definition of A187192 is `conjectured`: the Lean definition is a formula tha
 
 `16*(n+1)^6-98*(n+1)^5+228*(n+1)^4-238*(n+1)^3+92*(n+1)²`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A187192

@@ -1,43 +1,7 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C018
+import Seq.B000.C019
 import Seq.Opaque.C009
-import Seq.Opaque.C011
-
-/-!
-# A170628: Number of reduced words of length n in Coxeter group on 43 generators S_i with relations (S_i)^2 = (S_i S_j)^48 = I.
-
-The programs for A170628, there is no canonical definition to state claims against.
--/
-
-/-! ## A170628.P14880387293007168789
-
-`A170724(n)`
--/
-
-namespace A170628.P14880387293007168789
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A170724 n
-
-end
-
-end A170628.P14880387293007168789
-
-/-! ## A170628.P8214162389218930998
-
-`A170762(n)`
--/
-
-namespace A170628.P8214162389218930998
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A170762 n
-
-end
-
-end A170628.P8214162389218930998
+import Seq.Opaque.C010
 
 /-!
 # A170636: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^49 = I.

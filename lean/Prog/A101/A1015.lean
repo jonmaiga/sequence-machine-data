@@ -13,8 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,16 +22,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -64,13 +64,14 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,6 +85,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1603,21 +1605,6 @@ end A101514.P17127263976460626906
 
 The programs for A101515, there is no canonical definition to state claims against.
 -/
-
-/-! ## A101515.P7402299655052147459
-
-`or(A086617(n), A088699(n))`
--/
-
-namespace A101515.P7402299655052147459
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A086617 n) (A088699 n)
-
-end
-
-end A101515.P7402299655052147459
 
 /-! ## A101515.P49180341241998335
 
@@ -3810,7 +3797,7 @@ end A101548.P4810032485162402560
 /-!
 # A101549: Composite lopsided numbers: composite numbers n such that the largest prime factor > 2 sqrt(n).
 
-The programs for A101549, the canonical program `A101549.P6028307656505015155` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101549 has offset 1).
+The programs for A101549, the canonical program `A101549.P6028307656505015155` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101549 has offset 1).
 
 The definition of A101549 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3975,7 +3962,7 @@ end A101549
 
 `lt[A000267(n), A085392(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A101549
@@ -4383,7 +4370,7 @@ end A101549
 /-!
 # A101550: Lopsided (or biased) numbers: numbers n such that the largest prime factor of n is > 2*sqrt(n).
 
-The programs for A101550, the canonical program `A101550.P12953146134593468356` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101550 has offset 1).
+The programs for A101550, the canonical program `A101550.P12953146134593468356` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101550 has offset 1).
 
 The definition of A101550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4392,7 +4379,7 @@ The definition of A101550 is `conjectured`: the Lean definition is a formula tha
 
 `lt[4*(n+2), A006530(n+1)²]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A101550
@@ -8925,7 +8912,7 @@ end A101593.P7503901103419920358
 /-!
 # A101594: Numbers with exactly two distinct decimal digits, neither of which is 0.
 
-The programs for A101594, the canonical program `A101594.P7821641441831105580` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101594 has offset 1).
+The programs for A101594, the canonical program `A101594.P7821641441831105580` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101594 has offset 1).
 
 The definition of A101594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 872 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8934,7 +8921,7 @@ The definition of A101594 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A031955(n+1), A052382(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A101594
@@ -9114,29 +9101,6 @@ namespace A101594
 /-- `eq[3, A344511(A137564(n))]` -/
 def P9536355900793114291.Spec : Prop :=
   ∀ n, (P9536355900793114291.a n : ℤ) = A101594 (n + 1)
-
-end A101594
-
-/-! ## A101594.P65358107024828442
-
-`A125290(n+1)`
--/
-
-namespace A101594.P65358107024828442
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125290 (n + 1)
-
-end
-
-end A101594.P65358107024828442
-
-namespace A101594
-
-/-- `A125290(n+1)` -/
-def P65358107024828442.Spec : Prop :=
-  ∀ n, P65358107024828442.a n = A101594 (n + 1)
 
 end A101594
 
@@ -9858,29 +9822,6 @@ def P3444745610469973806.Spec : Prop :=
 
 end A101598
 
-/-! ## A101598.P16708527980797281518
-
-`A391991(n)`
--/
-
-namespace A101598.P16708527980797281518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391991 n
-
-end
-
-end A101598.P16708527980797281518
-
-namespace A101598
-
-/-- `A391991(n)` -/
-def P16708527980797281518.Spec : Prop :=
-  ∀ n, P16708527980797281518.a n = A101598 n
-
-end A101598
-
 /-! ## A101598.P8288622040197465671
 
 `A098378(A104795(n))`
@@ -9932,21 +9873,6 @@ end A101598
 
 The programs for A101599, there is no canonical definition to state claims against.
 -/
-
-/-! ## A101599.P5026210802069531061
-
-`C(A080590(n+1), A080588(n))`
--/
-
-namespace A101599.P5026210802069531061
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A080590 (n + 1)).toNat (A080588 n).toNat
-
-end
-
-end A101599.P5026210802069531061
 
 /-! ## A101599.P17062398991534237824
 

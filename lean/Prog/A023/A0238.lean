@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,7 +20,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -28,14 +29,12 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,19 +53,21 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -74,8 +75,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -835,60 +834,6 @@ The programs for A023805, the canonical program `A023805.P16094860154420374150` 
 The definition of A023805 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A023805.P5709982917441651981
-
-`comp[A033024(n+1)]`
--/
-
-namespace A023805.P5709982917441651981
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033024 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023805.P5709982917441651981
-
-namespace A023805
-
-/-- `comp[A033024(n+1)]` -/
-def P5709982917441651981.Spec : Prop :=
-  ∀ n, (P5709982917441651981.a n : ℤ) = A023805 (n + 1)
-
-end A023805
-
-/-! ## A023805.P3125226313043913274
-
-`comp[A268914(n+5)]`
--/
-
-namespace A023805.P3125226313043913274
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268914 (n + 5)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023805.P3125226313043913274
-
-namespace A023805
-
-/-- `comp[A268914(n+5)]` -/
-def P3125226313043913274.Spec : Prop :=
-  ∀ n, (P3125226313043913274.a n : ℤ) = A023805 (n + 1)
-
-end A023805
-
 /-! ## A023805.P2012786314163934960
 
 `comp[12*A095161(n)]`
@@ -1132,33 +1077,6 @@ def P9206347052526818853.Spec : Prop :=
 
 end A023805
 
-/-! ## A023805.P18394319665135034730
-
-`comp[A059322(8*n+10)]`
--/
-
-namespace A023805.P18394319665135034730
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059322 (8 * n + 10)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023805.P18394319665135034730
-
-namespace A023805
-
-/-- `comp[A059322(8*n+10)]` -/
-def P18394319665135034730.Spec : Prop :=
-  ∀ n, (P18394319665135034730.a n : ℤ) = A023805 (n + 1)
-
-end A023805
-
 /-! ## A023805.P17344672141636997541
 
 `comp[lcm(12, A226629(n+1))]`
@@ -1378,32 +1296,6 @@ The programs for A023806, the canonical program `A023806.P3856621330274670461` i
 
 The definition of A023806 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A023806.P1033461961868028194
-
-`record[A106614(n)]`
--/
-
-namespace A023806.P1033461961868028194
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106614 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A023806.P1033461961868028194
-
-namespace A023806
-
-/-- `record[A106614(n)]` -/
-def P1033461961868028194.Spec : Prop :=
-  ∀ n, P1033461961868028194.a n = A023806 (n + 1)
-
-end A023806
 
 /-! ## A023806.P5802641033514248305
 
@@ -2259,87 +2151,6 @@ def P17961448290836859164.Spec : Prop :=
 
 end A023807
 
-/-! ## A023807.P850029588853597590
-
-`comp[A008589(2*(n+1))]`
--/
-
-namespace A023807.P850029588853597590
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008589 (2 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023807.P850029588853597590
-
-namespace A023807
-
-/-- `comp[A008589(2*(n+1))]` -/
-def P850029588853597590.Spec : Prop :=
-  ∀ n, (P850029588853597590.a n : ℤ) = A023807 (n + 1)
-
-end A023807
-
-/-! ## A023807.P9671696114600715666
-
-`comp[A004277(7*(n+1))]`
--/
-
-namespace A023807.P9671696114600715666
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 (7 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023807.P9671696114600715666
-
-namespace A023807
-
-/-- `comp[A004277(7*(n+1))]` -/
-def P9671696114600715666.Spec : Prop :=
-  ∀ n, (P9671696114600715666.a n : ℤ) = A023807 (n + 1)
-
-end A023807
-
-/-! ## A023807.P1811240658392423403
-
-`comp[A301298(3*(n+1))]`
--/
-
-namespace A023807.P1811240658392423403
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301298 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023807.P1811240658392423403
-
-namespace A023807
-
-/-- `comp[A301298(3*(n+1))]` -/
-def P1811240658392423403.Spec : Prop :=
-  ∀ n, (P1811240658392423403.a n : ℤ) = A023807 (n + 1)
-
-end A023807
-
 /-! ## A023807.P955337341818787670
 
 `lt[A247555(2*n), A087508(A109048(9*n+14))]`
@@ -2421,33 +2232,6 @@ The programs for A023808, the canonical program `A023808.P7040097913653818230` i
 
 The definition of A023808 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A023808.P15822548330083509617
-
-`comp[A161455(n+1)]`
--/
-
-namespace A023808.P15822548330083509617
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161455 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023808.P15822548330083509617
-
-namespace A023808
-
-/-- `comp[A161455(n+1)]` -/
-def P15822548330083509617.Spec : Prop :=
-  ∀ n, (P15822548330083509617.a n : ℤ) = A023808 (n + 1)
-
-end A023808
 
 /-! ## A023808.P148921612897477124
 
@@ -2915,7 +2699,7 @@ end A023808
 /-!
 # A023809: Xenodromes: all digits in base 15 are different.
 
-The programs for A023809, the canonical program `A023809.P3270166655072433697` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023809 has offset 1).
+The programs for A023809, the canonical program `A023809.P3270166655072433697` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023809 has offset 1).
 
 The definition of A023809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3165,7 +2949,7 @@ end A023809
 
 `lt[A071178(A253563(n)), 5]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A023809
@@ -3477,33 +3261,6 @@ The programs for A023810, the canonical program `A023810.P2950296800096099102` i
 
 The definition of A023810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 241 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A023810.P12846345858777774653
-
-`comp[A033029(n+1)]`
--/
-
-namespace A023810.P12846345858777774653
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033029 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A023810.P12846345858777774653
-
-namespace A023810
-
-/-- `comp[A033029(n+1)]` -/
-def P12846345858777774653.Spec : Prop :=
-  ∀ n, (P12846345858777774653.a n : ℤ) = A023810 (n + 1)
-
-end A023810
 
 /-! ## A023810.P876912871620545934
 
@@ -16645,21 +16402,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A023894.P15814840246892245937
-
-/-! ## A023894.P668149486273975515
-
-`A285799(n)`
--/
-
-namespace A023894.P668149486273975515
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285799 n
-
-end
-
-end A023894.P668149486273975515
 
 /-!
 # A023895: Number of partitions of n into composite parts.

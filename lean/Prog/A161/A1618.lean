@@ -17,26 +17,27 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,28 +50,31 @@ import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +95,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -1518,7 +1521,7 @@ end A161817
 /-!
 # A161818: If b(n) = the largest proper divisor of n, then a(n) = (2^n - 1)/(2^b(n) - 1).
 
-The programs for A161818, the canonical program `A161818.P13437429951946931338` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161818 has offset 2).
+The programs for A161818, the canonical program `A161818.P13437429951946931338` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161818 has offset 2).
 
 The definition of A161818 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1527,7 +1530,7 @@ The definition of A161818 is `conjectured`: the Lean definition is a formula tha
 
 `A126646(n+1)/A126646(A089196(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A161818
@@ -1656,7 +1659,7 @@ end A161818
 /-!
 # A161820: a(n) is the smallest positive integer such that both n and a(n), when represented in binary, contain the same types of runs of 1's, the runs being in any order.
 
-The programs for A161820, the canonical program `A161820.P14402460152946731536` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161820 has offset 1).
+The programs for A161820, the canonical program `A161820.P14402460152946731536` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161820 has offset 1).
 
 The definition of A161820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 682 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1665,7 +1668,7 @@ The definition of A161820 is `conjectured`: the Lean definition is a formula tha
 
 `A322993(A278222(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A161820
@@ -1826,40 +1829,10 @@ end
 
 end A161822.P8590606216088572116
 
-/-! ## A161822.P4528967322607987084
-
-`A090077(A322250(n+2))`
--/
-
-namespace A161822.P4528967322607987084
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090077 (A322250 (n + 2)).toNat
-
-end
-
-end A161822.P4528967322607987084
-
-/-! ## A161822.P5742214501792890026
-
-`A090077(A163380(n+1))`
--/
-
-namespace A161822.P5742214501792890026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090077 (A163380 (n + 1)).toNat
-
-end
-
-end A161822.P5742214501792890026
-
 /-!
 # A161823: Among any n lines on the plane, there exists a pair at an angle not more than a(n) degrees.
 
-The programs for A161823, the canonical program `A161823.P14772837221372451884` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161823 has offset 2).
+The programs for A161823, the canonical program `A161823.P14772837221372451884` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161823 has offset 2).
 
 The definition of A161823 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1868,7 +1841,7 @@ The definition of A161823 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(180/(n+2))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161823
@@ -2471,7 +2444,7 @@ end A161825
 /-!
 # A161826: Number of maximal vertex-independent sets in the hypergraph with nodes V = {1, 2, ..., n} and "edges" consisting of the triples (X,Y,Z) with X<Y<Z and X+Y=Z.
 
-The programs for A161826, the canonical program `A161826.P16715564828473919355` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161826 has offset 1).
+The programs for A161826, the canonical program `A161826.P16715564828473919355` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161826 has offset 1).
 
 The definition of A161826 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2480,7 +2453,7 @@ The definition of A161826 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2+x^3+3x^4-x^5-x^8-x^10)/(1-x^2))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161826
@@ -2498,7 +2471,7 @@ end A161826
 /-!
 # A161827: Complement of A006446.
 
-The programs for A161827, the canonical program `A161827.P18149568597438859992` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161827 has offset 1).
+The programs for A161827, the canonical program `A161827.P18149568597438859992` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161827 has offset 1).
 
 The definition of A161827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2507,7 +2480,7 @@ The definition of A161827 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n, lcm(n, floor(sqrt(n)))]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161827
@@ -7499,16 +7472,16 @@ end A161848.P15183540291862451326
 /-!
 # A161849: a(n) = A052369(n) mod A056608(n).
 
-The programs for A161849, the canonical program `A161849.P3509764791398942199` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161849 has offset 1).
+The programs for A161849, the canonical program `A161849.P3509764791398942199` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161849 has offset 1).
 
-The definition of A161849 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052369, A056608, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A161849 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A161849.P3509764791398942199
 
 `A052369(n+1)%A056608(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A161849
@@ -7922,21 +7895,6 @@ end
 
 end A161851.P14882866347699004249
 
-/-! ## A161851.P463244532892342299
-
-`A171584(n+1)`
--/
-
-namespace A161851.P463244532892342299
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171584 (n + 1)
-
-end
-
-end A161851.P463244532892342299
-
 /-! ## A161851.P4233850137366591847
 
 `∩[A007935(n+1), A152186(n+1)]`
@@ -7962,7 +7920,7 @@ end A161851.P4233850137366591847
 /-!
 # A161852: Solutions to the simultaneous equations m(n)+1=a(n)^2 and 7*m(n)+1=b(n)^2.
 
-The programs for A161852, the canonical program `A161852.P13496728816473145261` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161852 has offset 1).
+The programs for A161852, the canonical program `A161852.P13496728816473145261` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161852 has offset 1).
 
 The definition of A161852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7994,7 +7952,7 @@ end A161852
 
 `16*a(n-2)-a(n-4)` with `a(0)=1, a(1)=5, a(2)=11, a(3)=79`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161852
@@ -8899,54 +8857,6 @@ end
 end A161857.P2503386171772522696
 
 /-!
-# A161858: Number of reduced words of length n in the Weyl group B_12.
-
-The programs for A161858, there is no canonical definition to state claims against.
--/
-
-/-! ## A161858.P10358663268146507571
-
-`∑[0+A161776(n)]`
--/
-
-namespace A161858.P10358663268146507571
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 + A161776 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161858.P10358663268146507571
-
-/-!
-# A161859: Number of reduced words of length n in the Weyl group B_13.
-
-The programs for A161859, there is no canonical definition to state claims against.
--/
-
-/-! ## A161859.P8192944229989288491
-
-`∑[1*A161858(n)]`
--/
-
-namespace A161859.P8192944229989288491
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A161858 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161859.P8192944229989288491
-
-/-!
 # A161860: Squares which are anagrams of cubes.
 
 The programs for A161860, there is no canonical definition to state claims against.
@@ -9121,30 +9031,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161861.P5673449680580681863
-
-/-!
-# A161862: Number of reduced words of length n in the Weyl group B_14.
-
-The programs for A161862, there is no canonical definition to state claims against.
--/
-
-/-! ## A161862.P14276736253383790508
-
-`∑[A161859(n^1)]`
--/
-
-namespace A161862.P14276736253383790508
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161859 (n ^ 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161862.P14276736253383790508
 
 /-!
 # A161864: Numbers n such that n^2 + n + 5 and n^2 + n - 5 are both prime.
@@ -9725,126 +9611,6 @@ end
 end A161875.P5436549699604204591
 
 /-!
-# A161876: Number of reduced words of length n in the Weyl group B_16.
-
-The programs for A161876, there is no canonical definition to state claims against.
--/
-
-/-! ## A161876.P14501431643767592291
-
-`∑[1*A161875(n)]`
--/
-
-namespace A161876.P14501431643767592291
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A161875 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161876.P14501431643767592291
-
-/-!
-# A161877: Number of reduced words of length n in the Weyl group B_17.
-
-The programs for A161877, there is no canonical definition to state claims against.
--/
-
-/-! ## A161877.P7927870959943082889
-
-`∑[1*A161876(n)]`
--/
-
-namespace A161877.P7927870959943082889
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A161876 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161877.P7927870959943082889
-
-/-!
-# A161878: Number of reduced words of length n in the Weyl group B_18.
-
-The programs for A161878, there is no canonical definition to state claims against.
--/
-
-/-! ## A161878.P11953691397135341585
-
-`∑[A161877(n)+0]`
--/
-
-namespace A161878.P11953691397135341585
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161877 n + 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161878.P11953691397135341585
-
-/-!
-# A161879: Number of reduced words of length n in the Weyl group B_19.
-
-The programs for A161879, there is no canonical definition to state claims against.
--/
-
-/-! ## A161879.P9767001801155839642
-
-`∑[A161878(n)+0]`
--/
-
-namespace A161879.P9767001801155839642
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161878 n + 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161879.P9767001801155839642
-
-/-!
-# A161880: Number of reduced words of length n in the Weyl group B_20.
-
-The programs for A161880, there is no canonical definition to state claims against.
--/
-
-/-! ## A161880.P5692439657983288040
-
-`∑[0+A161879(n)]`
--/
-
-namespace A161880.P5692439657983288040
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 + A161879 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161880.P5692439657983288040
-
-/-!
 # A161881: a(n) = Sum_{k=0..n-1} {[x^k] A(x)^(n-k)} * {[x^(n-k-1)] A(x)^(k+1)} for n>0, with a(0)=1, where g.f. A(x) = Sum_{n>=0} a(n)*x^n.
 
 The programs for A161881, there is no canonical definition to state claims against.
@@ -9883,7 +9649,7 @@ end A161881.P13499802638379599865
 /-!
 # A161882: Smallest k such that n^2 = a_1^2 + ... + a_k^2 and all a_i are positive integers less than n.
 
-The programs for A161882, the canonical program `A161882.P9047361608683957407` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161882 has offset 2).
+The programs for A161882, the canonical program `A161882.P9047361608683957407` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161882 has offset 2).
 
 The definition of A161882 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 699 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9915,7 +9681,7 @@ end A161882
 
 `A297382(A170818(n+2))+A297382(n+2)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A161882
@@ -10547,24 +10313,6 @@ end
 
 end A161887.P5345082619543120317
 
-/-! ## A161887.P8994271494270447576
-
-`record[A185021(n)]`
--/
-
-namespace A161887.P8994271494270447576
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185021 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A161887.P8994271494270447576
-
 /-!
 # A161888: a(n) = the smallest positive integer that does not divide n, and is such that sum{k=1 to n} a(k) is coprime to n.
 
@@ -10717,24 +10465,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161889.P7380353227235378030
-
-/-! ## A161889.P8979533695368063335
-
-`∑[1*A161888(ϕ²-(ϕ-n))]`
--/
-
-namespace A161889.P8979533695368063335
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A161888 (SequenceMachineLib.roundAway (Real.goldenRatio ^ 2 - (Real.goldenRatio - (n : ℝ)))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161889.P8979533695368063335
 
 /-! ## A161889.P2333614588061234911
 
@@ -11530,43 +11260,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161897.P17277063368267084652
-
-/-! ## A161897.P15541548922796437175
-
-`A005385(n+3)`
--/
-
-namespace A161897.P15541548922796437175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005385 (n + 3)
-
-end
-
-end A161897.P15541548922796437175
-
-/-!
-# A161899: Number of reduced words of length n in the Weyl group B_21.
-
-The programs for A161899, there is no canonical definition to state claims against.
--/
-
-/-! ## A161899.P5280598329344971240
-
-`∑[A161880(n)+0]`
--/
-
-namespace A161899.P5280598329344971240
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161880 n + 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161899.P5280598329344971240
 

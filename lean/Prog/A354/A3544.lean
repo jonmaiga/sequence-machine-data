@@ -6,35 +6,31 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C039
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -56,18 +52,17 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1307,7 +1302,7 @@ end A354434.P11269710242287969923
 /-!
 # A354436: a(n) = n! * Sum_{k=0..n} k^(n-k)/k!.
 
-The programs for A354436, the canonical program `A354436.P13776385469002120942` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354436 has offset 0).
+The programs for A354436, the canonical program `A354436.P13776385469002120942` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354436 has offset 0).
 
 The definition of A354436 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1316,7 +1311,7 @@ The definition of A354436 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (n-#)^#*#!*C(n, #)]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A354436
@@ -1357,7 +1352,7 @@ end A354436
 /-!
 # A354437: a(n) = n! * Sum_{k=0..n} (-k)^(n-k)/k!.
 
-The programs for A354437, the canonical program `A354437.P16071309239331463587` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354437 has offset 0).
+The programs for A354437, the canonical program `A354437.P16071309239331463587` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354437 has offset 0).
 
 The definition of A354437 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1366,7 +1361,7 @@ The definition of A354437 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!*∑{#}[n, (-#)^(n-#)/#!]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A354437
@@ -1457,48 +1452,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354438.P10055386837385539939
-
-/-!
-# A354441: Lexicographically earliest sequence of distinct positive integers on a square spiral such that any 3X3 square of numbers sums to a prime.
-
-The programs for A354441, there is no canonical definition to state claims against.
--/
-
-/-! ## A354441.P7653195241554093262
-
-`A354435(n+1)`
--/
-
-namespace A354441.P7653195241554093262
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354435 (n + 1)
-
-end
-
-end A354441.P7653195241554093262
-
-/-!
-# A354442: The primes sums formed for each completed 3 X 3 square of numbers in A354441.
-
-The programs for A354442, there is no canonical definition to state claims against.
--/
-
-/-! ## A354442.P15035282723825239991
-
-`A354461(n+1)`
--/
-
-namespace A354442.P15035282723825239991
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354461 (n + 1)
-
-end
-
-end A354442.P15035282723825239991
 
 /-!
 # A354445: Number of polynomials per row where the minimum number of rows and polynomials per row necessary to transform A335105 into a triangular array are present.
@@ -2232,7 +2185,7 @@ end A354452.P5333736229837402943
 /-!
 # A354454: Nearest integer to sqrt(8*Pi*n).
 
-The programs for A354454, the canonical program `A354454.P306548337128537453` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
+The programs for A354454, the canonical program `A354454.P306548337128537453` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
 
 The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2241,7 +2194,7 @@ The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(8*π*n)+1/2)`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A354454
@@ -3710,48 +3663,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354469.P15702964490388417410
-
-/-!
-# A354470: Square array A(n, k), n, k >= 0, read by antidiagonals; the primorial base expansion of A(n, k) is obtained by adding componentwise and reducing modulo their radix the digits of the primorial base expansions of n and k.
-
-The programs for A354470, there is no canonical definition to state claims against.
--/
-
-/-! ## A354470.P16697172126067831841
-
-`A354438(n)`
--/
-
-namespace A354470.P16697172126067831841
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354438 n
-
-end
-
-end A354470.P16697172126067831841
-
-/-!
-# A354474: Numbers that can be written as reversals in two different bases, where the bases are also reversals of each other. (Trailing zeros are not allowed.)
-
-The programs for A354474, there is no canonical definition to state claims against.
--/
-
-/-! ## A354474.P13240275457308450803
-
-`A355313(n+1)`
--/
-
-namespace A354474.P13240275457308450803
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355313 (n + 1)
-
-end
-
-end A354474.P13240275457308450803
 
 /-!
 # A354475: Number of fusion rings of multiplicity 2 and rank n.

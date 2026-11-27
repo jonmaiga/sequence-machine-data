@@ -3,29 +3,34 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C008
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,25 +46,22 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C001
+import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -70,15 +72,15 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -89,7 +91,7 @@ set_option linter.unreachableTactic false
 /-!
 # A291400: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^2 - S^4.
 
-The programs for A291400, the canonical program `A291400.P8223483444146882332` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291400 has offset 0).
+The programs for A291400, the canonical program `A291400.P8223483444146882332` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291400 has offset 0).
 
 The definition of A291400 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -98,7 +100,7 @@ The definition of A291400 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+2x^2+2x^3+4x^4+6x^5+4x^6+x^7)/(1-x^2-2x^3-2x^4-4x^5-6x^6-4x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291400
@@ -142,7 +144,7 @@ end A291400
 /-!
 # A291401: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S - S^4.
 
-The programs for A291401, the canonical program `A291401.P4244157546492356287` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291401 has offset 0).
+The programs for A291401, the canonical program `A291401.P4244157546492356287` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291401 has offset 0).
 
 The definition of A291401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -151,7 +153,7 @@ The definition of A291401 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^3+4x^4+6x^5+4x^6+x^7)/(1-x-x^2-x^4-4x^5-6x^6-4x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291401
@@ -244,7 +246,7 @@ end A291401
 /-!
 # A291402: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^3 - S^4.
 
-The programs for A291402, the canonical program `A291402.P7198600343446612213` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291402 has offset 0).
+The programs for A291402, the canonical program `A291402.P7198600343446612213` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291402 has offset 0).
 
 The definition of A291402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -253,7 +255,7 @@ The definition of A291402 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^2+4x^3+7x^4+7x^5+4x^6+x^7)/(1-x^3-4x^4-7x^5-7x^6-4x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291402
@@ -297,7 +299,7 @@ end A291402
 /-!
 # A291403: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 2 S^2 - S^4.
 
-The programs for A291403, the canonical program `A291403.P1132652221222804386` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291403 has offset 0).
+The programs for A291403, the canonical program `A291403.P1132652221222804386` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291403 has offset 0).
 
 The definition of A291403 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -306,7 +308,7 @@ The definition of A291403 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2x+4x^2+3x^3+4x^4+6x^5+4x^6+x^7)/(1-2x^2-4x^3-3x^4-4x^5-6x^6-4x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291403
@@ -324,7 +326,7 @@ end A291403
 /-!
 # A291404: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^2 - 2 S^4.
 
-The programs for A291404, the canonical program `A291404.P5860536783012121297` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291404 has offset 0).
+The programs for A291404, the canonical program `A291404.P5860536783012121297` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291404 has offset 0).
 
 The definition of A291404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -333,7 +335,7 @@ The definition of A291404 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+2x^2+3x^3+8x^4+12x^5+8x^6+2x^7)/(1-x^2-2x^3-3x^4-8x^5-12x^6-8x^7-2x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291404
@@ -351,7 +353,7 @@ end A291404
 /-!
 # A291405: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 2 S^2 - 2 S^4.
 
-The programs for A291405, the canonical program `A291405.P10892909249170506648` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291405 has offset 0).
+The programs for A291405, the canonical program `A291405.P10892909249170506648` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291405 has offset 0).
 
 The definition of A291405 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -360,7 +362,7 @@ The definition of A291405 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2x+4x^2+4x^3+8x^4+12x^5+8x^6+2x^7)/(1-2x^2-4x^3-4x^4-8x^5-12x^6-8x^7-2x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291405
@@ -470,7 +472,7 @@ end A291405
 /-!
 # A291406: a(n) = (1/2)A291405(n).
 
-The programs for A291406, the canonical program `A291406.P1830007013687004289` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291406 has offset 0).
+The programs for A291406, the canonical program `A291406.P1830007013687004289` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291406 has offset 0).
 
 The definition of A291406 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -504,7 +506,7 @@ end A291406
 
 `ogf((x+2x^2+2x^3+4x^4+6x^5+4x^6+x^7)/(1-2x^2-4x^3-4x^4-8x^5-12x^6-8x^7-2x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291406
@@ -591,7 +593,7 @@ end A291406
 /-!
 # A291407: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^3 - S^6.
 
-The programs for A291407, the canonical program `A291407.P5134765657446074127` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291407 has offset 0).
+The programs for A291407, the canonical program `A291407.P5134765657446074127` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291407 has offset 0).
 
 The definition of A291407 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -600,7 +602,7 @@ The definition of A291407 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^2+3x^3+3x^4+2x^5+6x^6+15x^7+20x^8+15x^9+6x^10+x^11)/(1-x^3-3x^4-3x^5-2x^6-6x^7-15x^8-20x^9-15x^10-6x^11-x^12))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291407
@@ -736,7 +738,7 @@ end A291408
 /-!
 # A291409: p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - S^2)(1 - S)^2.
 
-The programs for A291409, the canonical program `A291409.P10300547055501879403` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291409 has offset 0).
+The programs for A291409, the canonical program `A291409.P10300547055501879403` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291409 has offset 0).
 
 The definition of A291409 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -745,7 +747,7 @@ The definition of A291409 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+2x-2x^2-5x^3-2x^4+4x^5+4x^6+x^7)/(1-2x-2x^2+2x^3+5x^4+2x^5-4x^6-4x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291409
@@ -809,7 +811,7 @@ end A291409
 /-!
 # A291410: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S - S^2 - 2 S^3.
 
-The programs for A291410, the canonical program `A291410.P10092421480423288704` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291410 has offset 0).
+The programs for A291410, the canonical program `A291410.P10092421480423288704` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291410 has offset 0).
 
 The definition of A291410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -818,7 +820,7 @@ The definition of A291410 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x+4x^2+7x^3+6x^4+2x^5)/(1-x-2x^2-4x^3-7x^4-6x^5-2x^6))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291410
@@ -885,7 +887,7 @@ end A291410
 /-!
 # A291411: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 2 S - S^2 + S^3.
 
-The programs for A291411, the canonical program `A291411.P793049886938318823` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291411 has offset 0).
+The programs for A291411, the canonical program `A291411.P793049886938318823` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291411 has offset 0).
 
 The definition of A291411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -894,7 +896,7 @@ The definition of A291411 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+3x+x^2-2x^3-3x^4-x^5)/(1-2x-3x^2-x^3+2x^4+3x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291411
@@ -958,7 +960,7 @@ end A291411
 /-!
 # A291412: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S - 2 S^2 + S^3.
 
-The programs for A291412, the canonical program `A291412.P16153796566924967136` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291412 has offset 0).
+The programs for A291412, the canonical program `A291412.P16153796566924967136` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291412 has offset 0).
 
 The definition of A291412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -967,7 +969,7 @@ The definition of A291412 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+3x+3x^2-x^3-3x^4-x^5)/(1-x-3x^2-3x^3+x^4+3x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291412
@@ -1034,7 +1036,7 @@ end A291412
 /-!
 # A291413: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 3 S + S^2 + S^3.
 
-The programs for A291413, the canonical program `A291413.P13406942313556613019` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291413 has offset 0).
+The programs for A291413, the canonical program `A291413.P13406942313556613019` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291413 has offset 0).
 
 The definition of A291413 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1043,7 +1045,7 @@ The definition of A291413 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+2x-3x^2-4x^3-3x^4-x^5)/(1-3x-2x^2+3x^3+4x^4+3x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291413
@@ -1061,7 +1063,7 @@ end A291413
 /-!
 # A291414: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 2 S + S^3.
 
-The programs for A291414, the canonical program `A291414.P16798491747588077713` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291414 has offset 0).
+The programs for A291414, the canonical program `A291414.P16798491747588077713` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291414 has offset 0).
 
 The definition of A291414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1070,7 +1072,7 @@ The definition of A291414 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+2x-x^2-3x^3-3x^4-x^5)/(1-2x-2x^2+x^3+3x^4+3x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291414
@@ -1212,7 +1214,7 @@ end A291414
 /-!
 # A291415: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 3 S + S^2.
 
-The programs for A291415, the canonical program `A291415.P13907053411933568264` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291415 has offset 0).
+The programs for A291415, the canonical program `A291415.P13907053411933568264` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291415 has offset 0).
 
 The definition of A291415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1244,7 +1246,7 @@ end A291415
 
 `3*a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)` with `a(0)=3, a(1)=11, a(2)=37, a(3)=126`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291415
@@ -1337,7 +1339,7 @@ end A291415
 /-!
 # A291416: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 4 S + S^2.
 
-The programs for A291416, the canonical program `A291416.P8555953279805679067` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291416 has offset 0).
+The programs for A291416, the canonical program `A291416.P8555953279805679067` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291416 has offset 0).
 
 The definition of A291416 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1369,7 +1371,7 @@ end A291416
 
 `4*a(n-1)+3*a(n-2)-2*a(n-3)-a(n-4)` with `a(0)=4, a(1)=19, a(2)=86, a(3)=392`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291416
@@ -1439,7 +1441,7 @@ end A291416
 /-!
 # A291417: p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - 4 S + 2 S^2.
 
-The programs for A291417, the canonical program `A291417.P13671963682114199419` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291417 has offset 0).
+The programs for A291417, the canonical program `A291417.P13671963682114199419` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291417 has offset 0).
 
 The definition of A291417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1471,7 +1473,7 @@ end A291417
 
 `4*a(n-1)+2*a(n-2)-4*a(n-3)-2*a(n-4)` with `a(0)=4, a(1)=18, a(2)=76, a(3)=322`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291417
@@ -2309,21 +2311,6 @@ end A291440
 The programs for A291441, there is no canonical definition to state claims against.
 -/
 
-/-! ## A291441.P6187015804856194172
-
-`A331967(n+1)`
--/
-
-namespace A291441.P6187015804856194172
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331967 (n + 1)
-
-end
-
-end A291441.P6187015804856194172
-
 /-! ## A291441.P531636608184224960
 
 `filter[A317705(n+1), A010055(#)]`
@@ -2467,21 +2454,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291442.P16746486058987483409
-
-/-! ## A291442.P826278897036376074
-
-`A298534(n+1)`
--/
-
-namespace A291442.P826278897036376074
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298534 (n + 1)
-
-end
-
-end A291442.P826278897036376074
 
 /-!
 # A291443: Number of leaf-balanced trees with n nodes.
@@ -2916,7 +2888,7 @@ end A291452.P13733239376378839085
 /-!
 # A291454: Number of half tones between successive pitches in a major scale.
 
-The programs for A291454, the canonical program `A291454.P6015154956613532526` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291454 has offset 1).
+The programs for A291454, the canonical program `A291454.P6015154956613532526` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291454 has offset 1).
 
 The definition of A291454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2925,7 +2897,7 @@ The definition of A291454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(12*(n+2)/7-floor(12*(n+1)/7))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291454
@@ -3111,7 +3083,7 @@ end A291461.P7176092099286319391
 /-!
 # A291462: a(n) = (1/2)*A291417(n).
 
-The programs for A291462, the canonical program `A291462.P3655046076240758472` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291462 has offset 0).
+The programs for A291462, the canonical program `A291462.P3655046076240758472` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291462 has offset 0).
 
 The definition of A291462 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3143,7 +3115,7 @@ end A291462
 
 `4*a(n-1)+2*a(n-2)-4*a(n-3)-2*a(n-4)` with `a(0)=2, a(1)=9, a(2)=38, a(3)=161`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291462
@@ -3748,21 +3720,6 @@ end
 
 end A291474.P21914167447994782
 
-/-! ## A291474.P3600040252431681895
-
-`A291579(A291478(n+1))`
--/
-
-namespace A291474.P3600040252431681895
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291579 (A291478 (n + 1)).toNat
-
-end
-
-end A291474.P3600040252431681895
-
 /-!
 # A291481: Number of terms of A293630 at stage n.
 
@@ -4226,7 +4183,7 @@ end A291488.P12978732739353600451
 /-!
 # A291497: The arithmetic function uhat(n,1,3).
 
-The programs for A291497, the canonical program `A291497.P16476594267543498683` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291497 has offset 1).
+The programs for A291497, the canonical program `A291497.P16476594267543498683` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291497 has offset 1).
 
 The definition of A291497 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4235,7 +4192,7 @@ The definition of A291497 is `conjectured`: the Lean definition is a formula tha
 
 `-max(5, n+1)`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291497
@@ -4280,7 +4237,7 @@ end A291498
 /-!
 # A291499: The arithmetic function uhat(n,1,5).
 
-The programs for A291499, the canonical program `A291499.P18303785387191652737` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291499 has offset 1).
+The programs for A291499, the canonical program `A291499.P18303785387191652737` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291499 has offset 1).
 
 The definition of A291499 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4289,7 +4246,7 @@ The definition of A291499 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((-19+19x-2x^6-x^7)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291499

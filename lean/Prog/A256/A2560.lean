@@ -23,25 +23,24 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,7 +56,9 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -68,17 +69,17 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -481,7 +482,7 @@ end A256007
 /-!
 # A256008: Self-inverse permutation of positive integers: 4k+1 is swapped with 4k+3, and 4k+2 with 4k+4.
 
-The programs for A256008, the canonical program `A256008.P1000358461102358413` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256008 has offset 1).
+The programs for A256008, the canonical program `A256008.P1000358461102358413` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256008 has offset 1).
 
 The definition of A256008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -490,7 +491,7 @@ The definition of A256008 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `xor(n, 2)+1`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A256008
@@ -1773,21 +1774,6 @@ end A256011.P1178882131704585139
 The programs for A256012, there is no canonical definition to state claims against.
 -/
 
-/-! ## A256012.P13051856934163192823
-
-`A003056(A114374(n))`
--/
-
-namespace A256012.P13051856934163192823
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A114374 n).toNat
-
-end
-
-end A256012.P13051856934163192823
-
 /-! ## A256012.P16192814347046928466
 
 `A100196(A114374(n)%A322121(2*n+5))`
@@ -2142,7 +2128,7 @@ end A256015.P9747441353315822225
 /-!
 # A256016: a(n) = n! * Sum_{k=0..n} k^n/k!.
 
-The programs for A256016, the canonical program `A256016.P8343254209927510463` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256016 has offset 0).
+The programs for A256016, the canonical program `A256016.P8343254209927510463` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256016 has offset 0).
 
 The definition of A256016 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2151,7 +2137,7 @@ The definition of A256016 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, #^n*(n-#)!*C(n, #)]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A256016
@@ -2560,7 +2546,7 @@ end A256021.P1523933667395993794
 /-!
 # A256022: Number of (n+2) X (1+2) 0..1 arrays with no 3 x 3 subblock diagonal sum 0 or 1 and no antidiagonal sum 0 or 1 and no row sum 1 and no column sum 1.
 
-The programs for A256022, the canonical program `A256022.P629501518312190836` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256022 has offset 1).
+The programs for A256022, the canonical program `A256022.P629501518312190836` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256022 has offset 1).
 
 The definition of A256022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 277 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2569,7 +2555,7 @@ The definition of A256022 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((33+2x+51x^2-20x^3-24x^4-56x^5-66x^6+12x^7+36x^8+2x^9)/(1-2x+x^2-4x^3+2x^6+4x^7-2x^9))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A256022
@@ -4069,21 +4055,6 @@ end
 
 end A256052.P14492800810434360076
 
-/-! ## A256052.P5599754079962959930
-
-`2*A153176(4*n+3)`
--/
-
-namespace A256052.P5599754079962959930
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A153176 (4 * n + 3)
-
-end
-
-end A256052.P5599754079962959930
-
 /-! ## A256052.P3216800801886614965
 
 `A008590(A256209(n))`
@@ -4533,7 +4504,7 @@ end A256059.P3225458584240717016
 /-!
 # A256061: Number T(n,k) of 2n-length strings of balanced parentheses of exactly k different types; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
-The programs for A256061, the canonical program `A256061.P10325466053515508797` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256061 has offset 0).
+The programs for A256061, the canonical program `A256061.P10325466053515508797` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256061 has offset 0).
 
 The definition of A256061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A253180, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4542,7 +4513,7 @@ The definition of A256061 is `conditional`: the Lean definition is an OEIS formu
 
 `col(n)!*A253180(C(row(n)+1, 2)+col(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A256061
@@ -5117,21 +5088,6 @@ end
 
 end A256067.P10375183294372887365
 
-/-! ## A256067.P15693375581451158447
-
-`A256554(n)`
--/
-
-namespace A256067.P15693375581451158447
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256554 n
-
-end
-
-end A256067.P15693375581451158447
-
 /-!
 # A256068: Number T(n,k) of rooted identity trees with n nodes and colored non-root nodes using exactly k colors; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.
 
@@ -5560,27 +5516,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A256074.P12549032234027764635
-
-/-!
-# A256075: Non-palindromic balanced numbers (in base 10).
-
-The programs for A256075, there is no canonical definition to state claims against.
--/
-
-/-! ## A256075.P5565083181220369349
-
-`A007095(A256089(n+1))`
--/
-
-namespace A256075.P5565083181220369349
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (A256089 (n + 1)).toNat
-
-end
-
-end A256075.P5565083181220369349
 
 /-!
 # A256076: Non-palindromic balanced primes.
@@ -6349,7 +6284,7 @@ end A256077
 /-!
 # A256078: Write n in binary, exchange digits '0' <-> '1'.
 
-The programs for A256078, the canonical program `A256078.P7966750837771448166` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256078 has offset 0).
+The programs for A256078, the canonical program `A256078.P7966750837771448166` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256078 has offset 0).
 
 The definition of A256078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6358,7 +6293,7 @@ The definition of A256078 is `conjectured`: the Lean definition is a formula tha
 
 `a(n%2)+10*a(floor(n/2))` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A256078
@@ -6963,21 +6898,6 @@ end
 
 end A256089.P159507617815415714
 
-/-! ## A256089.P12130737405430091501
-
-`A028904(A256075(n+1))`
--/
-
-namespace A256089.P12130737405430091501
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A256075 (n + 1)).toNat
-
-end
-
-end A256089.P12130737405430091501
-
 /-!
 # A256090: Non-palindromic balanced primes in base 16.
 
@@ -7429,7 +7349,7 @@ end A256095
 /-!
 # A256096: Expansion of (4+3*x)/(1+3*x).
 
-The programs for A256096, the canonical program `A256096.P18003513400214883330` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256096 has offset 0).
+The programs for A256096, the canonical program `A256096.P18003513400214883330` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256096 has offset 0).
 
 The definition of A256096 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((4+3x)/(1+3x))` (program `A256096.P18003513400214883330`, by `A256096.P18003513400214883330.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7438,7 +7358,7 @@ The definition of A256096 is `verified`: the Lean definition is proven equivalen
 
 `ogf((4+3x)/(1+3x))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A256096
@@ -7838,7 +7758,7 @@ end A256097
 /-!
 # A256098: Denominators for the numerators A256097.
 
-The programs for A256098, the canonical program `A256098.P15055576371804171508` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256098 has offset 1).
+The programs for A256098, the canonical program `A256098.P15055576371804171508` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256098 has offset 1).
 
 The definition of A256098 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5040 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7870,7 +7790,7 @@ end A256098
 
 `A054531(record[A056023(1+n)])`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A256098

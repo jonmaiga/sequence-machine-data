@@ -6,39 +6,40 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C004
+import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B009.C000
+import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -150,42 +151,6 @@ end A031702.P3903434314470240885
 The programs for A031704, there is no canonical definition to state claims against.
 -/
 
-/-! ## A031704.P17865178060479075992
-
-`0+∑[Δ[(13*n)²]+1]`
--/
-
-namespace A031704.P17865178060479075992
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (13 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031704.P17865178060479075992
-
-/-! ## A031704.P4225890220704170641
-
-`A173275(n+1)`
--/
-
-namespace A031704.P4225890220704170641
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173275 (n + 1)
-
-end
-
-end A031704.P4225890220704170641
-
 /-! ## A031704.P10719034682905707946
 
 `(n+1)*A158221(A355249(3*(n+1)))`
@@ -206,42 +171,6 @@ end A031704.P10719034682905707946
 
 The programs for A031706, there is no canonical definition to state claims against.
 -/
-
-/-! ## A031706.P13465656782915711790
-
-`∑[1+Δ[(14*n)²]]`
--/
-
-namespace A031706.P13465656782915711790
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (14 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ((f2 (n + 1) : ℤ) - (f2 n : ℤ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031706.P13465656782915711790
-
-/-! ## A031706.P12191513902005177198
-
-`(0+n+1)*A158223(n+1)`
--/
-
-namespace A031706.P12191513902005177198
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (0 + (n + 1) : ℤ) * A158223 (n + 1)
-
-end
-
-end A031706.P12191513902005177198
 
 /-! ## A031706.P17539628453194387414
 
@@ -303,27 +232,6 @@ end A031706.P9710050002692241317
 The programs for A031710, there is no canonical definition to state claims against.
 -/
 
-/-! ## A031710.P9665451782440713368
-
-`∑[Δ[(16*n)²]+1]`
--/
-
-namespace A031710.P9665451782440713368
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (16 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031710.P9665451782440713368
-
 /-! ## A031710.P4361718000553627264
 
 `(16*16*(n+1)+1)*A065770(A161522(n+1))`
@@ -368,21 +276,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031710.P8101206186293246177
-
-/-! ## A031710.P628009136156293333
-
-`(0+n+1)*A158231(n+1)`
--/
-
-namespace A031710.P628009136156293333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (0 + (n + 1) : ℤ) * A158231 (n + 1)
-
-end
-
-end A031710.P628009136156293333
 
 /-!
 # A031711: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 33.
@@ -470,21 +363,6 @@ end A031711.P9633347492311431827
 
 The programs for A031712, there is no canonical definition to state claims against.
 -/
-
-/-! ## A031712.P2994746518795837003
-
-`A158254(n+1)-0-(n+1)`
--/
-
-namespace A031712.P2994746518795837003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158254 (n + 1) - 0 - (n + 1 : ℤ)
-
-end
-
-end A031712.P2994746518795837003
 
 /-! ## A031712.P12416402473334466035
 
@@ -843,24 +721,6 @@ end
 
 end A031716.P4477805198749068624
 
-/-! ## A031716.P3075594796995882089
-
-`∑[A158310(2*n+1)]`
--/
-
-namespace A031716.P3075594796995882089
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158310 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031716.P3075594796995882089
-
 /-! ## A031716.P14071014994469933020
 
 `A008601(A244631(n+1))+n+1`
@@ -926,24 +786,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031717.P1303363833206304781
-
-/-! ## A031717.P18344073036011993342
-
-`(39*(n+1))²+Δ[n²]+1`
--/
-
-namespace A031717.P18344073036011993342
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((39 * (n + 1)) ^ 2 : ℤ) + ((f1 (n + 1) : ℤ) - (f1 n : ℤ) + 1)
-
-end
-
-end A031717.P18344073036011993342
 
 /-!
 # A031718: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 40.
@@ -1017,24 +859,6 @@ end
 
 end A031718.P6841275370224176966
 
-/-! ## A031718.P17780712860416144088
-
-`∑[A158313(2*n+1)]`
--/
-
-namespace A031718.P17780712860416144088
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158313 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031718.P17780712860416144088
-
 /-!
 # A031719: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 41.
 
@@ -1101,21 +925,6 @@ end
 
 end A031719.P10404951365102818591
 
-/-! ## A031719.P7346285558854052818
-
-`A031760(n+1)+n+1`
--/
-
-namespace A031719.P7346285558854052818
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031760 (n + 1) + (n + 1 : ℤ)
-
-end
-
-end A031719.P7346285558854052818
-
 /-!
 # A031720: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 42.
 
@@ -1166,42 +975,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031720.P5736011293867735530
-
-/-! ## A031720.P1508310589413729508
-
-`∑[Δ[(21*n)²]+2-1]`
--/
-
-namespace A031720.P1508310589413729508
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (21 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + 2 - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031720.P1508310589413729508
-
-/-! ## A031720.P6204086327365085384
-
-`(1+n)*A158322(n+1)`
--/
-
-namespace A031720.P6204086327365085384
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 + n : ℤ) * A158322 (n + 1)
-
-end
-
-end A031720.P6204086327365085384
 
 /-!
 # A031721: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 43.
@@ -1319,21 +1092,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031722.P17486195986871311818
-
-/-! ## A031722.P9214446071291534338
-
-`A158325(n+1)-0-(n+1)`
--/
-
-namespace A031722.P9214446071291534338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158325 (n + 1) - 0 - (n + 1 : ℤ)
-
-end
-
-end A031722.P9214446071291534338
 
 /-! ## A031722.P14187769535492165456
 
@@ -1794,24 +1552,6 @@ end A031727.P3285126478681450172
 The programs for A031728, there is no canonical definition to state claims against.
 -/
 
-/-! ## A031728.P8776360176707107849
-
-`∑[A158383(2*n+1)]`
--/
-
-namespace A031728.P8776360176707107849
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158383 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031728.P8776360176707107849
-
 /-! ## A031728.P8431896715478942513
 
 `A158382(n+1)-(n+1)%A090793(n+1)`
@@ -1841,21 +1581,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031728.P10517338557164276797
-
-/-! ## A031728.P5665179225015089787
-
-`(1+n)*A158383(n+1)`
--/
-
-namespace A031728.P5665179225015089787
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 + n : ℤ) * A158383 (n + 1)
-
-end
-
-end A031728.P5665179225015089787
 
 /-! ## A031728.P13273363131527818473
 
@@ -2337,27 +2062,6 @@ end A031733.P1252229379414570513
 The programs for A031734, there is no canonical definition to state claims against.
 -/
 
-/-! ## A031734.P15400934400068371972
-
-`∑[1+Δ[(28*n)²]]`
--/
-
-namespace A031734.P15400934400068371972
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (28 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ((f2 (n + 1) : ℤ) - (f2 n : ℤ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031734.P15400934400068371972
-
 /-! ## A031734.P4084829730406038630
 
 `(n+1)*A016813(A008596(A008596(n+1)))`
@@ -2565,21 +2269,6 @@ end
 
 end A031736.P7508148921886980591
 
-/-! ## A031736.P379562910740783923
-
-`A158403(n+1)-(1+n)`
--/
-
-namespace A031736.P379562910740783923
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158403 (n + 1) - (1 + n : ℤ)
-
-end
-
-end A031736.P379562910740783923
-
 /-!
 # A031737: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 59.
 
@@ -2624,27 +2313,6 @@ end A031737.P8822868988351576477
 
 The programs for A031738, there is no canonical definition to state claims against.
 -/
-
-/-! ## A031738.P2583959445352623586
-
-`∑[Δ[(30*n)²]+2-1]`
--/
-
-namespace A031738.P2583959445352623586
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (30 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + 2 - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031738.P2583959445352623586
 
 /-! ## A031738.P322140578654841298
 
@@ -2853,21 +2521,6 @@ end
 
 end A031740.P4801276640161943265
 
-/-! ## A031740.P6795169206419683285
-
-`A158413(n+1)-(n+1)`
--/
-
-namespace A031740.P6795169206419683285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158413 (n + 1) - (n + 1 : ℤ)
-
-end
-
-end A031740.P6795169206419683285
-
 /-!
 # A031742: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 64.
 
@@ -2903,42 +2556,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031742.P13208712777917526885
-
-/-! ## A031742.P2755594783750559365
-
-`∑[Δ[(32*n)²]+1]`
--/
-
-namespace A031742.P2755594783750559365
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (32 * n) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A031742.P2755594783750559365
-
-/-! ## A031742.P1644497268591815059
-
-`A047393(A017077(n+1))²+1+n`
--/
-
-namespace A031742.P1644497268591815059
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047393 (A017077 (n + 1)).toNat ^ 2 + (1 + n : ℤ)
-
-end
-
-end A031742.P1644497268591815059
 
 /-! ## A031742.P12827823542592917388
 
@@ -3153,21 +2770,6 @@ end
 
 end A031746.P854518110261367465
 
-/-! ## A031746.P10380798128516463848
-
-`gcd(0, n+1)+(34*(n+1))²`
--/
-
-namespace A031746.P10380798128516463848
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.gcd 0 (n + 1) + (34 * (n + 1)) ^ 2
-
-end
-
-end A031746.P10380798128516463848
-
 /-! ## A031746.P17045866229557487235
 
 `A158255((2*(1+n))²)+n`
@@ -3205,27 +2807,6 @@ end
 end A031747.P9050974880029550464
 
 /-!
-# A031748: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 70.
-
-The programs for A031748, there is no canonical definition to state claims against.
--/
-
-/-! ## A031748.P3993335137904262318
-
-`(35*(n+1))²+1+n`
--/
-
-namespace A031748.P3993335137904262318
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (35 * (n + 1)) ^ 2 + (1 + n)
-
-end
-
-end A031748.P3993335137904262318
-
-/-!
 # A031749: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 71.
 
 The programs for A031749, there is no canonical definition to state claims against.
@@ -3251,21 +2832,6 @@ end A031749.P5256055469482034026
 
 The programs for A031750, there is no canonical definition to state claims against.
 -/
-
-/-! ## A031750.P18378009337046734448
-
-`1*(n+1)+A167632(n+2)²`
--/
-
-namespace A031750.P18378009337046734448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 * (n + 1) : ℤ) + A167632 (n + 2) ^ 2
-
-end
-
-end A031750.P18378009337046734448
 
 /-! ## A031750.P702752786000888824
 
@@ -3384,21 +2950,6 @@ end
 
 end A031752.P16111171780002622263
 
-/-! ## A031752.P12964573413721559989
-
-`(37*(n+1))²+1+n`
--/
-
-namespace A031752.P12964573413721559989
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (37 * (n + 1)) ^ 2 + (1 + n)
-
-end
-
-end A031752.P12964573413721559989
-
 /-!
 # A031753: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 75.
 
@@ -3441,21 +2992,6 @@ end A031753.P3614105553007530139
 The programs for A031754, there is no canonical definition to state claims against.
 -/
 
-/-! ## A031754.P6628917438668036371
-
-`A000290(38*(n+1))+1+n`
--/
-
-namespace A031754.P6628917438668036371
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (38 * (n + 1)) + (1 + n : ℤ)
-
-end
-
-end A031754.P6628917438668036371
-
 /-! ## A031754.P14788552463069221276
 
 `A002260(A001844(n))+(38*(n+1))²`
@@ -3470,21 +3006,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031754.P14788552463069221276
-
-/-! ## A031754.P5572035875007062402
-
-`1+(38*(n+1))²+n`
--/
-
-namespace A031754.P5572035875007062402
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + (38 * (n + 1)) ^ 2 + n
-
-end
-
-end A031754.P5572035875007062402
 
 /-! ## A031754.P10246136194144585689
 
@@ -3823,27 +3344,6 @@ end
 end A031759.P4588866478075449652
 
 /-!
-# A031760: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 82.
-
-The programs for A031760, there is no canonical definition to state claims against.
--/
-
-/-! ## A031760.P5211030151454293762
-
-`(41*(n+1))²+1+n`
--/
-
-namespace A031760.P5211030151454293762
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (41 * (n + 1)) ^ 2 + (1 + n)
-
-end
-
-end A031760.P5211030151454293762
-
-/-!
 # A031761: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 83.
 
 The programs for A031761, there is no canonical definition to state claims against.
@@ -3999,41 +3499,11 @@ end
 
 end A031764.P17601183989974142135
 
-/-! ## A031764.P1234127440197573499
-
-`A031721(n+1)-(n+1)`
--/
-
-namespace A031764.P1234127440197573499
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031721 (n + 1) - (n + 1 : ℤ)
-
-end
-
-end A031764.P1234127440197573499
-
 /-!
 # A031765: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 87.
 
 The programs for A031765, there is no canonical definition to state claims against.
 -/
-
-/-! ## A031765.P6761436934164729542
-
-`A031736(3*(n+1))-(n+1)`
--/
-
-namespace A031765.P6761436934164729542
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031736 (3 * (n + 1)) - (n + 1 : ℤ)
-
-end
-
-end A031765.P6761436934164729542
 
 /-! ## A031765.P9065593020943078507
 
@@ -4232,30 +3702,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031770.P4407408703563820755
-
-/-!
-# A031772: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 94.
-
-The programs for A031772, there is no canonical definition to state claims against.
--/
-
-/-! ## A031772.P14456133412582914957
-
-`1+Δ[A129428(n)]²+n`
--/
-
-namespace A031772.P14456133412582914957
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129428 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ((f1 (n + 1) - f1 n) ^ 2 + (n : ℤ))
-
-end
-
-end A031772.P14456133412582914957
 
 /-!
 # A031774: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 96.

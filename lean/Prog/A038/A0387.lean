@@ -33,21 +33,24 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,6 +68,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -72,16 +76,17 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,10 +100,10 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -11844,26 +11849,26 @@ theorem P7116722868587840909.correct : P7116722868587840909.Spec := by
 
 end A038754
 
-/-! ## A038754.P17883160853324632187
+/-! ## A038754.P13322389225864494282
 
-`3*a(n-2)` with `a(0)=1, a(1)=2`
+`3*a(n-2)` with `a(0)=1, a(1)=2, a(2)=3`
 -/
 
-namespace A038754.P17883160853324632187
+namespace A038754.P13322389225864494282
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2] fun n a =>
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 3] fun n a =>
   3 * a (n - 2)
 
 end
 
-end A038754.P17883160853324632187
+end A038754.P13322389225864494282
 
 namespace A038754
 
 /-- `3*a(n-2)` -/
-def P17883160853324632187.Spec : Prop :=
-  ∀ n, (P17883160853324632187.a n : ℤ) = A038754 n
+def P13322389225864494282.Spec : Prop :=
+  ∀ n, (P13322389225864494282.a n : ℤ) = A038754 n
 
 end A038754
 
@@ -14352,27 +14357,31 @@ end A038763
 /-!
 # A038764: a(n) = (9*n^2 + 3*n + 2)/2.
 
-The programs for A038764, the canonical program `A038764.P1120331209707112370` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038764 has offset 0).
+The programs for A038764, the canonical program `A038764.P6106227716071050696` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038764 has offset 0).
 
-The definition of A038764 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A038764 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A038764.anchor (n : ℕ) : (A038764 n : ℚ) = (9 * n ^ 2 + 3 * n + 2 : ℚ) / 2` in `Proof.A038.A038764`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A038764.P1120331209707112370
 
 `ogf((1+4x+4x^2)/(1-3x+3x^2-x^3))`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A038764.P1120331209707112370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 4] [1, -3, 3, -1] n
+
+end
+
+end A038764.P1120331209707112370
 
 namespace A038764
 
 /-- `ogf((1+4x+4x^2)/(1-3x+3x^2-x^3))` -/
 def P1120331209707112370.Spec : Prop :=
   ∀ n, P1120331209707112370.a n = A038764 n
-
-theorem P1120331209707112370.correct : P1120331209707112370.Spec := by
-  intro n
-  simp only [A038764]
 
 end A038764
 
@@ -14403,18 +14412,8 @@ end A038764
 
 `(9*n²+3*n+2)/2`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C008`.
 -/
-
-namespace A038764.P6106227716071050696
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (9 * n ^ 2 + 3 * n + 2 : ℚ) / 2
-
-end
-
-end A038764.P6106227716071050696
 
 namespace A038764
 
@@ -15958,21 +15957,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038776.P16181923373507577690
-
-/-! ## A038776.P13450954195975558704
-
-`A082364(n)+1`
--/
-
-namespace A038776.P13450954195975558704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082364 n + 1
-
-end
-
-end A038776.P13450954195975558704
 
 /-!
 # A038778: Circulant directed p^2-graphs up to rotations only, indexed by odd primes p.

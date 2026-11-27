@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -25,26 +24,25 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -80,14 +78,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -186,25 +183,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045701.P6025673161458813527
-
-/-! ## A045701.P9714895939926547358
-
-`char[A045699(n+1)-1]`
--/
-
-namespace A045701.P9714895939926547358
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045699 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A045701.P9714895939926547358
 
 /-! ## A045701.P2796421441286049027
 
@@ -312,29 +290,6 @@ namespace A045702
 /-- `record[A094571(A245300(n))]` -/
 def P6657115471213051972.Spec : Prop :=
   ∀ n, P6657115471213051972.a n = A045702 (n + 1)
-
-end A045702
-
-/-! ## A045702.P17887108286866237920
-
-`A001481(A238985(n+1))`
--/
-
-namespace A045702.P17887108286866237920
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001481 (A238985 (n + 1)).toNat
-
-end
-
-end A045702.P17887108286866237920
-
-namespace A045702
-
-/-- `A001481(A238985(n+1))` -/
-def P17887108286866237920.Spec : Prop :=
-  ∀ n, P17887108286866237920.a n = A045702 (n + 1)
 
 end A045702
 
@@ -9104,24 +9059,6 @@ end
 
 end A045744.P15917814614542300550
 
-/-! ## A045744.P13272604379693672614
-
-`record[A094046(n+2)]`
--/
-
-namespace A045744.P13272604379693672614
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094046 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A045744.P13272604379693672614
-
 /-!
 # A045745: Numbers k such that sum of proper divisors s(k) is a triangular number.
 
@@ -17621,27 +17558,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045789.P3471907670673287622
-
-/-!
-# A045790: Three-dimensional simplices of determinant n.
-
-The programs for A045790, there is no canonical definition to state claims against.
--/
-
-/-! ## A045790.P5671094066053303589
-
-`A159842(1+n)`
--/
-
-namespace A045790.P5671094066053303589
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159842 (1 + n)
-
-end
-
-end A045790.P5671094066053303589
 
 /-!
 # A045791: Squares with initial digit '7'.

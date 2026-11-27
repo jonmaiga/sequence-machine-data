@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -26,7 +27,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -43,12 +43,15 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -81,14 +84,13 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,7 +99,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -7569,7 +7570,7 @@ end A100548.P12972023133423942602
 /-!
 # A100549: Let n = 2^e_2 * 3^e_ * 5^e_ * ... be the prime factorization of n; then a(n) = largest prime <= 1 + max{e_2, e_3, e_5, ...}; a(1) = 1 by convention.
 
-The programs for A100549, the canonical program `A100549.P3441829071280898481` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100549 has offset 1).
+The programs for A100549, the canonical program `A100549.P3441829071280898481` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100549 has offset 1).
 
 The definition of A100549 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7578,7 +7579,7 @@ The definition of A100549 is `conjectured`: the Lean definition is a formula tha
 
 `A136548(A051903(n+1)+2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A100549
@@ -8575,27 +8576,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A100558.P4017901903164330696
-
-/-!
-# A100559: Smallest prime equal to the sum of n distinct squares.
-
-The programs for A100559, there is no canonical definition to state claims against.
--/
-
-/-! ## A100559.P14008704805275070529
-
-`A224498(n+2)`
--/
-
-namespace A100559.P14008704805275070529
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224498 (n + 2)
-
-end
-
-end A100559.P14008704805275070529
 
 /-!
 # A100560: Numerator of Sum_{k=0..[n/2]} 1/binomial(n,k).
@@ -10146,7 +10126,7 @@ end A100572.P9920258479435062762
 /-!
 # A100573: Smallest difference between distinct prime divisors of n, or 0 if n is a prime power.
 
-The programs for A100573, the canonical program `A100573.P2408409470225235997` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100573 has offset 1).
+The programs for A100573, the canonical program `A100573.P2408409470225235997` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100573 has offset 1).
 
 The definition of A100573 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3717 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10155,7 +10135,7 @@ The definition of A100573 is `conjectured`: the Lean definition is a formula tha
 
 `A297173(A318885(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A100573
@@ -10721,7 +10701,7 @@ end A100575
 /-!
 # A100576: Smallest difference between distinct prime divisors of the n-th non-prime-power.
 
-The programs for A100576, the canonical program `A100576.P14722533203068367608` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100576 has offset 1).
+The programs for A100576, the canonical program `A100576.P14722533203068367608` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100576 has offset 1).
 
 The definition of A100576 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10730,7 +10710,7 @@ The definition of A100576 is `conjectured`: the Lean definition is a formula tha
 
 `A100573(A024619(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A100576

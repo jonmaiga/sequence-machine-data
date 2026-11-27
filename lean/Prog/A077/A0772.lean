@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -33,16 +34,18 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,10 +65,10 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -73,11 +76,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +94,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -881,7 +883,7 @@ end A077217.P3973785477194349125
 /-!
 # A077218: Sum of numbers of prime factors (counted with multiplicities) of numbers between n-th and (n+1)-st prime.
 
-The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
+The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
 
 The definition of A077218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1017,7 +1019,7 @@ end A077218
 
 `Δ[A022559(A000040(n+1))]-1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077218
@@ -11011,6 +11013,29 @@ The programs for A077260, the canonical program `A077260.P3093648028681539307` i
 The definition of A077260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A077260.P4613822564678847593
+
+`ogf((3x+18x^2+3x^3)/(1-x-322x^2+322x^3+x^4-x^5))`
+-/
+
+namespace A077260.P4613822564678847593
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 18, 3] [1, -1, -322, 322, 1, -1] n
+
+end
+
+end A077260.P4613822564678847593
+
+namespace A077260
+
+/-- `ogf((3x+18x^2+3x^3)/(1-x-322x^2+322x^3+x^4-x^5))` -/
+def P4613822564678847593.Spec : Prop :=
+  ∀ n, P4613822564678847593.a n = A077260 n
+
+end A077260
+
 /-! ## A077260.P3093648028681539307
 
 `322*a(n-2)-a(n-4)+24` with `a(0)=0, a(1)=3, a(2)=21, a(3)=990`
@@ -11223,29 +11248,6 @@ def P7981252432381562921.Spec : Prop :=
 
 end A077260
 
-/-! ## A077260.P7781983169594511982
-
-`A351354(n+1)/2*A077259(n)`
--/
-
-namespace A077260.P7781983169594511982
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A351354 (n + 1) : ℚ) / 2 * (A077259 n : ℚ)
-
-end
-
-end A077260.P7781983169594511982
-
-namespace A077260
-
-/-- `A351354(n+1)/2*A077259(n)` -/
-def P7781983169594511982.Spec : Prop :=
-  ∀ n, P7781983169594511982.a n = (A077260 n : ℚ)
-
-end A077260
-
 /-!
 # A077261: Triangular numbers that are 5 times another triangular number.
 
@@ -11253,6 +11255,29 @@ The programs for A077261, the canonical program `A077261.P5826533451288904176` i
 
 The definition of A077261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A077261.P7654180834333455374
+
+`ogf((15x+90x^2+15x^3)/(1-x-322x^2+322x^3+x^4-x^5))`
+-/
+
+namespace A077261.P7654180834333455374
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 15, 90, 15] [1, -1, -322, 322, 1, -1] n
+
+end
+
+end A077261.P7654180834333455374
+
+namespace A077261
+
+/-- `ogf((15x+90x^2+15x^3)/(1-x-322x^2+322x^3+x^4-x^5))` -/
+def P7654180834333455374.Spec : Prop :=
+  ∀ n, P7654180834333455374.a n = A077261 n
+
+end A077261
 
 /-! ## A077261.P5826533451288904176
 
@@ -11662,6 +11687,33 @@ def P10610622353339872604.Spec : Prop :=
 end A077262
 
 /-!
+# A077263: Number of (undirected) cycles in the n-th order antiprism graph.
+
+The programs for A077263, the canonical program `A077263.P10774156248912093146` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077263 has offset 3).
+
+The definition of A077263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A077263.P10774156248912093146
+
+`ogf((63-199x+142x^2-54x^3+35x^4-19x^5)/(1-6x+11x^2-8x^3+3x^4-2x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C014`.
+-/
+
+namespace A077263
+
+/-- `ogf((63-199x+142x^2-54x^3+35x^4-19x^5)/(1-6x+11x^2-8x^3+3x^4-2x^5+x^6))` -/
+def P10774156248912093146.Spec : Prop :=
+  ∀ n, P10774156248912093146.a n = A077263 (n + 3)
+
+theorem P10774156248912093146.correct : P10774156248912093146.Spec := by
+  intro n
+  simp only [A077263, Nat.add_sub_cancel]
+
+end A077263
+
+/-!
 # A077264: Table of arithmetic sequences, by antidiagonals.
 
 The programs for A077264, the canonical program `A077264.P6236070585917362571` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077264 has offset 0).
@@ -11800,35 +11852,6 @@ namespace A077264
 /-- `A182630(row(n)*(row(n)+3)/2-col(n))` -/
 def P14842745267277728681.Spec : Prop :=
   ∀ n, P14842745267277728681.a n = A077264 n
-
-end A077264
-
-/-! ## A077264.P4674736173523888527
-
-`-1+A125585(n+1)`
--/
-
-namespace A077264.P4674736173523888527
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A125585 (n + 1)
-
-end
-
-end A077264.P4674736173523888527
-
-namespace A077264
-
-/-- `-1+A125585(n+1)` -/
-def P4674736173523888527.Spec : Prop :=
-  ∀ n, P4674736173523888527.a n = A077264 n
-
-theorem P4674736173523888527.correct : P4674736173523888527.Spec := by
-  intro n
-  simp only [A077264, Nat.add_sub_cancel, A077264.P4674736173523888527.a, A077264.P6236070585917362571.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P17823619022233514403.a, A125585, A125585.P572809714441068377.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A077264
 

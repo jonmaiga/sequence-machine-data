@@ -24,20 +24,24 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,29 +61,33 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,11 +96,11 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -794,7 +802,7 @@ end A117301
 /-!
 # A117302: Number of cases in which the first player gets killed in a Russian roulette game when 7 players use a gun with n chambers and the number of the bullets can be from 1 to n. In the game they do not rotate the cylinder after the game starts.
 
-The programs for A117302, the canonical program `A117302.P15352930104180920489` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117302 has offset 1).
+The programs for A117302, the canonical program `A117302.P15352930104180920489` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117302 has offset 1).
 
 The definition of A117302 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -826,7 +834,7 @@ end A117302
 
 `2*a(n-1)+a(n-7)-2*a(n-8)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=16, a(5)=32, a(6)=64, a(7)=129`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117302
@@ -2271,21 +2279,6 @@ end A117312.P10708015995600493580
 The programs for A117313, there is no canonical definition to state claims against.
 -/
 
-/-! ## A117313.P12655346044216545884
-
-`A118638(n+1)+1`
--/
-
-namespace A117313.P12655346044216545884
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118638 (n + 1) + 1
-
-end
-
-end A117313.P12655346044216545884
-
 /-! ## A117313.P14202128142594568894
 
 `A003972(A118638(n+1))`
@@ -2524,7 +2517,7 @@ end A117315.P5621152613194008062
 /-!
 # A117316: Riordan array ((1-x)/(1-x-2x^2),x(1-x)/(1-x-2x^2)).
 
-The programs for A117316, the canonical program `A117316.P13769720693752287632` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117316 has offset 0).
+The programs for A117316, the canonical program `A117316.P13769720693752287632` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117316 has offset 0).
 
 The definition of A117316 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2533,7 +2526,7 @@ The definition of A117316 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)+2*T(n-2,k)-T(n-2,k-1)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117316
@@ -2620,7 +2613,7 @@ end A117316
 /-!
 # A117317: Triangle related to partitions of n.
 
-The programs for A117317, the canonical program `A117317.P14269321659474897257` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117317 has offset 0).
+The programs for A117317, the canonical program `A117317.P14269321659474897257` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117317 has offset 0).
 
 The definition of A117317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2629,7 +2622,7 @@ The definition of A117317 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+2*T(n-1,k-1)-T(n-2,k-1)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=2, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117317
@@ -4649,24 +4642,6 @@ end
 
 end A117334.P6519657595438456030
 
-/-! ## A117334.P15034665927635811038
-
-`Δ[1-A163940(A038722(n+1)-1)]`
--/
-
-namespace A117334.P15034665927635811038
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A163940 (A038722 (n + 1) - 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A117334.P15034665927635811038
-
 /-!
 # A117336: Column 1 of triangle A117335.
 
@@ -4892,7 +4867,7 @@ end A117338.P8421826330596199124
 /-!
 # A117339: a(n) = a(n-1) + a(n-2); if a(n) is not prime divide a(n) by its largest prime factor.
 
-The programs for A117339, the canonical program `A117339.P5643405042305224945` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117339 has offset 1).
+The programs for A117339, the canonical program `A117339.P5643405042305224945` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117339 has offset 1).
 
 The definition of A117339 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4901,7 +4876,7 @@ The definition of A117339 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2+3x^3+5x^4+4x^5+2x^6+6x^7)/(1-x^6))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117339
@@ -5461,21 +5436,6 @@ end A117347.P13778366987602331702
 The programs for A117349, there is no canonical definition to state claims against.
 -/
 
-/-! ## A117349.P8272873319487371456
-
-`A117348(n+1)`
--/
-
-namespace A117349.P8272873319487371456
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117348 (n + 1)
-
-end
-
-end A117349.P8272873319487371456
-
 /-! ## A117349.P15973577060470769770
 
 `filter[A117346(n+1), A402589(#)]`
@@ -5735,7 +5695,7 @@ end A117352.P1741922702791804714
 /-!
 # A117353: Expansion of (1-x)/(1-3x+x^2+4x^3-4x^4).
 
-The programs for A117353, the canonical program `A117353.P7434899951687237415` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117353 has offset 0).
+The programs for A117353, the canonical program `A117353.P7434899951687237415` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117353 has offset 0).
 
 The definition of A117353 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-3x+x^2+4x^3-4x^4))` (program `A117353.P7434899951687237415`, by `A117353.P7434899951687237415.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5744,7 +5704,7 @@ The definition of A117353 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-3x+x^2+4x^3-4x^4))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117353
@@ -5831,7 +5791,7 @@ end A117353
 /-!
 # A117355: Riordan array (1/(1-x^2),x(1-2x^2)/(1-x^2)).
 
-The programs for A117355, the canonical program `A117355.P16416131118628415265` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117355 has offset 0).
+The programs for A117355, the canonical program `A117355.P16416131118628415265` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117355 has offset 0).
 
 The definition of A117355 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5840,7 +5800,7 @@ The definition of A117355 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k-1)+T(n-2,k)-2*T(row(n)-3, col(n)-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117355
@@ -5852,29 +5812,6 @@ def P16416131118628415265.Spec : Prop :=
 theorem P16416131118628415265.correct : P16416131118628415265.Spec := by
   intro n
   simp only [A117355]
-
-end A117355
-
-/-! ## A117355.P13151345976942746393
-
-`A059285(A168561(n))`
--/
-
-namespace A117355.P13151345976942746393
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059285 (A168561 n).toNat
-
-end
-
-end A117355.P13151345976942746393
-
-namespace A117355
-
-/-- `A059285(A168561(n))` -/
-def P13151345976942746393.Spec : Prop :=
-  ∀ n, P13151345976942746393.a n = A117355 n
 
 end A117355
 
@@ -6130,9 +6067,9 @@ end A117357.P11994809446115019254
 /-!
 # A117358: a(n) = A032742(A032742(A032742(n))) = ((n/lpf(n))/lpf(n/lpf(n)))/lpf((n/lpf(n))/lpf(n/lpf(n))), where lpf=A020639, least prime factor.
 
-The programs for A117358, the canonical program `A117358.P13575678912180262843` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117358 has offset 1).
+The programs for A117358, the canonical program `A117358.P13575678912180262843` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117358 has offset 1).
 
-The definition of A117358 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A032742, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A117358 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A117358.P6038415293988123175
@@ -6185,7 +6122,7 @@ end A117358
 
 `A032742(A032742(A032742(n+1)))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A117358
@@ -6903,7 +6840,7 @@ end A117362
 /-!
 # A117363: Expansion of (1-2x)/(1-x^2+x^3).
 
-The programs for A117363, the canonical program `A117363.P10284021213381418015` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117363 has offset 0).
+The programs for A117363, the canonical program `A117363.P10284021213381418015` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117363 has offset 0).
 
 The definition of A117363 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-2x)/(1-x^2+x^3))` (program `A117363.P10284021213381418015`, by `A117363.P10284021213381418015.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6912,7 +6849,7 @@ The definition of A117363 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-2x)/(1-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117363
@@ -7166,7 +7103,7 @@ end A117363
 /-!
 # A117364: a(n) = largest prime less than the largest prime dividing n (or 1 if there is no such prime).
 
-The programs for A117364, the canonical program `A117364.P3049362118239307999` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117364 has offset 1).
+The programs for A117364, the canonical program `A117364.P3049362118239307999` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117364 has offset 1).
 
 The definition of A117364 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7175,7 +7112,7 @@ The definition of A117364 is `conjectured`: the Lean definition is a formula tha
 
 `A064989(A006530(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A117364
@@ -7538,7 +7475,7 @@ end A117364
 /-!
 # A117365: a(n) = largest prime less than the smallest prime dividing n (or 1 if there is no such prime).
 
-The programs for A117365, the canonical program `A117365.P7706330559425117341` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117365 has offset 1).
+The programs for A117365, the canonical program `A117365.P7706330559425117341` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117365 has offset 1).
 
 The definition of A117365 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7800,7 +7737,7 @@ end A117365
 
 `A117364(A074828(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A117365
@@ -7933,16 +7870,16 @@ end A117365
 /-!
 # A117366: a(n) = smallest prime greater than the largest prime dividing n.
 
-The programs for A117366, the canonical program `A117366.P12979558578758758009` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117366 has offset 1).
+The programs for A117366, the canonical program `A117366.P12979558578758758009` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117366 has offset 1).
 
-The definition of A117366 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A151800, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A117366 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A151800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A117366.P12979558578758758009
 
 `A151800(A006530(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A117366
@@ -8397,7 +8334,7 @@ end A117366
 /-!
 # A117367: a(n) = smallest prime greater than the smallest prime dividing n.
 
-The programs for A117367, the canonical program `A117367.P4307626429273447810` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117367 has offset 1).
+The programs for A117367, the canonical program `A117367.P9071954035574198382` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117367 has offset 1).
 
 The definition of A117367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8451,17 +8388,9 @@ end A117367
 /-! ## A117367.P9071954035574198382
 
 `A007918(A020639(n+1)+1)`
+
+The canonical program, it is in `Seq.B003.C002`.
 -/
-
-namespace A117367.P9071954035574198382
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007918 (A020639 (n + 1) + 1).toNat
-
-end
-
-end A117367.P9071954035574198382
 
 namespace A117367
 
@@ -8469,24 +8398,32 @@ namespace A117367
 def P9071954035574198382.Spec : Prop :=
   ∀ n, P9071954035574198382.a n = A117367 (n + 1)
 
+theorem P9071954035574198382.correct : P9071954035574198382.Spec := by
+  intro n
+  simp only [A117367, Nat.add_sub_cancel]
+
 end A117367
 
 /-! ## A117367.P4307626429273447810
 
 `A000040(A055396(n+1)+1)`
-
-The canonical program, it is in `Seq.B011.C000`.
 -/
+
+namespace A117367.P4307626429273447810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (A055396 (n + 1) + 1).toNat
+
+end
+
+end A117367.P4307626429273447810
 
 namespace A117367
 
 /-- `A000040(A055396(n+1)+1)` -/
 def P4307626429273447810.Spec : Prop :=
   ∀ n, P4307626429273447810.a n = A117367 (n + 1)
-
-theorem P4307626429273447810.correct : P4307626429273447810.Spec := by
-  intro n
-  simp only [A117367, Nat.add_sub_cancel]
 
 end A117367
 
@@ -8606,12 +8543,6 @@ namespace A117367
 def P13739929240022341169.Spec : Prop :=
   ∀ n, P13739929240022341169.a n = A117367 (n + 1)
 
-theorem P13739929240022341169.correct : P13739929240022341169.Spec := by
-  intro n
-  simp only [A117367, Nat.add_sub_cancel, A117367.P13739929240022341169.a, A117367.P4307626429273447810.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, A055396, A055396.P18305262754425103137.a, A061395, A061395.P8431317036300486107.a, A243055, A243055.P2464886309294058059.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A117371, A117371.P4056547519332773392.a, A297155, A297155.P1611206963555320167.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A079067, A079067.P15788458216202685682.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A348717, A348717.P703712104273003584.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A117367
 
 /-! ## A117367.P4989541170609138997
@@ -8657,12 +8588,6 @@ namespace A117367
 /-- `A040976(A055396(n+1)+1)+2` -/
 def P8420838509916470186.Spec : Prop :=
   ∀ n, P8420838509916470186.a n = A117367 (n + 1)
-
-theorem P8420838509916470186.correct : P8420838509916470186.Spec := by
-  intro n
-  simp only [A117367, Nat.add_sub_cancel, A117367.P8420838509916470186.a, A117367.P4307626429273447810.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A040976, A040976.P11599754272797435513.a, A055396, A055396.P18305262754425103137.a, A061395, A061395.P8431317036300486107.a, A243055, A243055.P2464886309294058059.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A117371, A117371.P4056547519332773392.a, A297155, A297155.P1611206963555320167.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A079067, A079067.P15788458216202685682.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A348717, A348717.P703712104273003584.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A117367
 
@@ -8853,7 +8778,7 @@ end A117367
 /-!
 # A117368: a(n) = largest prime less than the smallest prime dividing (2n-1).
 
-The programs for A117368, the canonical program `A117368.P16557589111146556844` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117368 has offset 2).
+The programs for A117368, the canonical program `A117368.P16557589111146556844` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117368 has offset 2).
 
 The definition of A117368 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A090368, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8862,7 +8787,7 @@ The definition of A117368 is `conditional`: the Lean definition is an OEIS formu
 
 `A151799(A090368(n+2))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A117368
@@ -9446,7 +9371,7 @@ end A117369.P14905104988530242570
 /-!
 # A117370: Number of primes between smallest prime divisor of n and largest prime divisor of n.
 
-The programs for A117370, the canonical program `A117370.P1766257423773210245` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117370 has offset 1).
+The programs for A117370, the canonical program `A117370.P1766257423773210245` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117370 has offset 1).
 
 The definition of A117370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9455,7 +9380,7 @@ The definition of A117370 is `conjectured`: the Lean definition is a formula tha
 
 `row(C(A243055(1+n), 2))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A117370
@@ -9795,31 +9720,27 @@ end A117370
 /-!
 # A117371: Number of primes between smallest prime divisor of n and largest prime divisor of n that are coprime to n (not factors of n).
 
-The programs for A117371, the canonical program `A117371.P4056547519332773392` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117371 has offset 1).
+The programs for A117371, the canonical program `A117371.P4964294932551107560` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117371 has offset 1).
 
-The definition of A117371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A117371 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A117371.P4964294932551107560
 
 `A001221(A137795(n+1))`
+
+The canonical program, it is in `Seq.B004.C001`.
 -/
-
-namespace A117371.P4964294932551107560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A137795 (n + 1)).toNat
-
-end
-
-end A117371.P4964294932551107560
 
 namespace A117371
 
 /-- `A001221(A137795(n+1))` -/
 def P4964294932551107560.Spec : Prop :=
   ∀ n, P4964294932551107560.a n = A117371 (n + 1)
+
+theorem P4964294932551107560.correct : P4964294932551107560.Spec := by
+  intro n
+  simp only [A117371, Nat.add_sub_cancel]
 
 end A117371
 
@@ -9852,19 +9773,23 @@ end A117371
 /-! ## A117371.P4056547519332773392
 
 `A079067(A348717(1+n))`
-
-The canonical program, it is in `Seq.B010.C000`.
 -/
+
+namespace A117371.P4056547519332773392
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079067 (A348717 (1 + n)).toNat
+
+end
+
+end A117371.P4056547519332773392
 
 namespace A117371
 
 /-- `A079067(A348717(1+n))` -/
 def P4056547519332773392.Spec : Prop :=
   ∀ n, P4056547519332773392.a n = A117371 (n + 1)
-
-theorem P4056547519332773392.correct : P4056547519332773392.Spec := by
-  intro n
-  simp only [A117371, Nat.add_sub_cancel]
 
 end A117371
 
@@ -9888,12 +9813,6 @@ namespace A117371
 /-- `A243055(n+1)-A297155(n+1)` -/
 def P16569628385473969493.Spec : Prop :=
   ∀ n, P16569628385473969493.a n = A117371 (n + 1)
-
-theorem P16569628385473969493.correct : P16569628385473969493.Spec := by
-  intro n
-  simp only [A117371, Nat.add_sub_cancel, A117371.P16569628385473969493.a, A117371.P4056547519332773392.a, A079067, A079067.P15788458216202685682.a, A243055, A243055.P2464886309294058059.a, A297155, A297155.P1611206963555320167.a, A348717, A348717.P703712104273003584.a, A080791, A080791.P6131873509789506769.a, A087207, A087207.P12536008426233777954.a, A122111, A122111.P18124015185857335041.a, A243074, A243074.P6910029884229255604.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A006530, A006530.P13372528560459906635.a, A007814, A007814.P13537437864234730737.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A036987, A036987.P1789601236562705309.a, A046660, A046660.P3614759855976580945.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A051119, A051119.P33126866714900772.a, A061395, A061395.P8431317036300486107.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P10934841406439867276.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A001511, A001511.P17146462531039486101.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A052126, A052126.P1944428405920482243.a, A053585, A053585.P10057542052652531507.a, A070229, A070229.P5792893597916963980.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A117371
 
@@ -10199,7 +10118,7 @@ end A117372
 /-!
 # A117373: Expansion of (1 - 3x)/(1 - x + x^2).
 
-The programs for A117373, the canonical program `A117373.P10643428332646734395` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117373 has offset 0).
+The programs for A117373, the canonical program `A117373.P10643428332646734395` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117373 has offset 0).
 
 The definition of A117373 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-3x)/(1-x+x^2))` (program `A117373.P10643428332646734395`, by `A117373.P10643428332646734395.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10208,7 +10127,7 @@ The definition of A117373 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-3x)/(1-x+x^2))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117373
@@ -10226,7 +10145,7 @@ end A117373
 /-!
 # A117374: Expansion of (1-3x)/(1-x^2+x^3).
 
-The programs for A117374, the canonical program `A117374.P10729016581504411077` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117374 has offset 0).
+The programs for A117374, the canonical program `A117374.P10729016581504411077` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117374 has offset 0).
 
 The definition of A117374 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-3x)/(1-x^2+x^3))` (program `A117374.P10729016581504411077`, by `A117374.P10729016581504411077.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10235,7 +10154,7 @@ The definition of A117374 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-3x)/(1-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117374
@@ -10546,7 +10465,7 @@ end A117377
 /-!
 # A117378: Expansion of (1-4*x)/(1-x+x^2).
 
-The programs for A117378, the canonical program `A117378.P7931568091941719283` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117378 has offset 0).
+The programs for A117378, the canonical program `A117378.P7931568091941719283` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117378 has offset 0).
 
 The definition of A117378 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-4x)/(1-x+x^2))` (program `A117378.P7931568091941719283`, by `A117378.P7931568091941719283.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10555,7 +10474,7 @@ The definition of A117378 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-4x)/(1-x+x^2))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117378
@@ -10573,7 +10492,7 @@ end A117378
 /-!
 # A117379: Expansion of (1-4x)/(1-x^2+x^3).
 
-The programs for A117379, the canonical program `A117379.P963282872367853496` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117379 has offset 0).
+The programs for A117379, the canonical program `A117379.P963282872367853496` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117379 has offset 0).
 
 The definition of A117379 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-4x)/(1-x^2+x^3))` (program `A117379.P963282872367853496`, by `A117379.P963282872367853496.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10582,7 +10501,7 @@ The definition of A117379 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-4x)/(1-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117379
@@ -11467,7 +11386,7 @@ end A117387.P11291283503172104020
 /-!
 # A117389: A skew Delannoy number triangle read by rows.
 
-The programs for A117389, the canonical program `A117389.P7651091583639341486` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117389 has offset 0).
+The programs for A117389, the canonical program `A117389.P7651091583639341486` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117389 has offset 0).
 
 The definition of A117389 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11476,7 +11395,7 @@ The definition of A117389 is `conjectured`: the Lean definition is a formula tha
 
 `T(row(n)-3, col(n)-2)+T(n-2,k-1)+T(n-1,k-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A117389

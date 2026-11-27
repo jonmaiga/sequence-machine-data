@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -21,21 +20,21 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
@@ -43,9 +42,11 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -73,16 +74,17 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,7 +108,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2222,7 +2223,7 @@ end A227831.P10753691027678977422
 /-!
 # A227832: Sum of odd numbers starting with 1, alternating signs (beginning with plus).
 
-The programs for A227832, the canonical program `A227832.P3213515157173413348` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227832 has offset 1).
+The programs for A227832, the canonical program `A227832.P3213515157173413348` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227832 has offset 1).
 
 The definition of A227832 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2254,7 +2255,7 @@ end A227832
 
 `(n+1)*(-1)^(n+1)+2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A227832
@@ -5000,21 +5001,6 @@ end A227845.P7202821931517951921
 The programs for A227846, there is no canonical definition to state claims against.
 -/
 
-/-! ## A227846.P16297712818129204361
-
-`A301770(n)-A224293(n+1)`
--/
-
-namespace A227846.P16297712818129204361
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301770 n - A224293 (n + 1)
-
-end
-
-end A227846.P16297712818129204361
-
 /-! ## A227846.P13136854516700075769
 
 `A244988(A022567(∑[n]))`
@@ -5051,7 +5037,7 @@ end A227846.P17238946078734004762
 /-!
 # A227849: a(n) = 2 * floor( 3/14 * n^2) if n even, a(n) = 2 * round( 3/14 * n^2) -1 if n odd.
 
-The programs for A227849, the canonical program `A227849.P10362767067539584414` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227849 has offset 0).
+The programs for A227849, the canonical program `A227849.P10362767067539584414` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227849 has offset 0).
 
 The definition of A227849 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5060,7 +5046,7 @@ The definition of A227849 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((-x+2x^2+2x^3+2x^6+2x^7-x^8)/(1-2x+x^2-x^7+2x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A227849
@@ -5650,49 +5636,11 @@ theorem P10455857888504951472.correct : P10455857888504951472.Spec := by
 
 end A227858
 
-/-! ## A227858.P7390495501511139103
-
-`A342826(1+n)`
--/
-
-namespace A227858.P7390495501511139103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342826 (1 + n)
-
-end
-
-end A227858.P7390495501511139103
-
-namespace A227858
-
-/-- `A342826(1+n)` -/
-def P7390495501511139103.Spec : Prop :=
-  ∀ n, P7390495501511139103.a n = A227858 (n + 1)
-
-end A227858
-
 /-!
 # A227859: Sequence of integers such that there are d terms between pairs of integers d. Cycle through d=0,...,9, trying to insert the least unused pair starting at the next free position.
 
 The programs for A227859, there is no canonical definition to state claims against.
 -/
-
-/-! ## A227859.P4656651884685666215
-
-`A004427(A193564(n+1))`
--/
-
-namespace A227859.P4656651884685666215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004427 (A193564 (n + 1)).toNat
-
-end
-
-end A227859.P4656651884685666215
 
 /-! ## A227859.P8649868135467501865
 
@@ -5727,7 +5675,7 @@ end A227859.P3234727772272530020
 /-!
 # A227860: Sequence of integers such that there are d terms between pairs of integers d. Cycle through d=0,1,2,3, trying to insert the least unused pair starting at the next free position.
 
-The programs for A227860, the canonical program `A227860.P3402347102790630213` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227860 has offset 1).
+The programs for A227860, the canonical program `A227860.P3402347102790630213` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227860 has offset 1).
 
 The definition of A227860 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5736,7 +5684,7 @@ The definition of A227860 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-8)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=2, a(4)=1, a(5)=3, a(6)=2, a(7)=0, a(8)=0, a(9)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A227860
@@ -6042,7 +5990,7 @@ end A227861.P14091409948130858117
 /-!
 # A227863: Numbers congruent to {1,49} mod 120.
 
-The programs for A227863, the canonical program `A227863.P3190604365112794420` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227863 has offset 1).
+The programs for A227863, the canonical program `A227863.P3190604365112794420` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227863 has offset 1).
 
 The definition of A227863 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A227863.anchor (n : ℕ) (hn : 1 ≤ n) : A227863 n = (Nat.nth (fun k => k % 120 ∈ ({1, 49} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A227.A227863`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6074,7 +6022,7 @@ end A227863
 
 `60*(n+1)-6*(-1)^(n+1)-65`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A227863

@@ -7,22 +7,20 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C037
+import Seq.B000.C029
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C041
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,6 +38,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -47,11 +46,12 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,7 +76,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1437,21 +1436,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037306.P13192664127004667337
-
-/-! ## A037306.P13533654366281247821
-
-`A322596(n)`
--/
-
-namespace A037306.P13533654366281247821
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322596 n
-
-end
-
-end A037306.P13533654366281247821
 
 /-! ## A037306.P16574900093913210944
 
@@ -11288,21 +11272,6 @@ end
 
 end A037393.P15965126322134440923
 
-/-! ## A037393.P13209014365959922386
-
-`A048330(n+1)`
--/
-
-namespace A037393.P13209014365959922386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048330 (n + 1)
-
-end
-
-end A037393.P13209014365959922386
-
 /-! ## A037393.P2595931735119882699
 
 `∑[A035103(A148933(n))]`
@@ -11335,27 +11304,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037393.P6155463725617756000
-
-/-!
-# A037394: Numbers k such that every base-5 digit of k is a base-7 digit of k.
-
-The programs for A037394, there is no canonical definition to state claims against.
--/
-
-/-! ## A037394.P3088789327326442870
-
-`A037430(n+1)`
--/
-
-namespace A037394.P3088789327326442870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037430 (n + 1)
-
-end
-
-end A037394.P3088789327326442870
 
 /-!
 # A037397: Every base 5 digit of n is a base 10 digit of n.
@@ -11431,21 +11379,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A037398.P16238367649156260169
-
-/-! ## A037398.P5162865728013927937
-
-`A048331(n+1)`
--/
-
-namespace A037398.P5162865728013927937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048331 (n + 1)
-
-end
-
-end A037398.P5162865728013927937
 
 /-! ## A037398.P3855878927378587160
 

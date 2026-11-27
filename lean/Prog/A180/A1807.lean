@@ -13,14 +13,14 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -31,14 +31,16 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -51,10 +53,12 @@ import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -62,8 +66,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,7 +79,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -2338,7 +2339,7 @@ end A180733.P8165555652005945121
 /-!
 # A180735: Expansion of (1+x)*(1-x)/(1 - x + x^2 + x^3).
 
-The programs for A180735, the canonical program `A180735.P17258631466494082503` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180735 has offset 0).
+The programs for A180735, the canonical program `A180735.P17258631466494082503` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180735 has offset 0).
 
 The definition of A180735 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-x+x^2+x^3))` (program `A180735.P17258631466494082503`, by `A180735.P17258631466494082503.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2393,7 +2394,7 @@ end A180735
 
 `ogf((1-x^2)/(1-x+x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A180735
@@ -2692,7 +2693,7 @@ end A180738.P14773623780330151584
 /-!
 # A180739: Number of numerical semigroups of multiplicity n and genus n+2.
 
-The programs for A180739, the canonical program `A180739.P15450461718119916254` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180739 has offset 2).
+The programs for A180739, the canonical program `A180739.P15450461718119916254` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180739 has offset 2).
 
 The definition of A180739 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2731,7 +2732,7 @@ end A180739
 
 `∑{#}[3, C(n, #)]+2%(n+1)`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A180739
@@ -3970,7 +3971,7 @@ end A180751.P11387144105458419297
 /-!
 # A180752: Half the number of nX3 binary arrays with each element equal to at least two neighbors.
 
-The programs for A180752, the canonical program `A180752.P5843443647452936310` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180752 has offset 1).
+The programs for A180752, the canonical program `A180752.P5843443647452936310` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180752 has offset 1).
 
 The definition of A180752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4002,7 +4003,7 @@ end A180752
 
 `2*a(n-1)+a(n-2)-a(n-3)-a(n-5)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A180752
@@ -4350,7 +4351,7 @@ end A180761.P10740199962063381376
 /-!
 # A180762: Half the number of nX2 binary arrays with each element equal to at least one neighbor.
 
-The programs for A180762, the canonical program `A180762.P14794715841614087808` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180762 has offset 1).
+The programs for A180762, the canonical program `A180762.P14794715841614087808` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180762 has offset 1).
 
 The definition of A180762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4382,7 +4383,7 @@ end A180762
 
 `3*a(n-1)+a(n-2)-2*a(n-4)` with `a(0)=1, a(1)=3, a(2)=11, a(3)=34`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A180762
@@ -4481,7 +4482,7 @@ end A180762
 /-!
 # A180763: Half the number of n X 3 binary arrays with each element equal to at least one neighbor.
 
-The programs for A180763, the canonical program `A180763.P8538078477149861274` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180763 has offset 1).
+The programs for A180763, the canonical program `A180763.P8538078477149861274` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180763 has offset 1).
 
 The definition of A180763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 127 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4490,7 +4491,7 @@ The definition of A180763 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+6x-8x^3-4x^4+2x^5+5x^6-2x^7)/(1-5x-8x^2+5x^3+10x^4+x^5-3x^6-4x^7+2x^8))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A180763

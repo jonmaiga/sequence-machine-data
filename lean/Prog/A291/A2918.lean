@@ -4,37 +4,38 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C018
+import Seq.B000.C013
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C046
+import Seq.B000.C044
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -43,16 +44,17 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
-import Seq.B004.C003
+import Seq.B004.C001
+import Seq.B004.C004
+import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -64,6 +66,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -882,21 +885,6 @@ end A291825.P2096550715470877551
 The programs for A291826, there is no canonical definition to state claims against.
 -/
 
-/-! ## A291826.P10502329381098421577
-
-`A191489(2*n+1)`
--/
-
-namespace A291826.P10502329381098421577
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191489 (2 * n + 1)
-
-end
-
-end A291826.P10502329381098421577
-
 /-! ## A291826.P724634405247565426
 
 `A291829(A358373(n+1))/A000027(n+1)`
@@ -1426,21 +1414,6 @@ end
 
 end A291834.P3129489838353599365
 
-/-! ## A291834.P7676445044006491065
-
-`A291928(n+1)`
--/
-
-namespace A291834.P7676445044006491065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291928 (n + 1)
-
-end
-
-end A291834.P7676445044006491065
-
 /-!
 # A291837: a(n) is the maximal value in row n of triangle A100960.
 
@@ -1554,24 +1527,6 @@ end A291839.P10282181664050001448
 
 The programs for A291841, there is no canonical definition to state claims against.
 -/
-
-/-! ## A291841.P11354179424299865834
-
-`record[A322139(n)]`
--/
-
-namespace A291841.P11354179424299865834
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322139 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A291841.P11354179424299865834
 
 /-! ## A291841.P4018089085336474
 
@@ -1979,7 +1934,7 @@ end A291855.P15858960899352836044
 /-!
 # A291856: a(0) = -1, a(1) = 1, a(n) = a(n-1) + (n-1)*a(n-2) for n > 1.
 
-The programs for A291856, the canonical program `A291856.P2539508486091874599` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291856 has offset 0).
+The programs for A291856, the canonical program `A291856.P2539508486091874599` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291856 has offset 0).
 
 The definition of A291856 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+(n-1)*a(n-2)` (program `A291856.P2539508486091874599`, by `A291856.P2539508486091874599.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1988,7 +1943,7 @@ The definition of A291856 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+(n-1)*a(n-2)` with `a(0)=-1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291856
@@ -3211,7 +3166,7 @@ end A291886.P5266126896193512235
 /-!
 # A291887: Number of symmetrically unique Dyck paths of semilength n and height three.
 
-The programs for A291887, the canonical program `A291887.P3194401786441826977` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291887 has offset 3).
+The programs for A291887, the canonical program `A291887.P3194401786441826977` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291887 has offset 3).
 
 The definition of A291887 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3220,7 +3175,7 @@ The definition of A291887 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x+2x^2+x^4)/(1-6x+9x^2+8x^3-27x^4+10x^5+10x^6-4x^7))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291887
@@ -3443,7 +3398,7 @@ end A291887
 /-!
 # A291888: Number of symmetrically unique Dyck paths of semilength n and height four.
 
-The programs for A291888, the canonical program `A291888.P7387122099033510491` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291888 has offset 4).
+The programs for A291888, the canonical program `A291888.P7387122099033510491` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291888 has offset 4).
 
 The definition of A291888 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3452,7 +3407,7 @@ The definition of A291888 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-4x+6x^2-5x^3+3x^4)/(1-8x+19x^2+2x^3-66x^4+76x^5-3x^6-30x^7+9x^8))`
 
-The canonical program, it is in `Seq.B000.C042`.
+The canonical program, it is in `Seq.B000.C044`.
 -/
 
 namespace A291888
@@ -3681,8 +3636,29 @@ end A291888
 /-!
 # A291889: Number of symmetrically unique Dyck paths of semilength n and height five.
 
-The programs for A291889, there is no canonical definition to state claims against.
+The programs for A291889, the canonical program `A291889.P13499962035514448823` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291889 has offset 5).
+
+The definition of A291889 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A291889.P13499962035514448823
+
+`ogf((1-5x+12x^2-18x^3+14x^4-3x^5)/(1-10x+33x^2-20x^3-113x^4+234x^5-66x^6-224x^7+240x^8-84x^9+9x^10))`
+
+The canonical program, it is in `Seq.B000.C044`.
+-/
+
+namespace A291889
+
+/-- `ogf((1-5x+12x^2-18x^3+14x^4-3x^5)/(1-10x+33x^2-20x^3-113x^4+234x^5-66x^6-224x^7+240x^8-84x^9+9x^10))` -/
+def P13499962035514448823.Spec : Prop :=
+  ∀ n, P13499962035514448823.a n = A291889 (n + 5)
+
+theorem P13499962035514448823.correct : P13499962035514448823.Spec := by
+  intro n
+  simp only [A291889, Nat.add_sub_cancel]
+
+end A291889
 
 /-! ## A291889.P11336300776285789936
 
@@ -3698,6 +3674,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291889.P11336300776285789936
+
+namespace A291889
+
+/-- `A291883(A167499(4+n))` -/
+def P11336300776285789936.Spec : Prop :=
+  ∀ n, P11336300776285789936.a n = A291889 (n + 5)
+
+end A291889
 
 /-! ## A291889.P17538893756692876750
 
@@ -3717,6 +3701,14 @@ end
 
 end A291889.P17538893756692876750
 
+namespace A291889
+
+/-- `record[A291883(A167614(2+n)+2)]` -/
+def P17538893756692876750.Spec : Prop :=
+  ∀ n, P17538893756692876750.a n = A291889 (n + 5)
+
+end A291889
+
 /-! ## A291889.P532156487209426007
 
 `record[A291883(A014132(A167499(n)))]`
@@ -3735,6 +3727,14 @@ end
 
 end A291889.P532156487209426007
 
+namespace A291889
+
+/-- `record[A291883(A014132(A167499(n)))]` -/
+def P532156487209426007.Spec : Prop :=
+  ∀ n, P532156487209426007.a n = A291889 (n + 5)
+
+end A291889
+
 /-! ## A291889.P17953621647945527385
 
 `record[A291883(A061579(A055999(n)))]`
@@ -3752,6 +3752,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291889.P17953621647945527385
+
+namespace A291889
+
+/-- `record[A291883(A061579(A055999(n)))]` -/
+def P17953621647945527385.Spec : Prop :=
+  ∀ n, P17953621647945527385.a n = A291889 (n + 5)
+
+end A291889
 
 /-!
 # A291890: Number of symmetrically unique Dyck paths of semilength n and height six.

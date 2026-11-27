@@ -8,31 +8,32 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C045
+import Seq.B000.C042
 import Seq.B000.C047
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,10 +52,13 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -64,17 +68,16 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1125,7 +1128,7 @@ end A364011
 /-!
 # A364012: Expansion of Sum_{k>0} k * x^k / (1 + x^(3*k)).
 
-The programs for A364012, the canonical program `A364012.P10594367509355664606` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364012 has offset 1).
+The programs for A364012, the canonical program `A364012.P10594367509355664606` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364012 has offset 1).
 
 The definition of A364012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1241,7 +1244,7 @@ end A364012
 
 `A326399(2*(n+1))-A078708(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364012
@@ -1259,7 +1262,7 @@ end A364012
 /-!
 # A364013: Expansion of Sum_{k>0} k^2 * x^k / (1 + x^(3*k)).
 
-The programs for A364013, the canonical program `A364013.P10793024115163397505` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364013 has offset 1).
+The programs for A364013, the canonical program `A364013.P10793024115163397505` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364013 has offset 1).
 
 The definition of A364013 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1268,7 +1271,7 @@ The definition of A364013 is `conjectured`: the Lean definition is a formula tha
 
 `2*A364017(n+1)-A364012(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A364013
@@ -1689,7 +1692,7 @@ end A364015
 /-!
 # A364016: Expansion of Sum_{k>0} k^2 * x^(2*k) / (1 + x^(3*k)).
 
-The programs for A364016, the canonical program `A364016.P4474703174552157399` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364016 has offset 1).
+The programs for A364016, the canonical program `A364016.P4474703174552157399` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364016 has offset 1).
 
 The definition of A364016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1698,7 +1701,7 @@ The definition of A364016 is `conjectured`: the Lean definition is a formula tha
 
 `2*A364018(n+1)-A364015(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A364016
@@ -1768,7 +1771,7 @@ end A364016
 /-!
 # A364017: Expansion of Sum_{k>0} (-1)^(k-1) * x^(3*k-2) / (1 - x^(3*k-2))^3.
 
-The programs for A364017, the canonical program `A364017.P4674726286493129954` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364017 has offset 1).
+The programs for A364017, the canonical program `A364017.P4674726286493129954` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364017 has offset 1).
 
 The definition of A364017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1800,7 +1803,7 @@ end A364017
 
 `∑{d}[n+1, A007438(#)*A364011((n+1)/#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364017
@@ -1890,7 +1893,7 @@ end A364017
 /-!
 # A364018: Expansion of Sum_{k>0} (-1)^(k-1) * x^(3*k-1) / (1 - x^(3*k-1))^3.
 
-The programs for A364018, the canonical program `A364018.P745909422124864912` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364018 has offset 1).
+The programs for A364018, the canonical program `A364018.P745909422124864912` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364018 has offset 1).
 
 The definition of A364018 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1899,7 +1902,7 @@ The definition of A364018 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007438(#)*A364014((n+1)/#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364018
@@ -1943,7 +1946,7 @@ end A364018
 /-!
 # A364019: Expansion of Sum_{k>0} k * x^k / (1 + x^(5*k)).
 
-The programs for A364019, the canonical program `A364019.P5738425657626568886` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364019 has offset 1).
+The programs for A364019, the canonical program `A364019.P5738425657626568886` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364019 has offset 1).
 
 The definition of A364019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1952,7 +1955,7 @@ The definition of A364019 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000010(#)*A364043((n+1)/#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364019
@@ -2166,7 +2169,7 @@ end A364022
 /-!
 # A364025: Semiprimes with no squarefree neighbors.
 
-The programs for A364025, the canonical program `A364025.P10912320176731338214` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364025 has offset 1).
+The programs for A364025, the canonical program `A364025.P10912320176731338214` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364025 has offset 1).
 
 The definition of A364025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3520 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2175,7 +2178,7 @@ The definition of A364025 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001358(n+1), A281192(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A364025
@@ -2281,21 +2284,6 @@ end A364025
 
 The programs for A364026, there is no canonical definition to state claims against.
 -/
-
-/-! ## A364026.P4387165801550908093
-
-`A362899(n+1)²`
--/
-
-namespace A364026.P4387165801550908093
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362899 (n + 1) ^ 2
-
-end
-
-end A364026.P4387165801550908093
 
 /-! ## A364026.P3085958001557238841
 
@@ -2550,7 +2538,7 @@ end A364031
 /-!
 # A364032: Expansion of Sum_{k>0} x^(3*k) / (1 + x^(4*k)).
 
-The programs for A364032, the canonical program `A364032.P15572008137104778974` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364032 has offset 1).
+The programs for A364032, the canonical program `A364032.P15572008137104778974` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364032 has offset 1).
 
 The definition of A364032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2749,7 +2737,7 @@ end A364032
 
 `A188170(n+1)+A188170(n+1)-A001842(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364032
@@ -2842,7 +2830,7 @@ end A364032
 /-!
 # A364033: Expansion of Sum_{k>0} k * x^(3*k) / (1 + x^(4*k)).
 
-The programs for A364033, the canonical program `A364033.P4440560833208320547` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364033 has offset 1).
+The programs for A364033, the canonical program `A364033.P4440560833208320547` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364033 has offset 1).
 
 The definition of A364033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2851,7 +2839,7 @@ The definition of A364033 is `conjectured`: the Lean definition is a formula tha
 
 `A364031(n+1)-A124340(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A364033
@@ -2964,7 +2952,7 @@ end A364033
 /-!
 # A364034: Expansion of Sum_{k>0} x^k / (1 - 2*x^(2*k)).
 
-The programs for A364034, the canonical program `A364034.P3967422730475427941` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364034 has offset 1).
+The programs for A364034, the canonical program `A364034.P3967422730475427941` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364034 has offset 1).
 
 The definition of A364034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 666 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2973,7 +2961,7 @@ The definition of A364034 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A131575(#)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364034
@@ -4197,7 +4185,7 @@ end A364045
 /-!
 # A364046: Expansion of Sum_{k>0} x^(4*k) / (1 + x^(5*k)).
 
-The programs for A364046, the canonical program `A364046.P2212517165929365656` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364046 has offset 1).
+The programs for A364046, the canonical program `A364046.P2212517165929365656` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364046 has offset 1).
 
 The definition of A364046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4206,7 +4194,7 @@ The definition of A364046 is `conjectured`: the Lean definition is a formula tha
 
 `A001877(n+1-lcm(2, n+1)/2)-∑{d}[n+1, C(#%10, 9)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364046
@@ -5343,7 +5331,7 @@ end A364060.P17962749747037982476
 /-!
 # A364061: Numbers whose exponent of 2 in their canonical prime factorization is smaller than all the other exponents.
 
-The programs for A364061, the canonical program `A364061.P6292639420439782775` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364061 has offset 1).
+The programs for A364061, the canonical program `A364061.P6292639420439782775` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364061 has offset 1).
 
 The definition of A364061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5352,7 +5340,7 @@ The definition of A364061 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A010051(A359612(n+2)+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364061
@@ -5594,7 +5582,7 @@ end A364062.P6951415150206594846
 /-!
 # A364063: Expansion of Sum_{k>0} k * x^k / (1 - x^(2*k-1)).
 
-The programs for A364063, the canonical program `A364063.P4438084833510939295` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364063 has offset 1).
+The programs for A364063, the canonical program `A364063.P4438084833510939295` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364063 has offset 1).
 
 The definition of A364063 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5652,7 +5640,7 @@ end A364063
 
 `A007503(2*(n+1)-1)/2`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364063
@@ -6272,29 +6260,6 @@ def P16247110943407222716.Spec : Prop :=
 
 end A364066
 
-/-! ## A364066.P6043814537390447991
-
-`A008620(A363890(n+1))`
--/
-
-namespace A364066.P6043814537390447991
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008620 (A363890 (n + 1)).toNat
-
-end
-
-end A364066.P6043814537390447991
-
-namespace A364066
-
-/-- `A008620(A363890(n+1))` -/
-def P6043814537390447991.Spec : Prop :=
-  ∀ n, P6043814537390447991.a n = A364066 (n + 1)
-
-end A364066
-
 /-!
 # A364067: Expansion of Sum_{k>0} k * x^(2*k) / (1 - x^(3*k-1)).
 
@@ -6853,7 +6818,7 @@ end A364083
 /-!
 # A364084: Expansion of Sum_{k>0} k * x^(3*k) / (1 - x^(4*k-1)).
 
-The programs for A364084, the canonical program `A364084.P12661241187166773764` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364084 has offset 1).
+The programs for A364084, the canonical program `A364084.P12661241187166773764` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364084 has offset 1).
 
 The definition of A364084 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6888,7 +6853,7 @@ end A364084
 
 `A363904(4*n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364084
@@ -6906,7 +6871,7 @@ end A364084
 /-!
 # A364085: Expansion of Sum_{k>0} k * x^k / (1 - x^(4*k-1)).
 
-The programs for A364085, the canonical program `A364085.P4521992801007173167` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364085 has offset 1).
+The programs for A364085, the canonical program `A364085.P4521992801007173167` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364085 has offset 1).
 
 The definition of A364085 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6938,7 +6903,7 @@ end A364085
 
 `A363904(4*(n+1)-1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A364085
@@ -7433,7 +7398,7 @@ end A364090.P16030213521253747816
 /-!
 # A364092: Sum of divisors of 5*n-1 of form 5*k+1.
 
-The programs for A364092, the canonical program `A364092.P276984293227753966` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364092 has offset 1).
+The programs for A364092, the canonical program `A364092.P276984293227753966` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364092 has offset 1).
 
 The definition of A364092 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A284097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7442,7 +7407,7 @@ The definition of A364092 is `conditional`: the Lean definition is an OEIS formu
 
 `A284097(5*(n+1)-1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364092
@@ -7483,7 +7448,7 @@ end A364092
 /-!
 # A364093: Sum of divisors of 5*n-2 of form 5*k+1.
 
-The programs for A364093, the canonical program `A364093.P6985918061966599924` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364093 has offset 1).
+The programs for A364093, the canonical program `A364093.P6985918061966599924` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364093 has offset 1).
 
 The definition of A364093 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A284097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7492,7 +7457,7 @@ The definition of A364093 is `conditional`: the Lean definition is an OEIS formu
 
 `A284097(5*(n+1)-2)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364093
@@ -7533,7 +7498,7 @@ end A364093
 /-!
 # A364094: Sum of divisors of 5*n-3 of form 5*k+1.
 
-The programs for A364094, the canonical program `A364094.P1687889937016555816` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364094 has offset 1).
+The programs for A364094, the canonical program `A364094.P1687889937016555816` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364094 has offset 1).
 
 The definition of A364094 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A284097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7542,7 +7507,7 @@ The definition of A364094 is `conditional`: the Lean definition is an OEIS formu
 
 `A284097(5*(n+1)-3)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364094
@@ -7583,7 +7548,7 @@ end A364094
 /-!
 # A364095: Sum of divisors of 5*n-4 of form 5*k+1.
 
-The programs for A364095, the canonical program `A364095.P7707059766730752190` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364095 has offset 1).
+The programs for A364095, the canonical program `A364095.P7707059766730752190` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364095 has offset 1).
 
 The definition of A364095 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A284097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7592,7 +7557,7 @@ The definition of A364095 is `conditional`: the Lean definition is an OEIS formu
 
 `A284097(5*n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A364095

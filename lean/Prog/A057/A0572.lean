@@ -4,27 +4,26 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C045
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,23 +39,28 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -70,6 +74,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -289,27 +294,6 @@ end
 end A057203.P16735974843259360508
 
 /-!
-# A057204: Primes congruent to 1 mod 6 generated recursively. Initial prime is 7. The next term is p(n) = Min_{p is prime; p divides 4Q^2+3; p mod 6 = 1}, where Q is the product of previous entries of the sequence.
-
-The programs for A057204, there is no canonical definition to state claims against.
--/
-
-/-! ## A057204.P10146547354073714941
-
-`A124988(n+1)`
--/
-
-namespace A057204.P10146547354073714941
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124988 (n + 1)
-
-end
-
-end A057204.P10146547354073714941
-
-/-!
 # A057205: Primes congruent to 3 modulo 4 generated recursively: a(n) = Min_{p, prime; p mod 4 = 3; p|4Q-1}, where Q is the product of all previous terms in the sequence. The initial term is 3.
 
 The programs for A057205, there is no canonical definition to state claims against.
@@ -329,27 +313,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
 end
 
 end A057205.P14359138564192681613
-
-/-!
-# A057207: a(1)=5, a(n) is the smallest prime dividing 4*Q^2 + 1 where Q is the product of all previous terms in the sequence.
-
-The programs for A057207, there is no canonical definition to state claims against.
--/
-
-/-! ## A057207.P13285122882669747860
-
-`A124986(n+1)`
--/
-
-namespace A057207.P13285122882669747860
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124986 (n + 1)
-
-end
-
-end A057207.P13285122882669747860
 
 /-!
 # A057209: n!^n *sum_{k=1 to n}[1/k^k].
@@ -1892,21 +1855,6 @@ end A057216.P11495907640771344870
 The programs for A057217, there is no canonical definition to state claims against.
 -/
 
-/-! ## A057217.P9758540108814794314
-
-`A073127(A034693(n+1))`
--/
-
-namespace A057217.P9758540108814794314
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073127 (A034693 (n + 1)).toNat
-
-end
-
-end A057217.P9758540108814794314
-
 /-! ## A057217.P6284442087835494107
 
 `A318928(A034693(n+1)^A196929(n+1))`
@@ -1921,21 +1869,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057217.P6284442087835494107
-
-/-! ## A057217.P16342836680701836522
-
-`A002024(A034693(n+1))`
--/
-
-namespace A057217.P16342836680701836522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A034693 (n + 1)).toNat
-
-end
-
-end A057217.P16342836680701836522
 
 /-! ## A057217.P9550102077131623308
 
@@ -2865,7 +2798,7 @@ end A057236.P8887910390592061953
 /-!
 # A057237: Maximum k <= n such that 1, 2, ..., k are all relatively prime to n.
 
-The programs for A057237, the canonical program `A057237.P15696957841130648253` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057237 has offset 1).
+The programs for A057237, the canonical program `A057237.P1618199006459593772` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057237 has offset 1).
 
 The definition of A057237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2873,9 +2806,17 @@ The definition of A057237 is `conjectured`: the Lean definition is a formula tha
 /-! ## A057237.P15696957841130648253
 
 `A159475(n+1)%(n+2)`
-
-The canonical program, it is in `Seq.B011.C000`.
 -/
+
+namespace A057237.P15696957841130648253
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A159475 (n + 1)) (n + 2 : ℤ)
+
+end
+
+end A057237.P15696957841130648253
 
 namespace A057237
 
@@ -2883,35 +2824,24 @@ namespace A057237
 def P15696957841130648253.Spec : Prop :=
   ∀ n, P15696957841130648253.a n = A057237 (n + 1)
 
-theorem P15696957841130648253.correct : P15696957841130648253.Spec := by
-  intro n
-  simp only [A057237, Nat.add_sub_cancel]
-
 end A057237
 
 /-! ## A057237.P1618199006459593772
 
 `∏{p}[A020639(1+n), #-1]`
+
+The canonical program, it is in `Seq.B001.C002`.
 -/
-
-namespace A057237.P1618199006459593772
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (1 + n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, ((p : ℤ) - 1)
-
-end
-
-end A057237.P1618199006459593772
 
 namespace A057237
 
 /-- `∏{p}[A020639(1+n), #-1]` -/
 def P1618199006459593772.Spec : Prop :=
   ∀ n, P1618199006459593772.a n = A057237 (n + 1)
+
+theorem P1618199006459593772.correct : P1618199006459593772.Spec := by
+  intro n
+  simp only [A057237, Nat.add_sub_cancel]
 
 end A057237
 
@@ -3961,36 +3891,6 @@ end A057256.P16883002975272534103
 The programs for A057258, there is no canonical definition to state claims against.
 -/
 
-/-! ## A057258.P17447824348349941651
-
-`A064988(A177805(n+1))`
--/
-
-namespace A057258.P17447824348349941651
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064988 (A177805 (n + 1)).toNat
-
-end
-
-end A057258.P17447824348349941651
-
-/-! ## A057258.P4490491981452730766
-
-`A064988(A003591(n+1))`
--/
-
-namespace A057258.P4490491981452730766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064988 (A003591 (n + 1)).toNat
-
-end
-
-end A057258.P4490491981452730766
-
 /-! ## A057258.P8665268638802834966
 
 `∩[A143512(n+1), A253278(n+1)]`
@@ -4327,28 +4227,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057263.P4283899127317898989
-
-/-! ## A057263.P17223961345499169374
-
-`∪[A014949(n+1), A014962(n+1)]`
--/
-
-namespace A057263.P17223961345499169374
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014949 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014962 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A057263.P17223961345499169374
 
 /-! ## A057263.P1256045002457941304
 
@@ -5093,27 +4971,6 @@ end
 end A057270.P11900449134360830781
 
 /-!
-# A057271: Triangle T(n,k) of number of digraphs with a source and a sink on n labeled nodes and k arcs, k=0,1,..,n*(n-1).
-
-The programs for A057271, there is no canonical definition to state claims against.
--/
-
-/-! ## A057271.P18017995566716531093
-
-`A057275(n+1)`
--/
-
-namespace A057271.P18017995566716531093
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057275 (n + 1)
-
-end
-
-end A057271.P18017995566716531093
-
-/-!
 # A057274: Triangle T(n,k) of the number of digraphs with a source on n labeled nodes with k arcs, k=0..n*(n-1).
 
 The programs for A057274, there is no canonical definition to state claims against.
@@ -5518,27 +5375,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A057284.P2781570512183100623
-
-/-!
-# A057285: Numbers n such that n | 12^n + 11^n + 10^n + 9^n + 8^n + 7^n + 6^n + 5^n + 4^n.
-
-The programs for A057285, there is no canonical definition to state claims against.
--/
-
-/-! ## A057285.P12578422977143830603
-
-`A057287(n+1)`
--/
-
-namespace A057285.P12578422977143830603
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057287 (n + 1)
-
-end
-
-end A057285.P12578422977143830603
 
 /-!
 # A057286: Numbers k such that k | 11^k + 10^k + 9^k + 8^k + 7^k + 6^k + 5^k + 4^k + 3^k.

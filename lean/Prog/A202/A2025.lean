@@ -19,22 +19,25 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C045
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,6 +57,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -64,10 +68,10 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +86,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -513,27 +516,6 @@ end
 end A202510.P17674001711437027089
 
 /-!
-# A202511: T(n,k)=Number of zero-sum -k..k arrays of n elements with first through third differences also in -k..k.
-
-The programs for A202511, there is no canonical definition to state claims against.
--/
-
-/-! ## A202511.P5967140884918384862
-
-`A201439(n+1)`
--/
-
-namespace A202511.P5967140884918384862
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201439 (n + 1)
-
-end
-
-end A202511.P5967140884918384862
-
-/-!
 # A202512: Number of zero-sum -n..n arrays of 4 elements with first through third differences also in -n..n.
 
 The programs for A202512, there is no canonical definition to state claims against.
@@ -875,8 +857,29 @@ end A202524.P15052446340733576818
 /-!
 # A202525: Number of (n+2) X 3 binary arrays avoiding patterns 000 and 101 in rows, columns and nw-to-se diagonals.
 
-The programs for A202525, there is no canonical definition to state claims against.
+The programs for A202525, the canonical program `A202525.P164643183039343606` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202525 has offset 1).
+
+The definition of A202525 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 293 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A202525.P164643183039343606
+
+`ogf((86+112x+219x^2-43x^3-138x^4-344x^5-126x^6+13x^7+103x^8+40x^9)/(1-x-6x^3-x^5+7x^6+3x^7+x^8-2x^9-x^10))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A202525
+
+/-- `ogf((86+112x+219x^2-43x^3-138x^4-344x^5-126x^6+13x^7+103x^8+40x^9)/(1-x-6x^3-x^5+7x^6+3x^7+x^8-2x^9-x^10))` -/
+def P164643183039343606.Spec : Prop :=
+  ∀ n, P164643183039343606.a n = A202525 (n + 1)
+
+theorem P164643183039343606.correct : P164643183039343606.Spec := by
+  intro n
+  simp only [A202525, Nat.add_sub_cancel]
+
+end A202525
 
 /-! ## A202525.P6213497004177306224
 
@@ -896,6 +899,14 @@ end
 
 end A202525.P6213497004177306224
 
+namespace A202525
+
+/-- `A202532(∑[n]+1)` -/
+def P6213497004177306224.Spec : Prop :=
+  ∀ n, P6213497004177306224.a n = A202525 (n + 1)
+
+end A202525
+
 /-! ## A202525.P7881749455860788213
 
 `record[A202532(A056534(n+1))]`
@@ -913,6 +924,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202525.P7881749455860788213
+
+namespace A202525
+
+/-- `record[A202532(A056534(n+1))]` -/
+def P7881749455860788213.Spec : Prop :=
+  ∀ n, P7881749455860788213.a n = A202525 (n + 1)
+
+end A202525
 
 /-! ## A202525.P9997057754585710362
 
@@ -932,6 +951,14 @@ end
 
 end A202525.P9997057754585710362
 
+namespace A202525
+
+/-- `record[A202532(A286235(n+1))]` -/
+def P9997057754585710362.Spec : Prop :=
+  ∀ n, P9997057754585710362.a n = A202525 (n + 1)
+
+end A202525
+
 /-! ## A202525.P16168661259694619645
 
 `record[A202532(C(A025811(n), 2)+1)]`
@@ -950,11 +977,40 @@ end
 
 end A202525.P16168661259694619645
 
+namespace A202525
+
+/-- `record[A202532(C(A025811(n), 2)+1)]` -/
+def P16168661259694619645.Spec : Prop :=
+  ∀ n, P16168661259694619645.a n = A202525 (n + 1)
+
+end A202525
+
 /-!
 # A202526: Number of (n+2) X 4 binary arrays avoiding patterns 000 and 101 in rows, columns and nw-to-se diagonals.
 
-The programs for A202526, there is no canonical definition to state claims against.
+The programs for A202526, the canonical program `A202526.P11596472755330231936` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202526 has offset 1).
+
+The definition of A202526 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 295 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A202526.P11596472755330231936
+
+`ogf((198+122x+48x^2-332x^3-203x^4+46x^5+97x^6+11x^7+4x^8)/(1-2x-2x^3+2x^4+2x^5-x^7))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A202526
+
+/-- `ogf((198+122x+48x^2-332x^3-203x^4+46x^5+97x^6+11x^7+4x^8)/(1-2x-2x^3+2x^4+2x^5-x^7))` -/
+def P11596472755330231936.Spec : Prop :=
+  ∀ n, P11596472755330231936.a n = A202526 (n + 1)
+
+theorem P11596472755330231936.correct : P11596472755330231936.Spec := by
+  intro n
+  simp only [A202526, Nat.add_sub_cancel]
+
+end A202526
 
 /-! ## A202526.P15499387184952873101
 
@@ -974,6 +1030,14 @@ end
 
 end A202526.P15499387184952873101
 
+namespace A202526
+
+/-- `A202532(∑[n+1]+2)` -/
+def P15499387184952873101.Spec : Prop :=
+  ∀ n, P15499387184952873101.a n = A202526 (n + 1)
+
+end A202526
+
 /-! ## A202526.P11539298502860916868
 
 `record[A202532(A286235(n+1)+1)]`
@@ -992,6 +1056,14 @@ end
 
 end A202526.P11539298502860916868
 
+namespace A202526
+
+/-- `record[A202532(A286235(n+1)+1)]` -/
+def P11539298502860916868.Spec : Prop :=
+  ∀ n, P11539298502860916868.a n = A202526 (n + 1)
+
+end A202526
+
 /-! ## A202526.P3965379383913123730
 
 `record[A202532(n+3)/A053122(n)]`
@@ -1009,6 +1081,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A202526.P3965379383913123730
+
+namespace A202526
+
+/-- `record[A202532(n+3)/A053122(n)]` -/
+def P3965379383913123730.Spec : Prop :=
+  ∀ n, P3965379383913123730.a n = (A202526 (n + 1) : ℚ)
+
+end A202526
 
 /-! ## A202526.P11290244772107098311
 
@@ -1031,11 +1111,40 @@ end
 
 end A202526.P11290244772107098311
 
+namespace A202526
+
+/-- `record[A202532(Δ[A003453(n+5)])]` -/
+def P11290244772107098311.Spec : Prop :=
+  ∀ n, P11290244772107098311.a n = A202526 (n + 1)
+
+end A202526
+
 /-!
 # A202527: Number of (n+2) X 5 binary arrays avoiding patterns 000 and 101 in rows, columns and nw-to-se diagonals.
 
-The programs for A202527, there is no canonical definition to state claims against.
+The programs for A202527, the canonical program `A202527.P6919002410659613513` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202527 has offset 1).
+
+The definition of A202527 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A202527.P6919002410659613513
+
+`ogf((417+250x+95x^2-691x^3-432x^4+114x^5+218x^6+20x^7)/(1-2x-2x^3+2x^4+2x^5-x^7))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A202527
+
+/-- `ogf((417+250x+95x^2-691x^3-432x^4+114x^5+218x^6+20x^7)/(1-2x-2x^3+2x^4+2x^5-x^7))` -/
+def P6919002410659613513.Spec : Prop :=
+  ∀ n, P6919002410659613513.a n = A202527 (n + 1)
+
+theorem P6919002410659613513.correct : P6919002410659613513.Spec := by
+  intro n
+  simp only [A202527, Nat.add_sub_cancel]
+
+end A202527
 
 /-! ## A202527.P4402689003847454462
 
@@ -1054,6 +1163,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202527.P4402689003847454462
+
+namespace A202527
+
+/-- `A202532(∑[n+2]+4)` -/
+def P4402689003847454462.Spec : Prop :=
+  ∀ n, P4402689003847454462.a n = A202527 (n + 1)
+
+end A202527
 
 /-!
 # A202528: Number of (n+2) X 6 binary arrays avoiding patterns 000 and 101 in rows, columns and nw-to-se diagonals.
@@ -2024,21 +2141,6 @@ end A202548.P15451889832385826220
 The programs for A202549, there is no canonical definition to state claims against.
 -/
 
-/-! ## A202549.P11039462068320167432
-
-`A268079(n+1)`
--/
-
-namespace A202549.P11039462068320167432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268079 (n + 1)
-
-end
-
-end A202549.P11039462068320167432
-
 /-! ## A202549.P12985284469560185467
 
 `A059953(A022166(n))`
@@ -2153,7 +2255,7 @@ end A202550.P6974106194923814389
 /-!
 # A202551: Triangle T(n,k), read by rows, given by (1, -1, 1, 0, 0, 0, 0, 0, 0, 0, ...) DELTA (-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...) where DELTA is the operator defined in A084938.
 
-The programs for A202551, the canonical program `A202551.P1259835358826140929` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202551 has offset 0).
+The programs for A202551, the canonical program `A202551.P1259835358826140929` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202551 has offset 0).
 
 The definition of A202551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2162,7 +2264,7 @@ The definition of A202551 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-2,k-1)-T(n-1,k-1)-T(n-2,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A202551
@@ -2959,7 +3061,7 @@ end A202563.P15595656608860418594
 /-!
 # A202564: Indices of pentagonal numbers which are also decagonal.
 
-The programs for A202564, the canonical program `A202564.P17425805476821448578` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202564 has offset 1).
+The programs for A202564, the canonical program `A202564.P17425805476821448578` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202564 has offset 1).
 
 The definition of A202564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2991,7 +3093,7 @@ end A202564
 
 `98*a(n-1)-a(n-2)-16` with `a(0)=1, a(1)=91`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A202564
@@ -3196,7 +3298,7 @@ end A202564
 /-!
 # A202565: Indices of decagonal numbers which are also pentagonal.
 
-The programs for A202565, the canonical program `A202565.P14391969503560850877` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202565 has offset 1).
+The programs for A202565, the canonical program `A202565.P14391969503560850877` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202565 has offset 1).
 
 The definition of A202565 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3228,7 +3330,7 @@ end A202565
 
 `98*a(n-1)-a(n-2)-36` with `a(0)=1, a(1)=56`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A202565
@@ -4099,8 +4201,29 @@ end A202583.P16723707006368621581
 /-!
 # A202584: Number of (n+2) X 3 binary arrays avoiding patterns 001 and 100 in rows, columns and nw-to-se diagonals.
 
-The programs for A202584, there is no canonical definition to state claims against.
+The programs for A202584, the canonical program `A202584.P3370565813708048061` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202584 has offset 1).
+
+The definition of A202584 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A202584.P3370565813708048061
+
+`ogf((96-28x-456x^2-102x^3+510x^4+343x^5-192x^6-210x^7+23x^8+36x^9)/(1-3x-5x^2+11x^3+10x^4-9x^5-12x^6+2x^7+6x^8-x^10))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A202584
+
+/-- `ogf((96-28x-456x^2-102x^3+510x^4+343x^5-192x^6-210x^7+23x^8+36x^9)/(1-3x-5x^2+11x^3+10x^4-9x^5-12x^6+2x^7+6x^8-x^10))` -/
+def P3370565813708048061.Spec : Prop :=
+  ∀ n, P3370565813708048061.a n = A202584 (n + 1)
+
+theorem P3370565813708048061.correct : P3370565813708048061.Spec := by
+  intro n
+  simp only [A202584, Nat.add_sub_cancel]
+
+end A202584
 
 /-! ## A202584.P14190881209457483889
 
@@ -4120,6 +4243,14 @@ end
 
 end A202584.P14190881209457483889
 
+namespace A202584
+
+/-- `A202591(∑[n]+1)` -/
+def P14190881209457483889.Spec : Prop :=
+  ∀ n, P14190881209457483889.a n = A202584 (n + 1)
+
+end A202584
+
 /-! ## A202584.P15626133495355477510
 
 `record[A010054(n)*A202591(n+1)]`
@@ -4137,6 +4268,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202584.P15626133495355477510
+
+namespace A202584
+
+/-- `record[A010054(n)*A202591(n+1)]` -/
+def P15626133495355477510.Spec : Prop :=
+  ∀ n, P15626133495355477510.a n = A202584 (n + 1)
+
+end A202584
 
 /-! ## A202584.P2292040457869046957
 
@@ -4156,6 +4295,14 @@ end
 
 end A202584.P2292040457869046957
 
+namespace A202584
+
+/-- `record[root(A202591(n+1), A116925(n))]` -/
+def P2292040457869046957.Spec : Prop :=
+  ∀ n, P2292040457869046957.a n = (A202584 (n + 1) : ℝ)
+
+end A202584
+
 /-! ## A202584.P1749156710031073852
 
 `record[gcd(A002262(n), A202591(n+1))]`
@@ -4174,23 +4321,13 @@ end
 
 end A202584.P1749156710031073852
 
-/-! ## A202584.P5203676619202129089
+namespace A202584
 
-`record[lcm(A103452(n), A202591(n+1))]`
--/
+/-- `record[gcd(A002262(n), A202591(n+1))]` -/
+def P1749156710031073852.Spec : Prop :=
+  ∀ n, (P1749156710031073852.a n : ℤ) = A202584 (n + 1)
 
-namespace A202584.P5203676619202129089
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A103452 n) (A202591 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A202584.P5203676619202129089
+end A202584
 
 /-!
 # A202585: Number of (n+2)X4 binary arrays avoiding patterns 001 and 100 in rows, columns and nw-to-se diagonals.
@@ -4603,7 +4740,7 @@ end A202593.P17445951227832555361
 /-!
 # A202594: Number of (n+2) X 3 binary arrays avoiding patterns 001 and 000 in rows and columns.
 
-The programs for A202594, the canonical program `A202594.P12298004819713790621` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202594 has offset 1).
+The programs for A202594, the canonical program `A202594.P12298004819713790621` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202594 has offset 1).
 
 The definition of A202594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4612,7 +4749,7 @@ The definition of A202594 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((126+258x+66x^2-36x^3)/(1-2x-7x^2-2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A202594

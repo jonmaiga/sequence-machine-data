@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,29 +12,29 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,11 +50,13 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,13 +69,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -447,7 +447,7 @@ end A321702.P273066466648989995
 /-!
 # A321703: a(n) = 3*a(n-1) + 4*a(n-2) + a(n-3), a(0) = 1, a(1) = 1, a(2) = 5.
 
-The programs for A321703, the canonical program `A321703.P15535657896170768555` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321703 has offset 0).
+The programs for A321703, the canonical program `A321703.P15535657896170768555` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321703 has offset 0).
 
 The definition of A321703 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)+a(n-3)` (program `A321703.P15535657896170768555`, by `A321703.P15535657896170768555.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -479,7 +479,7 @@ end A321703
 
 `3*a(n-1)+4*a(n-2)+a(n-3)` with `a(0)=1, a(1)=1, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321703
@@ -910,7 +910,7 @@ end A321714.P6832904522429903963
 /-!
 # A321715: a(n) = 3*a(n-1) + 4*a(n-2) + a(n-3), a(0) = 1, a(1) = -1, a(2) = -1 .
 
-The programs for A321715, the canonical program `A321715.P7889089140073733628` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321715 has offset 0).
+The programs for A321715, the canonical program `A321715.P7889089140073733628` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321715 has offset 0).
 
 The definition of A321715 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)+a(n-3)` (program `A321715.P7889089140073733628`, by `A321715.P7889089140073733628.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -942,7 +942,7 @@ end A321715
 
 `3*a(n-1)+4*a(n-2)+a(n-3)` with `a(0)=1, a(1)=-1, a(2)=-1`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321715
@@ -1501,21 +1501,6 @@ end A321723.P1900167159054328750
 The programs for A321724, there is no canonical definition to state claims against.
 -/
 
-/-! ## A321724.P5368316695040360149
-
-`A008619(A213919(n+1))`
--/
-
-namespace A321724.P5368316695040360149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A213919 (n + 1)).toNat
-
-end
-
-end A321724.P5368316695040360149
-
 /-! ## A321724.P3884580889029741557
 
 `A038548(2^A213919(n+1))`
@@ -1662,21 +1647,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321726.P13584018518042080942
-
-/-! ## A321726.P13937825776872029598
-
-`A321767(A321464(n))`
--/
-
-namespace A321726.P13937825776872029598
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321767 (A321464 n).toNat
-
-end
-
-end A321726.P13937825776872029598
 
 /-!
 # A321728: Number of integer partitions of n whose Young diagram cannot be partitioned into vertical sections of the same sizes as the parts of the original partition.
@@ -2179,21 +2149,6 @@ end
 
 end A321737.P8063561532754708376
 
-/-! ## A321737.P4429319641988928583
-
-`A198726(n²)`
--/
-
-namespace A321737.P4429319641988928583
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198726 (n ^ 2)
-
-end
-
-end A321737.P4429319641988928583
-
 /-!
 # A321738: Number of ways to partition the Young diagram of the integer partition with Heinz number n into vertical sections.
 
@@ -2439,21 +2394,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321740.P9975161680137974024
-
-/-! ## A321740.P2444376294329214697
-
-`floor(sqrt(A035186(4*n+3)))`
--/
-
-namespace A321740.P2444376294329214697
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.sqrt (A035186 (4 * n + 3))
-
-end
-
-end A321740.P2444376294329214697
 
 /-!
 # A321741: Product of the first n terms of A007318 (Pascal), read as a sequence.
@@ -2743,39 +2683,18 @@ end
 end A321744.P5114516876563635853
 
 /-!
-# A321746: Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of e(v) in m(u), where H is Heinz number, m is monomial symmetric functions, and e is elementary symmetric functions.
-
-The programs for A321746, there is no canonical definition to state claims against.
--/
-
-/-! ## A321746.P6812016752821814646
-
-`A321914(A028310(n))`
--/
-
-namespace A321746.P6812016752821814646
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321914 (A028310 n).toNat
-
-end
-
-end A321746.P6812016752821814646
-
-/-!
 # A321747: Sum of coefficients of elementary symmetric functions in the monomial symmetric function of the integer partition with Heinz number n.
 
-The programs for A321747, the canonical program `A321747.P6789525213740818006` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321747 has offset 1).
+The programs for A321747, the canonical program `A321747.P6789525213740818006` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321747 has offset 1).
 
-The definition of A321747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008480, A056239, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A321747 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008480, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A321747.P6789525213740818006
 
 `(-1)^(A056239(n+1)-A001222(n+1))*A008480(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A321747
@@ -3001,27 +2920,6 @@ def P2187998500795986845.Spec : Prop :=
   ∀ n, P2187998500795986845.a n = A321747 (n + 1)
 
 end A321747
-
-/-!
-# A321748: Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of h(v) in m(u), where H is Heinz number, m is monomial symmetric functions, and h is homogeneous symmetric functions.
-
-The programs for A321748, there is no canonical definition to state claims against.
--/
-
-/-! ## A321748.P11471995433882237787
-
-`A321915(A000007(n)+n)`
--/
-
-namespace A321748.P11471995433882237787
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321915 (A000007 n + (n : ℤ)).toNat
-
-end
-
-end A321748.P11471995433882237787
 
 /-!
 # A321749: Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of e(v) in h(u) or, equivalently, the coefficient of h(v) in e(u), where H is Heinz number, e is elementary symmetric functions, and h is homogeneous symmetric functions.
@@ -3286,27 +3184,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321751.P7917293118030105711
-
-/-!
-# A321752: Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of e(v) in p(u), where H is Heinz number, e is elementary symmetric functions, and p is power sum symmetric functions.
-
-The programs for A321752, there is no canonical definition to state claims against.
--/
-
-/-! ## A321752.P3408975625594718975
-
-`A321918(A028310(n))`
--/
-
-namespace A321752.P3408975625594718975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321918 (A028310 n).toNat
-
-end
-
-end A321752.P3408975625594718975
 
 /-!
 # A321753: Sum of coefficients of elementary symmetric functions in the power sum symmetric function indexed by the integer partition with Heinz number n.
@@ -3624,21 +3501,6 @@ end A321753
 
 The programs for A321754, there is no canonical definition to state claims against.
 -/
-
-/-! ## A321754.P8858535917947910441
-
-`A321919(A000007(n)+n)`
--/
-
-namespace A321754.P8858535917947910441
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321919 (A000007 n + (n : ℤ)).toNat
-
-end
-
-end A321754.P8858535917947910441
 
 /-! ## A321754.P4303239718269068171
 
@@ -5440,7 +5302,7 @@ end A321772.P6604239774453564399
 /-!
 # A321773: Number of compositions of n into parts with distinct multiplicities and with exactly three parts.
 
-The programs for A321773, the canonical program `A321773.P4697706764734148102` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321773 has offset 3).
+The programs for A321773, the canonical program `A321773.P4697706764734148102` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321773 has offset 3).
 
 The definition of A321773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5599,7 +5461,7 @@ end A321773
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=4, a(4)=9`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321773
@@ -5919,7 +5781,7 @@ end A321773
 /-!
 # A321774: Number of compositions of n into parts with distinct multiplicities and with exactly four parts.
 
-The programs for A321774, the canonical program `A321774.P16232909308658278851` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321774 has offset 4).
+The programs for A321774, the canonical program `A321774.P16232909308658278851` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321774 has offset 4).
 
 The definition of A321774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5951,7 +5813,7 @@ end A321774
 
 `a(n-3)+a(n-4)-a(n-7)` with `a(0)=1, a(1)=4, a(2)=4, a(3)=8, a(4)=5, a(5)=8, a(6)=12`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321774
@@ -6084,7 +5946,7 @@ end A321774
 /-!
 # A321775: Number of compositions of n into parts with distinct multiplicities and with exactly five parts.
 
-The programs for A321775, the canonical program `A321775.P10024541450317987312` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321775 has offset 5).
+The programs for A321775, the canonical program `A321775.P10024541450317987312` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321775 has offset 5).
 
 The definition of A321775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6093,7 +5955,7 @@ The definition of A321775 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+6x+21x^2+35x^3+49x^4+34x^5+29x^6)/(1+x+x^2-x^4-2x^5-2x^6-x^7+x^9+x^10+x^11))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321775
@@ -6134,7 +5996,7 @@ end A321775
 /-!
 # A321776: Number of compositions of n into parts with distinct multiplicities and with exactly six parts.
 
-The programs for A321776, the canonical program `A321776.P11934929236621674782` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321776 has offset 6).
+The programs for A321776, the canonical program `A321776.P11934929236621674782` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321776 has offset 6).
 
 The definition of A321776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6143,7 +6005,7 @@ The definition of A321776 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+7x+28x^2+33x^3+122x^4+286x^5+394x^6+638x^7+687x^8+652x^9+433x^10+319x^11)/(1+x+x^2-x^4-2x^5-3x^6-2x^7-x^8+x^9+2x^10+3x^11+2x^12+x^13-x^15-x^16-x^17))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A321776
@@ -7407,27 +7269,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321790.P17999170542687075562
-
-/-!
-# A321791: Table read by descending antidiagonals: T(n,k) is the number of unoriented cycles (bracelets) of length n using up to k available colors.
-
-The programs for A321791, there is no canonical definition to state claims against.
--/
-
-/-! ## A321791.P9349629129197464741
-
-`A339649(n)`
--/
-
-namespace A321791.P9349629129197464741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339649 n
-
-end
-
-end A321791.P9349629129197464741
 
 /-!
 # A321792: Lesser of twin primes of the form 6*Fibonacci(k)-1.

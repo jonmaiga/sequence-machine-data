@@ -37,15 +37,15 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C046
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,12 +65,14 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -79,12 +81,11 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +94,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -109,7 +109,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -236,9 +235,9 @@ end A140302.P10059063052850611766
 /-!
 # A140303: Triangle T(n,k) = 3^(n-k) read by rows.
 
-The programs for A140303, the canonical program `A140303.P8111893884846108163` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140303 has offset 0).
+The programs for A140303, the canonical program `A140303.P12138749446598600265` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140303 has offset 0).
 
-The definition of A140303 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A140303 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A140303.anchor (n : ℕ) : (A140303 n : ℚ) = (3 : ℚ) ^ ((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ) : ℤ)` in `Proof.A140.A140303`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A140303.P13895490332387972077
@@ -270,18 +269,8 @@ end A140303
 
 `3^(row(n)+1-(col(n)+1))`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A140303.P12138749446598600265
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 : ℚ) ^ ((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ) : ℤ)
-
-end
-
-end A140303.P12138749446598600265
 
 namespace A140303
 
@@ -294,19 +283,23 @@ end A140303
 /-! ## A140303.P8111893884846108163
 
 `A000244(row(n)-col(n))`
-
-The canonical program, it is in `Seq.B001.C006`.
 -/
+
+namespace A140303.P8111893884846108163
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000244 (SequenceMachineLib.triRow n - SequenceMachineLib.triCol n)
+
+end
+
+end A140303.P8111893884846108163
 
 namespace A140303
 
 /-- `A000244(row(n)-col(n))` -/
 def P8111893884846108163.Spec : Prop :=
   ∀ n, P8111893884846108163.a n = A140303 n
-
-theorem P8111893884846108163.correct : P8111893884846108163.Spec := by
-  intro n
-  simp only [A140303]
 
 end A140303
 
@@ -815,21 +808,6 @@ end A140307.P677996769309446267
 
 The programs for A140312, there is no canonical definition to state claims against.
 -/
-
-/-! ## A140312.P17874222866445448477
-
-`A088887(n+1)`
--/
-
-namespace A140312.P17874222866445448477
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088887 (n + 1)
-
-end
-
-end A140312.P17874222866445448477
 
 /-! ## A140312.P16623303062441992304
 
@@ -3167,21 +3145,6 @@ end
 
 end A140332.P5670386104925545399
 
-/-! ## A140332.P5059776506342134465
-
-`A368955(n+1)`
--/
-
-namespace A140332.P5059776506342134465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368955 (n + 1)
-
-end
-
-end A140332.P5059776506342134465
-
 /-! ## A140332.P514343827256573089
 
 `∪[A004920(n), A174995(n+1)]`
@@ -3396,21 +3359,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A140340.P7624939689037553242
-
-/-! ## A140340.P16304165250418262700
-
-`A140754(n+1)`
--/
-
-namespace A140340.P16304165250418262700
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140754 (n + 1)
-
-end
-
-end A140340.P16304165250418262700
 
 /-!
 # A140341: The number of bits needed to write the universal code for an Elias delta coding, the simplest asymptotically optimal code.
@@ -4112,21 +4060,6 @@ end
 
 end A140344.P6158857663105584051
 
-/-! ## A140344.P6315599572200475647
-
-`A003056(A144331(n))`
--/
-
-namespace A140344.P6315599572200475647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A144331 n).toNat
-
-end
-
-end A140344.P6315599572200475647
-
 /-!
 # A140345: a(n) = a(n-1)^2 - a(n-2) - a(n-3) - a(n-4), a(1) = a(2) = a(3) = a(4) = 1.
 
@@ -4332,7 +4265,7 @@ end A140348.P11062231657338583238
 /-!
 # A140349: A number k is included if both (the largest divisor of k that is <= sqrt(k)) and (the smallest divisor of k that is >= sqrt(k)) are composite.
 
-The programs for A140349, the canonical program `A140349.P7534089153039634243` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140349 has offset 1).
+The programs for A140349, the canonical program `A140349.P7534089153039634243` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140349 has offset 1).
 
 The definition of A140349 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1685 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4428,7 +4361,7 @@ end A140349
 
 `lt[A066048(n+1), A052126(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A140349

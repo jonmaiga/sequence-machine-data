@@ -9,39 +9,43 @@ import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
-import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
@@ -54,9 +58,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -709,29 +710,6 @@ namespace A399828
 /-- `A366147(n+1)*A368104(A366765(n+1))` -/
 def P1457491890981504765.Spec : Prop :=
   ∀ n, P1457491890981504765.a n = A399828 (n + 1)
-
-end A399828
-
-/-! ## A399828.P6916615878398296065
-
-`A399831(n+1)`
--/
-
-namespace A399828.P6916615878398296065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A399831 (n + 1)
-
-end
-
-end A399828.P6916615878398296065
-
-namespace A399828
-
-/-- `A399831(n+1)` -/
-def P6916615878398296065.Spec : Prop :=
-  ∀ n, P6916615878398296065.a n = A399828 (n + 1)
 
 end A399828
 
@@ -1422,29 +1400,6 @@ def P9170817850051580214.Spec : Prop :=
 
 end A399833
 
-/-! ## A399833.P6516142625636269489
-
-`A400143(1+n)`
--/
-
-namespace A399833.P6516142625636269489
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400143 (1 + n)
-
-end
-
-end A399833.P6516142625636269489
-
-namespace A399833
-
-/-- `A400143(1+n)` -/
-def P6516142625636269489.Spec : Prop :=
-  ∀ n, P6516142625636269489.a n = A399833 (n + 1)
-
-end A399833
-
 /-! ## A399833.P1341536653014124917
 
 `A368978(2*(n+1)²)`
@@ -1467,27 +1422,6 @@ def P1341536653014124917.Spec : Prop :=
   ∀ n, P1341536653014124917.a n = A399833 (n + 1)
 
 end A399833
-
-/-!
-# A399834: The sum of divisors d of n such that gcud(d, n/d) is squarefree, where gcud is the greatest common unitary divisor.
-
-The programs for A399834, there is no canonical definition to state claims against.
--/
-
-/-! ## A399834.P9029960017055315887
-
-`A399837(1+n)`
--/
-
-namespace A399834.P9029960017055315887
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A399837 (1 + n)
-
-end
-
-end A399834.P9029960017055315887
 
 /-!
 # A399835: The sum of divisors d of n such that gcud(d, n/d) is a powerful number (A001694), where gcud is the greatest common unitary divisor.
@@ -1540,63 +1474,6 @@ def P9892477452123573056.Spec : Prop :=
 end A399835
 
 /-!
-# A399836: The sum of divisors d of n such that gcud(d, n/d) is a square, where gcud is the greatest common unitary divisor.
-
-The programs for A399836, there is no canonical definition to state claims against.
--/
-
-/-! ## A399836.P17867037723610043047
-
-`A399835(n+1)`
--/
-
-namespace A399836.P17867037723610043047
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A399835 (n + 1)
-
-end
-
-end A399836.P17867037723610043047
-
-/-! ## A399836.P11381840255084056267
-
-`A366146(1+n)*A371242(n+1)`
--/
-
-namespace A399836.P11381840255084056267
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366146 (1 + n) * A371242 (n + 1)
-
-end
-
-end A399836.P11381840255084056267
-
-/-!
-# A399838: The sum of divisors d of n such that gcud(d, n/d) is odd, where gcud is the greatest common unitary divisor.
-
-The programs for A399838, there is no canonical definition to state claims against.
--/
-
-/-! ## A399838.P12057135616153290620
-
-`A400145(n+1)`
--/
-
-namespace A399838.P12057135616153290620
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400145 (n + 1)
-
-end
-
-end A399838.P12057135616153290620
-
-/-!
 # A399839: The sum of divisors d of n such that gcud(d, n/d) is a power of 2, where gcud is the greatest common unitary divisor.
 
 The programs for A399839, there is no canonical definition to state claims against.
@@ -1616,21 +1493,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A399839.P8924029402674375110
-
-/-! ## A399839.P13106233240255986992
-
-`A400146(n+1)`
--/
-
-namespace A399839.P13106233240255986992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400146 (n + 1)
-
-end
-
-end A399839.P13106233240255986992
 
 /-!
 # A399840: a(n) = A050443(n) mod n.
@@ -2218,7 +2080,7 @@ end A399858.P1020887414553172874
 /-!
 # A399862: Triangle read by rows: T(n,k) = binomial(n-k+1, 2) - [n-k+1 > k] * binomial(n-2*k+1, 2), k = 1..n, where brackets are Iverson.
 
-The programs for A399862, the canonical program `A399862.P15886220389689248667` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399862 has offset 1).
+The programs for A399862, the canonical program `A399862.P15886220389689248667` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399862 has offset 1).
 
 The definition of A399862 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2227,7 +2089,7 @@ The definition of A399862 is `conjectured`: the Lean definition is a formula tha
 
 `row(n)-col(n)+T(n-2,k-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A399862
@@ -2499,7 +2361,7 @@ end A399862
 /-!
 # A399863: Triangle read by rows: T(n,k) = binomial(n+1,2) - binomial(n-k+1,2) + binomial(n-k,2) - [n-k+1 > k]*binomial(n-2*k+1,2), k = 1..n, with Iverson brackets.
 
-The programs for A399863, the canonical program `A399863.P6356928561491451948` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399863 has offset 1).
+The programs for A399863, the canonical program `A399863.P6356928561491451948` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399863 has offset 1).
 
 The definition of A399863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7260 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2508,7 +2370,7 @@ The definition of A399863 is `conjectured`: the Lean definition is a formula tha
 
 `A220053(1+n)+A004247(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A399863
@@ -3239,7 +3101,7 @@ end A399890.P12758680887061692074
 /-!
 # A399895: Parity-perturbed Hofstadter-type sequence with delays 3 and 6 and initial values (1,1,3,3,5,1).
 
-The programs for A399895, the canonical program `A399895.P11467219755292368331` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399895 has offset 1).
+The programs for A399895, the canonical program `A399895.P11467219755292368331` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399895 has offset 1).
 
 The definition of A399895 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3248,7 +3110,7 @@ The definition of A399895 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-a(n-3))+a(n-a(n-6))-(-1)^(n+1)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=3, a(4)=5, a(5)=1, a(6)=5, a(7)=7`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A399895

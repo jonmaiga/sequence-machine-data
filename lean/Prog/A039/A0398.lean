@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,7 +12,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -20,26 +20,28 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,22 +64,24 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +106,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A039800: Column 1 of Inverse partition triangle A038498.
@@ -3572,20 +3575,20 @@ end
 
 end A039833.P11857184152317758009
 
-/-! ## A039833.P9972152233240259844
+/-! ## A039833.P1163239504870169099
 
-`-1+A248201(n+1)`
+`xor(3, A248201(n+1))`
 -/
 
-namespace A039833.P9972152233240259844
+namespace A039833.P1163239504870169099
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A248201 (n + 1)
+  Int.xor 3 (A248201 (n + 1))
 
 end
 
-end A039833.P9972152233240259844
+end A039833.P1163239504870169099
 
 /-! ## A039833.P5033713767652621365
 
@@ -3616,21 +3619,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039833.P8907509604545736654
-
-/-! ## A039833.P1163239504870169099
-
-`xor(3, A248201(n+1))`
--/
-
-namespace A039833.P1163239504870169099
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor 3 (A248201 (n + 1))
-
-end
-
-end A039833.P1163239504870169099
 
 /-! ## A039833.P17568971458053639985
 
@@ -4300,6 +4288,29 @@ The programs for A039835, the canonical program `A039835.P980399802263768025` is
 The definition of A039835 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A039835.P15687780351022167704
+
+`ogf((1+9x+161x^2-9x^3-2x^4)/(1-x-322x^2+322x^3+x^4-x^5))`
+-/
+
+namespace A039835.P15687780351022167704
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 9, 161, -9, -2] [1, -1, -322, 322, 1, -1] n
+
+end
+
+end A039835.P15687780351022167704
+
+namespace A039835
+
+/-- `ogf((1+9x+161x^2-9x^3-2x^4)/(1-x-322x^2+322x^3+x^4-x^5))` -/
+def P15687780351022167704.Spec : Prop :=
+  ∀ n, P15687780351022167704.a n = A039835 (n + 1)
+
+end A039835
+
 /-! ## A039835.P980399802263768025
 
 `(A000045(6*(n+1)-4+2*(n+1)%2)-1)/2`
@@ -4597,27 +4608,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039836.P17356769597793861939
-
-/-!
-# A039837: Number of partitions satisfying cn(0,5) <= cn(1,5) and cn(0,5) <= cn(4,5).
-
-The programs for A039837, there is no canonical definition to state claims against.
--/
-
-/-! ## A039837.P6119181384906027138
-
-`A039838(n)`
--/
-
-namespace A039837.P6119181384906027138
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039838 n
-
-end
-
-end A039837.P6119181384906027138
 
 /-!
 # A039839: Number of partitions satisfying cn(0,5) <= cn(1,5) + cn(4,5).
@@ -5635,21 +5625,6 @@ end A039851.P18236881979287898973
 
 The programs for A039852, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039852.P11002692084090784065
-
-`A084630(A084630(2*(n+1)))`
--/
-
-namespace A039852.P11002692084090784065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084630 (A084630 (2 * (n + 1))).toNat
-
-end
-
-end A039852.P11002692084090784065
 
 /-! ## A039852.P1557245826613274539
 

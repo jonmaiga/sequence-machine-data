@@ -2,29 +2,30 @@ import SequenceMachineLib.Basic
 import Seq.B000.C004
 import Seq.B000.C011
 import Seq.B000.C017
-import Seq.B000.C033
-import Seq.B000.C038
-import Seq.B000.C044
-import Seq.B000.C051
+import Seq.B000.C034
+import Seq.B000.C040
+import Seq.B000.C046
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C001
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B012.C000
+import Seq.B008.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
@@ -42,13 +43,12 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
 # A402400: a(n) = 1 + Sum_{k=1..n} k^5 * a(n-k).
 
-The programs for A402400, the canonical program `A402400.P4585264540923044159` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402400 has offset 0).
+The programs for A402400, the canonical program `A402400.P4585264540923044159` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402400 has offset 0).
 
 The definition of A402400 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -57,7 +57,7 @@ The definition of A402400 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-5x+10x^2-10x^3+5x^4-x^5)/(1-7x-11x^2-86x^3-11x^4-7x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A402400
@@ -101,7 +101,7 @@ end A402400
 /-!
 # A402401: a(0) = 1; a(n) = Sum_{k=1..n} k^5 * a(n-k).
 
-The programs for A402401, the canonical program `A402401.P17400436899153780874` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402401 has offset 0).
+The programs for A402401, the canonical program `A402401.P17400436899153780874` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402401 has offset 0).
 
 The definition of A402401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -110,7 +110,7 @@ The definition of A402401 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x+15x^2-20x^3+15x^4-6x^5+x^6)/(1-7x-11x^2-86x^3-11x^4-7x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A402401
@@ -660,7 +660,7 @@ end A402440.P17168151877540031079
 /-!
 # A402451: Absolute values of fundamental discriminant of quadratic fields. Also conductors of real Dirichlet primitive characters.
 
-The programs for A402451, the canonical program `A402451.P15090510164143558014` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402451 has offset 1).
+The programs for A402451, the canonical program `A402451.P15090510164143558014` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402451 has offset 1).
 
 The definition of A402451 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -669,7 +669,7 @@ The definition of A402451 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A003657(n+1), A003658(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A402451

@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -16,7 +17,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -27,22 +27,24 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,7 +64,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
@@ -70,6 +71,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -83,7 +85,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1377,21 +1378,6 @@ end A007808
 
 The programs for A007809, there is no canonical definition to state claims against.
 -/
-
-/-! ## A007809.P13366815362890023329
-
-`A259146(n+1)`
--/
-
-namespace A007809.P13366815362890023329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259146 (n + 1)
-
-end
-
-end A007809.P13366815362890023329
 
 /-! ## A007809.P1496046196288577603
 
@@ -5281,52 +5267,6 @@ def P857900160572468705.Spec : Prop :=
 
 end A007845
 
-/-! ## A007845.P6186561271851172675
-
-`A303788(A008458(n))`
--/
-
-namespace A007845.P6186561271851172675
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303788 (A008458 n).toNat
-
-end
-
-end A007845.P6186561271851172675
-
-namespace A007845
-
-/-- `A303788(A008458(n))` -/
-def P6186561271851172675.Spec : Prop :=
-  ∀ n, P6186561271851172675.a n = A007845 n
-
-end A007845
-
-/-! ## A007845.P5202257422246711916
-
-`A008706(A303788(n))`
--/
-
-namespace A007845.P5202257422246711916
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008706 (A303788 n).toNat
-
-end
-
-end A007845.P5202257422246711916
-
-namespace A007845
-
-/-- `A008706(A303788(n))` -/
-def P5202257422246711916.Spec : Prop :=
-  ∀ n, P5202257422246711916.a n = A007845 n
-
-end A007845
-
 /-!
 # A007846: There are three equivalent descriptions: 1. Number of (horizontally or vertically) connected arrays of 1..n on rectangular grid (otherwise zero) with only one local maximum. 2. Number of n-polyominoes labeled 1...n such that each successive labeled cell is the neighbor of a previously labeled cell. 3. Number of connected n-step paths on a rectangular lattice, diagonal or repeated steps not allowed.
 
@@ -6149,21 +6089,6 @@ end A007852
 
 The programs for A007853, there is no canonical definition to state claims against.
 -/
-
-/-! ## A007853.P11330014559872444410
-
-`A279553(n+1)+A011705(n)`
--/
-
-namespace A007853.P11330014559872444410
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279553 (n + 1) + A011705 n
-
-end
-
-end A007853.P11330014559872444410
 
 /-! ## A007853.P9540863053230737391
 

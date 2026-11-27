@@ -44,10 +44,13 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,7 +69,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -76,10 +78,12 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +99,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1401,6 +1404,29 @@ The programs for A006412, the canonical program `A006412.P12370674935269363778` 
 The definition of A006412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A006412.P13906633151051326821
+
+`ogf((4+35x+34x^2+5x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A006412.P13906633151051326821
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 35, 34, 5] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A006412.P13906633151051326821
+
+namespace A006412
+
+/-- `ogf((4+35x+34x^2+5x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P13906633151051326821.Spec : Prop :=
+  ∀ n, P13906633151051326821.a n = A006412 (n + 1)
+
+end A006412
+
 /-! ## A006412.P12370674935269363778
 
 `C(n+6, 6)*(n+4)*((n+1)*(13*(n+1)+57)+14)/84`
@@ -2610,8 +2636,29 @@ end A006417
 /-!
 # A006418: Number of loopless rooted planar maps with 5 faces and n vertices and no isthmuses.
 
-The programs for A006418, there is no canonical definition to state claims against.
+The programs for A006418, the canonical program `A006418.P7996256921947280294` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006418 has offset 2).
+
+The definition of A006418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A006418.P7996256921947280294
+
+`ogf((1+28x+134x^2-92x^3-482x^4+980x^5-879x^6+440x^7-120x^8+14x^9)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A006418
+
+/-- `ogf((1+28x+134x^2-92x^3-482x^4+980x^5-879x^6+440x^7-120x^8+14x^9)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P7996256921947280294.Spec : Prop :=
+  ∀ n, P7996256921947280294.a n = A006418 (n + 2)
+
+theorem P7996256921947280294.correct : P7996256921947280294.Spec := by
+  intro n
+  simp only [A006418, Nat.add_sub_cancel]
+
+end A006418
 
 /-! ## A006418.P5211969896143750255
 
@@ -2627,6 +2674,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006418.P5211969896143750255
+
+namespace A006418
+
+/-- `A342980(A052905(n+3))` -/
+def P5211969896143750255.Spec : Prop :=
+  ∀ n, P5211969896143750255.a n = A006418 (n + 2)
+
+end A006418
 
 /-! ## A006418.P9955995541976871145
 
@@ -2646,6 +2701,14 @@ end
 
 end A006418.P9955995541976871145
 
+namespace A006418
+
+/-- `record[A342980(A000124(n)+3)]` -/
+def P9955995541976871145.Spec : Prop :=
+  ∀ n, P9955995541976871145.a n = A006418 (n + 2)
+
+end A006418
+
 /-! ## A006418.P2356669757469390232
 
 `record[A342980(A000217(n)+4)]`
@@ -2663,6 +2726,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006418.P2356669757469390232
+
+namespace A006418
+
+/-- `record[A342980(A000217(n)+4)]` -/
+def P2356669757469390232.Spec : Prop :=
+  ∀ n, P2356669757469390232.a n = A006418 (n + 2)
+
+end A006418
 
 /-!
 # A006419: a(n) = 2^(2*n+1) - C(2*n+3,n+1) + C(2*n+1,n).
@@ -4114,6 +4185,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006433.P9793159201088649709
+
+/-!
+# A006434: Number of tree-rooted toroidal maps with 2 faces and n vertices and without separating loops or isthmuses.
+
+The programs for A006434, the canonical program `A006434.P1812984651683247904` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006434 has offset 1).
+
+The definition of A006434 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A006434.P1812984651683247904
+
+`ogf((4+80x+210x^2+44x^3-26x^4+16x^5+2x^6)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A006434
+
+/-- `ogf((4+80x+210x^2+44x^3-26x^4+16x^5+2x^6)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P1812984651683247904.Spec : Prop :=
+  ∀ n, P1812984651683247904.a n = A006434 (n + 1)
+
+theorem P1812984651683247904.correct : P1812984651683247904.Spec := by
+  intro n
+  simp only [A006434, Nat.add_sub_cancel]
+
+end A006434
 
 /-!
 # A006442: Expansion of 1/sqrt(1 - 10*x + x^2).
@@ -9799,8 +9897,29 @@ end A006470
 /-!
 # A006471: Number of tree-rooted planar maps with 4 faces and n vertices and no isthmuses.
 
-The programs for A006471, there is no canonical definition to state claims against.
+The programs for A006471, the canonical program `A006471.P2319638179196434949` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006471 has offset 1).
+
+The definition of A006471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A006471.P2319638179196434949
+
+`ogf((5+34x+35x^2+4x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A006471
+
+/-- `ogf((5+34x+35x^2+4x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P2319638179196434949.Spec : Prop :=
+  ∀ n, P2319638179196434949.a n = A006471 (n + 1)
+
+theorem P2319638179196434949.correct : P2319638179196434949.Spec := by
+  intro n
+  simp only [A006471, Nat.add_sub_cancel]
+
+end A006471
 
 /-! ## A006471.P7585379998650143704
 
@@ -9816,6 +9935,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006471.P7585379998650143704
+
+namespace A006471
+
+/-- `A342987(A167614(n+2))` -/
+def P7585379998650143704.Spec : Prop :=
+  ∀ n, P7585379998650143704.a n = A006471 (n + 1)
+
+end A006471
 
 /-!
 # A006472: a(n) = n!*(n-1)!/2^(n-1).

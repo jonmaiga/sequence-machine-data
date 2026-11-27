@@ -14,22 +14,24 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,24 +49,22 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,6 +74,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -87,7 +88,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import SequenceMachineLib.Triangle
 
 /-!
 # A333000: Sum of integers (with multiplicity) encountered on all possible paths from n to 1 when iterating with nondeterministic map k -> k- k/p, where p is any prime factor of k.
@@ -356,21 +356,6 @@ end
 
 end A333003.P1573953798533651745
 
-/-! ## A333003.P4283309321830983844
-
-`round(A333002(n+1)/A333001(n+1))`
--/
-
-namespace A333003.P4283309321830983844
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A333002 (n + 1) : ℚ) / (A333001 (n + 1) : ℚ))
-
-end
-
-end A333003.P4283309321830983844
-
 /-! ## A333003.P14804336344607914336
 
 `gcd(A033762(A058794(n)), A333123(n+1))`
@@ -539,20 +524,20 @@ end
 
 end A333008.P13361939554362381738
 
-/-! ## A333008.P14010930998608391728
+/-! ## A333008.P17994021300702347553
 
-`col(2*A333007(n+1))`
+`root(A333007(n+1), 2)`
 -/
 
-namespace A333008.P14010930998608391728
+namespace A333008.P17994021300702347553
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triCol (2 * A333007 (n + 1)).toNat
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (A333007 (n + 1) : ℝ) ^ (1 / (2 : ℝ))
 
 end
 
-end A333008.P14010930998608391728
+end A333008.P17994021300702347553
 
 /-! ## A333008.P699811791146325529
 
@@ -568,21 +553,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [6] fun n a =>
 end
 
 end A333008.P699811791146325529
-
-/-! ## A333008.P17994021300702347553
-
-`root(A333007(n+1), 2)`
--/
-
-namespace A333008.P17994021300702347553
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A333007 (n + 1) : ℝ) ^ (1 / (2 : ℝ))
-
-end
-
-end A333008.P17994021300702347553
 
 /-! ## A333008.P17893261936232926459
 
@@ -2737,7 +2707,7 @@ end A333045.P14925124684229115711
 /-!
 # A333046: a(1) = 1; a(n) = n * Sum_{d|n, d < n, gcd(d, n/d) = 1} a(d) / d.
 
-The programs for A333046, the canonical program `A333046.P5833979517361446591` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
+The programs for A333046, the canonical program `A333046.P5833979517361446591` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
 
 The definition of A333046 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2746,7 +2716,7 @@ The definition of A333046 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A000670(A001221(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A333046
@@ -3981,7 +3951,7 @@ end A333067.P5985552716740330392
 /-!
 # A333068: a(1) = 1; for n > 1, a(n) = n*(n-1)/2 + ((a(n-1)-1) mod n) + 1, the a(n-1)-th term of the n-th row of the triangle of positive integers, indexed in cyclic manner.
 
-The programs for A333068, the canonical program `A333068.P15526023609124763443` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333068 has offset 1).
+The programs for A333068, the canonical program `A333068.P15526023609124763443` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333068 has offset 1).
 
 The definition of A333068 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4015,7 +3985,7 @@ end A333068
 
 `(n+1)*n/2+(a(n-1)-1)%(n+1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A333068
@@ -4249,21 +4219,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A333069.P13720020796889209186
-
-/-! ## A333069.P8539465915403525329
-
-`A249561(n)`
--/
-
-namespace A333069.P8539465915403525329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249561 n
-
-end
-
-end A333069.P8539465915403525329
 
 /-!
 # A333070: Total number of nodes summed over all lattice paths from (0,0) to (n,0) that do not go below the x-axis, and at (x,y) only allow steps (1,v) with v in {-1,0,1,...,y+1}.

@@ -2,26 +2,28 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C042
+import Seq.B000.C031
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -29,14 +31,12 @@ import Seq.B001.C006
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -49,7 +49,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -792,21 +792,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013322.P14273587580392819683
-
-/-! ## A013322.P4401626434426510414
-
-`A057944(A163831(n+1))`
--/
-
-namespace A013322.P4401626434426510414
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057944 (A163831 (n + 1)).toNat
-
-end
-
-end A013322.P4401626434426510414
 
 /-!
 # A013324: Numerator of [x^n] of the Taylor series arccosh(exp(x)-tanh(x)).
@@ -1702,21 +1687,6 @@ end
 
 end A013356.P12970117735895318467
 
-/-! ## A013356.P7210820484983514018
-
-`0-A013351(A005843(n)+3)`
--/
-
-namespace A013356.P7210820484983514018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 - A013351 (A005843 n + 3).toNat
-
-end
-
-end A013356.P7210820484983514018
-
 /-!
 # A013357: cosh(sin(x)-tan(x))=1+90/6!*x^6+2520/8!*x^8+126630/10!*x^10...
 
@@ -2077,21 +2047,6 @@ end
 
 end A013375.P1351259885214057458
 
-/-! ## A013375.P1763803105892350102
-
-`A013369(2*n)`
--/
-
-namespace A013375.P1763803105892350102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013369 (2 * n)
-
-end
-
-end A013375.P1763803105892350102
-
 /-!
 # A013376: exp(sin(x)-arcsinh(x)) = 1-8/5!*x^5+224/7!*x^7-11024/9!*x^9+8064/10!*x^10...
 
@@ -2151,27 +2106,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013377.P17293183301937456306
-
-/-!
-# A013378: cos(sin(x)-arcsinh(x)) = 1-8064/10!*x^10 + 1419264/12!*x^12 ...
-
-The programs for A013378, there is no canonical definition to state claims against.
--/
-
-/-! ## A013378.P17640012270538293056
-
-`A013458(n)`
--/
-
-namespace A013378.P17640012270538293056
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013458 n
-
-end
-
-end A013378.P17640012270538293056
 
 /-!
 # A013379: Expansion of e.g.f.: exp(sin(x)-tanh(x))=1+1/3!*x^3-15/5!*x^5+10/6!*x^6+271/7!*x^7...

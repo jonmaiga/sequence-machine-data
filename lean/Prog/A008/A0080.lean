@@ -12,29 +12,30 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,25 +52,26 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +95,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1016,21 +1017,6 @@ end
 
 end A008012.P9163333979060563025
 
-/-! ## A008012.P10681034660003621820
-
-`A301218(n)`
--/
-
-namespace A008012.P10681034660003621820
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301218 n
-
-end
-
-end A008012.P10681034660003621820
-
 /-!
 # A008013: Coordination sequence occurring in Zeolite Codes AFG, CAN, LIO, LOS.
 
@@ -1647,21 +1633,6 @@ end
 
 end A008020.P6580222577947218478
 
-/-! ## A008020.P6489111948181158887
-
-`A301196(n)`
--/
-
-namespace A008020.P6489111948181158887
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301196 n
-
-end
-
-end A008020.P6489111948181158887
-
 /-!
 # A008023: Coordination sequence T1 for Zeolite Code AFS.
 
@@ -1812,21 +1783,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A008026.P9674652617315583701
-
-/-! ## A008026.P1135108713623438784
-
-`A008066(n)`
--/
-
-namespace A008026.P1135108713623438784
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008066 n
-
-end
-
-end A008026.P1135108713623438784
 
 /-!
 # A008027: Coordination sequence T2 for Zeolite Code AFT.
@@ -4405,21 +4361,6 @@ end A008086.P12566747573287137077
 
 The programs for A008087, there is no canonical definition to state claims against.
 -/
-
-/-! ## A008087.P5543918877782314842
-
-`A172534(n+1)+A008086(n)`
--/
-
-namespace A008087.P5543918877782314842
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172534 (n + 1) + A008086 n
-
-end
-
-end A008087.P5543918877782314842
 
 /-! ## A008087.P16204261514725827153
 

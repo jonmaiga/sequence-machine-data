@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -20,15 +19,16 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -36,11 +36,12 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C046
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -69,20 +70,21 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5785,21 +5787,6 @@ end A314732.P1977768249447709134
 The programs for A314733, there is no canonical definition to state claims against.
 -/
 
-/-! ## A314733.P8897911827555887018
-
-`A333214(A311349(n))`
--/
-
-namespace A314733.P8897911827555887018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333214 (A311349 n).toNat
-
-end
-
-end A314733.P8897911827555887018
-
 /-! ## A314733.P7497774157078429570
 
 `A084582(n+1)-A071866(A002526(n))`
@@ -11225,21 +11212,6 @@ end
 
 end A314769.P14840928323558905814
 
-/-! ## A314769.P4104679419229543669
-
-`A314770(n)`
--/
-
-namespace A314769.P4104679419229543669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A314770 n
-
-end
-
-end A314769.P4104679419229543669
-
 /-! ## A314769.P452468595261184657
 
 `gcd(n-1, A008683(n!))+4*n`
@@ -11786,7 +11758,7 @@ end A314771.P14048943991235402854
 /-!
 # A314772: Coordination sequence Gal.4.126.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A314772, the canonical program `A314772.P15353708934910679585` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314772 has offset 0).
+The programs for A314772, the canonical program `A314772.P15353708934910679585` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A314772 has offset 0).
 
 The definition of A314772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2374 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11795,7 +11767,7 @@ The definition of A314772 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+5x+9x^2+13x^3+19x^4+24x^5+21x^6+17x^7+13x^8+7x^9+x^10-2x^12-2x^13)/(1-2x^5+x^10))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A314772

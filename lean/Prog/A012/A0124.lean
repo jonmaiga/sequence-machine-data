@@ -4,36 +4,35 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
 import Seq.B000.C037
-import Seq.B000.C040
+import Seq.B000.C038
+import Seq.B000.C042
 import Seq.B001.C000
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C001
-import Seq.B009.C000
+import Seq.B004.C002
+import Seq.B005.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -64,27 +63,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012401.P12397992322704922665
-
-/-!
-# A012402: arcsinh(arctan(x)*log(x+1)) = 2/2!*x^2 - 3/3!*x^3 - 10/5!*x^5 + 88/6!*x^6 - ...
-
-The programs for A012402, there is no canonical definition to state claims against.
--/
-
-/-! ## A012402.P2144732437178429719
-
-`A012397(n+2)`
--/
-
-namespace A012402.P2144732437178429719
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012397 (n + 2)
-
-end
-
-end A012402.P2144732437178429719
 
 /-!
 # A012403: E.g.f. tanh(arctan(x)*log(x+1)).
@@ -340,27 +318,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A012413.P13479514813433432576
-
-/-!
-# A012415: Expansion of e.g.f. tanh(arctan(x) * exp(x)).
-
-The programs for A012415, there is no canonical definition to state claims against.
--/
-
-/-! ## A012415.P15440207440957398593
-
-`A012660(n)`
--/
-
-namespace A012415.P15440207440957398593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012660 n
-
-end
-
-end A012415.P15440207440957398593
 
 /-!
 # A012416: arctanh(arctan(x)*exp(x))=x+2/2!*x^2+3/3!*x^3+20/4!*x^4+173/5!*x^5...

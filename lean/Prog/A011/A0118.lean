@@ -23,7 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -31,18 +31,20 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,15 +57,16 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -165,21 +168,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A011801.P544627725128083691
-
-/-! ## A011801.P6240088067805139043
-
-`A144267(n+1)`
--/
-
-namespace A011801.P6240088067805139043
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144267 (n + 1)
-
-end
-
-end A011801.P6240088067805139043
 
 /-!
 # A011804: M-sequences from multicomplexes on at most 7 variables with no monomial of degree more than n-1.
@@ -1819,8 +1807,29 @@ end A011827
 /-!
 # A011828: Number of f-vectors for simplicial complexes of dimension at most 3 on at most n-1 vertices.
 
-The programs for A011828, there is no canonical definition to state claims against.
+The programs for A011828, the canonical program `A011828.P1301645774956969024` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011828 has offset 1).
+
+The definition of A011828 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A011828.P1301645774956969024
+
+`ogf((2-19x+82x^2-210x^3+356x^4-400x^5+380x^6-130x^7+69x^8-11x^9+x^10)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A011828
+
+/-- `ogf((2-19x+82x^2-210x^3+356x^4-400x^5+380x^6-130x^7+69x^8-11x^9+x^10)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P1301645774956969024.Spec : Prop :=
+  ∀ n, P1301645774956969024.a n = A011828 (n + 1)
+
+theorem P1301645774956969024.correct : P1301645774956969024.Spec := by
+  intro n
+  simp only [A011828, Nat.add_sub_cancel]
+
+end A011828
 
 /-! ## A011828.P4822813019766968559
 
@@ -1837,6 +1846,14 @@ end
 
 end A011828.P4822813019766968559
 
+namespace A011828
+
+/-- `A248231(A166741(n))+A002024(n+1)` -/
+def P4822813019766968559.Spec : Prop :=
+  ∀ n, P4822813019766968559.a n = A011828 (n + 1)
+
+end A011828
+
 /-! ## A011828.P10203211546332924180
 
 `A248231(A166741(n))+A026099(n+1)`
@@ -1852,23 +1869,13 @@ end
 
 end A011828.P10203211546332924180
 
-/-! ## A011828.P8409190029681191831
+namespace A011828
 
-`A103221(4*A182216(n))+∑[A004148(n)]`
--/
+/-- `A248231(A166741(n))+A026099(n+1)` -/
+def P10203211546332924180.Spec : Prop :=
+  ∀ n, P10203211546332924180.a n = A011828 (n + 1)
 
-namespace A011828.P8409190029681191831
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004148 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103221 (4 * A182216 n).toNat + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A011828.P8409190029681191831
+end A011828
 
 /-!
 # A011829: Number of f-vectors for simplicial complexes of dimension at most 4 on at most n-1 vertices.
@@ -1992,21 +1999,6 @@ end A011830.P6542522107716287713
 
 The programs for A011831, there is no canonical definition to state claims against.
 -/
-
-/-! ## A011831.P13320110000981081952
-
-`A007695(n)-A011816(n)`
--/
-
-namespace A011831.P13320110000981081952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007695 n - A011816 n
-
-end
-
-end A011831.P13320110000981081952
 
 /-! ## A011831.P5519198951656720947
 
@@ -8084,6 +8076,52 @@ def P5039639358706744343.Spec : Prop :=
 
 end A011863
 
+/-! ## A011863.P13732469337566245073
+
+`A212714(n)/2`
+-/
+
+namespace A011863.P13732469337566245073
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A212714 n : ℚ) / 2
+
+end
+
+end A011863.P13732469337566245073
+
+namespace A011863
+
+/-- `A212714(n)/2` -/
+def P13732469337566245073.Spec : Prop :=
+  ∀ n, P13732469337566245073.a n = (A011863 n : ℚ)
+
+end A011863
+
+/-! ## A011863.P820089829447128514
+
+`(2*A000583(n)+(-1)^n-1)/32`
+-/
+
+namespace A011863.P820089829447128514
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * A000583 n + (-1) ^ n - 1 : ℚ) / 32
+
+end
+
+end A011863.P820089829447128514
+
+namespace A011863
+
+/-- `(2*A000583(n)+(-1)^n-1)/32` -/
+def P820089829447128514.Spec : Prop :=
+  ∀ n, P820089829447128514.a n = (A011863 n : ℚ)
+
+end A011863
+
 /-! ## A011863.P303352070474511039
 
 `floor(n*and(n*n², -1)/16)`
@@ -8162,29 +8200,6 @@ namespace A011863
 /-- `floor(n*n*record[round(lcm(n+1, 1-n)/4)]/16)` -/
 def P864882287810578603.Spec : Prop :=
   ∀ n, P864882287810578603.a n = A011863 n
-
-end A011863
-
-/-! ## A011863.P13732469337566245073
-
-`A212714(n)/2`
--/
-
-namespace A011863.P13732469337566245073
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A212714 n : ℚ) / 2
-
-end
-
-end A011863.P13732469337566245073
-
-namespace A011863
-
-/-- `A212714(n)/2` -/
-def P13732469337566245073.Spec : Prop :=
-  ∀ n, P13732469337566245073.a n = (A011863 n : ℚ)
 
 end A011863
 
@@ -8283,29 +8298,6 @@ namespace A011863
 /-- `∑[A002717(n)-n²]` -/
 def P10045994845338303259.Spec : Prop :=
   ∀ n, P10045994845338303259.a n = A011863 n
-
-end A011863
-
-/-! ## A011863.P820089829447128514
-
-`(2*A000583(n)+(-1)^n-1)/32`
--/
-
-namespace A011863.P820089829447128514
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 * A000583 n + (-1) ^ n - 1 : ℚ) / 32
-
-end
-
-end A011863.P820089829447128514
-
-namespace A011863
-
-/-- `(2*A000583(n)+(-1)^n-1)/32` -/
-def P820089829447128514.Spec : Prop :=
-  ∀ n, P820089829447128514.a n = (A011863 n : ℚ)
 
 end A011863
 

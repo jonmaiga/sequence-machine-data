@@ -25,7 +25,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -42,13 +41,14 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,17 +65,17 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
+import Seq.B006.C001
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C005
+import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -88,9 +88,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -325,21 +323,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A052902.P1474451896273454947
-
-/-! ## A052902.P12444999394323538990
-
-`A052495(n+1)`
--/
-
-namespace A052902.P12444999394323538990
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052495 (n + 1)
-
-end
-
-end A052902.P12444999394323538990
 
 /-!
 # A052903: Expansion of (1-x^3)/(1-2x-x^3+x^4).
@@ -12558,6 +12541,32 @@ theorem P14850836353972699494.correct : P14850836353972699494.Spec := by
       push_cast at h1 ⊢
       rw [h1]
       first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A052944
+
+/-! ## A052944.P9425286746719203994
+
+`∑{#}[n-1, C(n, #+1)+1]`
+-/
+
+namespace A052944.P9425286746719203994
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ k ∈ Finset.range (f1 n + 1).toNat, (Nat.choose n (k + 1) + 1)
+
+end
+
+end A052944.P9425286746719203994
+
+namespace A052944
+
+/-- `∑{#}[n-1, C(n, #+1)+1]` -/
+def P9425286746719203994.Spec : Prop :=
+  ∀ n, (P9425286746719203994.a n : ℤ) = A052944 n
 
 end A052944
 
@@ -29330,21 +29339,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A052998.P11379080155903407901
-
-/-! ## A052998.P5570719729727168802
-
-`A007376(A052902(n+1)^1)`
--/
-
-namespace A052998.P5570719729727168802
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007376 (A052902 (n + 1) ^ 1).toNat
-
-end
-
-end A052998.P5570719729727168802
 
 /-!
 # A052999: Take n-th prime p, let P(p) = all primes that can be obtained by permuting the digits of p and possibly adding or omitting zeros; a(n) = |p-q| where q in P(p) is the closest to p but different from p (a(n)=0 if no such q exists).

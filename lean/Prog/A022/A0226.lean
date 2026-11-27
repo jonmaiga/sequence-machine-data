@@ -1,5 +1,6 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
+import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
@@ -10,16 +11,16 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.Opaque.C000
@@ -29,7 +30,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C015
@@ -38,7 +38,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -950,8 +949,29 @@ end A022627.P2363402726154761744
 /-!
 # A022628: Expansion of 1/((1-x)*(1-5*x)*(1-8*x)*(1-11*x)).
 
-The programs for A022628, there is no canonical definition to state claims against.
+The programs for A022628, the canonical program `A022628.P9167516542228717267` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022628 has offset 0).
+
+The definition of A022628 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-25x+207x^2-623x^3+440x^4))` (program `A022628.P9167516542228717267`, by `A022628.P9167516542228717267.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A022628.P9167516542228717267
+
+`ogf(1/(1-25x+207x^2-623x^3+440x^4))`
+
+The canonical program, it is in `Seq.B000.C005`.
+-/
+
+namespace A022628
+
+/-- `ogf(1/(1-25x+207x^2-623x^3+440x^4))` -/
+def P9167516542228717267.Spec : Prop :=
+  ∀ n, P9167516542228717267.a n = A022628 n
+
+theorem P9167516542228717267.correct : P9167516542228717267.Spec := by
+  intro n
+  simp only [A022628]
+
+end A022628
 
 /-! ## A022628.P14350647272755212315
 
@@ -971,6 +991,14 @@ end
 
 end A022628.P14350647272755212315
 
+namespace A022628
+
+/-- `∑[A020447(n)]` -/
+def P14350647272755212315.Spec : Prop :=
+  ∀ n, P14350647272755212315.a n = A022628 n
+
+end A022628
+
 /-! ## A022628.P5322542990315141241
 
 `A016259(n)+5*a(n-1)` with `a(0)=1`
@@ -985,6 +1013,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A022628.P5322542990315141241
+
+namespace A022628
+
+/-- `A016259(n)+5*a(n-1)` -/
+def P5322542990315141241.Spec : Prop :=
+  ∀ n, P5322542990315141241.a n = A022628 n
+
+end A022628
 
 /-! ## A022628.P5643582105124657674
 
@@ -1001,6 +1037,14 @@ end
 
 end A022628.P5643582105124657674
 
+namespace A022628
+
+/-- `A020447(2*n-n)+a(n-1)` -/
+def P5643582105124657674.Spec : Prop :=
+  ∀ n, P5643582105124657674.a n = A022628 n
+
+end A022628
+
 /-! ## A022628.P8611262187875598915
 
 `2*A021274(n)-A021154(n)`
@@ -1015,6 +1059,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022628.P8611262187875598915
+
+namespace A022628
+
+/-- `2*A021274(n)-A021154(n)` -/
+def P8611262187875598915.Spec : Prop :=
+  ∀ n, P8611262187875598915.a n = A022628 n
+
+end A022628
 
 /-! ## A022628.P4129522282461043436
 
@@ -1034,6 +1086,14 @@ end
 
 end A022628.P4129522282461043436
 
+namespace A022628
+
+/-- `∑[2*A016318(n)-A016301(n)]` -/
+def P4129522282461043436.Spec : Prop :=
+  ∀ n, P4129522282461043436.a n = A022628 n
+
+end A022628
+
 /-! ## A022628.P16670850006051632985
 
 `∑[2*A016318(n)]-A021154(n)`
@@ -1051,6 +1111,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022628.P16670850006051632985
+
+namespace A022628
+
+/-- `∑[2*A016318(n)]-A021154(n)` -/
+def P16670850006051632985.Spec : Prop :=
+  ∀ n, P16670850006051632985.a n = A022628 n
+
+end A022628
 
 /-! ## A022628.P10230938091359881514
 
@@ -1070,6 +1138,14 @@ end
 
 end A022628.P10230938091359881514
 
+namespace A022628
+
+/-- `2*A021274(n)-∑[A016301(n)]` -/
+def P10230938091359881514.Spec : Prop :=
+  ∀ n, P10230938091359881514.a n = A022628 n
+
+end A022628
+
 /-! ## A022628.P10603815097475979738
 
 `A021154(n)+A021274(n)-A021129(n)`
@@ -1084,6 +1160,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022628.P10603815097475979738
+
+namespace A022628
+
+/-- `A021154(n)+A021274(n)-A021129(n)` -/
+def P10603815097475979738.Spec : Prop :=
+  ∀ n, P10603815097475979738.a n = A022628 n
+
+end A022628
 
 /-! ## A022628.P5506163042424532526
 
@@ -1102,6 +1186,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022628.P5506163042424532526
+
+namespace A022628
+
+/-- `A025963(n)+∑[A025963(n)-A025960(n)]` -/
+def P5506163042424532526.Spec : Prop :=
+  ∀ n, P5506163042424532526.a n = A022628 n
+
+end A022628
 
 /-!
 # A022629: Expansion of Product_{m>=1} (1 + m*q^m).

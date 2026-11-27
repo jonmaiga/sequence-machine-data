@@ -9,18 +9,18 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
+import Seq.B000.C020
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C034
-import Seq.B000.C041
-import Seq.B000.C046
+import Seq.B000.C030
+import Seq.B000.C035
+import Seq.B000.C043
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3058,6 +3058,29 @@ The programs for A013826, the canonical program `A013826.P7206658672717729567` i
 The definition of A013826 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(5*n+1)` (program `A013826.P7206658672717729567`, by `A013826.P7206658672717729567.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
+/-! ## A013826.P16569496091344224476
+
+`ogf(3/(1-243x))`
+-/
+
+namespace A013826.P16569496091344224476
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3] [1, -243] n
+
+end
+
+end A013826.P16569496091344224476
+
+namespace A013826
+
+/-- `ogf(3/(1-243x))` -/
+def P16569496091344224476.Spec : Prop :=
+  ∀ n, P16569496091344224476.a n = A013826 n
+
+end A013826
+
 /-! ## A013826.P7206658672717729567
 
 `3^(5*n+1)`
@@ -3183,29 +3206,6 @@ theorem P14622324648708380120.correct : P14622324648708380120.Spec := by
 
 end A013826
 
-/-! ## A013826.P12752801521820278697
-
-`3^(val(a(n-1), 3)+5)` with `a(0)=3`
--/
-
-namespace A013826.P12752801521820278697
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [3] fun n a =>
-  3 ^ (SequenceMachineLib.valuation (a (n - 1)) 3 + 5)
-
-end
-
-end A013826.P12752801521820278697
-
-namespace A013826
-
-/-- `3^(val(a(n-1), 3)+5)` -/
-def P12752801521820278697.Spec : Prop :=
-  ∀ n, (P12752801521820278697.a n : ℤ) = A013826 n
-
-end A013826
-
 /-!
 # A013827: a(n) = 3^(5*n + 2).
 
@@ -3213,6 +3213,29 @@ The programs for A013827, the canonical program `A013827.P9487378613253153524` i
 
 The definition of A013827 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(5*n+2)` (program `A013827.P9487378613253153524`, by `A013827.P9487378613253153524.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A013827.P12057523445439651176
+
+`ogf(9/(1-243x))`
+-/
+
+namespace A013827.P12057523445439651176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9] [1, -243] n
+
+end
+
+end A013827.P12057523445439651176
+
+namespace A013827
+
+/-- `ogf(9/(1-243x))` -/
+def P12057523445439651176.Spec : Prop :=
+  ∀ n, P12057523445439651176.a n = A013827 n
+
+end A013827
 
 /-! ## A013827.P9487378613253153524
 
@@ -3328,32 +3351,6 @@ def P429056814978809778.Spec : Prop :=
 
 end A013827
 
-/-! ## A013827.P171528962812333380
-
-`3^record[a(n-2)+5]` with `a(0)=2, a(1)=0`
--/
-
-namespace A013827.P171528962812333380
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [2, 0] fun n f1 =>
-  f1 (n - 2) + 5
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A013827.P171528962812333380
-
-namespace A013827
-
-/-- `3^record[a(n-2)+5]` -/
-def P171528962812333380.Spec : Prop :=
-  ∀ n, (P171528962812333380.a n : ℤ) = A013827 n
-
-end A013827
-
 /-!
 # A013828: a(n) = 3^(5*n + 3).
 
@@ -3361,6 +3358,29 @@ The programs for A013828, the canonical program `A013828.P4255778069026322537` i
 
 The definition of A013828 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(5*n+3)` (program `A013828.P4255778069026322537`, by `A013828.P4255778069026322537.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A013828.P12723067949723339737
+
+`ogf(27/(1-243x))`
+-/
+
+namespace A013828.P12723067949723339737
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [27] [1, -243] n
+
+end
+
+end A013828.P12723067949723339737
+
+namespace A013828
+
+/-- `ogf(27/(1-243x))` -/
+def P12723067949723339737.Spec : Prop :=
+  ∀ n, P12723067949723339737.a n = A013828 n
+
+end A013828
 
 /-! ## A013828.P4255778069026322537
 
@@ -3479,35 +3499,6 @@ theorem P2305641723919030340.correct : P2305641723919030340.Spec := by
 
 end A013828
 
-/-! ## A013828.P8459517083539598627
-
-`9*A013826(n)`
--/
-
-namespace A013828.P8459517083539598627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  9 * A013826 n
-
-end
-
-end A013828.P8459517083539598627
-
-namespace A013828
-
-/-- `9*A013826(n)` -/
-def P8459517083539598627.Spec : Prop :=
-  ∀ n, P8459517083539598627.a n = A013828 n
-
-theorem P8459517083539598627.correct : P8459517083539598627.Spec := by
-  intro n
-  simp only [A013828, Nat.add_sub_cancel, A013828.P8459517083539598627.a, A013828.P4255778069026322537.a, A013826, A013826.P7206658672717729567.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
-end A013828
-
 /-!
 # A013829: a(n) = 3^(5*n + 4).
 
@@ -3515,6 +3506,29 @@ The programs for A013829, the canonical program `A013829.P4387884866928190256` i
 
 The definition of A013829 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(5*n+4)` (program `A013829.P4387884866928190256`, by `A013829.P4387884866928190256.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A013829.P15317254018731350559
+
+`ogf(81/(1-243x))`
+-/
+
+namespace A013829.P15317254018731350559
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [81] [1, -243] n
+
+end
+
+end A013829.P15317254018731350559
+
+namespace A013829
+
+/-- `ogf(81/(1-243x))` -/
+def P15317254018731350559.Spec : Prop :=
+  ∀ n, P15317254018731350559.a n = A013829 n
+
+end A013829
 
 /-! ## A013829.P4387884866928190256
 
@@ -3628,35 +3642,6 @@ def P7388655948388330307.Spec : Prop :=
 theorem P7388655948388330307.correct : P7388655948388330307.Spec := by
   intro n
   simp only [A013829, Nat.add_sub_cancel, A013829.P7388655948388330307.a, A013829.P4387884866928190256.a, A013827, A013827.P9487378613253153524.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
-end A013829
-
-/-! ## A013829.P11557948001307814316
-
-`27*A013826(n)`
--/
-
-namespace A013829.P11557948001307814316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  27 * A013826 n
-
-end
-
-end A013829.P11557948001307814316
-
-namespace A013829
-
-/-- `27*A013826(n)` -/
-def P11557948001307814316.Spec : Prop :=
-  ∀ n, P11557948001307814316.a n = A013829 n
-
-theorem P11557948001307814316.correct : P11557948001307814316.Spec := by
-  intro n
-  simp only [A013829, Nat.add_sub_cancel, A013829.P11557948001307814316.a, A013829.P4387884866928190256.a, A013826, A013826.P7206658672717729567.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 

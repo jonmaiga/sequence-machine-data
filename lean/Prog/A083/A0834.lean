@@ -25,7 +25,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -34,12 +33,14 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C040
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,9 +53,8 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -65,9 +65,6 @@ import Seq.B004.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,7 +76,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -91,7 +87,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -554,21 +549,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A083408.P8593560486271678598
-
-/-! ## A083408.P5298042900784277274
-
-`A083406(n+1)`
--/
-
-namespace A083408.P5298042900784277274
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083406 (n + 1)
-
-end
-
-end A083408.P5298042900784277274
 
 /-!
 # A083409: Number of prime k-tuplet constellations; i.e., patterns with minimal diameter A008407.
@@ -4484,7 +4464,7 @@ end A083425
 
 The programs for A083426, the canonical program `A083426.P14747487426713307230` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083426 has offset 0).
 
-The definition of A083426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A083426 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A083426.anchor (n : ℕ) : (A083426 n : ℚ) = (4 * 7 ^ n + 2 ^ n : ℚ) / 5` in `Proof.A083.A083426`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A083426.P15339330809742122611
@@ -7037,32 +7017,6 @@ def P4521924788359979118.Spec : Prop :=
 
 end A083474
 
-/-! ## A083474.P5028949102595448331
-
-`(C(n+2, 2)²-∏[n+1])*1`
--/
-
-namespace A083474.P5028949102595448331
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((Nat.choose (n + 2) 2 ^ 2 : ℤ) - ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)) * 1
-
-end
-
-end A083474.P5028949102595448331
-
-namespace A083474
-
-/-- `(C(n+2, 2)²-∏[n+1])*1` -/
-def P5028949102595448331.Spec : Prop :=
-  ∀ n, P5028949102595448331.a n = A083474 (n + 1)
-
-end A083474
-
 /-! ## A083474.P13583271031074593141
 
 `∑[n+1]²-A000142(n+1)`
@@ -7924,21 +7878,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A083480.P9217194758207172157
-
-/-! ## A083480.P13582005728464698200
-
-`A238326(n+1)`
--/
-
-namespace A083480.P13582005728464698200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238326 (n + 1)
-
-end
-
-end A083480.P13582005728464698200
 
 /-!
 # A083481: Squarefree part of the n-th oblong number.
@@ -9491,8 +9430,29 @@ end A083489.P1784905182462719607
 /-!
 # A083490: Multiples of 2 in which there is no common digit in successive terms.
 
-The programs for A083490, there is no canonical definition to state claims against.
+The programs for A083490, the canonical program `A083490.P16927789644888213121` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083490 has offset 0).
+
+The definition of A083490 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A083490.P16927789644888213121
+
+`ogf((2+4x+4x^2+4x^3+4x^4+14x^5+20x^6+20x^7-20x^9-20x^10-20x^11-20x^12-110x^13+10x^14+100x^15)/(1-x^2-10x^8+10x^10))`
+
+The canonical program, it is in `Seq.B000.C015`.
+-/
+
+namespace A083490
+
+/-- `ogf((2+4x+4x^2+4x^3+4x^4+14x^5+20x^6+20x^7-20x^9-20x^10-20x^11-20x^12-110x^13+10x^14+100x^15)/(1-x^2-10x^8+10x^10))` -/
+def P16927789644888213121.Spec : Prop :=
+  ∀ n, P16927789644888213121.a n = A083490 n
+
+theorem P16927789644888213121.correct : P16927789644888213121.Spec := by
+  intro n
+  simp only [A083490]
+
+end A083490
 
 /-! ## A083490.P3742602457575753813
 
@@ -9508,6 +9468,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A083490.P3742602457575753813
+
+namespace A083490
+
+/-- `A229363(n+2)` -/
+def P3742602457575753813.Spec : Prop :=
+  ∀ n, P3742602457575753813.a n = A083490 n
+
+end A083490
 
 /-! ## A083490.P14289508477650532683
 
@@ -9527,6 +9495,14 @@ end
 
 end A083490.P14289508477650532683
 
+namespace A083490
+
+/-- `record[A229363(gcd(n, A000038(n)))]` -/
+def P14289508477650532683.Spec : Prop :=
+  ∀ n, P14289508477650532683.a n = A083490 n
+
+end A083490
+
 /-! ## A083490.P3428004481039194594
 
 `record[A229363(or(n, A000038(n)))]`
@@ -9544,6 +9520,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A083490.P3428004481039194594
+
+namespace A083490
+
+/-- `record[A229363(or(n, A000038(n)))]` -/
+def P3428004481039194594.Spec : Prop :=
+  ∀ n, P3428004481039194594.a n = A083490 n
+
+end A083490
 
 /-! ## A083490.P9273486565229904288
 
@@ -9563,6 +9547,14 @@ end
 
 end A083490.P9273486565229904288
 
+namespace A083490
+
+/-- `record[A229363(xor(n, A000038(n)))]` -/
+def P9273486565229904288.Spec : Prop :=
+  ∀ n, P9273486565229904288.a n = A083490 n
+
+end A083490
+
 /-! ## A083490.P15776533194664137947
 
 `record[A229363(A080513(A008612(n)))]`
@@ -9580,6 +9572,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A083490.P15776533194664137947
+
+namespace A083490
+
+/-- `record[A229363(A080513(A008612(n)))]` -/
+def P15776533194664137947.Spec : Prop :=
+  ∀ n, P15776533194664137947.a n = A083490 n
+
+end A083490
 
 /-! ## A083490.P17742184468065063140
 
@@ -9599,6 +9599,14 @@ end
 
 end A083490.P17742184468065063140
 
+namespace A083490
+
+/-- `record[A229363(A080513(A008624(n)))]` -/
+def P17742184468065063140.Spec : Prop :=
+  ∀ n, P17742184468065063140.a n = A083490 n
+
+end A083490
+
 /-! ## A083490.P6858081582612063284
 
 `record[A229363(A012257(n))]`
@@ -9617,26 +9625,19 @@ end
 
 end A083490.P6858081582612063284
 
+namespace A083490
+
+/-- `record[A229363(A012257(n))]` -/
+def P6858081582612063284.Spec : Prop :=
+  ∀ n, P6858081582612063284.a n = A083490 n
+
+end A083490
+
 /-!
 # A083493: Multiples of 5 in which there is no common digit in successive terms.
 
 The programs for A083493, there is no canonical definition to state claims against.
 -/
-
-/-! ## A083493.P4443064174731232760
-
-`5*A050487(n+1)`
--/
-
-namespace A083493.P4443064174731232760
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * A050487 (n + 1)
-
-end
-
-end A083493.P4443064174731232760
 
 /-! ## A083493.P11101177568027083934
 

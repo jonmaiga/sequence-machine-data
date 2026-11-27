@@ -3,28 +3,28 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C006
 import Seq.B000.C020
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B002.C001
-import Seq.B004.C001
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B002.C006
+import Seq.B004.C000
+import Seq.B004.C002
+import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
