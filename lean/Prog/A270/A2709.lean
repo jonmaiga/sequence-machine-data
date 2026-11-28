@@ -12,43 +12,46 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C029
-import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C030
+import Seq.B000.C037
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C011
-import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C000
+import Seq.B002.C002
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +74,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
@@ -941,21 +943,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270912.P14565664232019011307
-
-/-! ## A270912.P5816376367958837958
-
-`A270909(n+1)+A270909(n)*(-1)`
--/
-
-namespace A270912.P5816376367958837958
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270909 (n + 1) + A270909 n * (-1)
-
-end
-
-end A270912.P5816376367958837958
 
 /-!
 # A270913: Coefficient of x^n in Product_{k>=1} (1+x^k)^n.
@@ -2015,25 +2002,10 @@ end
 
 end A270933.P17267267194611390740
 
-/-! ## A270933.P11237733403430384177
-
-`A270930(n+1)+A270930(n)*(-1)`
--/
-
-namespace A270933.P11237733403430384177
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270930 (n + 1) + A270930 n * (-1)
-
-end
-
-end A270933.P11237733403430384177
-
 /-!
 # A270934: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 221", based on the 5-celled von Neumann neighborhood.
 
-The programs for A270934, the canonical program `A270934.P5733876642086964829` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270934 has offset 0).
+The programs for A270934, the canonical program `A270934.P5733876642086964829` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270934 has offset 0).
 
 The definition of A270934 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3276 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2065,7 +2037,7 @@ end A270934
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=1, a(1)=8, a(2)=4, a(3)=44, a(4)=9, a(5)=116, a(6)=9, a(7)=220, a(8)=9`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270934
@@ -2178,7 +2150,7 @@ end A270934
 /-!
 # A270935: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 221", based on the 5-celled von Neumann neighborhood.
 
-The programs for A270935, the canonical program `A270935.P14632262992002523967` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270935 has offset 0).
+The programs for A270935, the canonical program `A270935.P14632262992002523967` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270935 has offset 0).
 
 The definition of A270935 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2470,7 +2442,7 @@ end A270935
 
 `7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=1, a(1)=8, a(2)=44, a(3)=220, a(4)=956`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270935
@@ -3480,21 +3452,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270945.P14201380522056692781
-
-/-! ## A270945.P1219086276101062049
-
-`A270942(n+1)+A270942(n)*(-1)`
--/
-
-namespace A270945.P1219086276101062049
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270942 (n + 1) + A270942 n * (-1)
-
-end
-
-end A270945.P1219086276101062049
 
 /-! ## A270945.P6238036268837112349
 
@@ -5750,7 +5707,7 @@ end A270984.P12213545567398081555
 /-!
 # A270985: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 238", based on the 5-celled von Neumann neighborhood.
 
-The programs for A270985, the canonical program `A270985.P9070630617735759994` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270985 has offset 0).
+The programs for A270985, the canonical program `A270985.P9070630617735759994` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270985 has offset 0).
 
 The definition of A270985 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5759,7 +5716,7 @@ The definition of A270985 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-3x+x^2-x^3+10x^4+8x^5-8x^6)/(1-8x+21x^2-22x^3+8x^4))`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A270985
@@ -6006,21 +5963,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270987.P437912629301640128
-
-/-! ## A270987.P363199079079836889
-
-`A270984(n+1)+A270984(n)/(-1)`
--/
-
-namespace A270987.P363199079079836889
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A270984 (n + 1) : ℚ) + (A270984 n : ℚ) / (-1)
-
-end
-
-end A270987.P363199079079836889
 
 /-!
 # A270988: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 241", based on the 5-celled von Neumann neighborhood.
@@ -6352,7 +6294,7 @@ end A270991.P4652712094681241479
 /-!
 # A270992: Number of distinct prime divisors of prime(n)+1 and prime(n+1)+1.
 
-The programs for A270992, the canonical program `A270992.P13285729365209824530` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270992 has offset 1).
+The programs for A270992, the canonical program `A270992.P13285729365209824530` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270992 has offset 1).
 
 The definition of A270992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6361,7 +6303,7 @@ The definition of A270992 is `conjectured`: the Lean definition is a formula tha
 
 `A001221(A063086(1+n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A270992

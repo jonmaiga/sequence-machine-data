@@ -2,24 +2,28 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
-import Seq.B000.C036
-import Seq.B000.C045
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C047
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -29,7 +33,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -40,9 +43,8 @@ import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B007.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -65,6 +67,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -2037,6 +2040,21 @@ end A078244.P8522216774619478326
 The programs for A078245, there is no canonical definition to state claims against.
 -/
 
+/-! ## A078245.P18020187759806178366
+
+`A004290(A060789(n+1))*6`
+-/
+
+namespace A078245.P18020187759806178366
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004290 (A060789 (n + 1)).toNat * 6
+
+end
+
+end A078245.P18020187759806178366
+
 /-! ## A078245.P8554425625451651260
 
 `A078242(n+1)/A079339(n+1)*A096681(n+1)`
@@ -2111,21 +2129,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078245.P9530006659859637207
-
-/-! ## A078245.P18020187759806178366
-
-`A004290(A060789(n+1))*6`
--/
-
-namespace A078245.P18020187759806178366
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004290 (A060789 (n + 1)).toNat * 6
-
-end
-
-end A078245.P18020187759806178366
 
 /-! ## A078245.P279830482895589706
 
@@ -3714,29 +3717,6 @@ def P18007223784043667473.Spec : Prop :=
 
 end A078267
 
-/-! ## A078267.P7485560385014017732
-
-`A226219(A237416(n+1))-1`
--/
-
-namespace A078267.P7485560385014017732
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226219 (A237416 (n + 1)).toNat - 1
-
-end
-
-end A078267.P7485560385014017732
-
-namespace A078267
-
-/-- `A226219(A237416(n+1))-1` -/
-def P7485560385014017732.Spec : Prop :=
-  ∀ n, P7485560385014017732.a n = A078267 (n + 1)
-
-end A078267
-
 /-! ## A078267.P4186534913127889904
 
 `A226219(A044332(n+1))-1`
@@ -4323,27 +4303,6 @@ end
 end A078281.P808924861145810315
 
 /-!
-# A078282: a(1) = 1, a(n) is the smallest multiple of n which begins with a(n-1) and is greater than a(n-1).
-
-The programs for A078282, there is no canonical definition to state claims against.
--/
-
-/-! ## A078282.P8035419073429965439
-
-`A214437(n+1)`
--/
-
-namespace A078282.P8035419073429965439
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214437 (n + 1)
-
-end
-
-end A078282.P8035419073429965439
-
-/-!
 # A078283: a(1) = 1, a(n) is the smallest multiple of n which is obtained by inserting/prefixing or suffixing at least one digit in a(n-1).
 
 The programs for A078283, there is no canonical definition to state claims against.
@@ -4363,21 +4322,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078283.P3124794007867644414
-
-/-! ## A078283.P5709777245026249278
-
-`A080502(n+1)`
--/
-
-namespace A078283.P5709777245026249278
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080502 (n + 1)
-
-end
-
-end A078283.P5709777245026249278
 
 /-!
 # A078284: a(n) = A078283(n)/n.
@@ -4416,21 +4360,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A078284.P18318830671960054873
-
-/-! ## A078284.P3173303861354030667
-
-`A080503(n+1)`
--/
-
-namespace A078284.P3173303861354030667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080503 (n + 1)
-
-end
-
-end A078284.P3173303861354030667
 
 /-!
 # A078285: Least nontrivial multiple of the n-th prime beginning with 1.
@@ -4721,30 +4650,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078290.P14051684033030191498
-
-/-!
-# A078292: Least nontrivial multiple of the n-th prime beginning with 8.
-
-The programs for A078292, there is no canonical definition to state claims against.
--/
-
-/-! ## A078292.P11441935956508054614
-
-`A082798(Δ[A007504(n)])`
--/
-
-namespace A078292.P11441935956508054614
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007504 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082798 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A078292.P11441935956508054614
 
 /-!
 # A078293: Least nontrivial multiple of the n-th prime beginning with 9.

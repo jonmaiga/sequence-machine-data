@@ -13,32 +13,33 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +53,6 @@ import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
-import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,11 +60,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -75,13 +76,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +94,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -106,7 +104,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4713,21 +4710,6 @@ end
 
 end A090338.P9367058058003620999
 
-/-! ## A090338.P12265087471042230331
-
-`A090339(n)`
--/
-
-namespace A090338.P12265087471042230331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090339 n
-
-end
-
-end A090338.P12265087471042230331
-
 /-!
 # A090339: Number of pseudoline arrangements with n curves.
 
@@ -6877,7 +6859,7 @@ end A090345
 /-!
 # A090346: Number of divisors of prime(n) + prime(n+1).
 
-The programs for A090346, the canonical program `A090346.P12809804946488414554` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090346 has offset 1).
+The programs for A090346, the canonical program `A090346.P12809804946488414554` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090346 has offset 1).
 
 The definition of A090346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6993,7 +6975,7 @@ end A090346
 
 `∏{e}[record[A006530(n+2)]+A000040(n+2), #+1]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A090346
@@ -8208,7 +8190,7 @@ end A090367.P5208867733930408757
 /-!
 # A090368: a(1) = 1; for n > 1, smallest divisor > 1 of 2n-1.
 
-The programs for A090368, the canonical program `A090368.P599167909561709513` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090368 has offset 1).
+The programs for A090368, the canonical program `A090368.P599167909561709513` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090368 has offset 1).
 
 The definition of A090368 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8217,7 +8199,7 @@ The definition of A090368 is `conjectured`: the Lean definition is a formula tha
 
 `A020639(Δ[n²])`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090368
@@ -11397,8 +11379,29 @@ end A090390
 /-!
 # A090391: a(n) = n*(n^4 + 30*n^3 + 395*n^2 + 2910*n + 11064)/120.
 
-The programs for A090391, there is no canonical definition to state claims against.
+The programs for A090391, the canonical program `A090391.P10981268582647827775` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090391 has offset 0).
+
+The definition of A090391 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A090391.P10981268582647827775
+
+`ogf((120x-408x^2+534x^3-316x^4+71x^5)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C016`.
+-/
+
+namespace A090391
+
+/-- `ogf((120x-408x^2+534x^3-316x^4+71x^5)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))` -/
+def P10981268582647827775.Spec : Prop :=
+  ∀ n, P10981268582647827775.a n = A090391 n
+
+theorem P10981268582647827775.correct : P10981268582647827775.Spec := by
+  intro n
+  simp only [A090391]
+
+end A090391
 
 /-! ## A090391.P4799578246562726601
 
@@ -11414,6 +11417,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090391.P4799578246562726601
+
+namespace A090391
+
+/-- `A084938(A055999(n+3))` -/
+def P4799578246562726601.Spec : Prop :=
+  ∀ n, P4799578246562726601.a n = A090391 n
+
+end A090391
 
 /-!
 # A090392: Seventh diagonal (m=6) of triangle A084938; a(n) = A084938(n+6,n) = (n^6 + 45*n^5 + 925*n^4 + 11475*n^3 + 92314*n^2 + 413640*n)/720.

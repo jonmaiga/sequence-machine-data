@@ -9,9 +9,9 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -25,15 +25,18 @@ import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +54,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -59,11 +62,13 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -71,8 +76,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -226,21 +229,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329104.P8219523746828519851
-
-/-! ## A329104.P3425013253368565667
-
-`A056075(n+3)`
--/
-
-namespace A329104.P3425013253368565667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056075 (n + 3)
-
-end
-
-end A329104.P3425013253368565667
 
 /-!
 # A329106: Primes containing at least one of the following digits: 4, 6, 8, or 9.
@@ -2799,46 +2787,10 @@ end
 end A329126.P7924068132020883687
 
 /-!
-# A329127: Lexicographically earliest sequence of distinct positive integers such that the concatenation of the odd-indexed terms equals the concatenation of the even-indexed terms.
-
-The programs for A329127, there is no canonical definition to state claims against.
--/
-
-/-! ## A329127.P1159226125323077562
-
-`A342076(1+n)`
--/
-
-namespace A329127.P1159226125323077562
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342076 (1 + n)
-
-end
-
-end A329127.P1159226125323077562
-
-/-!
 # A329129: Squares visited by a knight moving on a board with squares numbered with the minimum number of steps for a knight to reach the square when starting from the origin. The knight moves to the smallest numbered unvisited square; the minimum distance from the origin is used if the square numbers are equal; the smallest spiral number ordering is used if the distances are equal.
 
 The programs for A329129, there is no canonical definition to state claims against.
 -/
-
-/-! ## A329129.P12725102560965865968
-
-`A008611(A064289(n+1))`
--/
-
-namespace A329129.P12725102560965865968
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008611 (A064289 (n + 1)).toNat
-
-end
-
-end A329129.P12725102560965865968
 
 /-! ## A329129.P8804917967389900717
 
@@ -2993,21 +2945,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329131.P7241247071740884283
-
-/-! ## A329131.P11664414653352566146
-
-`A334965(2+n)`
--/
-
-namespace A329131.P11664414653352566146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334965 (2 + n)
-
-end
-
-end A329131.P11664414653352566146
 
 /-!
 # A329132: Numbers whose augmented differences of prime indices are a periodic sequence.
@@ -3829,21 +3766,6 @@ end
 
 end A329138.P2746071593035386129
 
-/-! ## A329138.P10189632897476589216
-
-`A362619(1+n+1)`
--/
-
-namespace A329138.P10189632897476589216
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362619 (1 + (n + 1))
-
-end
-
-end A329138.P10189632897476589216
-
 /-! ## A329138.P13194482831076917397
 
 `A325361(A281873(n+2))`
@@ -3888,36 +3810,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329140.P17289846974861722548
-
-/-! ## A329140.P14281979604583669573
-
-`A182853(n+1)`
--/
-
-namespace A329140.P14281979604583669573
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182853 (n + 1)
-
-end
-
-end A329140.P14281979604583669573
-
-/-! ## A329140.P13292520702226589482
-
-`A362605(n+1)`
--/
-
-namespace A329140.P13292520702226589482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362605 (n + 1)
-
-end
-
-end A329140.P13292520702226589482
 
 /-! ## A329140.P9781478446516611187
 
@@ -6560,42 +6452,6 @@ end
 end A329170.P7150743664301952754
 
 /-!
-# A329171: Successive squares visited by a knight on the single-digit square spiral, with ties resolved by choosing the point to the left of the line from the knight's current position to the 0-squared origin.
-
-The programs for A329171, there is no canonical definition to state claims against.
--/
-
-/-! ## A329171.P4816166116895140780
-
-`A326918(n)`
--/
-
-namespace A329171.P4816166116895140780
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326918 n
-
-end
-
-end A329171.P4816166116895140780
-
-/-! ## A329171.P612374150656495050
-
-`A007376(A326916(n))`
--/
-
-namespace A329171.P612374150656495050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007376 (A326916 n).toNat
-
-end
-
-end A329171.P612374150656495050
-
-/-!
 # A329172: a(n) is the least positive exponent k such that the decimal expansion of 5^k contains n consecutive zeros.
 
 The programs for A329172, there is no canonical definition to state claims against.
@@ -7348,7 +7204,7 @@ end A329183.P10469923623995381686
 /-!
 # A329185: Number of ways to tile a 2 X n grid with dominoes and L-trominoes such that no four tiles meet at a corner.
 
-The programs for A329185, the canonical program `A329185.P12215449232614134701` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329185 has offset 0).
+The programs for A329185, the canonical program `A329185.P12215449232614134701` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329185 has offset 0).
 
 The definition of A329185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7380,7 +7236,7 @@ end A329185
 
 `2*a(n-1)-a(n-2)+3*a(n-3)-a(n-4)+2*a(n-5)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=5, a(4)=10`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A329185
@@ -7888,7 +7744,7 @@ end A329192.P6360208958233812745
 /-!
 # A329193: a(n) = floor(log_2(n^3)) = floor(3 log_2(n)).
 
-The programs for A329193, the canonical program `A329193.P2610097991636405094` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329193 has offset 1).
+The programs for A329193, the canonical program `A329193.P2610097991636405094` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329193 has offset 1).
 
 The definition of A329193 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log2((n+1)^3))` (program `A329193.P2610097991636405094`, by `A329193.P2610097991636405094.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7922,7 +7778,7 @@ end A329193
 
 `floor(log2((n+1)^3))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A329193

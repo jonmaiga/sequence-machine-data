@@ -5,34 +5,34 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C038
 import Seq.B000.C042
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C007
@@ -41,17 +41,19 @@ import Seq.B002.C000
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -77,7 +79,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -794,21 +795,6 @@ end A034508.P5904907869966380170
 
 The programs for A034509, there is no canonical definition to state claims against.
 -/
-
-/-! ## A034509.P6961464227951273559
-
-`A034521(n+2)`
--/
-
-namespace A034509.P6961464227951273559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034521 (n + 2)
-
-end
-
-end A034509.P6961464227951273559
 
 /-! ## A034509.P13479779734209555659
 
@@ -1822,6 +1808,29 @@ The programs for A034517, the canonical program `A034517.P14637993653039669380` 
 The definition of A034517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A034517.P656300618617505092
+
+`ogf((4-54x+194x^2-180x^3)/(1-18x+97x^2-180x^3+100x^4))`
+-/
+
+namespace A034517.P656300618617505092
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -54, 194, -180] [1, -18, 97, -180, 100] n
+
+end
+
+end A034517.P656300618617505092
+
+namespace A034517
+
+/-- `ogf((4-54x+194x^2-180x^3)/(1-18x+97x^2-180x^3+100x^4))` -/
+def P656300618617505092.Spec : Prop :=
+  ∀ n, P656300618617505092.a n = A034517 n
+
+end A034517
+
 /-! ## A034517.P14637993653039669380
 
 `10^n+5^n+2^n+1`
@@ -2055,24 +2064,6 @@ end A034518.P6043221364029210916
 The programs for A034519, there is no canonical definition to state claims against.
 -/
 
-/-! ## A034519.P13150577352223163265
-
-`Δ[A034561(n+4)]`
--/
-
-namespace A034519.P13150577352223163265
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034561 (n + 4)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A034519.P13150577352223163265
-
 /-! ## A034519.P3905795434962744204
 
 `A035517(C(A204591(n), 13))`
@@ -2219,21 +2210,6 @@ end A034520.P16259970930230231694
 
 The programs for A034521, there is no canonical definition to state claims against.
 -/
-
-/-! ## A034521.P15453940563423550900
-
-`A034509(A028310(n))`
--/
-
-namespace A034521.P15453940563423550900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034509 (A028310 n).toNat
-
-end
-
-end A034521.P15453940563423550900
 
 /-! ## A034521.P71287450767077719
 
@@ -2514,36 +2490,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034525.P6859550774203015070
-
-/-! ## A034525.P7956099475693676720
-
-`A034539(n+1)-A034538(n+1)`
--/
-
-namespace A034525.P7956099475693676720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034539 (n + 1) - A034538 (n + 1)
-
-end
-
-end A034525.P7956099475693676720
-
-/-! ## A034525.P14584931959687486300
-
-`A034539(n+1)-A034540(n+1)`
--/
-
-namespace A034525.P14584931959687486300
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034539 (n + 1) - A034540 (n + 1)
-
-end
-
-end A034525.P14584931959687486300
 
 /-! ## A034525.P7607388454118247707
 
@@ -3073,21 +3019,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034531.P11001657570768649271
-
-/-! ## A034531.P6913386715211638033
-
-`A034550(n+2)`
--/
-
-namespace A034531.P6913386715211638033
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034550 (n + 2)
-
-end
-
-end A034531.P6913386715211638033
 
 /-!
 # A034532: Multiplicity of highest weight (or singular) vectors associated with character chi_144 of Monster module.
@@ -3675,21 +3606,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034538.P17413995388384892320
-
-/-! ## A034538.P8876575493282712279
-
-`A034540(n+1)`
--/
-
-namespace A034538.P8876575493282712279
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034540 (n + 1)
-
-end
-
-end A034538.P8876575493282712279
 
 /-!
 # A034539: Multiplicity of highest weight (or singular) vectors associated with character chi_151 of Monster module.
@@ -4680,21 +4596,6 @@ end
 
 end A034550.P4569360491086940757
 
-/-! ## A034550.P17667833952639690739
-
-`A034538(n+2)`
--/
-
-namespace A034550.P17667833952639690739
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034538 (n + 2)
-
-end
-
-end A034550.P17667833952639690739
-
 /-!
 # A034551: Multiplicity of highest weight (or singular) vectors associated with character chi_163 of Monster module.
 
@@ -4959,21 +4860,6 @@ end
 
 end A034554.P7278156952375265006
 
-/-! ## A034554.P9087349767559624388
-
-`A034562(n+1)`
--/
-
-namespace A034554.P9087349767559624388
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034562 (n + 1)
-
-end
-
-end A034554.P9087349767559624388
-
 /-! ## A034554.P10123151460306144097
 
 `A338333(A034479(n+1))`
@@ -5003,21 +4889,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034554.P15317923048285471462
-
-/-! ## A034554.P970752271242809061
-
-`A034544(n+2)`
--/
-
-namespace A034554.P970752271242809061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034544 (n + 2)
-
-end
-
-end A034554.P970752271242809061
 
 /-!
 # A034555: Multiplicity of highest weight (or singular) vectors associated with character chi_167 of Monster module.
@@ -6999,21 +6870,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034579.P9046844921611527902
-
-/-! ## A034579.P8570135527627553743
-
-`A034580(n+1)`
--/
-
-namespace A034579.P8570135527627553743
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034580 (n + 1)
-
-end
-
-end A034579.P8570135527627553743
 
 /-!
 # A034580: Multiplicity of highest weight (or singular) vectors associated with character chi_192 of Monster module.

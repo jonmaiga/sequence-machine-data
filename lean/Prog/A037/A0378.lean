@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,25 +15,26 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C032
+import Seq.B000.C036
+import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,16 +43,15 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -65,6 +66,7 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -78,12 +80,12 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -92,7 +94,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
@@ -2959,21 +2960,6 @@ end
 
 end A037817.P9703260284789256263
 
-/-! ## A037817.P16236270256828991068
-
-`A004216(n+1)-(A123895(A037860(n+1))+0)`
--/
-
-namespace A037817.P16236270256828991068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004216 (n + 1) - (A123895 (A037860 (n + 1)).toNat + 0)
-
-end
-
-end A037817.P16236270256828991068
-
 /-! ## A037817.P16235342182570966250
 
 `A055642(n+1)-A095827(n+2)`
@@ -3604,21 +3590,6 @@ end
 
 end A037822.P11403968597179186724
 
-/-! ## A037822.P16663203794325956741
-
-`A000166(0^A037875(n+1))`
--/
-
-namespace A037822.P16663203794325956741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000166 (SequenceMachineLib.roundAway ((0 : ℚ) ^ (A037875 (n + 1) : ℤ))).toNat
-
-end
-
-end A037822.P16663203794325956741
-
 /-! ## A037822.P17420664454014264569
 
 `ceil(A037857(n+1)/(A117656((n+1)²)+n))`
@@ -4116,21 +4087,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037825.P18087351339586329739
-
-/-! ## A037825.P3584233476048988498
-
-`A123895(A037860(n+1))`
--/
-
-namespace A037825.P3584233476048988498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123895 (A037860 (n + 1)).toNat
-
-end
-
-end A037825.P3584233476048988498
 
 /-! ## A037825.P15040107722117871476
 
@@ -6422,29 +6378,6 @@ def P15010722314719303749.Spec : Prop :=
 
 end A037840
 
-/-! ## A037840.P8159351738588590711
-
-`A037902(n+1)`
--/
-
-namespace A037840.P8159351738588590711
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037902 (n + 1)
-
-end
-
-end A037840.P8159351738588590711
-
-namespace A037840
-
-/-- `A037902(n+1)` -/
-def P8159351738588590711.Spec : Prop :=
-  ∀ n, P8159351738588590711.a n = A037840 (n + 1)
-
-end A037840
-
 /-! ## A037840.P10226665663610327547
 
 `A037876(A020336(n+1))`
@@ -6465,29 +6398,6 @@ namespace A037840
 /-- `A037876(A020336(n+1))` -/
 def P10226665663610327547.Spec : Prop :=
   ∀ n, P10226665663610327547.a n = A037840 (n + 1)
-
-end A037840
-
-/-! ## A037840.P9819202383813029415
-
-`A037894(n+1)`
--/
-
-namespace A037840.P9819202383813029415
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037894 (n + 1)
-
-end
-
-end A037840.P9819202383813029415
-
-namespace A037840
-
-/-- `A037894(n+1)` -/
-def P9819202383813029415.Spec : Prop :=
-  ∀ n, P9819202383813029415.a n = A037840 (n + 1)
 
 end A037840
 
@@ -6633,52 +6543,6 @@ namespace A037841
 /-- `A347689(record[A048379(n+1)])` -/
 def P9097177802060770236.Spec : Prop :=
   ∀ n, P9097177802060770236.a n = A037841 (n + 1)
-
-end A037841
-
-/-! ## A037841.P7628713548830716879
-
-`A165091(A165110(n+1))`
--/
-
-namespace A037841.P7628713548830716879
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165091 (A165110 (n + 1)).toNat
-
-end
-
-end A037841.P7628713548830716879
-
-namespace A037841
-
-/-- `A165091(A165110(n+1))` -/
-def P7628713548830716879.Spec : Prop :=
-  ∀ n, P7628713548830716879.a n = A037841 (n + 1)
-
-end A037841
-
-/-! ## A037841.P15537348028439540909
-
-`A037895(n+1)`
--/
-
-namespace A037841.P15537348028439540909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037895 (n + 1)
-
-end
-
-end A037841.P15537348028439540909
-
-namespace A037841
-
-/-- `A037895(n+1)` -/
-def P15537348028439540909.Spec : Prop :=
-  ∀ n, P15537348028439540909.a n = A037841 (n + 1)
 
 end A037841
 
@@ -7039,21 +6903,6 @@ end
 
 end A037845.P5518665774280447873
 
-/-! ## A037845.P14633123969439596146
-
-`A037881(1+n)`
--/
-
-namespace A037845.P14633123969439596146
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037881 (1 + n)
-
-end
-
-end A037845.P14633123969439596146
-
 /-!
 # A037846: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
@@ -7165,21 +7014,6 @@ end
 
 end A037846.P8080950066378486904
 
-/-! ## A037846.P11076798698101019511
-
-`A037882(1+n)`
--/
-
-namespace A037846.P11076798698101019511
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037882 (1 + n)
-
-end
-
-end A037846.P11076798698101019511
-
 /-!
 # A037847: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.
 
@@ -7276,21 +7110,6 @@ end
 
 end A037847.P4630263386819812775
 
-/-! ## A037847.P2017125666553039802
-
-`A037883(n+1)`
--/
-
-namespace A037847.P2017125666553039802
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037883 (n + 1)
-
-end
-
-end A037847.P2017125666553039802
-
 /-!
 # A037848: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*7^i: i=0,1,...,m} is the base 7 representation of n.
 
@@ -7371,21 +7190,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037848.P12875480639082066904
-
-/-! ## A037848.P3971803394288792945
-
-`A037884(n+1)`
--/
-
-namespace A037848.P3971803394288792945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037884 (n + 1)
-
-end
-
-end A037848.P3971803394288792945
 
 /-!
 # A037849: a(n) = Sum_{d(i) < d(i-1), i=1..m} (d(i-1) - d(i)), where Sum{d(i)*8^i: i=0,1,...,m} is the base-8 representation of n.
@@ -7483,21 +7287,6 @@ end
 
 end A037849.P4604510580102382879
 
-/-! ## A037849.P11559720806818741169
-
-`A037885(n+1)`
--/
-
-namespace A037849.P11559720806818741169
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037885 (n + 1)
-
-end
-
-end A037849.P11559720806818741169
-
 /-! ## A037849.P3890911269332070029
 
 `A037887(A171644(n+1))`
@@ -7563,21 +7352,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037850.P5322002961365099398
-
-/-! ## A037850.P17899525895212220824
-
-`A037886(n+1)`
--/
-
-namespace A037850.P17899525895212220824
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037886 (n + 1)
-
-end
-
-end A037850.P17899525895212220824
 
 /-!
 # A037851: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*10^i: i=0,1,...,m} is the base 10 representation of n.
@@ -7689,21 +7463,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037851.P18262144998730652327
-
-/-! ## A037851.P6597142057831839151
-
-`A037887(n+1)`
--/
-
-namespace A037851.P6597142057831839151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037887 (n + 1)
-
-end
-
-end A037851.P6597142057831839151
 
 /-! ## A037851.P4243075911138460653
 
@@ -8514,21 +8273,6 @@ end
 
 end A037854.P1566027850290003208
 
-/-! ## A037854.P4860430180182039681
-
-`A037872(n+1)`
--/
-
-namespace A037854.P4860430180182039681
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037872 (n + 1)
-
-end
-
-end A037854.P4860430180182039681
-
 /-!
 # A037855: Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is base 5 representation of n.
 
@@ -8624,21 +8368,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037855.P3302806527500657073
-
-/-! ## A037855.P10516036248574875192
-
-`A037873(n+1)`
--/
-
-namespace A037855.P10516036248574875192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037873 (n + 1)
-
-end
-
-end A037855.P10516036248574875192
 
 /-! ## A037855.P8653092488866106537
 
@@ -8736,21 +8465,6 @@ end
 
 end A037856.P12053567620280835940
 
-/-! ## A037856.P6876593470848688027
-
-`A037874(n+1)`
--/
-
-namespace A037856.P6876593470848688027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037874 (n + 1)
-
-end
-
-end A037856.P6876593470848688027
-
 /-!
 # A037857: Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*7^i: i=0,1,...,m} is base 7 representation of n.
 
@@ -8816,21 +8530,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037857.P8273069585603317774
-
-/-! ## A037857.P11075875702211413708
-
-`A037875(n+1)`
--/
-
-namespace A037857.P11075875702211413708
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037875 (n + 1)
-
-end
-
-end A037857.P11075875702211413708
 
 /-!
 # A037858: Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*8^i: i=0,1,...,m} is base 8 representation of n.
@@ -8928,21 +8627,6 @@ end
 
 end A037858.P15888992714082188624
 
-/-! ## A037858.P7472583303698818041
-
-`A037876(n+1)`
--/
-
-namespace A037858.P7472583303698818041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037876 (n + 1)
-
-end
-
-end A037858.P7472583303698818041
-
 /-!
 # A037859: Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*9^i: i=0,1,...,m} is base 9 representation of n.
 
@@ -8978,21 +8662,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037859.P7764641362107996148
-
-/-! ## A037859.P4509024593686397555
-
-`A037877(n+1)`
--/
-
-namespace A037859.P4509024593686397555
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037877 (n + 1)
-
-end
-
-end A037859.P4509024593686397555
 
 /-!
 # A037860: Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*10^i: i=0,1,...,m} is base 10 representation of n.
@@ -9134,21 +8803,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037860.P13740195479815357612
-
-/-! ## A037860.P17494073666106731677
-
-`A037878(n+1)`
--/
-
-namespace A037860.P17494073666106731677
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037878 (n + 1)
-
-end
-
-end A037860.P17494073666106731677
 
 /-!
 # A037861: (Number of 0's) - (number of 1's) in the base-2 representation of n.
@@ -10290,7 +9944,7 @@ end A037863
 /-!
 # A037864: a(n)=(number of digits <=2)-(number of digits >2) in base 5 representation of n.
 
-The programs for A037864, the canonical program `A037864.P18080796445639344832` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037864 has offset 1).
+The programs for A037864, the canonical program `A037864.P18080796445639344832` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037864 has offset 1).
 
 The definition of A037864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10299,7 +9953,7 @@ The definition of A037864 is `conjectured`: the Lean definition is a formula tha
 
 `A037865(A037465(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A037864
@@ -10505,7 +10159,7 @@ end A037865
 /-!
 # A037866: a(n)=(number of digits <=3)-(number of digits >3) in base 7 representation of n.
 
-The programs for A037866, the canonical program `A037866.P11711700846187334671` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037866 has offset 1).
+The programs for A037866, the canonical program `A037866.P11711700846187334671` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037866 has offset 1).
 
 The definition of A037866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6041 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10514,7 +10168,7 @@ The definition of A037866 is `conjectured`: the Lean definition is a formula tha
 
 `A037867(A037474(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A037866

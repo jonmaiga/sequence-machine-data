@@ -24,26 +24,27 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C044
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -72,14 +73,14 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +92,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -203,21 +203,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A134600.P1472098267690858925
-
-/-! ## A134600.P1874835286819834023
-
-`A134601(n+1)`
--/
-
-namespace A134600.P1874835286819834023
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134601 (n + 1)
-
-end
-
-end A134600.P1874835286819834023
 
 /-!
 # A134601: Composite numbers such that the square mean of their prime factors is a prime (where the prime factors are taken with multiplicity and the square mean of c and d is sqrt((c^2+d^2)/2)).
@@ -467,34 +452,6 @@ end
 end A134606.P7895010350008261804
 
 /-!
-# A134608: Composite numbers such that the cube root of the sum of cubes of their prime factors is an integer.
-
-The programs for A134608, there is no canonical definition to state claims against.
--/
-
-/-! ## A134608.P16493072241768804017
-
-`∪[A134609(n+1), A134610(n+1)]`
--/
-
-namespace A134608.P16493072241768804017
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134609 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134610 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A134608.P16493072241768804017
-
-/-!
 # A134609: Numbers such that the cube root of the sum of cubes of their prime factors is a nonprime integer.
 
 The programs for A134609, there is no canonical definition to state claims against.
@@ -520,21 +477,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134609.P1524445540097853349
-
-/-! ## A134609.P8077962931035595837
-
-`A134608(A325367(n+1))`
--/
-
-namespace A134609.P8077962931035595837
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134608 (A325367 (n + 1)).toNat
-
-end
-
-end A134609.P8077962931035595837
 
 /-!
 # A134611: Nonprime numbers such that the root mean cube of their prime factors is an integer (where the root mean cube of c and d is ((c^3+d^3)/2)^(1/3)).
@@ -586,50 +528,6 @@ end
 
 end A134611.P119129075382843717
 
-/-! ## A134611.P11663999767677899580
-
-`∪[A025475(n+1), A134613(n+1)]`
--/
-
-namespace A134611.P11663999767677899580
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025475 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134613 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A134611.P11663999767677899580
-
-/-! ## A134611.P8480878415702642363
-
-`∪[A134613(n+1), A249435(n+1)+1]`
--/
-
-namespace A134611.P8480878415702642363
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134613 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249435 (n + 1) + 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A134611.P8480878415702642363
-
 /-!
 # A134616: Numbers such that the sum of squares of their prime factors (taken with multiplicity) is a prime.
 
@@ -662,21 +560,6 @@ end A134616.P17417368114863584248
 
 The programs for A134622, there is no canonical definition to state claims against.
 -/
-
-/-! ## A134622.P1477622340083628205
-
-`A178378(n+2)`
--/
-
-namespace A134622.P1477622340083628205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178378 (n + 2)
-
-end
-
-end A134622.P1477622340083628205
 
 /-! ## A134622.P17143825805693427392
 
@@ -1272,21 +1155,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134628.P2816936886946973580
-
-/-! ## A134628.P6181684636895710972
-
-`A064882(n+1)`
--/
-
-namespace A134628.P6181684636895710972
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064882 (n + 1)
-
-end
-
-end A134628.P6181684636895710972
 
 /-! ## A134628.P7006342678634774845
 
@@ -4759,36 +4627,6 @@ end
 
 end A134661.P10593292403840863545
 
-/-! ## A134661.P3962315964915171027
-
-`A003056(A246039(n))`
--/
-
-namespace A134661.P3962315964915171027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A246039 n).toNat
-
-end
-
-end A134661.P3962315964915171027
-
-/-! ## A134661.P13098968642850571106
-
-`A066207(A246029(n))`
--/
-
-namespace A134661.P13098968642850571106
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066207 (A246029 n).toNat
-
-end
-
-end A134661.P13098968642850571106
-
 /-! ## A134661.P2489889433311450746
 
 `A060462(A278222(n)%A292154(3*n+2))`
@@ -4803,27 +4641,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134661.P2489889433311450746
-
-/-!
-# A134664: Number of 3-stack sortable permutations on n letters.
-
-The programs for A134664, there is no canonical definition to state claims against.
--/
-
-/-! ## A134664.P11617053801543113407
-
-`A375913(n+1)`
--/
-
-namespace A134664.P11617053801543113407
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375913 (n + 1)
-
-end
-
-end A134664.P11617053801543113407
 
 /-!
 # A134665: Exponent of highest power of 2 dividing the n-th multiply perfect number A007691.
@@ -4914,7 +4731,7 @@ end A134665.P9142910239155989362
 
 The programs for A134667, the canonical program `A134667.P10520602456180763309` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134667 has offset 0).
 
-The definition of A134667 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A134667 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134667.anchor (n : ℕ) : A134667 n = [0, 1, 0, 0, 0, -1].getD (n % 6) 0` in `Proof.A134.A134667`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A134667.P10520602456180763309
@@ -4941,7 +4758,7 @@ end A134667
 
 The programs for A134668, the canonical program `A134668.P16088349378316708273` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134668 has offset 0).
 
-The definition of A134668 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A134668 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134668.anchor (n : ℕ) : A134668 n = [1, -1, 0, 0, -1, 1].getD (n % 6) 0` in `Proof.A134.A134668`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A134668.P16088349378316708273

@@ -10,30 +10,32 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C020
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -52,14 +54,12 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C005
-import Seq.B004.C002
+import Seq.B003.C006
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,6 +73,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -1099,7 +1100,7 @@ end A299640.P9811101606124814540
 /-!
 # A299641: Solution (d(n)) of the system of 5 complementary equations in Comments.
 
-The programs for A299641, the canonical program `A299641.P12124779047206357815` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299641 has offset 0).
+The programs for A299641, the canonical program `A299641.P12124779047206357815` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299641 has offset 0).
 
 The definition of A299641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1160,7 +1161,7 @@ end A299641
 
 `round((17*n+16)/4)`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299641
@@ -2130,7 +2131,7 @@ end A299644
 /-!
 # A299645: Numbers of the form m*(8*m + 5), where m is an integer.
 
-The programs for A299645, the canonical program `A299645.P15618354668102227947` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299645 has offset 1).
+The programs for A299645, the canonical program `A299645.P15618354668102227947` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299645 has offset 1).
 
 The definition of A299645 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2206,7 +2207,7 @@ end A299645
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=3, a(2)=13, a(3)=22, a(4)=42`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299645
@@ -2659,7 +2660,7 @@ end A299645
 /-!
 # A299646: a(n) = Sum_{k = n..2*n+1} k^2.
 
-The programs for A299646, the canonical program `A299646.P3426772085949142313` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299646 has offset 0).
+The programs for A299646, the canonical program `A299646.P3426772085949142313` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299646 has offset 0).
 
 The definition of A299646 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[2*n+1-n, (#+n)²]` (program `A299646.P3426772085949142313`, by `A299646.P3426772085949142313.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2737,7 +2738,7 @@ end A299646
 
 `∑{#}[2*n+1-n, (#+n)²]`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299646
@@ -3141,7 +3142,7 @@ end A299646
 /-!
 # A299647: Positive solutions to x^2 == -2 (mod 11).
 
-The programs for A299647, the canonical program `A299647.P6032321218528371599` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299647 has offset 1).
+The programs for A299647, the canonical program `A299647.P6032321218528371599` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299647 has offset 1).
 
 The definition of A299647 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3173,7 +3174,7 @@ end A299647
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=3, a(1)=8, a(2)=14`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299647
@@ -3899,21 +3900,6 @@ end A299653.P13270149374753102643
 The programs for A299654, there is no canonical definition to state claims against.
 -/
 
-/-! ## A299654.P3596535438542766908
-
-`A316808(n+1)`
--/
-
-namespace A299654.P3596535438542766908
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316808 (n + 1)
-
-end
-
-end A299654.P3596535438542766908
-
 /-! ## A299654.P10472914377051398653
 
 `A164089(6*A213418(n+1))`
@@ -4148,21 +4134,6 @@ end
 
 end A299661.P5910311257440936768
 
-/-! ## A299661.P18037825773212100252
-
-`A316815(n+1)`
--/
-
-namespace A299661.P18037825773212100252
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316815 (n + 1)
-
-end
-
-end A299661.P18037825773212100252
-
 /-!
 # A299662: Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 6 or 7 king-move adjacent elements, with upper left element zero.
 
@@ -4360,27 +4331,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299667.P15875345031582720022
-
-/-!
-# A299668: T(n,k)=Number of nXk 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 6 or 7 king-move adjacent elements, with upper left element zero.
-
-The programs for A299668, there is no canonical definition to state claims against.
--/
-
-/-! ## A299668.P4365385264070970012
-
-`A300259(n+1)`
--/
-
-namespace A299668.P4365385264070970012
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300259 (n + 1)
-
-end
-
-end A299668.P4365385264070970012
 
 /-!
 # A299669: Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 3, 5, 6 or 7 king-move adjacent elements, with upper left element zero.

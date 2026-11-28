@@ -6,30 +6,27 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +48,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,6 +65,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -4078,27 +4075,6 @@ end
 end A030882.P640528566287827016
 
 /-!
-# A030883: [ exp(1/18)*n! ].
-
-The programs for A030883, there is no canonical definition to state claims against.
--/
-
-/-! ## A030883.P14534280968117919327
-
-`A030958(n+1)-floor(exp(5/17)*(n+1)!)`
--/
-
-namespace A030883.P14534280968117919327
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030958 (n + 1) - ⌊Real.exp ((5 : ℚ) / 17 : ℝ) * (Nat.factorial (n + 1) : ℝ)⌋
-
-end
-
-end A030883.P14534280968117919327
-
-/-!
 # A030884: [ exp(16/17)*n! ].
 
 The programs for A030884, there is no canonical definition to state claims against.
@@ -4616,49 +4592,11 @@ def P17334396242522612076.Spec : Prop :=
 
 end A030895
 
-/-! ## A030895.P5409853891385643578
-
-`A030958(n+1)-A030883(n+1)`
--/
-
-namespace A030895.P5409853891385643578
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030958 (n + 1) - A030883 (n + 1)
-
-end
-
-end A030895.P5409853891385643578
-
-namespace A030895
-
-/-- `A030958(n+1)-A030883(n+1)` -/
-def P5409853891385643578.Spec : Prop :=
-  ∀ n, P5409853891385643578.a n = A030895 (n + 1)
-
-end A030895
-
 /-!
 # A030896: [ exp(4/17)*n! ].
 
 The programs for A030896, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030896.P3154020538180388903
-
-`floor(A030916(n+1)/2)`
--/
-
-namespace A030896.P3154020538180388903
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A030916 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A030896.P3154020538180388903
 
 /-! ## A030896.P7437623771350544444
 
@@ -4680,21 +4618,6 @@ end A030896.P7437623771350544444
 
 The programs for A030897, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030897.P5665034593041784952
-
-`floor(A030809(n+1)/2)`
--/
-
-namespace A030897.P5665034593041784952
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A030809 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A030897.P5665034593041784952
 
 /-! ## A030897.P4784249293048159454
 

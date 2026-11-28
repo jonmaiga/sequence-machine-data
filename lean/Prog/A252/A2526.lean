@@ -8,19 +8,19 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C018
+import Seq.B000.C012
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C038
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C007
@@ -35,18 +35,18 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -185,34 +185,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252604.P6673699875509633559
-
-/-!
-# A252606: Numbers j such that j + 2 divides 2^j + 2.
-
-The programs for A252606, there is no canonical definition to state claims against.
--/
-
-/-! ## A252606.P4696376624333160947
-
-`∪[A251603(n+1), A271267(n+1)]`
--/
-
-namespace A252606.P4696376624333160947
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251603 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271267 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252606.P4696376624333160947
 
 /-!
 # A252607: Number of (n+2) X (n+2) 0..3 arrays with every 3 X 3 subblock row and diagonal sum equal to 0 3 5 6 or 8 and every 3 X 3 column and antidiagonal sum not equal to 0 3 5 6 or 8.
@@ -1264,6 +1236,60 @@ end
 end A252629.P225670088465925713
 
 /-!
+# A252630: Numbers n such that the sum of the hexagonal numbers X(n), X(n+1), X(n+2) and X(n+3) is equal to the heptagonal number H(m) for some m.
+
+The programs for A252630, the canonical program `A252630.P16035049403115347523` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252630 has offset 1).
+
+The definition of A252630 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A252630.P16035049403115347523
+
+`ogf((50+353x-3x^2)/(1-323x+323x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252630
+
+/-- `ogf((50+353x-3x^2)/(1-323x+323x^2-x^3))` -/
+def P16035049403115347523.Spec : Prop :=
+  ∀ n, P16035049403115347523.a n = A252630 (n + 1)
+
+theorem P16035049403115347523.correct : P16035049403115347523.Spec := by
+  intro n
+  simp only [A252630, Nat.add_sub_cancel]
+
+end A252630
+
+/-!
+# A252631: Numbers n such that the heptagonal number H(n) is equal to the sum of the hexagonal numbers X(m), X(m+1), X(m+2) and X(m+3) for some m.
+
+The programs for A252631, the canonical program `A252631.P17540873799742360243` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252631 has offset 1).
+
+The definition of A252631 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A252631.P17540873799742360243
+
+`ogf((92-192x+4x^2)/(1-323x+323x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252631
+
+/-- `ogf((92-192x+4x^2)/(1-323x+323x^2-x^3))` -/
+def P17540873799742360243.Spec : Prop :=
+  ∀ n, P17540873799742360243.a n = A252631 (n + 1)
+
+theorem P17540873799742360243.correct : P17540873799742360243.Spec := by
+  intro n
+  simp only [A252631, Nat.add_sub_cancel]
+
+end A252631
+
+/-!
 # A252632: Number of (n+2) X (n+2) 0..3 arrays with every 3 X 3 subblock row and diagonal sum equal to 0 3 4 6 or 7 and every 3 X 3 column and antidiagonal sum not equal to 0 3 4 6 or 7.
 
 The programs for A252632, there is no canonical definition to state claims against.
@@ -1875,7 +1901,7 @@ end A252647.P14385382874338187893
 /-!
 # A252649: Number of positive integers that are less than or equal to n and have a primitive root.
 
-The programs for A252649, the canonical program `A252649.P16461195176523771026` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252649 has offset 1).
+The programs for A252649, the canonical program `A252649.P16461195176523771026` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252649 has offset 1).
 
 The definition of A252649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1914,7 +1940,7 @@ end A252649
 
 `∑[A211487(1+n)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A252649
@@ -2498,29 +2524,6 @@ namespace A252651
 /-- `A263773(Δ[n²])/6` -/
 def P6641423569469561292.Spec : Prop :=
   ∀ n, P6641423569469561292.a n = (A252651 n : ℚ)
-
-end A252651
-
-/-! ## A252651.P2100019266962611873
-
-`A242874(2*n+1)/(-6)`
--/
-
-namespace A252651.P2100019266962611873
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A242874 (2 * n + 1) : ℚ) / (-6)
-
-end
-
-end A252651.P2100019266962611873
-
-namespace A252651
-
-/-- `A242874(2*n+1)/(-6)` -/
-def P2100019266962611873.Spec : Prop :=
-  ∀ n, P2100019266962611873.a n = (A252651 n : ℚ)
 
 end A252651
 
@@ -3926,7 +3929,7 @@ end A252694.P8104693863212237028
 /-!
 # A252696: Number of strings of length n over a 3-letter alphabet that do not begin with a nontrivial palindrome.
 
-The programs for A252696, the canonical program `A252696.P6161401064542124124` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252696 has offset 0).
+The programs for A252696, the canonical program `A252696.P6161401064542124124` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252696 has offset 0).
 
 The definition of A252696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3935,7 +3938,7 @@ The definition of A252696 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-a(ceil(n/2))` with `a(0)=0, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252696

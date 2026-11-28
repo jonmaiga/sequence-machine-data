@@ -12,32 +12,35 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C047
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,12 +51,11 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.Opaque.C000
@@ -68,10 +70,12 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C013
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -2036,7 +2040,7 @@ end A154113.P7358830930484914344
 /-!
 # A154115: Numbers n such that n + 3 is prime.
 
-The programs for A154115, the canonical program `A154115.P220062109648616098` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154115 has offset 1).
+The programs for A154115, the canonical program `A154115.P220062109648616098` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154115 has offset 1).
 
 The definition of A154115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2045,7 +2049,7 @@ The definition of A154115 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A086801(n+2)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A154115
@@ -3534,7 +3538,7 @@ end A154119.P3341457477565916609
 
 The programs for A154120, the canonical program `A154120.P16236488407282948537` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154120 has offset 0).
 
-The definition of A154120 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A154120 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A154120.anchor (n : ℕ) : (A154120 n : ℚ) = (SequenceMachineLib.triCol n + 1 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) * (Nat.factorial ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ)` in `Proof.A154.A154120`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A154120.P16236488407282948537

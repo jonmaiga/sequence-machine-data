@@ -3,48 +3,46 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
-import Seq.B000.C009
+import Seq.B000.C006
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C044
+import Seq.B000.C027
 import Seq.B000.C046
-import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -52,6 +50,7 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -374,21 +373,6 @@ end
 
 end A400421.P7527426046571728038
 
-/-! ## A400421.P12858622662147176081
-
-`A060338(n+1)`
--/
-
-namespace A400421.P12858622662147176081
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060338 (n + 1)
-
-end
-
-end A400421.P12858622662147176081
-
 /-! ## A400421.P4693035968040369960
 
 `A058176(A327244(n+1))`
@@ -467,7 +451,7 @@ end A400425.P13836947660027047297
 /-!
 # A400427: 3rd least distinct prime factor of numbers with 3 or more distinct prime factors.
 
-The programs for A400427, the canonical program `A400427.P4217021055050402070` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400427 has offset 1).
+The programs for A400427, the canonical program `A400427.P4217021055050402070` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400427 has offset 1).
 
 The definition of A400427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4622 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -476,7 +460,7 @@ The definition of A400427 is `conjectured`: the Lean definition is a formula tha
 
 `A119288(A028234(A000977(n+1)))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A400427
@@ -744,7 +728,7 @@ end A400432.P14847413268171631414
 /-!
 # A400433: Numbers k of the form rad(k) * lpf(k)^m, m > 1, where rad = A007947 and lpf(k) is the least prime factor of k.
 
-The programs for A400433, the canonical program `A400433.P121471542447752140` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400433 has offset 1).
+The programs for A400433, the canonical program `A400433.P121471542447752140` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400433 has offset 1).
 
 The definition of A400433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -805,7 +789,7 @@ end A400433
 
 `filter[A190641(n+1), A319710(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A400433
@@ -1325,7 +1309,7 @@ end A400434.P5751683613901160441
 /-!
 # A400435: Integers that can be expressed as the sum of 3 factorials.
 
-The programs for A400435, the canonical program `A400435.P2332655486521523531` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400435 has offset 1).
+The programs for A400435, the canonical program `A400435.P2332655486521523531` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400435 has offset 1).
 
 The definition of A400435 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1334,7 +1318,7 @@ The definition of A400435 is `conjectured`: the Lean definition is a formula tha
 
 `A277011(eq[4, a(and(n, n-1))+1])` with `a(0)=1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A400435
@@ -1562,7 +1546,7 @@ end A400443.P9083797498775489445
 /-!
 # A400445: a(n) = (n-1)*(2*a(n-1) + 15*a(n-2))/(n+1) with a(0)=1, a(1)=0.
 
-The programs for A400445, the canonical program `A400445.P7356954288380415145` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400445 has offset 0).
+The programs for A400445, the canonical program `A400445.P7356954288380415145` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400445 has offset 0).
 
 The definition of A400445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1571,7 +1555,7 @@ The definition of A400445 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-1)/(n+1)*(2*a(n-1)+15*a(n-2))` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400445
@@ -2558,7 +2542,7 @@ end A400463.P10553244451485217243
 /-!
 # A400465: Numbers k not divisible by lpf(k)^2 such that bigomega(k) = omega(k) + 1, where bigomega = A001222, omega = A001221, and lpf(k) is the smallest prime factor of k.
 
-The programs for A400465, the canonical program `A400465.P7832564799069381676` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400465 has offset 1).
+The programs for A400465, the canonical program `A400465.P7832564799069381676` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400465 has offset 1).
 
 The definition of A400465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4577 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2723,7 +2707,7 @@ end A400465
 
 `filter[A400801(n+1), A359471(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A400465

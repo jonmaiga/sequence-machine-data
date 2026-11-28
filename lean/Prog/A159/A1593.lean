@@ -7,21 +7,25 @@ import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C042
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -35,12 +39,15 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -52,9 +59,10 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
 
@@ -65,7 +73,7 @@ set_option linter.unreachableTactic false
 /-!
 # A159302: Numbers k such that the number of factors on both sides of the equation k + (k+1) = 2k+1 is the same.
 
-The programs for A159302, the canonical program `A159302.P6188150767410829118` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159302 has offset 1).
+The programs for A159302, the canonical program `A159302.P6188150767410829118` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159302 has offset 1).
 
 The definition of A159302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -74,7 +82,7 @@ The definition of A159302 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A076191(2*(n+1)), A252736(n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A159302
@@ -422,27 +430,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159312.P218462114051285067
-
-/-!
-# A159313: G.f.: 1/Product_{n>=1} (1 - a(n)*x^n/n!) = Sum_{n>=0} (n+1)^(n-1)*x^n/n!.
-
-The programs for A159313, there is no canonical definition to state claims against.
--/
-
-/-! ## A159313.P14015557763670416555
-
-`A318580(n)`
--/
-
-namespace A159313.P14015557763670416555
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318580 n
-
-end
-
-end A159313.P14015557763670416555
 
 /-!
 # A159314: Rectangular array, read by antidiagonals, where row e.g.f.s, R(n,x), satisfy: d/dx log( R(n,x) ) = R(n+1,x)^(2^n) with R(n,0) = 1; that is, the logarithmic derivative of the e.g.f. of row n equals the e.g.f. of row n+1 to the 2^n power, for n>=0.
@@ -6444,6 +6431,29 @@ def P16005117182100368689.Spec : Prop :=
 
 end A159355
 
+/-! ## A159355.P12267433311144037174
+
+`ogf((5+90x+801x^2+591x^3+252x^4-88x^5+37x^6-9x^7+x^8)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A159355.P12267433311144037174
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, 90, 801, 591, 252, -88, 37, -9, 1] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A159355.P12267433311144037174
+
+namespace A159355
+
+/-- `ogf((5+90x+801x^2+591x^3+252x^4-88x^5+37x^6-9x^7+x^8)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P12267433311144037174.Spec : Prop :=
+  ∀ n, P12267433311144037174.a n = A159355 (n + 2)
+
+end A159355
+
 /-! ## A159355.P13745875119866861617
 
 `A014626((n+2)²)`
@@ -6601,29 +6611,6 @@ namespace A159355
 /-- `A051743(A028872(n+2))+3` -/
 def P15794606485063407708.Spec : Prop :=
   ∀ n, P15794606485063407708.a n = A159355 (n + 2)
-
-end A159355
-
-/-! ## A159355.P16065953631272575733
-
-`A000332((n+2)²)+(n+2)²`
--/
-
-namespace A159355.P16065953631272575733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000332 ((n + 2) ^ 2) + ((n + 2) ^ 2 : ℤ)
-
-end
-
-end A159355.P16065953631272575733
-
-namespace A159355
-
-/-- `A000332((n+2)²)+(n+2)²` -/
-def P16065953631272575733.Spec : Prop :=
-  ∀ n, P16065953631272575733.a n = A159355 (n + 2)
 
 end A159355
 

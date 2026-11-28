@@ -3,11 +3,11 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C022
-import Seq.B000.C032
-import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C023
+import Seq.B000.C033
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C015
@@ -16,7 +16,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
@@ -24,16 +23,14 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -44,17 +41,14 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -457,7 +451,7 @@ end A402239
 /-!
 # A402243: Sum of divisors of n that are terms in A252895.
 
-The programs for A402243, the canonical program `A402243.P7368100219335166266` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402243 has offset 1).
+The programs for A402243, the canonical program `A402243.P7368100219335166266` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402243 has offset 1).
 
 The definition of A402243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -466,7 +460,7 @@ The definition of A402243 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A353519(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A402243
@@ -722,7 +716,7 @@ end A402245
 /-!
 # A402246: Maximum exponent in the prime factorization of the numbers whose prime factorization has a second-largest exponent that equals 1.
 
-The programs for A402246, the canonical program `A402246.P18208456299775347097` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402246 has offset 1).
+The programs for A402246, the canonical program `A402246.P18208456299775347097` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402246 has offset 1).
 
 The definition of A402246 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, A375934, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -731,7 +725,7 @@ The definition of A402246 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A375934(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A402246
@@ -1519,7 +1513,7 @@ end A402292
 /-!
 # A402293: Maximum number of regions that can be formed in the plane by drawing n non-overlapping circles.
 
-The programs for A402293, the canonical program `A402293.P4556086353451179629` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402293 has offset 0).
+The programs for A402293, the canonical program `A402293.P4556086353451179629` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402293 has offset 0).
 
 The definition of A402293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1528,7 +1522,7 @@ The definition of A402293 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `max(n+1, 3*n-4)`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A402293

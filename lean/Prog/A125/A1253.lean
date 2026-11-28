@@ -2,17 +2,21 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C012
+import Seq.B000.C014
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -21,13 +25,13 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C004
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B007.C001
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -43,6 +47,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 
@@ -130,7 +135,7 @@ end A125300.P812990031919984319
 /-!
 # A125301: a(3n) = n, a(3n+1) = (n+2)*a(3n), a(3n+2) = (n+2)*a(3n+1).
 
-The programs for A125301, the canonical program `A125301.P8541871173577347430` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125301 has offset 0).
+The programs for A125301, the canonical program `A125301.P8541871173577347430` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125301 has offset 0).
 
 The definition of A125301 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -139,7 +144,7 @@ The definition of A125301 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^3+3x^4+9x^5-2x^6-4x^7-4x^8+x^9+x^10+x^11)/(1-4x^3+6x^6-4x^9+x^12))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125301
@@ -1082,28 +1087,6 @@ end A125310.P4114546709255715636
 The programs for A125311, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125311.P1850119793436196491
-
-`A287641(comp[∑[n+1]])`
--/
-
-namespace A125311.P1850119793436196491
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287641 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
-
-end
-
-end A125311.P1850119793436196491
-
 /-! ## A125311.P869164990582527949
 
 `A066083(A276237(n+2))`
@@ -1180,7 +1163,7 @@ end A125315.P250989872525156214
 /-!
 # A125316: Number of base 6 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125316, the canonical program `A125316.P6174131751835779084` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125316 has offset 0).
+The programs for A125316, the canonical program `A125316.P6174131751835779084` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125316 has offset 0).
 
 The definition of A125316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 142 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1189,7 +1172,7 @@ The definition of A125316 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-3x^2-16x^3+3x^4+8x^5)/(1-6x+3x^2+8x^3-x^4-2x^5))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125316
@@ -1230,7 +1213,7 @@ end A125316
 /-!
 # A125317: Number of base 7 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125317, the canonical program `A125317.P4029088221205814016` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125317 has offset 0).
+The programs for A125317, the canonical program `A125317.P4029088221205814016` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125317 has offset 0).
 
 The definition of A125317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1239,7 +1222,7 @@ The definition of A125317 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x^2-28x^3+15x^4+28x^5-5x^6-6x^7)/(1-7x+6x^2+14x^3-5x^4-7x^5+x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125317
@@ -1280,7 +1263,7 @@ end A125317
 /-!
 # A125318: Number of base 8 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125318, the canonical program `A125318.P10161521991991276256` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125318 has offset 0).
+The programs for A125318, the canonical program `A125318.P10161521991991276256` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125318 has offset 0).
 
 The definition of A125318 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1289,7 +1272,7 @@ The definition of A125318 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-10x^2-40x^3+45x^4+48x^5-35x^6-12x^7+7x^8)/(1-8x+10x^2+20x^3-15x^4-12x^5+7x^6+2x^7-x^8))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125318
@@ -1330,7 +1313,7 @@ end A125318
 /-!
 # A125319: Number of base 9 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125319, the canonical program `A125319.P4122113603489496023` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125319 has offset 0).
+The programs for A125319, the canonical program `A125319.P4122113603489496023` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125319 has offset 0).
 
 The definition of A125319 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1339,7 +1322,7 @@ The definition of A125319 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x-14x^2-36x^3+138x^4-58x^5-52x^6+28x^7)/(1-10x+25x^2-34x^4+14x^5+8x^6-4x^7))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125319
@@ -1380,8 +1363,29 @@ end A125319
 /-!
 # A125320: Number of base 10 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125320, there is no canonical definition to state claims against.
+The programs for A125320, the canonical program `A125320.P7531006060211369317` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125320 has offset 0).
+
+The definition of A125320 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A125320.P7531006060211369317
+
+`ogf((1-21x^2-56x^3+192x^4+112x^5-260x^6-48x^7+84x^8)/(1-10x+21x^2+28x^3-64x^4-28x^5+52x^6+8x^7-12x^8))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A125320
+
+/-- `ogf((1-21x^2-56x^3+192x^4+112x^5-260x^6-48x^7+84x^8)/(1-10x+21x^2+28x^3-64x^4-28x^5+52x^6+8x^7-12x^8))` -/
+def P7531006060211369317.Spec : Prop :=
+  ∀ n, P7531006060211369317.a n = A125320 n
+
+theorem P7531006060211369317.correct : P7531006060211369317.Spec := by
+  intro n
+  simp only [A125320]
+
+end A125320
 
 /-! ## A125320.P15153780987494085443
 
@@ -1398,11 +1402,40 @@ end
 
 end A125320.P15153780987494085443
 
+namespace A125320
+
+/-- `A285281(A167499(n+5)+5)` -/
+def P15153780987494085443.Spec : Prop :=
+  ∀ n, P15153780987494085443.a n = A125320 n
+
+end A125320
+
 /-!
 # A125321: Number of base 11 circular n-digit numbers with adjacent digits differing by 3 or less.
 
-The programs for A125321, there is no canonical definition to state claims against.
+The programs for A125321, the canonical program `A125321.P8494481284456520689` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125321 has offset 0).
+
+The definition of A125321 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A125321.P8494481284456520689
+
+`ogf((1-28x^2-56x^3+318x^4+112x^5-540x^6-48x^7+224x^8)/(1-11x+28x^2+28x^3-106x^4-28x^5+108x^6+8x^7-32x^8))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A125321
+
+/-- `ogf((1-28x^2-56x^3+318x^4+112x^5-540x^6-48x^7+224x^8)/(1-11x+28x^2+28x^3-106x^4-28x^5+108x^6+8x^7-32x^8))` -/
+def P8494481284456520689.Spec : Prop :=
+  ∀ n, P8494481284456520689.a n = A125321 n
+
+theorem P8494481284456520689.correct : P8494481284456520689.Spec := by
+  intro n
+  simp only [A125321]
+
+end A125321
 
 /-! ## A125321.P12973230018213319023
 
@@ -1418,6 +1451,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125321.P12973230018213319023
+
+namespace A125321
+
+/-- `A285281(A167499(n+6)+6)` -/
+def P12973230018213319023.Spec : Prop :=
+  ∀ n, P12973230018213319023.a n = A125321 n
+
+end A125321
 
 /-!
 # A125322: Number of base 12 circular n-digit numbers with adjacent digits differing by 3 or less.
@@ -2349,7 +2390,7 @@ end A125342.P2233354307273599346
 /-!
 # A125343: Number of base 6 circular n-digit numbers with adjacent digits differing by 4 or less.
 
-The programs for A125343, the canonical program `A125343.P16521255945650297259` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125343 has offset 0).
+The programs for A125343, the canonical program `A125343.P16521255945650297259` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125343 has offset 0).
 
 The definition of A125343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2381,7 +2422,7 @@ end A125343
 
 `6*a(n-1)-a(n-2)-4*a(n-3)` with `a(0)=1, a(1)=6, a(2)=34, a(3)=186`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125343
@@ -2399,7 +2440,7 @@ end A125343
 /-!
 # A125344: Number of base 7 circular n-digit numbers with adjacent digits differing by 4 or less.
 
-The programs for A125344, the canonical program `A125344.P12029979389324558967` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125344 has offset 0).
+The programs for A125344, the canonical program `A125344.P12029979389324558967` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125344 has offset 0).
 
 The definition of A125344 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2408,7 +2449,7 @@ The definition of A125344 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x^2-22x^3+3x^4+12x^5)/(1-7x+3x^2+11x^3-x^4-3x^5))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125344
@@ -2426,7 +2467,7 @@ end A125344
 /-!
 # A125345: Number of base 8 circular n-digit numbers with adjacent digits differing by 4 or less.
 
-The programs for A125345, the canonical program `A125345.P7931769635197584559` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125345 has offset 0).
+The programs for A125345, the canonical program `A125345.P7931769635197584559` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125345 has offset 0).
 
 The definition of A125345 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2435,7 +2476,7 @@ The definition of A125345 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x^2-40x^3+15x^4+48x^5-5x^6-12x^7)/(1-8x+6x^2+20x^3-5x^4-12x^5+x^6+2x^7))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125345
@@ -2476,7 +2517,7 @@ end A125345
 /-!
 # A125346: Number of base 9 circular n-digit numbers with adjacent digits differing by 4 or less.
 
-The programs for A125346, the canonical program `A125346.P17619185351454778670` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125346 has offset 0).
+The programs for A125346, the canonical program `A125346.P17619185351454778670` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125346 has offset 0).
 
 The definition of A125346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2485,7 +2526,7 @@ The definition of A125346 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-10x^2-60x^3+45x^4+108x^5-35x^6-54x^7+7x^8+8x^9)/(1-9x+10x^2+30x^3-15x^4-27x^5+7x^6+9x^7-x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125346
@@ -3123,21 +3164,6 @@ end A125363.P7245592699468472772
 The programs for A125364, there is no canonical definition to state claims against.
 -/
 
-/-! ## A125364.P13673722440710903518
-
-`2*A125356(n)-A125348(n)`
--/
-
-namespace A125364.P13673722440710903518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A125356 n - A125348 n
-
-end
-
-end A125364.P13673722440710903518
-
 /-! ## A125364.P11853349521365160716
 
 `A000265(A125363(n)+A025014(n))`
@@ -3276,7 +3302,7 @@ end A125369.P5434920774212306280
 /-!
 # A125370: Number of base 7 circular n-digit numbers with adjacent digits differing by 5 or less.
 
-The programs for A125370, the canonical program `A125370.P16451900473567272590` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125370 has offset 0).
+The programs for A125370, the canonical program `A125370.P16451900473567272590` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125370 has offset 0).
 
 The definition of A125370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3308,7 +3334,7 @@ end A125370
 
 `7*a(n-1)-a(n-2)-5*a(n-3)` with `a(0)=1, a(1)=7, a(2)=47, a(3)=307`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125370
@@ -3326,7 +3352,7 @@ end A125370
 /-!
 # A125371: Number of base 8 circular n-digit numbers with adjacent digits differing by 5 or less.
 
-The programs for A125371, the canonical program `A125371.P18095081430231075309` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125371 has offset 0).
+The programs for A125371, the canonical program `A125371.P18095081430231075309` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125371 has offset 0).
 
 The definition of A125371 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3335,7 +3361,7 @@ The definition of A125371 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x^2-28x^3+3x^4+16x^5)/(1-8x+3x^2+14x^3-x^4-4x^5))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125371
@@ -3353,7 +3379,7 @@ end A125371
 /-!
 # A125372: Number of base-9 circular n-digit numbers with adjacent digits differing by 5 or less.
 
-The programs for A125372, the canonical program `A125372.P14773624815870164303` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125372 has offset 0).
+The programs for A125372, the canonical program `A125372.P14773624815870164303` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125372 has offset 0).
 
 The definition of A125372 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3362,7 +3388,7 @@ The definition of A125372 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x^2-52x^3+15x^4+68x^5-5x^6-18x^7)/(1-9x+6x^2+26x^3-5x^4-17x^5+x^6+3x^7))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125372
@@ -3380,7 +3406,7 @@ end A125372
 /-!
 # A125373: Number of base 10 circular n-digit numbers with adjacent digits differing by 5 or less.
 
-The programs for A125373, the canonical program `A125373.P2151721657099524252` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125373 has offset 0).
+The programs for A125373, the canonical program `A125373.P2151721657099524252` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125373 has offset 0).
 
 The definition of A125373 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3389,7 +3415,7 @@ The definition of A125373 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x-9x^2-71x^3+116x^4+52x^5-87x^6-9x^7+16x^8)/(1-11x+21x^2+19x^3-34x^4-8x^5+15x^6+x^7-2x^8))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125373
@@ -3500,27 +3526,6 @@ end
 end A125375.P3018677150244456819
 
 /-!
-# A125376: Number of base 13 circular n-digit numbers with adjacent digits differing by 5 or less.
-
-The programs for A125376, there is no canonical definition to state claims against.
--/
-
-/-! ## A125376.P188016008775762245
-
-`2*A125384(n)-A125392(n)`
--/
-
-namespace A125376.P188016008775762245
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A125384 n - A125392 n
-
-end
-
-end A125376.P188016008775762245
-
-/-!
 # A125377: Number of base 14 circular n-digit numbers with adjacent digits differing by 5 or less.
 
 The programs for A125377, there is no canonical definition to state claims against.
@@ -3612,27 +3617,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125379.P9106014535972539198
-
-/-!
-# A125380: Number of base 17 circular n-digit numbers with adjacent digits differing by 5 or less.
-
-The programs for A125380, there is no canonical definition to state claims against.
--/
-
-/-! ## A125380.P12222816055420936487
-
-`(A125382(n)+A125378(n))/2`
--/
-
-namespace A125380.P12222816055420936487
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A125382 n + A125378 n : ℚ) / 2
-
-end
-
-end A125380.P12222816055420936487
 
 /-!
 # A125381: Number of base 18 circular n-digit numbers with adjacent digits differing by 5 or less.
@@ -4087,7 +4071,7 @@ end A125395.P17426503834130909854
 /-!
 # A125396: Number of base 8 circular n-digit numbers with adjacent digits differing by 6 or less.
 
-The programs for A125396, the canonical program `A125396.P3209054951522511781` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125396 has offset 0).
+The programs for A125396, the canonical program `A125396.P3209054951522511781` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125396 has offset 0).
 
 The definition of A125396 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4119,7 +4103,7 @@ end A125396
 
 `8*a(n-1)-a(n-2)-6*a(n-3)` with `a(0)=1, a(1)=8, a(2)=62, a(3)=470`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125396
@@ -4137,7 +4121,7 @@ end A125396
 /-!
 # A125397: Number of base 9 circular n-digit numbers with adjacent digits differing by 6 or less.
 
-The programs for A125397, the canonical program `A125397.P2022853582714691938` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125397 has offset 0).
+The programs for A125397, the canonical program `A125397.P2022853582714691938` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125397 has offset 0).
 
 The definition of A125397 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4146,7 +4130,7 @@ The definition of A125397 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x^2-34x^3+3x^4+20x^5)/(1-9x+3x^2+17x^3-x^4-5x^5))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125397
@@ -4164,7 +4148,7 @@ end A125397
 /-!
 # A125398: Number of base 10 circular n-digit numbers with adjacent digits differing by 6 or less.
 
-The programs for A125398, the canonical program `A125398.P12237668279241392616` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125398 has offset 0).
+The programs for A125398, the canonical program `A125398.P12237668279241392616` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125398 has offset 0).
 
 The definition of A125398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4173,7 +4157,7 @@ The definition of A125398 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-6x^2-64x^3+15x^4+88x^5-5x^6-24x^7)/(1-10x+6x^2+32x^3-5x^4-22x^5+x^6+4x^7))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A125398

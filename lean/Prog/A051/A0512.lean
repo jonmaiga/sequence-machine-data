@@ -17,24 +17,27 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +51,11 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,11 +70,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,7 +89,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -4190,7 +4195,7 @@ end A051223.P5117933214235677127
 /-!
 # A051225: Numbers m such that the Bernoulli number B_{2*m} has denominator 30.
 
-The programs for A051225, the canonical program `A051225.P15165402689545779562` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051225 has offset 1).
+The programs for A051225, the canonical program `A051225.P15165402689545779562` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051225 has offset 1).
 
 The definition of A051225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 712 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4729,7 +4734,7 @@ end A051225
 
 `eq[10, A277087(n)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A051225
@@ -6624,21 +6629,6 @@ end A051232
 The programs for A051233, there is no canonical definition to state claims against.
 -/
 
-/-! ## A051233.P11805735917321897847
-
-`A124623(n+1)`
--/
-
-namespace A051233.P11805735917321897847
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124623 (n + 1)
-
-end
-
-end A051233.P11805735917321897847
-
 /-! ## A051233.P5590155774427137840
 
 `record[A124623(A134478(n))]`
@@ -6857,27 +6847,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A051236.P13263063893716030072
-
-/-!
-# A051237: Lexicographically earliest prime pyramid, read by rows.
-
-The programs for A051237, there is no canonical definition to state claims against.
--/
-
-/-! ## A051237.P11405455147209443017
-
-`A088643(A038722(1+n))`
--/
-
-namespace A051237.P11405455147209443017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088643 (A038722 (1 + n)).toNat
-
-end
-
-end A051237.P11405455147209443017
 
 /-!
 # A051238: First appearance of string n in e.
@@ -10469,21 +10438,6 @@ end
 
 end A051268.P11922921947005013120
 
-/-! ## A051268.P5279613705160961352
-
-`A008364(48+n+1)`
--/
-
-namespace A051268.P5279613705160961352
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008364 (48 + (n + 1))
-
-end
-
-end A051268.P5279613705160961352
-
 /-!
 # A051270: Numbers that are divisible by exactly 5 different primes.
 
@@ -12646,21 +12600,6 @@ end A051280.P10578011396072488917
 The programs for A051281, there is no canonical definition to state claims against.
 -/
 
-/-! ## A051281.P1229024029228050428
-
-`A046528(A228853(n+1))`
--/
-
-namespace A051281.P1229024029228050428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046528 (A228853 (n + 1)).toNat
-
-end
-
-end A051281.P1229024029228050428
-
 /-! ## A051281.P17480943954199851146
 
 `A375228(A001901(n+1))`
@@ -13463,21 +13402,6 @@ end A051283
 
 The programs for A051284, there is no canonical definition to state claims against.
 -/
-
-/-! ## A051284.P1355433576945789115
-
-`A007283(n)-A361801(n)`
--/
-
-namespace A051284.P1355433576945789115
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007283 n - A361801 n
-
-end
-
-end A051284.P1355433576945789115
 
 /-! ## A051284.P17745922081679203505
 
@@ -14730,29 +14654,6 @@ def P10240746280729700683.Spec : Prop :=
 
 end A051293
 
-/-! ## A051293.P18430769281724911585
-
-`-1+1*A327475(n+1)`
--/
-
-namespace A051293.P18430769281724911585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 1 * A327475 (n + 1)
-
-end
-
-end A051293.P18430769281724911585
-
-namespace A051293
-
-/-- `-1+1*A327475(n+1)` -/
-def P18430769281724911585.Spec : Prop :=
-  ∀ n, P18430769281724911585.a n = A051293 (n + 1)
-
-end A051293
-
 /-! ## A051293.P14596117754500762193
 
 `∑[2*A000016(n+1)-1]`
@@ -15414,21 +15315,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A051299.P11663941422830199316
-
-/-! ## A051299.P12527217526429778706
-
-`A396231(n+1)`
--/
-
-namespace A051299.P12527217526429778706
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396231 (n + 1)
-
-end
-
-end A051299.P12527217526429778706
 
 /-! ## A051299.P15468671679847140259
 

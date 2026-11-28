@@ -12,17 +12,15 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -34,13 +32,15 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +49,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
@@ -64,11 +63,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +91,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -312,7 +310,7 @@ end A237107.P4994255566932411168
 /-!
 # A237109: a(n) is the numerator of 2*n / ((n+2) * (n+3)).
 
-The programs for A237109, the canonical program `A237109.P18187081307035529190` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237109 has offset 1).
+The programs for A237109, the canonical program `A237109.P18187081307035529190` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237109 has offset 1).
 
 The definition of A237109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -321,7 +319,7 @@ The definition of A237109 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(n+1, ∑[∑[(n+2)²]])`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237109
@@ -2061,7 +2059,7 @@ end A237127.P7758293500470692161
 /-!
 # A237128: Angles n expressed in degrees such that 2*cos(n) = phi where phi is the golden ratio (A001622).
 
-The programs for A237128, the canonical program `A237128.P2122948040104576520` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237128 has offset 1).
+The programs for A237128, the canonical program `A237128.P2122948040104576520` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237128 has offset 1).
 
 The definition of A237128 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2093,7 +2091,7 @@ end A237128
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=36, a(1)=324, a(2)=396`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237128
@@ -2390,7 +2388,7 @@ end A237128
 /-!
 # A237132: Values of x in the solutions to x^2 - 3xy + y^2 + 11 = 0, where 0 < x < y.
 
-The programs for A237132, the canonical program `A237132.P8063988288269860195` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237132 has offset 1).
+The programs for A237132, the canonical program `A237132.P8063988288269860195` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237132 has offset 1).
 
 The definition of A237132 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2422,7 +2420,7 @@ end A237132
 
 `3*a(n-2)-a(n-4)` with `a(0)=3, a(1)=4, a(2)=5, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237132
@@ -2794,7 +2792,7 @@ end A237132
 /-!
 # A237133: Values of x in the solutions to x^2 - 3xy + y^2 + 19 = 0, where 0 < x < y.
 
-The programs for A237133, the canonical program `A237133.P3639978195321398210` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237133 has offset 1).
+The programs for A237133, the canonical program `A237133.P3639978195321398210` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237133 has offset 1).
 
 The definition of A237133 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2826,7 +2824,7 @@ end A237133
 
 `3*a(n-2)-a(n-4)` with `a(0)=4, a(1)=5, a(2)=7, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237133
@@ -4890,24 +4888,6 @@ end A237183
 
 The programs for A237184, there is no canonical definition to state claims against.
 -/
-
-/-! ## A237184.P3185915076899889881
-
-`Δ[A319403(n)]`
--/
-
-namespace A237184.P3185915076899889881
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319403 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A237184.P3185915076899889881
 
 /-! ## A237184.P1034197455806677512
 

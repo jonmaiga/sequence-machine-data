@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -34,16 +35,18 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,6 +66,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -74,10 +78,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,11 +101,9 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -21321,6 +21322,29 @@ def P5359129131508865278.Spec : Prop :=
 
 end A033172
 
+/-! ## A033172.P17824268745252965605
+
+`A033171(n+2)-365`
+-/
+
+namespace A033172.P17824268745252965605
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033171 (n + 2) - 365
+
+end
+
+end A033172.P17824268745252965605
+
+namespace A033172
+
+/-- `A033171(n+2)-365` -/
+def P17824268745252965605.Spec : Prop :=
+  ∀ n, P17824268745252965605.a n = A033172 (n + 1)
+
+end A033172
+
 /-! ## A033172.P5294527347467227932
 
 `∑[abs(Δ[A033171(n+1)])]`
@@ -21376,29 +21400,6 @@ namespace A033172
 /-- `∑[A000027(Δ[A033171(n+1)])]` -/
 def P12595781449609900736.Spec : Prop :=
   ∀ n, P12595781449609900736.a n = A033172 (n + 1)
-
-end A033172
-
-/-! ## A033172.P2812836244414949
-
-`A033174(n+1)+A033171(n+2)-A033173(n+2)`
--/
-
-namespace A033172.P2812836244414949
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033174 (n + 1) + (A033171 (n + 2) - A033173 (n + 2))
-
-end
-
-end A033172.P2812836244414949
-
-namespace A033172
-
-/-- `A033174(n+1)+A033171(n+2)-A033173(n+2)` -/
-def P2812836244414949.Spec : Prop :=
-  ∀ n, P2812836244414949.a n = A033172 (n + 1)
 
 end A033172
 
@@ -21486,52 +21487,6 @@ namespace A033172
 /-- `∑[A028310(Δ[A033174(n+2)])]` -/
 def P17949147597245360565.Spec : Prop :=
   ∀ n, P17949147597245360565.a n = A033172 (n + 1)
-
-end A033172
-
-/-! ## A033172.P13929411749770246896
-
-`A033171(n+1)+A000035(A064680(n))`
--/
-
-namespace A033172.P13929411749770246896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033171 (n + 1) + A000035 (A064680 n).toNat
-
-end
-
-end A033172.P13929411749770246896
-
-namespace A033172
-
-/-- `A033171(n+1)+A000035(A064680(n))` -/
-def P13929411749770246896.Spec : Prop :=
-  ∀ n, P13929411749770246896.a n = A033172 (n + 1)
-
-end A033172
-
-/-! ## A033172.P17824268745252965605
-
-`A033171(n+2)-365`
--/
-
-namespace A033172.P17824268745252965605
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033171 (n + 2) - 365
-
-end
-
-end A033172.P17824268745252965605
-
-namespace A033172
-
-/-- `A033171(n+2)-365` -/
-def P17824268745252965605.Spec : Prop :=
-  ∀ n, P17824268745252965605.a n = A033172 (n + 1)
 
 end A033172
 
@@ -22724,24 +22679,6 @@ end
 
 end A033178.P5922191348703019125
 
-/-! ## A033178.P7410961463883717121
-
-`-1+Δ[A360971(n+2)]`
--/
-
-namespace A033178.P7410961463883717121
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A360971 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + (f1 (n + 1) - f1 n)
-
-end
-
-end A033178.P7410961463883717121
-
 /-!
 # A033179: Numbers k such that exactly one multiset of k positive integers has equal sum and product.
 
@@ -23818,36 +23755,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033185.P16512550827502501269
-
-/-! ## A033185.P6179382109076298326
-
-`A217781(n+1)`
--/
-
-namespace A033185.P6179382109076298326
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217781 (n + 1)
-
-end
-
-end A033185.P6179382109076298326
-
-/-! ## A033185.P4732184107917462006
-
-`A339428(n+1)`
--/
-
-namespace A033185.P4732184107917462006
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339428 (n + 1)
-
-end
-
-end A033185.P4732184107917462006
 
 /-!
 # A033187: a(n) = (n!)!/n!.

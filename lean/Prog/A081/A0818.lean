@@ -20,10 +20,11 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -32,14 +33,16 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,9 +60,9 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -67,12 +70,13 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,6 +88,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -100,27 +105,6 @@ import Seq.Opaque.C023
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
-
-/-!
-# A081804: Hypotenuses of primitive Pythagorean triangles sorted on semiperimeter.
-
-The programs for A081804, there is no canonical definition to state claims against.
--/
-
-/-! ## A081804.P996193166853957020
-
-`A103606(3*(n+1))`
--/
-
-namespace A081804.P996193166853957020
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103606 (3 * (n + 1))
-
-end
-
-end A081804.P996193166853957020
 
 /-!
 # A081805: a(n) = n minus (largest prime power in n factorization); a(1) = 0.
@@ -1070,21 +1054,6 @@ end A081808
 The programs for A081810, there is no canonical definition to state claims against.
 -/
 
-/-! ## A081810.P12384335862280529234
-
-`A001414(A034699(n+1))`
--/
-
-namespace A081810.P12384335862280529234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001414 (A034699 (n + 1)).toNat
-
-end
-
-end A081810.P12384335862280529234
-
 /-! ## A081810.P1726491068984940120
 
 `A353862(A064988(n+1))`
@@ -1120,21 +1089,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A081811.P4517621331594616908
-
-/-! ## A081811.P15155284192603682448
-
-`A001414(A034684(n+1))`
--/
-
-namespace A081811.P15155284192603682448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001414 (A034684 (n + 1)).toNat
-
-end
-
-end A081811.P15155284192603682448
 
 /-!
 # A081812: If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = Max{ Max(p_i, e_i) }.
@@ -4668,27 +4622,6 @@ end
 end A081858.P12193157807747645245
 
 /-!
-# A081859: Short leg of primitive Pythagorean triangles sorted on semiperimeter.
-
-The programs for A081859, there is no canonical definition to state claims against.
--/
-
-/-! ## A081859.P1090589316753480410
-
-`A103606(1+3*n)`
--/
-
-namespace A081859.P1090589316753480410
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103606 (1 + 3 * n)
-
-end
-
-end A081859.P1090589316753480410
-
-/-!
 # A081860: a(n) = Sum_{k=0..n-1} sigma(2k+1)*sigma_3(n-k).
 
 The programs for A081860, there is no canonical definition to state claims against.
@@ -7214,27 +7147,6 @@ end
 end A081871.P3566304077717035740
 
 /-!
-# A081872: Long legs of primitive Pythagorean triangles sorted on semiperimeter.
-
-The programs for A081872, there is no canonical definition to state claims against.
--/
-
-/-! ## A081872.P85226115846387696
-
-`A103606(3*n+2)`
--/
-
-namespace A081872.P85226115846387696
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103606 (3 * n + 2)
-
-end
-
-end A081872.P85226115846387696
-
-/-!
 # A081873: Ordered semiperimeter of primitive Pythagorean triangles with an odd short leg (or an even long leg).
 
 The programs for A081873, there is no canonical definition to state claims against.
@@ -9517,6 +9429,29 @@ The programs for A081894, the canonical program `A081894.P2906247629489649026` i
 The definition of A081894 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A081894.P4987128716718103943
+
+`ogf((1-8x+16x^2)/(1-15x+75x^2-125x^3))`
+-/
+
+namespace A081894.P4987128716718103943
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -8, 16] [1, -15, 75, -125] n
+
+end
+
+end A081894.P4987128716718103943
+
+namespace A081894
+
+/-- `ogf((1-8x+16x^2)/(1-15x+75x^2-125x^3))` -/
+def P4987128716718103943.Spec : Prop :=
+  ∀ n, P4987128716718103943.a n = A081894 n
+
+end A081894
+
 /-! ## A081894.P2906247629489649026
 
 `5^n*(n²+19*n+50)/50`
@@ -9592,6 +9527,29 @@ The programs for A081895, the canonical program `A081895.P15864551204590026820` 
 The definition of A081895 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A081895.P8906752910806719143
+
+`ogf((1-6x+12x^2-8x^3)/(1-12x+54x^2-108x^3+81x^4))`
+-/
+
+namespace A081895.P8906752910806719143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -6, 12, -8] [1, -12, 54, -108, 81] n
+
+end
+
+end A081895.P8906752910806719143
+
+namespace A081895
+
+/-- `ogf((1-6x+12x^2-8x^3)/(1-12x+54x^2-108x^3+81x^4))` -/
+def P8906752910806719143.Spec : Prop :=
+  ∀ n, P8906752910806719143.a n = A081895 n
+
+end A081895
+
 /-! ## A081895.P15864551204590026820
 
 `3^n*(n^3+24*n²+137*n+162)/162`
@@ -9663,6 +9621,29 @@ The programs for A081896, the canonical program `A081896.P12839676594086095488` 
 
 The definition of A081896 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A081896.P969118991816542252
+
+`ogf((1-9x+27x^2-27x^3)/(1-16x+96x^2-256x^3+256x^4))`
+-/
+
+namespace A081896.P969118991816542252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -9, 27, -27] [1, -16, 96, -256, 256] n
+
+end
+
+end A081896.P969118991816542252
+
+namespace A081896
+
+/-- `ogf((1-9x+27x^2-27x^3)/(1-16x+96x^2-256x^3+256x^4))` -/
+def P969118991816542252.Spec : Prop :=
+  ∀ n, P969118991816542252.a n = A081896 n
+
+end A081896
 
 /-! ## A081896.P12839676594086095488
 
@@ -9739,6 +9720,29 @@ The programs for A081897, the canonical program `A081897.P15015591819436053071` 
 The definition of A081897 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A081897.P3768825147406189092
+
+`ogf((1-12x+48x^2-64x^3)/(1-20x+150x^2-500x^3+625x^4))`
+-/
+
+namespace A081897.P3768825147406189092
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -12, 48, -64] [1, -20, 150, -500, 625] n
+
+end
+
+end A081897.P3768825147406189092
+
+namespace A081897
+
+/-- `ogf((1-12x+48x^2-64x^3)/(1-20x+150x^2-500x^3+625x^4))` -/
+def P3768825147406189092.Spec : Prop :=
+  ∀ n, P3768825147406189092.a n = A081897 n
+
+end A081897
+
 /-! ## A081897.P15015591819436053071
 
 `5^n*(n^3+42*n²+407*n+750)/750`
@@ -9783,8 +9787,29 @@ end A081897
 /-!
 # A081898: Second binomial transform of binomial(n+4, 4).
 
-The programs for A081898, there is no canonical definition to state claims against.
+The programs for A081898, the canonical program `A081898.P4567069686417868320` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081898 has offset 0).
+
+The definition of A081898 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A081898.P4567069686417868320
+
+`ogf((1-8x+24x^2-32x^3+16x^4)/(1-15x+90x^2-270x^3+405x^4-243x^5))`
+
+The canonical program, it is in `Seq.B000.C015`.
+-/
+
+namespace A081898
+
+/-- `ogf((1-8x+24x^2-32x^3+16x^4)/(1-15x+90x^2-270x^3+405x^4-243x^5))` -/
+def P4567069686417868320.Spec : Prop :=
+  ∀ n, P4567069686417868320.a n = A081898 n
+
+theorem P4567069686417868320.correct : P4567069686417868320.Spec := by
+  intro n
+  simp only [A081898]
+
+end A081898
 
 /-! ## A081898.P8543871432560213992
 
@@ -9804,29 +9829,40 @@ end
 
 end A081898.P8543871432560213992
 
+namespace A081898
+
+/-- `∑{#}[n, (-1)^(n-#)*C(n, #)*A081899(#)]` -/
+def P8543871432560213992.Spec : Prop :=
+  ∀ n, P8543871432560213992.a n = (A081898 n : ℚ)
+
+end A081898
+
 /-!
 # A081899: Third binomial transform of binomial(n+4, 4).
 
-The programs for A081899, there is no canonical definition to state claims against.
+The programs for A081899, the canonical program `A081899.P13750226317508857273` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081899 has offset 0).
+
+The definition of A081899 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A081899.P13750226317508857273
 
 `∑{#}[n, C(n, #)*A081898(#)]`
+
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
-namespace A081899.P13750226317508857273
-noncomputable section
+namespace A081899
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+/-- `∑{#}[n, C(n, #)*A081898(#)]` -/
+def P13750226317508857273.Spec : Prop :=
+  ∀ n, P13750226317508857273.a n = A081899 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ k ∈ Finset.range (f1 n + 1), (Nat.choose n k : ℤ) * A081898 k
+theorem P13750226317508857273.correct : P13750226317508857273.Spec := by
+  intro n
+  simp only [A081899]
 
-end
-
-end A081899.P13750226317508857273
+end A081899
 
 /-! ## A081899.P384074908870754231
 
@@ -9845,4 +9881,12 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A081899.P384074908870754231
+
+namespace A081899
+
+/-- `∑{#}[n, (-1)^(n-#)*C(n, #)*A081900(#)]` -/
+def P384074908870754231.Spec : Prop :=
+  ∀ n, P384074908870754231.a n = (A081899 n : ℚ)
+
+end A081899
 

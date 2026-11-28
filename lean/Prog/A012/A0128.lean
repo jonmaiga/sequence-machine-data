@@ -5,27 +5,29 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C007
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C041
-import Seq.B000.C045
+import Seq.B000.C031
+import Seq.B000.C042
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1661,21 +1663,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A012844.P14814749177544573105
-
-/-! ## A012844.P16486020929159604052
-
-`A013188(2*n+1)*(-1)*A033999(n+1)`
--/
-
-namespace A012844.P16486020929159604052
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013188 (2 * n + 1) * (-1) * A033999 (n + 1)
-
-end
-
-end A012844.P16486020929159604052
 
 /-!
 # A012845: cos(sec(x)*arctanh(x))=1-1/2!*x^2-19/4!*x^4-565/6!*x^6-24743/8!*x^8...
@@ -3986,27 +3973,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012897.P16532822109228008429
-
-/-!
-# A012898: Expansion of e.g.f.: sech(sin(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+69/4!*x^4-330/5!*x^5...
-
-The programs for A012898, there is no canonical definition to state claims against.
--/
-
-/-! ## A012898.P2889836088938783228
-
-`A013080(n)`
--/
-
-namespace A012898.P2889836088938783228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013080 n
-
-end
-
-end A012898.P2889836088938783228
 
 /-!
 # A012899: E.g.f.: exp(arcsin(x)+log(x+1)).

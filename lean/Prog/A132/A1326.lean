@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -19,25 +18,23 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C047
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -48,10 +45,10 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -61,8 +58,10 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B007.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +78,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -263,16 +263,39 @@ end A132605.P12859641509247884821
 /-!
 # A132607: X-values of solutions to the equation X*(X + 1) - 11*Y^2 = 0.
 
-The programs for A132607, the canonical program `A132607.P3368982448570919306` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132607 has offset 0).
+The programs for A132607, the canonical program `A132607.P3368982448570919306` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132607 has offset 0).
 
 The definition of A132607 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A132607.P4564069833405147273
+
+`ogf((99x+99x^2)/(1-399x+399x^2-x^3))`
+-/
+
+namespace A132607.P4564069833405147273
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 99, 99] [1, -399, 399, -1] n
+
+end
+
+end A132607.P4564069833405147273
+
+namespace A132607
+
+/-- `ogf((99x+99x^2)/(1-399x+399x^2-x^3))` -/
+def P4564069833405147273.Spec : Prop :=
+  ∀ n, P4564069833405147273.a n = A132607 n
+
+end A132607
 
 /-! ## A132607.P3368982448570919306
 
 `398*a(n-1)-a(n-2)+198` with `a(0)=0, a(1)=99`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132607
@@ -353,29 +376,6 @@ namespace A132607
 /-- `99*A075843(n)²` -/
 def P4853241882432766710.Spec : Prop :=
   ∀ n, P4853241882432766710.a n = A132607 n
-
-end A132607
-
-/-! ## A132607.P6665673962866167601
-
-`(A090728(n)/2)²-1`
--/
-
-namespace A132607.P6665673962866167601
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((A090728 n : ℚ) / 2) ^ 2 - 1
-
-end
-
-end A132607.P6665673962866167601
-
-namespace A132607
-
-/-- `(A090728(n)/2)²-1` -/
-def P6665673962866167601.Spec : Prop :=
-  ∀ n, P6665673962866167601.a n = (A132607 n : ℚ)
 
 end A132607
 
@@ -3760,21 +3760,6 @@ end
 
 end A132662.P290591271294936332
 
-/-! ## A132662.P2382046345083259141
-
-`A279782(A133137(n+1))`
--/
-
-namespace A132662.P2382046345083259141
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279782 (A133137 (n + 1)).toNat
-
-end
-
-end A132662.P2382046345083259141
-
 /-!
 # A132663: Values of y such that x^2+y^2=n where x<=y for values of n given by A008784.
 
@@ -4063,7 +4048,7 @@ end A132665
 /-!
 # A132677: Period 3: repeat [1, 2, -3].
 
-The programs for A132677, the canonical program `A132677.P10492461102840906262` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132677 has offset 0).
+The programs for A132677, the canonical program `A132677.P10492461102840906262` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132677 has offset 0).
 
 The definition of A132677 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132677.anchor (n : ℕ) : A132677 n = [1, 2, -3].getD (n % 3) 0` in `Proof.A132.A132677`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4095,7 +4080,7 @@ end A132677
 
 `a(n-3)` with `a(0)=1, a(1)=2, a(2)=-3, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132677
@@ -5475,7 +5460,7 @@ end A132681
 /-!
 # A132683: a(n) = binomial(2^n + n, n).
 
-The programs for A132683, the canonical program `A132683.P2872231699051454465` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132683 has offset 0).
+The programs for A132683, the canonical program `A132683.P2872231699051454465` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132683 has offset 0).
 
 The definition of A132683 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+n, n)` (program `A132683.P2872231699051454465`, by `A132683.P2872231699051454465.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5484,7 +5469,7 @@ The definition of A132683 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+n, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132683
@@ -5597,7 +5582,7 @@ end A132683
 /-!
 # A132684: a(n) = binomial(2^n + n + 1, n).
 
-The programs for A132684, the canonical program `A132684.P6258322429167631371` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132684 has offset 0).
+The programs for A132684, the canonical program `A132684.P6258322429167631371` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132684 has offset 0).
 
 The definition of A132684 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+n+1, n)` (program `A132684.P6258322429167631371`, by `A132684.P6258322429167631371.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5606,7 +5591,7 @@ The definition of A132684 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+n+1, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132684
@@ -5676,7 +5661,7 @@ end A132684
 /-!
 # A132685: a(n) = binomial(2^n + 2*n, n).
 
-The programs for A132685, the canonical program `A132685.P5344720718179652360` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132685 has offset 0).
+The programs for A132685, the canonical program `A132685.P5344720718179652360` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132685 has offset 0).
 
 The definition of A132685 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+2*n, n)` (program `A132685.P5344720718179652360`, by `A132685.P5344720718179652360.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5685,7 +5670,7 @@ The definition of A132685 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+2*n, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132685
@@ -5732,7 +5717,7 @@ end A132685
 /-!
 # A132686: a(n) = binomial(2^n + 2*n + 1, n).
 
-The programs for A132686, the canonical program `A132686.P10260103870751354185` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132686 has offset 0).
+The programs for A132686, the canonical program `A132686.P10260103870751354185` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132686 has offset 0).
 
 The definition of A132686 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+2*n+1, n)` (program `A132686.P10260103870751354185`, by `A132686.P10260103870751354185.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5741,7 +5726,7 @@ The definition of A132686 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+2*n+1, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132686
@@ -5837,7 +5822,7 @@ end A132686
 /-!
 # A132687: a(n) = binomial(2^n + 3*n - 1, n).
 
-The programs for A132687, the canonical program `A132687.P11474451210225639351` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132687 has offset 0).
+The programs for A132687, the canonical program `A132687.P11474451210225639351` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132687 has offset 0).
 
 The definition of A132687 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+3*n-1, n)` (program `A132687.P11474451210225639351`, by `A132687.P11474451210225639351.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5846,7 +5831,7 @@ The definition of A132687 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+3*n-1, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132687
@@ -5864,7 +5849,7 @@ end A132687
 /-!
 # A132688: a(n) = binomial(2^n + 3*n, n).
 
-The programs for A132688, the canonical program `A132688.P18006947080460615927` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132688 has offset 0).
+The programs for A132688, the canonical program `A132688.P18006947080460615927` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132688 has offset 0).
 
 The definition of A132688 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+3*n, n)` (program `A132688.P18006947080460615927`, by `A132688.P18006947080460615927.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5873,7 +5858,7 @@ The definition of A132688 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+3*n, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132688
@@ -5920,7 +5905,7 @@ end A132688
 /-!
 # A132689: a(n) = binomial(2^n + 3*n + 1, n).
 
-The programs for A132689, the canonical program `A132689.P12440489623895740566` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132689 has offset 0).
+The programs for A132689, the canonical program `A132689.P12440489623895740566` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132689 has offset 0).
 
 The definition of A132689 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(2^n+3*n+1, n)` (program `A132689.P12440489623895740566`, by `A132689.P12440489623895740566.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5929,7 +5914,7 @@ The definition of A132689 is `verified`: the Lean definition is proven equivalen
 
 `C(2^n+3*n+1, n)`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A132689

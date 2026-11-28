@@ -9,30 +9,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C025
+import Seq.B000.C021
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B000.C045
-import Seq.B000.C047
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,6 +49,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,12 +58,11 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,7 +85,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1151,7 +1149,7 @@ end A316223.P5510663144739416962
 /-!
 # A316224: a(n) = n*(2*n + 1)*(4*n + 1).
 
-The programs for A316224, the canonical program `A316224.P13763735533833760107` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316224 has offset 0).
+The programs for A316224, the canonical program `A316224.P13763735533833760107` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316224 has offset 0).
 
 The definition of A316224 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(2*n+1)*(4*n+1)` (program `A316224.P13763735533833760107`, by `A316224.P13763735533833760107.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1183,7 +1181,7 @@ end A316224
 
 `n*(2*n+1)*(4*n+1)`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316224
@@ -2368,7 +2366,7 @@ end A316245.P12580759600603697136
 /-!
 # A316261: The number of ways to induce a single pinch on a compact 2-manifold with n handles. (Note: The manifold is embedded in Euclidean 2-space, and each pinch partitions it into at most two submanifolds.)
 
-The programs for A316261, the canonical program `A316261.P8996102231661745155` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316261 has offset 0).
+The programs for A316261, the canonical program `A316261.P8996102231661745155` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316261 has offset 0).
 
 The definition of A316261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2377,7 +2375,7 @@ The definition of A316261 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2-2x^3-2x^4+x^5+x^6)/(1-2x-x^2+4x^3-x^4-2x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A316261
@@ -3179,29 +3177,6 @@ def P18372830718401953922.Spec : Prop :=
 theorem P18372830718401953922.correct : P18372830718401953922.Spec := by
   intro n
   simp only [A316272, Nat.add_sub_cancel]
-
-end A316272
-
-/-! ## A316272.P16650329389319721103
-
-`A073898(A304337(n+1))`
--/
-
-namespace A316272.P16650329389319721103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073898 (A304337 (n + 1)).toNat
-
-end
-
-end A316272.P16650329389319721103
-
-namespace A316272
-
-/-- `A073898(A304337(n+1))` -/
-def P16650329389319721103.Spec : Prop :=
-  ∀ n, P16650329389319721103.a n = A316272 (n + 1)
 
 end A316272
 
@@ -4232,7 +4207,7 @@ end A316296.P310754784121179187
 /-!
 # A316297: a(n) = n! times the denominator of the n-th harmonic number H(n).
 
-The programs for A316297, the canonical program `A316297.P7014725534120601013` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316297 has offset 1).
+The programs for A316297, the canonical program `A316297.P7014725534120601013` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316297 has offset 1).
 
 The definition of A316297 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4241,7 +4216,7 @@ The definition of A316297 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000142(n+1)*A002805(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A316297

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -14,6 +13,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -28,19 +28,19 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,13 +58,13 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -75,10 +75,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +102,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2932,27 +2930,6 @@ end
 end A143426.P13172440877390474985
 
 /-!
-# A143428: a(n)=least prime == -1 mod 6 such that q(n)*(q(n)+a(n))-1 and q(n)*(q(n)+a(n))+1 are twin primes with q(i)=i-th prime == 1 mod 6.
-
-The programs for A143428, there is no canonical definition to state claims against.
--/
-
-/-! ## A143428.P2431588516124946540
-
-`A082466(A002476(n+1))`
--/
-
-namespace A143428.P2431588516124946540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082466 (A002476 (n + 1)).toNat
-
-end
-
-end A143428.P2431588516124946540
-
-/-!
 # A143429: Least a(n) prime == 1 mod 6 such that q(n)*(q(n)+a(n))-1 is prime with q(i)=i-th prime == -1 mod 6.
 
 The programs for A143429, there is no canonical definition to state claims against.
@@ -3090,7 +3067,7 @@ end A143432
 /-!
 # A143433: Expansion of f(-x, x^3) in powers of x where f(,) is Ramanujan's general theta function.
 
-The programs for A143433, the canonical program `A143433.P568368968491830476` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143433 has offset 0).
+The programs for A143433, the canonical program `A143433.P568368968491830476` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143433 has offset 0).
 
 The definition of A143433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3508,7 +3485,7 @@ end A143433
 
 `round(A010054(n)/A228826(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A143433
@@ -4487,7 +4464,7 @@ end A143439.P5744102823260427562
 /-!
 # A143442: Triangle read by rows, A127648 * A000012 * A128407, 1 <= k <= n.
 
-The programs for A143442, the canonical program `A143442.P15593702494414460611` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143442 has offset 1).
+The programs for A143442, the canonical program `A143442.P15593702494414460611` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143442 has offset 1).
 
 The definition of A143442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4522,7 +4499,7 @@ end A143442
 
 `∑[char[∑[n]]]*A054527(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A143442
@@ -6392,27 +6369,6 @@ def P7542152434077016785.Spec : Prop :=
   ∀ n, P7542152434077016785.a n = A143452 n
 
 end A143452
-
-/-!
-# A143453: Square array A(n,k) of numbers of length n ternary words with at least k 0-digits between any other digits (n,k >= 0), read by antidiagonals.
-
-The programs for A143453, there is no canonical definition to state claims against.
--/
-
-/-! ## A143453.P12143481388610620773
-
-`A064988(A141539(n))`
--/
-
-namespace A143453.P12143481388610620773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064988 (A141539 n).toNat
-
-end
-
-end A143453.P12143481388610620773
 
 /-!
 # A143454: Expansion of 1/(x^k*(1 - x - 3*x^(k+1))) for k=3.
@@ -8682,27 +8638,6 @@ end
 end A143474.P1137792640950054513
 
 /-!
-# A143476: Denominator of the coefficient of z^(2n) in the Stirling-like asymptotic expansion of the hyperfactorial function A002109.
-
-The programs for A143476, there is no canonical definition to state claims against.
--/
-
-/-! ## A143476.P7752162307822040316
-
-`A318711(n)`
--/
-
-namespace A143476.P7752162307822040316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318711 n
-
-end
-
-end A143476.P7752162307822040316
-
-/-!
 # A143477: Kolakoski Fan.
 
 The programs for A143477, there is no canonical definition to state claims against.
@@ -10143,7 +10078,7 @@ end A143496
 /-!
 # A143497: Triangle of unsigned 2-Lah numbers.
 
-The programs for A143497, the canonical program `A143497.P17063427898058652900` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143497 has offset 2).
+The programs for A143497, the canonical program `A143497.P17063427898058652900` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143497 has offset 2).
 
 The definition of A143497 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10244,7 +10179,7 @@ end A143497
 
 `A094587(n)*A104713(n+3)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A143497

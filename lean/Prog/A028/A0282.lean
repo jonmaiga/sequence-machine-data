@@ -28,20 +28,23 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +55,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
@@ -60,30 +62,29 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +95,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -104,7 +104,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -6568,25 +6567,17 @@ end A028231
 /-!
 # A028233: If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = p_1^e_1, with a(1) = 1.
 
-The programs for A028233, the canonical program `A028233.P1707119900298464866` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028233 has offset 1).
+The programs for A028233, the canonical program `A028233.P13002379639496575207` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028233 has offset 1).
 
-The definition of A028233 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020639, A067029, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A028233 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A028233.P13002379639496575207
 
 `(n+1)/A028234(n+1)`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
-
-namespace A028233.P13002379639496575207
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A028234 (n + 1) : ℚ)
-
-end
-
-end A028233.P13002379639496575207
 
 namespace A028233
 
@@ -6599,9 +6590,17 @@ end A028233
 /-! ## A028233.P1707119900298464866
 
 `A020639(n+1)^A067029(n+1)`
-
-The canonical program, it is in `Seq.B011.C000`.
 -/
+
+namespace A028233.P1707119900298464866
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A020639 (n + 1) : ℚ) ^ (A067029 (n + 1) : ℤ)
+
+end
+
+end A028233.P1707119900298464866
 
 namespace A028233
 
@@ -6847,9 +6846,9 @@ end A028233
 /-!
 # A028234: If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = n/p_1^e_1, with a(1) = 1.
 
-The programs for A028234, the canonical program `A028234.P14857795114050463851` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028234 has offset 1).
+The programs for A028234, the canonical program `A028234.P14857795114050463851` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028234 has offset 1).
 
-The definition of A028234 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020639, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A028234 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A028234.P590847467489235385
@@ -6879,7 +6878,7 @@ end A028234
 
 `∑{d}[n+1, A000203((n+1)/#)*A008683(#)*gcd(#, A020639(n+1))]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A028234
@@ -7006,29 +7005,6 @@ namespace A028234
 /-- `A032742(A242419(A243074(A242419(n+1))))` -/
 def P826379646278353515.Spec : Prop :=
   ∀ n, P826379646278353515.a n = A028234 (n + 1)
-
-end A028234
-
-/-! ## A028234.P3915399171183707550
-
-`(n+1)/A323130(n+1)`
--/
-
-namespace A028234.P3915399171183707550
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A323130 (n + 1) : ℚ)
-
-end
-
-end A028234.P3915399171183707550
-
-namespace A028234
-
-/-- `(n+1)/A323130(n+1)` -/
-def P3915399171183707550.Spec : Prop :=
-  ∀ n, P3915399171183707550.a n = (A028234 (n + 1) : ℚ)
 
 end A028234
 
@@ -9602,6 +9578,29 @@ def P5131811478861519263.Spec : Prop :=
 theorem P5131811478861519263.correct : P5131811478861519263.Spec := by
   intro n
   simp only [A028245, Nat.add_sub_cancel]
+
+end A028245
+
+/-! ## A028245.P11813265282472230961
+
+`ogf(24x^4/(1-15x+85x^2-225x^3+274x^4-120x^5))`
+-/
+
+namespace A028245.P11813265282472230961
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 0, 24] [1, -15, 85, -225, 274, -120] n
+
+end
+
+end A028245.P11813265282472230961
+
+namespace A028245
+
+/-- `ogf(24x^4/(1-15x+85x^2-225x^3+274x^4-120x^5))` -/
+def P11813265282472230961.Spec : Prop :=
+  ∀ n, P11813265282472230961.a n = A028245 (n + 1)
 
 end A028245
 
@@ -20461,6 +20460,33 @@ def P18111213399392594674.Spec : Prop :=
   ∀ n, P18111213399392594674.a n = (A028294 (n + 4) : ℚ)
 
 end A028294
+
+/-!
+# A028295: a(n) = n^6 - (883/60)*n^5 + (157/3)*n^4 + (2155/12)*n^3 - (4570/3)*n^2 + (42767/15)*n - 967.
+
+The programs for A028295, the canonical program `A028295.P8486819664819515104` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028295 has offset 6).
+
+The definition of A028295 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A028295.P8486819664819515104
+
+`ogf((133+972x+33x^2-604x^3+187x^4+2x^5-3x^6)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A028295
+
+/-- `ogf((133+972x+33x^2-604x^3+187x^4+2x^5-3x^6)/(1-7x+21x^2-35x^3+35x^4-21x^5+7x^6-x^7))` -/
+def P8486819664819515104.Spec : Prop :=
+  ∀ n, P8486819664819515104.a n = A028295 (n + 6)
+
+theorem P8486819664819515104.correct : P8486819664819515104.Spec := by
+  intro n
+  simp only [A028295, Nat.add_sub_cancel]
+
+end A028295
 
 /-!
 # A028296: Expansion of e.g.f. Gudermannian(x) = 2*arctan(exp(x)) - Pi/2.

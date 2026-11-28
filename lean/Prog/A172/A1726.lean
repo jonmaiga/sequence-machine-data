@@ -1,16 +1,16 @@
 import SequenceMachineLib.Basic
 import Mathlib.Tactic
 import Seq.B000.C000
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C008
@@ -36,7 +36,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

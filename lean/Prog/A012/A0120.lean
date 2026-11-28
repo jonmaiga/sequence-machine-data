@@ -6,18 +6,20 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
@@ -25,11 +27,10 @@ import Seq.B001.C004
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B006.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
@@ -40,7 +41,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -796,21 +796,6 @@ end A012018.P8263890645660840801
 
 The programs for A012019, there is no canonical definition to state claims against.
 -/
-
-/-! ## A012019.P12379188570144814799
-
-`A012253(n)`
--/
-
-namespace A012019.P12379188570144814799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012253 n
-
-end
-
-end A012019.P12379188570144814799
 
 /-! ## A012019.P4945176751424165659
 
@@ -1705,27 +1690,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012060.P17938179080882478320
-
-/-!
-# A012061: sec(sin(arctanh(x)))=1+1/2!*x^2+9/4!*x^4+201/6!*x^6+7921/8!*x^8...
-
-The programs for A012061, there is no canonical definition to state claims against.
--/
-
-/-! ## A012061.P11445254727215064656
-
-`A012168(n)`
--/
-
-namespace A012061.P11445254727215064656
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012168 n
-
-end
-
-end A012061.P11445254727215064656
 
 /-!
 # A012062: sech(sin(arctanh(x)))=1-1/2!*x^2+1/4!*x^4-1/6!*x^6+449/8!*x^8...

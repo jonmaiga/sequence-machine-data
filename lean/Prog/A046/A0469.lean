@@ -17,26 +17,30 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C049
+import Seq.B000.C046
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,6 +60,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -67,6 +72,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -77,8 +83,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -360,30 +364,6 @@ def P11468302537983594594.Spec : Prop :=
   ∀ n, P11468302537983594594.a n = A046902 n
 
 end A046902
-
-/-!
-# A046903: Largest odd number that can be represented in no more than n ways as p + 2*i^2 where p is 1 or a prime and i >= 0.
-
-The programs for A046903, there is no canonical definition to state claims against.
--/
-
-/-! ## A046903.P16150072409347679711
-
-`A055108(n-floor(n/∏{p}[n+1, #]))`
--/
-
-namespace A046903.P16150072409347679711
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055108 ((n : ℤ) - ⌊(n : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ)⌋).toNat
-
-end
-
-end A046903.P16150072409347679711
 
 /-!
 # A046904: Number of isomorphism classes of posets with n points with property that there is no nonsingleton proper subset T for which x not in T implies x<T or x>T or x incomparable with every element of T.
@@ -1405,6 +1385,29 @@ The programs for A046915, the canonical program `A046915.P9807623383994794268` i
 The definition of A046915 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A046915.P11469419854360611182
+
+`ogf((1-10x^2)/(1-18x+97x^2-180x^3+100x^4))`
+-/
+
+namespace A046915.P11469419854360611182
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -10] [1, -18, 97, -180, 100] n
+
+end
+
+end A046915.P11469419854360611182
+
+namespace A046915
+
+/-- `ogf((1-10x^2)/(1-18x+97x^2-180x^3+100x^4))` -/
+def P11469419854360611182.Spec : Prop :=
+  ∀ n, P11469419854360611182.a n = A046915 n
+
+end A046915
+
 /-! ## A046915.P9807623383994794268
 
 `1/4*(2^(n+1)-1)*(5^(n+1)-1)`
@@ -1417,29 +1420,6 @@ namespace A046915
 /-- `1/4*(2^(n+1)-1)*(5^(n+1)-1)` -/
 def P9807623383994794268.Spec : Prop :=
   ∀ n, P9807623383994794268.a n = (A046915 n : ℚ)
-
-end A046915
-
-/-! ## A046915.P14073773768245911148
-
-`A000203(10^n)`
--/
-
-namespace A046915.P14073773768245911148
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (10 ^ n)
-
-end
-
-end A046915.P14073773768245911148
-
-namespace A046915
-
-/-- `A000203(10^n)` -/
-def P14073773768245911148.Spec : Prop :=
-  ∀ n, P14073773768245911148.a n = A046915 n
 
 end A046915
 
@@ -2838,35 +2818,6 @@ def P10095244816697548619.Spec : Prop :=
 theorem P10095244816697548619.correct : P10095244816697548619.Spec := by
   intro n
   simp only [A046929, Nat.add_sub_cancel]
-
-end A046929
-
-/-! ## A046929.P10262143989961550911
-
-`-1+A051702(n+1)`
--/
-
-namespace A046929.P10262143989961550911
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A051702 (n + 1)
-
-end
-
-end A046929.P10262143989961550911
-
-namespace A046929
-
-/-- `-1+A051702(n+1)` -/
-def P10262143989961550911.Spec : Prop :=
-  ∀ n, P10262143989961550911.a n = A046929 (n + 1)
-
-theorem P10262143989961550911.correct : P10262143989961550911.Spec := by
-  intro n
-  simp only [A046929, Nat.add_sub_cancel, A046929.P10262143989961550911.a, A046929.P10095244816697548619.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A046929
 
@@ -8606,31 +8557,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046956.P2517508098525201314
-
-/-!
-# A046957: Numbers k where cos(k) decreases monotonically to 0.
-
-The programs for A046957, there is no canonical definition to state claims against.
--/
-
-/-! ## A046957.P12435592413633324272
-
-`A004112(comp[2*(n+1)]+1)`
--/
-
-namespace A046957.P12435592413633324272
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004112 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n + 1)
-
-end
-
-end A046957.P12435592413633324272
 
 /-!
 # A046959: Numbers k where sin(k) increases monotonically to 1 (or cosec(k) decreases).

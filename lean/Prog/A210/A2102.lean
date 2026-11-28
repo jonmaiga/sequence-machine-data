@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,33 +11,33 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -55,7 +54,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -70,9 +68,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,6 +88,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -1770,7 +1767,7 @@ end A210214
 /-!
 # A210215: Triangle of coefficients of polynomials u(n,x) jointly generated with A210216; see the Formula section.
 
-The programs for A210215, the canonical program `A210215.P14337481763650639316` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210215 has offset 1).
+The programs for A210215, the canonical program `A210215.P14337481763650639316` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210215 has offset 1).
 
 The definition of A210215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1779,7 +1776,7 @@ The definition of A210215 is `conjectured`: the Lean definition is a formula tha
 
 `T(n-1,k)+C(row(n)+1, 2*(row(n)-col(n)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210215
@@ -2249,7 +2246,7 @@ end A210218.P4609168188500341808
 /-!
 # A210219: Triangle of coefficients of polynomials u(n,x) jointly generated with A210220; see the Formula section.
 
-The programs for A210219, the canonical program `A210219.P8372521488883234234` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210219 has offset 1).
+The programs for A210219, the canonical program `A210219.P8372521488883234234` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210219 has offset 1).
 
 The definition of A210219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2258,7 +2255,7 @@ The definition of A210219 is `conjectured`: the Lean definition is a formula tha
 
 `T(n-1,k)+C(2*row(n)-col(n), col(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210219
@@ -3100,7 +3097,7 @@ end A210227.P9480295533352132865
 /-!
 # A210229: Triangle of coefficients of polynomials u(n,x) jointly generated with A210230; see the Formula section.
 
-The programs for A210229, the canonical program `A210229.P15492045096852449610` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210229 has offset 1).
+The programs for A210229, the canonical program `A210229.P15492045096852449610` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210229 has offset 1).
 
 The definition of A210229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3166,7 +3163,7 @@ end A210229
 
 `T(n-1,k-1)+2*T(n-1,k)-(T(row(n)-3, col(n))+T(n-2,k-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210229
@@ -4460,46 +4457,10 @@ def P16186095749565953688.Spec : Prop :=
 end A210236
 
 /-!
-# A210237: Triangle of distinct values M(n) of multinomial coefficients for partitions of n in increasing order of n and M(n).
-
-The programs for A210237, there is no canonical definition to state claims against.
--/
-
-/-! ## A210237.P14287843762123531659
-
-`A036038(A178772(n+1))`
--/
-
-namespace A210237.P14287843762123531659
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036038 (A178772 (n + 1)).toNat
-
-end
-
-end A210237.P14287843762123531659
-
-/-!
 # A210238: Triangle of multiplicities D(n) of multinomial coefficients corresponding to sequence A210237.
 
 The programs for A210238, there is no canonical definition to state claims against.
 -/
-
-/-! ## A210238.P10584964298263474749
-
-`A035206(n+1)`
--/
-
-namespace A210238.P10584964298263474749
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035206 (n + 1)
-
-end
-
-end A210238.P10584964298263474749
 
 /-! ## A210238.P6141744902270984557
 
@@ -4522,7 +4483,7 @@ end A210238.P6141744902270984557
 /-!
 # A210239: Triangle, read by rows, given by (2, -1, 0, 0, 0, 0, 0, 0, 0, ...) DELTA (2, -1/2, -1/2, 0, 0, 0, 0, 0, 0, 0, ...) where DELTA is the operator defined in A084938.
 
-The programs for A210239, the canonical program `A210239.P17143662192963066193` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210239 has offset 0).
+The programs for A210239, the canonical program `A210239.P17143662192963066193` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210239 has offset 0).
 
 The definition of A210239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4531,7 +4492,7 @@ The definition of A210239 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)+T(n-2,k-1)+T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=2, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210239
@@ -6278,7 +6239,7 @@ end A210259.P16921997878615139718
 /-!
 # A210260: Number of (n+1) X 2 0..3 arrays containing all values 0..3 with every 2 X 2 subblock having three distinct values, and new values 0..3 introduced in row major order.
 
-The programs for A210260, the canonical program `A210260.P11436664393005585310` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210260 has offset 1).
+The programs for A210260, the canonical program `A210260.P11436664393005585310` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210260 has offset 1).
 
 The definition of A210260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6287,7 +6248,7 @@ The definition of A210260 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((29x+52x^2+20x^3)/(1-12x+18x^2+64x^3+24x^4))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210260
@@ -6778,7 +6739,7 @@ end A210268.P18350799827459787679
 /-!
 # A210269: Half the number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having two or three distinct clockwise edge differences.
 
-The programs for A210269, the canonical program `A210269.P5121483355791683821` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210269 has offset 1).
+The programs for A210269, the canonical program `A210269.P5121483355791683821` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210269 has offset 1).
 
 The definition of A210269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6787,7 +6748,7 @@ The definition of A210269 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((35-7x-54x^2)/(1-8x+12x^3))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210269
@@ -7095,7 +7056,7 @@ end A210274.P7960200506093540558
 /-!
 # A210277: a(n) = (3*n)!/3^n.
 
-The programs for A210277, the canonical program `A210277.P15324001074780751722` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210277 has offset 0).
+The programs for A210277, the canonical program `A210277.P15324001074780751722` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210277 has offset 0).
 
 The definition of A210277 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7104,7 +7065,7 @@ The definition of A210277 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n)!/3^n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A210277
@@ -7915,6 +7876,21 @@ end A210292.P5441831844293537893
 The programs for A210293, there is no canonical definition to state claims against.
 -/
 
+/-! ## A210293.P5485215693598584661
+
+`ogf((112+346x+150x^2-144x^3)/(1-11x-42x^2-20x^3+18x^4))`
+-/
+
+namespace A210293.P5485215693598584661
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [112, 346, 150, -144] [1, -11, -42, -20, 18] n
+
+end
+
+end A210293.P5485215693598584661
+
 /-! ## A210293.P6181180636806206050
 
 `A210300(∑[n]+1)`
@@ -7986,24 +7962,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A210293.P15906930064180669292
-
-/-! ## A210293.P5527089167164638806
-
-`record[gcd(A210300(n+1), A302528(n+1))]`
--/
-
-namespace A210293.P5527089167164638806
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A210300 (n + 1)) (A302528 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A210293.P5527089167164638806
 
 /-!
 # A210294: Half the number of (n+1)X3 0..3 arrays with every 2X2 subblock having at most one duplicate clockwise edge difference.

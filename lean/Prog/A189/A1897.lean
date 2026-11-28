@@ -40,14 +40,15 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,6 +71,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -80,9 +82,11 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -90,8 +94,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,6 +106,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2728,7 +2731,7 @@ end A189708
 /-!
 # A189709: Partial sums of A189706.
 
-The programs for A189709, the canonical program `A189709.P2445688688418407982` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189709 has offset 1).
+The programs for A189709, the canonical program `A189709.P2445688688418407982` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189709 has offset 1).
 
 The definition of A189709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2737,7 +2740,7 @@ The definition of A189709 is `conjectured`: the Lean definition is a formula tha
 
 `floor((n+2)/3)-a(floor((n+2)/3)-1)+floor((n+1)/3)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189709
@@ -4615,7 +4618,7 @@ end A189716
 /-!
 # A189717: Partial sums of A156595.
 
-The programs for A189717, the canonical program `A189717.P3306920372483353035` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189717 has offset 1).
+The programs for A189717, the canonical program `A189717.P3306920372483353035` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189717 has offset 1).
 
 The definition of A189717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4624,7 +4627,7 @@ The definition of A189717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+2)/3)+floor((n+1)/3)-a(floor((n+1)/3)-1)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189717
@@ -5056,7 +5059,7 @@ end A189717
 /-!
 # A189718: Fixed point of the morphism 0->011, 1->100.
 
-The programs for A189718, the canonical program `A189718.P15203452740860815567` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189718 has offset 0).
+The programs for A189718, the canonical program `A189718.P15203452740860815567` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189718 has offset 0).
 
 The definition of A189718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5065,7 +5068,7 @@ The definition of A189718 is `conjectured`: the Lean definition is a formula tha
 
 `(a(floor(n/3))+n²%3)%2` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189718
@@ -7085,7 +7088,7 @@ end A189722.P16855776739154441715
 /-!
 # A189723: Fixed point of the morphism 0->011, 1->101.
 
-The programs for A189723, the canonical program `A189723.P17700089988259517662` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189723 has offset 1).
+The programs for A189723, the canonical program `A189723.P17700089988259517662` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189723 has offset 1).
 
 The definition of A189723 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7094,7 +7097,7 @@ The definition of A189723 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt((n-a(floor(n/3)))%3))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189723
@@ -8589,7 +8592,7 @@ end A189725
 /-!
 # A189726: Partial sums of A189723.
 
-The programs for A189726, the canonical program `A189726.P5645549686733793027` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189726 has offset 1).
+The programs for A189726, the canonical program `A189726.P5645549686733793027` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189726 has offset 1).
 
 The definition of A189726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8598,7 +8601,7 @@ The definition of A189726 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(a(floor(n/3))-n)²%3]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189726
@@ -9085,7 +9088,7 @@ end A189726
 /-!
 # A189727: Fixed point of the morphism 0->011, 1->110.
 
-The programs for A189727, the canonical program `A189727.P5761544860663102643` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189727 has offset 1).
+The programs for A189727, the canonical program `A189727.P5761544860663102643` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189727 has offset 1).
 
 The definition of A189727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9094,7 +9097,7 @@ The definition of A189727 is `conjectured`: the Lean definition is a formula tha
 
 `row((a(floor(n/3))+n)%3)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189727
@@ -10564,7 +10567,7 @@ end A189729
 /-!
 # A189730: Partial sums of A189727.
 
-The programs for A189730, the canonical program `A189730.P13951375267834162152` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189730 has offset 1).
+The programs for A189730, the canonical program `A189730.P13951375267834162152` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189730 has offset 1).
 
 The definition of A189730 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10573,7 +10576,7 @@ The definition of A189730 is `conjectured`: the Lean definition is a formula tha
 
 `∑[ceil((n+a(floor(n/3)))%3/2)]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189730
@@ -11018,7 +11021,7 @@ end A189731
 /-!
 # A189732: a(1)=1, a(2)=5, a(n) = a(n-1) + 5*a(n-2).
 
-The programs for A189732, the canonical program `A189732.P11948807372699072561` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189732 has offset 1).
+The programs for A189732, the canonical program `A189732.P11948807372699072561` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189732 has offset 1).
 
 The definition of A189732 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+5*a(n-2)` (program `A189732.P11948807372699072561`, by `A189732.P11948807372699072561.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11050,7 +11053,7 @@ end A189732
 
 `a(n-1)+5*a(n-2)` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189732
@@ -11502,7 +11505,7 @@ end A189733
 /-!
 # A189734: a(1)=2, a(2)=5, a(n)=2*a(n-1) + 5*a(n-2).
 
-The programs for A189734, the canonical program `A189734.P14707890262312406596` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189734 has offset 1).
+The programs for A189734, the canonical program `A189734.P14707890262312406596` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189734 has offset 1).
 
 The definition of A189734 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)+5*a(n-2)` (program `A189734.P14707890262312406596`, by `A189734.P14707890262312406596.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11534,7 +11537,7 @@ end A189734
 
 `2*a(n-1)+5*a(n-2)` with `a(0)=2, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189734
@@ -11944,7 +11947,7 @@ end A189734
 /-!
 # A189735: a(1)=3, a(2)=1, a(n) = 3*a(n-1) + a(n-2).
 
-The programs for A189735, the canonical program `A189735.P13860861591301041264` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189735 has offset 1).
+The programs for A189735, the canonical program `A189735.P13860861591301041264` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189735 has offset 1).
 
 The definition of A189735 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+a(n-2)` (program `A189735.P13860861591301041264`, by `A189735.P13860861591301041264.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11976,7 +11979,7 @@ end A189735
 
 `3*a(n-1)+a(n-2)` with `a(0)=3, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189735
@@ -12215,7 +12218,7 @@ end A189735
 /-!
 # A189736: a(1)=3, a(2)=2, a(n)=3*a(n-1) + 2*a(n-2).
 
-The programs for A189736, the canonical program `A189736.P2213471092382747631` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189736 has offset 1).
+The programs for A189736, the canonical program `A189736.P2213471092382747631` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189736 has offset 1).
 
 The definition of A189736 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+2*a(n-2)` (program `A189736.P2213471092382747631`, by `A189736.P2213471092382747631.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12247,7 +12250,7 @@ end A189736
 
 `3*a(n-1)+2*a(n-2)` with `a(0)=3, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189736
@@ -12545,7 +12548,7 @@ end A189736
 /-!
 # A189737: a(1)=3, a(2)=3, a(n)=3*a(n-1) + 3*a(n-2).
 
-The programs for A189737, the canonical program `A189737.P971851253199739709` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189737 has offset 1).
+The programs for A189737, the canonical program `A189737.P971851253199739709` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189737 has offset 1).
 
 The definition of A189737 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+3*a(n-2)` (program `A189737.P971851253199739709`, by `A189737.P971851253199739709.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12577,7 +12580,7 @@ end A189737
 
 `3*a(n-1)+3*a(n-2)` with `a(0)=3, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189737
@@ -12911,7 +12914,7 @@ end A189737
 /-!
 # A189738: a(1)=3, a(2)=4, a(n) = 3*a(n-1) + 4*a(n-2).
 
-The programs for A189738, the canonical program `A189738.P3636328894951579195` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189738 has offset 1).
+The programs for A189738, the canonical program `A189738.P3636328894951579195` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189738 has offset 1).
 
 The definition of A189738 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)` (program `A189738.P3636328894951579195`, by `A189738.P3636328894951579195.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12943,7 +12946,7 @@ end A189738
 
 `3*a(n-1)+4*a(n-2)` with `a(0)=3, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189738
@@ -13364,7 +13367,7 @@ end A189738
 /-!
 # A189739: a(1)=3, a(2)=5, a(n)=3*a(n-1) + 5*a(n-2).
 
-The programs for A189739, the canonical program `A189739.P16976739166208936787` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189739 has offset 1).
+The programs for A189739, the canonical program `A189739.P16976739166208936787` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189739 has offset 1).
 
 The definition of A189739 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+5*a(n-2)` (program `A189739.P16976739166208936787`, by `A189739.P16976739166208936787.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13396,7 +13399,7 @@ end A189739
 
 `3*a(n-1)+5*a(n-2)` with `a(0)=3, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189739
@@ -13647,7 +13650,7 @@ end A189739
 /-!
 # A189740: Partial sums of tetranacci numbers (A000288).
 
-The programs for A189740, the canonical program `A189740.P15535423140695463879` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189740 has offset 1).
+The programs for A189740, the canonical program `A189740.P15535423140695463879` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189740 has offset 1).
 
 The definition of A189740 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13679,7 +13682,7 @@ end A189740
 
 `2*a(n-1)-a(n-5)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=8`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189740
@@ -13938,7 +13941,7 @@ end A189740
 /-!
 # A189741: a(1)=4, a(2)=2, a(n) = 4*a(n-1) + 2*a(n-2).
 
-The programs for A189741, the canonical program `A189741.P16514130290615234837` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189741 has offset 1).
+The programs for A189741, the canonical program `A189741.P16514130290615234837` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189741 has offset 1).
 
 The definition of A189741 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)+2*a(n-2)` (program `A189741.P16514130290615234837`, by `A189741.P16514130290615234837.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13970,7 +13973,7 @@ end A189741
 
 `4*a(n-1)+2*a(n-2)` with `a(0)=4, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189741
@@ -14132,7 +14135,7 @@ end A189741
 /-!
 # A189742: a(1)=4, a(2)=3, a(n) = 4*a(n-1) + 3*a(n-2).
 
-The programs for A189742, the canonical program `A189742.P12573764571900180431` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189742 has offset 1).
+The programs for A189742, the canonical program `A189742.P12573764571900180431` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189742 has offset 1).
 
 The definition of A189742 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)+3*a(n-2)` (program `A189742.P12573764571900180431`, by `A189742.P12573764571900180431.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14164,7 +14167,7 @@ end A189742
 
 `4*a(n-1)+3*a(n-2)` with `a(0)=4, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189742
@@ -14274,7 +14277,7 @@ end A189742
 /-!
 # A189743: a(1)=4, a(2)=4, a(n) = 4*a(n-1) + 4*a(n-2).
 
-The programs for A189743, the canonical program `A189743.P17652987816876010608` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189743 has offset 1).
+The programs for A189743, the canonical program `A189743.P17652987816876010608` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189743 has offset 1).
 
 The definition of A189743 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)+4*a(n-2)` (program `A189743.P17652987816876010608`, by `A189743.P17652987816876010608.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14306,7 +14309,7 @@ end A189743
 
 `4*a(n-1)+4*a(n-2)` with `a(0)=4, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189743
@@ -14711,7 +14714,7 @@ end A189743
 /-!
 # A189744: a(1)=4, a(2)=5, a(n) = 4*a(n-1) + 5*a(n-2).
 
-The programs for A189744, the canonical program `A189744.P9779436749627559536` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189744 has offset 1).
+The programs for A189744, the canonical program `A189744.P9779436749627559536` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189744 has offset 1).
 
 The definition of A189744 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)+5*a(n-2)` (program `A189744.P9779436749627559536`, by `A189744.P9779436749627559536.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14743,7 +14746,7 @@ end A189744
 
 `4*a(n-1)+5*a(n-2)` with `a(0)=4, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189744
@@ -14871,7 +14874,7 @@ end A189744
 /-!
 # A189745: a(n) = 5*a(n-1) + a(n-2); with a(1)=5, a(2)=1.
 
-The programs for A189745, the canonical program `A189745.P14280731684269814340` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189745 has offset 1).
+The programs for A189745, the canonical program `A189745.P14280731684269814340` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189745 has offset 1).
 
 The definition of A189745 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)+a(n-2)` (program `A189745.P14280731684269814340`, by `A189745.P14280731684269814340.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14903,7 +14906,7 @@ end A189745
 
 `5*a(n-1)+a(n-2)` with `a(0)=5, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189745
@@ -15015,7 +15018,7 @@ end A189745
 /-!
 # A189746: a(1)=5, a(2)=2, a(n) = 5*a(n-1) + 2*a(n-2).
 
-The programs for A189746, the canonical program `A189746.P3647398663826790762` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189746 has offset 1).
+The programs for A189746, the canonical program `A189746.P3647398663826790762` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189746 has offset 1).
 
 The definition of A189746 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)+2*a(n-2)` (program `A189746.P3647398663826790762`, by `A189746.P3647398663826790762.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15047,7 +15050,7 @@ end A189746
 
 `5*a(n-1)+2*a(n-2)` with `a(0)=5, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189746
@@ -15111,7 +15114,7 @@ end A189746
 /-!
 # A189747: a(1)=5, a(2)=3, a(n)=5*a(n-1) + 3*a(n-2).
 
-The programs for A189747, the canonical program `A189747.P4322221013339655725` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189747 has offset 1).
+The programs for A189747, the canonical program `A189747.P4322221013339655725` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189747 has offset 1).
 
 The definition of A189747 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)+3*a(n-2)` (program `A189747.P4322221013339655725`, by `A189747.P4322221013339655725.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15143,7 +15146,7 @@ end A189747
 
 `5*a(n-1)+3*a(n-2)` with `a(0)=5, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189747
@@ -15161,7 +15164,7 @@ end A189747
 /-!
 # A189748: a(n) = 5*a(n-1) + 4*a(n-2) with a(1)=5, a(2)=4.
 
-The programs for A189748, the canonical program `A189748.P10188341714691911485` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189748 has offset 1).
+The programs for A189748, the canonical program `A189748.P10188341714691911485` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189748 has offset 1).
 
 The definition of A189748 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)+4*a(n-2)` (program `A189748.P10188341714691911485`, by `A189748.P10188341714691911485.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15193,7 +15196,7 @@ end A189748
 
 `5*a(n-1)+4*a(n-2)` with `a(0)=5, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189748
@@ -15234,7 +15237,7 @@ end A189748
 /-!
 # A189749: a(1)=5, a(2)=5, a(n)=5*a(n-1) + 5*a(n-2).
 
-The programs for A189749, the canonical program `A189749.P4188229358514167404` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189749 has offset 1).
+The programs for A189749, the canonical program `A189749.P4188229358514167404` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189749 has offset 1).
 
 The definition of A189749 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)+5*a(n-2)` (program `A189749.P4188229358514167404`, by `A189749.P4188229358514167404.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15266,7 +15269,7 @@ end A189749
 
 `5*a(n-1)+5*a(n-2)` with `a(0)=5, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189749
@@ -15467,7 +15470,7 @@ end A189750.P2006545830591042632
 /-!
 # A189751: n+[nr/s]+[nt/s]; r=1, s=arctan(1/3), t=arctan(2/3).
 
-The programs for A189751, the canonical program `A189751.P285585068629570887` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189751 has offset 1).
+The programs for A189751, the canonical program `A189751.P285585068629570887` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189751 has offset 1).
 
 The definition of A189751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15476,7 +15479,7 @@ The definition of A189751 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor((n+1)/atan(1/3))+floor((n+1)*atan(2/3)/atan(1/3))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189751
@@ -15691,27 +15694,6 @@ end
 
 end A189753.P16287649634358357740
 
-/-! ## A189753.P17866792832381102712
-
-`A047201(n+1)+eq[0, A035444(n)]`
--/
-
-namespace A189753.P17866792832381102712
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035444 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047201 (n + 1) + (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n : ℤ)
-
-end
-
-end A189753.P17866792832381102712
-
 /-! ## A189753.P3080604377988079654
 
 `A112765(A140730(n))+A061785(n+1)`
@@ -15824,7 +15806,7 @@ end A189754
 /-!
 # A189755: n + floor( nr/t ) + floor( ns/t ), where r=1, s=arctan(1/3), t=arctan(3).
 
-The programs for A189755, the canonical program `A189755.P13982233246086307934` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189755 has offset 1).
+The programs for A189755, the canonical program `A189755.P13982233246086307934` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189755 has offset 1).
 
 The definition of A189755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15833,7 +15815,7 @@ The definition of A189755 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor((n+1)/atan(3))+floor((n+1)*atan(1/3)/atan(3))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189755
@@ -16027,7 +16009,7 @@ end A189756.P12886504220867979381
 /-!
 # A189757: n+[nr/s]+[nt/s]; r=1, s=sin(1), t=cos(1).
 
-The programs for A189757, the canonical program `A189757.P6330049415454840961` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189757 has offset 1).
+The programs for A189757, the canonical program `A189757.P6330049415454840961` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189757 has offset 1).
 
 The definition of A189757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16036,7 +16018,7 @@ The definition of A189757 is `conjectured`: the Lean definition is a formula tha
 
 `floor((cot(1)+1)*(n+1))+floor((n+1)/sin(1))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189757
@@ -16129,7 +16111,7 @@ end A189757
 /-!
 # A189758: n+[nr/t]+[ns/t]; r=1, s=sin(1), t=cos(1).
 
-The programs for A189758, the canonical program `A189758.P8140171503268255914` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189758 has offset 1).
+The programs for A189758, the canonical program `A189758.P8140171503268255914` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189758 has offset 1).
 
 The definition of A189758 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16138,7 +16120,7 @@ The definition of A189758 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor((n+1)/cos(1))+floor((n+1)*sin(1)/cos(1))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189758
@@ -16772,21 +16754,6 @@ end A189759
 The programs for A189760, there is no canonical definition to state claims against.
 -/
 
-/-! ## A189760.P7036369526348436038
-
-`A327967(n)`
--/
-
-namespace A189760.P7036369526348436038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327967 n
-
-end
-
-end A189760.P7036369526348436038
-
 /-! ## A189760.P10474046548222752999
 
 `fo[A256750(n)]`
@@ -16823,7 +16790,7 @@ end A189760.P13629695461570192906
 /-!
 # A189761: Numbers n for which the set of residues {Fibonacci(k) mod n, k=0,1,2,....} is minimal.
 
-The programs for A189761, the canonical program `A189761.P8469729162130385848` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189761 has offset 1).
+The programs for A189761, the canonical program `A189761.P8469729162130385848` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189761 has offset 1).
 
 The definition of A189761 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16855,7 +16822,7 @@ end A189761
 
 `3*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=8, a(6)=11, a(7)=21, a(8)=29`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189761
@@ -17128,7 +17095,7 @@ end A189763.P11524791909365663040
 /-!
 # A189766: Trace of the inverse of the n-th order Hilbert matrix.
 
-The programs for A189766, the canonical program `A189766.P15999116743390079786` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189766 has offset 1).
+The programs for A189766, the canonical program `A189766.P15999116743390079786` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189766 has offset 1).
 
 The definition of A189766 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17137,7 +17104,7 @@ The definition of A189766 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (2*#+1)*C(n+1+#, 2*#+1)²*C(2*#, #)²]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189766
@@ -19402,7 +19369,7 @@ end A189786
 /-!
 # A189787: a(n) = A189785(n)/2.
 
-The programs for A189787, the canonical program `A189787.P3514663501492453649` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189787 has offset 1).
+The programs for A189787, the canonical program `A189787.P3514663501492453649` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189787 has offset 1).
 
 The definition of A189787 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19436,7 +19403,7 @@ end A189787
 
 `floor((n+1)*acot(1)/acot(5))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189787
@@ -19721,7 +19688,7 @@ end A189789.P1712170704281948617
 /-!
 # A189790: Number of ways to place n nonattacking bishops on an n X n toroidal board.
 
-The programs for A189790, the canonical program `A189790.P14606180485409613657` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189790 has offset 1).
+The programs for A189790, the canonical program `A189790.P14606180485409613657` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189790 has offset 1).
 
 The definition of A189790 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19730,7 +19697,7 @@ The definition of A189790 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*(2*(n+1)-3)*a(n-2)-(n-2)*(n+1)*(n-1)²*a(n-4)` with `a(0)=1, a(1)=4, a(2)=6, a(3)=64`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189790
@@ -19978,7 +19945,7 @@ end A189790
 /-!
 # A189791: Number of ways to place n nonattacking bishops on an 2n x 2n toroidal board.
 
-The programs for A189791, the canonical program `A189791.P2299159923258994207` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189791 has offset 1).
+The programs for A189791, the canonical program `A189791.P2299159923258994207` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189791 has offset 1).
 
 The definition of A189791 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19987,7 +19954,7 @@ The definition of A189791 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((14*(n+1)²-14*(n+1)+4)*a(n-1)+32*n^3*a(n-2))/(n+1)` with `a(0)=4, a(1)=80`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189791
@@ -20073,7 +20040,7 @@ end A189791
 /-!
 # A189792: n + [nr/s] + [nt/s] with r = 1, s = (sin(1))^2, t = (cos(1))^2.
 
-The programs for A189792, the canonical program `A189792.P8081215582414985752` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189792 has offset 1).
+The programs for A189792, the canonical program `A189792.P8081215582414985752` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189792 has offset 1).
 
 The definition of A189792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20082,7 +20049,7 @@ The definition of A189792 is `conjectured`: the Lean definition is a formula tha
 
 `2*floor((n+1)/sin(1)²)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189792
@@ -20307,7 +20274,7 @@ end A189792
 /-!
 # A189793: n+[nr/t]+[ns/t]; r=1, s=(sin(1))^2, t=(cos(1))^2.
 
-The programs for A189793, the canonical program `A189793.P11656514722830353148` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189793 has offset 1).
+The programs for A189793, the canonical program `A189793.P11656514722830353148` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189793 has offset 1).
 
 The definition of A189793 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20316,7 +20283,7 @@ The definition of A189793 is `conjectured`: the Lean definition is a formula tha
 
 `2*floor((n+1)/cos(1)²)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189793
@@ -20518,7 +20485,7 @@ end A189793
 /-!
 # A189794: (A189792)/2.
 
-The programs for A189794, the canonical program `A189794.P13187273745090707748` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189794 has offset 1).
+The programs for A189794, the canonical program `A189794.P13187273745090707748` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189794 has offset 1).
 
 The definition of A189794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20527,7 +20494,7 @@ The definition of A189794 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(n/cos(1)²)]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189794
@@ -20962,7 +20929,7 @@ end A189794
 /-!
 # A189795: (A189793)/2.
 
-The programs for A189795, the canonical program `A189795.P12123406086711792807` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189795 has offset 1).
+The programs for A189795, the canonical program `A189795.P12123406086711792807` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189795 has offset 1).
 
 The definition of A189795 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20971,7 +20938,7 @@ The definition of A189795 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(n/sin(1)²)]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189795
@@ -21382,7 +21349,7 @@ end A189796.P2694179265125789398
 /-!
 # A189797: n+[nr/s]+[nt/s]; r=2, s=(sin(1))^2, t=(cos(1))^2.
 
-The programs for A189797, the canonical program `A189797.P6730903071987935454` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189797 has offset 1).
+The programs for A189797, the canonical program `A189797.P6730903071987935454` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189797 has offset 1).
 
 The definition of A189797 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21391,7 +21358,7 @@ The definition of A189797 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(2*(n+1)/sin(1)²)+floor((n+1)*cos(1)²/sin(1)²)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A189797

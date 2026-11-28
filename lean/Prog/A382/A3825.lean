@@ -2,27 +2,27 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C043
-import Seq.B000.C047
+import Seq.B000.C024
+import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C040
+import Seq.B000.C045
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,7 +34,7 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -42,14 +42,15 @@ import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B009.C000
+import Seq.B006.C002
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -161,7 +162,7 @@ end A382501.P3912006504269355337
 /-!
 # A382503: a(n) = Sum_{d|n} binomial(2*d-1,d).
 
-The programs for A382503, the canonical program `A382503.P2029795237762869156` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382503 has offset 1).
+The programs for A382503, the canonical program `A382503.P2029795237762869156` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382503 has offset 1).
 
 The definition of A382503 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{d}[n+1, C(2*#-1, #)]` (program `A382503.P2029795237762869156`, by `A382503.P2029795237762869156.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -271,7 +272,7 @@ end A382503
 
 `∑{d}[n+1, C(2*#-1, #)]`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382503
@@ -416,7 +417,7 @@ end A382505.P4720772077890069181
 /-!
 # A382509: Integers s = (p1+p2)/4 such that p1 and p2 are consecutive primes and s can be written in the form p*2^k with k>=0 and p>2 prime.
 
-The programs for A382509, the canonical program `A382509.P14217024485511961836` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382509 has offset 1).
+The programs for A382509, the canonical program `A382509.P14217024485511961836` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382509 has offset 1).
 
 The definition of A382509 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 911 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -425,7 +426,7 @@ The definition of A382509 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A390789(1+n), A353670(#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A382509
@@ -473,7 +474,7 @@ end A382509
 /-!
 # A382511: Expansion of Sum_{p prime} x^p / (1 - x^p)^3.
 
-The programs for A382511, the canonical program `A382511.P17328053456808510659` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382511 has offset 1).
+The programs for A382511, the canonical program `A382511.P17328053456808510659` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382511 has offset 1).
 
 The definition of A382511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -482,7 +483,7 @@ The definition of A382511 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A069359(n+1)+A322078(n+1))/2`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A382511
@@ -756,7 +757,7 @@ end A382511
 /-!
 # A382513: Expansion of Sum_{p prime} p * x^p / (1 - p * x^p).
 
-The programs for A382513, the canonical program `A382513.P1750860363223556493` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382513 has offset 1).
+The programs for A382513, the canonical program `A382513.P1750860363223556493` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382513 has offset 1).
 
 The definition of A382513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -765,7 +766,7 @@ The definition of A382513 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, #^ceil(n/#)]`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382513
@@ -1464,7 +1465,7 @@ end A382526.P5422501282169998768
 /-!
 # A382527: a(n) = Sum_{j = 1..n} (-1)^(n+j) * j^(2*n+4) * binomial(2*n, n-j).
 
-The programs for A382527, the canonical program `A382527.P6783237590260180213` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382527 has offset 1).
+The programs for A382527, the canonical program `A382527.P6783237590260180213` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382527 has offset 1).
 
 The definition of A382527 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, (-1)^(n+1+#+1)*(#+1)^(2*(n+1)+4)*C(2*(n+1), n+1-(#+1))]` (program `A382527.P6783237590260180213`, by `A382527.P6783237590260180213.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1496,7 +1497,7 @@ end A382527
 
 `∑{#}[n, (-1)^(n+1+#+1)*(#+1)^(2*(n+1)+4)*C(2*(n+1), n+1-(#+1))]`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382527
@@ -1733,7 +1734,7 @@ end A382533.P10617755397142306060
 /-!
 # A382534: Number of minimum total dominating sets in the n-flower graph.
 
-The programs for A382534, the canonical program `A382534.P12420362014030987964` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382534 has offset 1).
+The programs for A382534, the canonical program `A382534.P12420362014030987964` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382534 has offset 1).
 
 The definition of A382534 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1742,7 +1743,7 @@ The definition of A382534 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+9x+9x^2+36x^3+6x^4+54x^5-6x^6-72x^7-9x^8+9x^9-3x^10+36x^11)/(1-3x^4+3x^8-x^12))`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382534
@@ -2639,7 +2640,7 @@ end A382564.P13131848822834714977
 /-!
 # A382570: a(n) is the number of shallow permutations of length n that avoid 231.
 
-The programs for A382570, the canonical program `A382570.P2322255778551318148` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382570 has offset 0).
+The programs for A382570, the canonical program `A382570.P2322255778551318148` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382570 has offset 0).
 
 The definition of A382570 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2648,7 +2649,7 @@ The definition of A382570 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x+2x^2-x^3-x^4-x^5)/(1-4x+4x^2-2x^3-x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382570
@@ -2666,7 +2667,7 @@ end A382570
 /-!
 # A382574: a(n) is the number of shallow permutations of length n that avoid 123.
 
-The programs for A382574, the canonical program `A382574.P9374036226049142959` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382574 has offset 0).
+The programs for A382574, the canonical program `A382574.P9374036226049142959` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382574 has offset 0).
 
 The definition of A382574 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2675,7 +2676,7 @@ The definition of A382574 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-3x+11x^3-13x^4+7x^5+6x^6+3x^7)/(1-4x+2x^2+12x^3-22x^4+12x^5+2x^6-4x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A382574

@@ -3,34 +3,34 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C029
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +44,6 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -53,21 +52,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,7 +80,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -2916,27 +2914,6 @@ end
 end A306135.P10367879569619014272
 
 /-!
-# A306136: T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 2, 3, 4, 6 or 7 king-move adjacent elements, with upper left element zero.
-
-The programs for A306136, there is no canonical definition to state claims against.
--/
-
-/-! ## A306136.P5223439097395697235
-
-`A317271(1+n)`
--/
-
-namespace A306136.P5223439097395697235
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317271 (1 + n)
-
-end
-
-end A306136.P5223439097395697235
-
-/-!
 # A306137: Number of nXn 0..1 arrays with every element unequal to 1, 2, 3, 4, 6 or 7 king-move adjacent elements, with upper left element zero.
 
 The programs for A306137, there is no canonical definition to state claims against.
@@ -4022,7 +3999,7 @@ end A306149.P8226948361055456792
 /-!
 # A306150: Row sums of A306015.
 
-The programs for A306150, the canonical program `A306150.P10075901405309259015` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306150 has offset 0).
+The programs for A306150, the canonical program `A306150.P10075901405309259015` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306150 has offset 0).
 
 The definition of A306150 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4031,7 +4008,7 @@ The definition of A306150 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+a(n-2)-(n-2)*a(n-3)` with `a(0)=0, a(1)=2, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A306150
@@ -5555,7 +5532,7 @@ end A306182.P18327273017704468731
 /-!
 # A306183: The coefficients of x in the reduction of x^2 -> x + 1 for the polynomial p(n,x) = Product_{k=1..n} (x+k).
 
-The programs for A306183, the canonical program `A306183.P12502731175110001571` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306183 has offset 0).
+The programs for A306183, the canonical program `A306183.P12502731175110001571` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306183 has offset 0).
 
 The definition of A306183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5564,7 +5541,7 @@ The definition of A306183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n*a(n-1)-(n²-n-1)*a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A306183

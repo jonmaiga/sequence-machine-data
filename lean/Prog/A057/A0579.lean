@@ -3,38 +3,43 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C045
+import Seq.B000.C044
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,7 +67,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
+import Seq.B004.C004
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -71,8 +76,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +99,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -108,7 +110,7 @@ set_option linter.unreachableTactic false
 
 The programs for A057901, the canonical program `A057901.P13324023212543556702` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057901 has offset 1).
 
-The definition of A057901 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A057901 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A057901.anchor (n : ℕ) : (A057901 (n + 1) : ℚ) = (3 : ℚ) ^ (A000040 (n + 1) : ℤ)` in `Proof.A057.A057901`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A057901.P13324023212543556702
@@ -251,7 +253,7 @@ end A057901
 
 The programs for A057902, the canonical program `A057902.P13074004454325797661` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057902 has offset 1).
 
-The definition of A057902 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A057902 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A057902.anchor (n : ℕ) : (A057902 (n + 1) : ℚ) = (5 : ℚ) ^ (A000040 (n + 1) : ℤ)` in `Proof.A057.A057902`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A057902.P13074004454325797661
@@ -3520,42 +3522,6 @@ end
 
 end A057922.P4610014799624387552
 
-/-! ## A057922.P3623357565190990799
-
-`eq[A060779(n+1), A179942(n+2)]+2-1`
--/
-
-namespace A057922.P3623357565190990799
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060779 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A179942 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 2 : ℤ) - 1
-
-end
-
-end A057922.P3623357565190990799
-
-/-! ## A057922.P11494796157878808081
-
-`-1+A086552(n+1)`
--/
-
-namespace A057922.P11494796157878808081
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A086552 (n + 1)
-
-end
-
-end A057922.P11494796157878808081
-
 /-! ## A057922.P958719535734954046
 
 `eq[0, A275478(n+1)]+1`
@@ -5238,21 +5204,6 @@ end
 
 end A057941.P14937629830724715534
 
-/-! ## A057941.P15286047669562433039
-
-`A057958(n+2+n)/1-A057958(n+1)`
--/
-
-namespace A057941.P15286047669562433039
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A057958 (n + 2 + n) : ℚ) / 1 - (A057958 (n + 1) : ℚ)
-
-end
-
-end A057941.P15286047669562433039
-
 /-! ## A057941.P1882873415236547772
 
 `A057958(A317440(n+1))-∑{d}[n+1, A085028(#)]`
@@ -6881,42 +6832,6 @@ def P12674719482136827175.Spec : Prop :=
 end A057948
 
 /-!
-# A057949: Numbers with more than one factorization into S-primes. See A054520 and A057948 for definition.
-
-The programs for A057949, there is no canonical definition to state claims against.
--/
-
-/-! ## A057949.P16765668988394883232
-
-`A057950(n+1)`
--/
-
-namespace A057949.P16765668988394883232
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057950 (n + 1)
-
-end
-
-end A057949.P16765668988394883232
-
-/-! ## A057949.P919174382527958978
-
-`A343827(n+1)`
--/
-
-namespace A057949.P919174382527958978
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343827 (n + 1)
-
-end
-
-end A057949.P919174382527958978
-
-/-!
 # A057950: Numbers primitive with respect to having more than one factorization into S-primes. See related sequences for definition.
 
 The programs for A057950, there is no canonical definition to state claims against.
@@ -7338,21 +7253,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057955.P992254864981491059
-
-/-! ## A057955.P11180526363496598912
-
-`A056239(A366621(n+1))`
--/
-
-namespace A057955.P11180526363496598912
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (A366621 (n + 1)).toNat
-
-end
-
-end A057955.P11180526363496598912
 
 /-! ## A057955.P15018172860318945550
 

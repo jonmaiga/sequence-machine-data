@@ -3,14 +3,13 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -20,17 +19,19 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +41,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,9 +49,8 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,7 +60,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -926,7 +924,7 @@ end A237514
 /-!
 # A237516: Pyramidal centered square numbers.
 
-The programs for A237516, the canonical program `A237516.P16074374390928351392` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237516 has offset 1).
+The programs for A237516, the canonical program `A237516.P16074374390928351392` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237516 has offset 1).
 
 The definition of A237516 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -958,7 +956,7 @@ end A237516
 
 `2*(n+1)^4-4*(n+1)^3+5*(n+1)²-3*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237516
@@ -1738,7 +1736,7 @@ end A237525.P12146624138641508594
 /-!
 # A237526: a(n) = number of unit squares in the first quadrant of a disk of radius sqrt(n) centered at the origin of a square lattice.
 
-The programs for A237526, the canonical program `A237526.P7188725497177089599` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237526 has offset 0).
+The programs for A237526, the canonical program `A237526.P7188725497177089599` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237526 has offset 0).
 
 The definition of A237526 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1747,7 +1745,7 @@ The definition of A237526 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[floor(sqrt(n))-1, floor(sqrt(n-(#+1)²))]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237526
@@ -2192,9 +2190,36 @@ end
 end A237528.P3248179823618405419
 
 /-!
+# A237529: Number of ways to choose 4 points in an n X n X n triangular grid so that no 3 of them form a 2 X 2 X 2 subtriangle.
+
+The programs for A237529, the canonical program `A237529.P11217176571504492902` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237529 has offset 3).
+
+The definition of A237529 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A237529.P11217176571504492902
+
+`ogf((6+102x+3x^2-42x^3+63x^4-33x^5+6x^6)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A237529
+
+/-- `ogf((6+102x+3x^2-42x^3+63x^4-33x^5+6x^6)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P11217176571504492902.Spec : Prop :=
+  ∀ n, P11217176571504492902.a n = A237529 (n + 3)
+
+theorem P11217176571504492902.correct : P11217176571504492902.Spec := by
+  intro n
+  simp only [A237529, Nat.add_sub_cancel]
+
+end A237529
+
+/-!
 # A237530: Number of non-equivalent (mod D_3) ways to choose three points in an n X n X n triangular grid so that they do not form a 2 X 2 X 2 subtriangle.
 
-The programs for A237530, the canonical program `A237530.P16772570831897850068` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237530 has offset 2).
+The programs for A237530, the canonical program `A237530.P16772570831897850068` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237530 has offset 2).
 
 The definition of A237530 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2203,7 +2228,7 @@ The definition of A237530 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4x+10x^2+16x^3+13x^4+15x^5+2x^6+x^7-x^8)/(1-3x+7x^3-3x^4-6x^5+6x^7+3x^8-7x^9+3x^11-x^12))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237530
@@ -4183,7 +4208,7 @@ end A237576.P4702106288816519014
 /-!
 # A237580: a(n) = (2n)! - n! + 1.
 
-The programs for A237580, the canonical program `A237580.P14951216141646075549` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237580 has offset 0).
+The programs for A237580, the canonical program `A237580.P14951216141646075549` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237580 has offset 0).
 
 The definition of A237580 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*n)!-n!+1` (program `A237580.P14951216141646075549`, by `A237580.P14951216141646075549.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4192,7 +4217,7 @@ The definition of A237580 is `verified`: the Lean definition is proven equivalen
 
 `(2*n)!-n!+1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237580
@@ -4581,7 +4606,7 @@ end A237586.P7774743350863371105
 /-!
 # A237587: Triangle read by rows in which row n lists the first n odd squares in decreasing order.
 
-The programs for A237587, the canonical program `A237587.P9464127105625326086` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237587 has offset 1).
+The programs for A237587, the canonical program `A237587.P9464127105625326086` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237587 has offset 1).
 
 The definition of A237587 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4590,7 +4615,7 @@ The definition of A237587 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*(row(n)-col(n)+1)-1)²`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237587

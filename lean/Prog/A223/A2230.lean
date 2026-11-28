@@ -3,7 +3,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,21 +12,24 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C039
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +38,7 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
@@ -47,12 +50,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2607,6 +2608,21 @@ end A223055.P8918281729187869746
 The programs for A223056, there is no canonical definition to state claims against.
 -/
 
+/-! ## A223056.P6836967824086735339
+
+`ogf((2-26x+76x^2-73x^3+16x^4)/(1-18x+71x^2-102x^3+48x^4))`
+-/
+
+namespace A223056.P6836967824086735339
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -26, 76, -73, 16] [1, -18, 71, -102, 48] n
+
+end
+
+end A223056.P6836967824086735339
+
 /-! ## A223056.P14563147269577929064
 
 `A223062(∑[n+1]+2)`
@@ -3063,8 +3079,29 @@ end A223068.P1417687539419999440
 /-!
 # A223069: Number of n X 2 0..3 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope.
 
-The programs for A223069, there is no canonical definition to state claims against.
+The programs for A223069, the canonical program `A223069.P7543054003482555349` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223069 has offset 1).
+
+The definition of A223069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A223069.P7543054003482555349
+
+`ogf((16-106x+376x^2-769x^3+904x^4-564x^5+144x^6)/(1-16x+106x^2-376x^3+769x^4-904x^5+564x^6-144x^7))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A223069
+
+/-- `ogf((16-106x+376x^2-769x^3+904x^4-564x^5+144x^6)/(1-16x+106x^2-376x^3+769x^4-904x^5+564x^6-144x^7))` -/
+def P7543054003482555349.Spec : Prop :=
+  ∀ n, P7543054003482555349.a n = A223069 (n + 1)
+
+theorem P7543054003482555349.correct : P7543054003482555349.Spec := by
+  intro n
+  simp only [A223069, Nat.add_sub_cancel]
+
+end A223069
 
 /-! ## A223069.P14082564556320423961
 
@@ -3084,6 +3121,14 @@ end
 
 end A223069.P14082564556320423961
 
+namespace A223069
+
+/-- `root(A204303(Δ[n²]), 2)` -/
+def P14082564556320423961.Spec : Prop :=
+  ∀ n, P14082564556320423961.a n = (A223069 (n + 1) : ℝ)
+
+end A223069
+
 /-! ## A223069.P2288211488661171038
 
 `sqrt(A204303(2*n+1))`
@@ -3098,6 +3143,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A223069.P2288211488661171038
+
+namespace A223069
+
+/-- `sqrt(A204303(2*n+1))` -/
+def P2288211488661171038.Spec : Prop :=
+  ∀ n, P2288211488661171038.a n = (A223069 (n + 1) : ℝ)
+
+end A223069
 
 /-! ## A223069.P18399987352237444305
 
@@ -3117,6 +3170,14 @@ end
 
 end A223069.P18399987352237444305
 
+namespace A223069
+
+/-- `record[sqrt(A204303((n+1)/2^val(n+1, 2)))]` -/
+def P18399987352237444305.Spec : Prop :=
+  ∀ n, P18399987352237444305.a n = (A223069 (n + 1) : ℝ)
+
+end A223069
+
 /-! ## A223069.P16848570276653127465
 
 `sqrt(record[A204303(n+1)/A033999(n)])`
@@ -3135,6 +3196,14 @@ end
 
 end A223069.P16848570276653127465
 
+namespace A223069
+
+/-- `sqrt(record[A204303(n+1)/A033999(n)])` -/
+def P16848570276653127465.Spec : Prop :=
+  ∀ n, P16848570276653127465.a n = (A223069 (n + 1) : ℝ)
+
+end A223069
+
 /-! ## A223069.P10450742147325388271
 
 `record[root(A204303(n+1), A319048(n+1))]`
@@ -3152,6 +3221,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A223069.P10450742147325388271
+
+namespace A223069
+
+/-- `record[root(A204303(n+1), A319048(n+1))]` -/
+def P10450742147325388271.Spec : Prop :=
+  ∀ n, P10450742147325388271.a n = (A223069 (n + 1) : ℝ)
+
+end A223069
 
 /-!
 # A223070: Number of nX3 0..3 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope.
@@ -3750,50 +3827,6 @@ end
 
 end A223081.P16733031220185959975
 
-/-! ## A223081.P1632789941919906238
-
-`∪[A008919(n+1), A032555(n+1)]`
--/
-
-namespace A223081.P1632789941919906238
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008919 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032555 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A223081.P1632789941919906238
-
-/-! ## A223081.P6643745496658028692
-
-`∪[A008919(n+1), A032559(n+1)]`
--/
-
-namespace A223081.P6643745496658028692
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008919 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032559 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A223081.P6643745496658028692
-
 /-! ## A223081.P16512849115112707367
 
 `A078295(A271569(n+2))`
@@ -3808,27 +3841,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223081.P16512849115112707367
-
-/-!
-# A223083: Trajectory of 64 under the map n-> A006369(n).
-
-The programs for A223083, there is no canonical definition to state claims against.
--/
-
-/-! ## A223083.P13794256407344085460
-
-`A185589(n+3)`
--/
-
-namespace A223083.P13794256407344085460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185589 (n + 3)
-
-end
-
-end A223083.P13794256407344085460
 
 /-!
 # A223084: Trajectory of 80 under the map n-> A006369(n).

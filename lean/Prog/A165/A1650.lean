@@ -5,26 +5,25 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C040
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,21 +37,20 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,28 +74,12 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A165000: Consider the base-3 Kaprekar map n->K(n) defined in A164993. Sequence gives numbers belonging to cycles of length greater than 1.
 
 The programs for A165000, there is no canonical definition to state claims against.
 -/
-
-/-! ## A165000.P17931776937614469322
-
-`A164998(A144146(n+2))`
--/
-
-namespace A165000.P17931776937614469322
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164998 (A144146 (n + 2)).toNat
-
-end
-
-end A165000.P17931776937614469322
 
 /-! ## A165000.P6325940733305275748
 
@@ -208,41 +190,11 @@ end
 
 end A165002.P9421458412698878426
 
-/-! ## A165002.P16743594724170131654
-
-`A165010(A195098(n+1))`
--/
-
-namespace A165002.P16743594724170131654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165010 (A195098 (n + 1)).toNat
-
-end
-
-end A165002.P16743594724170131654
-
 /-!
 # A165003: Length of cycle mentioned in A165002.
 
 The programs for A165003, there is no canonical definition to state claims against.
 -/
-
-/-! ## A165003.P5058418599405797709
-
-`A165011(A195098(n+1))`
--/
-
-namespace A165003.P5058418599405797709
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165011 (A195098 (n + 1)).toNat
-
-end
-
-end A165003.P5058418599405797709
 
 /-! ## A165003.P1250136794295999979
 
@@ -496,42 +448,6 @@ end
 end A165009.P7324535791749971824
 
 /-!
-# A165010: Smallest member of cycle corresponding to n-th term of A165009.
-
-The programs for A165010, there is no canonical definition to state claims against.
--/
-
-/-! ## A165010.P9097030843566227656
-
-`A165002(A195098(n+1))`
--/
-
-namespace A165010.P9097030843566227656
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165002 (A195098 (n + 1)).toNat
-
-end
-
-end A165010.P9097030843566227656
-
-/-! ## A165010.P9130836783642529507
-
-`A165002(n+1)`
--/
-
-namespace A165010.P9130836783642529507
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165002 (n + 1)
-
-end
-
-end A165010.P9130836783642529507
-
-/-!
 # A165011: Length of cycle corresponding to n-th term of A165009.
 
 The programs for A165011, there is no canonical definition to state claims against.
@@ -551,21 +467,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A165011.P17597724568459447178
-
-/-! ## A165011.P1153746635254988667
-
-`A165003(A195098(n+1))`
--/
-
-namespace A165011.P1153746635254988667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165003 (A195098 (n + 1)).toNat
-
-end
-
-end A165011.P1153746635254988667
 
 /-! ## A165011.P767225027909100510
 
@@ -812,21 +713,6 @@ end A165013.P14219059211896685949
 The programs for A165014, there is no canonical definition to state claims against.
 -/
 
-/-! ## A165014.P3680163593878497006
-
-`A165015(n)-1`
--/
-
-namespace A165014.P3680163593878497006
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165015 n - 1
-
-end
-
-end A165014.P3680163593878497006
-
 /-! ## A165014.P7615356038918466434
 
 `A072671(n)%A165015(n)`
@@ -907,21 +793,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165015.P1498693263772572938
-
-/-! ## A165015.P5295693942551471337
-
-`A165014(n)+1`
--/
-
-namespace A165015.P5295693942551471337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165014 n + 1
-
-end
-
-end A165015.P5295693942551471337
 
 /-!
 # A165016: Fixed points of the base-4 Kaprekar map A165012.
@@ -1100,7 +971,7 @@ end A165017.P16377521598037393370
 /-!
 # A165020: Length of cycle mentioned in A165019.
 
-The programs for A165020, the canonical program `A165020.P5387324205332587883` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165020 has offset 1).
+The programs for A165020, the canonical program `A165020.P5387324205332587883` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165020 has offset 1).
 
 The definition of A165020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 199 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1109,7 +980,7 @@ The definition of A165020 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(cosh(acot(acot(n))))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A165020
@@ -1172,21 +1043,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165021.P10836208960137217714
-
-/-! ## A165021.P12476364102522841359
-
-`A165017(A005837(n+1))`
--/
-
-namespace A165021.P12476364102522841359
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165017 (A005837 (n + 1)).toNat
-
-end
-
-end A165021.P12476364102522841359
 
 /-!
 # A165022: Length of cycle mentioned in A165021.
@@ -1343,7 +1199,7 @@ end A165024.P12796221350894559791
 /-!
 # A165025: Number of cycles of n-digit numbers (including fixed points) under the base-4 Kaprekar map A165012.
 
-The programs for A165025, the canonical program `A165025.P5266806650555374682` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165025 has offset 1).
+The programs for A165025, the canonical program `A165025.P5266806650555374682` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165025 has offset 1).
 
 The definition of A165025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1352,7 +1208,7 @@ The definition of A165025 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x^2+x^3-2x^6+3x^8-x^10)/(1-2x^2-x^3+x^4+2x^5-x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A165025
@@ -1462,7 +1318,7 @@ end A165025
 /-!
 # A165027: Number of n-digit fixed points under the base-4 Kaprekar map A165012.
 
-The programs for A165027, the canonical program `A165027.P6129569149110595286` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165027 has offset 1).
+The programs for A165027, the canonical program `A165027.P6129569149110595286` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165027 has offset 1).
 
 The definition of A165027 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1494,7 +1350,7 @@ end A165027
 
 `2*a(n-2)+a(n-3)-a(n-4)-2*a(n-5)+a(n-7)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=1, a(4)=0, a(5)=3, a(6)=1, a(7)=3`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A165027
@@ -1739,21 +1595,6 @@ end A165030.P209979986084593956
 
 The programs for A165031, there is no canonical definition to state claims against.
 -/
-
-/-! ## A165031.P17929505790695617309
-
-`A183014(A094608(n+1))`
--/
-
-namespace A165031.P17929505790695617309
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183014 (A094608 (n + 1)).toNat
-
-end
-
-end A165031.P17929505790695617309
 
 /-! ## A165031.P5288504608593732206
 
@@ -2140,21 +1981,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165035.P11737414667367001874
-
-/-! ## A165035.P15814655555470093245
-
-`1+A165034(n)`
--/
-
-namespace A165035.P15814655555470093245
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A165034 n
-
-end
-
-end A165035.P15814655555470093245
 
 /-! ## A165035.P4872047039381063247
 
@@ -2744,27 +2570,6 @@ end
 end A165045.P3010063631382345752
 
 /-!
-# A165046: Number of n-digit numbers in a cycle (including fixed points) under the base-5 Kaprekar map A165032.
-
-The programs for A165046, there is no canonical definition to state claims against.
--/
-
-/-! ## A165046.P3055227179814232533
-
-`A324233(n+1)+A165042(n+1)`
--/
-
-namespace A165046.P3055227179814232533
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324233 (n + 1) + A165042 (n + 1)
-
-end
-
-end A165046.P3055227179814232533
-
-/-!
 # A165048: a(n) = smallest number that leads to a new cycle under the base-5 Kaprekar map of A165032.
 
 The programs for A165048, there is no canonical definition to state claims against.
@@ -2799,27 +2604,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165048.P11948230647773630910
-
-/-!
-# A165049: Smallest member of cycle corresponding to n-th term of A165048.
-
-The programs for A165049, there is no canonical definition to state claims against.
--/
-
-/-! ## A165049.P6711459456068398944
-
-`A165041(n+1)`
--/
-
-namespace A165049.P6711459456068398944
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165041 (n + 1)
-
-end
-
-end A165049.P6711459456068398944
 
 /-!
 # A165050: Length of cycle corresponding to n-th term of A165048.
@@ -3177,21 +2961,6 @@ end
 
 end A165053.P12637211793065928541
 
-/-! ## A165053.P12711324403593186931
-
-`A165054(n)-1`
--/
-
-namespace A165053.P12711324403593186931
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165054 n - 1
-
-end
-
-end A165053.P12711324403593186931
-
 /-! ## A165053.P16937696156176256180
 
 `A030494(n+1)%A165054(n)`
@@ -3236,27 +3005,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165053.P4058943102118095118
-
-/-!
-# A165054: (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-6 Kaprekar map in A165051.
-
-The programs for A165054, there is no canonical definition to state claims against.
--/
-
-/-! ## A165054.P739519717112724847
-
-`1+A165053(n)`
--/
-
-namespace A165054.P739519717112724847
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A165053 n
-
-end
-
-end A165054.P739519717112724847
 
 /-!
 # A165055: Fixed points of the base-6 Kaprekar map A165051.
@@ -3574,7 +3322,7 @@ end A165062.P7363377340952258716
 /-!
 # A165063: Length of cycle mentioned in A165062.
 
-The programs for A165063, the canonical program `A165063.P9027625364471019247` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165063 has offset 1).
+The programs for A165063, the canonical program `A165063.P9027625364471019247` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165063 has offset 1).
 
 The definition of A165063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3583,7 +3331,7 @@ The definition of A165063 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=6, a(1)=2, a(2)=3, a(3)=2, a(4)=7, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A165063
@@ -3601,7 +3349,7 @@ end A165063
 /-!
 # A165066: Number of n-digit fixed points under the base-6 Kaprekar map A165051.
 
-The programs for A165066, the canonical program `A165066.P14914027951206997296` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165066 has offset 1).
+The programs for A165066, the canonical program `A165066.P14914027951206997296` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165066 has offset 1).
 
 The definition of A165066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3610,7 +3358,7 @@ The definition of A165066 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+x+x^2-x^4+x^5-x^8+x^14)/(1+x-x^3-2x^4-2x^5-x^6+x^7+2x^8+2x^9+x^10-x^12-x^13))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A165066
@@ -3941,21 +3689,6 @@ end A165072.P1541627906370548267
 The programs for A165073, there is no canonical definition to state claims against.
 -/
 
-/-! ## A165073.P16995391508954781777
-
-`A165074(n)-1`
--/
-
-namespace A165073.P16995391508954781777
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165074 n - 1
-
-end
-
-end A165073.P16995391508954781777
-
 /-! ## A165073.P10575367516772954522
 
 `A230809(n+1)%A165074(n)`
@@ -4015,27 +3748,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165073.P6195654744959922419
-
-/-!
-# A165074: (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-7 Kaprekar map in A165071.
-
-The programs for A165074, there is no canonical definition to state claims against.
--/
-
-/-! ## A165074.P9525982384305117441
-
-`A165073(n)+1`
--/
-
-namespace A165074.P9525982384305117441
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165073 n + 1
-
-end
-
-end A165074.P9525982384305117441
 
 /-!
 # A165075: Fixed points of the base-7 Kaprekar map A165071.
@@ -4154,27 +3866,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165076.P11104687433492388374
-
-/-!
-# A165078: Consider the base-7 Kaprekar map n->K(n) defined in A165071. Sequence gives numbers belonging to cycles of length greater than 1.
-
-The programs for A165078, there is no canonical definition to state claims against.
--/
-
-/-! ## A165078.P16193399281444768387
-
-`A165076(n+2)`
--/
-
-namespace A165078.P16193399281444768387
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165076 (n + 2)
-
-end
-
-end A165078.P16193399281444768387
 
 /-!
 # A165079: Length of cycle mentioned in A165078.
@@ -4477,21 +4168,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A165082.P14143834971047093715
-
-/-! ## A165082.P13359364516654726682
-
-`A165080(n+2)`
--/
-
-namespace A165082.P13359364516654726682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165080 (n + 2)
-
-end
-
-end A165082.P13359364516654726682
 
 /-!
 # A165083: Length of cycle mentioned in A165082.
@@ -4858,21 +4534,6 @@ end
 
 end A165091.P10110778431362027465
 
-/-! ## A165091.P6204088883406620806
-
-`A037902(n)`
--/
-
-namespace A165091.P6204088883406620806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037902 n
-
-end
-
-end A165091.P6204088883406620806
-
 /-! ## A165091.P5646724738430715266
 
 `A064834(A171644(n))`
@@ -4893,21 +4554,6 @@ end A165091.P5646724738430715266
 
 The programs for A165092, there is no canonical definition to state claims against.
 -/
-
-/-! ## A165092.P17039056397424064970
-
-`A165093(n)-1`
--/
-
-namespace A165092.P17039056397424064970
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165093 n - 1
-
-end
-
-end A165092.P17039056397424064970
 
 /-! ## A165092.P514986237184284561
 
@@ -5075,27 +4721,6 @@ end
 end A165092.P4091414693377471450
 
 /-!
-# A165093: (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-8 Kaprekar map in A165090.
-
-The programs for A165093, there is no canonical definition to state claims against.
--/
-
-/-! ## A165093.P8811253901786476468
-
-`A165092(n)+1`
--/
-
-namespace A165093.P8811253901786476468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165092 n + 1
-
-end
-
-end A165093.P8811253901786476468
-
-/-!
 # A165094: Fixed points of the base-8 Kaprekar map A165090.
 
 The programs for A165094, there is no canonical definition to state claims against.
@@ -5207,27 +4832,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A165095.P5883802948104975844
-
-/-!
-# A165097: Consider the base-8 Kaprekar map n->K(n) defined in A165090. Sequence gives numbers belonging to cycles of length greater than 1.
-
-The programs for A165097, there is no canonical definition to state claims against.
--/
-
-/-! ## A165097.P13980267059317584333
-
-`A165095(n+4)`
--/
-
-namespace A165097.P13980267059317584333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165095 (n + 4)
-
-end
-
-end A165097.P13980267059317584333
 
 /-!
 # A165098: Length of cycle mentioned in A165097.

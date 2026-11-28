@@ -13,29 +13,31 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
+import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -49,7 +51,7 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -57,6 +59,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -65,11 +68,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +98,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -130,7 +134,7 @@ end A381100.P6088820709702082981
 /-!
 # A381101: Allouche-Johnson binary sequence based on the Narayana's cows sequence A000930.
 
-The programs for A381101, the canonical program `A381101.P9179852611574822393` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381101 has offset 0).
+The programs for A381101, the canonical program `A381101.P9179852611574822393` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381101 has offset 0).
 
 The definition of A381101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -326,7 +330,7 @@ end A381101
 
 `A010060(record[xor(n, 2*or(n, 2*n))])`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A381101
@@ -785,7 +789,7 @@ end A381108.P12321353383758626773
 /-!
 # A381109: a(n) = (21*n^2 + 9*n + 2)/2.
 
-The programs for A381109, the canonical program `A381109.P12301097533651236327` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381109 has offset 0).
+The programs for A381109, the canonical program `A381109.P12301097533651236327` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381109 has offset 0).
 
 The definition of A381109 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(21*n²+9*n+2)/2` (program `A381109.P15251900957646936400`, by `A381109.P15251900957646936400.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -879,7 +883,7 @@ end A381109
 
 `21*n+a(n-1)-6` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A381109
@@ -4232,7 +4236,7 @@ end A381190.P666801245216094422
 /-!
 # A381193: a(n) = (3*n-1)*(n^4-18*n^3+179*n^2-582*n+720)/120.
 
-The programs for A381193, the canonical program `A381193.P5284170118730963565` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381193 has offset 1).
+The programs for A381193, the canonical program `A381193.P5284170118730963565` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381193 has offset 1).
 
 The definition of A381193 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A381193.anchor (n : ℕ) : (A381193 (n + 1) : ℚ) = (((3 * (n + 1) : ℤ) - 1) * (((n + 1) ^ 4 : ℤ) - (18 * (n + 1) ^ 3 : ℤ) + (179 * (n + 1) ^ 2 : ℤ) - (582 * (n + 1) : ℤ) + 720) : ℚ) / 120` in `Proof.A381.A381193`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4264,7 +4268,7 @@ end A381193
 
 `(3*(n+1)-1)*((n+1)^4-18*(n+1)^3+179*(n+1)²-582*(n+1)+720)/120`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A381193
@@ -4471,7 +4475,7 @@ end A381195.P12777109662760245081
 /-!
 # A381196: Stellated octagon numbers: a(n) = 20*n^2 + 8*n + 1.
 
-The programs for A381196, the canonical program `A381196.P2799879096650830800` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381196 has offset 0).
+The programs for A381196, the canonical program `A381196.P2799879096650830800` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381196 has offset 0).
 
 The definition of A381196 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `20*n²+8*n+1` (program `A381196.P2799879096650830800`, by `A381196.P2799879096650830800.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4503,7 +4507,7 @@ end A381196
 
 `20*n²+8*n+1`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A381196
@@ -4930,7 +4934,7 @@ end A381198.P2421496788709898060
 /-!
 # A381199: a(n) = (4*n)!/((n!)^2*(2*n)!)*Sum_{k=0..n} binomial(n,k)^2*binomial(2*k,k).
 
-The programs for A381199, the canonical program `A381199.P10270168840092760542` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381199 has offset 0).
+The programs for A381199, the canonical program `A381199.P10270168840092760542` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381199 has offset 0).
 
 The definition of A381199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4939,7 +4943,7 @@ The definition of A381199 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*n)!/(n!²*(2*n)!)*∑{#}[n, C(n, #)²*C(2*#, #)]`
 
-The canonical program, it is in `Seq.B000.C049`.
+The canonical program, it is in `Seq.B000.C051`.
 -/
 
 namespace A381199

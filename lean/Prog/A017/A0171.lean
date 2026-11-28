@@ -13,19 +13,20 @@ import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C037
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C038
-import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C040
+import Seq.B000.C045
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.Opaque.C015
 import Seq.Opaque.C021
@@ -26341,27 +26342,50 @@ end A017160
 /-!
 # A017161: Expansion of g.f. 1/((1 - 3*x)*(1 - 4*x)*(1 - 12*x)).
 
-The programs for A017161, the canonical program `A017161.P1050315990214919050` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017161 has offset 0).
+The programs for A017161, the canonical program `A017161.P2125447771219900463` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017161 has offset 0).
 
-The definition of A017161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A017161 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-19x+96x^2-144x^3))` (program `A017161.P2125447771219900463`, by `A017161.P2125447771219900463.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A017161.P1050315990214919050
+/-! ## A017161.P2125447771219900463
 
-`3^n-2*4^n+2*12^n`
+`ogf(1/(1-19x+96x^2-144x^3))`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A017161
 
+/-- `ogf(1/(1-19x+96x^2-144x^3))` -/
+def P2125447771219900463.Spec : Prop :=
+  ∀ n, P2125447771219900463.a n = A017161 n
+
+theorem P2125447771219900463.correct : P2125447771219900463.Spec := by
+  intro n
+  simp only [A017161]
+
+end A017161
+
+/-! ## A017161.P1050315990214919050
+
+`3^n-2*4^n+2*12^n`
+-/
+
+namespace A017161.P1050315990214919050
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 ^ n : ℤ) - (2 * 4 ^ n : ℤ) + (2 * 12 ^ n : ℤ)
+
+end
+
+end A017161.P1050315990214919050
+
+namespace A017161
+
 /-- `3^n-2*4^n+2*12^n` -/
 def P1050315990214919050.Spec : Prop :=
   ∀ n, P1050315990214919050.a n = A017161 n
-
-theorem P1050315990214919050.correct : P1050315990214919050.Spec := by
-  intro n
-  simp only [A017161]
 
 end A017161
 
@@ -26385,25 +26409,6 @@ namespace A017161
 /-- `19*a(n-1)-96*a(n-2)+144*a(n-3)` -/
 def P18152758994997158321.Spec : Prop :=
   ∀ n, P18152758994997158321.a n = A017161 n
-
-theorem P18152758994997158321.correct : P18152758994997158321.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 =>
-      simp [A017161, Nat.add_sub_cancel, A017161.P18152758994997158321.a, A017161.P1050315990214919050.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 3 =>
-      have h1 := ih (m + 2) (by omega)
-      have h2 := ih (m + 1) (by omega)
-      have h3 := ih m (by omega)
-      simp only [A017161, Nat.add_sub_cancel, A017161.P18152758994997158321.a, A017161.P1050315990214919050.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 ⊢
-      rw [h1, h2, h3]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
 
 end A017161
 

@@ -17,30 +17,31 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,7 +51,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -60,26 +60,29 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +107,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1448,33 +1450,10 @@ def P3307928051046010469.Spec : Prop :=
 
 end A039634
 
-/-! ## A039634.P7019327935816756270
-
-`A078833(n+1)`
--/
-
-namespace A039634.P7019327935816756270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078833 (n + 1)
-
-end
-
-end A039634.P7019327935816756270
-
-namespace A039634
-
-/-- `A078833(n+1)` -/
-def P7019327935816756270.Spec : Prop :=
-  ∀ n, P7019327935816756270.a n = A039634 (n + 1)
-
-end A039634
-
 /-!
 # A039635: Fixed point of "n -> n/2 or (n+1)/2 until result is prime".
 
-The programs for A039635, the canonical program `A039635.P9559047743557119153` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039635 has offset 1).
+The programs for A039635, the canonical program `A039635.P9559047743557119153` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039635 has offset 1).
 
 The definition of A039635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 456 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1483,7 +1462,7 @@ The definition of A039635 is `conjectured`: the Lean definition is a formula tha
 
 `A006530(a(floor(n/2))*A118136(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A039635
@@ -1980,7 +1959,7 @@ end A039639
 /-!
 # A039640: Fixed point of "k -> k/2 or (k+1)/2 until result is prime", starting with prime(n)-1.
 
-The programs for A039640, the canonical program `A039640.P11397984576730189719` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039640 has offset 1).
+The programs for A039640, the canonical program `A039640.P11397984576730189719` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039640 has offset 1).
 
 The definition of A039640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1989,7 +1968,7 @@ The definition of A039640 is `conjectured`: the Lean definition is a formula tha
 
 `A039635(A006093(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A039640
@@ -2007,7 +1986,7 @@ end A039640
 /-!
 # A039641: Fixed point of "k -> k/2 or (k+1)/2 until result is prime", starting with prime(n)+1.
 
-The programs for A039641, the canonical program `A039641.P1508988821012990375` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039641 has offset 1).
+The programs for A039641, the canonical program `A039641.P1508988821012990375` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039641 has offset 1).
 
 The definition of A039641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2016,7 +1995,7 @@ The definition of A039641 is `conjectured`: the Lean definition is a formula tha
 
 `A039635(A008864(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A039641
@@ -3083,21 +3062,6 @@ end
 
 end A039650.P16983135710177584996
 
-/-! ## A039650.P16069044302375816724
-
-`A039649(A039649(n+1))`
--/
-
-namespace A039650.P16069044302375816724
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039649 (A039649 (n + 1)).toNat
-
-end
-
-end A039650.P16069044302375816724
-
 /-! ## A039650.P5173338956446099441
 
 `A000005(A066781(A000005(A066781(n+1))))`
@@ -3163,21 +3127,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039651.P9238821275609915587
-
-/-! ## A039651.P12009200153293595312
-
-`A072344(n+1)-A010051(n+1)`
--/
-
-namespace A039651.P12009200153293595312
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072344 (n + 1) - A010051 (n + 1)
-
-end
-
-end A039651.P12009200153293595312
 
 /-! ## A039651.P6750495110589489863
 
@@ -8438,21 +8387,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039691.P5840867578712925426
-
-/-! ## A039691.P8852111909217467546
-
-`A298639(n+1)`
--/
-
-namespace A039691.P8852111909217467546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298639 (n + 1)
-
-end
-
-end A039691.P8852111909217467546
 
 /-! ## A039691.P6230138172080842053
 

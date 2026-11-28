@@ -15,35 +15,34 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,7 +67,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -79,11 +77,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +96,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1308,21 +1304,6 @@ end A005101
 
 The programs for A005104, there is no canonical definition to state claims against.
 -/
-
-/-! ## A005104.P13267275870293545466
-
-`A028921(n)`
--/
-
-namespace A005104.P13267275870293545466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028921 n
-
-end
-
-end A005104.P13267275870293545466
 
 /-! ## A005104.P6457084936175269426
 
@@ -7802,21 +7783,6 @@ end
 
 end A005132.P675880825169441534
 
-/-! ## A005132.P14654787799558086988
-
-`-1+A063733(n+1)`
--/
-
-namespace A005132.P14654787799558086988
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A063733 (n + 1)
-
-end
-
-end A005132.P14654787799558086988
-
 /-! ## A005132.P12012824738211967532
 
 `A023443(A063733(n+1))`
@@ -8900,27 +8866,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A005150.P3870645383315857488
-
-/-!
-# A005151: Summarize the previous term (digits in increasing order), starting with a(1) = 1.
-
-The programs for A005151, there is no canonical definition to state claims against.
--/
-
-/-! ## A005151.P7020276693466607664
-
-`A098155(n+1)`
--/
-
-namespace A005151.P7020276693466607664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A098155 (n + 1)
-
-end
-
-end A005151.P7020276693466607664
 
 /-!
 # A005152: Rotation distance between binary trees on n nodes.
@@ -11773,23 +11718,29 @@ end A005174
 /-!
 # A005175: Number of rooted trees with 5 nodes of disjoint sets of labels with union {1..n}. If a node has an empty set of labels then it must have at least two children.
 
-The programs for A005175, there is no canonical definition to state claims against.
+The programs for A005175, the canonical program `A005175.P3945280627335465039` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005175 has offset 1).
+
+The definition of A005175 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A005175.P4039184597461756305
+/-! ## A005175.P3945280627335465039
 
-`A011371(A014626(n²))`
+`ogf((3x^2+86x^3+120x^4)/(1-15x+85x^2-225x^3+274x^4-120x^5))`
+
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
-namespace A005175.P4039184597461756305
-noncomputable section
+namespace A005175
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011371 (A014626 (n ^ 2)).toNat
+/-- `ogf((3x^2+86x^3+120x^4)/(1-15x+85x^2-225x^3+274x^4-120x^5))` -/
+def P3945280627335465039.Spec : Prop :=
+  ∀ n, P3945280627335465039.a n = A005175 (n + 1)
 
-end
+theorem P3945280627335465039.correct : P3945280627335465039.Spec := by
+  intro n
+  simp only [A005175, Nat.add_sub_cancel]
 
-end A005175.P4039184597461756305
+end A005175
 
 /-!
 # A005176: Number of regular graphs with n unlabeled nodes.
@@ -14431,24 +14382,6 @@ end
 
 end A005188.P4690041401816634752
 
-/-! ## A005188.P17899289634891919860
-
-`record[A252648(n+1)]`
--/
-
-namespace A005188.P17899289634891919860
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252648 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A005188.P17899289634891919860
-
 /-! ## A005188.P4353664801827703073
 
 `record[A252648(n)%A335456(n)]`
@@ -14466,21 +14399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A005188.P4353664801827703073
-
-/-! ## A005188.P17511855947573699058
-
-`A023052(n+1)`
--/
-
-namespace A005188.P17511855947573699058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023052 (n + 1)
-
-end
-
-end A005188.P17511855947573699058
 
 /-! ## A005188.P6966551449039523556
 

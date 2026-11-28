@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -30,21 +31,22 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C044
 import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,26 +69,26 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -877,21 +879,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090608.P11925030174141077143
-
-/-! ## A090608.P5873261454615222864
-
-`A060000(lcm(-1, A090610(n+1)))`
--/
-
-namespace A090608.P5873261454615222864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060000 (Int.lcm (-1) (A090610 (n + 1)))
-
-end
-
-end A090608.P5873261454615222864
 
 /-!
 # A090609: Primes of the form 6*p - 1 such that p and 6*p - 5 are primes.
@@ -1989,27 +1976,6 @@ def P11400251009918983478.Spec : Prop :=
   ∀ n, P11400251009918983478.a n = A090614 (n + 1)
 
 end A090614
-
-/-!
-# A090615: Smallest member of sociable quadruples.
-
-The programs for A090615, there is no canonical definition to state claims against.
--/
-
-/-! ## A090615.P17210258356559625539
-
-`A003416(n+3)`
--/
-
-namespace A090615.P17210258356559625539
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003416 (n + 3)
-
-end
-
-end A090615.P17210258356559625539
 
 /-!
 # A090616: Exponent of highest power of 4 dividing n!.
@@ -3813,29 +3779,6 @@ namespace A090620
 /-- `∑[∑{d}[n, A015868(A014963(#))]]` -/
 def P16476865804512796186.Spec : Prop :=
   ∀ n, P16476865804512796186.a n = A090620 n
-
-end A090620
-
-/-! ## A090620.P8993845493285473516
-
-`A342696(n-A342696(n))`
--/
-
-namespace A090620.P8993845493285473516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342696 ((n : ℤ) - A342696 n).toNat
-
-end
-
-end A090620.P8993845493285473516
-
-namespace A090620
-
-/-- `A342696(n-A342696(n))` -/
-def P8993845493285473516.Spec : Prop :=
-  ∀ n, P8993845493285473516.a n = A090620 n
 
 end A090620
 
@@ -7182,27 +7125,6 @@ def P3686190520816441089.Spec : Prop :=
 end A090650
 
 /-!
-# A090651: Perpetual calendar sequence: There are 14 basic year calendars, 7 for normal years and 7 for leap years. This sequence identifies the calendars for years 1901 through 2099, when it reinitializes because 2100 is not a leap year.
-
-The programs for A090651, there is no canonical definition to state claims against.
--/
-
-/-! ## A090651.P2940406101273167502
-
-`A127376(53+n)`
--/
-
-namespace A090651.P2940406101273167502
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127376 (53 + n)
-
-end
-
-end A090651.P2940406101273167502
-
-/-!
 # A090652: Numbers all of whose prime factors end in 7.
 
 The programs for A090652, there is no canonical definition to state claims against.
@@ -9066,29 +8988,6 @@ namespace A090666
 /-- `A347697(A194589(n))` -/
 def P308783451830600194.Spec : Prop :=
   ∀ n, P308783451830600194.a n = A090666 n
-
-end A090666
-
-/-! ## A090666.P9808780178809936964
-
-`A002264(A241564(n+1))`
--/
-
-namespace A090666.P9808780178809936964
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002264 (A241564 (n + 1)).toNat
-
-end
-
-end A090666.P9808780178809936964
-
-namespace A090666
-
-/-- `A002264(A241564(n+1))` -/
-def P9808780178809936964.Spec : Prop :=
-  ∀ n, P9808780178809936964.a n = A090666 n
 
 end A090666
 
@@ -12880,24 +12779,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090686.P14976151293124617673
-
-/-! ## A090686.P52472037152809672
-
-`1*p?[n*6*n-1]`
--/
-
-namespace A090686.P52472037152809672
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n * (6 * n) : ℤ) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A090686.P52472037152809672
 
 /-! ## A090686.P2443454137686076635
 

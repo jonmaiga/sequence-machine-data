@@ -22,7 +22,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -36,18 +35,18 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,15 +62,16 @@ import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -80,10 +80,9 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +94,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -108,7 +106,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -5507,17 +5504,25 @@ end A101853
 /-!
 # A101854: a(n) = n*(n+1)*(n^2 + 21*n + 50)/24.
 
-The programs for A101854, the canonical program `A101854.P6821734514715363686` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101854 has offset 1).
+The programs for A101854, the canonical program `A101854.P3247958869238430504` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101854 has offset 1).
 
-The definition of A101854 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A101854 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A101854.anchor (n : ℕ) : (A101854 (n + 1) : ℚ) = ((n + 1) * (n + 2) * ((n + 1) ^ 2 + 21 * (n + 1) + 50) : ℚ) / 24` in `Proof.A101.A101854`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A101854.P6821734514715363686
 
 `ogf((6-6x+x^2)/(1-5x+10x^2-10x^3+5x^4-x^5))`
-
-The canonical program, it is in `Seq.B000.C018`.
 -/
+
+namespace A101854.P6821734514715363686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -6, 1] [1, -5, 10, -10, 5, -1] n
+
+end
+
+end A101854.P6821734514715363686
 
 namespace A101854
 
@@ -5525,28 +5530,14 @@ namespace A101854
 def P6821734514715363686.Spec : Prop :=
   ∀ n, P6821734514715363686.a n = A101854 (n + 1)
 
-theorem P6821734514715363686.correct : P6821734514715363686.Spec := by
-  intro n
-  simp only [A101854, Nat.add_sub_cancel]
-
 end A101854
 
 /-! ## A101854.P3247958869238430504
 
 `(n+1)*(n+2)*((n+1)²+21*(n+1)+50)/24`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C018`.
 -/
-
-namespace A101854.P3247958869238430504
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n + 1) * (n + 2) * ((n + 1) ^ 2 + 21 * (n + 1) + 50) : ℚ) / 24
-
-end
-
-end A101854.P3247958869238430504
 
 namespace A101854
 
@@ -10102,21 +10093,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101871.P8375896483095646202
-
-/-! ## A101871.P14748298300480945173
-
-`A295879(2*n+1)`
--/
-
-namespace A101871.P14748298300480945173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A295879 (2 * n + 1)
-
-end
-
-end A101871.P14748298300480945173
 
 /-! ## A101871.P14988362268610139034
 

@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,35 +12,34 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C048
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C014
@@ -47,20 +47,18 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C001
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,8 +78,10 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -3016,29 +3016,6 @@ def P8213192991710218191.Spec : Prop :=
 
 end A018118
 
-/-! ## A018118.P13475415997899984036
-
-`round(2^(n/5))*1`
--/
-
-namespace A018118.P13475415997899984036
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((2 : ℝ) ^ ((n : ℚ) / 5 : ℝ)) * 1
-
-end
-
-end A018118.P13475415997899984036
-
-namespace A018118
-
-/-- `round(2^(n/5))*1` -/
-def P13475415997899984036.Spec : Prop :=
-  ∀ n, P13475415997899984036.a n = A018118 n
-
-end A018118
-
 /-! ## A018118.P16372429349070846029
 
 `round(sqrt(sqrt(A018161(n))))`
@@ -3108,29 +3085,6 @@ def P13258619505372969218.Spec : Prop :=
 
 end A018118
 
-/-! ## A018118.P4255168794756596133
-
-`round(2^(n/5))%A102644(n+1)`
--/
-
-namespace A018118.P4255168794756596133
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway ((2 : ℝ) ^ ((n : ℚ) / 5 : ℝ))) (A102644 (n + 1))
-
-end
-
-end A018118.P4255168794756596133
-
-namespace A018118
-
-/-- `round(2^(n/5))%A102644(n+1)` -/
-def P4255168794756596133.Spec : Prop :=
-  ∀ n, P4255168794756596133.a n = A018118 n
-
-end A018118
-
 /-! ## A018118.P581448443184092617
 
 `round(root(A000302(n), 10))`
@@ -3151,6 +3105,29 @@ namespace A018118
 /-- `round(root(A000302(n), 10))` -/
 def P581448443184092617.Spec : Prop :=
   ∀ n, P581448443184092617.a n = A018118 n
+
+end A018118
+
+/-! ## A018118.P4255168794756596133
+
+`round(2^(n/5))%A102644(n+1)`
+-/
+
+namespace A018118.P4255168794756596133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.roundAway ((2 : ℝ) ^ ((n : ℚ) / 5 : ℝ))) (A102644 (n + 1))
+
+end
+
+end A018118.P4255168794756596133
+
+namespace A018118
+
+/-- `round(2^(n/5))%A102644(n+1)` -/
+def P4255168794756596133.Spec : Prop :=
+  ∀ n, P4255168794756596133.a n = A018118 n
 
 end A018118
 
@@ -6200,29 +6177,6 @@ def P2364732319262783073.Spec : Prop :=
 
 end A018138
 
-/-! ## A018138.P6620122861927115243
-
-`floor(3^(lcm(2*n, 1)/5))`
--/
-
-namespace A018138.P6620122861927115243
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(3 : ℝ) ^ ((Nat.lcm (2 * n) 1 : ℚ) / 5 : ℝ)⌋
-
-end
-
-end A018138.P6620122861927115243
-
-namespace A018138
-
-/-- `floor(3^(lcm(2*n, 1)/5))` -/
-def P6620122861927115243.Spec : Prop :=
-  ∀ n, P6620122861927115243.a n = A018138 n
-
-end A018138
-
 /-! ## A018138.P10149999076671217435
 
 `floor((3^n)^(2/5))`
@@ -7373,29 +7327,6 @@ def P3977841845538844577.Spec : Prop :=
 theorem P3977841845538844577.correct : P3977841845538844577.Spec := by
   intro n
   simp only [A018145]
-
-end A018145
-
-/-! ## A018145.P15697219453191010566
-
-`round(11^(n/5))*1`
--/
-
-namespace A018145.P15697219453191010566
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((11 : ℝ) ^ ((n : ℚ) / 5 : ℝ)) * 1
-
-end
-
-end A018145.P15697219453191010566
-
-namespace A018145
-
-/-- `round(11^(n/5))*1` -/
-def P15697219453191010566.Spec : Prop :=
-  ∀ n, P15697219453191010566.a n = A018145 n
 
 end A018145
 
@@ -10701,29 +10632,6 @@ def P17825017337008354434.Spec : Prop :=
 
 end A018163
 
-/-! ## A018163.P10355212182834778564
-
-`1*round(17^(n/5))`
--/
-
-namespace A018163.P10355212182834778564
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * SequenceMachineLib.roundAway ((17 : ℝ) ^ ((n : ℚ) / 5 : ℝ))
-
-end
-
-end A018163.P10355212182834778564
-
-namespace A018163
-
-/-- `1*round(17^(n/5))` -/
-def P10355212182834778564.Spec : Prop :=
-  ∀ n, P10355212182834778564.a n = A018163 n
-
-end A018163
-
 /-!
 # A018164: Powers of fifth root of 17 rounded up.
 
@@ -13992,42 +13900,6 @@ def P15367152889752851461.Spec : Prop :=
   ∀ n, P15367152889752851461.a n = A018186 n
 
 end A018186
-
-/-!
-# A018187: Restricted Perrin pseudoprimes.
-
-The programs for A018187, there is no canonical definition to state claims against.
--/
-
-/-! ## A018187.P11887412107499008315
-
-`A275612(1+n)`
--/
-
-namespace A018187.P11887412107499008315
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A275612 (1 + n)
-
-end
-
-end A018187.P11887412107499008315
-
-/-! ## A018187.P5112566977809311330
-
-`A275613(n+1)`
--/
-
-namespace A018187.P5112566977809311330
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A275613 (n + 1)
-
-end
-
-end A018187.P5112566977809311330
 
 /-!
 # A018188: The $620 prime list.

@@ -1,7 +1,9 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,8 +12,8 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -20,22 +22,25 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,26 +59,24 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B005.C003
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,6 +101,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A129600: Array A(i,j) of binary run-length encoded product of i and j, read by ascending antidiagonals.
@@ -539,21 +546,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129605.P13024489614972581690
-
-/-! ## A129605.P1054379224629041228
-
-`A127287(A130374(n))`
--/
-
-namespace A129605.P1054379224629041228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127287 (A130374 n).toNat
-
-end
-
-end A129605.P1054379224629041228
 
 /-! ## A129605.P2823006341689426660
 
@@ -1113,21 +1105,6 @@ end
 
 end A129611.P16744438921650079522
 
-/-! ## A129611.P14555901653776244619
-
-`A154455(A154455(A154455(n)^1))`
--/
-
-namespace A129611.P14555901653776244619
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154455 (A154455 (A154455 n ^ 1).toNat).toNat
-
-end
-
-end A129611.P14555901653776244619
-
 /-!
 # A129612: Signature-permutation of a Catalan automorphism, row 251 of A089840.
 
@@ -1608,6 +1585,60 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A129621.P12446791661599106400
+
+/-!
+# A129625: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+233)^2 = y^2.
+
+The programs for A129625, the canonical program `A129625.P3507298194986737170` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129625 has offset 1).
+
+The definition of A129625 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A129625.P3507298194986737170
+
+`ogf((75x+357x^2+267x^3-57x^4-119x^5-57x^6)/(1-x-6x^3+6x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129625
+
+/-- `ogf((75x+357x^2+267x^3-57x^4-119x^5-57x^6)/(1-x-6x^3+6x^4+x^6-x^7))` -/
+def P3507298194986737170.Spec : Prop :=
+  ∀ n, P3507298194986737170.a n = A129625 (n + 1)
+
+theorem P3507298194986737170.correct : P3507298194986737170.Spec := by
+  intro n
+  simp only [A129625, Nat.add_sub_cancel]
+
+end A129625
+
+/-!
+# A129626: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+281)^2 = y^2.
+
+The programs for A129626, the canonical program `A129626.P13572110171573092827` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129626 has offset 1).
+
+The definition of A129626 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A129626.P13572110171573092827
+
+`ogf((76x+483x^2+284x^3-60x^4-161x^5-60x^6)/(1-x-6x^3+6x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129626
+
+/-- `ogf((76x+483x^2+284x^3-60x^4-161x^5-60x^6)/(1-x-6x^3+6x^4+x^6-x^7))` -/
+def P13572110171573092827.Spec : Prop :=
+  ∀ n, P13572110171573092827.a n = A129626 (n + 1)
+
+theorem P13572110171573092827.correct : P13572110171573092827.Spec := by
+  intro n
+  simp only [A129626, Nat.add_sub_cancel]
+
+end A129626
 
 /-!
 # A129627: Sum of the 4th powers of the degrees of irreducible representations of S_n, the symmetric group on n letters.
@@ -3719,8 +3750,29 @@ end A129639
 /-!
 # A129640: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+313)^2 = y^2.
 
-The programs for A129640, there is no canonical definition to state claims against.
+The programs for A129640, the canonical program `A129640.P2138394427975730016` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129640 has offset 1).
+
+The definition of A129640 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A129640.P2138394427975730016
+
+`ogf((155x+309x^2+475x^3-105x^4-103x^5-105x^6)/(1-x-6x^3+6x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129640
+
+/-- `ogf((155x+309x^2+475x^3-105x^4-103x^5-105x^6)/(1-x-6x^3+6x^4+x^6-x^7))` -/
+def P2138394427975730016.Spec : Prop :=
+  ∀ n, P2138394427975730016.a n = A129640 (n + 1)
+
+theorem P2138394427975730016.correct : P2138394427975730016.Spec := by
+  intro n
+  simp only [A129640, Nat.add_sub_cancel]
+
+end A129640
 
 /-! ## A129640.P12006929068840446949
 
@@ -3737,6 +3789,14 @@ end
 
 end A129640.P12006929068840446949
 
+namespace A129640
+
+/-- `A129641(n+1)+A118120(n)-A161478(n+1)` -/
+def P12006929068840446949.Spec : Prop :=
+  ∀ n, P12006929068840446949.a n = A129640 (n + 1)
+
+end A129640
+
 /-! ## A129640.P7113806159752756013
 
 `A101152(n+1)+A157119(n+1)-A130610(n+1)`
@@ -3752,11 +3812,46 @@ end
 
 end A129640.P7113806159752756013
 
+namespace A129640
+
+/-- `A101152(n+1)+A157119(n+1)-A130610(n+1)` -/
+def P7113806159752756013.Spec : Prop :=
+  ∀ n, P7113806159752756013.a n = A129640 (n + 1)
+
+theorem P7113806159752756013.correct : P7113806159752756013.Spec := by
+  intro n
+  simp only [A129640, Nat.add_sub_cancel, A129640.P7113806159752756013.a, A129640.P2138394427975730016.a, A101152, A101152.P9130423455693822452.a, A130610, A130610.P2162091638436673758.a, A157119, A157119.P18206226386205261388.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A129640
+
 /-!
 # A129641: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+409)^2 = y^2.
 
-The programs for A129641, there is no canonical definition to state claims against.
+The programs for A129641, the canonical program `A129641.P4408831091127430198` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129641 has offset 1).
+
+The definition of A129641 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A129641.P4408831091127430198
+
+`ogf((200x+411x^2+616x^3-136x^4-137x^5-136x^6)/(1-x-6x^3+6x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129641
+
+/-- `ogf((200x+411x^2+616x^3-136x^4-137x^5-136x^6)/(1-x-6x^3+6x^4+x^6-x^7))` -/
+def P4408831091127430198.Spec : Prop :=
+  ∀ n, P4408831091127430198.a n = A129641 (n + 1)
+
+theorem P4408831091127430198.correct : P4408831091127430198.Spec := by
+  intro n
+  simp only [A129641, Nat.add_sub_cancel]
+
+end A129641
 
 /-! ## A129641.P15073013326151993495
 
@@ -3773,11 +3868,40 @@ end
 
 end A129641.P15073013326151993495
 
+namespace A129641
+
+/-- `A161478(n+1)+A129640(n+1)-A118120(n)` -/
+def P15073013326151993495.Spec : Prop :=
+  ∀ n, P15073013326151993495.a n = A129641 (n + 1)
+
+end A129641
+
 /-!
 # A129642: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+457)^2 = y^2.
 
-The programs for A129642, there is no canonical definition to state claims against.
+The programs for A129642, the canonical program `A129642.P7415334072135131915` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129642 has offset 1).
+
+The definition of A129642 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A129642.P7415334072135131915
+
+`ogf((348x+147x^2+876x^3-204x^4-49x^5-204x^6)/(1-x-6x^3+6x^4+x^6-x^7))`
+
+The canonical program, it is in `Seq.B000.C022`.
+-/
+
+namespace A129642
+
+/-- `ogf((348x+147x^2+876x^3-204x^4-49x^5-204x^6)/(1-x-6x^3+6x^4+x^6-x^7))` -/
+def P7415334072135131915.Spec : Prop :=
+  ∀ n, P7415334072135131915.a n = A129642 (n + 1)
+
+theorem P7415334072135131915.correct : P7415334072135131915.Spec := by
+  intro n
+  simp only [A129642, Nat.add_sub_cancel]
+
+end A129642
 
 /-! ## A129642.P1326510571288076460
 
@@ -3793,6 +3917,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129642.P1326510571288076460
+
+namespace A129642
+
+/-- `A204765(n+1)+A129641(n+1)-A161486(n+1)` -/
+def P1326510571288076460.Spec : Prop :=
+  ∀ n, P1326510571288076460.a n = A129642 (n + 1)
+
+end A129642
 
 /-!
 # A129643: a(1)=1. a(n) = a(n-1)*(b(n-1)+1), where {b(k)} is the concatenated list of the positive divisors of the terms of {a(k)}.
@@ -3871,21 +4003,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129643.P14780922918656670089
-
-/-! ## A129643.P12411853450263301609
-
-`A332644(n)`
--/
-
-namespace A129643.P12411853450263301609
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332644 n
-
-end
-
-end A129643.P12411853450263301609
 
 /-!
 # A129644: The concatenated list of the positive divisors of the terms of sequence A129643. Also, a(n) = A129643(n+1)/A129643(n) -1.
@@ -4288,27 +4405,6 @@ def P15396043784747045281.Spec : Prop :=
   ∀ n, (P15396043784747045281.a n : ℤ) = A129647 (n + 1)
 
 end A129647
-
-/-!
-# A129649: Largest order of a permutation of n elements with exactly 4 cycles. Also the largest LCM of a 4-partition of n.
-
-The programs for A129649, there is no canonical definition to state claims against.
--/
-
-/-! ## A129649.P17778448539163179015
-
-`A129650(n+2)`
--/
-
-namespace A129649.P17778448539163179015
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129650 (n + 2)
-
-end
-
-end A129649.P17778448539163179015
 
 /-!
 # A129650: Largest order of a permutation of n elements with exactly 5 cycles. Also the largest LCM of a 5-partition of n.
@@ -6407,21 +6503,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129681.P5934544995207075378
-
-/-! ## A129681.P7356453483785426672
-
-`-1*A129680(A129677(n+1))`
--/
-
-namespace A129681.P7356453483785426672
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-1) * A129680 (A129677 (n + 1)).toNat
-
-end
-
-end A129681.P7356453483785426672
 
 /-! ## A129681.P15675573992744447897
 

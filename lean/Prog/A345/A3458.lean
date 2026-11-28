@@ -8,22 +8,20 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C019
+import Seq.B000.C016
 import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C046
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C039
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,13 +48,12 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +77,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -825,21 +821,6 @@ end
 
 end A345806.P12961850113450888151
 
-/-! ## A345806.P17933129048288891560
-
-`A345552(A093641(n+1))`
--/
-
-namespace A345806.P17933129048288891560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345552 (A093641 (n + 1)).toNat
-
-end
-
-end A345806.P17933129048288891560
-
 /-!
 # A345807: Numbers that are the sum of ten cubes in exactly five ways.
 
@@ -1212,21 +1193,6 @@ end
 
 end A345817.P14312315170289849840
 
-/-! ## A345817.P11161923296638897109
-
-`A345562(A138302(n+1))`
--/
-
-namespace A345817.P11161923296638897109
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345562 (A138302 (n + 1)).toNat
-
-end
-
-end A345817.P11161923296638897109
-
 /-! ## A345817.P4272450464876927616
 
 `record[A345562(n+1)%A345563(A146676(n+1))]`
@@ -1329,21 +1295,6 @@ end
 
 end A345819.P7422180030761161444
 
-/-! ## A345819.P85645760481138559
-
-`A345564(A325367(n+1))`
--/
-
-namespace A345819.P85645760481138559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345564 (A325367 (n + 1)).toNat
-
-end
-
-end A345819.P85645760481138559
-
 /-!
 # A345820: Numbers that are the sum of six fourth powers in exactly eight ways.
 
@@ -1442,27 +1393,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345821.P3085727920610031841
-
-/-!
-# A345822: Numbers that are the sum of six fourth powers in exactly ten ways.
-
-The programs for A345822, there is no canonical definition to state claims against.
--/
-
-/-! ## A345822.P1378418526647672869
-
-`A345567(A033948(n+1))`
--/
-
-namespace A345822.P1378418526647672869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345567 (A033948 (n + 1)).toNat
-
-end
-
-end A345822.P1378418526647672869
 
 /-!
 # A345825: Numbers that are the sum of seven fourth powers in exactly three ways.
@@ -1798,27 +1728,6 @@ end
 end A345838.P4485337007074093561
 
 /-!
-# A345839: Numbers that are the sum of eight fourth powers in exactly seven ways.
-
-The programs for A345839, there is no canonical definition to state claims against.
--/
-
-/-! ## A345839.P6963648186844529688
-
-`A345582(A295020(n+1)^1)`
--/
-
-namespace A345839.P6963648186844529688
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345582 (A295020 (n + 1) ^ 1).toNat
-
-end
-
-end A345839.P6963648186844529688
-
-/-!
 # A345840: Numbers that are the sum of eight fourth powers in exactly eight ways.
 
 The programs for A345840, there is no canonical definition to state claims against.
@@ -1859,42 +1768,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345841.P12892237614732256284
-
-/-!
-# A345842: Numbers that are the sum of eight fourth powers in exactly ten ways.
-
-The programs for A345842, there is no canonical definition to state claims against.
--/
-
-/-! ## A345842.P7726168107314568814
-
-`A345585(A208982(n+1))`
--/
-
-namespace A345842.P7726168107314568814
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345585 (A208982 (n + 1)).toNat
-
-end
-
-end A345842.P7726168107314568814
-
-/-! ## A345842.P249483119437801794
-
-`A345585(A018321(n+1))`
--/
-
-namespace A345842.P249483119437801794
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345585 (A018321 (n + 1)).toNat
-
-end
-
-end A345842.P249483119437801794
 
 /-!
 # A345846: Numbers that are the sum of nine fourth powers in exactly four ways.
@@ -2349,7 +2222,7 @@ end A345863.P11009890835761501930
 /-!
 # A345867: Total number of 0's in the binary expansions of the first n primes.
 
-The programs for A345867, the canonical program `A345867.P3810117440269639629` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345867 has offset 1).
+The programs for A345867, the canonical program `A345867.P3810117440269639629` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345867 has offset 1).
 
 The definition of A345867 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A095375, A328659, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2358,7 +2231,7 @@ The definition of A345867 is `conditional`: the Lean definition is an OEIS formu
 
 `A328659(n+1)-A095375(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A345867
@@ -3068,7 +2941,7 @@ end A345874.P16492849619968343077
 /-!
 # A345876: a(n) = Sum_{k=0..n} binomial(2*n, n-k) * k^n.
 
-The programs for A345876, the canonical program `A345876.P11502421910300347281` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345876 has offset 0).
+The programs for A345876, the canonical program `A345876.P11502421910300347281` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345876 has offset 0).
 
 The definition of A345876 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(2*n, n-#)*#^n]` (program `A345876.P11502421910300347281`, by `A345876.P11502421910300347281.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3077,7 +2950,7 @@ The definition of A345876 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, C(2*n, n-#)*#^n]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345876
@@ -5802,7 +5675,7 @@ end A345892
 
 The programs for A345893, the canonical program `A345893.P9142068273855579266` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345893 has offset 1).
 
-The definition of A345893 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A345893 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345893.anchor (n : ℕ) : (A345893 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (n + 1 : ℚ) ^ (A000010 d : ℤ)` in `Proof.A345.A345893`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A345893.P9142068273855579266
@@ -5910,7 +5783,7 @@ end A345894.P2304240611851637778
 
 The programs for A345895, the canonical program `A345895.P17884250528782245440` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345895 has offset 1).
 
-The definition of A345895 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A345895 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345895.anchor (n : ℕ) : (A345895 (n + 1) : ℚ) = ∑ d ∈ Nat.divisors ((n + 1)), (n + 1 : ℚ) ^ (A000203 d : ℤ)` in `Proof.A345.A345895`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A345895.P17884250528782245440
@@ -5957,7 +5830,7 @@ end A345895
 /-!
 # A345897: a(n) = 2*n^4/3 - 4*n^3/3 + 11*n^2/6 - 13*n/6 + 1.
 
-The programs for A345897, the canonical program `A345897.P8038473256665312500` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345897 has offset 0).
+The programs for A345897, the canonical program `A345897.P8038473256665312500` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345897 has offset 0).
 
 The definition of A345897 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A345897.anchor (n : ℕ) : (A345897 n : ℚ) = (2 * n ^ 4 : ℚ) / 3 - (4 * n ^ 3 : ℚ) / 3 + (11 * n ^ 2 : ℚ) / 6 - (13 * n : ℚ) / 6 + 1` in `Proof.A345.A345897`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5989,7 +5862,7 @@ end A345897
 
 `2*n^4/3-4*n^3/3+11*n²/6-13*n/6+1`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345897

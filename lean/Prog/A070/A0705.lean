@@ -4,11 +4,11 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -19,24 +19,27 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,16 +71,17 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,7 +105,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -974,21 +977,6 @@ end
 
 end A070529.P1296434450405532565
 
-/-! ## A070529.P1294667896751389003
-
-`A071364(A063750(n+1))`
--/
-
-namespace A070529.P1294667896751389003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071364 (A063750 (n + 1)).toNat
-
-end
-
-end A070529.P1294667896751389003
-
 /-! ## A070529.P13198400657410184614
 
 `A003960(A063750(n+1))`
@@ -1354,21 +1342,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070536.P2950201064258922042
-
-/-! ## A070536.P8027122166354572398
-
-`A318886(n+1)`
--/
-
-namespace A070536.P8027122166354572398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318886 (n + 1)
-
-end
-
-end A070536.P8027122166354572398
 
 /-!
 # A070537: Numbers k such that the k-th cyclotomic polynomial has more terms than the largest prime factor of k.
@@ -7131,21 +7104,6 @@ end
 
 end A070557.P4278593520497077973
 
-/-! ## A070557.P18229267128359298679
-
-`A225751(n)`
--/
-
-namespace A070557.P18229267128359298679
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225751 n
-
-end
-
-end A070557.P18229267128359298679
-
 /-! ## A070557.P8039521130485948648
 
 `A138373(A145722(n))`
@@ -9599,28 +9557,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A070566.P2158475141039013290
-
-/-! ## A070566.P1210288656272105424
-
-`∪[A136327(n+1), A145554(n+1)]`
--/
-
-namespace A070566.P1210288656272105424
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136327 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145554 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A070566.P1210288656272105424
 
 /-! ## A070566.P7440589599232112335
 

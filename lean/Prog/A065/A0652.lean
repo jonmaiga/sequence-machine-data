@@ -3,6 +3,8 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -13,10 +15,10 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -26,18 +28,19 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,23 +59,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,7 +109,7 @@ set_option linter.unreachableTactic false
 /-!
 # A065200: Numbers of the form m * p^k, with p prime, k >= 0, m squarefree and p > any prime factor of m.
 
-The programs for A065200, the canonical program `A065200.P4369247061633192074` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065200 has offset 1).
+The programs for A065200, the canonical program `A065200.P4369247061633192074` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065200 has offset 1).
 
 The definition of A065200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -115,7 +118,7 @@ The definition of A065200 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A065202(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A065200
@@ -298,7 +301,7 @@ end A065200
 /-!
 # A065201: Numbers having a non-maximal prime-factor with exponent greater than 1.
 
-The programs for A065201, the canonical program `A065201.P6736131531723427940` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065201 has offset 1).
+The programs for A065201, the canonical program `A065201.P6736131531723427940` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065201 has offset 1).
 
 The definition of A065201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -307,7 +310,7 @@ The definition of A065201 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A065202(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A065201
@@ -831,7 +834,7 @@ end A065201
 /-!
 # A065202: Characteristic function of A065201: a(n) = if A065201(k) = n for some k then 1 else 0.
 
-The programs for A065202, the canonical program `A065202.P5763603207858660054` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065202 has offset 1).
+The programs for A065202, the canonical program `A065202.P5763603207858660054` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065202 has offset 1).
 
 The definition of A065202 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051119, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -840,7 +843,7 @@ The definition of A065202 is `conditional`: the Lean definition is an OEIS formu
 
 `A107078(A051119(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A065202
@@ -2257,27 +2260,6 @@ end
 end A065209.P8164151982313489538
 
 /-!
-# A065210: Numbers which need five 'Reverse and Add' steps to reach a palindrome.
-
-The programs for A065210, there is no canonical definition to state claims against.
--/
-
-/-! ## A065210.P9694135368905911814
-
-`A015982(n+1)`
--/
-
-namespace A065210.P9694135368905911814
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015982 (n + 1)
-
-end
-
-end A065210.P9694135368905911814
-
-/-!
 # A065212: Numbers which need seven 'Reverse and Add' steps to reach a palindrome.
 
 The programs for A065212, there is no canonical definition to state claims against.
@@ -2377,27 +2359,6 @@ end
 end A065213.P12448870518557154778
 
 /-!
-# A065214: Numbers which need nine 'Reverse and Add' steps to reach a palindrome.
-
-The programs for A065214, there is no canonical definition to state claims against.
--/
-
-/-! ## A065214.P2542874342897571234
-
-`A015990(n+1)`
--/
-
-namespace A065214.P2542874342897571234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015990 (n + 1)
-
-end
-
-end A065214.P2542874342897571234
-
-/-!
 # A065215: Numbers which need ten 'Reverse and Add' steps to reach a palindrome.
 
 The programs for A065215, there is no canonical definition to state claims against.
@@ -2432,21 +2393,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A065215.P10893837520914316290
-
-/-! ## A065215.P6838743922091071116
-
-`A015991(A136002(n+1))`
--/
-
-namespace A065215.P6838743922091071116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015991 (A136002 (n + 1)).toNat
-
-end
-
-end A065215.P6838743922091071116
 
 /-! ## A065215.P1131390597093496187
 
@@ -2548,27 +2494,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A065216.P14751761780531530210
-
-/-!
-# A065217: Numbers which need 12 'Reverse and Add' steps to reach a palindrome.
-
-The programs for A065217, there is no canonical definition to state claims against.
--/
-
-/-! ## A065217.P14057291103037957338
-
-`A015993(n+1)`
--/
-
-namespace A065217.P14057291103037957338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015993 (n + 1)
-
-end
-
-end A065217.P14057291103037957338
 
 /-!
 # A065218: Consider the subsets of proper divisors of a number that sum to the number. These are numbers that set a record number of such subsets.
@@ -3979,21 +3904,6 @@ end
 
 end A065244.P15804469313670185069
 
-/-! ## A065244.P13138882021722541661
-
-`A179904(A065245(n+1)+0)`
--/
-
-namespace A065244.P13138882021722541661
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A179904 (A065245 (n + 1) + 0).toNat
-
-end
-
-end A065244.P13138882021722541661
-
 /-! ## A065244.P11112037661676653163
 
 `p?[∑[(n+1)²]+2]`
@@ -5361,21 +5271,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A065254.P3257310376553075507
-
-/-! ## A065254.P12834033203092955043
-
-`A333128(n+1)`
--/
-
-namespace A065254.P12834033203092955043
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333128 (n + 1)
-
-end
-
-end A065254.P12834033203092955043
 
 /-! ## A065254.P18389948083901675010
 

@@ -5,44 +5,49 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C001
+import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -54,10 +59,8 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -69,7 +72,7 @@ set_option linter.unreachableTactic false
 /-!
 # A033300: Smallest safe prime ((p-1)/2 is also prime) > n-th prime.
 
-The programs for A033300, the canonical program `A033300.P9943155577705870913` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033300 has offset 0).
+The programs for A033300, the canonical program `A033300.P9943155577705870913` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033300 has offset 0).
 
 The definition of A033300 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -78,7 +81,7 @@ The definition of A033300 is `conjectured`: the Lean definition is a formula tha
 
 `A033299(A000040(1+n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A033300
@@ -2508,21 +2511,6 @@ end A033308.P4762690781310450484
 
 The programs for A033309, there is no canonical definition to state claims against.
 -/
-
-/-! ## A033309.P10965894997349434341
-
-`A224891(n+1)+1`
--/
-
-namespace A033309.P10965894997349434341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224891 (n + 1) + 1
-
-end
-
-end A033309.P10965894997349434341
 
 /-! ## A033309.P6637464769669459269
 

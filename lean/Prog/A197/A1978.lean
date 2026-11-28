@@ -7,24 +7,26 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C025
-import Seq.B000.C030
+import Seq.B000.C019
+import Seq.B000.C021
+import Seq.B000.C026
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C033
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C045
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C046
 import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,11 +39,10 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -54,13 +55,11 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C001
+import Seq.B005.C003
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,7 +73,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -674,21 +672,6 @@ end A197861.P18219241585577191491
 
 The programs for A197862, there is no canonical definition to state claims against.
 -/
-
-/-! ## A197862.P1051094230826120428
-
-`A088387(A217434(n+2))`
--/
-
-namespace A197862.P1051094230826120428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088387 (A217434 (n + 2)).toNat
-
-end
-
-end A197862.P1051094230826120428
 
 /-! ## A197862.P11338408636935246196
 
@@ -1382,7 +1365,7 @@ end A197869.P3693664290513239246
 /-!
 # A197870: Expansion of false theta series variation of Ramanujan theta function psi(x).
 
-The programs for A197870, the canonical program `A197870.P7616428493243607404` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197870 has offset 0).
+The programs for A197870, the canonical program `A197870.P7616428493243607404` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197870 has offset 0).
 
 The definition of A197870 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1391,7 +1374,7 @@ The definition of A197870 is `conjectured`: the Lean definition is a formula tha
 
 `-T(n-1,k)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197870
@@ -2472,7 +2455,7 @@ end A197878
 /-!
 # A197879: Parity of floor(n*sqrt(8)).
 
-The programs for A197879, the canonical program `A197879.P8406148724613814584` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197879 has offset 1).
+The programs for A197879, the canonical program `A197879.P8406148724613814584` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197879 has offset 1).
 
 The definition of A197879 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2481,7 +2464,7 @@ The definition of A197879 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(8)*(n+1))%2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197879
@@ -3032,7 +3015,7 @@ end A197880.P2805324007539862620
 /-!
 # A197881: Number of times n occurs in A197863.
 
-The programs for A197881, the canonical program `A197881.P10260950731511024877` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197881 has offset 1).
+The programs for A197881, the canonical program `A197881.P10260950731511024877` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197881 has offset 1).
 
 The definition of A197881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3041,7 +3024,7 @@ The definition of A197881 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, C(#, C(2, #))]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197881
@@ -3575,7 +3558,7 @@ end A197882.P12283096608437121688
 /-!
 # A197883: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 0,2,1,1,1 for x=0,1,2,3,4.
 
-The programs for A197883, the canonical program `A197883.P7390646534324774687` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197883 has offset 1).
+The programs for A197883, the canonical program `A197883.P7390646534324774687` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197883 has offset 1).
 
 The definition of A197883 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 344 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3584,7 +3567,7 @@ The definition of A197883 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4x+3x^2+2x^3+x^4-9x^5+5x^6-7x^8)/(1-3x^2-2x^3-x^4+3x^5+4x^6-7x^7+5x^9))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197883

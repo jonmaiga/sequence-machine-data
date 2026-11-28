@@ -12,30 +12,35 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,18 +56,19 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B005.C002
+import Seq.B004.C003
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,7 +78,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C010
+import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
@@ -80,10 +86,10 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -3838,6 +3844,29 @@ theorem P3074108510371990237.correct : P3074108510371990237.Spec := by
 
 end A116156
 
+/-! ## A116156.P2602921349662646672
+
+`ogf(10x/(1-15x+75x^2-125x^3))`
+-/
+
+namespace A116156.P2602921349662646672
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 10] [1, -15, 75, -125] n
+
+end
+
+end A116156.P2602921349662646672
+
+namespace A116156
+
+/-- `ogf(10x/(1-15x+75x^2-125x^3))` -/
+def P2602921349662646672.Spec : Prop :=
+  ∀ n, P2602921349662646672.a n = A116156 n
+
+end A116156
+
 /-! ## A116156.P14860620845913638777
 
 `lcm(2, 5^n)*∑[n]`
@@ -4743,6 +4772,29 @@ theorem P10854320643788573529.correct : P10854320643788573529.Spec := by
 
 end A116164
 
+/-! ## A116164.P15498059713991254268
+
+`ogf(12x/(1-18x+108x^2-216x^3))`
+-/
+
+namespace A116164.P15498059713991254268
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 12] [1, -18, 108, -216] n
+
+end
+
+end A116164.P15498059713991254268
+
+namespace A116164
+
+/-- `ogf(12x/(1-18x+108x^2-216x^3))` -/
+def P15498059713991254268.Spec : Prop :=
+  ∀ n, P15498059713991254268.a n = A116164 n
+
+end A116164
+
 /-! ## A116164.P1362533143694851639
 
 `18*a(n-1)-108*a(n-2)+216*a(n-3)` with `a(0)=0, a(1)=12, a(2)=216`
@@ -5133,6 +5185,29 @@ theorem P322017445968686295.correct : P322017445968686295.Spec := by
 
 end A116165
 
+/-! ## A116165.P4157351952702584114
+
+`ogf(14x/(1-21x+147x^2-343x^3))`
+-/
+
+namespace A116165.P4157351952702584114
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 14] [1, -21, 147, -343] n
+
+end
+
+end A116165.P4157351952702584114
+
+namespace A116165
+
+/-- `ogf(14x/(1-21x+147x^2-343x^3))` -/
+def P4157351952702584114.Spec : Prop :=
+  ∀ n, P4157351952702584114.a n = A116165 n
+
+end A116165
+
 /-! ## A116165.P12840260563709540698
 
 `21*a(n-1)-147*a(n-2)+343*a(n-3)` with `a(0)=0, a(1)=14, a(2)=294`
@@ -5494,6 +5569,29 @@ def P16199967841553929865.Spec : Prop :=
 theorem P16199967841553929865.correct : P16199967841553929865.Spec := by
   intro n
   simp only [A116166]
+
+end A116166
+
+/-! ## A116166.P8502374304835028246
+
+`ogf(16x/(1-24x+192x^2-512x^3))`
+-/
+
+namespace A116166.P8502374304835028246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 16] [1, -24, 192, -512] n
+
+end
+
+end A116166.P8502374304835028246
+
+namespace A116166
+
+/-- `ogf(16x/(1-24x+192x^2-512x^3))` -/
+def P8502374304835028246.Spec : Prop :=
+  ∀ n, P8502374304835028246.a n = A116166 n
 
 end A116166
 
@@ -5946,29 +6044,6 @@ def P11524918673451342147.Spec : Prop :=
 
 end A116166
 
-/-! ## A116166.P103067639109875097
-
-`A000079(n)²*A128796(n+1)/2`
--/
-
-namespace A116166.P103067639109875097
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000079 n ^ 2 * A128796 (n + 1) : ℚ) / 2
-
-end
-
-end A116166.P103067639109875097
-
-namespace A116166
-
-/-- `A000079(n)²*A128796(n+1)/2` -/
-def P103067639109875097.Spec : Prop :=
-  ∀ n, P103067639109875097.a n = (A116166 n : ℚ)
-
-end A116166
-
 /-!
 # A116167: Numbers k such that k concatenated with k+1 gives the product of two numbers which differ by 7.
 
@@ -6307,6 +6382,29 @@ theorem P2380078407810222705.correct : P2380078407810222705.Spec := by
       push_cast at h1 h2 h3 ⊢
       rw [h1, h2, h3]
       first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
+
+end A116176
+
+/-! ## A116176.P4885885878357772131
+
+`ogf(18x/(1-27x+243x^2-729x^3))`
+-/
+
+namespace A116176.P4885885878357772131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 18] [1, -27, 243, -729] n
+
+end
+
+end A116176.P4885885878357772131
+
+namespace A116176
+
+/-- `ogf(18x/(1-27x+243x^2-729x^3))` -/
+def P4885885878357772131.Spec : Prop :=
+  ∀ n, P4885885878357772131.a n = A116176 n
 
 end A116176
 
@@ -7858,21 +7956,6 @@ end A116195.P4416913065028396105
 
 The programs for A116199, there is no canonical definition to state claims against.
 -/
-
-/-! ## A116199.P12596633902000555213
-
-`A000005(A332883(n+1))`
--/
-
-namespace A116199.P12596633902000555213
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A332883 (n + 1)).toNat
-
-end
-
-end A116199.P12596633902000555213
 
 /-! ## A116199.P717499246435097809
 

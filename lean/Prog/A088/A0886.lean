@@ -14,6 +14,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -23,19 +24,19 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,6 +64,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,13 +72,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +91,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -100,7 +102,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -157,42 +158,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088600.P955142434735103174
-
-/-!
-# A088601: Number of steps to reach 0 when iterating A261424(x) = x - (the largest palindrome less than x), starting at n.
-
-The programs for A088601, there is no canonical definition to state claims against.
--/
-
-/-! ## A088601.P17477285166250227204
-
-`A261675(n+1)`
--/
-
-namespace A088601.P17477285166250227204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261675 (n + 1)
-
-end
-
-end A088601.P17477285166250227204
-
-/-! ## A088601.P10909771484857211974
-
-`A261913(n+1)`
--/
-
-namespace A088601.P10909771484857211974
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261913 (n + 1)
-
-end
-
-end A088601.P10909771484857211974
 
 /-!
 # A088603: a(n) = smallest prime in which n substrings containing the most significant digit are primes.
@@ -1210,6 +1175,29 @@ theorem P2020191955663149875.correct : P2020191955663149875.Spec := by
 
 end A088625
 
+/-! ## A088625.P6189105769550926992
+
+`ogf(14x^8/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A088625.P6189105769550926992
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 0, 0, 0, 0, 0, 14] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A088625.P6189105769550926992
+
+namespace A088625
+
+/-- `ogf(14x^8/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P6189105769550926992.Spec : Prop :=
+  ∀ n, P6189105769550926992.a n = A088625 n
+
+end A088625
+
 /-! ## A088625.P2867117201326631529
 
 `Δ[14*A115205(n)]`
@@ -1373,6 +1361,29 @@ theorem P14761167228759543582.correct : P14761167228759543582.Spec := by
 
 end A088626
 
+/-! ## A088626.P11704598319231096106
+
+`ogf(42x^10/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+-/
+
+namespace A088626.P11704598319231096106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42] [1, -11, 55, -165, 330, -462, 462, -330, 165, -55, 11, -1] n
+
+end
+
+end A088626.P11704598319231096106
+
+namespace A088626
+
+/-- `ogf(42x^10/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P11704598319231096106.Spec : Prop :=
+  ∀ n, P11704598319231096106.a n = A088626 n
+
+end A088626
+
 /-! ## A088626.P15297829765400711786
 
 `42*(A008863(n)-A008862(n))`
@@ -1439,29 +1450,6 @@ namespace A088626
 /-- `3*A047287(A143573(n))` -/
 def P16248093569308982389.Spec : Prop :=
   ∀ n, P16248093569308982389.a n = A088626 n
-
-end A088626
-
-/-! ## A088626.P11423059336386649720
-
-`A002264(A351931(n)+n*(n-1)*(n-2)*(n-3)*(n-4)/120)`
--/
-
-namespace A088626.P11423059336386649720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002264 (SequenceMachineLib.roundAway ((A351931 n : ℚ) + (n : ℚ) * (((n : ℤ) - 1 : ℚ) * (((n : ℤ) - 2 : ℚ) * (((n : ℤ) - 3 : ℚ) * (((n : ℤ) - 4 : ℚ) / 120)))))).toNat
-
-end
-
-end A088626.P11423059336386649720
-
-namespace A088626
-
-/-- `A002264(A351931(n)+n*(n-1)*(n-2)*(n-3)*(n-4)/120)` -/
-def P11423059336386649720.Spec : Prop :=
-  ∀ n, P11423059336386649720.a n = A088626 n
 
 end A088626
 
@@ -2868,27 +2856,6 @@ end
 end A088642.P2431588073904644078
 
 /-!
-# A088643: Triangle read by rows: row n >= 1 is obtained as follows. Start with n, next term is always largest number m with 1 <= m < n which has not yet appeared in that row and such that m + previous term in the row is a prime. Stop when no further m can be found.
-
-The programs for A088643, there is no canonical definition to state claims against.
--/
-
-/-! ## A088643.P8580456083358204437
-
-`A051237(A038722(n+1))`
--/
-
-namespace A088643.P8580456083358204437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051237 (A038722 (n + 1)).toNat
-
-end
-
-end A088643.P8580456083358204437
-
-/-!
 # A088644: Smallest n-digit number divisible by n!.
 
 The programs for A088644, the canonical program `A088644.P11289073568603251773` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088644 has offset 1).
@@ -3495,16 +3462,16 @@ end A088658.P895399600139387946
 /-!
 # A088659: a(n) = n*(p-1) where p is the largest prime factor of n.
 
-The programs for A088659, the canonical program `A088659.P1179813804115170838` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088659 has offset 2).
+The programs for A088659, the canonical program `A088659.P1179813804115170838` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088659 has offset 2).
 
-The definition of A088659 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A070777, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A088659 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A088659.P1179813804115170838
 
 `(n+2)*A070777(n+2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A088659
@@ -4234,21 +4201,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
 end
 
 end A088670.P8513975692863597087
-
-/-! ## A088670.P6467169582070913458
-
-`A091581(n)`
--/
-
-namespace A088670.P6467169582070913458
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091581 n
-
-end
-
-end A088670.P6467169582070913458
 
 /-! ## A088670.P10709648144928976220
 

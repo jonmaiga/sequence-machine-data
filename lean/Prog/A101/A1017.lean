@@ -2,35 +2,37 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,21 +49,22 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -178,7 +181,7 @@ end A101704.P7870316213300660627
 /-!
 # A101705: Numbers n such that n = 12*reversal(n).
 
-The programs for A101705, the canonical program `A101705.P9918575441970631908` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101705 has offset 1).
+The programs for A101705, the canonical program `A101705.P9918575441970631908` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101705 has offset 1).
 
 The definition of A101705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -187,7 +190,7 @@ The definition of A101705 is `conjectured`: the Lean definition is a formula tha
 
 `9*60*A057148(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A101705
@@ -3743,21 +3746,6 @@ end
 
 end A101767.P14094242403880628522
 
-/-! ## A101767.P2643354778029521980
-
-`-1+2*A124489(n+1)`
--/
-
-namespace A101767.P2643354778029521980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + 2 * A124489 (n + 1)
-
-end
-
-end A101767.P2643354778029521980
-
 /-!
 # A101768: Numbers k such that k, 2*k+1, 3*k+2, 4*k+3, 5*k+4, 6*k+5, 7*k+6 are primes.
 
@@ -5374,24 +5362,6 @@ end
 
 end A101781.P5211038243961049887
 
-/-! ## A101781.P16536364301088820875
-
-`-2+p?[A007500(n+2)+2]`
--/
-
-namespace A101781.P16536364301088820875
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007500 (n + 2) + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -2 + f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A101781.P16536364301088820875
-
 /-! ## A101781.P3328382670253661450
 
 `∩[A001359(n+1), A007500(n+1)]`
@@ -6676,21 +6646,6 @@ end A101783.P8727896830001007525
 
 The programs for A101784, there is no canonical definition to state claims against.
 -/
-
-/-! ## A101784.P1679829552663386398
-
-`A101802(n+1)`
--/
-
-namespace A101784.P1679829552663386398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101802 (n + 1)
-
-end
-
-end A101784.P1679829552663386398
 
 /-! ## A101784.P13804842370019947880
 

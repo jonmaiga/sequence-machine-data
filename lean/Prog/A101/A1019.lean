@@ -8,7 +8,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -27,20 +26,21 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C046
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,24 +59,24 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1755,21 +1755,6 @@ end A101917.P17475298369497354052
 
 The programs for A101918, there is no canonical definition to state claims against.
 -/
-
-/-! ## A101918.P13104339242491746175
-
-`A291169(n)`
--/
-
-namespace A101918.P13104339242491746175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291169 n
-
-end
-
-end A101918.P13104339242491746175
 
 /-! ## A101918.P13300128357436332358
 
@@ -8402,24 +8387,6 @@ end
 
 end A101977.P18030019803107846252
 
-/-! ## A101977.P14683879650817899432
-
-`record[A097451(n)]`
--/
-
-namespace A101977.P14683879650817899432
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097451 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A101977.P14683879650817899432
-
 /-! ## A101977.P11822950315231441954
 
 `A328085(n+1)+round(4*n/7)`
@@ -10624,21 +10591,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101991.P10237268804006955827
-
-/-! ## A101991.P13705041707789847286
-
-`A047814(A004086(n+1))`
--/
-
-namespace A101991.P13705041707789847286
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047814 (A004086 (n + 1)).toNat
-
-end
-
-end A101991.P13705041707789847286
 
 /-! ## A101991.P11300957749740982191
 

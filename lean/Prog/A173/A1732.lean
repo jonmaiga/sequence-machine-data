@@ -15,11 +15,11 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -34,7 +34,6 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -43,7 +42,9 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C049
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,6 +64,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -73,13 +75,14 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,6 +93,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -5157,21 +5161,6 @@ end
 
 end A173241.P10097287146309934499
 
-/-! ## A173241.P17940440494556250495
-
-`A007690(2*n)`
--/
-
-namespace A173241.P17940440494556250495
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007690 (2 * n)
-
-end
-
-end A173241.P17940440494556250495
-
 /-! ## A173241.P9184105853945323567
 
 `A353866(A266648(n))`
@@ -9623,21 +9612,6 @@ end A173265.P15815979392916713979
 The programs for A173266, there is no canonical definition to state claims against.
 -/
 
-/-! ## A173266.P15274319637775893926
-
-`A327276(A194959(n+1))`
--/
-
-namespace A173266.P15274319637775893926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327276 (A194959 (n + 1)).toNat
-
-end
-
-end A173266.P15274319637775893926
-
 /-! ## A173266.P8412815842373920023
 
 `A152860(n)%A006530(A294961(A127123(n+1)))`
@@ -11171,7 +11145,7 @@ end A173277.P7070278296890211769
 /-!
 # A173278: Partial sums of A000048.
 
-The programs for A173278, the canonical program `A173278.P14580125724623708890` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173278 has offset 0).
+The programs for A173278, the canonical program `A173278.P14580125724623708890` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173278 has offset 0).
 
 The definition of A173278 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11206,7 +11180,7 @@ end A173278
 
 `A056303(n)+a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A173278

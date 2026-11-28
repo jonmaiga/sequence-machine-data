@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -16,23 +17,22 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B000.C044
-import Seq.B000.C050
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C046
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,11 +67,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3209,24 +3210,6 @@ end
 
 end A141231.P5449631658741827942
 
-/-! ## A141231.P1497729680618061689
-
-`record[A101157(n+2)]`
--/
-
-namespace A141231.P1497729680618061689
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101157 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A141231.P1497729680618061689
-
 /-! ## A141231.P5527640224924434147
 
 `eq[char[A198390(n+1)], A227570(n)]`
@@ -5429,21 +5412,6 @@ end A141255.P11049506571505997328
 
 The programs for A141256, there is no canonical definition to state claims against.
 -/
-
-/-! ## A141256.P4856934342551026690
-
-`A292375(A008706(n²))`
--/
-
-namespace A141256.P4856934342551026690
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292375 (A008706 (n ^ 2)).toNat
-
-end
-
-end A141256.P4856934342551026690
 
 /-! ## A141256.P7957701353022448940
 
@@ -8009,16 +7977,16 @@ end A141283.P17070193605921707015
 /-!
 # A141284: a(n) = (p_max - 1)*...*p*...*(p_min + 2), where p_max*...*p*...*p_min = k(n) = n-th composite.
 
-The programs for A141284, the canonical program `A141284.P10207942318755028916` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141284 has offset 1).
+The programs for A141284, the canonical program `A141284.P10207942318755028916` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141284 has offset 1).
 
-The definition of A141284 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052369, A056608, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A141284 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A141284.P10207942318755028916
 
 `A002808(n+1)*(A052369(n+1)-1)*(A056608(n+1)+2)/(A052369(n+1)*A056608(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A141284
@@ -8032,7 +8000,7 @@ end A141284
 /-!
 # A141285: Largest part of the n-th partition of j in the list of colexicographically ordered partitions of j, if 1 <= n <= A000041(j).
 
-The programs for A141285, the canonical program `A141285.P8203282120832387629` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141285 has offset 1).
+The programs for A141285, the canonical program `A141285.P8203282120832387629` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141285 has offset 1).
 
 The definition of A141285 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A228354, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8041,7 +8009,7 @@ The definition of A141285 is `conditional`: the Lean definition is an OEIS formu
 
 `A001511(A228354(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A141285

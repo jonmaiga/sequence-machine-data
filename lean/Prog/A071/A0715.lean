@@ -17,22 +17,25 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C045
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,21 +63,23 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,6 +88,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -91,13 +97,11 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -139,21 +143,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071500.P12929232716572732381
-
-/-! ## A071500.P7975748234944211881
-
-`A071516(n+1)`
--/
-
-namespace A071500.P7975748234944211881
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071516 (n + 1)
-
-end
-
-end A071500.P7975748234944211881
 
 /-!
 # A071504: Sprague-Grundy values for octal games .376 and .3761.
@@ -211,21 +200,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071505.P17521043339291470929
-
-/-! ## A071505.P12472201396871620941
-
-`A071508(n+1)`
--/
-
-namespace A071505.P12472201396871620941
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071508 (n + 1)
-
-end
-
-end A071505.P12472201396871620941
 
 /-!
 # A071507: Sprague-Grundy values for octal game .1737 and .17371.
@@ -335,21 +309,6 @@ end A071508.P10168088102892734745
 The programs for A071509, there is no canonical definition to state claims against.
 -/
 
-/-! ## A071509.P17855343917135296097
-
-`A028310(A071507(n+1))`
--/
-
-namespace A071509.P17855343917135296097
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A071507 (n + 1)).toNat
-
-end
-
-end A071509.P17855343917135296097
-
 /-! ## A071509.P8108349777480842881
 
 `A071507(n+1)-A014055(A245950(n+1))`
@@ -440,21 +399,6 @@ end
 
 end A071515.P7803426176785660124
 
-/-! ## A071515.P3164870325953515727
-
-`A071495(n+1)`
--/
-
-namespace A071515.P3164870325953515727
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071495 (n + 1)
-
-end
-
-end A071515.P3164870325953515727
-
 /-!
 # A071516: Sprague-Grundy values for octal game .764.
 
@@ -496,21 +440,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A071519.P17405514179282186222
-
-/-! ## A071519.P2743973317409755089
-
-`A294661(n+1)`
--/
-
-namespace A071519.P2743973317409755089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294661 (n + 1)
-
-end
-
-end A071519.P2743973317409755089
 
 /-! ## A071519.P14300017108682176260
 
@@ -560,7 +489,7 @@ end A071519.P8884448559009592489
 /-!
 # A071520: Number of 5-smooth numbers (A051037) <= n.
 
-The programs for A071520, the canonical program `A071520.P14427511125662410922` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071520 has offset 1).
+The programs for A071520, the canonical program `A071520.P14427511125662410922` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071520 has offset 1).
 
 The definition of A071520 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -792,7 +721,7 @@ end A071520
 
 `∑[val(A006530(5*(n+1)), 5)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A071520
@@ -2116,7 +2045,7 @@ end A071522.P11242686295142569683
 /-!
 # A071523: Number of 11-smooth numbers <= n.
 
-The programs for A071523, the canonical program `A071523.P13389231110135260503` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071523 has offset 1).
+The programs for A071523, the canonical program `A071523.P13389231110135260503` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071523 has offset 1).
 
 The definition of A071523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2282,7 +2211,7 @@ end A071523
 
 `∑[round(6/A006530(5*(n+1)))]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A071523
@@ -8698,7 +8627,7 @@ end A071574.P7624321640004598963
 /-!
 # A071575: Number of iterations of cototient(n) needed to reach 1 (cototient(n) = n-phi(n)).
 
-The programs for A071575, the canonical program `A071575.P1413525790656994869` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071575 has offset 1).
+The programs for A071575, the canonical program `A071575.P1413525790656994869` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071575 has offset 1).
 
 The definition of A071575 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8707,7 +8636,7 @@ The definition of A071575 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A076640(n+1)-1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071575
@@ -11348,21 +11277,6 @@ end
 
 end A071589.P12188550783314466518
 
-/-! ## A071589.P3852557082689013348
-
-`A297272(n+1)`
--/
-
-namespace A071589.P3852557082689013348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A297272 (n + 1)
-
-end
-
-end A071589.P3852557082689013348
-
 /-!
 # A071590: Numbers k such that reversal(k) < k.
 
@@ -11618,21 +11532,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A071590.P6860305455141159692
-
-/-! ## A071590.P11824428875060155224
-
-`A297270(n+1)`
--/
-
-namespace A071590.P11824428875060155224
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A297270 (n + 1)
-
-end
-
-end A071590.P11824428875060155224
 
 /-!
 # A071591: Numbers m such that Reversal(m) is squarefree.
@@ -12049,7 +11948,7 @@ end A071592.P9271021615269657956
 /-!
 # A071593: Number of 1's in binary representation of n equals tau(n), the number of divisors of n.
 
-The programs for A071593, the canonical program `A071593.P17632102132566079091` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071593 has offset 1).
+The programs for A071593, the canonical program `A071593.P17632102132566079091` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071593 has offset 1).
 
 The definition of A071593 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2995 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12058,7 +11957,7 @@ The definition of A071593 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000079(A000005(n+1)), A001316(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A071593

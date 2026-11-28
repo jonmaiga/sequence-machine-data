@@ -2,38 +2,36 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C037
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,14 +60,13 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -326,7 +323,7 @@ end A320105.P10805888845668069558
 /-!
 # A320106: Möbius transform of A320107.
 
-The programs for A320106, the canonical program `A320106.P6598610548416958939` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320106 has offset 1).
+The programs for A320106, the canonical program `A320106.P6598610548416958939` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320106 has offset 1).
 
 The definition of A320106 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A320107, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -335,7 +332,7 @@ The definition of A320106 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A008683((n+1)/#)*A320107(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A320106
@@ -376,7 +373,7 @@ end A320106
 /-!
 # A320107: a(n) = A001227(A252463(n)).
 
-The programs for A320107, the canonical program `A320107.P11684398178645461094` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320107 has offset 1).
+The programs for A320107, the canonical program `A320107.P11684398178645461094` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320107 has offset 1).
 
 The definition of A320107 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A252463, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -385,7 +382,7 @@ The definition of A320107 is `conditional`: the Lean definition is an OEIS formu
 
 `A001227(A252463(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A320107
@@ -860,7 +857,7 @@ end A320108.P2953688737887704176
 /-!
 # A320110: Restricted growth sequence transform of function f: f(1) = 0, f(n) = A046523(A252463(n)) for n > 1.
 
-The programs for A320110, the canonical program `A320110.P4234989487452650309` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320110 has offset 1).
+The programs for A320110, the canonical program `A320110.P4234989487452650309` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320110 has offset 1).
 
 The definition of A320110 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -869,7 +866,7 @@ The definition of A320110 is `conjectured`: the Lean definition is a formula tha
 
 `A101296(A252463(n+1))%(n+1)+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A320110
@@ -1094,7 +1091,7 @@ end A320110
 /-!
 # A320111: Number of divisors d of n that are not of the form 4k+2.
 
-The programs for A320111, the canonical program `A320111.P9381397234523338092` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320111 has offset 1).
+The programs for A320111, the canonical program `A320111.P9381397234523338092` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320111 has offset 1).
 
 The definition of A320111 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A252463, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1103,7 +1100,7 @@ The definition of A320111 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A252463(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A320111
@@ -1715,60 +1712,18 @@ end
 end A320114.P17125473944354807238
 
 /-!
-# A320115: Filter sequence for counting the residue classes mod 4 of divisors of n.
-
-The programs for A320115, there is no canonical definition to state claims against.
--/
-
-/-! ## A320115.P5573913000204578652
-
-`A319994(n+1)`
--/
-
-namespace A320115.P5573913000204578652
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319994 (n + 1)
-
-end
-
-end A320115.P5573913000204578652
-
-/-!
-# A320117: Filter sequence for counting the residue classes mod 6 of divisors of n.
-
-The programs for A320117, there is no canonical definition to state claims against.
--/
-
-/-! ## A320117.P1083117940813500087
-
-`A319996(1+n)`
--/
-
-namespace A320117.P1083117940813500087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319996 (1 + n)
-
-end
-
-end A320117.P1083117940813500087
-
-/-!
 # A320118: a(1) = a(2) = 1; for n > 2, a(n) = A181819(n) * a(A181819(n)).
 
-The programs for A320118, the canonical program `A320118.P286827314347607427` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320118 has offset 1).
+The programs for A320118, the canonical program `A320118.P286827314347607427` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320118 has offset 1).
 
-The definition of A320118 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A320118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A320118.P286827314347607427
 
 `A181819(n+1)*a(A181819(n+1)-1)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A320118
@@ -3843,27 +3798,6 @@ end
 end A320153.P10364581051835797140
 
 /-!
-# A320154: Number of series-reduced balanced rooted trees whose leaves form a set partition of {1,...,n}.
-
-The programs for A320154, there is no canonical definition to state claims against.
--/
-
-/-! ## A320154.P1713877586108143245
-
-`A347340(n+1)+1`
--/
-
-namespace A320154.P1713877586108143245
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347340 (n + 1) + 1
-
-end
-
-end A320154.P1713877586108143245
-
-/-!
 # A320155: Number of series-reduced balanced rooted trees with n labeled leaves.
 
 The programs for A320155, there is no canonical definition to state claims against.
@@ -5449,25 +5383,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320198.P3460263686926908252
-
-/-!
-# A320199: Number of integer solutions to a^2 + 2*b^2 + 4*c^2 + 11*d^2 = n.
-
-The programs for A320199, there is no canonical definition to state claims against.
--/
-
-/-! ## A320199.P10037547142493039949
-
-`A033756(n)`
--/
-
-namespace A320199.P10037547142493039949
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033756 n
-
-end
-
-end A320199.P10037547142493039949
 

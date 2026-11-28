@@ -27,6 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -34,16 +35,15 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,7 +55,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
-import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -65,7 +64,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -76,9 +74,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3376,16 +3372,16 @@ end A122033
 /-!
 # A122037: Largest prime factor of number equal to the arithmetic mean of four successive primes.
 
-The programs for A122037, the canonical program `A122037.P14771729018691792230` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122037 has offset 1).
+The programs for A122037, the canonical program `A122037.P14771729018691792230` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122037 has offset 1).
 
-The definition of A122037 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A102655, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A122037 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A102655, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A122037.P14771729018691792230
 
 `A006530(A102655(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122037
@@ -3583,6 +3579,29 @@ The programs for A122038, the canonical program `A122038.P13938476752579397993` 
 
 The definition of A122038 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(3*(n+1))+2*3^(2*(n+1))-3*3^(1*(n+1))` (program `A122038.P13938476752579397993`, by `A122038.P13938476752579397993.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A122038.P16747196163374547028
+
+`ogf((36-540x)/(1-39x+351x^2-729x^3))`
+-/
+
+namespace A122038.P16747196163374547028
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [36, -540] [1, -39, 351, -729] n
+
+end
+
+end A122038.P16747196163374547028
+
+namespace A122038
+
+/-- `ogf((36-540x)/(1-39x+351x^2-729x^3))` -/
+def P16747196163374547028.Spec : Prop :=
+  ∀ n, P16747196163374547028.a n = A122038 (n + 1)
+
+end A122038
 
 /-! ## A122038.P892074258566252624
 
@@ -9266,25 +9285,6 @@ end A122085.P6741930958288549580
 The programs for A122086, there is no canonical definition to state claims against.
 -/
 
-/-! ## A122086.P9381854536064864540
-
-`A125702(n+1)+char[0]`
--/
-
-namespace A122086.P9381854536064864540
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125702 (n + 1) + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A122086.P9381854536064864540
-
 /-! ## A122086.P4360091696417943526
 
 `A125702(A000038(n)+n+1)`
@@ -11222,29 +11222,6 @@ namespace A122098
 /-- `A172503(n+1)/gcd(A005915(n)², A172503(n+1))+1` -/
 def P6969597506183247019.Spec : Prop :=
   ∀ n, P6969597506183247019.a n = (A122098 (n + 1) : ℚ)
-
-end A122098
-
-/-! ## A122098.P4401650833566763866
-
-`A226219(A237416(n+1))`
--/
-
-namespace A122098.P4401650833566763866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226219 (A237416 (n + 1)).toNat
-
-end
-
-end A122098.P4401650833566763866
-
-namespace A122098
-
-/-- `A226219(A237416(n+1))` -/
-def P4401650833566763866.Spec : Prop :=
-  ∀ n, P4401650833566763866.a n = A122098 (n + 1)
 
 end A122098
 

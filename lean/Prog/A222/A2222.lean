@@ -12,28 +12,27 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C042
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -45,10 +44,9 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B008.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -704,21 +702,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222214.P11441997609430656776
-
-/-! ## A222214.P502035690147538917
-
-`A222238(n+3)-3`
--/
-
-namespace A222214.P502035690147538917
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222238 (n + 3) - 3
-
-end
-
-end A222214.P502035690147538917
 
 /-!
 # A222215: In the number n, replace all (decimal) digits '0' with '6' and vice versa.
@@ -4494,21 +4477,6 @@ end
 
 end A222249.P18232642535372851741
 
-/-! ## A222249.P17053564178033142017
-
-`A222254(n+2)-2`
--/
-
-namespace A222249.P17053564178033142017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222254 (n + 2) - 2
-
-end
-
-end A222249.P17053564178033142017
-
 /-!
 # A222250: In the number n, replace all (decimal) digits '6' with '8' and vice versa.
 
@@ -4805,21 +4773,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222251.P4026768498444603658
-
-/-! ## A222251.P911073038265201224
-
-`A061601(A222212(A061601(n)))`
--/
-
-namespace A222251.P911073038265201224
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061601 (A222212 (A061601 n).toNat).toNat
-
-end
-
-end A222251.P911073038265201224
 
 /-!
 # A222252: In the number n, replace all (decimal) digits '7' with '8' and vice versa.
@@ -5169,7 +5122,7 @@ end A222255.P9267594189623925012
 /-!
 # A222256: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 6 consecutive terms is always divisible by 6.
 
-The programs for A222256, the canonical program `A222256.P15888438300221709581` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222256 has offset 0).
+The programs for A222256, the canonical program `A222256.P15888438300221709581` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222256 has offset 0).
 
 The definition of A222256 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5178,7 +5131,7 @@ The definition of A222256 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-2)*(n%3)!+2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222256
@@ -5648,7 +5601,7 @@ end A222256
 /-!
 # A222257: Lexicographically earliest injective sequence of positive integers such that the sum of 6 consecutive terms is always divisible by 6.
 
-The programs for A222257, the canonical program `A222257.P837831485803070787` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222257 has offset 0).
+The programs for A222257, the canonical program `A222257.P837831485803070787` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222257 has offset 0).
 
 The definition of A222257 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5657,7 +5610,7 @@ The definition of A222257 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-2)*(n%3)!+3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222257
@@ -6032,7 +5985,7 @@ end A222257
 /-!
 # A222258: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 8 consecutive terms is always divisible by 8.
 
-The programs for A222258, the canonical program `A222258.P17652540115013236761` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222258 has offset 0).
+The programs for A222258, the canonical program `A222258.P17652540115013236761` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222258 has offset 0).
 
 The definition of A222258 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6041,7 +5994,7 @@ The definition of A222258 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-4)-a(n-8)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=5, a(6)=6, a(7)=11`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222258
@@ -6440,7 +6393,7 @@ end A222258
 /-!
 # A222259: Lexicographically earliest injective sequence of positive integers such that the sum of 8 consecutive terms is always divisible by 8.
 
-The programs for A222259, the canonical program `A222259.P13271339923932653629` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222259 has offset 1).
+The programs for A222259, the canonical program `A222259.P13271339923932653629` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222259 has offset 1).
 
 The definition of A222259 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6449,7 +6402,7 @@ The definition of A222259 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-4)-a(n-8)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=12`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222259
@@ -6755,7 +6708,7 @@ end A222259
 /-!
 # A222260: Lexicographically earliest injective sequence of nonnegative integers such that the sum of 10 consecutive terms is always divisible by 10.
 
-The programs for A222260, the canonical program `A222260.P8224998973582597758` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222260 has offset 0).
+The programs for A222260, the canonical program `A222260.P8224998973582597758` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222260 has offset 0).
 
 The definition of A222260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6764,7 +6717,7 @@ The definition of A222260 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-5)-a(n-10)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=5, a(6)=6, a(7)=7, a(8)=8, a(9)=14`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222260
@@ -7053,7 +7006,7 @@ end A222260
 /-!
 # A222261: Lexicographically earliest injective sequence of positive integers such that the sum of 10 consecutive terms is always divisible by 10.
 
-The programs for A222261, the canonical program `A222261.P5777319055320810028` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222261 has offset 1).
+The programs for A222261, the canonical program `A222261.P5777319055320810028` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222261 has offset 1).
 
 The definition of A222261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7062,7 +7015,7 @@ The definition of A222261 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-5)-a(n-10)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=8, a(8)=9, a(9)=15`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222261
@@ -8053,21 +8006,6 @@ end
 
 end A222275.P16215809308047322754
 
-/-! ## A222275.P11023366982648597402
-
-`A222430(n+1)`
--/
-
-namespace A222275.P11023366982648597402
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222430 (n + 1)
-
-end
-
-end A222275.P11023366982648597402
-
 /-!
 # A222276: Number of n X 3 0..5 arrays with no entry increasing mod 6 by 5 rightwards or downwards, starting with upper left zero.
 
@@ -8618,36 +8556,6 @@ end A222289.P5142068005333571089
 
 The programs for A222290, there is no canonical definition to state claims against.
 -/
-
-/-! ## A222290.P4985642242349038029
-
-`A123731(A222430(n+1))`
--/
-
-namespace A222290.P4985642242349038029
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123731 (A222430 (n + 1)).toNat
-
-end
-
-end A222290.P4985642242349038029
-
-/-! ## A222290.P9657885473603287529
-
-`A235027(A222275(n+1))`
--/
-
-namespace A222290.P9657885473603287529
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235027 (A222275 (n + 1)).toNat
-
-end
-
-end A222290.P9657885473603287529
 
 /-! ## A222290.P13469351793526330540
 

@@ -3,18 +3,21 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C040
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C010
@@ -24,10 +27,9 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C003
+import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
@@ -38,6 +40,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -198,27 +201,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012304.P13335309557412754557
-
-/-!
-# A012305: Expansion of e.g.f. arcsin(arcsin(x)*log(x+1)).
-
-The programs for A012305, there is no canonical definition to state claims against.
--/
-
-/-! ## A012305.P12752341837724573639
-
-`A012309(n)`
--/
-
-namespace A012305.P12752341837724573639
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012309 n
-
-end
-
-end A012305.P12752341837724573639
 
 /-!
 # A012306: Expansion of e.g.f. tan(arcsin(x) * log(x+1)).
@@ -839,27 +821,6 @@ end
 end A012331.P7489676961980248741
 
 /-!
-# A012332: cos(arcsin(x)*sin(x))=1-12/4!*x^4-560/8!*x^8-120960/10!*x^10...
-
-The programs for A012332, there is no canonical definition to state claims against.
--/
-
-/-! ## A012332.P15125240968776288984
-
-`A012455(n)`
--/
-
-namespace A012332.P15125240968776288984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012455 n
-
-end
-
-end A012332.P15125240968776288984
-
-/-!
 # A012333: sinh(arcsin(x)*sin(x))=2/2!*x^2+160/6!*x^6+1344/8!*x^8+216448/10!*x^10...
 
 The programs for A012333, there is no canonical definition to state claims against.
@@ -942,27 +903,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012339.P14713573774180107951
-
-/-!
-# A012340: exp(arcsin(x)*arcsin(x))=1+2/2!*x^2+20/4!*x^4+488/6!*x^6+22416/8!*x^8...
-
-The programs for A012340, there is no canonical definition to state claims against.
--/
-
-/-! ## A012340.P1636018644183686042
-
-`A012349(n)+A012341(n)`
--/
-
-namespace A012340.P1636018644183686042
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012349 n + A012341 n
-
-end
-
-end A012340.P1636018644183686042
 
 /-!
 # A012341: arcsin(arcsin(x)*arcsin(x))=2/2!*x^2+8/4!*x^4+248/6!*x^6+11328/8!*x^8...
@@ -1371,27 +1311,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012373.P12630336667147939715
-
-/-!
-# A012378: tan(tan(x)*arcsin(x))=2/2!*x^2+12/4!*x^4+430/6!*x^6+26040/8!*x^8...
-
-The programs for A012378, there is no canonical definition to state claims against.
--/
-
-/-! ## A012378.P15284307862121206019
-
-`A012383(n)`
--/
-
-namespace A012378.P15284307862121206019
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012383 n
-
-end
-
-end A012378.P15284307862121206019
 
 /-!
 # A012379: Expansion of e.g.f. cos(tan(x)*arcsin(x)) (even powers only).

@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,22 +10,22 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C050
+import Seq.B000.C034
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,21 +41,21 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -71,7 +72,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -80,7 +80,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A201500: Number of n X 3 0..1 arrays with every row and column running average nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.
 
-The programs for A201500, the canonical program `A201500.P4056965815137527815` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201500 has offset 1).
+The programs for A201500, the canonical program `A201500.P4056965815137527815` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201500 has offset 1).
 
 The definition of A201500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -89,7 +89,7 @@ The definition of A201500 is `conjectured`: the Lean definition is a formula tha
 
 `round(lcm(2, (3+n)²)/8)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201500
@@ -1565,8 +1565,29 @@ end A201532.P10286804435590402140
 /-!
 # A201533: Number of n X 2 0..2 arrays with rows and columns lexicographically nondecreasing and every element equal to at least one horizontal or vertical neighbor.
 
-The programs for A201533, there is no canonical definition to state claims against.
+The programs for A201533, the canonical program `A201533.P4577373311743739762` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201533 has offset 1).
+
+The definition of A201533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A201533.P4577373311743739762
+
+`ogf((3-18x+52x^2-84x^3+76x^4-25x^5-19x^6+20x^7+x^8-9x^9+5x^10-x^11)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A201533
+
+/-- `ogf((3-18x+52x^2-84x^3+76x^4-25x^5-19x^6+20x^7+x^8-9x^9+5x^10-x^11)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P4577373311743739762.Spec : Prop :=
+  ∀ n, P4577373311743739762.a n = A201533 (n + 1)
+
+theorem P4577373311743739762.correct : P4577373311743739762.Spec := by
+  intro n
+  simp only [A201533, Nat.add_sub_cancel]
+
+end A201533
 
 /-! ## A201533.P12416225594115790319
 
@@ -1586,6 +1607,14 @@ end
 
 end A201533.P12416225594115790319
 
+namespace A201533
+
+/-- `A201539(∑[n+1]+2)` -/
+def P12416225594115790319.Spec : Prop :=
+  ∀ n, P12416225594115790319.a n = A201533 (n + 1)
+
+end A201533
+
 /-! ## A201533.P15922955210022961177
 
 `record[A010054(n)*A201539(n+2)]`
@@ -1603,6 +1632,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201533.P15922955210022961177
+
+namespace A201533
+
+/-- `record[A010054(n)*A201539(n+2)]` -/
+def P15922955210022961177.Spec : Prop :=
+  ∀ n, P15922955210022961177.a n = A201533 (n + 1)
+
+end A201533
 
 /-! ## A201533.P15277338951024847545
 
@@ -1622,6 +1659,14 @@ end
 
 end A201533.P15277338951024847545
 
+namespace A201533
+
+/-- `record[gcd(A079904(n), A201539(n+2))]` -/
+def P15277338951024847545.Spec : Prop :=
+  ∀ n, (P15277338951024847545.a n : ℤ) = A201533 (n + 1)
+
+end A201533
+
 /-! ## A201533.P10152966917632983148
 
 `record[A201539(n+3)/A075501(n+1)]`
@@ -1640,23 +1685,13 @@ end
 
 end A201533.P10152966917632983148
 
-/-! ## A201533.P11360791936677638944
+namespace A201533
 
-`record[root(A201539(n+2), A201811(n+1))]`
--/
+/-- `record[A201539(n+3)/A075501(n+1)]` -/
+def P10152966917632983148.Spec : Prop :=
+  ∀ n, P10152966917632983148.a n = (A201533 (n + 1) : ℚ)
 
-namespace A201533.P11360791936677638944
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A201539 (n + 2) : ℝ) ^ (1 / (A201811 (n + 1) : ℝ))
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A201533.P11360791936677638944
+end A201533
 
 /-!
 # A201534: Number of nX3 0..2 arrays with rows and columns lexicographically nondecreasing and every element equal to at least one horizontal or vertical neighbor.
@@ -2715,7 +2750,7 @@ end A201552.P4253988035783142168
 /-!
 # A201553: Number of arrays of 6 integers in -n..n with sum zero.
 
-The programs for A201553, the canonical program `A201553.P13851924418768866556` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201553 has offset 0).
+The programs for A201553, the canonical program `A201553.P13851924418768866556` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201553 has offset 0).
 
 The definition of A201553 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2724,7 +2759,7 @@ The definition of A201553 is `conjectured`: the Lean definition is a formula tha
 
 `(2*n+1)*(44*n^4+88*n^3+71*n²+27*n+5)/5`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201553
@@ -3291,7 +3326,7 @@ end A201594.P2575175715280149504
 /-!
 # A201595: E.g.f. satisfies A(x) = exp(x*A(x)) * cosh(x*A(x)).
 
-The programs for A201595, the canonical program `A201595.P9018327074524688287` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201595 has offset 0).
+The programs for A201595, the canonical program `A201595.P9018327074524688287` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201595 has offset 0).
 
 The definition of A201595 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3300,7 +3335,7 @@ The definition of A201595 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/2*∑{#}[n+1, C(n+1, #)*#^n/(n+1)]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201595

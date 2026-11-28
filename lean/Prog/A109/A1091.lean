@@ -25,7 +25,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -38,15 +37,17 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C047
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -76,14 +77,15 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4044,7 +4046,7 @@ end A109123
 /-!
 # A109127: Expansion of q^(-1/8) * (eta(q^3) - eta(q)^3) / 3 in powers of q.
 
-The programs for A109127, the canonical program `A109127.P18227905894387270751` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109127 has offset 1).
+The programs for A109127, the canonical program `A109127.P18227905894387270751` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109127 has offset 1).
 
 The definition of A109127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4053,7 +4055,7 @@ The definition of A109127 is `conjectured`: the Lean definition is a formula tha
 
 `round(-(A010816(1+n)/3))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109127
@@ -4835,7 +4837,7 @@ end A109128
 /-!
 # A109129: Width (i.e., number of non-root vertices having degree 1) of the rooted tree with Matula-Goebel number n.
 
-The programs for A109129, the canonical program `A109129.P5306028924478752351` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109129 has offset 1).
+The programs for A109129, the canonical program `A109129.P5306028924478752351` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109129 has offset 1).
 
 The definition of A109129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4844,7 +4846,7 @@ The definition of A109129 is `conjectured`: the Lean definition is a formula tha
 
 `val(A324922(1+n), 2)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A109129
@@ -4879,12 +4881,6 @@ namespace A109129
 /-- `A196050(n+1)-A366388(n+1)` -/
 def P9613187484581504425.Spec : Prop :=
   ∀ n, P9613187484581504425.a n = A109129 (n + 1)
-
-theorem P9613187484581504425.correct : P9613187484581504425.Spec := by
-  intro n
-  simp only [A109129, Nat.add_sub_cancel, A109129.P9613187484581504425.a, A109129.P5306028924478752351.a, A196050, A196050.P11943135614677890186.a, A324922, A324922.P11869538492641672189.f1, A324922.P11869538492641672189.a, A366388, A366388.P18222890006446978556.a, A003977, A003977.P11857829048812260673.f1, A003977.P11857829048812260673.a, A008683, A008683.P10736294816071761024.f1, A008683.P10736294816071761024.a, A366385, A366385.P9857088472437292857.a, A003963, A003963.P6853423646423809573.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A156552, A156552.P4268073137713085227.a, A243499, A243499.P13821279400790425584.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A109129
 
@@ -5174,7 +5170,7 @@ end A109130
 /-!
 # A109133: Numbers k such that (sum of digits)*(number of digits) + 1 is prime.
 
-The programs for A109133, the canonical program `A109133.P7922993941714005852` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109133 has offset 1).
+The programs for A109133, the canonical program `A109133.P7922993941714005852` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109133 has offset 1).
 
 The definition of A109133 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5183,7 +5179,7 @@ The definition of A109133 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A307629(n)+A007953(n)+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109133
@@ -8820,21 +8816,6 @@ end A109175.P283592163542036521
 The programs for A109176, there is no canonical definition to state claims against.
 -/
 
-/-! ## A109176.P10943019485973421619
-
-`A187796(n+1)`
--/
-
-namespace A109176.P10943019485973421619
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187796 (n + 1)
-
-end
-
-end A109176.P10943019485973421619
-
 /-! ## A109176.P13777161673320721175
 
 `p?[A199168(n+1)]`
@@ -9622,7 +9603,7 @@ end A109186.P7064545852542255280
 /-!
 # A109187: Triangle read by rows: T(n,k) is number of Grand Motzkin paths of length n having k (1,0)-steps.
 
-The programs for A109187, the canonical program `A109187.P2341051230272957120` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109187 has offset 0).
+The programs for A109187, the canonical program `A109187.P2341051230272957120` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109187 has offset 0).
 
 The definition of A109187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9769,7 +9750,7 @@ end A109187
 
 `A097610(n)*A115514(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A109187
@@ -10476,7 +10457,7 @@ end A109189.P8246486500411282816
 /-!
 # A109190: Number of (1,0)-steps at level zero in all Grand Motzkin paths of length n.
 
-The programs for A109190, the canonical program `A109190.P17894053808168281911` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109190 has offset 0).
+The programs for A109190, the canonical program `A109190.P17894053808168281911` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109190 has offset 0).
 
 The definition of A109190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 197 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10508,7 +10489,7 @@ end A109190
 
 `A111961(n)-A103435(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109190
@@ -10958,7 +10939,7 @@ end A109195.P1002632914243691436
 /-!
 # A109196: Number of returns to the x-axis from above (i.e., d steps hitting the x-axis) in all Grand Motzkin paths of length n.
 
-The programs for A109196, the canonical program `A109196.P10916885654328462370` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109196 has offset 2).
+The programs for A109196, the canonical program `A109196.P10916885654328462370` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109196 has offset 2).
 
 The definition of A109196 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A109194, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10967,7 +10948,7 @@ The definition of A109196 is `conditional`: the Lean definition is an OEIS formu
 
 `1/2*A109194(n+2)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109196

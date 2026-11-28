@@ -8,33 +8,34 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C044
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,10 +54,10 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -72,13 +73,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1993,7 +1993,7 @@ end A333216.P5928723408054756379
 /-!
 # A333217: Numbers k such that the k-th composition in standard order covers an initial interval of positive integers.
 
-The programs for A333217, the canonical program `A333217.P10809682827524773043` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333217 has offset 1).
+The programs for A333217, the canonical program `A333217.P10809682827524773043` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333217 has offset 1).
 
 The definition of A333217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1008 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2031,7 +2031,7 @@ end A333217
 
 `lt[A079067(A333219(1+n)), 1]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A333217
@@ -2249,7 +2249,7 @@ end A333218.P5312626712961640967
 /-!
 # A333219: Heinz number of the n-th composition in standard order.
 
-The programs for A333219, the canonical program `A333219.P12579995974548531049` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333219 has offset 1).
+The programs for A333219, the canonical program `A333219.P12579995974548531049` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333219 has offset 1).
 
 The definition of A333219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2258,7 +2258,7 @@ The definition of A333219 is `conjectured`: the Lean definition is a formula tha
 
 `A382255(A006068(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A333219
@@ -3706,7 +3706,7 @@ end A333229
 /-!
 # A333230: Positions of weak ascents in the sequence of differences between primes.
 
-The programs for A333230, the canonical program `A333230.P5884877363582196228` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333230 has offset 1).
+The programs for A333230, the canonical program `A333230.P5884877363582196228` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333230 has offset 1).
 
 The definition of A333230 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3715,7 +3715,7 @@ The definition of A333230 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A079054(n+2), 1]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A333230
@@ -6560,7 +6560,7 @@ end A333250.P2893707136113209235
 /-!
 # A333251: Tropical version of Somos-5 sequence A006721.
 
-The programs for A333251, the canonical program `A333251.P6639932197280921516` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333251 has offset 0).
+The programs for A333251, the canonical program `A333251.P6639932197280921516` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333251 has offset 0).
 
 The definition of A333251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6569,7 +6569,7 @@ The definition of A333251 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((-1+x+x^2-x^3+x^5)/(1-x-x^2+x^3-x^7+x^8+x^9-x^10))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A333251
@@ -8910,21 +8910,6 @@ end A333266.P18042260904491092762
 The programs for A333267, there is no canonical definition to state claims against.
 -/
 
-/-! ## A333267.P275064910320315150
-
-`A002034(A206497(n+1))`
--/
-
-namespace A333267.P275064910320315150
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002034 (A206497 (n + 1)).toNat
-
-end
-
-end A333267.P275064910320315150
-
 /-! ## A333267.P7016188865080169407
 
 `∏{e}[(2*n+1)^4+n, #]`
@@ -10066,21 +10051,6 @@ end
 
 end A333288.P16917039500425839382
 
-/-! ## A333288.P11210416698310695304
-
-`A311342(A014430(n))`
--/
-
-namespace A333288.P11210416698310695304
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A311342 (A014430 n).toNat
-
-end
-
-end A333288.P11210416698310695304
-
 /-!
 # A333289: Irregular triangle read by rows: coefficients a_{r,j} (r>=1, j>=0) arising from an expansion of the partition function.
 
@@ -10191,27 +10161,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333289.P12349725461083100519
-
-/-!
-# A333290: Irregular triangle read by rows: coefficients b_{r,j} (r>=1, j>=0) arising from an expansion of the partition function.
-
-The programs for A333290, there is no canonical definition to state claims against.
--/
-
-/-! ## A333290.P12159103100080770498
-
-`A231599(n)`
--/
-
-namespace A333290.P12159103100080770498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231599 n
-
-end
-
-end A333290.P12159103100080770498
 
 /-!
 # A333291: a(n) = Sum_{i=1..n, gcd(i,n)=1} i*phi(i) where phi is Euler's totient function A000010.
@@ -11023,7 +10972,7 @@ end A333297
 /-!
 # A333298: Number of canonical sequences of moves of length n for the Rubik cube puzzle using the half-turn metric.
 
-The programs for A333298, the canonical program `A333298.P18341790025917198464` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333298 has offset 0).
+The programs for A333298, the canonical program `A333298.P18341790025917198464` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333298 has offset 0).
 
 The definition of A333298 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11055,7 +11004,7 @@ end A333298
 
 `12*a(n-1)+18*a(n-2)` with `a(0)=1, a(1)=18, a(2)=243`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A333298
@@ -11096,7 +11045,7 @@ end A333298
 /-!
 # A333299: Number of canonical sequences of moves of length n for the Rubik's cube puzzle using the quarter-turn metric.
 
-The programs for A333299, the canonical program `A333299.P7666856941899253900` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333299 has offset 0).
+The programs for A333299, the canonical program `A333299.P7666856941899253900` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333299 has offset 0).
 
 The definition of A333299 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11105,7 +11054,7 @@ The definition of A333299 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+4x+6x^2+4x^3+x^4)/(1-8x-12x^2-8x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A333299

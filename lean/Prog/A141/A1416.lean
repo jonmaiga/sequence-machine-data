@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -30,18 +31,19 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -76,14 +78,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -494,29 +495,6 @@ namespace A141604
 /-- `∑{e}[A179807(A007318(n))+1, #]` -/
 def P4191318091073348775.Spec : Prop :=
   ∀ n, (P4191318091073348775.a n : ℤ) = A141604 n
-
-end A141604
-
-/-! ## A141604.P14394249433943917155
-
-`A025424(0+A007318(n))`
--/
-
-namespace A141604.P14394249433943917155
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025424 (0 + A007318 n).toNat
-
-end
-
-end A141604.P14394249433943917155
-
-namespace A141604
-
-/-- `A025424(0+A007318(n))` -/
-def P14394249433943917155.Spec : Prop :=
-  ∀ n, P14394249433943917155.a n = A141604 n
 
 end A141604
 
@@ -2312,7 +2290,7 @@ end A141616
 /-!
 # A141617: Triangle read by rows: T(n, k) = binomial(n,k)*prime(k)*prime(n-k), for 1 <= k <= n-1, n >= 1, with T(0, 0) = 1, T(n, 0) = T(n, n) = prime(n).
 
-The programs for A141617, the canonical program `A141617.P215556345430337065` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141617 has offset 0).
+The programs for A141617, the canonical program `A141617.P215556345430337065` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141617 has offset 0).
 
 The definition of A141617 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1300 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2321,7 +2299,7 @@ The definition of A141617 is `conjectured`: the Lean definition is a formula tha
 
 `A007318(n)*A064989(A073060(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A141617
@@ -4364,21 +4342,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A141636.P10913453803233883646
-
-/-! ## A141636.P2874054280066431293
-
-`A163422(n+3)`
--/
-
-namespace A141636.P2874054280066431293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163422 (n + 3)
-
-end
-
-end A141636.P2874054280066431293
 
 /-!
 # A141637: Primes of the form n/(p(n+1)-p(n)), where p(n)=n-th prime.

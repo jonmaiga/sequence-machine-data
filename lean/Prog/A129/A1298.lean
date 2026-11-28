@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -25,6 +26,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -33,7 +35,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
@@ -41,9 +43,12 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -71,6 +76,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -80,12 +86,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -108,7 +113,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -120,21 +125,6 @@ set_option linter.unreachableTactic false
 
 The programs for A129800, there is no canonical definition to state claims against.
 -/
-
-/-! ## A129800.P9282424342233233739
-
-`A272157(n+1)`
--/
-
-namespace A129800.P9282424342233233739
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272157 (n + 1)
-
-end
-
-end A129800.P9282424342233233739
 
 /-! ## A129800.P8164491866553715509
 
@@ -8016,42 +8006,6 @@ end
 end A129858.P8545601546495820377
 
 /-!
-# A129860: Number of unrooted bifurcating tree shapes with n leaves.
-
-The programs for A129860, there is no canonical definition to state claims against.
--/
-
-/-! ## A129860.P656684540952630857
-
-`A000672(n)`
--/
-
-namespace A129860.P656684540952630857
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000672 n
-
-end
-
-end A129860.P656684540952630857
-
-/-! ## A129860.P9110494420034633994
-
-`A052120(2*(n+1))`
--/
-
-namespace A129860.P9110494420034633994
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052120 (2 * (n + 1))
-
-end
-
-end A129860.P9110494420034633994
-
-/-!
 # A129861: Smallest square s such that A024352(n) + s is square.
 
 The programs for A129861, there is no canonical definition to state claims against.
@@ -9105,12 +9059,6 @@ namespace A129868
 /-- `A006516(n+1)-1` -/
 def P5594918554339226356.Spec : Prop :=
   ∀ n, P5594918554339226356.a n = A129868 n
-
-theorem P5594918554339226356.correct : P5594918554339226356.Spec := by
-  intro n
-  simp only [A129868, Nat.add_sub_cancel, A129868.P5594918554339226356.a, A129868.P17346803767250849322.a, A006516, A006516.P14395339880805769554.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A129868
 

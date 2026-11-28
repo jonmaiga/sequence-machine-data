@@ -5,21 +5,22 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C022
+import Seq.B000.C017
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C036
-import Seq.B000.C042
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,16 +39,18 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -1047,27 +1050,6 @@ end
 end A009424.P7967132832337154327
 
 /-!
-# A009426: Expansion of log(1+x)/cos(sinh(x)).
-
-The programs for A009426, there is no canonical definition to state claims against.
--/
-
-/-! ## A009426.P11938111251730234592
-
-`A009414(n)`
--/
-
-namespace A009426.P11938111251730234592
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009414 n
-
-end
-
-end A009426.P11938111251730234592
-
-/-!
 # A009427: Expansion of e.g.f. log(1+x)/cos(tan(x)).
 
 The programs for A009427, there is no canonical definition to state claims against.
@@ -1105,111 +1087,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009427.P12930909639563707164
-
-/-!
-# A009428: Expansion of e.g.f. log(1+x)/cos(tanh(x)).
-
-The programs for A009428, there is no canonical definition to state claims against.
--/
-
-/-! ## A009428.P14877401084672085273
-
-`A009412(n)`
--/
-
-namespace A009428.P14877401084672085273
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009412 n
-
-end
-
-end A009428.P14877401084672085273
-
-/-!
-# A009429: E.g.f. log(1+x)/cos(x).
-
-The programs for A009429, there is no canonical definition to state claims against.
--/
-
-/-! ## A009429.P9017828830834182973
-
-`A009413(n)`
--/
-
-namespace A009429.P9017828830834182973
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009413 n
-
-end
-
-end A009429.P9017828830834182973
-
-/-!
-# A009431: Expansion of log(1+x)/cosh(sin(x)).
-
-The programs for A009431, there is no canonical definition to state claims against.
--/
-
-/-! ## A009431.P15621685523403337932
-
-`A009409(n)`
--/
-
-namespace A009431.P15621685523403337932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009409 n
-
-end
-
-end A009431.P15621685523403337932
-
-/-!
-# A009433: Expansion of e.g.f. log(1+x)/cosh(tan(x)).
-
-The programs for A009433, there is no canonical definition to state claims against.
--/
-
-/-! ## A009433.P16721626319063661064
-
-`A009407(n)`
--/
-
-namespace A009433.P16721626319063661064
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009407 n
-
-end
-
-end A009433.P16721626319063661064
-
-/-!
-# A009435: Expansion of e.g.f.: log(1+x)/cosh(x).
-
-The programs for A009435, there is no canonical definition to state claims against.
--/
-
-/-! ## A009435.P1703945403261883317
-
-`A009406(n)`
--/
-
-namespace A009435.P1703945403261883317
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009406 n
-
-end
-
-end A009435.P1703945403261883317
 
 /-!
 # A009436: Expansion of e.g.f. log(1+x)/exp(sin(x)).

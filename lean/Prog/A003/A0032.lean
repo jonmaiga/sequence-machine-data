@@ -15,20 +15,21 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -38,13 +39,15 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,22 +69,22 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4380,7 +4383,7 @@ end A003234
 
 The programs for A003235, the canonical program `A003235.P17111344283508586949` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003235 has offset 0).
 
-The definition of A003235 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A003235 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A003235.anchor (n : ℕ) : (A003235 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (Nat.choose (k ^ 2) n : ℚ)` in `Proof.A003.A003235`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A003235.P17111344283508586949
@@ -4426,7 +4429,7 @@ end A003235
 
 The programs for A003236, the canonical program `A003236.P1581979979997469690` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003236 has offset 0).
 
-The definition of A003236 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A003236 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A003236.anchor (n : ℕ) : (A003236 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (Nat.choose ((k + 1) ^ 2) n : ℚ)` in `Proof.A003.A003236`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A003236.P1581979979997469690
@@ -5907,58 +5910,6 @@ namespace A003247
 /-- `3*floor(ϕ*(n+1))+n+1-A003252(A000201(n+1))` -/
 def P7825677287333326085.Spec : Prop :=
   ∀ n, P7825677287333326085.a n = A003247 (n + 1)
-
-end A003247
-
-/-! ## A003247.P3821504101187349455
-
-`∑[A001468(A003622(n+1)+64)]`
--/
-
-namespace A003247.P3821504101187349455
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001468 (A003622 (n + 1) + 64).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A003247.P3821504101187349455
-
-namespace A003247
-
-/-- `∑[A001468(A003622(n+1)+64)]` -/
-def P3821504101187349455.Spec : Prop :=
-  ∀ n, P3821504101187349455.a n = A003247 (n + 1)
-
-end A003247
-
-/-! ## A003247.P320788875537680917
-
-`∑[A003842(A000201(n+1)+38)]`
--/
-
-namespace A003247.P320788875537680917
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003842 (A000201 (n + 1) + 38).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A003247.P320788875537680917
-
-namespace A003247
-
-/-- `∑[A003842(A000201(n+1)+38)]` -/
-def P320788875537680917.Spec : Prop :=
-  ∀ n, P320788875537680917.a n = A003247 (n + 1)
 
 end A003247
 
@@ -11488,21 +11439,6 @@ end
 
 end A003271.P18015090982933441412
 
-/-! ## A003271.P4420254193076520065
-
-`A385747(n)`
--/
-
-namespace A003271.P4420254193076520065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385747 n
-
-end
-
-end A003271.P4420254193076520065
-
 /-! ## A003271.P9225049357760444005
 
 `A389523(A116390(n+1))`
@@ -13240,21 +13176,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003285.P2852199712113325486
-
-/-! ## A003285.P11264354480984019590
-
-`-1+A067280(n+1)`
--/
-
-namespace A003285.P11264354480984019590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A067280 (n + 1)
-
-end
-
-end A003285.P11264354480984019590
 
 /-! ## A003285.P3129971058073247104
 

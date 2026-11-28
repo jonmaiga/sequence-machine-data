@@ -13,24 +13,24 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C045
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +46,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -56,10 +57,9 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,21 +96,6 @@ set_option linter.unreachableTactic false
 The programs for A032300, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032300.P9948248580655323682
-
-`A032212(n)`
--/
-
-namespace A032300.P9948248580655323682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032212 n
-
-end
-
-end A032300.P9948248580655323682
-
 /-! ## A032300.P9399997253943751185
 
 `A072039(A027074(n+1))`
@@ -131,21 +116,6 @@ end A032300.P9399997253943751185
 
 The programs for A032301, there is no canonical definition to state claims against.
 -/
-
-/-! ## A032301.P16623721640815822828
-
-`A032213(n+1)`
--/
-
-namespace A032301.P16623721640815822828
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032213 (n + 1)
-
-end
-
-end A032301.P16623721640815822828
 
 /-! ## A032301.P13132159007163021523
 
@@ -882,21 +852,6 @@ end A032309.P14791651470796334103
 The programs for A032310, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032310.P8650224227328891450
-
-`A032220(n)`
--/
-
-namespace A032310.P8650224227328891450
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032220 n
-
-end
-
-end A032310.P8650224227328891450
-
 /-! ## A032310.P1192724779616046898
 
 `A186421(A032145(n))`
@@ -911,36 +866,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032310.P1192724779616046898
-
-/-! ## A032310.P9123350915274260204
-
-`A032050(n)`
--/
-
-namespace A032310.P9123350915274260204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032050 n
-
-end
-
-end A032310.P9123350915274260204
-
-/-! ## A032310.P5329706706309130825
-
-`A032145(n)`
--/
-
-namespace A032310.P5329706706309130825
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032145 n
-
-end
-
-end A032310.P5329706706309130825
 
 /-!
 # A032311: Number of ways to partition n labeled elements into sets of different sizes of at least 2.
@@ -1188,21 +1113,6 @@ end A032314.P7999906170922276389
 The programs for A032315, there is no canonical definition to state claims against.
 -/
 
-/-! ## A032315.P16509442777514910929
-
-`A032224(n)`
--/
-
-namespace A032315.P16509442777514910929
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032224 n
-
-end
-
-end A032315.P16509442777514910929
-
 /-! ## A032315.P220026787151715194
 
 `A383094(A050535(n))`
@@ -1217,27 +1127,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032315.P220026787151715194
-
-/-!
-# A032316: "EGJ" (unordered, element, labeled) transform of 1,3,5,7...
-
-The programs for A032316, there is no canonical definition to state claims against.
--/
-
-/-! ## A032316.P7539744056693346961
-
-`A032225(n)`
--/
-
-namespace A032316.P7539744056693346961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032225 n
-
-end
-
-end A032316.P7539744056693346961
 
 /-!
 # A032318: Shifts left under "EGJ" (unordered, element, labeled) transform.

@@ -12,11 +12,12 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -25,18 +26,18 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,22 +64,25 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +97,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -3039,16 +3042,16 @@ end A046026.P17588068745680388184
 /-!
 # A046027: Smallest multiple prime factor of the n-th nonsquarefree number (A013929).
 
-The programs for A046027, the canonical program `A046027.P4387093085053064450` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046027 has offset 1).
+The programs for A046027, the canonical program `A046027.P4387093085053064450` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046027 has offset 1).
 
-The definition of A046027 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, A249739, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A046027 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A046027.P4387093085053064450
 
 `A249739(A013929(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A046027
@@ -3536,16 +3539,16 @@ end A046027
 /-!
 # A046028: Largest multiple prime factor of the n-th nonsquarefree number (A013929).
 
-The programs for A046028, the canonical program `A046028.P7957653917597795699` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046028 has offset 1).
+The programs for A046028, the canonical program `A046028.P7957653917597795699` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046028 has offset 1).
 
-The definition of A046028 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, A249740, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A046028 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A046028.P7957653917597795699
 
 `A249740(A013929(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A046028
@@ -6247,57 +6250,6 @@ end
 end A046042.P16206957533401167864
 
 /-!
-# A046043: Autobiographical numbers (or curious numbers): list of numbers m = x_0 x_1 x_2 ... x_{b-1} (written in base b) such that x_i is the number of "digits" in m that are equal to i, for all i=0,...,b-1.
-
-The programs for A046043, there is no canonical definition to state claims against.
--/
-
-/-! ## A046043.P1058398511343332986
-
-`A138480(n+1)`
--/
-
-namespace A046043.P1058398511343332986
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138480 (n + 1)
-
-end
-
-end A046043.P1058398511343332986
-
-/-! ## A046043.P9900368435031417513
-
-`A358538(n+1)`
--/
-
-namespace A046043.P9900368435031417513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358538 (n + 1)
-
-end
-
-end A046043.P9900368435031417513
-
-/-! ## A046043.P14554106209186910846
-
-`A358711(n+1)`
--/
-
-namespace A046043.P14554106209186910846
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358711 (n + 1)
-
-end
-
-end A046043.P14554106209186910846
-
-/-!
 # A046044: Sum of 13 but no fewer nonzero fourth powers.
 
 The programs for A046044, there is no canonical definition to state claims against.
@@ -7135,7 +7087,7 @@ end A046049.P7047994973364659636
 /-!
 # A046051: Number of prime factors of Mersenne number M(n) = 2^n - 1 (counted with multiplicity).
 
-The programs for A046051, the canonical program `A046051.P13542807281275416355` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046051 has offset 1).
+The programs for A046051, the canonical program `A046051.P13542807281275416355` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046051 has offset 1).
 
 The definition of A046051 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7144,7 +7096,7 @@ The definition of A046051 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001222(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A046051
@@ -8766,21 +8718,6 @@ end A046066.P16471522699199942388
 
 The programs for A046067, there is no canonical definition to state claims against.
 -/
-
-/-! ## A046067.P9107627436143212439
-
-`A040076(2*n+1)`
--/
-
-namespace A046067.P9107627436143212439
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040076 (2 * n + 1)
-
-end
-
-end A046067.P9107627436143212439
 
 /-! ## A046067.P17057859220907747169
 
@@ -10421,36 +10358,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A046075.P12465650439720623244
-
-/-! ## A046075.P2225706466120573899
-
-`A261453(n+1)`
--/
-
-namespace A046075.P2225706466120573899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261453 (n + 1)
-
-end
-
-end A046075.P2225706466120573899
-
-/-! ## A046075.P12212741426338066255
-
-`A050783(n+11)`
--/
-
-namespace A046075.P12212741426338066255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050783 (n + 11)
-
-end
-
-end A046075.P12212741426338066255
 
 /-! ## A046075.P38679399371803796
 

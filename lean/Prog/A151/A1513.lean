@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,26 +21,26 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C044
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,8 +72,8 @@ import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +98,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1513,21 +1514,6 @@ end A151329.P8185066314308611085
 The programs for A151330, there is no canonical definition to state claims against.
 -/
 
-/-! ## A151330.P15907470863400306891
-
-`or(1, A203611(2*n+1))`
--/
-
-namespace A151330.P15907470863400306891
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A203611 (2 * n + 1))
-
-end
-
-end A151330.P15907470863400306891
-
 /-! ## A151330.P13558141721432123777
 
 `A109613(A203611(2*n+1))`
@@ -1584,21 +1570,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151331.P12180582272775251400
-
-/-! ## A151331.P5717024953543035561
-
-`A025595(n)`
--/
-
-namespace A151331.P5717024953543035561
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025595 n
-
-end
-
-end A151331.P5717024953543035561
 
 /-!
 # A151332: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of 4 n steps taken from {(-1, -1), (-1, 1), (1, 0)}.
@@ -5318,21 +5289,6 @@ end A151398.P9462682412133278909
 
 The programs for A151399, there is no canonical definition to state claims against.
 -/
-
-/-! ## A151399.P11754071511630478148
-
-`A299042(n+1)`
--/
-
-namespace A151399.P11754071511630478148
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299042 (n + 1)
-
-end
-
-end A151399.P11754071511630478148
 
 /-! ## A151399.P5443829845038576557
 

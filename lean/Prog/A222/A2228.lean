@@ -2,46 +2,49 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B002.C003
-import Seq.B002.C007
+import Seq.B002.C004
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -51,12 +54,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +73,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -2379,7 +2380,7 @@ end A222833.P9497042878521607708
 /-!
 # A222834: Number of n X 4 0..3 arrays with no element equal to another at a city block distance of exactly two, and new values 0..3 introduced in row major order.
 
-The programs for A222834, the canonical program `A222834.P3887171148257155712` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222834 has offset 1).
+The programs for A222834, the canonical program `A222834.P3887171148257155712` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222834 has offset 1).
 
 The definition of A222834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 236 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2411,7 +2412,7 @@ end A222834
 
 `2*a(n-1)+2*a(n-2)-a(n-3)` with `a(0)=7, a(1)=96, a(2)=216, a(3)=600`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222834
@@ -2504,8 +2505,29 @@ end A222834
 /-!
 # A222835: Number of n X 5 0..3 arrays with no element equal to another at a city block distance of exactly two, and new values 0..3 introduced in row major order.
 
-The programs for A222835, there is no canonical definition to state claims against.
+The programs for A222835, the canonical program `A222835.P14237127897399329080` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222835 has offset 1).
+
+The definition of A222835 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A222835.P14237127897399329080
+
+`ogf((19+346x-120x^2+202x^3+173x^4-144x^5-72x^6)/(1-2x-2x^3-x^4))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A222835
+
+/-- `ogf((19+346x-120x^2+202x^3+173x^4-144x^5-72x^6)/(1-2x-2x^3-x^4))` -/
+def P14237127897399329080.Spec : Prop :=
+  ∀ n, P14237127897399329080.a n = A222835 (n + 1)
+
+theorem P14237127897399329080.correct : P14237127897399329080.Spec := by
+  intro n
+  simp only [A222835, Nat.add_sub_cancel]
+
+end A222835
 
 /-! ## A222835.P7734858808852603451
 
@@ -2522,6 +2544,14 @@ end
 
 end A222835.P7734858808852603451
 
+namespace A222835
+
+/-- `C(2, n+2)+A183357(n+1)/6` -/
+def P7734858808852603451.Spec : Prop :=
+  ∀ n, P7734858808852603451.a n = (A222835 (n + 1) : ℚ)
+
+end A222835
+
 /-! ## A222835.P8819881362255103647
 
 `A000007(n)+A183357(n+1)/6`
@@ -2536,6 +2566,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A222835.P8819881362255103647
+
+namespace A222835
+
+/-- `A000007(n)+A183357(n+1)/6` -/
+def P8819881362255103647.Spec : Prop :=
+  ∀ n, P8819881362255103647.a n = (A222835 (n + 1) : ℚ)
+
+end A222835
 
 /-! ## A222835.P14927763272248369867
 
@@ -2552,6 +2590,14 @@ end
 
 end A222835.P14927763272248369867
 
+namespace A222835
+
+/-- `A302826(2*(n+1))+A183357(n+1)/6` -/
+def P14927763272248369867.Spec : Prop :=
+  ∀ n, P14927763272248369867.a n = (A222835 (n + 1) : ℚ)
+
+end A222835
+
 /-! ## A222835.P17487735083153114260
 
 `A001221(A014963(4*n+2))+A183357(n+1)/6`
@@ -2567,6 +2613,14 @@ end
 
 end A222835.P17487735083153114260
 
+namespace A222835
+
+/-- `A001221(A014963(4*n+2))+A183357(n+1)/6` -/
+def P17487735083153114260.Spec : Prop :=
+  ∀ n, P17487735083153114260.a n = (A222835 (n + 1) : ℚ)
+
+end A222835
+
 /-! ## A222835.P18070391438175938312
 
 `floor(A003958(n+1)/A003959(n+1)+A183357(n+1)/6)`
@@ -2581,6 +2635,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222835.P18070391438175938312
+
+namespace A222835
+
+/-- `floor(A003958(n+1)/A003959(n+1)+A183357(n+1)/6)` -/
+def P18070391438175938312.Spec : Prop :=
+  ∀ n, P18070391438175938312.a n = A222835 (n + 1)
+
+end A222835
 
 /-!
 # A222836: Number of nX6 0..3 arrays with no element equal to another at a city block distance of exactly two, and new values 0..3 introduced in row major order.
@@ -3426,27 +3488,6 @@ end
 end A222852.P13640188576248798262
 
 /-!
-# A222853: T(n,k)=Number of nXk 0..2 arrays with no more than floor(nXk/2) elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..2 order.
-
-The programs for A222853, there is no canonical definition to state claims against.
--/
-
-/-! ## A222853.P3357571183115707577
-
-`A234041(A197805(n+1))`
--/
-
-namespace A222853.P3357571183115707577
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234041 (A197805 (n + 1)).toNat
-
-end
-
-end A222853.P3357571183115707577
-
-/-!
 # A222854: Number of n X n 0..1 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
 
 The programs for A222854, there is no canonical definition to state claims against.
@@ -4175,7 +4216,7 @@ end A222866.P18406696831944637911
 /-!
 # A222867: Number of n X 1 0..5 arrays with no element equal to another at a city block distance of exactly two, and new values 0..5 introduced in row major order.
 
-The programs for A222867, the canonical program `A222867.P14462431900445029518` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222867 has offset 1).
+The programs for A222867, the canonical program `A222867.P14462431900445029518` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222867 has offset 1).
 
 The definition of A222867 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4207,7 +4248,7 @@ end A222867
 
 `11*a(n-1)-41*a(n-2)+61*a(n-3)-30*a(n-4)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=7, a(4)=20, a(5)=67`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222867
@@ -4362,6 +4403,21 @@ end A222868.P10484185798811482291
 
 The programs for A222869, there is no canonical definition to state claims against.
 -/
+
+/-! ## A222869.P8481629507233790582
+
+`ogf((3-92x-261x^2+234x^3)/(1-42x+117x^2))`
+-/
+
+namespace A222869.P8481629507233790582
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -92, -261, 234] [1, -42, 117] n
+
+end
+
+end A222869.P8481629507233790582
 
 /-! ## A222869.P1482166150992795898
 
@@ -5580,21 +5636,6 @@ end A222895.P9159162774081049969
 
 The programs for A222896, there is no canonical definition to state claims against.
 -/
-
-/-! ## A222896.P10804278742425785992
-
-`A246591(A223074(n+1))`
--/
-
-namespace A222896.P10804278742425785992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246591 (A223074 (n + 1)).toNat
-
-end
-
-end A222896.P10804278742425785992
 
 /-! ## A222896.P5463871637515968205
 

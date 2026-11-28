@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,29 +12,31 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +48,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B002.C000
@@ -56,6 +58,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -63,9 +66,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -529,21 +531,6 @@ end
 
 end A032210.P7303122813776304716
 
-/-! ## A032210.P11092576252906156148
-
-`A032298(n)`
--/
-
-namespace A032210.P11092576252906156148
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032298 n
-
-end
-
-end A032210.P11092576252906156148
-
 /-!
 # A032215: "DFK" (bracelet, size, unlabeled) transform of 2,1,1,1...
 
@@ -594,27 +581,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032215.P15096152884682020205
-
-/-!
-# A032217: "DFK" (bracelet, size, unlabeled) transform of 1,3,5,7...
-
-The programs for A032217, there is no canonical definition to state claims against.
--/
-
-/-! ## A032217.P6817158767704785755
-
-`A032304(n)`
--/
-
-namespace A032217.P6817158767704785755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032304 n
-
-end
-
-end A032217.P6817158767704785755
 
 /-!
 # A032218: Number of dyslexic rooted compound windmills with n nodes where any 2 submills extending from the same node are different sizes.
@@ -801,48 +767,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032222.P17039188020649115676
-
-/-!
-# A032223: "DGJ" (bracelet, element, labeled) transform of 2,1,1,1...
-
-The programs for A032223, there is no canonical definition to state claims against.
--/
-
-/-! ## A032223.P12641024033597693560
-
-`A032313(n)`
--/
-
-namespace A032223.P12641024033597693560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032313 n
-
-end
-
-end A032223.P12641024033597693560
-
-/-!
-# A032226: Shifts left under "DGJ" (bracelet, element, labeled) transform.
-
-The programs for A032226, there is no canonical definition to state claims against.
--/
-
-/-! ## A032226.P1018377189735380847
-
-`A032317(n+1)`
--/
-
-namespace A032226.P1018377189735380847
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032317 (n + 1)
-
-end
-
-end A032226.P1018377189735380847
 
 /-!
 # A032227: Doubles (index 2+) under "DGJ" (bracelet, element, labeled) transform.
@@ -5069,35 +4993,6 @@ theorem P14441623129669867853.correct : P14441623129669867853.Spec := by
 
 end A032283
 
-/-! ## A032283.P11968737027718863999
-
-`-2+A208668(n+1)`
--/
-
-namespace A032283.P11968737027718863999
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -2 + A208668 (n + 1)
-
-end
-
-end A032283.P11968737027718863999
-
-namespace A032283
-
-/-- `-2+A208668(n+1)` -/
-def P11968737027718863999.Spec : Prop :=
-  ∀ n, P11968737027718863999.a n = A032283 (n + 1)
-
-theorem P11968737027718863999.correct : P11968737027718863999.Spec := by
-  intro n
-  simp only [A032283, Nat.add_sub_cancel, A032283.P11968737027718863999.a, A032283.P14441623129669867853.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
-
-end A032283
-
 /-! ## A032283.P2688335450330545546
 
 `A023444(A208668(n+1))`
@@ -5822,27 +5717,6 @@ end
 end A032296.P17594027146221525976
 
 /-!
-# A032297: "EFJ" (unordered, size, labeled) transform of 2,2,2,2,...
-
-The programs for A032297, there is no canonical definition to state claims against.
--/
-
-/-! ## A032297.P8363914959863871491
-
-`A032209(n)`
--/
-
-namespace A032297.P8363914959863871491
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032209 n
-
-end
-
-end A032297.P8363914959863871491
-
-/-!
 # A032298: "EFJ" (unordered, size, labeled) transform of 2,1,1,1,...
 
 The programs for A032298, there is no canonical definition to state claims against.
@@ -5970,25 +5844,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032298.P16157464014616894989
-
-/-!
-# A032299: "EFJ" (unordered, size, labeled) transform of 1,2,3,4,...
-
-The programs for A032299, there is no canonical definition to state claims against.
--/
-
-/-! ## A032299.P2233928243853368479
-
-`A032211(n)`
--/
-
-namespace A032299.P2233928243853368479
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032211 n
-
-end
-
-end A032299.P2233928243853368479
 

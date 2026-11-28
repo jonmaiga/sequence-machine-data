@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -33,19 +32,19 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,6 +74,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -83,15 +83,16 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2889,7 +2890,7 @@ end A000010
 /-!
 # A000011: Number of n-bead necklaces (turning over is allowed) where complements are equivalent.
 
-The programs for A000011, the canonical program `A000011.P276434732339544012` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000011 has offset 0).
+The programs for A000011, the canonical program `A000011.P276434732339544012` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000011 has offset 0).
 
 The definition of A000011 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2898,7 +2899,7 @@ The definition of A000011 is `conditional`: the Lean definition is an OEIS formu
 
 `(A000013(n)+2^floor(n/2))/2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A000011
@@ -3207,7 +3208,7 @@ end A000012
 /-!
 # A000013: Definition (1): Number of n-bead binary necklaces with beads of 2 colors where the colors may be swapped but turning over is not allowed.
 
-The programs for A000013, the canonical program `A000013.P13330308426199228881` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000013 has offset 0).
+The programs for A000013, the canonical program `A000013.P13330308426199228881` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000013 has offset 0).
 
 The definition of A000013 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3216,7 +3217,7 @@ The definition of A000013 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n, A056303(#)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A000013
@@ -6436,7 +6437,7 @@ end A000027
 /-!
 # A000028: Let k = p_1^e_1 p_2^e_2 p_3^e_3 ... be the prime factorization of n. Sequence gives k such that the sum of the numbers of 1's in the binary expansions of e_1, e_2, e_3, ... is odd.
 
-The programs for A000028, the canonical program `A000028.P5189071757991125768` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000028 has offset 1).
+The programs for A000028, the canonical program `A000028.P5189071757991125768` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000028 has offset 1).
 
 The definition of A000028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6445,7 +6446,7 @@ The definition of A000028 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A359464(1+n)]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000028
@@ -11840,7 +11841,7 @@ end A000045
 /-!
 # A000046: Number of primitive n-bead necklaces (turning over is allowed) where complements are equivalent.
 
-The programs for A000046, the canonical program `A000046.P15269567726961333018` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000046 has offset 0).
+The programs for A000046, the canonical program `A000046.P15269567726961333018` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000046 has offset 0).
 
 The definition of A000046 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000048, A308706, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11849,7 +11850,7 @@ The definition of A000046 is `conditional`: the Lean definition is an OEIS formu
 
 `A000048(n)-A308706(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A000046
@@ -12069,7 +12070,7 @@ end A000047.P15283034044809759771
 /-!
 # A000048: Number of n-bead necklaces with beads of 2 colors and primitive period n, when turning over is not allowed but the two colors can be interchanged.
 
-The programs for A000048, the canonical program `A000048.P377215747139853949` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000048 has offset 0).
+The programs for A000048, the canonical program `A000048.P377215747139853949` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000048 has offset 0).
 
 The definition of A000048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12104,7 +12105,7 @@ end A000048
 
 `A056303(round(sqrt((1-n)²+1))+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A000048
@@ -23195,6 +23196,58 @@ def P1438365148767524301.Spec : Prop :=
 
 end A000096
 
+/-! ## A000096.P12905268171355643911
+
+`A000217(n)+n`
+-/
+
+namespace A000096.P12905268171355643911
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 n + (n : ℤ)
+
+end
+
+end A000096.P12905268171355643911
+
+namespace A000096
+
+/-- `A000217(n)+n` -/
+def P12905268171355643911.Spec : Prop :=
+  ∀ n, P12905268171355643911.a n = A000096 n
+
+theorem P12905268171355643911.correct : P12905268171355643911.Spec := by
+  intro n
+  simp only [A000096, Nat.add_sub_cancel, A000096.P12905268171355643911.a, A000096.P6925830517264718723.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A000096
+
+/-! ## A000096.P1680110615879188098
+
+`(n+1)²-A000124(n)`
+-/
+
+namespace A000096.P1680110615879188098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n + 1) ^ 2 : ℤ) - A000124 n
+
+end
+
+end A000096.P1680110615879188098
+
+namespace A000096
+
+/-- `(n+1)²-A000124(n)` -/
+def P1680110615879188098.Spec : Prop :=
+  ∀ n, P1680110615879188098.a n = A000096 n
+
+end A000096
+
 /-! ## A000096.P1200310528644761777
 
 `record[C(n, 2)-n]`
@@ -23547,58 +23600,6 @@ namespace A000096
 /-- `ceil(n-(atan(1)-∑[n]))` -/
 def P894986285729981087.Spec : Prop :=
   ∀ n, P894986285729981087.a n = A000096 n
-
-end A000096
-
-/-! ## A000096.P18142265501261475055
-
-`∑[1-floor(acot(n)-n)]`
--/
-
-namespace A000096.P18142265501261475055
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ⌊SequenceMachineLib.acot (n : ℝ) - (n : ℝ)⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A000096.P18142265501261475055
-
-namespace A000096
-
-/-- `∑[1-floor(acot(n)-n)]` -/
-def P18142265501261475055.Spec : Prop :=
-  ∀ n, P18142265501261475055.a n = A000096 n
-
-end A000096
-
-/-! ## A000096.P8663451435205739294
-
-`∑[2-ceil(acot(n)-n)]`
--/
-
-namespace A000096.P8663451435205739294
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - ⌈SequenceMachineLib.acot (n : ℝ) - (n : ℝ)⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A000096.P8663451435205739294
-
-namespace A000096
-
-/-- `∑[2-ceil(acot(n)-n)]` -/
-def P8663451435205739294.Spec : Prop :=
-  ∀ n, P8663451435205739294.a n = A000096 n
 
 end A000096
 

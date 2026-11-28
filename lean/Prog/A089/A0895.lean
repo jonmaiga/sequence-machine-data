@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -24,6 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -31,14 +31,16 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +63,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -75,10 +78,9 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +105,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4732,6 +4733,21 @@ end
 
 end A089548.P12324786432738210828
 
+/-! ## A089548.P18042044721039469959
+
+`A088546(n+1)^2-A089547(n+1)`
+-/
+
+namespace A089548.P18042044721039469959
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088546 (n + 1) ^ 2 - A089547 (n + 1)
+
+end
+
+end A089548.P18042044721039469959
+
 /-! ## A089548.P5144901452336232631
 
 `A089549(n+1)+A089551(n+1)-A089547(n+1)`
@@ -4791,21 +4807,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089548.P5237164264260506200
-
-/-! ## A089548.P18042044721039469959
-
-`A088546(n+1)^2-A089547(n+1)`
--/
-
-namespace A089548.P18042044721039469959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088546 (n + 1) ^ 2 - A089547 (n + 1)
-
-end
-
-end A089548.P18042044721039469959
 
 /-!
 # A089549: Semiperimeter of primitive Pythagorean triangles having legs that add up to a square, sorted on hypotenuse.
@@ -6890,27 +6891,6 @@ end
 end A089567.P18130388746403343199
 
 /-!
-# A089571: Primes arising in A089570.
-
-The programs for A089571, there is no canonical definition to state claims against.
--/
-
-/-! ## A089571.P9198898319063055616
-
-`A053584(n+2)`
--/
-
-namespace A089571.P9198898319063055616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053584 (n + 2)
-
-end
-
-end A089571.P9198898319063055616
-
-/-!
 # A089573: Primes arising in A089572.
 
 The programs for A089573, there is no canonical definition to state claims against.
@@ -6937,7 +6917,7 @@ end A089573.P2800964285971477387
 /-!
 # A089574: Column 4 of an array closely related to A083480. (Both arrays have shape sequence A083479).
 
-The programs for A089574, the canonical program `A089574.P3668588586690278809` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089574 has offset 1).
+The programs for A089574, the canonical program `A089574.P3668588586690278809` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089574 has offset 1).
 
 The definition of A089574 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6992,7 +6972,7 @@ end A089574
 
 `A000330(n+1)+A006011(n+2)+A034263(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089574

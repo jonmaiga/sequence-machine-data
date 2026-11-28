@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -23,19 +24,20 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +47,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -75,8 +76,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4808,21 +4808,6 @@ end A076734.P14858655070821670607
 The programs for A076735, there is no canonical definition to state claims against.
 -/
 
-/-! ## A076735.P9127905559759502733
-
-`A089827(A000267(n))`
--/
-
-namespace A076735.P9127905559759502733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089827 (A000267 n).toNat
-
-end
-
-end A076735.P9127905559759502733
-
 /-! ## A076735.P366310537734737963
 
 `A252505(A027434(n+1)!)`
@@ -7219,36 +7204,6 @@ end A076754.P16811137497418878700
 The programs for A076755, there is no canonical definition to state claims against.
 -/
 
-/-! ## A076755.P9067874290495345408
-
-`A112995(A000005(n+2))`
--/
-
-namespace A076755.P9067874290495345408
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112995 (A000005 (n + 2)).toNat
-
-end
-
-end A076755.P9067874290495345408
-
-/-! ## A076755.P16520221623262773290
-
-`A173022(0+A000005(n+2))`
--/
-
-namespace A076755.P16520221623262773290
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173022 (0 + A000005 (n + 2)).toNat
-
-end
-
-end A076755.P16520221623262773290
-
 /-! ## A076755.P7291144391836827930
 
 `A036468(A032741(n+2)%A254412(n+1))`
@@ -8282,7 +8237,7 @@ end A076762.P2231547534482937829
 /-!
 # A076763: 1-apexes of omega: numbers n such that omega(n-1) < omega(n) > omega(n+1), where omega(m) = the number of distinct prime factors of m.
 
-The programs for A076763, the canonical program `A076763.P7586696728486630368` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076763 has offset 1).
+The programs for A076763, the canonical program `A076763.P7586696728486630368` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076763 has offset 1).
 
 The definition of A076763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6813 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8291,7 +8246,7 @@ The definition of A076763 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A294277(n+1)+1, A294278(n+1)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A076763
@@ -8426,7 +8381,7 @@ end A076763
 /-!
 # A076764: n such that Omega(n-1) < Omega(n) < Omega(n+1), where Omega(m) = the number of prime factors of m, counting multiplicity.
 
-The programs for A076764, the canonical program `A076764.P2673609182765345381` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076764 has offset 1).
+The programs for A076764, the canonical program `A076764.P2673609182765345381` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076764 has offset 1).
 
 The definition of A076764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1367 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8435,7 +8390,7 @@ The definition of A076764 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A322840(n+1)+1, A322840(n+1)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A076764
@@ -9489,7 +9444,7 @@ end A076768.P7124027532537288722
 /-!
 # A076769: Integers not expressible as the sum of a positive triangular number and a square.
 
-The programs for A076769, the canonical program `A076769.P18122290405251282767` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076769 has offset 1).
+The programs for A076769, the canonical program `A076769.P18122290405251282767` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076769 has offset 1).
 
 The definition of A076769 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4659 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9498,7 +9453,7 @@ The definition of A076769 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A082660(1+n)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A076769
@@ -10480,7 +10435,7 @@ end A076774.P6274260330462703502
 /-!
 # A076775: Greatest common divisor of n and the binary representation of n interpreted decimally.
 
-The programs for A076775, the canonical program `A076775.P4195404613136305979` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076775 has offset 1).
+The programs for A076775, the canonical program `A076775.P4195404613136305979` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076775 has offset 1).
 
 The definition of A076775 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10489,7 +10444,7 @@ The definition of A076775 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(n+1, A007088(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A076775

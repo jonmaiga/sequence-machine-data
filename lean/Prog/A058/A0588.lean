@@ -7,32 +7,32 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C043
+import Seq.B000.C040
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,22 +48,20 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4451,21 +4449,6 @@ end
 
 end A058863.P4984267568876897691
 
-/-! ## A058863.P2517382686317503481
-
-`gcd(0, A383985(A000027(n+1)))`
--/
-
-namespace A058863.P2517382686317503481
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd 0 (A383985 (A000027 (n + 1)).toNat)
-
-end
-
-end A058863.P2517382686317503481
-
 /-! ## A058863.P560096472383256745
 
 `gcd(A000038(n), A383985(n+1))`
@@ -5142,6 +5125,35 @@ theorem P1227274421615768529.correct : P1227274421615768529.Spec := by
 
 end A058877
 
+/-! ## A058877.P1034710005829432116
+
+`A048493(n)-1`
+-/
+
+namespace A058877.P1034710005829432116
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048493 n - 1
+
+end
+
+end A058877.P1034710005829432116
+
+namespace A058877
+
+/-- `A048493(n)-1` -/
+def P1034710005829432116.Spec : Prop :=
+  ∀ n, P1034710005829432116.a n = A058877 (n + 1)
+
+theorem P1034710005829432116.correct : P1034710005829432116.Spec := by
+  intro n
+  simp only [A058877, Nat.add_sub_cancel, A058877.P1034710005829432116.a, A058877.P1227274421615768529.a, A048493, A048493.P18254336596332643479.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A058877
+
 /-! ## A058877.P11021460054430416784
 
 `ogf((2x-3x^2)/(1-6x+13x^2-12x^3+4x^4))`
@@ -5538,35 +5550,6 @@ theorem P14929469325785795790.correct : P14929469325785795790.Spec := by
       push_cast at h1 h2 ⊢
       rw [h1, h2]
       first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith
-
-end A058877
-
-/-! ## A058877.P1034710005829432116
-
-`A048493(n)-1`
--/
-
-namespace A058877.P1034710005829432116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048493 n - 1
-
-end
-
-end A058877.P1034710005829432116
-
-namespace A058877
-
-/-- `A048493(n)-1` -/
-def P1034710005829432116.Spec : Prop :=
-  ∀ n, P1034710005829432116.a n = A058877 (n + 1)
-
-theorem P1034710005829432116.correct : P1034710005829432116.Spec := by
-  intro n
-  simp only [A058877, Nat.add_sub_cancel, A058877.P1034710005829432116.a, A058877.P1227274421615768529.a, A048493, A048493.P18254336596332643479.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A058877
 
@@ -6301,7 +6284,7 @@ end A058888.P8635285328768252793
 
 The programs for A058891, the canonical program `A058891.P13289349370227338542` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058891 has offset 1).
 
-The definition of A058891 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A058891 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A058891.anchor (n : ℕ) : (A058891 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ)` in `Proof.A058.A058891`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A058891.P13289349370227338542

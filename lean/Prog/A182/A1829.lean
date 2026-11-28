@@ -15,25 +15,27 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,6 +43,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
@@ -49,10 +52,10 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -65,10 +68,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1959,7 +1962,7 @@ end A182925.P14625203521516038084
 /-!
 # A182926: Row sums of absolute values of A182928.
 
-The programs for A182926, the canonical program `A182926.P10366934563623378682` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182926 has offset 1).
+The programs for A182926, the canonical program `A182926.P10366934563623378682` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182926 has offset 1).
 
 The definition of A182926 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1968,7 +1971,7 @@ The definition of A182926 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, (n+1)!/(#*((n+1)/#)!^#)]`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A182926
@@ -2057,21 +2060,6 @@ end A182928.P3822183557895308354
 
 The programs for A182929, there is no canonical definition to state claims against.
 -/
-
-/-! ## A182929.P7941860739690598278
-
-`A134027(A084972(n+1))`
--/
-
-namespace A182929.P7941860739690598278
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134027 (A084972 (n + 1)).toNat
-
-end
-
-end A182929.P7941860739690598278
 
 /-! ## A182929.P16920132803985202263
 
@@ -2736,21 +2724,6 @@ end
 
 end A182937.P17377168151617543235
 
-/-! ## A182937.P13970101072784698221
-
-`A211992(n+1)^A099803(n)`
--/
-
-namespace A182937.P13970101072784698221
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A211992 (n + 1) : ℚ) ^ (A099803 n : ℤ)
-
-end
-
-end A182937.P13970101072784698221
-
 /-! ## A182937.P7134807368653462075
 
 `A211992(n+1)^A026792(floor(sqrt((n+1)^6+3)))`
@@ -2799,7 +2772,7 @@ end A182937.P5913541387488492889
 /-!
 # A182938: If n = Product (p_j^e_j) then a(n) = Product (binomial(p_j, e_j)).
 
-The programs for A182938, the canonical program `A182938.P11321347124679234139` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182938 has offset 1).
+The programs for A182938, the canonical program `A182938.P11321347124679234139` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182938 has offset 1).
 
 The definition of A182938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2808,7 +2781,7 @@ The definition of A182938 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n+1, C(#, val(n+1, #))]`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A182938
@@ -5190,7 +5163,7 @@ end A182972
 /-!
 # A182973: Denominators of positive rationals < 1 arranged by increasing sum of numerator and denominator then by increasing numerator.
 
-The programs for A182973, the canonical program `A182973.P14177884480341454543` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182973 has offset 1).
+The programs for A182973, the canonical program `A182973.P14177884480341454543` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182973 has offset 1).
 
 The definition of A182973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5199,7 +5172,7 @@ The definition of A182973 is `conjectured`: the Lean definition is a formula tha
 
 `A038567(2*(1+n))-A182972(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A182973
@@ -6546,21 +6519,6 @@ end A182986
 
 The programs for A182987, there is no canonical definition to state claims against.
 -/
-
-/-! ## A182987.P2173924998253894089
-
-`A173631(n)`
--/
-
-namespace A182987.P2173924998253894089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173631 n
-
-end
-
-end A182987.P2173924998253894089
 
 /-! ## A182987.P17097182781127642207
 

@@ -5,23 +5,24 @@ import Seq.B000.C003
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C025
+import Seq.B000.C020
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C050
 import Seq.B001.C000
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -37,10 +38,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -783,8 +782,29 @@ end A250919.P2018905666435267550
 /-!
 # A250920: Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having its minimum diagonal element less than its minimum antidiagonal element.
 
-The programs for A250920, there is no canonical definition to state claims against.
+The programs for A250920, the canonical program `A250920.P2876455666499368948` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250920 has offset 1).
+
+The definition of A250920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250920.P2876455666499368948
+
+`ogf((58-178x+245x^2-140x^3+36x^4)/(1-9x+23x^2-29x^3+16x^4-4x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A250920
+
+/-- `ogf((58-178x+245x^2-140x^3+36x^4)/(1-9x+23x^2-29x^3+16x^4-4x^5))` -/
+def P2876455666499368948.Spec : Prop :=
+  ∀ n, P2876455666499368948.a n = A250920 (n + 1)
+
+theorem P2876455666499368948.correct : P2876455666499368948.Spec := by
+  intro n
+  simp only [A250920, Nat.add_sub_cancel]
+
+end A250920
 
 /-! ## A250920.P5987989132478275972
 
@@ -804,6 +824,14 @@ end
 
 end A250920.P5987989132478275972
 
+namespace A250920
+
+/-- `A250927(∑[n]+1)` -/
+def P5987989132478275972.Spec : Prop :=
+  ∀ n, P5987989132478275972.a n = A250920 (n + 1)
+
+end A250920
+
 /-! ## A250920.P15605909985334818119
 
 `record[root(A250927(n+1), A230449(n))]`
@@ -821,6 +849,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A250920.P15605909985334818119
+
+namespace A250920
+
+/-- `record[root(A250927(n+1), A230449(n))]` -/
+def P15605909985334818119.Spec : Prop :=
+  ∀ n, P15605909985334818119.a n = (A250920 (n + 1) : ℝ)
+
+end A250920
 
 /-! ## A250920.P9352795604463967713
 
@@ -840,6 +876,14 @@ end
 
 end A250920.P9352795604463967713
 
+namespace A250920
+
+/-- `record[gcd(A002262(n), A250927(n+1))]` -/
+def P9352795604463967713.Spec : Prop :=
+  ∀ n, (P9352795604463967713.a n : ℤ) = A250920 (n + 1)
+
+end A250920
+
 /-! ## A250920.P9390892795966113084
 
 `record[root(A250927(n+1), A002260(n+1))]`
@@ -857,6 +901,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A250920.P9390892795966113084
+
+namespace A250920
+
+/-- `record[root(A250927(n+1), A002260(n+1))]` -/
+def P9390892795966113084.Spec : Prop :=
+  ∀ n, P9390892795966113084.a n = (A250920 (n + 1) : ℝ)
+
+end A250920
 
 /-!
 # A250921: Number of (n+1)X(2+1) 0..2 arrays with no 2X2 subblock having its minimum diagonal element less than its minimum antidiagonal element.
@@ -1055,6 +1107,21 @@ end A250925.P6142150781909767939
 
 The programs for A250928, there is no canonical definition to state claims against.
 -/
+
+/-! ## A250928.P3651207073078305657
+
+`ogf((164-316x+536x^2-528x^3)/(1-12x+23x^2-37x^3+33x^4))`
+-/
+
+namespace A250928.P3651207073078305657
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [164, -316, 536, -528] [1, -12, 23, -37, 33] n
+
+end
+
+end A250928.P3651207073078305657
 
 /-! ## A250928.P2842434400891384315
 
@@ -1458,8 +1525,29 @@ end A250941.P12691374285914202111
 /-!
 # A250943: Number of (1+1) X (n+1) 0..2 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250943, there is no canonical definition to state claims against.
+The programs for A250943, the canonical program `A250943.P6659330848542624855` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250943 has offset 1).
+
+The definition of A250943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250943.P6659330848542624855
+
+`ogf((37-67x-109x^2+138x^3+108x^4)/(1-6x+6x^2+15x^3-14x^4-12x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A250943
+
+/-- `ogf((37-67x-109x^2+138x^3+108x^4)/(1-6x+6x^2+15x^3-14x^4-12x^5))` -/
+def P6659330848542624855.Spec : Prop :=
+  ∀ n, P6659330848542624855.a n = A250943 (n + 1)
+
+theorem P6659330848542624855.correct : P6659330848542624855.Spec := by
+  intro n
+  simp only [A250943, Nat.add_sub_cancel]
+
+end A250943
 
 /-! ## A250943.P11578771317921150096
 
@@ -1478,6 +1566,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250943.P11578771317921150096
+
+namespace A250943
+
+/-- `A250942(∑[n]+1)` -/
+def P11578771317921150096.Spec : Prop :=
+  ∀ n, P11578771317921150096.a n = A250943 (n + 1)
+
+end A250943
 
 /-! ## A250943.P14134679819409765074
 
@@ -1500,6 +1596,14 @@ end
 
 end A250943.P14134679819409765074
 
+namespace A250943
+
+/-- `record[A250942(∑[A057979(n)])]` -/
+def P14134679819409765074.Spec : Prop :=
+  ∀ n, P14134679819409765074.a n = A250943 (n + 1)
+
+end A250943
+
 /-! ## A250943.P1989966679439417227
 
 `record[A250942(A114091(n+1))]`
@@ -1517,6 +1621,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250943.P1989966679439417227
+
+namespace A250943
+
+/-- `record[A250942(A114091(n+1))]` -/
+def P1989966679439417227.Spec : Prop :=
+  ∀ n, P1989966679439417227.a n = A250943 (n + 1)
+
+end A250943
 
 /-!
 # A250944: Number of (2+1)X(n+1) 0..2 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
@@ -1715,6 +1827,21 @@ end A250950.P13884351935736510484
 
 The programs for A250951, there is no canonical definition to state claims against.
 -/
+
+/-! ## A250951.P17902728285731527695
+
+`ogf((209-391x-128x^2)/(1-15x+24x^2+8x^3))`
+-/
+
+namespace A250951.P17902728285731527695
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [209, -391, -128] [1, -15, 24, 8] n
+
+end
+
+end A250951.P17902728285731527695
 
 /-! ## A250951.P7276123166491270329
 
@@ -2241,8 +2368,29 @@ end A250966.P10052349023876422746
 /-!
 # A250967: Number of (n+1) X (2+1) 0..1 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
 
-The programs for A250967, there is no canonical definition to state claims against.
+The programs for A250967, the canonical program `A250967.P2207065654884198302` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250967 has offset 1).
+
+The definition of A250967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250967.P2207065654884198302
+
+`ogf((49-84x+118x^2-108x^3+24x^4)/(1-8x+13x^2-17x^3+14x^4-3x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A250967
+
+/-- `ogf((49-84x+118x^2-108x^3+24x^4)/(1-8x+13x^2-17x^3+14x^4-3x^5))` -/
+def P2207065654884198302.Spec : Prop :=
+  ∀ n, P2207065654884198302.a n = A250967 (n + 1)
+
+theorem P2207065654884198302.correct : P2207065654884198302.Spec := by
+  intro n
+  simp only [A250967, Nat.add_sub_cancel]
+
+end A250967
 
 /-! ## A250967.P13550822209027303919
 
@@ -2262,6 +2410,14 @@ end
 
 end A250967.P13550822209027303919
 
+namespace A250967
+
+/-- `A250973(∑[n+1]+2)` -/
+def P13550822209027303919.Spec : Prop :=
+  ∀ n, P13550822209027303919.a n = A250967 (n + 1)
+
+end A250967
+
 /-! ## A250967.P8539748527480792980
 
 `record[root(A250973(n+2), A002260(n+1))]`
@@ -2280,6 +2436,14 @@ end
 
 end A250967.P8539748527480792980
 
+namespace A250967
+
+/-- `record[root(A250973(n+2), A002260(n+1))]` -/
+def P8539748527480792980.Spec : Prop :=
+  ∀ n, P8539748527480792980.a n = (A250967 (n + 1) : ℝ)
+
+end A250967
+
 /-! ## A250967.P5373533146396176289
 
 `record[gcd(A250973(n+3), A323128(n+1))]`
@@ -2297,6 +2461,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A250967.P5373533146396176289
+
+namespace A250967
+
+/-- `record[gcd(A250973(n+3), A323128(n+1))]` -/
+def P5373533146396176289.Spec : Prop :=
+  ∀ n, (P5373533146396176289.a n : ℤ) = A250967 (n + 1)
+
+end A250967
 
 /-! ## A250967.P1973621173592829347
 
@@ -2319,23 +2491,13 @@ end
 
 end A250967.P1973621173592829347
 
-/-! ## A250967.P760862499656380075
+namespace A250967
 
-`record[A250973(n+2)/A173007(n+2)]`
--/
+/-- `record[A250973(Δ[A003453(n+5)])]` -/
+def P1973621173592829347.Spec : Prop :=
+  ∀ n, P1973621173592829347.a n = A250967 (n + 1)
 
-namespace A250967.P760862499656380075
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A250973 (n + 2) : ℚ) / (A173007 (n + 2) : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A250967.P760862499656380075
+end A250967
 
 /-!
 # A250968: Number of (n+1)X(3+1) 0..1 arrays with no 2X2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
@@ -2538,7 +2700,7 @@ end A250974.P15885450773627636314
 /-!
 # A250975: Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.
 
-The programs for A250975, the canonical program `A250975.P601089595799035481` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250975 has offset 1).
+The programs for A250975, the canonical program `A250975.P601089595799035481` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250975 has offset 1).
 
 The definition of A250975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2547,7 +2709,7 @@ The definition of A250975 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((71-77x+111x^2-53x^3+9x^4)/(1-9x+10x^2-13x^3+6x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250975
@@ -3071,7 +3233,7 @@ end A250986.P11232722803159318596
 /-!
 # A250987: Number of (n+1) X (1+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250987, the canonical program `A250987.P6650806411397819807` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250987 has offset 1).
+The programs for A250987, the canonical program `A250987.P6650806411397819807` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250987 has offset 1).
 
 The definition of A250987 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3080,7 +3242,7 @@ The definition of A250987 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((40-82x-56x^2+77x^3+56x^4+9x^5)/(1-6x+7x^2+8x^3-7x^4-6x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250987
@@ -3379,7 +3541,7 @@ end A250993.P2619839383729188920
 /-!
 # A250995: Number of (1+1) X (n+1) 0..2 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250995, the canonical program `A250995.P16026508920375765628` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250995 has offset 1).
+The programs for A250995, the canonical program `A250995.P16026508920375765628` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250995 has offset 1).
 
 The definition of A250995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 204 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3388,7 +3550,7 @@ The definition of A250995 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((40-71x-88x^2+146x^3+94x^4-48x^5-27x^6)/(1-6x+7x^2+12x^3-15x^4-11x^5+5x^6+3x^7))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250995

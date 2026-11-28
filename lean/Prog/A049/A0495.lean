@@ -13,24 +13,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C017
+import Seq.B000.C013
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,15 +69,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2539,7 +2539,7 @@ end A049512.P17050951981595032533
 /-!
 # A049513: Array T by antidiagonals: T(k,n) = k*n*2^(n-1) + 1, n >= 0, k >= 0.
 
-The programs for A049513, the canonical program `A049513.P6541440607304224933` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049513 has offset 0).
+The programs for A049513, the canonical program `A049513.P6541440607304224933` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049513 has offset 0).
 
 The definition of A049513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2548,7 +2548,7 @@ The definition of A049513 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)-col(n))*col(n)*2^(col(n)-1)+1`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049513
@@ -3065,27 +3065,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049519.P11005137475567751502
-
-/-!
-# A049520: Starting index of a string of exactly 4 consecutive equal digits in decimal expansion of Pi.
-
-The programs for A049520, there is no canonical definition to state claims against.
--/
-
-/-! ## A049520.P15542614565456397002
-
-`A049516(n+4)`
--/
-
-namespace A049520.P15542614565456397002
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049516 (n + 4)
-
-end
-
-end A049520.P15542614565456397002
 
 /-!
 # A049521: Starting index of a string of exactly 5 consecutive equal digits in decimal expansion of Pi.
@@ -4927,24 +4906,6 @@ end A049542.P12441398696776786875
 The programs for A049543, there is no canonical definition to state claims against.
 -/
 
-/-! ## A049543.P18121740876335784265
-
-`p?[A318536(n+1)+0]`
--/
-
-namespace A049543.P18121740876335784265
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318536 (n + 1) + 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A049543.P18121740876335784265
-
 /-! ## A049543.P3136935083607026620
 
 `A000040(lt[A063851(n+4), A048376(n+1)])`
@@ -5207,28 +5168,6 @@ end
 
 end A049544.P18244301069111142278
 
-/-! ## A049544.P4630507600270709463
-
-`∪[A049556(n+1), A049568(n+1)]`
--/
-
-namespace A049544.P4630507600270709463
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049556 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049568 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A049544.P4630507600270709463
-
 /-!
 # A049545: Primes p such that x^13 = 2 has a solution mod p.
 
@@ -5273,21 +5212,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049545.P18400500130527129704
-
-/-! ## A049545.P3105041509665647333
-
-`A127566(n+1)`
--/
-
-namespace A049545.P3105041509665647333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127566 (n + 1)
-
-end
-
-end A049545.P3105041509665647333
 
 /-! ## A049545.P5191015972103563304
 
@@ -5895,7 +5819,7 @@ end A049547.P13326203158138307494
 /-!
 # A049548: a(n+1) = smallest number not containing any digits of a(n), working in base 4.
 
-The programs for A049548, the canonical program `A049548.P4169949216305954109` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049548 has offset 0).
+The programs for A049548, the canonical program `A049548.P4169949216305954109` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049548 has offset 0).
 
 The definition of A049548 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5927,7 +5851,7 @@ end A049548
 
 `4*a(n-2)+a(n-2)%4` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=10, a(6)=12, a(7)=21, a(8)=32, a(9)=53`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049548
@@ -8599,21 +8523,6 @@ end
 
 end A049560.P14285358703725611258
 
-/-! ## A049560.P12505816528917346531
-
-`A049588(n+1)`
--/
-
-namespace A049560.P12505816528917346531
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049588 (n + 1)
-
-end
-
-end A049560.P12505816528917346531
-
 /-! ## A049560.P2391643781613189721
 
 `∩[A002157(n+1), A130903(n+1)]`
@@ -9432,21 +9341,6 @@ end A049563
 The programs for A049564, there is no canonical definition to state claims against.
 -/
 
-/-! ## A049564.P7594057545036340040
-
-`A072936(1+n)`
--/
-
-namespace A049564.P7594057545036340040
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072936 (1 + n)
-
-end
-
-end A049564.P7594057545036340040
-
 /-! ## A049564.P8196512485009185602
 
 `record[p?[A014661(A032742(n+1))]]`
@@ -10141,24 +10035,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A049567.P16823617308044715591
-
-/-! ## A049567.P3954311733617335853
-
-`p?[1+A235933(n+1)]`
--/
-
-namespace A049567.P3954311733617335853
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A235933 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A049567.P3954311733617335853
 
 /-! ## A049567.P3757078021995945641
 
@@ -12909,7 +12785,7 @@ end A049579
 /-!
 # A049581: Table T(n,k) = |n-k| read by antidiagonals (n >= 0, k >= 0).
 
-The programs for A049581, the canonical program `A049581.P10108526043471454015` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049581 has offset 0).
+The programs for A049581, the canonical program `A049581.P10108526043471454015` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049581 has offset 0).
 
 The definition of A049581 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12918,7 +12794,7 @@ The definition of A049581 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `abs(row(n)-2*col(n))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049581
@@ -16845,7 +16721,7 @@ end A049597.P2413007974785140218
 /-!
 # A049598: 12 times triangular numbers.
 
-The programs for A049598, the canonical program `A049598.P15670095646145140517` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049598 has offset 0).
+The programs for A049598, the canonical program `A049598.P15670095646145140517` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049598 has offset 0).
 
 The definition of A049598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16854,7 +16730,7 @@ The definition of A049598 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*n*(n+1)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049598
@@ -17557,29 +17433,6 @@ namespace A049599
 /-- `∏{e}[(n+1)², A001222(A000326(#))+1]` -/
 def P8466270251237266241.Spec : Prop :=
   ∀ n, P8466270251237266241.a n = A049599 (n + 1)
-
-end A049599
-
-/-! ## A049599.P12249360821189814189
-
-`A282446(n+1)`
--/
-
-namespace A049599.P12249360821189814189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A282446 (n + 1)
-
-end
-
-end A049599.P12249360821189814189
-
-namespace A049599
-
-/-- `A282446(n+1)` -/
-def P12249360821189814189.Spec : Prop :=
-  ∀ n, P12249360821189814189.a n = A049599 (n + 1)
 
 end A049599
 

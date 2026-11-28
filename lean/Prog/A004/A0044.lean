@@ -9,31 +9,30 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C045
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C046
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C048
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,22 +48,22 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C001
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,7 +72,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C009
+import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -88,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2428,29 +2426,6 @@ theorem P6931604967134641074.correct : P6931604967134641074.Spec := by
 
 end A004428
 
-/-! ## A004428.P15311540831608522223
-
-`A000196(1*A169669(n))`
--/
-
-namespace A004428.P15311540831608522223
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (1 * A169669 n).toNat
-
-end
-
-end A004428.P15311540831608522223
-
-namespace A004428
-
-/-- `A000196(1*A169669(n))` -/
-def P15311540831608522223.Spec : Prop :=
-  ∀ n, P15311540831608522223.a n = A004428 n
-
-end A004428
-
 /-! ## A004428.P6016451542987787471
 
 `A000030(A257294(n))`
@@ -2477,9 +2452,7 @@ end A004428
 /-!
 # A004429: Geometric mean of digits of n (rounded to nearest integer).
 
-The programs for A004429, the canonical program `A004429.P2959638098961604094` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004429 has offset 0).
-
-The definition of A004429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A004429, there is no canonical definition to state claims against.
 -/
 
 /-! ## A004429.P7084994227181122674
@@ -2496,56 +2469,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A004429.P7084994227181122674
-
-namespace A004429
-
-/-- `A000194(A169669(A087019(n)))` -/
-def P7084994227181122674.Spec : Prop :=
-  ∀ n, P7084994227181122674.a n = A004429 n
-
-end A004429
-
-/-! ## A004429.P12619076870424921217
-
-`round(sqrt(A169669(n)))`
--/
-
-namespace A004429.P12619076870424921217
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (A169669 n : ℝ))
-
-end
-
-end A004429.P12619076870424921217
-
-namespace A004429
-
-/-- `round(sqrt(A169669(n)))` -/
-def P12619076870424921217.Spec : Prop :=
-  ∀ n, P12619076870424921217.a n = A004429 n
-
-end A004429
-
-/-! ## A004429.P2959638098961604094
-
-`A000194(A111707(n))`
-
-The canonical program, it is in `Seq.B003.C000`.
--/
-
-namespace A004429
-
-/-- `A000194(A111707(n))` -/
-def P2959638098961604094.Spec : Prop :=
-  ∀ n, P2959638098961604094.a n = A004429 n
-
-theorem P2959638098961604094.correct : P2959638098961604094.Spec := by
-  intro n
-  simp only [A004429]
-
-end A004429
 
 /-!
 # A004430: Geometric mean of digits of n (rounded up).
@@ -2571,52 +2494,6 @@ def P11810127236053750403.Spec : Prop :=
 theorem P11810127236053750403.correct : P11810127236053750403.Spec := by
   intro n
   simp only [A004430]
-
-end A004430
-
-/-! ## A004430.P5223378228476651835
-
-`ceil(sqrt(A111707(n)))`
--/
-
-namespace A004430.P5223378228476651835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (A111707 n : ℝ)⌉
-
-end
-
-end A004430.P5223378228476651835
-
-namespace A004430
-
-/-- `ceil(sqrt(A111707(n)))` -/
-def P5223378228476651835.Spec : Prop :=
-  ∀ n, P5223378228476651835.a n = A004430 n
-
-end A004430
-
-/-! ## A004430.P18143623356996970932
-
-`ceil(sqrt(A169669(n)))`
--/
-
-namespace A004430.P18143623356996970932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (A169669 n : ℝ)⌉
-
-end
-
-end A004430.P18143623356996970932
-
-namespace A004430
-
-/-- `ceil(sqrt(A169669(n)))` -/
-def P18143623356996970932.Spec : Prop :=
-  ∀ n, P18143623356996970932.a n = A004430 n
 
 end A004430
 
@@ -3954,33 +3831,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004433.P1004227843340913429
-
-/-!
-# A004434: Numbers that are the sum of 5 distinct nonzero squares.
-
-The programs for A004434, there is no canonical definition to state claims against.
--/
-
-/-! ## A004434.P9785990290217842963
-
-`lt[0, A025444(n)]`
--/
-
-namespace A004434.P9785990290217842963
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025444 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A004434.P9785990290217842963
 
 /-!
 # A004435: Positive integers that are not the sum of 2 distinct square integers.
@@ -21838,36 +21688,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A004489.P2735853079665352944
-
-/-! ## A004489.P13455304989021956080
-
-`A307296(n)`
--/
-
-namespace A004489.P13455304989021956080
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307296 n
-
-end
-
-end A004489.P13455304989021956080
-
-/-! ## A004489.P6092869935179528404
-
-`A004481(n)`
--/
-
-namespace A004489.P6092869935179528404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004481 n
-
-end
-
-end A004489.P6092869935179528404
 
 /-!
 # A004490: Colossally abundant numbers: integers m > 1 for which there is a positive exponent epsilon such that sigma(m)/m^{1 + epsilon} >= sigma(k)/k^{1 + epsilon} for all k > 1, so that m attains the maximum value of sigma(m)/m^{1 + epsilon}.

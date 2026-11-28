@@ -13,26 +13,26 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,22 +48,22 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +80,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -88,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -98,7 +96,7 @@ set_option linter.unreachableTactic false
 /-!
 # A240001: Number of 2 X n 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
+The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
 
 The definition of A240001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -315,7 +313,7 @@ end A240001
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=5, a(1)=13, a(2)=25, a(3)=42`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240001
@@ -589,8 +587,29 @@ end A240001
 /-!
 # A240002: Number of 3 X n 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240002, there is no canonical definition to state claims against.
+The programs for A240002, the canonical program `A240002.P12458409941155073930` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240002 has offset 1).
+
+The definition of A240002 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A240002.P12458409941155073930
+
+`ogf((12-47x+73x^2+4x^3-244x^4+558x^5-737x^6+651x^7-375x^8+86x^9+91x^10-128x^11+80x^12-27x^13+4x^14)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A240002
+
+/-- `ogf((12-47x+73x^2+4x^3-244x^4+558x^5-737x^6+651x^7-375x^8+86x^9+91x^10-128x^11+80x^12-27x^13+4x^14)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P12458409941155073930.Spec : Prop :=
+  ∀ n, P12458409941155073930.a n = A240002 (n + 1)
+
+theorem P12458409941155073930.correct : P12458409941155073930.Spec := by
+  intro n
+  simp only [A240002, Nat.add_sub_cancel]
+
+end A240002
 
 /-! ## A240002.P6949148210303301443
 
@@ -609,6 +628,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A240002.P6949148210303301443
+
+namespace A240002
+
+/-- `A240000(∑[n+2]+4)` -/
+def P6949148210303301443.Spec : Prop :=
+  ∀ n, P6949148210303301443.a n = A240002 (n + 1)
+
+end A240002
 
 /-!
 # A240003: Number of 4Xn 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
@@ -816,36 +843,6 @@ end A240008.P17251120875355077748
 
 The programs for A240009, there is no canonical definition to state claims against.
 -/
-
-/-! ## A240009.P1779400748243272485
-
-`A004111(A242498(n))`
--/
-
-namespace A240009.P1779400748243272485
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004111 (A242498 n).toNat
-
-end
-
-end A240009.P1779400748243272485
-
-/-! ## A240009.P7014470195209395126
-
-`A135929(A048720(n+4))`
--/
-
-namespace A240009.P7014470195209395126
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135929 (A048720 (n + 4)).toNat
-
-end
-
-end A240009.P7014470195209395126
 
 /-! ## A240009.P18429242994509745346
 
@@ -1876,29 +1873,6 @@ def P11405376672386878368.Spec : Prop :=
 
 end A240022
 
-/-! ## A240022.P13198481384657261167
-
-`(n+1)*(A050683(n+1)+0^n)`
--/
-
-namespace A240022.P13198481384657261167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (A050683 (n + 1) + (0 ^ n : ℤ))
-
-end
-
-end A240022.P13198481384657261167
-
-namespace A240022
-
-/-- `(n+1)*(A050683(n+1)+0^n)` -/
-def P13198481384657261167.Spec : Prop :=
-  ∀ n, P13198481384657261167.a n = A240022 (n + 1)
-
-end A240022
-
 /-! ## A240022.P8687483316787328264
 
 `(n+1)*(A000007(n)+lcm(9, A004663(n)))`
@@ -2114,21 +2088,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A240024.P5687371006537738313
-
-/-! ## A240024.P13328475366277469842
-
-`A140209(A238862(n+1))`
--/
-
-namespace A240024.P13328475366277469842
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140209 (A238862 (n + 1)).toNat
-
-end
-
-end A240024.P13328475366277469842
 
 /-!
 # A240025: Characteristic function of quarter squares, cf. A002620.
@@ -2940,7 +2899,7 @@ end A240033.P17875422110861370639
 /-!
 # A240034: Number of n X 3 0..2 arrays with no element equal to zero plus the sum of elements to its left or zero plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 3.
 
-The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
+The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
 
 The definition of A240034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 444 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2972,7 +2931,7 @@ end A240034
 
 `4*a(n-2)-3*a(n-4)-a(n-6)` with `a(0)=4, a(1)=6, a(2)=16, a(3)=16, a(4)=42, a(5)=44, a(6)=114`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240034
@@ -5026,21 +4985,6 @@ end
 
 end A240064.P14638671821435768724
 
-/-! ## A240064.P6696008696004111013
-
-`A240063(n+3)+A240063(n)/(-1)`
--/
-
-namespace A240064.P6696008696004111013
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A240063 (n + 3) : ℚ) + (A240063 n : ℚ) / (-1)
-
-end
-
-end A240064.P6696008696004111013
-
 /-!
 # A240065: Number of partitions of n such that m(2) > m(3), where m = multiplicity.
 
@@ -5124,27 +5068,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A240065.P11914949849475797549
-
-/-!
-# A240066: Twice prime nonnegative octonion integers shown as 8-vectors sorted by norm and then real and 7 imaginary components.
-
-The programs for A240066, there is no canonical definition to state claims against.
--/
-
-/-! ## A240066.P7755235365107041979
-
-`A240067(1+n)`
--/
-
-namespace A240066.P7755235365107041979
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240067 (1 + n)
-
-end
-
-end A240066.P7755235365107041979
 
 /-!
 # A240067: Twice prime octonion integers shown as 8-vectors sorted by norm and then real and 7 imaginary components.
@@ -6167,21 +6090,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A240075.P8993198412508233603
-
-/-! ## A240075.P9684804963984468692
-
-`-1+A240555(n+1)`
--/
-
-namespace A240075.P9684804963984468692
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A240555 (n + 1)
-
-end
-
-end A240075.P9684804963984468692
 
 /-! ## A240075.P13822597971101597215
 
@@ -7908,27 +7816,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A240092.P11591196520690170460
-
-/-!
-# A240095: Numbers with primitive root -14.
-
-The programs for A240095, there is no canonical definition to state claims against.
--/
-
-/-! ## A240095.P16907669748573475515
-
-`A105886(n+1)`
--/
-
-namespace A240095.P16907669748573475515
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105886 (n + 1)
-
-end
-
-end A240095.P16907669748573475515
 
 /-!
 # A240098: Product of the greatest common divisors of n and k! over k=0..n-1.

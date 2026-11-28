@@ -1,0 +1,30 @@
+import Prog.A180.A1808
+import Proof.Lib.Integral
+
+/-- A180844: the name formula, an integer: it satisfies a linear recurrence of order 2 with integer coefficients. -/
+theorem A180844.anchor (n : ℕ) :
+    (A180844 n : ℚ) = ((27 ^ n : ℤ) - (2 ^ n : ℤ) : ℚ) / 25 := by
+  have hr : ∀ m, A180844.P12562999779154666058.a (m + 2) = (29 : ℚ) * A180844.P12562999779154666058.a (m + 1) + (-54 : ℚ) * A180844.P12562999779154666058.a m := by
+    intro m
+    simp only [A180844.P12562999779154666058.a, SequenceMachineLib.memo_apply]
+    push_cast
+    ring
+  have hz : ∀ n, ∃ z : ℤ, A180844.P12562999779154666058.a n = (z : ℚ) := by
+    intro n
+    induction n using Nat.strong_induction_on with
+    | _ n ih =>
+      rcases Nat.lt_or_ge n 2 with h | h
+      · interval_cases n
+        · exact ⟨0, by norm_num [A180844.P12562999779154666058.a, SequenceMachineLib.memo_apply]⟩
+        · exact ⟨1, by norm_num [A180844.P12562999779154666058.a, SequenceMachineLib.memo_apply]⟩
+      · obtain ⟨m, rfl⟩ := Nat.exists_eq_add_of_le' h
+        obtain ⟨z1, h1⟩ := ih (m + 1) (by omega)
+        obtain ⟨z0, h0⟩ := ih m (by omega)
+        refine ⟨29 * z1 + -54 * z0, ?_⟩
+        rw [hr, h1, h0]
+        push_cast
+        ring
+  obtain ⟨z, hz⟩ := hz n
+  have e : A180844.P12562999779154666058.a n = ((27 ^ n : ℤ) - (2 ^ n : ℤ) : ℚ) / 25 := by simp only [A180844.P12562999779154666058.a, SequenceMachineLib.memo_apply]
+  rw [← e, hz]
+  simp only [A180844, hz, SequenceProof.roundAway_intCast]

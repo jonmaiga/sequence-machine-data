@@ -7,23 +7,21 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -40,19 +38,17 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B005.C003
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +62,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -77,7 +72,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 /-!
@@ -3657,6 +3651,33 @@ theorem P1184175377577680424.correct : P1184175377577680424.Spec := by
 end A146122
 
 /-!
+# A146124: Number of n X n arrays of squares of integers summing to 5 with every element equal to at least one neighbor.
+
+The programs for A146124, the canonical program `A146124.P14883773096444968517` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146124 has offset 2).
+
+The definition of A146124 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A146124.P14883773096444968517
+
+`ogf((32x+356x^2+47x^3-223x^4+89x^5-13x^6)/(1-5x+10x^2-10x^3+5x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C026`.
+-/
+
+namespace A146124
+
+/-- `ogf((32x+356x^2+47x^3-223x^4+89x^5-13x^6)/(1-5x+10x^2-10x^3+5x^4-x^5))` -/
+def P14883773096444968517.Spec : Prop :=
+  ∀ n, P14883773096444968517.a n = A146124 (n + 2)
+
+theorem P14883773096444968517.correct : P14883773096444968517.Spec := by
+  intro n
+  simp only [A146124, Nat.add_sub_cancel]
+
+end A146124
+
+/-!
 # A146127: Number of n X n binary arrays with all ones connected only in a 3X2 zee 1,1 1,2 1,3 2,3 2,4 in any orientation.
 
 The programs for A146127, there is no canonical definition to state claims against.
@@ -5201,7 +5222,7 @@ end A146159.P17928543986077502950
 /-!
 # A146160: Period 4: repeat [1, 4, 1, 16].
 
-The programs for A146160, the canonical program `A146160.P4969135159180931567` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146160 has offset 1).
+The programs for A146160, the canonical program `A146160.P4969135159180931567` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146160 has offset 1).
 
 The definition of A146160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5233,7 +5254,7 @@ end A146160
 
 `gcd(4, n+1)²`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A146160
@@ -6379,7 +6400,7 @@ end A146178.P5297075386637963486
 /-!
 # A146179: Digit sums of Cullen numbers.
 
-The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
+The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
 
 The definition of A146179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6388,7 +6409,7 @@ The definition of A146179 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n*2^n+1, #]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A146179
@@ -6584,27 +6605,6 @@ end
 end A146180.P971925995817347669
 
 /-!
-# A146181: Number of n X n binary arrays symmetric under horizontal reflection with all ones connected only in a 110-111-100 pattern in any orientation.
-
-The programs for A146181, there is no canonical definition to state claims against.
--/
-
-/-! ## A146181.P14418052156007391509
-
-`A146233(n+1)`
--/
-
-namespace A146181.P14418052156007391509
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146233 (n + 1)
-
-end
-
-end A146181.P14418052156007391509
-
-/-!
 # A146182: Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 110-111-100 pattern in any orientation.
 
 The programs for A146182, there is no canonical definition to state claims against.
@@ -6705,21 +6705,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146184.P9341115172453521235
-
-/-! ## A146184.P13904403948144290353
-
-`A058058(n+2)`
--/
-
-namespace A146184.P13904403948144290353
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058058 (n + 2)
-
-end
-
-end A146184.P13904403948144290353
 
 /-! ## A146184.P13799412848107767036
 
@@ -7126,21 +7111,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146193.P6240183978963798623
-
-/-! ## A146193.P16308958120949310449
-
-`A146844(n+3)`
--/
-
-namespace A146193.P16308958120949310449
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146844 (n + 3)
-
-end
-
-end A146193.P16308958120949310449
 
 /-!
 # A146195: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 101-111-100 pattern in any orientation.

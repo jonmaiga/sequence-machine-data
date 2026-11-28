@@ -6,23 +6,23 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C018
+import Seq.B000.C012
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C034
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -32,8 +32,6 @@ import Seq.B004.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -678,7 +676,7 @@ end A197048.P123396509055417223
 /-!
 # A197049: Number of n X 3 0..4 arrays with each element equal to the number its horizontal and vertical zero neighbors.
 
-The programs for A197049, the canonical program `A197049.P5087552465773645348` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197049 has offset 0).
+The programs for A197049, the canonical program `A197049.P5087552465773645348` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197049 has offset 0).
 
 The definition of A197049 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -687,7 +685,7 @@ The definition of A197049 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+x^2+x^3-x^4+x^5-2x^6)/(1-x-x^2-3x^3+x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197049
@@ -777,7 +775,7 @@ end A197049
 /-!
 # A197050: Number of nX4 0..4 arrays with each element equal to the number its horizontal and vertical zero neighbors.
 
-The programs for A197050, the canonical program `A197050.P8303522043283678464` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197050 has offset 1).
+The programs for A197050, the canonical program `A197050.P8303522043283678464` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197050 has offset 1).
 
 The definition of A197050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 247 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -786,7 +784,7 @@ The definition of A197050 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((3+3x+3x^2-3x^3-3x^4-2x^5+x^6)/(1-x-3x^2-3x^3+x^4+2x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197050
@@ -830,7 +828,7 @@ end A197050
 /-!
 # A197051: Number of nX5 0..4 arrays with each element equal to the number its horizontal and vertical zero neighbors.
 
-The programs for A197051, the canonical program `A197051.P4592590031477242241` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197051 has offset 1).
+The programs for A197051, the canonical program `A197051.P4592590031477242241` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197051 has offset 1).
 
 The definition of A197051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 198 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -839,7 +837,7 @@ The definition of A197051 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+6x+12x^2-10x^3-18x^4+2x^5-20x^6+20x^7-50x^8+38x^9-18x^10+2x^11+6x^12+2x^13)/(1-x-4x^2-10x^3-4x^4+20x^5-x^6+2x^7-2x^8+16x^9-4x^10-x^13))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197051
@@ -1051,7 +1049,7 @@ end A197055.P4852410141016118877
 /-!
 # A197056: Number of nX3 0..4 arrays with each element equal to the number its horizontal and vertical neighbors equal to 2.
 
-The programs for A197056, the canonical program `A197056.P7606430672042596512` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197056 has offset 1).
+The programs for A197056, the canonical program `A197056.P7606430672042596512` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197056 has offset 1).
 
 The definition of A197056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 456 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1060,7 +1058,7 @@ The definition of A197056 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+2*a(n-4)+a(n-5)+a(n-6)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=10, a(4)=14, a(5)=22`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197056
@@ -1104,7 +1102,7 @@ end A197056
 /-!
 # A197057: Number of n X 4 0..4 arrays with each element equal to the number its horizontal and vertical neighbors equal to 2.
 
-The programs for A197057, the canonical program `A197057.P15403370465844039455` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197057 has offset 1).
+The programs for A197057, the canonical program `A197057.P15403370465844039455` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197057 has offset 1).
 
 The definition of A197057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 369 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1113,7 +1111,7 @@ The definition of A197057 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+3x+6x^2+7x^3+4x^4-2x^5-6x^6-5x^7-2x^8)/(1-x-x^3-2x^4-3x^5-2x^6+x^7+3x^8+2x^9))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197057
@@ -1157,7 +1155,7 @@ end A197057
 /-!
 # A197058: Number of n X 5 0..4 arrays with each element equal to the number its horizontal and vertical neighbors equal to 2.
 
-The programs for A197058, the canonical program `A197058.P3583979346756199714` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197058 has offset 1).
+The programs for A197058, the canonical program `A197058.P3583979346756199714` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197058 has offset 1).
 
 The definition of A197058 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 315 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1166,7 +1164,7 @@ The definition of A197058 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+3x+5x^2+4x^3-x^4-5x^5-2x^6-2x^7-x^8-6x^9-5x^10-4x^11-x^12)/(1-2x+x^2-x^3-2x^4-3x^5+x^6+2x^7+2x^8-2x^9+2x^10+x^11+3x^12+x^13))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197058
@@ -1251,21 +1249,6 @@ end A197060.P2058683463797633194
 
 The programs for A197061, there is no canonical definition to state claims against.
 -/
-
-/-! ## A197061.P7101093452389672333
-
-`A076935(A134398(n+1))`
--/
-
-namespace A197061.P7101093452389672333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076935 (A134398 (n + 1)).toNat
-
-end
-
-end A197061.P7101093452389672333
 
 /-! ## A197061.P12488707793085410915
 
@@ -2285,7 +2268,7 @@ end A197082.P8762960413991530242
 /-!
 # A197083: Number of solutions to a+b+c = d+e+f with 0 < a <= n, 0 <= b,c,d,e,f <= n.
 
-The programs for A197083, the canonical program `A197083.P9899578085510339531` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197083 has offset 0).
+The programs for A197083, the canonical program `A197083.P9899578085510339531` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197083 has offset 0).
 
 The definition of A197083 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2317,7 +2300,7 @@ end A197083
 
 `n*(n+1)*(66*n^3+209*n²+231*n+94)/120`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197083
@@ -2619,7 +2602,7 @@ end A197091.P1306450812944048529
 /-!
 # A197092: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,4,0,0,1 for x=0,1,2,3,4.
 
-The programs for A197092, the canonical program `A197092.P13488187914355065876` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197092 has offset 1).
+The programs for A197092, the canonical program `A197092.P13488187914355065876` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197092 has offset 1).
 
 The definition of A197092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2651,7 +2634,7 @@ end A197092
 
 `2*a(n-1)+3*a(n-2)-a(n-4)` with `a(0)=1, a(1)=7, a(2)=18, a(3)=55`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A197092

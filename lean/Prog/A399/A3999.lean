@@ -4,22 +4,24 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C024
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C051
+import Seq.B000.C044
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +38,7 @@ import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -43,19 +46,21 @@ import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1256,7 +1261,7 @@ end A399931.P3281940172436978366
 /-!
 # A399934: Six times the maximum area of the convex hull of a polyhex with n cells, where each hexagonal cell has area 1.
 
-The programs for A399934, the canonical program `A399934.P14325894849498318737` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399934 has offset 1).
+The programs for A399934, the canonical program `A399934.P14325894849498318737` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399934 has offset 1).
 
 The definition of A399934 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1265,7 +1270,7 @@ The definition of A399934 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((6+2x+x^2-3x^3)/(1-2x+x^2-x^3+2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A399934
@@ -2360,7 +2365,7 @@ end A399962.P14180431253365318672
 /-!
 # A399964: Triangle read by rows: T(n,k) is the number of pairs of subspaces (U,W) of F_2^n such that U has dimension k and W has codimension 1 in U, 1 <= k <= n.
 
-The programs for A399964, the canonical program `A399964.P15113534240946366544` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399964 has offset 1).
+The programs for A399964, the canonical program `A399964.P15113534240946366544` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399964 has offset 1).
 
 The definition of A399964 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A022166, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2369,7 +2374,7 @@ The definition of A399964 is `conditional`: the Lean definition is an OEIS formu
 
 `A022166(C(row(n)+2, 2)+col(n)+1)*(2^(col(n)+1)-1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A399964
@@ -3770,7 +3775,7 @@ end A399996.P11744406365639233561
 /-!
 # A399998: a(n+1) = a(n-a(a(n))^2) + 1, a(0) = 0.
 
-The programs for A399998, the canonical program `A399998.P756939935722183912` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399998 has offset 0).
+The programs for A399998, the canonical program `A399998.P756939935722183912` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A399998 has offset 0).
 
 The definition of A399998 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3779,7 +3784,7 @@ The definition of A399998 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1-a(a(n-1))²)+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A399998

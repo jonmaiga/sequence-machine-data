@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -12,12 +13,14 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -29,18 +32,21 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,6 +60,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
@@ -67,19 +74,20 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2588,21 +2596,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A173111.P15205943751926764051
-
-/-! ## A173111.P16815517541153522382
-
-`or(A173108(n), A292860(n))`
--/
-
-namespace A173111.P16815517541153522382
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A173108 n) (A292860 n)
-
-end
-
-end A173111.P16815517541153522382
 
 /-! ## A173111.P13428912568890491875
 
@@ -10438,17 +10431,25 @@ end A173153.P12639168093812085388
 /-!
 # A173154: a(n) = n^3/6 + 3*n^2/4 + 7*n/3 + 7/8 + (-1)^n/8.
 
-The programs for A173154, the canonical program `A173154.P1014164428926646777` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173154 has offset 0).
+The programs for A173154, the canonical program `A173154.P13477089028664288753` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173154 has offset 0).
 
-The definition of A173154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A173154 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A173154.anchor (n : ℕ) : (A173154 n : ℚ) = (n ^ 3 : ℚ) / 6 + (3 * n ^ 2 : ℚ) / 4 + (7 * n : ℚ) / 3 + (7 : ℚ) / 8 + ((-1) ^ n : ℚ) / 8` in `Proof.A173.A173154`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A173154.P1014164428926646777
 
 `ogf((1+x-x^3+x^4)/(1-3x+2x^2+2x^3-3x^4+x^5))`
-
-The canonical program, it is in `Seq.B000.C029`.
 -/
+
+namespace A173154.P1014164428926646777
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 0, -1, 1] [1, -3, 2, 2, -3, 1] n
+
+end
+
+end A173154.P1014164428926646777
 
 namespace A173154
 
@@ -10456,28 +10457,14 @@ namespace A173154
 def P1014164428926646777.Spec : Prop :=
   ∀ n, P1014164428926646777.a n = A173154 n
 
-theorem P1014164428926646777.correct : P1014164428926646777.Spec := by
-  intro n
-  simp only [A173154]
-
 end A173154
 
 /-! ## A173154.P13477089028664288753
 
 `n^3/6+3*n²/4+7*n/3+7/8+(-1)^n/8`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C029`.
 -/
-
-namespace A173154.P13477089028664288753
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n ^ 3 : ℚ) / 6 + (3 * n ^ 2 : ℚ) / 4 + (7 * n : ℚ) / 3 + (7 : ℚ) / 8 + ((-1) ^ n : ℚ) / 8
-
-end
-
-end A173154.P13477089028664288753
 
 namespace A173154
 

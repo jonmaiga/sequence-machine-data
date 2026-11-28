@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -18,22 +19,27 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C033
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +48,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
@@ -54,12 +59,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,11 +79,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,20 +92,18 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -535,36 +539,6 @@ end
 
 end A073206.P8665090527331107646
 
-/-! ## A073206.P6859888969609400021
-
-`A130920(A130935(n))`
--/
-
-namespace A073206.P6859888969609400021
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130920 (A130935 n).toNat
-
-end
-
-end A073206.P6859888969609400021
-
-/-! ## A073206.P4388107852028840122
-
-`A085166(n)`
--/
-
-namespace A073206.P4388107852028840122
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085166 n
-
-end
-
-end A073206.P4388107852028840122
-
 /-!
 # A073207: Permutation of natural numbers induced by the Catalan bijection gmA073207 acting on the parenthesizations as ordered by A014486.
 
@@ -814,21 +788,6 @@ end
 
 end A073210.P15036969909904214891
 
-/-! ## A073210.P17461252310533482680
-
-`A127288(A085159(n))`
--/
-
-namespace A073210.P17461252310533482680
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127288 (A085159 n).toNat
-
-end
-
-end A073210.P17461252310533482680
-
 /-! ## A073210.P16847411186259052955
 
 `A127287(A085159(n)%A103915(n))`
@@ -862,7 +821,7 @@ end A073210.P1852835076231629302
 /-!
 # A073211: Sum of two powers of 11.
 
-The programs for A073211, the canonical program `A073211.P15847423621851185682` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073211 has offset 0).
+The programs for A073211, the canonical program `A073211.P15847423621851185682` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073211 has offset 0).
 
 The definition of A073211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -871,7 +830,7 @@ The definition of A073211 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11^col(n)+11^row(n)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073211
@@ -1388,7 +1347,7 @@ end A073212.P4893904734524157204
 /-!
 # A073213: Sum of two powers of 17.
 
-The programs for A073213, the canonical program `A073213.P5693696760680052701` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073213 has offset 0).
+The programs for A073213, the canonical program `A073213.P5693696760680052701` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073213 has offset 0).
 
 The definition of A073213 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1397,7 +1356,7 @@ The definition of A073213 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17^col(n)+17^row(n)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073213
@@ -1507,7 +1466,7 @@ end A073213
 /-!
 # A073214: Sum of two powers of 19.
 
-The programs for A073214, the canonical program `A073214.P11951963538780124210` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073214 has offset 0).
+The programs for A073214, the canonical program `A073214.P11951963538780124210` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073214 has offset 0).
 
 The definition of A073214 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1516,7 +1475,7 @@ The definition of A073214 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19^col(n)+19^row(n)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073214
@@ -1603,7 +1562,7 @@ end A073214
 /-!
 # A073215: Sum of two powers of 23.
 
-The programs for A073215, the canonical program `A073215.P2490760146832419349` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073215 has offset 0).
+The programs for A073215, the canonical program `A073215.P2490760146832419349` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073215 has offset 0).
 
 The definition of A073215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1612,7 +1571,7 @@ The definition of A073215 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `23^col(n)+23^row(n)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073215
@@ -1699,7 +1658,7 @@ end A073215
 /-!
 # A073216: The terms of A055235 (sums of two powers of 3) divided by 2.
 
-The programs for A073216, the canonical program `A073216.P3176121951739489484` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073216 has offset 0).
+The programs for A073216, the canonical program `A073216.P3176121951739489484` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073216 has offset 0).
 
 The definition of A073216 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1708,7 +1667,7 @@ The definition of A073216 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3^row(n)+3^col(n))/2`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073216
@@ -2077,7 +2036,7 @@ end A073217
 /-!
 # A073218: The terms of A055258 (sums of two powers of 7) divided by 2.
 
-The programs for A073218, the canonical program `A073218.P7873809288183201566` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073218 has offset 0).
+The programs for A073218, the canonical program `A073218.P7873809288183201566` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073218 has offset 0).
 
 The definition of A073218 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2086,7 +2045,7 @@ The definition of A073218 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(7^row(n)+7^col(n))/2`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073218
@@ -2221,7 +2180,7 @@ end A073218
 /-!
 # A073219: The terms of A073211 (sums of two powers of 11) divided by 2.
 
-The programs for A073219, the canonical program `A073219.P7030008468250234785` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073219 has offset 1).
+The programs for A073219, the canonical program `A073219.P7030008468250234785` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073219 has offset 1).
 
 The definition of A073219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2230,7 +2189,7 @@ The definition of A073219 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11^row(n)+11^col(n))/2`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073219
@@ -2996,7 +2955,7 @@ end A073224.P10893619566064618385
 /-!
 # A073225: a(n) = ceiling(n^n/n!).
 
-The programs for A073225, the canonical program `A073225.P12806230005723169256` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073225 has offset 0).
+The programs for A073225, the canonical program `A073225.P12806230005723169256` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073225 has offset 0).
 
 The definition of A073225 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(n^n/n!)` (program `A073225.P12806230005723169256`, by `A073225.P12806230005723169256.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3005,7 +2964,7 @@ The definition of A073225 is `verified`: the Lean definition is proven equivalen
 
 `ceil(n^n/n!)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073225
@@ -5677,7 +5636,7 @@ end A073249
 /-!
 # A073251: Numbers k such that k, k+1 and k+2 are nonprime and squarefree.
 
-The programs for A073251, the canonical program `A073251.P16935436493994467128` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073251 has offset 1).
+The programs for A073251, the canonical program `A073251.P16935436493994467128` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073251 has offset 1).
 
 The definition of A073251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5686,7 +5645,7 @@ The definition of A073251 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A121495(n+1)-1, A121495(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A073251
@@ -6037,21 +5996,6 @@ end
 
 end A073253.P14078030802428703712
 
-/-! ## A073253.P7724901478282388663
-
-`A007966(A125226(n+1))`
--/
-
-namespace A073253.P7724901478282388663
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007966 (A125226 (n + 1)).toNat
-
-end
-
-end A073253.P7724901478282388663
-
 /-! ## A073253.P6980039837291726253
 
 `A055090(A091466(n+1))`
@@ -6100,7 +6044,7 @@ end A073253.P18436336620780969748
 /-!
 # A073254: Array read by antidiagonals, A(n,k) = n^2 + n*k + k^2.
 
-The programs for A073254, the canonical program `A073254.P5875854829665146571` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073254 has offset 0).
+The programs for A073254, the canonical program `A073254.P5875854829665146571` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073254 has offset 0).
 
 The definition of A073254 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `col(n)²+col(n)*(row(n)-col(n))+(row(n)-col(n))²` (program `A073254.P5875854829665146571`, by `A073254.P5875854829665146571.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6138,7 +6082,7 @@ end A073254
 
 `col(n)²+col(n)*(row(n)-col(n))+(row(n)-col(n))²`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A073254
@@ -12205,21 +12149,6 @@ end
 
 end A073284.P1580727694784659770
 
-/-! ## A073284.P14156014764700563798
-
-`A130946(n)`
--/
-
-namespace A073284.P14156014764700563798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130946 n
-
-end
-
-end A073284.P14156014764700563798
-
 /-!
 # A073285: Permutation of natural numbers induced by the Catalan bijection gma073285! acting on the parenthesizations encoded by A014486.
 
@@ -12288,21 +12217,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073285.P9405375985433154538
-
-/-! ## A073285.P11489759020810964183
-
-`A130945(n)`
--/
-
-namespace A073285.P11489759020810964183
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130945 n
-
-end
-
-end A073285.P11489759020810964183
 
 /-!
 # A073286: Permutation of natural numbers induced by the composition of the Catalan bijections A069770 & A069767.

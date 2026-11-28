@@ -15,27 +15,29 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +48,7 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -59,17 +62,22 @@ import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -6621,29 +6629,6 @@ def P11333856029581745161.Spec : Prop :=
 
 end A102552
 
-/-! ## A102552.P9864328076945745090
-
-`A036263(n+2)/(-2)`
--/
-
-namespace A102552.P9864328076945745090
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A036263 (n + 2) : ℚ) / (-2)
-
-end
-
-end A102552.P9864328076945745090
-
-namespace A102552
-
-/-- `A036263(n+2)/(-2)` -/
-def P9864328076945745090.Spec : Prop :=
-  ∀ n, P9864328076945745090.a n = (A102552 (n + 3) : ℚ)
-
-end A102552
-
 /-! ## A102552.P1921326590522321813
 
 `Δ[-(A001223(n+2)/2)]`
@@ -7358,27 +7343,6 @@ end
 end A102555.P3898929004895411698
 
 /-!
-# A102556: Numerator of the probability that 2n-dimensional Gaussian random triangle has an obtuse angle.
-
-The programs for A102556, there is no canonical definition to state claims against.
--/
-
-/-! ## A102556.P3432304039744417697
-
-`lcm(3, A123130(n+1))`
--/
-
-namespace A102556.P3432304039744417697
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 3 (A123130 (n + 1))
-
-end
-
-end A102556.P3432304039744417697
-
-/-!
 # A102558: Numerator of the probability that (2n+1)-dimensional Gaussian random triangle has an obtuse angle.
 
 The programs for A102558, there is no canonical definition to state claims against.
@@ -7956,7 +7920,7 @@ end A102562
 /-!
 # A102563: a(n) = A000120(A001045(n)) - A001045(A000120(n)).
 
-The programs for A102563, the canonical program `A102563.P3663340639075979939` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102563 has offset 0).
+The programs for A102563, the canonical program `A102563.P3663340639075979939` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102563 has offset 0).
 
 The definition of A102563 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7965,7 +7929,7 @@ The definition of A102563 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(n/2-A102396(n))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A102563
@@ -10152,7 +10116,7 @@ end A102572
 /-!
 # A102574: a(n) is the sum of the distinct norms of the divisors of n over the Gaussian integers.
 
-The programs for A102574, the canonical program `A102574.P1268727041184621016` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102574 has offset 1).
+The programs for A102574, the canonical program `A102574.P1268727041184621016` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102574 has offset 1).
 
 The definition of A102574 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A097706, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10161,7 +10125,7 @@ The definition of A102574 is `conditional`: the Lean definition is an OEIS formu
 
 `A001157(A097706(n+1))*A000203(((n+1)/A097706(n+1))²)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A102574
@@ -10830,24 +10794,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A102584.P5334289054324154287
-
-/-! ## A102584.P15262719750803432302
-
-`A093101(Δ[(n+1)²])^1/2`
--/
-
-namespace A102584.P15262719750803432302
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A093101 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat ^ 1 : ℚ) / 2
-
-end
-
-end A102584.P15262719750803432302
 
 /-! ## A102584.P11746093512037746629
 

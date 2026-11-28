@@ -4,6 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -11,7 +12,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,10 +20,10 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -37,14 +38,14 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,27 +67,27 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -116,27 +117,6 @@ import SequenceMachineLib.Triangle
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
-
-/-!
-# A004600: Expansion of e in base 9.
-
-The programs for A004600, there is no canonical definition to state claims against.
--/
-
-/-! ## A004600.P5463570477020898337
-
-`A332395(n+1)`
--/
-
-namespace A004600.P5463570477020898337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332395 (n + 1)
-
-end
-
-end A004600.P5463570477020898337
 
 /-!
 # A004601: Expansion of Pi in base 2 (or, binary expansion of Pi).
@@ -4701,7 +4681,7 @@ end A004626.P7495366934531744555
 /-!
 # A004627: Divisible only by primes congruent to 5 mod 8.
 
-The programs for A004627, the canonical program `A004627.P17803393918126401768` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004627 has offset 1).
+The programs for A004627, the canonical program `A004627.P17803393918126401768` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004627 has offset 1).
 
 The definition of A004627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4710,7 +4690,7 @@ The definition of A004627 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(A170818(n+1), A331671(n+1))]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A004627
@@ -6146,7 +6126,7 @@ end A004635
 /-!
 # A004636: Cubes written in base 6.
 
-The programs for A004636, the canonical program `A004636.P16934985574942812478` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004636 has offset 1).
+The programs for A004636, the canonical program `A004636.P16934985574942812478` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004636 has offset 1).
 
 The definition of A004636 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007092, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6155,7 +6135,7 @@ The definition of A004636 is `conditional`: the Lean definition is an OEIS formu
 
 `A007092((n+1)^3)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A004636
@@ -6199,7 +6179,7 @@ end A004636
 /-!
 # A004637: Cubes written in base 7.
 
-The programs for A004637, the canonical program `A004637.P12728284506072076378` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004637 has offset 1).
+The programs for A004637, the canonical program `A004637.P12728284506072076378` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004637 has offset 1).
 
 The definition of A004637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6208,7 +6188,7 @@ The definition of A004637 is `conditional`: the Lean definition is an OEIS formu
 
 `A007093((n+1)^3)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A004637
@@ -13630,7 +13610,7 @@ end A004679
 /-!
 # A004680: Primes written in base 6.
 
-The programs for A004680, the canonical program `A004680.P14848683094212393350` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004680 has offset 1).
+The programs for A004680, the canonical program `A004680.P14848683094212393350` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004680 has offset 1).
 
 The definition of A004680 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007092, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13639,7 +13619,7 @@ The definition of A004680 is `conditional`: the Lean definition is an OEIS formu
 
 `A007092(A000040(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A004680
@@ -13687,7 +13667,7 @@ end A004680
 /-!
 # A004681: Primes written in base 7.
 
-The programs for A004681, the canonical program `A004681.P6543521190367065348` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004681 has offset 1).
+The programs for A004681, the canonical program `A004681.P6543521190367065348` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004681 has offset 1).
 
 The definition of A004681 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13696,7 +13676,7 @@ The definition of A004681 is `conditional`: the Lean definition is an OEIS formu
 
 `A007093(A000040(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A004681

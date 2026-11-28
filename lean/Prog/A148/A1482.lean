@@ -2,34 +2,37 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
+import Seq.B000.C008
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,26 +43,26 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -914,78 +917,6 @@ end
 
 end A148214.P17054119708320118606
 
-/-! ## A148214.P11201615781026030881
-
-`A148215(n)`
--/
-
-namespace A148214.P11201615781026030881
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148215 n
-
-end
-
-end A148214.P11201615781026030881
-
-/-!
-# A148217: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, -1), (-1, -1, 0), (-1, 1, -1), (1, -1, 0), (1, 0, 1)}.
-
-The programs for A148217, there is no canonical definition to state claims against.
--/
-
-/-! ## A148217.P11957319387603424491
-
-`A148218(n)`
--/
-
-namespace A148217.P11957319387603424491
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148218 n
-
-end
-
-end A148217.P11957319387603424491
-
-/-!
-# A148219: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, -1), (-1, 0, 1), (0, 1, 1), (1, -1, -1)}.
-
-The programs for A148219, there is no canonical definition to state claims against.
--/
-
-/-! ## A148219.P7584518183916030009
-
-`A148220(n)`
--/
-
-namespace A148219.P7584518183916030009
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148220 n
-
-end
-
-end A148219.P7584518183916030009
-
-/-! ## A148219.P14602328227155765561
-
-`A148221(n)`
--/
-
-namespace A148219.P14602328227155765561
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148221 n
-
-end
-
-end A148219.P14602328227155765561
-
 /-!
 # A148223: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, -1, 1), (-1, 1, -1), (1, -1, 0), (1, 0, 1)}.
 
@@ -1824,21 +1755,6 @@ end
 
 end A148241.P3558541151663500971
 
-/-! ## A148241.P3162922705014236601
-
-`A148242(n)`
--/
-
-namespace A148241.P3162922705014236601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148242 n
-
-end
-
-end A148241.P3162922705014236601
-
 /-!
 # A148243: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, -1), (-1, 1, 1), (0, -1, 1), (1, 0, 0)}.
 
@@ -2361,21 +2277,6 @@ end
 
 end A148257.P8251600825655277680
 
-/-! ## A148257.P8010874213981052731
-
-`A148258(n)`
--/
-
-namespace A148257.P8010874213981052731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148258 n
-
-end
-
-end A148257.P8010874213981052731
-
 /-! ## A148257.P7248371765551388740
 
 `A316094(A165433(n))`
@@ -2397,36 +2298,6 @@ end A148257.P7248371765551388740
 The programs for A148260, there is no canonical definition to state claims against.
 -/
 
-/-! ## A148260.P589198361328506031
-
-`A148261(n)`
--/
-
-namespace A148260.P589198361328506031
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148261 n
-
-end
-
-end A148260.P589198361328506031
-
-/-! ## A148260.P15228445825922493977
-
-`A148262(n)`
--/
-
-namespace A148260.P15228445825922493977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148262 n
-
-end
-
-end A148260.P15228445825922493977
-
 /-! ## A148260.P13321609354843355426
 
 `A148263(A073788(n))`
@@ -2441,27 +2312,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148260.P13321609354843355426
-
-/-!
-# A148261: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, -1), (-1, 1, 1), (0, 1, 1), (1, -1, -1)}.
-
-The programs for A148261, there is no canonical definition to state claims against.
--/
-
-/-! ## A148261.P15228445825922493977
-
-`A148262(n)`
--/
-
-namespace A148261.P15228445825922493977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148262 n
-
-end
-
-end A148261.P15228445825922493977
 
 /-!
 # A148264: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, -1), (-1, 1, 1), (1, -1, -1), (1, 0, 0)}.
@@ -2483,21 +2333,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148264.P8004653801198474517
-
-/-! ## A148264.P17999781747487679488
-
-`A148265(n)`
--/
-
-namespace A148264.P17999781747487679488
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148265 n
-
-end
-
-end A148264.P17999781747487679488
 
 /-! ## A148264.P11644681207213224577
 
@@ -2645,21 +2480,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148269.P5266986985189219466
-
-/-! ## A148269.P6165176081047829552
-
-`A148270(n)`
--/
-
-namespace A148269.P6165176081047829552
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148270 n
-
-end
-
-end A148269.P6165176081047829552
 
 /-! ## A148269.P6116286090667660705
 
@@ -2828,27 +2648,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148275.P10389270565268557492
-
-/-!
-# A148277: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 1, -1), (-1, 1, 1), (1, -1, 1), (1, 0, 0)}.
-
-The programs for A148277, there is no canonical definition to state claims against.
--/
-
-/-! ## A148277.P13837117399500878991
-
-`A148278(n)`
--/
-
-namespace A148277.P13837117399500878991
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148278 n
-
-end
-
-end A148277.P13837117399500878991
 
 /-!
 # A148279: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, -1, 1), (-1, 1, 1), (1, 0, -1), (1, 0, 0)}.
@@ -3473,21 +3272,6 @@ end A148288.P14309909768483997211
 The programs for A148289, there is no canonical definition to state claims against.
 -/
 
-/-! ## A148289.P4206726456609162433
-
-`A148290(n)`
--/
-
-namespace A148289.P4206726456609162433
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148290 n
-
-end
-
-end A148289.P4206726456609162433
-
 /-! ## A148289.P5956602052452933500
 
 `Δ[A343238(a(n-1))]` with `a(0)=5`
@@ -3541,21 +3325,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148291.P18295803683831426416
-
-/-! ## A148291.P12462398153103844248
-
-`A151259(n)`
--/
-
-namespace A148291.P12462398153103844248
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151259 n
-
-end
-
-end A148291.P12462398153103844248
 
 /-!
 # A148292: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, 1), (-1, 1, 0), (0, 0, 1), (1, 0, -1)}.
@@ -3847,21 +3616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148296.P3142595287105469545
-
-/-! ## A148296.P16576656992190053734
-
-`A148297(n)`
--/
-
-namespace A148296.P16576656992190053734
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148297 n
-
-end
-
-end A148296.P16576656992190053734
 
 /-!
 # A148297: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, 0, 0), (-1, 0, 1), (0, 0, -1), (0, 1, 0), (1, -1, 0)}.

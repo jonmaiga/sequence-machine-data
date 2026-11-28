@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -23,14 +22,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -39,9 +39,11 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +51,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -57,12 +58,10 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -75,11 +74,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +102,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -4135,27 +4134,6 @@ end
 end A273949.P8716497124559773186
 
 /-!
-# A273950: Prime factors of generalized Fermat numbers of the form 12^(2^m) + 1 with m >= 0.
-
-The programs for A273950, there is no canonical definition to state claims against.
--/
-
-/-! ## A273950.P14694544898052113085
-
-`A078752(A078783(3*n+2))`
--/
-
-namespace A273950.P14694544898052113085
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078752 (A078783 (3 * n + 2)).toNat
-
-end
-
-end A273950.P14694544898052113085
-
-/-!
 # A273952: E.g.f. A(x) satisfies: A( sqrt( A(x^2*exp(-x)) ) ) = x, where A(x) = Sum_{n>=1} a(n)*x^n/(2^(n-1)*(n-1)!).
 
 The programs for A273952, there is no canonical definition to state claims against.
@@ -4182,7 +4160,7 @@ end A273952.P1280937242480932093
 /-!
 # A273953: E.g.f. satisfies A(x) = Sum_{n>=0} x^n/n! * exp(n/2*x) * A(x)^(n/2).
 
-The programs for A273953, the canonical program `A273953.P7121022217075492356` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273953 has offset 0).
+The programs for A273953, the canonical program `A273953.P7121022217075492356` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273953 has offset 0).
 
 The definition of A273953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4191,7 +4169,7 @@ The definition of A273953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/2^(n-1)*∑{#}[n, #^(n-#)*(#+2)^(#-1)*C(n, #)]`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C042`.
 -/
 
 namespace A273953
@@ -4303,7 +4281,7 @@ end A273953
 /-!
 # A273954: E.g.f. satisfies: A(x) = Sum_{n>=0} x^n/n! * exp(n*x) * A(x)^n.
 
-The programs for A273954, the canonical program `A273954.P11436723803532717794` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273954 has offset 0).
+The programs for A273954, the canonical program `A273954.P11436723803532717794` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273954 has offset 0).
 
 The definition of A273954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4312,7 +4290,7 @@ The definition of A273954 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, C(n, #)*#^(n-#)*(#+1)^(#-1)]`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C042`.
 -/
 
 namespace A273954
@@ -5056,6 +5034,21 @@ end A273960
 
 The programs for A273961, there is no canonical definition to state claims against.
 -/
+
+/-! ## A273961.P13222537216557638500
+
+`ogf((2-18x+x^2+82x^3-72x^4-25x^5+33x^6-6x^7)/(1-14x+18x^2+54x^3-112x^4+30x^5+41x^6-18x^7))`
+-/
+
+namespace A273961.P13222537216557638500
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -18, 1, 82, -72, -25, 33, -6] [1, -14, 18, 54, -112, 30, 41, -18] n
+
+end
+
+end A273961.P13222537216557638500
 
 /-! ## A273961.P11668649544193921247
 
@@ -6527,7 +6520,7 @@ end A273980.P12965378303323834681
 /-!
 # A273982: Number of little cubes visible around an n X n X n cube with a face on a table.
 
-The programs for A273982, the canonical program `A273982.P14215871611992905758` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273982 has offset 1).
+The programs for A273982, the canonical program `A273982.P14215871611992905758` is in `Seq.B000.C042`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273982 has offset 1).
 
 The definition of A273982 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6536,7 +6529,7 @@ The definition of A273982 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²+4*n²`
 
-The canonical program, it is in `Seq.B000.C040`.
+The canonical program, it is in `Seq.B000.C042`.
 -/
 
 namespace A273982
@@ -7300,21 +7293,6 @@ end A273993.P16829182388299927200
 The programs for A273994, there is no canonical definition to state claims against.
 -/
 
-/-! ## A273994.P3354328171546747992
-
-`or(n², A246526(n))`
--/
-
-namespace A273994.P3354328171546747992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (n ^ 2 : ℤ) (A246526 n)
-
-end
-
-end A273994.P3354328171546747992
-
 /-! ## A273994.P3343371244083717841
 
 `A383374(n)+A344420(A327020(n))`
@@ -7329,42 +7307,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A273994.P3343371244083717841
-
-/-!
-# A273996: Number of endofunctions on [n] whose cycle lengths are factorials.
-
-The programs for A273996, there is no canonical definition to state claims against.
--/
-
-/-! ## A273996.P13760254668787290543
-
-`A060912(n)`
--/
-
-namespace A273996.P13760254668787290543
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060912 n
-
-end
-
-end A273996.P13760254668787290543
-
-/-! ## A273996.P12186235169992935460
-
-`A209319(n)`
--/
-
-namespace A273996.P12186235169992935460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209319 n
-
-end
-
-end A273996.P12186235169992935460
 
 /-!
 # A273997: Number of endofunctions on [n] whose cycle lengths are squares.

@@ -9,34 +9,34 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C031
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C044
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,6 +58,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -72,15 +73,12 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +101,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1347,29 +1344,6 @@ namespace A034709
 /-- `lt[A040790(n), A040790(A347323(n))]` -/
 def P7422401498986123251.Spec : Prop :=
   ∀ n, (P7422401498986123251.a n : ℤ) = A034709 (n + 1)
-
-end A034709
-
-/-! ## A034709.P2010461270003710498
-
-`A178158(n+1)`
--/
-
-namespace A034709.P2010461270003710498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178158 (n + 1)
-
-end
-
-end A034709.P2010461270003710498
-
-namespace A034709
-
-/-- `A178158(n+1)` -/
-def P2010461270003710498.Spec : Prop :=
-  ∀ n, P2010461270003710498.a n = A034709 (n + 1)
 
 end A034709
 
@@ -13455,36 +13429,6 @@ end A034780.P12573468869469751753
 The programs for A034781, there is no canonical definition to state claims against.
 -/
 
-/-! ## A034781.P7584688224237869376
-
-`A002024(A263859(n+1)^1)`
--/
-
-namespace A034781.P7584688224237869376
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A263859 (n + 1) ^ 1).toNat
-
-end
-
-end A034781.P7584688224237869376
-
-/-! ## A034781.P13232328721114140423
-
-`A008619(A328083(n+1)^1)`
--/
-
-namespace A034781.P13232328721114140423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A328083 (n + 1) ^ 1).toNat
-
-end
-
-end A034781.P13232328721114140423
-
 /-! ## A034781.P7261285949581537951
 
 `A018293(A026769(n))`
@@ -13941,21 +13885,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034783.P15696633210228773585
-
-/-! ## A034783.P14034813329423434466
-
-`ceil(A034846(n+1)/6-1)`
--/
-
-namespace A034783.P14034813329423434466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A034846 (n + 1) : ℚ) / 6 - 1⌉
-
-end
-
-end A034783.P14034813329423434466
 
 /-! ## A034783.P13111715542264799910
 
@@ -15506,7 +15435,7 @@ end A034792.P18049143922898539261
 /-!
 # A034793: a(1)=1; thereafter a(n+1) is the least k > a(n) such that k is a square mod a(i) for all i<= n.
 
-The programs for A034793, the canonical program `A034793.P17687354073195001175` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034793 has offset 1).
+The programs for A034793, the canonical program `A034793.P17687354073195001175` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034793 has offset 1).
 
 The definition of A034793 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15548,7 +15477,7 @@ end A034793
 
 `record[A032742(1+n)²-A176447(n)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034793

@@ -3,36 +3,41 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -59,11 +64,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,8 +77,8 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -3948,7 +3952,7 @@ end A254960.P8609243652955586335
 /-!
 # A254962: Indices of hexagonal numbers (A000384) that are also centered pentagonal numbers (A005891).
 
-The programs for A254962, the canonical program `A254962.P6927119152319776871` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254962 has offset 1).
+The programs for A254962, the canonical program `A254962.P6927119152319776871` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254962 has offset 1).
 
 The definition of A254962 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3980,7 +3984,7 @@ end A254962
 
 `a(n-1)+18*a(n-2)-18*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=12, a(3)=31, a(4)=211`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A254962
@@ -4166,7 +4170,7 @@ end A254962
 /-!
 # A254963: a(n) = n*(11*n + 3)/2.
 
-The programs for A254963, the canonical program `A254963.P14413098843753197950` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254963 has offset 0).
+The programs for A254963, the canonical program `A254963.P14413098843753197950` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254963 has offset 0).
 
 The definition of A254963 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(11*n+3)/2` (program `A254963.P5092045279208054079`, by `A254963.P5092045279208054079.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4242,7 +4246,7 @@ end A254963
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=7, a(2)=25`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A254963
@@ -4692,7 +4696,7 @@ end A254963
 /-!
 # A254964: Indices of heptagonal numbers (A000566) that are also centered hexagonal numbers (A003215).
 
-The programs for A254964, the canonical program `A254964.P9984557311460132011` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254964 has offset 1).
+The programs for A254964, the canonical program `A254964.P9984557311460132011` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254964 has offset 1).
 
 The definition of A254964 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4724,7 +4728,7 @@ end A254964
 
 `a(n-1)+22*a(n-2)-22*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=14, a(3)=37, a(4)=301`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A254964
@@ -4742,7 +4746,7 @@ end A254964
 /-!
 # A254965: Indices of centered hexagonal numbers (A003215) that are also heptagonal numbers (A000566).
 
-The programs for A254965, the canonical program `A254965.P285627626886960788` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254965 has offset 1).
+The programs for A254965, the canonical program `A254965.P285627626886960788` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254965 has offset 1).
 
 The definition of A254965 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4774,7 +4778,7 @@ end A254965
 
 `a(n-1)+22*a(n-2)-22*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=13, a(3)=34, a(4)=275`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A254965
@@ -4841,8 +4845,29 @@ end A254965
 /-!
 # A254966: Heptagonal numbers (A000566) that are also centered hexagonal numbers (A003215).
 
-The programs for A254966, there is no canonical definition to state claims against.
+The programs for A254966, the canonical program `A254966.P8821748614636070357` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254966 has offset 1).
+
+The definition of A254966 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A254966.P8821748614636070357
+
+`ogf((1+6x-20x^2+6x^3+x^4)/(1-x-482x^2+482x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A254966
+
+/-- `ogf((1+6x-20x^2+6x^3+x^4)/(1-x-482x^2+482x^3+x^4-x^5))` -/
+def P8821748614636070357.Spec : Prop :=
+  ∀ n, P8821748614636070357.a n = A254966 (n + 1)
+
+theorem P8821748614636070357.correct : P8821748614636070357.Spec := by
+  intro n
+  simp only [A254966, Nat.add_sub_cancel]
+
+end A254966
 
 /-! ## A254966.P17341354205392856122
 
@@ -4859,6 +4884,14 @@ end
 
 end A254966.P17341354205392856122
 
+namespace A254966
+
+/-- `A014637(floor(A254964(n+1)/2))` -/
+def P17341354205392856122.Spec : Prop :=
+  ∀ n, P17341354205392856122.a n = A254966 (n + 1)
+
+end A254966
+
 /-! ## A254966.P11344399341321768798
 
 `A000566(A254964(n+1))`
@@ -4874,27 +4907,13 @@ end
 
 end A254966.P11344399341321768798
 
-/-! ## A254966.P3955485202744522863
+namespace A254966
 
-`∩[A000566(n), A003215(n)]`
--/
+/-- `A000566(A254964(n+1))` -/
+def P11344399341321768798.Spec : Prop :=
+  ∀ n, P11344399341321768798.a n = A254966 (n + 1)
 
-namespace A254966.P3955485202744522863
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000566 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003215 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A254966.P3955485202744522863
+end A254966
 
 /-!
 # A254967: Triangle of iterated absolute differences of lucky numbers read by antidiagonals upwards.
@@ -4986,8 +5005,29 @@ end A254970.P9325811046545505510
 /-!
 # A254971: Number of (n+2) X (1+2) 0..1 arrays with no 3 x 3 subblock diagonal sum 0 or 1 and no antidiagonal sum 0 or 1 and no row sum 0 and no column sum 0.
 
-The programs for A254971, there is no canonical definition to state claims against.
+The programs for A254971, the canonical program `A254971.P2589725988632049568` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254971 has offset 1).
+
+The definition of A254971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A254971.P2589725988632049568
+
+`ogf((121+68x+146x^2+242x^3-72x^4-328x^5-356x^6-3x^7+96x^8-45x^9-2x^10)/(1-2x-2x^2-3x^3-5x^4+x^5+6x^6+7x^7-2x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A254971
+
+/-- `ogf((121+68x+146x^2+242x^3-72x^4-328x^5-356x^6-3x^7+96x^8-45x^9-2x^10)/(1-2x-2x^2-3x^3-5x^4+x^5+6x^6+7x^7-2x^9+x^10))` -/
+def P2589725988632049568.Spec : Prop :=
+  ∀ n, P2589725988632049568.a n = A254971 (n + 1)
+
+theorem P2589725988632049568.correct : P2589725988632049568.Spec := by
+  intro n
+  simp only [A254971, Nat.add_sub_cancel]
+
+end A254971
 
 /-! ## A254971.P10096908075828632517
 
@@ -5007,6 +5047,14 @@ end
 
 end A254971.P10096908075828632517
 
+namespace A254971
+
+/-- `A254978(∑[n]+1)` -/
+def P10096908075828632517.Spec : Prop :=
+  ∀ n, P10096908075828632517.a n = A254971 (n + 1)
+
+end A254971
+
 /-! ## A254971.P17845155193698831932
 
 `record[A010054(n)*A254978(n+1)]`
@@ -5024,6 +5072,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254971.P17845155193698831932
+
+namespace A254971
+
+/-- `record[A010054(n)*A254978(n+1)]` -/
+def P17845155193698831932.Spec : Prop :=
+  ∀ n, P17845155193698831932.a n = A254971 (n + 1)
+
+end A254971
 
 /-! ## A254971.P2044207017456609019
 
@@ -5043,6 +5099,14 @@ end
 
 end A254971.P2044207017456609019
 
+namespace A254971
+
+/-- `record[A103451(n)*A254978(n+1)]` -/
+def P2044207017456609019.Spec : Prop :=
+  ∀ n, P2044207017456609019.a n = A254971 (n + 1)
+
+end A254971
+
 /-! ## A254971.P8506191338276816355
 
 `record[A254978(n+1)/A022166(n)]`
@@ -5061,23 +5125,13 @@ end
 
 end A254971.P8506191338276816355
 
-/-! ## A254971.P10242616322783583307
+namespace A254971
 
-`record[A254978(n+1)/A028412(n)]`
--/
+/-- `record[A254978(n+1)/A022166(n)]` -/
+def P8506191338276816355.Spec : Prop :=
+  ∀ n, P8506191338276816355.a n = (A254971 (n + 1) : ℚ)
 
-namespace A254971.P10242616322783583307
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A254978 (n + 1) : ℚ) / (A028412 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A254971.P10242616322783583307
+end A254971
 
 /-!
 # A254972: Number of (n+2)X(2+2) 0..1 arrays with no 3x3 subblock diagonal sum 0 or 1 and no antidiagonal sum 0 or 1 and no row sum 0 and no column sum 0.

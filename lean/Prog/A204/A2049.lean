@@ -17,23 +17,23 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C041
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,22 +51,23 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -75,7 +76,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1812,7 +1812,7 @@ end A204911.P819378432307751599
 /-!
 # A204914: Ordered differences of squared primes.
 
-The programs for A204914, the canonical program `A204914.P5175333267193367443` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204914 has offset 1).
+The programs for A204914, the canonical program `A204914.P5175333267193367443` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204914 has offset 1).
 
 The definition of A204914 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1844,7 +1844,7 @@ end A204914
 
 `A065091(A002024(n+1))²-A037126(n+1)²`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A204914
@@ -3127,21 +3127,6 @@ end
 
 end A204925.P10359119739218150021
 
-/-! ## A204925.P7020660772327190464
-
-`A130245(A204927(n+1)+0)`
--/
-
-namespace A204925.P7020660772327190464
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130245 (A204927 (n + 1) + 0).toNat
-
-end
-
-end A204925.P7020660772327190464
-
 /-! ## A204925.P5442794086816680490
 
 `A080508(A204923(n+1))`
@@ -3547,7 +3532,7 @@ end A204929.P10213685040335476553
 /-!
 # A204930: Ordered differences of factorials.
 
-The programs for A204930, the canonical program `A204930.P16668820846177039688` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204930 has offset 1).
+The programs for A204930, the canonical program `A204930.P16668820846177039688` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204930 has offset 1).
 
 The definition of A204930 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3556,7 +3541,7 @@ The definition of A204930 is `conjectured`: the Lean definition is a formula tha
 
 `A051949((row(n)+1)²-n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A204930
@@ -8085,7 +8070,7 @@ end A204987.P9838656136597771743
 /-!
 # A204988: The index j < k such that n divides 2^k - 2^j, where k is the least index (A204987) for which such j exists.
 
-The programs for A204988, the canonical program `A204988.P9212435232020437285` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204988 has offset 1).
+The programs for A204988, the canonical program `A204988.P9212435232020437285` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204988 has offset 1).
 
 The definition of A204988 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8094,7 +8079,7 @@ The definition of A204988 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `max(1, val(n+1, 2))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A204988
@@ -9365,7 +9350,7 @@ end A204992.P7716559782168319613
 /-!
 # A204993: Negative of the discriminant of quadratic field Q(sqrt(-n)).
 
-The programs for A204993, the canonical program `A204993.P9458464966889589479` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204993 has offset 1).
+The programs for A204993, the canonical program `A204993.P9458464966889589479` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204993 has offset 1).
 
 The definition of A204993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9374,7 +9359,7 @@ The definition of A204993 is `conjectured`: the Lean definition is a formula tha
 
 `A014695(A007913(n+1))²*A007913(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A204993

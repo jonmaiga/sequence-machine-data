@@ -8,13 +8,14 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -24,13 +25,15 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,9 +51,10 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -61,17 +65,14 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,7 +87,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1904,7 +1904,7 @@ end A365535
 /-!
 # A365538: a(0) = 1; otherwise, for i >= 0, a(4i+0) = a(4i+1) = a(2i), a(4i+2) = 2*a(2i+1), a(4i+3) = 0.
 
-The programs for A365538, the canonical program `A365538.P13640182443914891217` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365538 has offset 0).
+The programs for A365538, the canonical program `A365538.P13640182443914891217` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365538 has offset 0).
 
 The definition of A365538 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1913,7 +1913,7 @@ The definition of A365538 is `conjectured`: the Lean definition is a formula tha
 
 `A048896(n)*A085357(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A365538
@@ -2831,7 +2831,7 @@ end A365548.P14357122485914790655
 /-!
 # A365549: The number of exponentially odd divisors of the square root of the largest square dividing n.
 
-The programs for A365549, the canonical program `A365549.P7046597874236443597` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365549 has offset 1).
+The programs for A365549, the canonical program `A365549.P7046597874236443597` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365549 has offset 1).
 
 The definition of A365549 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2840,7 +2840,7 @@ The definition of A365549 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A322483(A000188(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A365549
@@ -3127,7 +3127,7 @@ end A365549
 /-!
 # A365550: The number of square coreful divisors of n.
 
-The programs for A365550, the canonical program `A365550.P15487673533298438372` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365550 has offset 1).
+The programs for A365550, the canonical program `A365550.P15487673533298438372` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365550 has offset 1).
 
 The definition of A365550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3136,7 +3136,7 @@ The definition of A365550 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[1+n, floor(#/2)]`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A365550
@@ -3255,7 +3255,7 @@ end A365550
 /-!
 # A365551: The number of exponentially odd divisors of the smallest exponentially odd number divisible by n.
 
-The programs for A365551, the canonical program `A365551.P16217230584168280310` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365551 has offset 1).
+The programs for A365551, the canonical program `A365551.P16217230584168280310` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365551 has offset 1).
 
 The definition of A365551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3264,7 +3264,7 @@ The definition of A365551 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A322483(A356191(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A365551
@@ -3524,7 +3524,7 @@ end A365551
 /-!
 # A365552: The number of exponentially odd divisors of the powerful part of n.
 
-The programs for A365552, the canonical program `A365552.P17496407190159151436` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365552 has offset 1).
+The programs for A365552, the canonical program `A365552.P17496407190159151436` is in `Seq.B005.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365552 has offset 1).
 
 The definition of A365552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3585,7 +3585,7 @@ end A365552
 
 `A322483(A057521(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C003`.
 -/
 
 namespace A365552
@@ -4440,6 +4440,29 @@ theorem P17661066998784569291.correct : P17661066998784569291.Spec := by
 
 end A365581
 
+/-! ## A365581.P1000207353062366774
+
+`ogf((5-5x-12x^2-146x^3+43x^4-5x^5+40x^6)/(1-6x+5x^2+6x^3+25x^4-4x^5+x^6-4x^7))`
+-/
+
+namespace A365581.P1000207353062366774
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -5, -12, -146, 43, -5, 40] [1, -6, 5, 6, 25, -4, 1, -4] n
+
+end
+
+end A365581.P1000207353062366774
+
+namespace A365581
+
+/-- `ogf((5-5x-12x^2-146x^3+43x^4-5x^5+40x^6)/(1-6x+5x^2+6x^3+25x^4-4x^5+x^6-4x^7))` -/
+def P1000207353062366774.Spec : Prop :=
+  ∀ n, P1000207353062366774.a n = A365581 (n + 1)
+
+end A365581
+
 /-!
 # A365582: a(n) is the number at the third vertex of an equilateral triangle whose first and second vertices are at the numbers 1 and n, respectively, on a triangular array of integers.
 
@@ -5153,21 +5176,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A365589.P13452298399406009071
-
-/-! ## A365589.P5505197786788567772
-
-`A092620(n+5)`
--/
-
-namespace A365589.P5505197786788567772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092620 (n + 5)
-
-end
-
-end A365589.P5505197786788567772
 
 /-!
 # A365590: Number of n X n Boolean relation matrices such that each of the diagonal blocks of its Frobenius normal form is either a 1 block or a 0 block.

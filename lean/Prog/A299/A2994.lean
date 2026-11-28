@@ -23,23 +23,23 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +52,6 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B002.C007
@@ -64,7 +63,6 @@ import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +82,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 
@@ -2353,7 +2350,7 @@ end A299426.P9932135117195347749
 /-!
 # A299428: a(n) = binomial((n+1)*(2*n+1), n) * (n+1)/(2*n+1).
 
-The programs for A299428, the canonical program `A299428.P15183164769203796230` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299428 has offset 0).
+The programs for A299428, the canonical program `A299428.P15183164769203796230` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299428 has offset 0).
 
 The definition of A299428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2362,7 +2359,7 @@ The definition of A299428 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C((n+1)*(2*n+1), n)*(n+1)/(2*n+1)`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299428
@@ -2474,7 +2471,7 @@ end A299428
 /-!
 # A299429: a(n) = binomial((n+1)*(2*n+1), n) / ((n+1)*(2*n+1)).
 
-The programs for A299429, the canonical program `A299429.P1276466131338795399` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299429 has offset 0).
+The programs for A299429, the canonical program `A299429.P1276466131338795399` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299429 has offset 0).
 
 The definition of A299429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2483,7 +2480,7 @@ The definition of A299429 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C((n+1)*(2*n+1), n)/((n+1)*(2*n+1))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299429
@@ -2866,30 +2863,9 @@ end
 end A299441.P13723767965689597983
 
 /-!
-# A299442: Lexicographically earliest sequence of distinct positive terms such that, for any n > 1, if prime(k) is the greatest prime factor of a(n) then k divides a(n+1) (where prime(k) denotes the k-th prime).
-
-The programs for A299442, there is no canonical definition to state claims against.
--/
-
-/-! ## A299442.P13073038045312883330
-
-`A299440(n+1)`
--/
-
-namespace A299442.P13073038045312883330
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299440 (n + 1)
-
-end
-
-end A299442.P13073038045312883330
-
-/-!
 # A299443: Expansion of (x^4 + 2*x^3 + 7*x^2 - 6*x + 1)^(-1/2).
 
-The programs for A299443, the canonical program `A299443.P5285742674954670239` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299443 has offset 0).
+The programs for A299443, the canonical program `A299443.P5285742674954670239` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299443 has offset 0).
 
 The definition of A299443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2898,7 +2874,7 @@ The definition of A299443 is `conjectured`: the Lean definition is a formula tha
 
 `((2-n)*a(n-4)+(3-2*n)*a(n-3)+7*(1-n)*a(n-2)+(6*n-3)*a(n-1))/n` with `a(0)=1, a(1)=3, a(2)=10, a(3)=35`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299443
@@ -3293,21 +3269,6 @@ end
 
 end A299451.P5898108467953854258
 
-/-! ## A299451.P13065645768207850208
-
-`A300089(n+1)`
--/
-
-namespace A299451.P13065645768207850208
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300089 (n + 1)
-
-end
-
-end A299451.P13065645768207850208
-
 /-!
 # A299452: Number of n X n 0..1 arrays with every element equal to 0, 2, 3, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
 
@@ -3553,21 +3514,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299458.P16841615669278661674
-
-/-! ## A299458.P3229170190080655885
-
-`A300096(n+1)`
--/
-
-namespace A299458.P3229170190080655885
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300096 (n + 1)
-
-end
-
-end A299458.P3229170190080655885
 
 /-!
 # A299459: Number of n X n 0..1 arrays with every element equal to 1, 2, 3, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
@@ -3817,27 +3763,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299464.P12139345577660760980
-
-/-!
-# A299465: T(n,k)=Number of nXk 0..1 arrays with every element equal to 1, 2, 3, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
-
-The programs for A299465, there is no canonical definition to state claims against.
--/
-
-/-! ## A299465.P5313714056401568744
-
-`A300108(n+1)`
--/
-
-namespace A299465.P5313714056401568744
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300108 (n + 1)
-
-end
-
-end A299465.P5313714056401568744
 
 /-!
 # A299472: a(n) is the sum of all divisors of all numbers k whose associated largest Dyck path contains the point (n,n) in the diagram of the symmetric representation of sigma(k) described in A237593, or 0 if no such k exists.
@@ -4778,24 +4703,6 @@ end
 
 end A299476.P15024015289605871762
 
-/-! ## A299476.P608308419423812360
-
-`-1+∑[A299477(A028310(n))]`
--/
-
-namespace A299476.P608308419423812360
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299477 (A028310 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A299476.P608308419423812360
-
 /-! ## A299476.P9365574113304967499
 
 `∑[A057427(n)*A299477(A028310(n))]`
@@ -5160,7 +5067,7 @@ end A299479.P4929073202150184176
 /-!
 # A299480: List of pairs (a,b) where in the n-th pair, a = number of odd divisors of n and b = number of even divisors of n.
 
-The programs for A299480, the canonical program `A299480.P2351146114190544127` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299480 has offset 1).
+The programs for A299480, the canonical program `A299480.P2351146114190544127` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299480 has offset 1).
 
 The definition of A299480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5169,7 +5076,7 @@ The definition of A299480 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[floor(n/2)+1, (#+n)%2]`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299480
@@ -5846,7 +5753,7 @@ end A299484.P4006339490798025353
 /-!
 # A299485: List of pairs (a,b) where in the n-th pair, a = number of even divisors of n and b = number of odd divisors of n.
 
-The programs for A299485, the canonical program `A299485.P254309527593595280` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299485 has offset 1).
+The programs for A299485, the canonical program `A299485.P254309527593595280` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299485 has offset 1).
 
 The definition of A299485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5855,7 +5762,7 @@ The definition of A299485 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[∑[(n+1)%2], (n+1+#)%2]`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A299485

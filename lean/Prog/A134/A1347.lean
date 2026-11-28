@@ -12,9 +12,11 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -24,22 +26,21 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C042
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,9 +61,11 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -259,21 +262,6 @@ end A134701.P6104691719896078299
 
 The programs for A134703, there is no canonical definition to state claims against.
 -/
-
-/-! ## A134703.P2723982449329868891
-
-`A061862(n+1)`
--/
-
-namespace A134703.P2723982449329868891
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061862 (n + 1)
-
-end
-
-end A134703.P2723982449329868891
 
 /-! ## A134703.P6489209483562308227
 
@@ -2066,24 +2054,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134732.P15558501008204983691
-
-/-! ## A134732.P17551478976596244318
-
-`∑[A132347(n+1)]`
--/
-
-namespace A134732.P17551478976596244318
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A132347 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A134732.P17551478976596244318
 
 /-!
 # A134734: First differences of A084662.
@@ -5168,17 +5138,25 @@ end A134751
 /-!
 # A134752: a(n) = 3^(2*n-1) + 2.
 
-The programs for A134752, the canonical program `A134752.P16084452989781131270` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134752 has offset 1).
+The programs for A134752, the canonical program `A134752.P15279493351006037439` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134752 has offset 1).
 
-The definition of A134752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A134752 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134752.anchor (n : ℕ) : (A134752 (n + 1) : ℚ) = (3 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) + 2` in `Proof.A134.A134752`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A134752.P16084452989781131270
 
 `ogf((5-21x)/(1-10x+9x^2))`
-
-The canonical program, it is in `Seq.B000.C023`.
 -/
+
+namespace A134752.P16084452989781131270
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -21] [1, -10, 9] n
+
+end
+
+end A134752.P16084452989781131270
 
 namespace A134752
 
@@ -5186,28 +5164,14 @@ namespace A134752
 def P16084452989781131270.Spec : Prop :=
   ∀ n, P16084452989781131270.a n = A134752 (n + 1)
 
-theorem P16084452989781131270.correct : P16084452989781131270.Spec := by
-  intro n
-  simp only [A134752, Nat.add_sub_cancel]
-
 end A134752
 
 /-! ## A134752.P15279493351006037439
 
 `3^(2*(n+1)-1)+2`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C023`.
 -/
-
-namespace A134752.P15279493351006037439
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) + 2
-
-end
-
-end A134752.P15279493351006037439
 
 namespace A134752
 

@@ -2,11 +2,11 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C006
-import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C022
-import Seq.B000.C031
-import Seq.B000.C051
+import Seq.B000.C010
+import Seq.B000.C012
+import Seq.B000.C023
+import Seq.B000.C032
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C010
 import Seq.B002.C006
@@ -14,18 +14,20 @@ import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 
@@ -434,7 +436,7 @@ end A400005.P8281393000967266707
 /-!
 # A400043: Maximum number of unit-cube interiors intersected by a plane in an n X n X n subdivision of a cube.
 
-The programs for A400043, the canonical program `A400043.P585359248345907106` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400043 has offset 1).
+The programs for A400043, the canonical program `A400043.P585359248345907106` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400043 has offset 1).
 
 The definition of A400043 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -443,7 +445,7 @@ The definition of A400043 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+5x+5x^2-x^3-x^5)/(1-2x+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400043

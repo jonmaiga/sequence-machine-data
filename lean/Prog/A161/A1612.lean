@@ -8,32 +8,33 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -58,16 +58,16 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +92,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1034,7 +1033,7 @@ end A161203
 /-!
 # A161204: a(0)=2. a(n+1) = 2*a(n) + period 4: repeat -5,1,3,1.
 
-The programs for A161204, the canonical program `A161204.P7572225781243277688` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161204 has offset 0).
+The programs for A161204, the canonical program `A161204.P7572225781243277688` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161204 has offset 0).
 
 The definition of A161204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1089,7 +1088,7 @@ end A161204
 
 `a(n-1)+a(n-2)+a(n-3)+2*a(n-4)` with `a(0)=2, a(1)=-1, a(2)=-1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161204
@@ -1294,7 +1293,7 @@ end A161204
 /-!
 # A161205: Triangle read by rows in which row n lists 2n-1 followed by 2n numbers 2n.
 
-The programs for A161205, the canonical program `A161205.P11292021648703236225` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161205 has offset 1).
+The programs for A161205, the canonical program `A161205.P11292021648703236225` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161205 has offset 1).
 
 The definition of A161205 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1303,7 +1302,7 @@ The definition of A161205 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n))+floor(sqrt(n+1))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A161205
@@ -3937,7 +3936,7 @@ end A161224.P17267652888410135242
 /-!
 # A161225: a(n) = number of distinct integers that can be constructed by removing one or more 0's from the binary representation of n, and concatenating while leaving the remaining digits in their same order.
 
-The programs for A161225, the canonical program `A161225.P13624725564594958112` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161225 has offset 1).
+The programs for A161225, the canonical program `A161225.P13624725564594958112` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161225 has offset 1).
 
 The definition of A161225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4067,7 +4066,7 @@ end A161225
 
 `A106737(A080079(n+1)-1)-1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A161225
@@ -4518,21 +4517,6 @@ end
 
 end A161227.P10193217179772324074
 
-/-! ## A161227.P6327159580741111766
-
-`A025823(3*(n+1))`
--/
-
-namespace A161227.P6327159580741111766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025823 (3 * (n + 1))
-
-end
-
-end A161227.P6327159580741111766
-
 /-! ## A161227.P15803278543481990185
 
 `A000120(A000225(n))-A307118(n+1)`
@@ -4836,21 +4820,6 @@ end A161232.P15428317718806036002
 The programs for A161233, there is no canonical definition to state claims against.
 -/
 
-/-! ## A161233.P1953566877810944600
-
-`A127380(A161261(n+1))`
--/
-
-namespace A161233.P1953566877810944600
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127380 (A161261 (n + 1)).toNat
-
-end
-
-end A161233.P1953566877810944600
-
 /-! ## A161233.P16058832087632944241
 
 `A161057(n+1)-A185284(A254760(n+1))`
@@ -4880,27 +4849,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161233.P2468845934552780306
-
-/-!
-# A161234: Number of partitions of n into Catalan numbers A000108 where every part appears at least 9 times.
-
-The programs for A161234, there is no canonical definition to state claims against.
--/
-
-/-! ## A161234.P18246202463974479527
-
-`A122282(A161262(n+1))`
--/
-
-namespace A161234.P18246202463974479527
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122282 (A161262 (n + 1)).toNat
-
-end
-
-end A161234.P18246202463974479527
 
 /-!
 # A161235: Number of partitions of n into Catalan numbers A000108 where every part appears at least 10 times.
@@ -5040,21 +4988,6 @@ end A161236.P9182798843628395624
 The programs for A161237, there is no canonical definition to state claims against.
 -/
 
-/-! ## A161237.P299392989256097473
-
-`A028904(A161061(n+1))`
--/
-
-namespace A161237.P299392989256097473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028904 (A161061 (n + 1)).toNat
-
-end
-
-end A161237.P299392989256097473
-
 /-! ## A161237.P14051137325633368124
 
 `A161061(n+1)-A248640(A219924(n))`
@@ -5187,66 +5120,6 @@ end
 
 end A161239.P348427288767758907
 
-/-! ## A161239.P568434687146243067
-
-`A161063(n+1)`
--/
-
-namespace A161239.P568434687146243067
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161063 (n + 1)
-
-end
-
-end A161239.P568434687146243067
-
-/-! ## A161239.P17734834574373926069
-
-`A161267(n+1)`
--/
-
-namespace A161239.P17734834574373926069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161267 (n + 1)
-
-end
-
-end A161239.P17734834574373926069
-
-/-! ## A161239.P5624877001268297492
-
-`A161292(n+1)`
--/
-
-namespace A161239.P5624877001268297492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161292 (n + 1)
-
-end
-
-end A161239.P5624877001268297492
-
-/-! ## A161239.P11965595141741012871
-
-`A161253(n+1)`
--/
-
-namespace A161239.P11965595141741012871
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161253 (n + 1)
-
-end
-
-end A161239.P11965595141741012871
-
 /-!
 # A161240: Number of partitions of n into central binomial coefficients A001405.
 
@@ -5270,24 +5143,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161240.P7070708050644774231
-
-/-! ## A161240.P8358249776830653154
-
-`∑[A029153(n+1)]+1`
--/
-
-namespace A161240.P8358249776830653154
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029153 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A161240.P8358249776830653154
 
 /-! ## A161240.P13341454442233499446
 
@@ -5547,21 +5402,6 @@ end
 
 end A161243.P11061383002668574909
 
-/-! ## A161243.P5065900934425588704
-
-`A161309(n+1)`
--/
-
-namespace A161243.P5065900934425588704
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161309 (n + 1)
-
-end
-
-end A161243.P5065900934425588704
-
 /-!
 # A161244: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 5 times.
 
@@ -5582,21 +5422,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161244.P15099907204056425427
-
-/-! ## A161244.P17478129263099879108
-
-`A161310(n+1)`
--/
-
-namespace A161244.P17478129263099879108
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161310 (n + 1)
-
-end
-
-end A161244.P17478129263099879108
 
 /-!
 # A161245: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 6 times.
@@ -5649,147 +5474,6 @@ end
 
 end A161245.P5134800806957389967
 
-/-! ## A161245.P13152055476516831068
-
-`A161311(n+1)`
--/
-
-namespace A161245.P13152055476516831068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161311 (n + 1)
-
-end
-
-end A161245.P13152055476516831068
-
-/-!
-# A161246: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 7 times.
-
-The programs for A161246, there is no canonical definition to state claims against.
--/
-
-/-! ## A161246.P12791707083768961773
-
-`A161312(n+1)`
--/
-
-namespace A161246.P12791707083768961773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161312 (n + 1)
-
-end
-
-end A161246.P12791707083768961773
-
-/-!
-# A161247: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 8 times.
-
-The programs for A161247, there is no canonical definition to state claims against.
--/
-
-/-! ## A161247.P18313780581872342462
-
-`A161313(n+1)`
--/
-
-namespace A161247.P18313780581872342462
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161313 (n + 1)
-
-end
-
-end A161247.P18313780581872342462
-
-/-!
-# A161248: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 9 times.
-
-The programs for A161248, there is no canonical definition to state claims against.
--/
-
-/-! ## A161248.P10663619516039019933
-
-`A161314(1+n)`
--/
-
-namespace A161248.P10663619516039019933
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161314 (1 + n)
-
-end
-
-end A161248.P10663619516039019933
-
-/-!
-# A161249: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 10 times.
-
-The programs for A161249, there is no canonical definition to state claims against.
--/
-
-/-! ## A161249.P439569893516247664
-
-`A161315(1+n)`
--/
-
-namespace A161249.P439569893516247664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161315 (1 + n)
-
-end
-
-end A161249.P439569893516247664
-
-/-!
-# A161250: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 11 times.
-
-The programs for A161250, there is no canonical definition to state claims against.
--/
-
-/-! ## A161250.P12312115223458374090
-
-`A161316(1+n)`
--/
-
-namespace A161250.P12312115223458374090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161316 (1 + n)
-
-end
-
-end A161250.P12312115223458374090
-
-/-!
-# A161251: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 12 times.
-
-The programs for A161251, there is no canonical definition to state claims against.
--/
-
-/-! ## A161251.P16412267371118304165
-
-`A161317(n+1)`
--/
-
-namespace A161251.P16412267371118304165
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161317 (n + 1)
-
-end
-
-end A161251.P16412267371118304165
-
 /-!
 # A161252: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 13 times.
 
@@ -5810,21 +5494,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161252.P6349857390626858152
-
-/-! ## A161252.P2063227295704503786
-
-`A161318(n+1)`
--/
-
-namespace A161252.P2063227295704503786
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161318 (n + 1)
-
-end
-
-end A161252.P2063227295704503786
 
 /-!
 # A161253: Number of partitions of n into central binomial coefficients A001405 where every part appears at least 14 times.
@@ -5852,24 +5521,6 @@ end A161253.P4966468036050199322
 
 The programs for A161254, there is no canonical definition to state claims against.
 -/
-
-/-! ## A161254.P11544491052559462066
-
-`∑[A029184(n)]`
--/
-
-namespace A161254.P11544491052559462066
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029184 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A161254.P11544491052559462066
 
 /-! ## A161254.P13313763827082840865
 
@@ -5921,21 +5572,6 @@ end A161254.P817652911894493140
 
 The programs for A161255, there is no canonical definition to state claims against.
 -/
-
-/-! ## A161255.P4766512709940464140
-
-`A084993(A028242(n+3))`
--/
-
-namespace A161255.P4766512709940464140
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084993 (A028242 (n + 3)).toNat
-
-end
-
-end A161255.P4766512709940464140
 
 /-! ## A161255.P17801913668799713459
 
@@ -6125,27 +5761,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161259.P6780687474777811761
-
-/-!
-# A161260: Number of partitions of n into central polygonal numbers A000124 where every part appears at least 7 times.
-
-The programs for A161260, there is no canonical definition to state claims against.
--/
-
-/-! ## A161260.P15230346414010923335
-
-`A089870(A161056(n+1))`
--/
-
-namespace A161260.P15230346414010923335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089870 (A161056 (n + 1)).toNat
-
-end
-
-end A161260.P15230346414010923335
 
 /-!
 # A161261: Number of partitions of n into central polygonal numbers A000124 where every part appears at least 8 times.
@@ -6527,21 +6142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A161273.P5330610519235864387
-
-/-! ## A161273.P14377888174151386110
-
-`A161063(n+1)*A161082(n+1)`
--/
-
-namespace A161273.P14377888174151386110
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161063 (n + 1) * A161082 (n + 1)
-
-end
-
-end A161273.P14377888174151386110
 
 /-! ## A161273.P15326899101648800913
 
@@ -7232,21 +6832,6 @@ end A161281.P5269741179289640751
 The programs for A161282, there is no canonical definition to state claims against.
 -/
 
-/-! ## A161282.P13062363902551699088
-
-`A037477(A161257(n+1))`
--/
-
-namespace A161282.P13062363902551699088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (A161257 (n + 1)).toNat
-
-end
-
-end A161282.P13062363902551699088
-
 /-! ## A161282.P17127608339779515200
 
 `A167637(A161259(n+1)!)+A161257(n+1)`
@@ -7393,21 +6978,6 @@ end A161283.P17109772490906221700
 
 The programs for A161284, there is no canonical definition to state claims against.
 -/
-
-/-! ## A161284.P7064260934002311975
-
-`A127287(A161259(n+1))`
--/
-
-namespace A161284.P7064260934002311975
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127287 (A161259 (n + 1)).toNat
-
-end
-
-end A161284.P7064260934002311975
 
 /-! ## A161284.P4562382367405196119
 

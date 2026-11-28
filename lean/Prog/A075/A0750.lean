@@ -9,29 +9,29 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C042
-import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C038
+import Seq.B000.C044
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -52,6 +52,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -61,14 +62,13 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,6 +85,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -441,21 +442,6 @@ end
 
 end A075019.P16383009394231197497
 
-/-! ## A075019.P1451748573347215104
-
-`A138960(A020639(n+1))`
--/
-
-namespace A075019.P1451748573347215104
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138960 (A020639 (n + 1)).toNat
-
-end
-
-end A075019.P1451748573347215104
-
 /-!
 # A075021: a(1) = 1; for n>1, a(n) = the largest prime divisor of the number C(n) formed from the concatenation of n, n-1, n-2, n-3, ... down to 1.
 
@@ -477,21 +463,6 @@ end
 
 end A075021.P13065419238458618789
 
-/-! ## A075021.P16215341780537730513
-
-`A138963(n+1)`
--/
-
-namespace A075021.P16215341780537730513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138963 (n + 1)
-
-end
-
-end A075021.P16215341780537730513
-
 /-!
 # A075022: a(1) = 1; for n>1, a(n) = the largest prime divisor of the number C(n) formed from the concatenation of 1,2,3,... up to n.
 
@@ -512,21 +483,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A075022.P12612809205389009115
-
-/-! ## A075022.P16839321978048973637
-
-`A073844(n+1)`
--/
-
-namespace A075022.P16839321978048973637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073844 (n + 1)
-
-end
-
-end A075022.P16839321978048973637
 
 /-!
 # A075023: a(n) = the smallest prime divisor of A173426(n) = concatenation of (1, 2, 3,..., n, n-1, ..., 1) for n > 1; a(1) = 1.
@@ -1788,7 +1744,7 @@ end A075036.P2606033314938247256
 /-!
 # A075039: Smallest of three consecutive squarefree numbers having equal numbers of prime factors.
 
-The programs for A075039, the canonical program `A075039.P15668940356083047975` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075039 has offset 1).
+The programs for A075039, the canonical program `A075039.P15668940356083047975` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075039 has offset 1).
 
 The definition of A075039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1977,7 +1933,7 @@ end A075039
 
 `∩[A006073(n+1), A073251(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A075039
@@ -2361,7 +2317,7 @@ end A075039
 /-!
 # A075045: Coefficients A_n for the s=3 tennis ball problem.
 
-The programs for A075045, the canonical program `A075045.P11269630062704232670` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075045 has offset 0).
+The programs for A075045, the canonical program `A075045.P11269630062704232670` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075045 has offset 0).
 
 The definition of A075045 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2370,7 +2326,7 @@ The definition of A075045 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, 3^(n-#)*C(2*n+#+3, #)]`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A075045
@@ -3157,21 +3113,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A075053.P6598146459391826378
-
-/-! ## A075053.P6935171380274153992
-
-`A328516(n)`
--/
-
-namespace A075053.P6935171380274153992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328516 n
-
-end
-
-end A075053.P6935171380274153992
 
 /-! ## A075053.P4241299517803515560
 
@@ -6388,7 +6329,7 @@ end A075090.P6780816840818130345
 /-!
 # A075091: Sum of Lucas numbers and reflected Lucas numbers (comment to A061084).
 
-The programs for A075091, the canonical program `A075091.P15218586549247608598` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075091 has offset 0).
+The programs for A075091, the canonical program `A075091.P15218586549247608598` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075091 has offset 0).
 
 The definition of A075091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6420,7 +6361,7 @@ end A075091
 
 `3*a(n-2)-a(n-4)` with `a(0)=4, a(1)=0, a(2)=6, a(3)=0`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A075091
@@ -6865,7 +6806,7 @@ end A075091
 /-!
 # A075092: Sum of generalized tribonacci numbers (A001644) and reflected generalized tribonacci numbers (A073145).
 
-The programs for A075092, the canonical program `A075092.P6266007929729109464` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075092 has offset 0).
+The programs for A075092, the canonical program `A075092.P6266007929729109464` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075092 has offset 0).
 
 The definition of A075092 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6897,7 +6838,7 @@ end A075092
 
 `a(n-2)+4*a(n-3)+a(n-4)-a(n-6)` with `a(0)=6, a(1)=0, a(2)=2, a(3)=12, a(4)=6, a(5)=20`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A075092

@@ -17,34 +17,34 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -64,8 +64,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -209,7 +208,7 @@ end A211903.P1677432266954733111
 /-!
 # A211905: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal or vertical neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211905, the canonical program `A211905.P258072966074033629` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211905 has offset 1).
+The programs for A211905, the canonical program `A211905.P258072966074033629` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211905 has offset 1).
 
 The definition of A211905 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -303,7 +302,7 @@ end A211905
 
 `C(abs(2-∑[n+1]), 2)+2*n`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A211905
@@ -921,8 +920,29 @@ end A211911
 /-!
 # A211912: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal, vertical, diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-3.
 
-The programs for A211912, there is no canonical definition to state claims against.
+The programs for A211912, the canonical program `A211912.P7541832710086372320` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211912 has offset 1).
+
+The definition of A211912 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A211912.P7541832710086372320
+
+`ogf((x+x^2+160x^3+296x^4-93x^5-104x^6+66x^7-13x^8+x^9)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A211912
+
+/-- `ogf((x+x^2+160x^3+296x^4-93x^5-104x^6+66x^7-13x^8+x^9)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P7541832710086372320.Spec : Prop :=
+  ∀ n, P7541832710086372320.a n = A211912 (n + 1)
+
+theorem P7541832710086372320.correct : P7541832710086372320.Spec := by
+  intro n
+  simp only [A211912, Nat.add_sub_cancel]
+
+end A211912
 
 /-! ## A211912.P4160999195225148068
 
@@ -942,6 +962,14 @@ end
 
 end A211912.P4160999195225148068
 
+namespace A211912
+
+/-- `A211916(∑[n+2])` -/
+def P4160999195225148068.Spec : Prop :=
+  ∀ n, P4160999195225148068.a n = A211912 (n + 1)
+
+end A211912
+
 /-! ## A211912.P3952737492542655649
 
 `record[A211916(A000096(val(n+1, 2)+1))]`
@@ -959,6 +987,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211912.P3952737492542655649
+
+namespace A211912
+
+/-- `record[A211916(A000096(val(n+1, 2)+1))]` -/
+def P3952737492542655649.Spec : Prop :=
+  ∀ n, P3952737492542655649.a n = A211912 (n + 1)
+
+end A211912
 
 /-! ## A211912.P591213361705302935
 
@@ -984,6 +1020,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211912.P591213361705302935
+
+namespace A211912
+
+/-- `record[A211916(A000096(C(comp[∑[n]]-n, 2)-n))]` -/
+def P591213361705302935.Spec : Prop :=
+  ∀ n, P591213361705302935.a n = A211912 (n + 1)
+
+end A211912
 
 /-!
 # A211913: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal, vertical, diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-4.
@@ -1095,21 +1139,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211917.P13141344721708796897
-
-/-! ## A211917.P11367471893141772667
-
-`A000583(n)+0-A211919(n)`
--/
-
-namespace A211917.P11367471893141772667
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000583 n + (0 - A211919 n)
-
-end
-
-end A211917.P11367471893141772667
 
 /-! ## A211917.P11314670167628057797
 
@@ -1392,21 +1421,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211919.P569012505810677345
-
-/-! ## A211919.P15968478919088182526
-
-`A212020(n)+0+A000583(n)-A211812(n)`
--/
-
-namespace A211919.P15968478919088182526
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212020 n + (0 + (A000583 n - A211812 n))
-
-end
-
-end A211919.P15968478919088182526
 
 /-! ## A211919.P8769941840371385498
 
@@ -2125,7 +2139,7 @@ end A211923.P11512267196621190164
 /-!
 # A211924: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal, vertical or antidiagonal neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211924, the canonical program `A211924.P7672077735362145772` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211924 has offset 1).
+The programs for A211924, the canonical program `A211924.P7672077735362145772` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211924 has offset 1).
 
 The definition of A211924 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2170,7 +2184,7 @@ end A211924
 
 `ogf((2x-x^2+6x^3-5x^4+x^5)/(1-5x+10x^2-10x^3+5x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A211924
@@ -3436,7 +3450,7 @@ end A211956.P2804655375465968649
 /-!
 # A211957: Triangle of coefficients of a polynomial sequence related to the Morgan-Voyce polynomials A085478.
 
-The programs for A211957, the canonical program `A211957.P15514348916706312489` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211957 has offset 0).
+The programs for A211957, the canonical program `A211957.P15514348916706312489` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211957 has offset 0).
 
 The definition of A211957 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3445,7 +3459,7 @@ The definition of A211957 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+2*T(n-1,k-1)-T(n-2,k)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A211957
@@ -3696,7 +3710,7 @@ end A211957
 /-!
 # A211958: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211958, the canonical program `A211958.P12866887164875434199` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211958 has offset 1).
+The programs for A211958, the canonical program `A211958.P12866887164875434199` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211958 has offset 1).
 
 The definition of A211958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3738,7 +3752,7 @@ end A211958
 
 `ogf((3x-3x^2+7x^3-5x^4+x^5)/(1-5x+10x^2-10x^3+5x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A211958
@@ -4912,21 +4926,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211972.P6755381564711401777
-
-/-! ## A211972.P10542357119859418243
-
-`A348153(n+1)`
--/
-
-namespace A211972.P10542357119859418243
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348153 (n + 1)
-
-end
-
-end A211972.P10542357119859418243
 
 /-!
 # A211973: a(n) = A121880(2*n)/2.
@@ -7728,7 +7727,7 @@ end A211994.P10540155008126602879
 /-!
 # A211995: a(n) = floor(7^n / 2^n) mod 2^n.
 
-The programs for A211995, the canonical program `A211995.P6309614323012334137` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211995 has offset 0).
+The programs for A211995, the canonical program `A211995.P6309614323012334137` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211995 has offset 0).
 
 The definition of A211995 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(7^n/2^n)%(2^n)` (program `A211995.P6309614323012334137`, by `A211995.P6309614323012334137.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7737,7 +7736,7 @@ The definition of A211995 is `verified`: the Lean definition is proven equivalen
 
 `floor(7^n/2^n)%(2^n)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A211995

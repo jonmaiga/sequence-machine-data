@@ -4,13 +4,14 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C007
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C029
+import Seq.B000.C021
 import Seq.B000.C030
-import Seq.B000.C042
+import Seq.B000.C031
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -20,20 +21,18 @@ import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B010.C000
+import Seq.B007.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C003
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 
 /-!
 # A013001: cos(arctan(x)+tan(x))=1-4/2!*x^2+16/4!*x^4-544/6!*x^6+25344/8!*x^8...
@@ -714,36 +713,6 @@ end
 
 end A013032.P8257752901924556622
 
-/-! ## A013032.P4780469597360730741
-
-`A001250(n+1)`
--/
-
-namespace A013032.P4780469597360730741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001250 (n + 1)
-
-end
-
-end A013032.P4780469597360730741
-
-/-! ## A013032.P17380342314920972192
-
-`A263664(n+1)`
--/
-
-namespace A013032.P17380342314920972192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263664 (n + 1)
-
-end
-
-end A013032.P17380342314920972192
-
 /-!
 # A013037: cos(sinh(x)+arcsin(x))=1-4/2!*x^2+96/6!*x^6+896/8!*x^8-9344/10!*x^10...
 
@@ -1212,27 +1181,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013053.P18049774316006826418
-
-/-!
-# A013056: exp(sinh(x)+arctan(x))=1+2*x+4/2!*x^2+7/3!*x^3+8/4!*x^4+17/5!*x^5...
-
-The programs for A013056, there is no canonical definition to state claims against.
--/
-
-/-! ## A013056.P3219567986277827423
-
-`A013131(n)`
--/
-
-namespace A013056.P3219567986277827423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013131 n
-
-end
-
-end A013056.P3219567986277827423
 
 /-!
 # A013057: sin(sinh(x)+arctan(x))=2*x-9/3!*x^3+97/5!*x^5-3647/7!*x^7...
@@ -1740,27 +1688,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A013089.P14101667006447204498
-
-/-!
-# A013091: E.g.f.: exp(arcsinh(x)+tan(x)) = 1 + 2*x + 4/2!*x^2 + 9/3!*x^3 + 24/4!*x^4 + 97/5!*x^5 + ....
-
-The programs for A013091, there is no canonical definition to state claims against.
--/
-
-/-! ## A013091.P764057133382623903
-
-`A013168(n)`
--/
-
-namespace A013091.P764057133382623903
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013168 n
-
-end
-
-end A013091.P764057133382623903
 
 /-!
 # A013092: sin(arcsinh(x)+tan(x))=2*x-7/3!*x^3+17/5!*x^5-1761/7!*x^7...

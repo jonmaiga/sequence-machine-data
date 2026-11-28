@@ -24,7 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,10 +33,10 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -44,7 +44,9 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,6 +62,7 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -73,19 +76,19 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +96,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -12045,6 +12047,29 @@ theorem P4051028668595586907.correct : P4051028668595586907.Spec := by
 
 end A013955
 
+/-! ## A013955.P9900787214597805909
+
+`A008410(n+1)/480`
+-/
+
+namespace A013955.P9900787214597805909
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A008410 (n + 1) : ℚ) / 480
+
+end
+
+end A013955.P9900787214597805909
+
+namespace A013955
+
+/-- `A008410(n+1)/480` -/
+def P9900787214597805909.Spec : Prop :=
+  ∀ n, P9900787214597805909.a n = (A013955 (n + 1) : ℚ)
+
+end A013955
+
 /-! ## A013955.P7781772727856522585
 
 `A386781(n+1)/(n+1)^3`
@@ -12088,29 +12113,6 @@ namespace A013955
 /-- `2*A096961(n+1)-A321552(n+1)` -/
 def P9043577562126936452.Spec : Prop :=
   ∀ n, P9043577562126936452.a n = A013955 (n + 1)
-
-end A013955
-
-/-! ## A013955.P5457153932230367326
-
-`A000203(n+1)*A008410(n+1)/A083728(n+1)`
--/
-
-namespace A013955.P5457153932230367326
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000203 (n + 1) * A008410 (n + 1) : ℚ) / (A083728 (n + 1) : ℚ)
-
-end
-
-end A013955.P5457153932230367326
-
-namespace A013955
-
-/-- `A000203(n+1)*A008410(n+1)/A083728(n+1)` -/
-def P5457153932230367326.Spec : Prop :=
-  ∀ n, P5457153932230367326.a n = (A013955 (n + 1) : ℚ)
 
 end A013955
 
@@ -12410,29 +12412,6 @@ namespace A013955
 /-- `A386749(n+1)*A386781(n+1)/A386784(n+1)` -/
 def P13216167373202906914.Spec : Prop :=
   ∀ n, P13216167373202906914.a n = (A013955 (n + 1) : ℚ)
-
-end A013955
-
-/-! ## A013955.P9900787214597805909
-
-`A008410(n+1)/480`
--/
-
-namespace A013955.P9900787214597805909
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A008410 (n + 1) : ℚ) / 480
-
-end
-
-end A013955.P9900787214597805909
-
-namespace A013955
-
-/-- `A008410(n+1)/480` -/
-def P9900787214597805909.Spec : Prop :=
-  ∀ n, P9900787214597805909.a n = (A013955 (n + 1) : ℚ)
 
 end A013955
 
@@ -16431,27 +16410,6 @@ def P6223728730912433276.Spec : Prop :=
   ∀ n, P6223728730912433276.a n = A013987 n
 
 end A013987
-
-/-!
-# A013988: Triangle read by rows, the inverse Bell transform of n!*binomial(5,n) (without column 0).
-
-The programs for A013988, there is no canonical definition to state claims against.
--/
-
-/-! ## A013988.P6501432652729435524
-
-`A144268(n+1)`
--/
-
-namespace A013988.P6501432652729435524
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144268 (n + 1)
-
-end
-
-end A013988.P6501432652729435524
 
 /-!
 # A013989: a(n) = (n+1)*(a(n-1)/n + a(n-2)), with a(0)=1, a(1)=2.

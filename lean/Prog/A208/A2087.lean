@@ -4,43 +4,47 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
@@ -48,7 +52,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,11 +64,12 @@ import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B009.C000
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +84,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -187,7 +193,7 @@ end A208703.P10894978217400686540
 /-!
 # A208704: Number of nX3 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208704, the canonical program `A208704.P8210822804906090689` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208704 has offset 1).
+The programs for A208704, the canonical program `A208704.P8210822804906090689` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208704 has offset 1).
 
 The definition of A208704 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -196,7 +202,7 @@ The definition of A208704 is `conjectured`: the Lean definition is a formula tha
 
 `4*7^n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208704
@@ -547,7 +553,7 @@ end A208709.P158189403711649871
 /-!
 # A208710: Number of 3 X n 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208710, the canonical program `A208710.P6636337249520280661` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208710 has offset 1).
+The programs for A208710, the canonical program `A208710.P6636337249520280661` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208710 has offset 1).
 
 The definition of A208710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -556,7 +562,7 @@ The definition of A208710 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+12x-4x^3)/(1-5x-9x^2-x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208710
@@ -1007,21 +1013,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A208721.P10493434469330879940
-
-/-! ## A208721.P1429261650007232529
-
-`A208777(n+1)`
--/
-
-namespace A208721.P1429261650007232529
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208777 (n + 1)
-
-end
-
-end A208721.P1429261650007232529
 
 /-!
 # A208722: Number of 2n-bead necklaces labeled with numbers 1..n not allowing reversal, with neighbors differing by exactly 1.
@@ -1798,7 +1789,7 @@ end A208735.P13151093310656528724
 /-!
 # A208736: Number of nonisomorphic graded posets with 0 and 1 and non-uniform Hasse graph of rank n, with exactly 2 elements of each rank level between 0 and 1.
 
-The programs for A208736, the canonical program `A208736.P12298099279390497602` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208736 has offset 0).
+The programs for A208736, the canonical program `A208736.P12298099279390497602` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208736 has offset 0).
 
 The definition of A208736 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1830,7 +1821,7 @@ end A208736
 
 `8*a(n-1)-21*a(n-2)+20*a(n-3)-5*a(n-4)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=5, a(5)=22`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208736
@@ -3280,7 +3271,7 @@ end A208746.P2611911305632040489
 /-!
 # A208747: Triangle of coefficients of polynomials u(n,x) jointly generated with A208748; see the Formula section.
 
-The programs for A208747, the canonical program `A208747.P1717880758144545855` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208747 has offset 1).
+The programs for A208747, the canonical program `A208747.P1717880758144545855` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208747 has offset 1).
 
 The definition of A208747 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3289,7 +3280,7 @@ The definition of A208747 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)-2*T(n-2,k-1)+4*T(row(n)-2, col(n)-2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208747
@@ -3491,7 +3482,7 @@ end A208747
 /-!
 # A208748: Triangle of coefficients of polynomials v(n,x) jointly generated with A208747; see the Formula section.
 
-The programs for A208748, the canonical program `A208748.P4674069796056820224` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208748 has offset 1).
+The programs for A208748, the canonical program `A208748.P4674069796056820224` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208748 has offset 1).
 
 The definition of A208748 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3500,7 +3491,7 @@ The definition of A208748 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)-2*T(n-2,k-1)+4*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=0, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208748
@@ -3702,7 +3693,7 @@ end A208748
 /-!
 # A208749: Triangle of coefficients of polynomials u(n,x) jointly generated with A208750; see the Formula section.
 
-The programs for A208749, the canonical program `A208749.P6199500396908917478` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208749 has offset 1).
+The programs for A208749, the canonical program `A208749.P6199500396908917478` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208749 has offset 1).
 
 The definition of A208749 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3711,7 +3702,7 @@ The definition of A208749 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)-T(n-2,k)+2*T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208749
@@ -3827,7 +3818,7 @@ end A208749
 /-!
 # A208750: Triangle of coefficients of polynomials v(n,x) jointly generated with A208749; see the Formula section.
 
-The programs for A208750, the canonical program `A208750.P2795148719091618581` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208750 has offset 1).
+The programs for A208750, the canonical program `A208750.P2795148719091618581` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208750 has offset 1).
 
 The definition of A208750 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3836,7 +3827,7 @@ The definition of A208750 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)-T(n-2,k)+2*T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=2, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208750
@@ -3877,7 +3868,7 @@ end A208750
 /-!
 # A208751: Triangle of coefficients of polynomials u(n,x) jointly generated with A208752; see the Formula section.
 
-The programs for A208751, the canonical program `A208751.P1152826400079216258` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208751 has offset 1).
+The programs for A208751, the canonical program `A208751.P1152826400079216258` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208751 has offset 1).
 
 The definition of A208751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3886,7 +3877,7 @@ The definition of A208751 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+T(n-1,k-1)-T(n-2,k)+T(n-2,k-1)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208751
@@ -4019,7 +4010,7 @@ end A208751
 /-!
 # A208752: Triangle of coefficients of polynomials v(n,x) jointly generated with A208751; see the Formula section.
 
-The programs for A208752, the canonical program `A208752.P1549407625724649157` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208752 has offset 1).
+The programs for A208752, the canonical program `A208752.P1549407625724649157` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208752 has offset 1).
 
 The definition of A208752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4028,7 +4019,7 @@ The definition of A208752 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+T(n-1,k-1)-T(n-2,k)+T(n-2,k-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208752
@@ -4286,7 +4277,7 @@ end A208754
 /-!
 # A208755: Triangle of coefficients of polynomials u(n,x) jointly generated with A208756; see the Formula section.
 
-The programs for A208755, the canonical program `A208755.P16171187539913271142` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208755 has offset 1).
+The programs for A208755, the canonical program `A208755.P16171187539913271142` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208755 has offset 1).
 
 The definition of A208755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4295,7 +4286,7 @@ The definition of A208755 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)-T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208755
@@ -4418,7 +4409,7 @@ end A208755
 /-!
 # A208756: Triangle of coefficients of polynomials v(n,x) jointly generated with A208755; see the Formula section.
 
-The programs for A208756, the canonical program `A208756.P3694706303776439567` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208756 has offset 1).
+The programs for A208756, the canonical program `A208756.P3694706303776439567` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208756 has offset 1).
 
 The definition of A208756 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4427,7 +4418,7 @@ The definition of A208756 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)-T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=0, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208756
@@ -4549,7 +4540,7 @@ end A208756
 /-!
 # A208757: Triangle of coefficients of polynomials u(n,x) jointly generated with A208758; see the Formula section.
 
-The programs for A208757, the canonical program `A208757.P12150106785468294059` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208757 has offset 1).
+The programs for A208757, the canonical program `A208757.P12150106785468294059` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208757 has offset 1).
 
 The definition of A208757 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4558,7 +4549,7 @@ The definition of A208757 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)-2*T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208757
@@ -4789,7 +4780,7 @@ end A208757
 /-!
 # A208758: Triangle of coefficients of polynomials v(n,x) jointly generated with A208757; see the Formula section.
 
-The programs for A208758, the canonical program `A208758.P17354112171279062425` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208758 has offset 1).
+The programs for A208758, the canonical program `A208758.P17354112171279062425` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208758 has offset 1).
 
 The definition of A208758 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4798,7 +4789,7 @@ The definition of A208758 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)-2*T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=0, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208758
@@ -4957,7 +4948,7 @@ end A208758
 /-!
 # A208759: Triangle of coefficients of polynomials u(n,x) jointly generated with A208760; see the Formula section.
 
-The programs for A208759, the canonical program `A208759.P16154567835743488461` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208759 has offset 1).
+The programs for A208759, the canonical program `A208759.P16154567835743488461` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208759 has offset 1).
 
 The definition of A208759 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4966,7 +4957,7 @@ The definition of A208759 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208759
@@ -5115,7 +5106,7 @@ end A208759
 /-!
 # A208760: Triangle of coefficients of polynomials v(n,x) jointly generated with A208759; see the Formula section.
 
-The programs for A208760, the canonical program `A208760.P17713895607583239898` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208760 has offset 1).
+The programs for A208760, the canonical program `A208760.P17713895607583239898` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208760 has offset 1).
 
 The definition of A208760 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5124,7 +5115,7 @@ The definition of A208760 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208760
@@ -5263,7 +5254,7 @@ end A208760
 /-!
 # A208761: Triangle of coefficients of polynomials u(n,x) jointly generated with A208762; see the Formula section.
 
-The programs for A208761, the canonical program `A208761.P6495230936573383809` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208761 has offset 1).
+The programs for A208761, the canonical program `A208761.P6495230936573383809` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208761 has offset 1).
 
 The definition of A208761 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5272,7 +5263,7 @@ The definition of A208761 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+T(n-1,k-1)-T(n-2,k)+T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208761
@@ -5394,7 +5385,7 @@ end A208761
 /-!
 # A208762: Triangle of coefficients of polynomials v(n,x) jointly generated with A208761; see the Formula section.
 
-The programs for A208762, the canonical program `A208762.P9660494929894193493` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208762 has offset 1).
+The programs for A208762, the canonical program `A208762.P9660494929894193493` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208762 has offset 1).
 
 The definition of A208762 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5403,7 +5394,7 @@ The definition of A208762 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+T(n-1,k-1)-T(n-2,k)+T(n-2,k-1)+2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=2, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208762
@@ -5548,7 +5539,7 @@ end A208762
 /-!
 # A208763: Triangle of coefficients of polynomials u(n,x) jointly generated with A208764; see the Formula section.
 
-The programs for A208763, the canonical program `A208763.P8504777985015641973` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208763 has offset 1).
+The programs for A208763, the canonical program `A208763.P8504777985015641973` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208763 has offset 1).
 
 The definition of A208763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5557,7 +5548,7 @@ The definition of A208763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)-T(n-2,k-1)+4*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208763
@@ -5667,7 +5658,7 @@ end A208763
 /-!
 # A208764: Triangle of coefficients of polynomials v(n,x) jointly generated with A208763; see the Formula section.
 
-The programs for A208764, the canonical program `A208764.P4486982656256261471` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208764 has offset 1).
+The programs for A208764, the canonical program `A208764.P4486982656256261471` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208764 has offset 1).
 
 The definition of A208764 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5676,7 +5667,7 @@ The definition of A208764 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+T(n-1,k-1)+4*T(row(n)-2, col(n)-2)-T(n-2,k-1)` with `a(0)=1, a(1)=0, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208764
@@ -5951,7 +5942,7 @@ end A208765
 /-!
 # A208766: Triangle of coefficients of polynomials v(n,x) jointly generated with A208765; see the Formula section.
 
-The programs for A208766, the canonical program `A208766.P15909436164413796763` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208766 has offset 1).
+The programs for A208766, the canonical program `A208766.P15909436164413796763` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208766 has offset 1).
 
 The definition of A208766 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5960,7 +5951,7 @@ The definition of A208766 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k)+T(n-1,k-1)-T(n-2,k)-T(n-2,k-1)+4*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208766
@@ -6122,28 +6113,6 @@ end A208766
 The programs for A208767, there is no canonical definition to state claims against.
 -/
 
-/-! ## A208767.P15822491058215044216
-
-`∪[A136339(2*(n+2)), A095849(n+1)]`
--/
-
-namespace A208767.P15822491058215044216
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136339 (2 * (n + 2))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095849 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A208767.P15822491058215044216
-
 /-! ## A208767.P8816543173671671138
 
 `A073348(2*a(n-1))` with `a(0)=1`
@@ -6158,28 +6127,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A208767.P8816543173671671138
-
-/-! ## A208767.P14077612324309348599
-
-`∪[A010050(n), A095849(n+1)]`
--/
-
-namespace A208767.P14077612324309348599
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010050 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095849 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A208767.P14077612324309348599
 
 /-! ## A208767.P14156118753739802519
 
@@ -6475,21 +6422,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A208770.P11209129196724311037
-
-/-! ## A208770.P17743596456058323167
-
-`A278638(A052382(n+1))`
--/
-
-namespace A208770.P17743596456058323167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278638 (A052382 (n + 1)).toNat
-
-end
-
-end A208770.P17743596456058323167
 
 /-!
 # A208771: Number of n-bead necklaces labeled with numbers 1..n not allowing reversal, with no adjacent beads differing by more than 1.
@@ -7169,16 +7101,39 @@ end A208777.P10667097579229736507
 /-!
 # A208778: Number of n X 6 0..1 arrays avoiding 0 0 0 and 0 0 1 horizontally and 0 1 1 and 1 1 1 vertically.
 
-The programs for A208778, the canonical program `A208778.P14435347369477658477` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208778 has offset 1).
+The programs for A208778, the canonical program `A208778.P14435347369477658477` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208778 has offset 1).
 
 The definition of A208778 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 470 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A208778.P5010089173667601255
+
+`ogf((26+650x-546x^2-572x^3)/(1-x-x^2))`
+-/
+
+namespace A208778.P5010089173667601255
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [26, 650, -546, -572] [1, -1, -1] n
+
+end
+
+end A208778.P5010089173667601255
+
+namespace A208778
+
+/-- `ogf((26+650x-546x^2-572x^3)/(1-x-x^2))` -/
+def P5010089173667601255.Spec : Prop :=
+  ∀ n, P5010089173667601255.a n = A208778 (n + 1)
+
+end A208778
 
 /-! ## A208778.P14435347369477658477
 
 `a(n-1)+a(n-2)` with `a(0)=26, a(1)=676, a(2)=156, a(3)=260`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208778
@@ -7677,7 +7632,7 @@ end A208789.P10929331396930005389
 /-!
 # A208790: Number of n X 2 0..2 arrays with no element equal the average of immediate neighbors vertically above, diagonally above and left, and horizontally left of it.
 
-The programs for A208790, the canonical program `A208790.P864384592084023907` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208790 has offset 1).
+The programs for A208790, the canonical program `A208790.P864384592084023907` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208790 has offset 1).
 
 The definition of A208790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 137 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7709,7 +7664,7 @@ end A208790
 
 `2*a(n-1)+16*a(n-2)+10*a(n-3)-4*a(n-4)` with `a(0)=6, a(1)=30, a(2)=160, a(3)=852`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A208790

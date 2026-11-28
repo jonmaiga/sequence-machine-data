@@ -5,30 +5,28 @@ import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C014
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C035
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
 import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
@@ -36,10 +34,11 @@ import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -61,7 +60,7 @@ import Seq.Opaque.C022
 /-!
 # A184200: Number of (n+1) X 3 binary arrays with no 2 X 2 subblock containing fewer than two 1s.
 
-The programs for A184200, the canonical program `A184200.P14155495183630604722` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184200 has offset 1).
+The programs for A184200, the canonical program `A184200.P14155495183630604722` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184200 has offset 1).
 
 The definition of A184200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -70,7 +69,7 @@ The definition of A184200 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((35+20x-87x^2-6x^3+16x^4)/(1-5x-4x^2+11x^3+x^4-2x^5))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A184200
@@ -624,7 +623,7 @@ end A184212.P4413251972059143516
 /-!
 # A184218: a(n) = largest k such that A000217(n+1) = A000217(n) + (A000217(n) mod k), or 0 if no such k exists.
 
-The programs for A184218, the canonical program `A184218.P10879986465669603609` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184218 has offset 1).
+The programs for A184218, the canonical program `A184218.P10879986465669603609` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184218 has offset 1).
 
 The definition of A184218 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -656,7 +655,7 @@ end A184218
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=9, a(5)=14, a(6)=20`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A184218
@@ -1135,7 +1134,7 @@ end A184219.P18277451891301611366
 /-!
 # A184220: a(n) = largest k such that A000290(n+1) = A000290(n) + (A000290(n) mod k), or 0 if no such k exists.
 
-The programs for A184220, the canonical program `A184220.P8376748042134141039` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184220 has offset 1).
+The programs for A184220, the canonical program `A184220.P8376748042134141039` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184220 has offset 1).
 
 The definition of A184220 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1144,7 +1143,7 @@ The definition of A184220 is `conjectured`: the Lean definition is a formula tha
 
 `(1-and(1, C(3, n)))*(n²-2)`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A184220
@@ -1576,7 +1575,7 @@ end A184222.P18395838293675643161
 /-!
 # A184223: Half the number of (n+1) X 2 0..3 arrays with every 2 X 2 subblock diagonal sum differing from its antidiagonal sum by more than 3.
 
-The programs for A184223, the canonical program `A184223.P12622722372742739083` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184223 has offset 1).
+The programs for A184223, the canonical program `A184223.P12622722372742739083` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184223 has offset 1).
 
 The definition of A184223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1608,7 +1607,7 @@ end A184223
 
 `3*a(n-1)+3*a(n-2)-6*a(n-3)` with `a(0)=15, a(1)=57, a(2)=180`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A184223
@@ -1678,8 +1677,29 @@ end A184223
 /-!
 # A184224: Half the number of (n+1) X 3 0..3 arrays with every 2 X 2 subblock diagonal sum differing from its antidiagonal sum by more than 3.
 
-The programs for A184224, there is no canonical definition to state claims against.
+The programs for A184224, the canonical program `A184224.P12797654631212748783` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184224 has offset 1).
+
+The definition of A184224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A184224.P12797654631212748783
+
+`ogf((57+69x-547x^2+250x^3+324x^4-168x^5)/(1-6x-7x^2+42x^3-17x^4-24x^5+12x^6))`
+
+The canonical program, it is in `Seq.B000.C031`.
+-/
+
+namespace A184224
+
+/-- `ogf((57+69x-547x^2+250x^3+324x^4-168x^5)/(1-6x-7x^2+42x^3-17x^4-24x^5+12x^6))` -/
+def P12797654631212748783.Spec : Prop :=
+  ∀ n, P12797654631212748783.a n = A184224 (n + 1)
+
+theorem P12797654631212748783.correct : P12797654631212748783.Spec := by
+  intro n
+  simp only [A184224, Nat.add_sub_cancel]
+
+end A184224
 
 /-! ## A184224.P13782752469273180774
 
@@ -1699,6 +1719,14 @@ end
 
 end A184224.P13782752469273180774
 
+namespace A184224
+
+/-- `A184231(∑[n+1]+2)` -/
+def P13782752469273180774.Spec : Prop :=
+  ∀ n, P13782752469273180774.a n = A184224 (n + 1)
+
+end A184224
+
 /-! ## A184224.P11664876022594382167
 
 `record[A010054(n)*A184231(n+2)]`
@@ -1716,6 +1744,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184224.P11664876022594382167
+
+namespace A184224
+
+/-- `record[A010054(n)*A184231(n+2)]` -/
+def P11664876022594382167.Spec : Prop :=
+  ∀ n, P11664876022594382167.a n = A184224 (n + 1)
+
+end A184224
 
 /-! ## A184224.P4799138401285317592
 
@@ -1735,6 +1771,14 @@ end
 
 end A184224.P4799138401285317592
 
+namespace A184224
+
+/-- `record[root(A184231(n+2), A074909(n))]` -/
+def P4799138401285317592.Spec : Prop :=
+  ∀ n, P4799138401285317592.a n = (A184224 (n + 1) : ℝ)
+
+end A184224
+
 /-! ## A184224.P7762555249959557292
 
 `record[gcd(A002262(n), A184231(n+2))]`
@@ -1752,6 +1796,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A184224.P7762555249959557292
+
+namespace A184224
+
+/-- `record[gcd(A002262(n), A184231(n+2))]` -/
+def P7762555249959557292.Spec : Prop :=
+  ∀ n, (P7762555249959557292.a n : ℤ) = A184224 (n + 1)
+
+end A184224
 
 /-!
 # A184225: Half the number of (n+1)X4 0..3 arrays with every 2X2 subblock diagonal sum differing from its antidiagonal sum by more than 3.

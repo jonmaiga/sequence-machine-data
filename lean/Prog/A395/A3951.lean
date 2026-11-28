@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -14,26 +15,29 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C045
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,19 +59,23 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,7 +87,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -924,7 +931,7 @@ end A395103.P58055080839726058
 /-!
 # A395108: Number of points covered by a minimal level n H-Tree on a square lattice.
 
-The programs for A395108, the canonical program `A395108.P12396600524207027521` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395108 has offset 0).
+The programs for A395108, the canonical program `A395108.P12396600524207027521` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395108 has offset 0).
 
 The definition of A395108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -933,7 +940,7 @@ The definition of A395108 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-2x^2+2x^3)/(1-3x+6x^3-4x^4))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395108
@@ -1388,7 +1395,7 @@ end A395108
 /-!
 # A395109: Number of points covered by a regular level n H-Tree on a square lattice.
 
-The programs for A395109, the canonical program `A395109.P17246433840384259036` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395109 has offset 0).
+The programs for A395109, the canonical program `A395109.P17246433840384259036` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395109 has offset 0).
 
 The definition of A395109 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1397,7 +1404,7 @@ The definition of A395109 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x-2x^2+2x^3)/(1-x-6x^2+6x^3+8x^4-8x^5))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395109
@@ -2645,21 +2652,6 @@ end A395147.P14427614076629573799
 The programs for A395148, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395148.P8579539841440851641
-
-`A396502(n)`
--/
-
-namespace A395148.P8579539841440851641
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396502 n
-
-end
-
-end A395148.P8579539841440851641
-
 /-! ## A395148.P12214653246394071602
 
 `A294849(A118354(n))`
@@ -2964,30 +2956,6 @@ end
 end A395151.P17865561934503298115
 
 /-!
-# A395155: Number of simple double-toroidal graphs on n nodes.
-
-The programs for A395155, there is no canonical definition to state claims against.
--/
-
-/-! ## A395155.P2626799399599700299
-
-`∑[A397840(n+1)]`
--/
-
-namespace A395155.P2626799399599700299
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397840 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A395155.P2626799399599700299
-
-/-!
 # A395156: Square array read by antidiagonals upwards: T(n,k) is the n-th number j with the property that the symmetric representation of sigma(j) has 2*k parts and two parts meet at the center of the Dyck paths, n >= 1, k >= 1, j >= 1.
 
 The programs for A395156, there is no canonical definition to state claims against.
@@ -3057,7 +3025,7 @@ end A395158.P9906107786812506802
 /-!
 # A395159: a(n) = 2*(sum of elements of n-th run)/(length of n-th run)^2 using 1 and 2 starting with 1,1.
 
-The programs for A395159, the canonical program `A395159.P17454811225797631171` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395159 has offset 1).
+The programs for A395159, the canonical program `A395159.P17454811225797631171` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395159 has offset 1).
 
 The definition of A395159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3135,7 +3103,7 @@ end A395159
 
 `A000034(A157196(n+2)+A046523(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A395159
@@ -4169,7 +4137,7 @@ end A395181.P16771692998502491340
 /-!
 # A395184: Totals of the base-3 run-length transform of the Jacobsthal numbers.
 
-The programs for A395184, the canonical program `A395184.P8852498894924238411` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395184 has offset 0).
+The programs for A395184, the canonical program `A395184.P8852498894924238411` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395184 has offset 0).
 
 The definition of A395184 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4201,7 +4169,7 @@ end A395184
 
 `3*a(n-1)+8*a(n-2)-8*a(n-3)` with `a(0)=1, a(1)=3, a(2)=9`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A395184
@@ -4432,21 +4400,6 @@ end A395187.P5326321448357725576
 
 The programs for A395188, there is no canonical definition to state claims against.
 -/
-
-/-! ## A395188.P7593685037876960421
-
-`A395191(n)`
--/
-
-namespace A395188.P7593685037876960421
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A395191 n
-
-end
-
-end A395188.P7593685037876960421
 
 /-! ## A395188.P5122519772368320390
 
@@ -5337,21 +5290,6 @@ end A395198.P6475265648818480627
 
 The programs for A395199, there is no canonical definition to state claims against.
 -/
-
-/-! ## A395199.P16488917161652733054
-
-`A072639(A071673(n))`
--/
-
-namespace A395199.P16488917161652733054
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072639 (A071673 n).toNat
-
-end
-
-end A395199.P16488917161652733054
 
 /-! ## A395199.P8358639515431480018
 

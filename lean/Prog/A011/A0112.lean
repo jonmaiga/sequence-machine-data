@@ -6,13 +6,13 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C016
+import Seq.B000.C012
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -23,7 +23,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C005
@@ -32,13 +31,13 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C007
+import Seq.Opaque.C006
 import Seq.Opaque.C010
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C020
-import Seq.Opaque.C023
+import Seq.Opaque.C019
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

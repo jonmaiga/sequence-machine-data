@@ -4,11 +4,11 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -24,25 +24,27 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +53,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -69,16 +70,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C001
+import Seq.B005.C003
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5132,27 +5134,6 @@ end
 end A032137.P3167197065988612064
 
 /-!
-# A032138: Shifts left under "CFJ" (necklace, size, labeled) transform.
-
-The programs for A032138, there is no canonical definition to state claims against.
--/
-
-/-! ## A032138.P17581408845754257026
-
-`A032151(n+1)`
--/
-
-namespace A032138.P17581408845754257026
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032151 (n + 1)
-
-end
-
-end A032138.P17581408845754257026
-
-/-!
 # A032139: "CFK" (necklace, size, unlabeled) transform of 2,2,2,2...
 
 The programs for A032139, there is no canonical definition to state claims against.
@@ -5623,21 +5604,6 @@ end A032147.P18259516311477765508
 
 The programs for A032149, there is no canonical definition to state claims against.
 -/
-
-/-! ## A032149.P5804744606214822827
-
-`A058837(n)+A032315(n)`
--/
-
-namespace A032149.P5804744606214822827
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058837 n + A032315 n
-
-end
-
-end A032149.P5804744606214822827
 
 /-! ## A032149.P2050012616371984101
 
@@ -8438,21 +8404,6 @@ end A032185.P4188908094591786712
 
 The programs for A032186, there is no canonical definition to state claims against.
 -/
-
-/-! ## A032186.P9546387742617500237
-
-`A122938(n)-A165071(n)`
--/
-
-namespace A032186.P9546387742617500237
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122938 n - A165071 n
-
-end
-
-end A032186.P9546387742617500237
 
 /-! ## A032186.P15028100838472359782
 

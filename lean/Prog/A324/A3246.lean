@@ -3,16 +3,18 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -20,17 +22,18 @@ import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B000.C038
-import Seq.B000.C040
+import Seq.B000.C039
 import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,37 +41,39 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
+import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +105,7 @@ set_option linter.unreachableTactic false
 /-!
 # A324600: a(n) = (k(n)*(k(n) + 1))/2 with k = A018252 (nonprime numbers), for n >= 1.
 
-The programs for A324600, the canonical program `A324600.P4691746058931788140` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324600 has offset 1).
+The programs for A324600, the canonical program `A324600.P4691746058931788140` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324600 has offset 1).
 
 The definition of A324600 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018252, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -109,7 +114,7 @@ The definition of A324600 is `conditional`: the Lean definition is an OEIS formu
 
 `A000217(A018252(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324600
@@ -656,21 +661,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324602.P16575755686750088195
-
-/-! ## A324602.P12633300821523653111
-
-`A307449(n+1)`
--/
-
-namespace A324602.P12633300821523653111
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307449 (n + 1)
-
-end
-
-end A324602.P12633300821523653111
 
 /-!
 # A324603: Number of non-intersecting loops starting at (0,0) on the n X n torus consisting of steps up and to the right.
@@ -1787,7 +1777,7 @@ end A324630.P9785756432924511571
 /-!
 # A324631: Number of permutations p of [n] such that four is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
-The programs for A324631, the canonical program `A324631.P476453411250371200` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324631 has offset 4).
+The programs for A324631, the canonical program `A324631.P476453411250371200` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324631 has offset 4).
 
 The definition of A324631 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1796,7 +1786,7 @@ The definition of A324631 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((15+x-17x^2-23x^3-10x^4)/(1-2x-x^2+x^3+2x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A324631
@@ -1906,8 +1896,29 @@ end A324631
 /-!
 # A324632: Number of permutations p of [n] such that five is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
-The programs for A324632, there is no canonical definition to state claims against.
+The programs for A324632, the canonical program `A324632.P2269544596294507983` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324632 has offset 5).
+
+The definition of A324632 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A324632.P2269544596294507983
+
+`ogf((76-43x-196x^2-261x^3-128x^4+445x^5+807x^6+765x^7+397x^8-14x^9-167x^10-136x^11-41x^12)/(1-3x-x^2+3x^3+6x^4+8x^5-4x^6-14x^7-16x^8-10x^9-x^10+3x^11+3x^12+x^13))`
+
+The canonical program, it is in `Seq.B000.C046`.
+-/
+
+namespace A324632
+
+/-- `ogf((76-43x-196x^2-261x^3-128x^4+445x^5+807x^6+765x^7+397x^8-14x^9-167x^10-136x^11-41x^12)/(1-3x-x^2+3x^3+6x^4+8x^5-4x^6-14x^7-16x^8-10x^9-x^10+3x^11+3x^12+x^13))` -/
+def P2269544596294507983.Spec : Prop :=
+  ∀ n, P2269544596294507983.a n = A324632 (n + 5)
+
+theorem P2269544596294507983.correct : P2269544596294507983.Spec := by
+  intro n
+  simp only [A324632, Nat.add_sub_cancel]
+
+end A324632
 
 /-! ## A324632.P11605738518403815654
 
@@ -1924,6 +1935,14 @@ end
 
 end A324632.P11605738518403815654
 
+namespace A324632
+
+/-- `A000804(n+5)-A004306(n+5)` -/
+def P11605738518403815654.Spec : Prop :=
+  ∀ n, P11605738518403815654.a n = A324632 (n + 5)
+
+end A324632
+
 /-! ## A324632.P17466601621216028891
 
 `A000804(n+5)-A000803(n+7)`
@@ -1939,6 +1958,14 @@ end
 
 end A324632.P17466601621216028891
 
+namespace A324632
+
+/-- `A000804(n+5)-A000803(n+7)` -/
+def P17466601621216028891.Spec : Prop :=
+  ∀ n, P17466601621216028891.a n = A324632 (n + 5)
+
+end A324632
+
 /-! ## A324632.P11688364921390315668
 
 `A324564(A055999(n+3))`
@@ -1953,6 +1980,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324632.P11688364921390315668
+
+namespace A324632
+
+/-- `A324564(A055999(n+3))` -/
+def P11688364921390315668.Spec : Prop :=
+  ∀ n, P11688364921390315668.a n = A324632 (n + 5)
+
+end A324632
 
 /-! ## A324632.P9263290556271760026
 
@@ -1974,6 +2009,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324632.P9263290556271760026
+
+namespace A324632
+
+/-- `A324563(eq[5, A002262(n)])` -/
+def P9263290556271760026.Spec : Prop :=
+  ∀ n, P9263290556271760026.a n = A324632 (n + 5)
+
+end A324632
 
 /-!
 # A324633: Number of permutations p of [n] such that six is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
@@ -2895,7 +2938,7 @@ end A324642.P14898597264829054220
 /-!
 # A324643: Numbers k such that bitand(2k,sigma(k))/2 = k = bitand(k,sigma(k)-k), where bitand is bitwise-AND, A004198.
 
-The programs for A324643, the canonical program `A324643.P7794025302369254202` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324643 has offset 1).
+The programs for A324643, the canonical program `A324643.P7794025302369254202` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324643 has offset 1).
 
 The definition of A324643 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1199 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2904,7 +2947,7 @@ The definition of A324643 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A324639(n+1), A324652(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A324643
@@ -3735,7 +3778,7 @@ end A324646
 /-!
 # A324648: a(n) = n - A318458(n), where A318458(n) is bitwise-AND of n and the sum of proper divisors of n (sigma(n)-n).
 
-The programs for A324648, the canonical program `A324648.P5203091077092456117` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324648 has offset 1).
+The programs for A324648, the canonical program `A324648.P5203091077092456117` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324648 has offset 1).
 
 The definition of A324648 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3744,7 +3787,7 @@ The definition of A324648 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1-A318458(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324648
@@ -4094,7 +4137,7 @@ end A324648
 /-!
 # A324649: Numbers k such that A318458(k) (bitwise-AND of k and sigma(k)-k) is equal to k.
 
-The programs for A324649, the canonical program `A324649.P3122999716778518876` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324649 has offset 1).
+The programs for A324649, the canonical program `A324649.P3122999716778518876` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324649 has offset 1).
 
 The definition of A324649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 622 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4103,7 +4146,7 @@ The definition of A324649 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n+1, A318458(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324649

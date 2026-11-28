@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -26,21 +27,23 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +64,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -75,12 +79,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1374,21 +1378,6 @@ end
 
 end A088510.P1133851460817208186
 
-/-! ## A088510.P63915189203437545
-
-`A121728(A121731(n+1))`
--/
-
-namespace A088510.P63915189203437545
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121728 (A121731 (n + 1)).toNat
-
-end
-
-end A088510.P63915189203437545
-
 /-! ## A088510.P2640497093562609176
 
 `or(A034472(A185237(3*n+1))-2, A120097(n+1))`
@@ -1425,25 +1414,10 @@ end
 
 end A088511.P18011146515812018650
 
-/-! ## A088511.P18145326132112477785
-
-`A121727(A121731(n+1))`
--/
-
-namespace A088511.P18145326132112477785
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121727 (A121731 (n + 1)).toNat
-
-end
-
-end A088511.P18145326132112477785
-
 /-!
 # A088512: Number of partitions of n into two parts whose xor-sum is n.
 
-The programs for A088512, the canonical program `A088512.P15945128481436275325` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088512 has offset 0).
+The programs for A088512, the canonical program `A088512.P15945128481436275325` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088512 has offset 0).
 
 The definition of A088512 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1574,7 +1548,7 @@ end A088512
 
 `floor(A038573(n)/2)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A088512
@@ -1632,12 +1606,6 @@ namespace A088512
 /-- `floor((A001316(n)-1)/2)` -/
 def P4778206368934979118.Spec : Prop :=
   ∀ n, P4778206368934979118.a n = A088512 n
-
-theorem P4778206368934979118.correct : P4778206368934979118.Spec := by
-  intro n
-  simp only [A088512, Nat.add_sub_cancel, A088512.P4778206368934979118.a, A088512.P15945128481436275325.a, A001316, A001316.P6434973587264609955.f1, A001316.P6434973587264609955.a, A038573, A038573.P5952807231814584452.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A088512
 
@@ -1931,36 +1899,6 @@ end A088512
 
 The programs for A088513, there is no canonical definition to state claims against.
 -/
-
-/-! ## A088513.P15934302579108747710
-
-`A201223(A016945(n))`
--/
-
-namespace A088513.P15934302579108747710
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201223 (A016945 n).toNat
-
-end
-
-end A088513.P15934302579108747710
-
-/-! ## A088513.P15674385446272110132
-
-`A357277(n+1)`
--/
-
-namespace A088513.P15674385446272110132
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357277 (n + 1)
-
-end
-
-end A088513.P15674385446272110132
 
 /-! ## A088513.P1039387293657186728
 
@@ -8539,21 +8477,6 @@ end
 
 end A088561.P13906544569755470677
 
-/-! ## A088561.P7494167332916167234
-
-`A289508(A088555(n+1)+0)`
--/
-
-namespace A088561.P7494167332916167234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289508 (A088555 (n + 1) + 0).toNat
-
-end
-
-end A088561.P7494167332916167234
-
 /-! ## A088561.P15443801931741258414
 
 `A204892(A088555(n+1)-2)`
@@ -11046,29 +10969,6 @@ namespace A088568
 /-- `-A294448(1+n)` -/
 def P73234356592622547.Spec : Prop :=
   ∀ n, P73234356592622547.a n = A088568 (n + 1)
-
-end A088568
-
-/-! ## A088568.P17844672147997788064
-
-`0-A294448(n+1)`
--/
-
-namespace A088568.P17844672147997788064
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  0 - A294448 (n + 1)
-
-end
-
-end A088568.P17844672147997788064
-
-namespace A088568
-
-/-- `0-A294448(n+1)` -/
-def P17844672147997788064.Spec : Prop :=
-  ∀ n, P17844672147997788064.a n = A088568 (n + 1)
 
 end A088568
 

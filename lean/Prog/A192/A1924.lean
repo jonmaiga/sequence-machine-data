@@ -12,8 +12,10 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -25,8 +27,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -37,12 +38,13 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,9 +63,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -80,7 +80,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -219,21 +218,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A192401.P15009282807574338494
-
-/-! ## A192401.P16199707503876369597
-
-`A052814(n+1)`
--/
-
-namespace A192401.P16199707503876369597
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052814 (n + 1)
-
-end
-
-end A192401.P16199707503876369597
 
 /-!
 # A192402: G.f. A(x) satisfies A(x) = 1 + Sum_{n>=1} A(x)^n * 2*x^(2*n-1)/(1 - 2*x^(2*n-1)).
@@ -595,7 +579,7 @@ end A192417.P248289470214366210
 /-!
 # A192418: Molecular topological indices of the complete bipartite graphs K_{n,n}.
 
-The programs for A192418, the canonical program `A192418.P8311162932736270715` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192418 has offset 1).
+The programs for A192418, the canonical program `A192418.P8311162932736270715` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192418 has offset 1).
 
 The definition of A192418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -627,7 +611,7 @@ end A192418
 
 `4*(n+1)²*(2*(n+1)-1)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192418
@@ -1239,7 +1223,7 @@ end A192420.P16843357230822583468
 /-!
 # A192421: Constant term of the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192421, the canonical program `A192421.P3689219245290076927` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192421 has offset 0).
+The programs for A192421, the canonical program `A192421.P3689219245290076927` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192421 has offset 0).
 
 The definition of A192421 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1271,7 +1255,7 @@ end A192421
 
 `a(n-1)+3*a(n-2)-a(n-3)-a(n-4)` with `a(0)=2, a(1)=0, a(2)=3, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192421
@@ -1361,7 +1345,7 @@ end A192421
 /-!
 # A192422: Coefficient of x in the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192422, the canonical program `A192422.P3883125305601649272` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192422 has offset 0).
+The programs for A192422, the canonical program `A192422.P3883125305601649272` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192422 has offset 0).
 
 The definition of A192422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1393,7 +1377,7 @@ end A192422
 
 `a(n-1)+3*a(n-2)-a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192422
@@ -1483,7 +1467,7 @@ end A192422
 /-!
 # A192423: Constant term of the reduction by x^2 -> x+2 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192423, the canonical program `A192423.P9586766846956224209` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192423 has offset 0).
+The programs for A192423, the canonical program `A192423.P9586766846956224209` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192423 has offset 0).
 
 The definition of A192423 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1515,7 +1499,7 @@ end A192423
 
 `a(n-1)+4*a(n-2)-a(n-3)-a(n-4)` with `a(0)=2, a(1)=0, a(2)=4, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192423
@@ -1651,7 +1635,7 @@ end A192423
 /-!
 # A192424: a(n) = A192423(n)/2.
 
-The programs for A192424, the canonical program `A192424.P13197744314492095477` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192424 has offset 0).
+The programs for A192424, the canonical program `A192424.P13197744314492095477` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192424 has offset 0).
 
 The definition of A192424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1683,7 +1667,7 @@ end A192424
 
 `a(n-1)+4*a(n-2)-a(n-3)-a(n-4)` with `a(0)=1, a(1)=0, a(2)=2, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192424
@@ -1867,7 +1851,7 @@ end A192424
 /-!
 # A192425: Coefficient of x in the reduction by x^2 -> x+2 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192425, the canonical program `A192425.P12395799756661594501` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192425 has offset 0).
+The programs for A192425, the canonical program `A192425.P12395799756661594501` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192425 has offset 0).
 
 The definition of A192425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1899,7 +1883,7 @@ end A192425
 
 `a(n-1)+4*a(n-2)-a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192425
@@ -2084,7 +2068,7 @@ end A192425
 /-!
 # A192426: Constant term of the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192426, the canonical program `A192426.P15126377238213256721` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192426 has offset 0).
+The programs for A192426, the canonical program `A192426.P15126377238213256721` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192426 has offset 0).
 
 The definition of A192426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2116,7 +2100,7 @@ end A192426
 
 `a(n-1)+5*a(n-2)-2*a(n-3)-4*a(n-4)` with `a(0)=2, a(1)=0, a(2)=5, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192426
@@ -2134,7 +2118,7 @@ end A192426
 /-!
 # A192427: Coefficient of x in the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192427, the canonical program `A192427.P420188869645860243` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192427 has offset 0).
+The programs for A192427, the canonical program `A192427.P420188869645860243` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192427 has offset 0).
 
 The definition of A192427 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2166,7 +2150,7 @@ end A192427
 
 `a(n-1)+5*a(n-2)-2*a(n-3)-4*a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192427
@@ -2184,7 +2168,7 @@ end A192427
 /-!
 # A192428: Constant term of the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192428, the canonical program `A192428.P628704432946534824` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192428 has offset 0).
+The programs for A192428, the canonical program `A192428.P628704432946534824` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192428 has offset 0).
 
 The definition of A192428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2216,7 +2200,7 @@ end A192428
 
 `2*a(n-1)+10*a(n-2)-6*a(n-3)-9*a(n-4)` with `a(0)=1, a(1)=1, a(2)=5, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192428
@@ -2280,7 +2264,7 @@ end A192428
 /-!
 # A192429: Coefficient of x in the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192429, the canonical program `A192429.P14427398504042412895` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192429 has offset 0).
+The programs for A192429, the canonical program `A192429.P14427398504042412895` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192429 has offset 0).
 
 The definition of A192429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2312,7 +2296,7 @@ end A192429
 
 `2*a(n-1)+10*a(n-2)-6*a(n-3)-9*a(n-4)` with `a(0)=0, a(1)=1, a(2)=4, a(3)=21`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192429
@@ -2399,7 +2383,7 @@ end A192429
 /-!
 # A192430: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192430, the canonical program `A192430.P7366233849877574953` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192430 has offset 0).
+The programs for A192430, the canonical program `A192430.P7366233849877574953` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192430 has offset 0).
 
 The definition of A192430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 185 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2431,7 +2415,7 @@ end A192430
 
 `2*a(n-1)+6*a(n-2)-2*a(n-3)-a(n-4)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192430
@@ -2472,7 +2456,7 @@ end A192430
 /-!
 # A192431: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x) defined below in Comments.
 
-The programs for A192431, the canonical program `A192431.P1001273660649389222` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192431 has offset 0).
+The programs for A192431, the canonical program `A192431.P1001273660649389222` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192431 has offset 0).
 
 The definition of A192431 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2504,7 +2488,7 @@ end A192431
 
 `2*a(n-1)+6*a(n-2)-2*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=4, a(3)=15`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192431
@@ -5031,21 +5015,6 @@ end
 
 end A192455.P17180974714417552589
 
-/-! ## A192455.P9124109814833747885
-
-`xor(A182454(n), A281400(n+1))`
--/
-
-namespace A192455.P9124109814833747885
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A182454 n) (A281400 (n + 1))
-
-end
-
-end A192455.P9124109814833747885
-
 /-! ## A192455.P11237175379631471996
 
 `A182454(n)+A028422(A049169(n))`
@@ -5860,7 +5829,7 @@ end A192464
 /-!
 # A192465: Constant term of the reduction by x^2->x+2 of the polynomial p(n,x)=1+x^n+x^(2n).
 
-The programs for A192465, the canonical program `A192465.P4330871125634059146` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192465 has offset 1).
+The programs for A192465, the canonical program `A192465.P4330871125634059146` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192465 has offset 1).
 
 The definition of A192465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5892,7 +5861,7 @@ end A192465
 
 `∑[4^n]+2*round(2^n/3)+2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192465
@@ -5985,7 +5954,7 @@ end A192465
 /-!
 # A192466: Coefficient of x in the reduction by x^2->x+2 of the polynomial p(n,x)=1+x^n+x^(2n).
 
-The programs for A192466, the canonical program `A192466.P14093463112424310410` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192466 has offset 1).
+The programs for A192466, the canonical program `A192466.P14093463112424310410` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192466 has offset 1).
 
 The definition of A192466 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6043,7 +6012,7 @@ end A192466
 
 `6*a(n-1)-7*a(n-2)-6*a(n-3)+8*a(n-4)` with `a(0)=2, a(1)=6, a(2)=24, a(3)=90`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192466
@@ -6467,7 +6436,7 @@ end A192466
 /-!
 # A192467: (A192466)/2.
 
-The programs for A192467, the canonical program `A192467.P9931721682696146672` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192467 has offset 1).
+The programs for A192467, the canonical program `A192467.P9931721682696146672` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192467 has offset 1).
 
 The definition of A192467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6499,7 +6468,7 @@ end A192467
 
 `ceil(4^n/3)+2*a(n-1)-n%2` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192467
@@ -7164,7 +7133,7 @@ end A192469
 /-!
 # A192470: (A192469)/2.
 
-The programs for A192470, the canonical program `A192470.P11247596947859352099` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192470 has offset 1).
+The programs for A192470, the canonical program `A192470.P11247596947859352099` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192470 has offset 1).
 
 The definition of A192470 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7196,7 +7165,7 @@ end A192470
 
 `A192469(n+1)/2`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A192470
@@ -7314,7 +7283,7 @@ end A192470
 /-!
 # A192471: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x)=1+x^n+x^(2n+1).
 
-The programs for A192471, the canonical program `A192471.P287865650485884428` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192471 has offset 1).
+The programs for A192471, the canonical program `A192471.P287865650485884428` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192471 has offset 1).
 
 The definition of A192471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 240 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7398,7 +7367,7 @@ end A192471
 
 `A087124(n)+A055588(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A192471
@@ -7787,7 +7756,7 @@ end A192471
 /-!
 # A192472: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x)=1+x^n+x^(2n+2).
 
-The programs for A192472, the canonical program `A192472.P250473357779874780` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192472 has offset 1).
+The programs for A192472, the canonical program `A192472.P250473357779874780` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192472 has offset 1).
 
 The definition of A192472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7796,7 +7765,7 @@ The definition of A192472 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((3-8x+x^2+8x^3-3x^4)/(1-5x+7x^2-x^3-3x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192472
@@ -8269,7 +8238,7 @@ end A192472
 /-!
 # A192473: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x)=1+x^n+x^(2n+2).
 
-The programs for A192473, the canonical program `A192473.P4761756067225825579` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192473 has offset 1).
+The programs for A192473, the canonical program `A192473.P4761756067225825579` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192473 has offset 1).
 
 The definition of A192473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8278,7 +8247,7 @@ The definition of A192473 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4-7x-x^2+x^3)/(1-4x+3x^2+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192473
@@ -9828,7 +9797,7 @@ end A192478.P4668650915959462005
 /-!
 # A192479: a(n) = 2^n*C(n-1) - A186997(n-1), where C(n) are the Catalan numbers (A000108).
 
-The programs for A192479, the canonical program `A192479.P3277058786738417619` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192479 has offset 1).
+The programs for A192479, the canonical program `A192479.P3277058786738417619` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192479 has offset 1).
 
 The definition of A192479 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 115 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9860,7 +9829,7 @@ end A192479
 
 `2*A151374(n)-A186997(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A192479
@@ -9950,7 +9919,7 @@ end A192479
 /-!
 # A192480: a(n) = n + A000108(n-1) for n > 1; a(0)=0, a(1)=1.
 
-The programs for A192480, the canonical program `A192480.P10037595847355585616` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192480 has offset 0).
+The programs for A192480, the canonical program `A192480.P10037595847355585616` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192480 has offset 0).
 
 The definition of A192480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9982,7 +9951,7 @@ end A192480
 
 `A028242(A004275(n))-A115140(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A192480
@@ -10861,7 +10830,7 @@ end A192488.P16115499492559158090
 /-!
 # A192489: Numbers m such that A099427(m) = 2.
 
-The programs for A192489, the canonical program `A192489.P6623214674512171653` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192489 has offset 1).
+The programs for A192489, the canonical program `A192489.P6623214674512171653` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192489 has offset 1).
 
 The definition of A192489 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10870,7 +10839,7 @@ The definition of A192489 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n-1, n-gcd(n, a(n-1))]` with `a(0)=2, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192489
@@ -11341,7 +11310,7 @@ end A192490.P14547954077565529734
 /-!
 # A192491: Molecular topological indices of the complete tripartite graphs K_{n,n,n}.
 
-The programs for A192491, the canonical program `A192491.P773501502713426119` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192491 has offset 1).
+The programs for A192491, the canonical program `A192491.P773501502713426119` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192491 has offset 1).
 
 The definition of A192491 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11373,7 +11342,7 @@ end A192491
 
 `12*(n+1)²*(3*(n+1)-1)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A192491

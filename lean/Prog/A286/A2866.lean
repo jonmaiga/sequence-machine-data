@@ -20,28 +20,29 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,26 +63,28 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -139,16 +142,16 @@ end A286600.P4828289497082869804
 /-!
 # A286601: a(n) = A278222(A193231(n)).
 
-The programs for A286601, the canonical program `A286601.P16400793252116629051` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286601 has offset 0).
+The programs for A286601, the canonical program `A286601.P16400793252116629051` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286601 has offset 0).
 
-The definition of A286601 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A193231, A278222, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A286601 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A193231, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A286601.P16400793252116629051
 
 `A278222(A193231(n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A286601
@@ -252,21 +255,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286602.P5969827311180653451
-
-/-! ## A286602.P13577057149216772187
-
-`A145342(A286600(n))`
--/
-
-namespace A286602.P13577057149216772187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145342 (A286600 n).toNat
-
-end
-
-end A286602.P13577057149216772187
 
 /-! ## A286602.P9359115404760932146
 
@@ -1984,9 +1972,9 @@ end A286611.P615495275976783309
 /-!
 # A286613: a(n) = A046523(A244154(n)).
 
-The programs for A286613, the canonical program `A286613.P8940720398290594098` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286613 has offset 0).
+The programs for A286613, the canonical program `A286613.P8940720398290594098` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286613 has offset 0).
 
-The definition of A286613 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046523, A244154, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A286613 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A286613.P6388709701506131867
@@ -2016,7 +2004,7 @@ end A286613
 
 `A046523(A244154(n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A286613
@@ -2319,27 +2307,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286616.P16389810667215524408
-
-/-!
-# A286617: Restricted growth sequence of A278217 (prime-signature of A075159(1+n)).
-
-The programs for A286617, there is no canonical definition to state claims against.
--/
-
-/-! ## A286617.P13886746926289648504
-
-`A101296(A278217(n))`
--/
-
-namespace A286617.P13886746926289648504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101296 (A278217 n).toNat
-
-end
-
-end A286617.P13886746926289648504
 
 /-!
 # A286618: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 662", based on the 5-celled von Neumann neighborhood.
@@ -2763,21 +2730,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286622.P1170820023496657601
-
-/-! ## A286622.P4237888271078322641
-
-`A194977(A246029(n))`
--/
-
-namespace A286622.P4237888271078322641
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194977 (A246029 n).toNat
-
-end
-
-end A286622.P4237888271078322641
 
 /-!
 # A286623: Square array A(n,k) = A276943(n,k)/A002110(n-1), read by descending antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), etc.
@@ -3434,7 +3386,7 @@ end A286626.P2756896413538662638
 /-!
 # A286627: a(n) = exponent of the highest power of A000005(n) (number of divisors of n) dividing A000010(n) (totient function phi), a(1) = 1.
 
-The programs for A286627, the canonical program `A286627.P1343693028001462736` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286627 has offset 1).
+The programs for A286627, the canonical program `A286627.P1343693028001462736` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286627 has offset 1).
 
 The definition of A286627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3466,7 +3418,7 @@ end A286627
 
 `val(Δ[A049643(n)], A096737(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A286627
@@ -4669,21 +4621,6 @@ end A286637.P10486187476725536609
 The programs for A286638, there is no canonical definition to state claims against.
 -/
 
-/-! ## A286638.P12355818940253545615
-
-`A288357(n)`
--/
-
-namespace A286638.P12355818940253545615
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288357 n
-
-end
-
-end A286638.P12355818940253545615
-
 /-! ## A286638.P13858413336181103220
 
 `A288361(n)-A000007(A033305(n))`
@@ -4734,21 +4671,6 @@ end A286638.P2943837673993325310
 
 The programs for A286639, there is no canonical definition to state claims against.
 -/
-
-/-! ## A286639.P16818362756326155294
-
-`A288358(n)`
--/
-
-namespace A286639.P16818362756326155294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288358 n
-
-end
-
-end A286639.P16818362756326155294
 
 /-! ## A286639.P5656400235181318945
 
@@ -4801,84 +4723,6 @@ end
 
 end A286640.P9619239402529877982
 
-/-! ## A286640.P6116488790588911180
-
-`A288359(n)`
--/
-
-namespace A286640.P6116488790588911180
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288359 n
-
-end
-
-end A286640.P6116488790588911180
-
-/-!
-# A286641: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 193", based on the 5-celled von Neumann neighborhood.
-
-The programs for A286641, there is no canonical definition to state claims against.
--/
-
-/-! ## A286641.P13580148010384903693
-
-`A288360(n)`
--/
-
-namespace A286641.P13580148010384903693
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288360 n
-
-end
-
-end A286641.P13580148010384903693
-
-/-!
-# A286642: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 195", based on the 5-celled von Neumann neighborhood.
-
-The programs for A286642, there is no canonical definition to state claims against.
--/
-
-/-! ## A286642.P15643134707265407694
-
-`A290860(n)`
--/
-
-namespace A286642.P15643134707265407694
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290860 n
-
-end
-
-end A286642.P15643134707265407694
-
-/-!
-# A286644: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 195", based on the 5-celled von Neumann neighborhood.
-
-The programs for A286644, there is no canonical definition to state claims against.
--/
-
-/-! ## A286644.P17369845547668562674
-
-`A290862(n)`
--/
-
-namespace A286644.P17369845547668562674
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290862 n
-
-end
-
-end A286644.P17369845547668562674
-
 /-!
 # A286645: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 195", based on the 5-celled von Neumann neighborhood.
 
@@ -4914,21 +4758,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286645.P16699242525581561354
-
-/-! ## A286645.P4730956230155341520
-
-`A290863(n)`
--/
-
-namespace A286645.P4730956230155341520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290863 n
-
-end
-
-end A286645.P4730956230155341520
 
 /-!
 # A286646: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 197", based on the 5-celled von Neumann neighborhood.
@@ -5238,7 +5067,7 @@ end A286653.P8560827303181994838
 /-!
 # A286654: Characteristic sequence of the Beatty sequence, A022841, of sqrt(7).
 
-The programs for A286654, the canonical program `A286654.P12473785259299417700` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286654 has offset 1).
+The programs for A286654, the canonical program `A286654.P12473785259299417700` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286654 has offset 1).
 
 The definition of A286654 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5247,7 +5076,7 @@ The definition of A286654 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((1+n)/sqrt(7))]`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A286654

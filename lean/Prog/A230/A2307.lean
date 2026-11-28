@@ -18,24 +18,26 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C045
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +45,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
@@ -59,20 +60,22 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,12 +91,14 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -141,7 +146,7 @@ end A230700.P3647153208784459286
 /-!
 # A230701: Number of (n+3) X (1+3) 0..2 white square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 3, and upper left element zero.
 
-The programs for A230701, the canonical program `A230701.P1955058878905862822` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230701 has offset 1).
+The programs for A230701, the canonical program `A230701.P1955058878905862822` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230701 has offset 1).
 
 The definition of A230701 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 189 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -199,7 +204,7 @@ end A230701
 
 `3*a(n-1)+3*a(n-2)-6*a(n-3)+a(n-5)` with `a(0)=2, a(1)=8, a(2)=30, a(3)=102, a(4)=348`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A230701
@@ -593,7 +598,7 @@ end A230708.P5952464061554894192
 /-!
 # A230709: Union of even odious (cf. A128309) and evil numbers (cf. A001969).
 
-The programs for A230709, the canonical program `A230709.P17708540381434539187` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230709 has offset 1).
+The programs for A230709, the canonical program `A230709.P17708540381434539187` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230709 has offset 1).
 
 The definition of A230709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -686,7 +691,7 @@ end A230709
 
 `lt[-a(and(n, n-1)), gcd(n, n%2)+1]` with `a(0)=-2`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A230709
@@ -1214,21 +1219,6 @@ end
 
 end A230710.P366749414818245108
 
-/-! ## A230710.P3115102067914685138
-
-`A093378(n+1)/A230711(n+1)`
--/
-
-namespace A230710.P3115102067914685138
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A093378 (n + 1) : ℚ) / (A230711 (n + 1) : ℚ)
-
-end
-
-end A230710.P3115102067914685138
-
 /-! ## A230710.P17863413824134375394
 
 `filter[A121705(2*n), A011558(#)]`
@@ -1297,21 +1287,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A230711.P17663313758623898948
-
-/-! ## A230711.P16789048448461273424
-
-`A093378(n+1)/A230710(n+1)`
--/
-
-namespace A230711.P16789048448461273424
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A093378 (n + 1) : ℚ) / (A230710 (n + 1) : ℚ)
-
-end
-
-end A230711.P16789048448461273424
 
 /-!
 # A230714: a(n) = lcm(1,2,...,n)*a(floor(n/2))^2 for n > 0, a(0) = 1.
@@ -2167,7 +2142,7 @@ end A230721
 /-!
 # A230723: Number of non-equivalent ways to choose three points in an equilateral triangle grid of side n.
 
-The programs for A230723, the canonical program `A230723.P8132187016885984254` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230723 has offset 1).
+The programs for A230723, the canonical program `A230723.P8132187016885984254` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230723 has offset 1).
 
 The definition of A230723 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2176,7 +2151,7 @@ The definition of A230723 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+3x^2+7x^3+19x^4+16x^5+12x^6+x^7+2x^8-x^9)/(1-3x+7x^3-3x^4-6x^5+6x^7+3x^8-7x^9+3x^11-x^12))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A230723
@@ -6222,21 +6197,6 @@ end
 
 end A230777.P12504836147104875994
 
-/-! ## A230777.P1191451809917975305
-
-`A344582(n+1)`
--/
-
-namespace A230777.P1191451809917975305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344582 (n + 1)
-
-end
-
-end A230777.P1191451809917975305
-
 /-! ## A230777.P14856744771875438435
 
 `A000720(A230778(n+1))`
@@ -7981,7 +7941,7 @@ end A230781
 /-!
 # A230782: Number of n X 2 0..3 arrays x(i,j) with each element horizontally, vertically, diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, and upper left element zero.
 
-The programs for A230782, the canonical program `A230782.P16318741094752617268` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230782 has offset 1).
+The programs for A230782, the canonical program `A230782.P16318741094752617268` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230782 has offset 1).
 
 The definition of A230782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7990,7 +7950,7 @@ The definition of A230782 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((6x+26x^2-22x^3-52x^4-48x^5)/(1-10x+3x^2-44x^3+40x^4-8x^5+192x^6))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A230782

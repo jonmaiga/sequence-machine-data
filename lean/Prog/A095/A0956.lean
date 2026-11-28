@@ -7,7 +7,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -16,26 +15,27 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C046
+import Seq.B000.C041
+import Seq.B000.C045
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,6 +51,7 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
@@ -60,14 +61,13 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,7 +76,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -3819,6 +3818,29 @@ def P3700318015653717203.Spec : Prop :=
 
 end A095664
 
+/-! ## A095664.P2987915320488499286
+
+`ogf((3-2x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A095664.P2987915320488499286
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A095664.P2987915320488499286
+
+namespace A095664
+
+/-- `ogf((3-2x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P2987915320488499286.Spec : Prop :=
+  ∀ n, P2987915320488499286.a n = A095664 n
+
+end A095664
+
 /-! ## A095664.P15803753863637898017
 
 `∑[∑[∑[∑[∑[∑[∑[3+n]]]]]]]`
@@ -4208,6 +4230,29 @@ namespace A095665
 /-- `C(n+8, 8)*(n+27)/9` -/
 def P7618862643016815526.Spec : Prop :=
   ∀ n, P7618862643016815526.a n = (A095665 n : ℚ)
+
+end A095665
+
+/-! ## A095665.P15549410903935280674
+
+`ogf((3-2x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A095665.P15549410903935280674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A095665.P15549410903935280674
+
+namespace A095665
+
+/-- `ogf((3-2x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P15549410903935280674.Spec : Prop :=
+  ∀ n, P15549410903935280674.a n = A095665 n
 
 end A095665
 
@@ -6574,6 +6619,29 @@ def P11558318284765494551.Spec : Prop :=
 
 end A095671
 
+/-! ## A095671.P680606640995112412
+
+`ogf((4-3x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A095671.P680606640995112412
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -3] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A095671.P680606640995112412
+
+namespace A095671
+
+/-- `ogf((4-3x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P680606640995112412.Spec : Prop :=
+  ∀ n, P680606640995112412.a n = A095671 n
+
+end A095671
+
 /-! ## A095671.P17568862850067756937
 
 `∑[∑[∑[∑[∑[∑[∑[4+n]]]]]]]`
@@ -7391,27 +7459,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095676.P13599007349562612423
-
-/-!
-# A095678: Minimal sequence such that all triples of consecutive numbers have no common divisor greater than 1, but all three pairs within the triples are not coprime.
-
-The programs for A095678, there is no canonical definition to state claims against.
--/
-
-/-! ## A095678.P2859830023380855813
-
-`A361606(n+2)`
--/
-
-namespace A095678.P2859830023380855813
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361606 (n + 2)
-
-end
-
-end A095678.P2859830023380855813
 
 /-!
 # A095679: Numbers k such that k^2 + largest digit of k is prime.
@@ -9346,29 +9393,6 @@ def P10411683348359342258.Spec : Prop :=
 
 end A095691
 
-/-! ## A095691.P15185107355609245520
-
-`A365552(n+1)`
--/
-
-namespace A095691.P15185107355609245520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365552 (n + 1)
-
-end
-
-end A095691.P15185107355609245520
-
-namespace A095691
-
-/-- `A365552(n+1)` -/
-def P15185107355609245520.Spec : Prop :=
-  ∀ n, P15185107355609245520.a n = A095691 (n + 1)
-
-end A095691
-
 /-! ## A095691.P16308535541619427016
 
 `A095683(A366993(n+1)²)`
@@ -9721,8 +9745,29 @@ end A095694
 /-!
 # A095695: T(n,4) diagonal of triangle in A095693.
 
-The programs for A095695, there is no canonical definition to state claims against.
+The programs for A095695, the canonical program `A095695.P12701801928351772617` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095695 has offset 4).
+
+The definition of A095695 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A095695.P12701801928351772617
+
+`ogf((6+76x+51x^2-39x^3+11x^4)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C017`.
+-/
+
+namespace A095695
+
+/-- `ogf((6+76x+51x^2-39x^3+11x^4)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P12701801928351772617.Spec : Prop :=
+  ∀ n, P12701801928351772617.a n = A095695 (n + 4)
+
+theorem P12701801928351772617.correct : P12701801928351772617.Spec := by
+  intro n
+  simp only [A095695, Nat.add_sub_cancel]
+
+end A095695
 
 /-! ## A095695.P7581238376279410743
 
@@ -9738,6 +9783,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095695.P7581238376279410743
+
+namespace A095695
+
+/-- `A095693(A056000(n)+14)` -/
+def P7581238376279410743.Spec : Prop :=
+  ∀ n, P7581238376279410743.a n = A095695 (n + 4)
+
+end A095695
 
 /-!
 # A095697: Primes of the form x^2 + y^2 + z, where x, y and z are three successive numbers.

@@ -5,44 +5,43 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C029
+import Seq.B000.C035
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C043
-import Seq.B000.C048
+import Seq.B000.C042
+import Seq.B000.C045
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B012.C000
+import Seq.B006.C001
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -749,8 +748,29 @@ end A252220.P6705791066526046906
 /-!
 # A252221: Number of (n+2) X (1+2) 0..2 arrays with every 3 X 3 subblock row and column sum 2 3 or 4 and every diagonal and antidiagonal sum not 2 3 or 4.
 
-The programs for A252221, there is no canonical definition to state claims against.
+The programs for A252221, the canonical program `A252221.P4792274813223833203` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252221 has offset 1).
+
+The definition of A252221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252221.P4792274813223833203
+
+`ogf((228-88x+304x^2-42x^3-666x^4-196x^5-238x^6+260x^7+64x^8+32x^9)/(1-2x+x^2-x^3-3x^4+2x^5+2x^7))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252221
+
+/-- `ogf((228-88x+304x^2-42x^3-666x^4-196x^5-238x^6+260x^7+64x^8+32x^9)/(1-2x+x^2-x^3-3x^4+2x^5+2x^7))` -/
+def P4792274813223833203.Spec : Prop :=
+  ∀ n, P4792274813223833203.a n = A252221 (n + 1)
+
+theorem P4792274813223833203.correct : P4792274813223833203.Spec := by
+  intro n
+  simp only [A252221, Nat.add_sub_cancel]
+
+end A252221
 
 /-! ## A252221.P2471976459621984327
 
@@ -770,6 +790,14 @@ end
 
 end A252221.P2471976459621984327
 
+namespace A252221
+
+/-- `A252228(∑[n]+1)` -/
+def P2471976459621984327.Spec : Prop :=
+  ∀ n, P2471976459621984327.a n = A252221 (n + 1)
+
+end A252221
+
 /-! ## A252221.P11957303784673482433
 
 `record[A252228(A254052(n+1))]`
@@ -788,6 +816,14 @@ end
 
 end A252221.P11957303784673482433
 
+namespace A252221
+
+/-- `record[A252228(A254052(n+1))]` -/
+def P11957303784673482433.Spec : Prop :=
+  ∀ n, P11957303784673482433.a n = A252221 (n + 1)
+
+end A252221
+
 /-! ## A252221.P9183181003227909881
 
 `record[gcd(A002262(n), A252228(n+1))]`
@@ -805,6 +841,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252221.P9183181003227909881
+
+namespace A252221
+
+/-- `record[gcd(A002262(n), A252228(n+1))]` -/
+def P9183181003227909881.Spec : Prop :=
+  ∀ n, (P9183181003227909881.a n : ℤ) = A252221 (n + 1)
+
+end A252221
 
 /-!
 # A252222: Number of (n+2) X (2+2) 0..2 arrays with every 3 X 3 subblock row and column sum 2 3 or 4 and every diagonal and antidiagonal sum not 2 3 or 4.
@@ -2337,16 +2381,39 @@ end A252248.P8242410287677189034
 /-!
 # A252249: Number of (n+2) X (3+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252249, the canonical program `A252249.P7155688555273878023` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252249 has offset 1).
+The programs for A252249, the canonical program `A252249.P7155688555273878023` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252249 has offset 1).
 
 The definition of A252249 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252249.P1873693232415897463
+
+`ogf((278-36x-11x^2-816x^3+138x^4+72x^5+272x^6-48x^7-26x^8)/(1-x-3x^3+3x^4+x^6-x^7))`
+-/
+
+namespace A252249.P1873693232415897463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [278, -36, -11, -816, 138, 72, 272, -48, -26] [1, -1, 0, -3, 3, 0, 1, -1] n
+
+end
+
+end A252249.P1873693232415897463
+
+namespace A252249
+
+/-- `ogf((278-36x-11x^2-816x^3+138x^4+72x^5+272x^6-48x^7-26x^8)/(1-x-3x^3+3x^4+x^6-x^7))` -/
+def P1873693232415897463.Spec : Prop :=
+  ∀ n, P1873693232415897463.a n = A252249 (n + 1)
+
+end A252249
 
 /-! ## A252249.P7155688555273878023
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=278, a(1)=242, a(2)=231, a(3)=249, a(4)=279, a(5)=318, a(6)=366, a(7)=444, a(8)=546`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252249
@@ -2390,7 +2457,7 @@ end A252249
 /-!
 # A252250: Number of (n+2) X (4+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252250, the canonical program `A252250.P18367108250355643025` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252250 has offset 1).
+The programs for A252250, the canonical program `A252250.P18367108250355643025` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252250 has offset 1).
 
 The definition of A252250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2399,7 +2466,7 @@ The definition of A252250 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=352, a(1)=268, a(2)=249, a(3)=267, a(4)=297, a(5)=336, a(6)=384, a(7)=462, a(8)=564`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252250
@@ -2443,7 +2510,7 @@ end A252250
 /-!
 # A252251: Number of (n+2) X (5+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252251, the canonical program `A252251.P11124343189638800866` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252251 has offset 1).
+The programs for A252251, the canonical program `A252251.P11124343189638800866` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252251 has offset 1).
 
 The definition of A252251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2452,7 +2519,7 @@ The definition of A252251 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=463, a(1)=302, a(2)=279, a(3)=297, a(4)=327, a(5)=366, a(6)=414, a(7)=492, a(8)=594`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252251
@@ -2493,7 +2560,7 @@ end A252251
 /-!
 # A252252: Number of (n+2) X (6+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252252, the canonical program `A252252.P13229102193186164982` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252252 has offset 1).
+The programs for A252252, the canonical program `A252252.P13229102193186164982` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252252 has offset 1).
 
 The definition of A252252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2502,7 +2569,7 @@ The definition of A252252 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=616, a(1)=359, a(2)=318, a(3)=336, a(4)=366, a(5)=405, a(6)=453, a(7)=531, a(8)=633`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252252
@@ -2546,7 +2613,7 @@ end A252252
 /-!
 # A252253: Number of (n+2) X (7+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252253, the canonical program `A252253.P8105009422330173491` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252253 has offset 1).
+The programs for A252253, the canonical program `A252253.P8105009422330173491` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252253 has offset 1).
 
 The definition of A252253 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2555,7 +2622,7 @@ The definition of A252253 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=847, a(1)=437, a(2)=366, a(3)=384, a(4)=414, a(5)=453, a(6)=501, a(7)=579, a(8)=681`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A252253
@@ -2775,8 +2842,29 @@ end A252261.P15695752947983090219
 /-!
 # A252262: Number of (n+2) X (1+2) 0..3 arrays with every 3 X 3 subblock row, column, diagonal and antidiagonal sum not equal to 2 3 4 6 or 7.
 
-The programs for A252262, there is no canonical definition to state claims against.
+The programs for A252262, the canonical program `A252262.P7086827284527261020` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252262 has offset 1).
+
+The definition of A252262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 287 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252262.P7086827284527261020
+
+`ogf((103+27x+128x^2+31x^3-58x^4-148x^5-122x^6-16x^7)/(1-x-3x^3-4x^4-4x^5-2x^6))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252262
+
+/-- `ogf((103+27x+128x^2+31x^3-58x^4-148x^5-122x^6-16x^7)/(1-x-3x^3-4x^4-4x^5-2x^6))` -/
+def P7086827284527261020.Spec : Prop :=
+  ∀ n, P7086827284527261020.a n = A252262 (n + 1)
+
+theorem P7086827284527261020.correct : P7086827284527261020.Spec := by
+  intro n
+  simp only [A252262, Nat.add_sub_cancel]
+
+end A252262
 
 /-! ## A252262.P373902459140450895
 
@@ -2796,6 +2884,14 @@ end
 
 end A252262.P373902459140450895
 
+namespace A252262
+
+/-- `A252269(∑[n]+1)` -/
+def P373902459140450895.Spec : Prop :=
+  ∀ n, P373902459140450895.a n = A252262 (n + 1)
+
+end A252262
+
 /-! ## A252262.P16004411892459049660
 
 `record[A010054(n)*A252269(n+1)]`
@@ -2813,6 +2909,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252262.P16004411892459049660
+
+namespace A252262
+
+/-- `record[A010054(n)*A252269(n+1)]` -/
+def P16004411892459049660.Spec : Prop :=
+  ∀ n, P16004411892459049660.a n = A252262 (n + 1)
+
+end A252262
 
 /-! ## A252262.P13323996793323134681
 
@@ -2832,6 +2936,14 @@ end
 
 end A252262.P13323996793323134681
 
+namespace A252262
+
+/-- `record[A252269(n+1)/A111910(n)]` -/
+def P13323996793323134681.Spec : Prop :=
+  ∀ n, P13323996793323134681.a n = (A252262 (n + 1) : ℚ)
+
+end A252262
+
 /-! ## A252262.P7382518301712689957
 
 `record[root(A252269(n+1), A007318(n))]`
@@ -2850,29 +2962,40 @@ end
 
 end A252262.P7382518301712689957
 
-/-! ## A252262.P15994447914677266274
+namespace A252262
 
-`record[gcd(A002262(n), A252269(n+1))]`
--/
+/-- `record[root(A252269(n+1), A007318(n))]` -/
+def P7382518301712689957.Spec : Prop :=
+  ∀ n, P7382518301712689957.a n = (A252262 (n + 1) : ℝ)
 
-namespace A252262.P15994447914677266274
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A002262 n) (A252269 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A252262.P15994447914677266274
+end A252262
 
 /-!
 # A252263: Number of (n+2) X (2+2) 0..3 arrays with every 3 X 3 subblock row, column, diagonal and antidiagonal sum not equal to 2 3 4 6 or 7.
 
-The programs for A252263, there is no canonical definition to state claims against.
+The programs for A252263, the canonical program `A252263.P13841070271670128210` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252263 has offset 1).
+
+The definition of A252263 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 223 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252263.P13841070271670128210
+
+`ogf((130+142x+290x^2+144x^3-52x^4-158x^5-104x^6-32x^7+14x^8)/(1-x-2x^2-6x^3-5x^4-x^5+2x^6+2x^7+x^8))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252263
+
+/-- `ogf((130+142x+290x^2+144x^3-52x^4-158x^5-104x^6-32x^7+14x^8)/(1-x-2x^2-6x^3-5x^4-x^5+2x^6+2x^7+x^8))` -/
+def P13841070271670128210.Spec : Prop :=
+  ∀ n, P13841070271670128210.a n = A252263 (n + 1)
+
+theorem P13841070271670128210.correct : P13841070271670128210.Spec := by
+  intro n
+  simp only [A252263, Nat.add_sub_cancel]
+
+end A252263
 
 /-! ## A252263.P18038274419394024573
 
@@ -2888,6 +3011,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A252263.P18038274419394024573
+
+namespace A252263
+
+/-- `(A252363(n+1)+A252337(n+1))/2` -/
+def P18038274419394024573.Spec : Prop :=
+  ∀ n, P18038274419394024573.a n = (A252263 (n + 1) : ℚ)
+
+end A252263
 
 /-! ## A252263.P14220493159807110901
 
@@ -2907,6 +3038,14 @@ end
 
 end A252263.P14220493159807110901
 
+namespace A252263
+
+/-- `A252269(∑[n+1]+2)` -/
+def P14220493159807110901.Spec : Prop :=
+  ∀ n, P14220493159807110901.a n = A252263 (n + 1)
+
+end A252263
+
 /-! ## A252263.P16180792474989251860
 
 `record[A010054(n)*A252269(n+2)]`
@@ -2924,6 +3063,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252263.P16180792474989251860
+
+namespace A252263
+
+/-- `record[A010054(n)*A252269(n+2)]` -/
+def P16180792474989251860.Spec : Prop :=
+  ∀ n, P16180792474989251860.a n = A252263 (n + 1)
+
+end A252263
 
 /-! ## A252263.P1643687167946405485
 
@@ -2943,23 +3090,13 @@ end
 
 end A252263.P1643687167946405485
 
-/-! ## A252263.P1671951652679534735
+namespace A252263
 
-`record[or(A174233(2*n+1), A252269(n+2))]`
--/
+/-- `record[gcd(A002262(n), A252269(n+2))]` -/
+def P1643687167946405485.Spec : Prop :=
+  ∀ n, (P1643687167946405485.a n : ℤ) = A252263 (n + 1)
 
-namespace A252263.P1671951652679534735
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A174233 (2 * n + 1)) (A252269 (n + 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A252263.P1671951652679534735
+end A252263
 
 /-!
 # A252264: Number of (n+2) X (3+2) 0..3 arrays with every 3 X 3 subblock row, column, diagonal and antidiagonal sum not equal to 2 3 4 6 or 7.
@@ -3234,8 +3371,29 @@ end A252270.P17000668475226197642
 /-!
 # A252271: Number of (n+2) X (1+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 2 3 4 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 2 3 4 6 or 7.
 
-The programs for A252271, there is no canonical definition to state claims against.
+The programs for A252271, the canonical program `A252271.P6648140778493495128` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252271 has offset 1).
+
+The definition of A252271 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 446 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A252271.P6648140778493495128
+
+`ogf((206+185x+232x^2-914x^3-575x^4-540x^5+770x^6+306x^7+188x^8-180x^9-40x^10+2x^11)/(1-6x^3+7x^6-2x^9))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A252271
+
+/-- `ogf((206+185x+232x^2-914x^3-575x^4-540x^5+770x^6+306x^7+188x^8-180x^9-40x^10+2x^11)/(1-6x^3+7x^6-2x^9))` -/
+def P6648140778493495128.Spec : Prop :=
+  ∀ n, P6648140778493495128.a n = A252271 (n + 1)
+
+theorem P6648140778493495128.correct : P6648140778493495128.Spec := by
+  intro n
+  simp only [A252271, Nat.add_sub_cancel]
+
+end A252271
 
 /-! ## A252271.P13802425951365287911
 
@@ -3254,6 +3412,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252271.P13802425951365287911
+
+namespace A252271
+
+/-- `A252278(∑[n]+1)` -/
+def P13802425951365287911.Spec : Prop :=
+  ∀ n, P13802425951365287911.a n = A252271 (n + 1)
+
+end A252271
 
 /-!
 # A252272: Number of (n+2)X(2+2) 0..3 arrays with every 3X3 subblock row and column sum not equal to 2 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum equal to 2 3 4 6 or 7.

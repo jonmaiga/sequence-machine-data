@@ -12,26 +12,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C033
 import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C039
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,6 +39,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
@@ -62,7 +62,6 @@ import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,6 +79,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -1174,21 +1174,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030924.P18330492133124038810
-
-/-! ## A030924.P7955245958590031547
-
-`A052649(n)-A059590(n)`
--/
-
-namespace A030924.P7955245958590031547
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052649 n - A059590 n
-
-end
-
-end A030924.P7955245958590031547
 
 /-!
 # A030925: [ exp(9/13)*n! ].
@@ -2463,21 +2448,6 @@ end A030951.P3113831133462059743
 
 The programs for A030952, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030952.P3666856505225424609
-
-`floor(A230233(n+1)/γ^ϕ)`
--/
-
-namespace A030952.P3666856505225424609
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A230233 (n + 1) : ℝ) / Real.eulerMascheroniConstant ^ Real.goldenRatio⌋
-
-end
-
-end A030952.P3666856505225424609
 
 /-! ## A030952.P2263906369794580070
 
@@ -4137,21 +4107,6 @@ end
 
 end A030980.P5010134116061399173
 
-/-! ## A030980.P11229103318644670616
-
-`1*A101449(A000124(n))-A030982(n+1)`
--/
-
-namespace A030980.P11229103318644670616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A101449 (A000124 n).toNat - A030982 (n + 1)
-
-end
-
-end A030980.P11229103318644670616
-
 /-! ## A030980.P5728938349085560380
 
 `A101449(A000124(n))%A097801(n)-A030982(n+1)`
@@ -4325,21 +4280,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030982.P6113940380644824022
-
-/-! ## A030982.P17753109988885148699
-
-`1*A101449(A000124(n))-A030980(n+1)`
--/
-
-namespace A030982.P17753109988885148699
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 * A101449 (A000124 n).toNat - A030980 (n + 1)
-
-end
-
-end A030982.P17753109988885148699
 
 /-! ## A030982.P14375170509300392842
 
@@ -4793,27 +4733,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030985.P17143211613714420977
-
-/-!
-# A030986: 3-automorphic numbers ending in 5: final digits of 3*n^2 agree with n.
-
-The programs for A030986, there is no canonical definition to state claims against.
--/
-
-/-! ## A030986.P5969005050279371836
-
-`A284924(n+1)`
--/
-
-namespace A030986.P5969005050279371836
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284924 (n + 1)
-
-end
-
-end A030986.P5969005050279371836
 
 /-!
 # A030987: 4-automorphic numbers: final digits of 4*n^2 agree with n.

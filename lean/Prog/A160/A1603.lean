@@ -8,36 +8,37 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,7 +47,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -56,13 +56,11 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -79,8 +77,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1105,21 +1101,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160338.P1886144762918303372
-
-/-! ## A160338.P13429492122008703587
-
-`A261675(A129363(n+1))`
--/
-
-namespace A160338.P13429492122008703587
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261675 (A129363 (n + 1)).toNat
-
-end
-
-end A160338.P13429492122008703587
 
 /-! ## A160338.P365376375792461019
 
@@ -4844,7 +4825,7 @@ end A160378
 /-!
 # A160379: Number of ON cells at n-th stage of three-dimensional version of the cellular automaton A160117 using cubes.
 
-The programs for A160379, the canonical program `A160379.P8320860627486507653` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160379 has offset 0).
+The programs for A160379, the canonical program `A160379.P8320860627486507653` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160379 has offset 0).
 
 The definition of A160379 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4853,7 +4834,7 @@ The definition of A160379 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+26x^2+5x^3+122x^4+5x^5+98x^6+x^7+18x^8)/(1-x-3x^2+3x^3+3x^4-3x^5-x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A160379
@@ -5282,7 +5263,7 @@ end A160380
 /-!
 # A160381: Number of 1's in base-4 representation of n.
 
-The programs for A160381, the canonical program `A160381.P2350057078359442476` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160381 has offset 0).
+The programs for A160381, the canonical program `A160381.P2350057078359442476` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160381 has offset 0).
 
 The definition of A160381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5291,7 +5272,7 @@ The definition of A160381 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/4))+(C(n+2, 3)^2)%2` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A160381
@@ -6683,7 +6664,7 @@ end A160383
 /-!
 # A160384: Number of nonzero digits in the base-3 representation of n.
 
-The programs for A160384, the canonical program `A160384.P15664302299430304392` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160384 has offset 0).
+The programs for A160384, the canonical program `A160384.P15664302299430304392` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160384 has offset 0).
 
 The definition of A160384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6692,7 +6673,7 @@ The definition of A160384 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/3))+n²%3` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A160384
@@ -7798,7 +7779,7 @@ end A160390.P8406217426035057995
 /-!
 # A160393: Square root of A003462, rounded up.
 
-The programs for A160393, the canonical program `A160393.P10650134536741932856` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160393 has offset 1).
+The programs for A160393, the canonical program `A160393.P10650134536741932856` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160393 has offset 1).
 
 The definition of A160393 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7807,7 +7788,7 @@ The definition of A160393 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt((3^(n+1)-1)/2))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A160393

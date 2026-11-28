@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -23,12 +24,13 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -43,7 +45,9 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,18 +72,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,7 +107,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -3615,23 +3620,29 @@ end A129724.P10846677895792697925
 /-!
 # A129725: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+521)^2 = y^2.
 
-The programs for A129725, there is no canonical definition to state claims against.
+The programs for A129725, the canonical program `A129725.P10096754800279936803` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129725 has offset 1).
+
+The definition of A129725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 383 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A129725.P10096754800279936803
 
 `A101152(n+1)+A118674(n+1)-A118676(n+1)`
+
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
-namespace A129725.P10096754800279936803
-noncomputable section
+namespace A129725
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101152 (n + 1) + (A118674 (n + 1) - A118676 (n + 1))
+/-- `A101152(n+1)+A118674(n+1)-A118676(n+1)` -/
+def P10096754800279936803.Spec : Prop :=
+  ∀ n, P10096754800279936803.a n = A129725 (n + 1)
 
-end
+theorem P10096754800279936803.correct : P10096754800279936803.Spec := by
+  intro n
+  simp only [A129725, Nat.add_sub_cancel]
 
-end A129725.P10096754800279936803
+end A129725
 
 /-! ## A129725.P5672744951289945582
 
@@ -3647,6 +3658,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129725.P5672744951289945582
+
+namespace A129725
+
+/-- `A207061(n+1)+A130608(n+1)-A118676(n+1)` -/
+def P5672744951289945582.Spec : Prop :=
+  ∀ n, P5672744951289945582.a n = A129725 (n + 1)
+
+end A129725
 
 /-!
 # A129726: a(n) = a(n-1) + prime(n) - prime(n-1) + 2; a(1) = 2.
@@ -5034,21 +5053,6 @@ end A129736.P5976984598145707548
 
 The programs for A129738, there is no canonical definition to state claims against.
 -/
-
-/-! ## A129738.P6540855410199811969
-
-`A271314(n+3)`
--/
-
-namespace A129738.P6540855410199811969
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271314 (n + 3)
-
-end
-
-end A129738.P6540855410199811969
 
 /-! ## A129738.P1586538247093500926
 
@@ -10257,21 +10261,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129766.P13634747075153651765
-
-/-! ## A129766.P3680684276074768209
-
-`A129769(n+1)`
--/
-
-namespace A129766.P3680684276074768209
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129769 (n + 1)
-
-end
-
-end A129766.P3680684276074768209
 
 /-!
 # A129767: Interleaved primes and semiprimes.

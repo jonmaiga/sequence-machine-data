@@ -3,22 +3,22 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -26,18 +26,18 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
-import Seq.B000.C047
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,16 +52,16 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
@@ -73,7 +73,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -1025,7 +1025,7 @@ end A010731
 
 The programs for A010732, the canonical program `A010732.P1998988425843513169` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010732 has offset 0).
 
-The definition of A010732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010732 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010732.anchor (n : ℕ) : (A010732 n : ℚ) = (17 - (-1) ^ n : ℚ) / 2` in `Proof.A010.A010732`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010732.P11651838027139016942
@@ -7378,6 +7378,29 @@ The programs for A010785, the canonical program `A010785.P4793903555269489861` i
 The definition of A010785 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A010785.P14424956826761190911
+
+`(n-9*floor((n-1)/9))*(10^floor((n+8)/9)-1)/9`
+-/
+
+namespace A010785.P14424956826761190911
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) - 9 * ⌊((n : ℤ) - 1 : ℚ) / 9⌋ : ℚ) * (((10 : ℚ) ^ (⌊(n + 8 : ℚ) / 9⌋ : ℤ) - 1) / 9)
+
+end
+
+end A010785.P14424956826761190911
+
+namespace A010785
+
+/-- `(n-9*floor((n-1)/9))*(10^floor((n+8)/9)-1)/9` -/
+def P14424956826761190911.Spec : Prop :=
+  ∀ n, P14424956826761190911.a n = (A010785 n : ℚ)
+
+end A010785
+
 /-! ## A010785.P4793903555269489861
 
 `ogf((x+2x^2+3x^3+4x^4+5x^5+6x^6+7x^7+8x^8+9x^9)/(1-11x^9+10x^18))`
@@ -7394,29 +7417,6 @@ def P4793903555269489861.Spec : Prop :=
 theorem P4793903555269489861.correct : P4793903555269489861.Spec := by
   intro n
   simp only [A010785]
-
-end A010785
-
-/-! ## A010785.P6052333875447302729
-
-`(n-9*floor((n-1)/9))*(10^floor((n+8)/9)-1)/9`
--/
-
-namespace A010785.P6052333875447302729
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 9 * ⌊((n : ℤ) - 1 : ℚ) / 9⌋ : ℚ) * ((10 : ℚ) ^ (⌊(n + 8 : ℚ) / 9⌋ : ℤ) - 1) / 9
-
-end
-
-end A010785.P6052333875447302729
-
-namespace A010785
-
-/-- `(n-9*floor((n-1)/9))*(10^floor((n+8)/9)-1)/9` -/
-def P6052333875447302729.Spec : Prop :=
-  ∀ n, P6052333875447302729.a n = (A010785 n : ℚ)
 
 end A010785
 

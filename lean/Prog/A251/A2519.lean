@@ -6,26 +6,24 @@ import Seq.B000.C004
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C048
+import Seq.B000.C042
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -33,20 +31,18 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C002
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -60,7 +56,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1067,7 +1062,7 @@ end A251922.P13134034040045884115
 /-!
 # A251924: Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to a hexagonal number H(m) for some m.
 
-The programs for A251924, the canonical program `A251924.P619508845411663687` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251924 has offset 1).
+The programs for A251924, the canonical program `A251924.P619508845411663687` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251924 has offset 1).
 
 The definition of A251924 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1076,7 +1071,7 @@ The definition of A251924 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((34x-2x^2)/(1-35x+35x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251924
@@ -1990,7 +1985,7 @@ end A251934.P12526663671693045842
 /-!
 # A251936: Number of length 2+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A251936, the canonical program `A251936.P593543211679927712` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251936 has offset 1).
+The programs for A251936, the canonical program `A251936.P593543211679927712` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251936 has offset 1).
 
 The definition of A251936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2022,7 +2017,7 @@ end A251936
 
 `(n+1)^4/6+7*(n+1)^3/3+23*(n+1)²/6+8*(n+1)/3+1`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251936
@@ -2111,8 +2106,29 @@ end A251936
 /-!
 # A251937: Number of length 3+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A251937, there is no canonical definition to state claims against.
+The programs for A251937, the canonical program `A251937.P4387465778837382480` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251937 has offset 1).
+
+The definition of A251937 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A251937.P4387465778837382480
+
+`ogf((18+61x+122x^2+128x^3+38x^4-72x^5-121x^6-78x^7-26x^8+3x^9-x^10)/(1-3x+2x^2+3x^4-3x^5-3x^6+3x^7+2x^9-3x^10+x^11))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A251937
+
+/-- `ogf((18+61x+122x^2+128x^3+38x^4-72x^5-121x^6-78x^7-26x^8+3x^9-x^10)/(1-3x+2x^2+3x^4-3x^5-3x^6+3x^7+2x^9-3x^10+x^11))` -/
+def P4387465778837382480.Spec : Prop :=
+  ∀ n, P4387465778837382480.a n = A251937 (n + 1)
+
+theorem P4387465778837382480.correct : P4387465778837382480.Spec := by
+  intro n
+  simp only [A251937, Nat.add_sub_cancel]
+
+end A251937
 
 /-! ## A251937.P16451090477838340516
 
@@ -2131,6 +2147,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251937.P16451090477838340516
+
+namespace A251937
+
+/-- `A251935(∑[n+2]+4)` -/
+def P16451090477838340516.Spec : Prop :=
+  ∀ n, P16451090477838340516.a n = A251937 (n + 1)
+
+end A251937
 
 /-!
 # A251938: Number of length 4+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
@@ -2948,7 +2972,7 @@ end A251961.P1612177388507652820
 /-!
 # A251963: Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to an octagonal number N(m) for some m.
 
-The programs for A251963, the canonical program `A251963.P15171526515360193077` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251963 has offset 1).
+The programs for A251963, the canonical program `A251963.P15171526515360193077` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251963 has offset 1).
 
 The definition of A251963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2980,7 +3004,7 @@ end A251963
 
 `14*a(n-1)-a(n-2)+12` with `a(0)=0, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A251963
@@ -4405,8 +4429,29 @@ end A251988.P3734543454732590155
 /-!
 # A251990: Numbers n such that the sum of the hexagonal numbers H(n) and H(n+1) is equal to the sum of the pentagonal numbers P(m) and P(m+1) for some m.
 
-The programs for A251990, there is no canonical definition to state claims against.
+The programs for A251990, the canonical program `A251990.P9811148432043553133` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251990 has offset 1).
+
+The definition of A251990 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A251990.P9811148432043553133
+
+`ogf((52-4x)/(1-195x+195x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A251990
+
+/-- `ogf((52-4x)/(1-195x+195x^2-x^3))` -/
+def P9811148432043553133.Spec : Prop :=
+  ∀ n, P9811148432043553133.a n = A251990 (n + 1)
+
+theorem P9811148432043553133.correct : P9811148432043553133.Spec := by
+  intro n
+  simp only [A251990, Nat.add_sub_cancel]
+
+end A251990
 
 /-! ## A251990.P3606583598942248057
 
@@ -4422,6 +4467,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251990.P3606583598942248057
+
+namespace A251990
+
+/-- `A099486(4*(n+1))` -/
+def P3606583598942248057.Spec : Prop :=
+  ∀ n, P3606583598942248057.a n = A251990 (n + 1)
+
+end A251990
 
 /-! ## A251990.P5429162378224893309
 
@@ -4441,6 +4494,14 @@ end
 
 end A251990.P5429162378224893309
 
+namespace A251990
+
+/-- `∑[A003500(4*n+3)]` -/
+def P5429162378224893309.Spec : Prop :=
+  ∀ n, P5429162378224893309.a n = A251990 (n + 1)
+
+end A251990
+
 /-! ## A251990.P4446902111816995640
 
 `A001921(2*(n+1))/2`
@@ -4455,6 +4516,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A251990.P4446902111816995640
+
+namespace A251990
+
+/-- `A001921(2*(n+1))/2` -/
+def P4446902111816995640.Spec : Prop :=
+  ∀ n, P4446902111816995640.a n = (A251990 (n + 1) : ℚ)
+
+end A251990
 
 /-! ## A251990.P18114332792173276285
 
@@ -4471,29 +4540,40 @@ end
 
 end A251990.P18114332792173276285
 
-/-! ## A251990.P2248739885993737567
+namespace A251990
 
-`2*∑[A094347(2*(n+1))]`
--/
+/-- `floor(A001922(2*(n+1))/2)` -/
+def P18114332792173276285.Spec : Prop :=
+  ∀ n, P18114332792173276285.a n = A251990 (n + 1)
 
-namespace A251990.P2248739885993737567
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094347 (2 * (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A251990.P2248739885993737567
+end A251990
 
 /-!
 # A251991: Numbers n such that the sum of the pentagonal numbers P(n) and P(n+1) is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 
-The programs for A251991, there is no canonical definition to state claims against.
+The programs for A251991, the canonical program `A251991.P6915105182916176890` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251991 has offset 1).
+
+The definition of A251991 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A251991.P6915105182916176890
+
+`ogf((60+4x)/(1-195x+195x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A251991
+
+/-- `ogf((60+4x)/(1-195x+195x^2-x^3))` -/
+def P6915105182916176890.Spec : Prop :=
+  ∀ n, P6915105182916176890.a n = A251991 (n + 1)
+
+theorem P6915105182916176890.correct : P6915105182916176890.Spec := by
+  intro n
+  simp only [A251991, Nat.add_sub_cancel]
+
+end A251991
 
 /-! ## A251991.P547062944429907074
 
@@ -4510,6 +4590,14 @@ end
 
 end A251991.P547062944429907074
 
+namespace A251991
+
+/-- `A123480(2*(n+1))` -/
+def P547062944429907074.Spec : Prop :=
+  ∀ n, P547062944429907074.a n = A251991 (n + 1)
+
+end A251991
+
 /-! ## A251991.P7560802814890085442
 
 `4*A108281(n+2)`
@@ -4524,6 +4612,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251991.P7560802814890085442
+
+namespace A251991
+
+/-- `4*A108281(n+2)` -/
+def P7560802814890085442.Spec : Prop :=
+  ∀ n, P7560802814890085442.a n = A251991 (n + 1)
+
+end A251991
 
 /-! ## A251991.P7537781441559581679
 
@@ -4540,6 +4636,14 @@ end
 
 end A251991.P7537781441559581679
 
+namespace A251991
+
+/-- `A072335(4*(n+1)-1)` -/
+def P7537781441559581679.Spec : Prop :=
+  ∀ n, P7537781441559581679.a n = A251991 (n + 1)
+
+end A251991
+
 /-! ## A251991.P2056619832669604985
 
 `A189450(4*(n+1))-1`
@@ -4555,20 +4659,13 @@ end
 
 end A251991.P2056619832669604985
 
-/-! ## A251991.P788638592811692516
+namespace A251991
 
-`2*A217855(2*(n+1))`
--/
+/-- `A189450(4*(n+1))-1` -/
+def P2056619832669604985.Spec : Prop :=
+  ∀ n, P2056619832669604985.a n = A251991 (n + 1)
 
-namespace A251991.P788638592811692516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A217855 (2 * (n + 1))
-
-end
-
-end A251991.P788638592811692516
+end A251991
 
 /-!
 # A251993: Number of (n+2)X(1+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 2 4 5 or 7.

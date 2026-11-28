@@ -14,29 +14,28 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -59,7 +58,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -71,7 +70,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +78,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -92,6 +89,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -8249,16 +8247,16 @@ end A070776
 /-!
 # A070777: a(1) = 1; a(n) = (largest prime factor of n) - 1.
 
-The programs for A070777, the canonical program `A070777.P2681575224791587698` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070777 has offset 1).
+The programs for A070777, the canonical program `A070777.P2681575224791587698` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070777 has offset 1).
 
-The definition of A070777 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A070777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A070777.P2681575224791587698
 
 `A000010(A006530(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A070777
@@ -8769,29 +8767,6 @@ namespace A070778
 /-- `A069007(n+1)-A069008(n+1)` -/
 def P11079573575643589428.Spec : Prop :=
   ∀ n, P11079573575643589428.a n = A070778 n
-
-end A070778
-
-/-! ## A070778.P9298886061135882376
-
-`A069007(0+n+1)%A069008(n+1)`
--/
-
-namespace A070778.P9298886061135882376
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A069007 (0 + (n + 1))) (A069008 (n + 1))
-
-end
-
-end A070778.P9298886061135882376
-
-namespace A070778
-
-/-- `A069007(0+n+1)%A069008(n+1)` -/
-def P9298886061135882376.Spec : Prop :=
-  ∀ n, P9298886061135882376.a n = A070778 n
 
 end A070778
 
@@ -9336,6 +9311,29 @@ The programs for A070782, the canonical program `A070782.P16051432001830940207` 
 
 The definition of A070782 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(5*n, 5*#)]` (program `A070782.P16051432001830940207`, by `A070782.P16051432001830940207.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A070782.P4376420204715459532
+
+`ogf((1-19x-141x^2)/(1-21x-353x^2+32x^3))`
+-/
+
+namespace A070782.P4376420204715459532
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -19, -141] [1, -21, -353, 32] n
+
+end
+
+end A070782.P4376420204715459532
+
+namespace A070782
+
+/-- `ogf((1-19x-141x^2)/(1-21x-353x^2+32x^3))` -/
+def P4376420204715459532.Spec : Prop :=
+  ∀ n, P4376420204715459532.a n = A070782 n
+
+end A070782
 
 /-! ## A070782.P8429444961841830561
 
@@ -9981,21 +9979,6 @@ end
 
 end A070792.P10873266025480154915
 
-/-! ## A070792.P12519108187359228323
-
-`A244567(A296898(n+1))`
--/
-
-namespace A070792.P12519108187359228323
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244567 (A296898 (n + 1)).toNat
-
-end
-
-end A070792.P12519108187359228323
-
 /-!
 # A070793: Integers n such that the 'Reverse and Add!' trajectory of n joins the trajectory of 9.
 
@@ -10041,21 +10024,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A070793.P13378887404391255465
-
-/-! ## A070793.P4470694650513542498
-
-`9*(A061511(n)+1)`
--/
-
-namespace A070793.P4470694650513542498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  9 * (A061511 n + 1)
-
-end
-
-end A070793.P4470694650513542498
 
 /-! ## A070793.P11895499460129715874
 

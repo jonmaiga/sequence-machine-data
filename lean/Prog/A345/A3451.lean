@@ -14,28 +14,31 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C044
+import Seq.B000.C043
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,11 +46,11 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -56,17 +59,16 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B005.C003
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +97,7 @@ import Seq.Opaque.C024
 /-!
 # A345100: a(n) = Sum_{k=1..n} k^floor(n/k).
 
-The programs for A345100, the canonical program `A345100.P7220940895962903138` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345100 has offset 1).
+The programs for A345100, the canonical program `A345100.P7220940895962903138` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345100 has offset 1).
 
 The definition of A345100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -104,7 +106,7 @@ The definition of A345100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (#+1)^floor((n+1)/(#+1))]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345100
@@ -244,7 +246,7 @@ end A345105.P11443926108088190423
 /-!
 # A345106: a(n) = Sum_{k=1..n} k^(n - floor(n/k)).
 
-The programs for A345106, the canonical program `A345106.P12323997330909727510` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345106 has offset 1).
+The programs for A345106, the canonical program `A345106.P12323997330909727510` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345106 has offset 1).
 
 The definition of A345106 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -253,7 +255,7 @@ The definition of A345106 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (#+1)^(n+1-floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345106
@@ -267,7 +269,7 @@ end A345106
 /-!
 # A345107: a(n) = Sum_{k=1..n} (-k)^(n - floor(n/k)).
 
-The programs for A345107, the canonical program `A345107.P15205278138983417662` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345107 has offset 1).
+The programs for A345107, the canonical program `A345107.P15205278138983417662` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345107 has offset 1).
 
 The definition of A345107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -276,7 +278,7 @@ The definition of A345107 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (-(#+1))^(n+1-floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345107
@@ -290,7 +292,7 @@ end A345107
 /-!
 # A345108: a(n) = Sum_{k=1..n} 2^(n - floor(n/k)).
 
-The programs for A345108, the canonical program `A345108.P14058715471310971684` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345108 has offset 1).
+The programs for A345108, the canonical program `A345108.P14058715471310971684` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345108 has offset 1).
 
 The definition of A345108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -299,7 +301,7 @@ The definition of A345108 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, 2^(n+1-floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345108
@@ -359,7 +361,7 @@ end A345108
 /-!
 # A345109: a(n) = Sum_{k=1..n} (-2)^(n - floor(n/k)).
 
-The programs for A345109, the canonical program `A345109.P13017805651012631384` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345109 has offset 1).
+The programs for A345109, the canonical program `A345109.P13017805651012631384` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345109 has offset 1).
 
 The definition of A345109 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -368,7 +370,7 @@ The definition of A345109 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (-2)^(n+1-floor((n+1)/(#+1)))]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345109
@@ -476,36 +478,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345111.P11200982713592096643
-
-/-! ## A345111.P871537925614241242
-
-`A052008(n)`
--/
-
-namespace A345111.P871537925614241242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052008 n
-
-end
-
-end A345111.P871537925614241242
-
-/-! ## A345111.P6084780462314673720
-
-`A056964(n)`
--/
-
-namespace A345111.P6084780462314673720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056964 n
-
-end
-
-end A345111.P6084780462314673720
 
 /-! ## A345111.P17667379445513018553
 
@@ -654,21 +626,6 @@ end A345112.P1981324738555831717
 The programs for A345113, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345113.P8660212066119754852
-
-`A061563(n+1)`
--/
-
-namespace A345113.P8660212066119754852
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061563 (n + 1)
-
-end
-
-end A345113.P8660212066119754852
-
 /-! ## A345113.P10833097149728724874
 
 `filter[A061563(n), A225181(#)]`
@@ -701,21 +658,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345113.P13353487983563510541
-
-/-! ## A345113.P486612088702852885
-
-`A099994(n+2)`
--/
-
-namespace A345113.P486612088702852885
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099994 (n + 2)
-
-end
-
-end A345113.P486612088702852885
 
 /-! ## A345113.P15940698383212891554
 
@@ -1104,7 +1046,7 @@ end A345117.P2158011182229362059
 /-!
 # A345118: a(n) is the sum of the lengths of all the segments used to draw a square of side n representing a basketweave pattern where all the multiple strands are of unit width, the horizontal ones appearing as 1 X 3 rectangles, while the vertical ones as unit area squares.
 
-The programs for A345118, the canonical program `A345118.P12593508911391212960` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345118 has offset 0).
+The programs for A345118, the canonical program `A345118.P12593508911391212960` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345118 has offset 0).
 
 The definition of A345118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1136,7 +1078,7 @@ end A345118
 
 `(n*(5+3*n)-(1-(-1)^n)*sin((n-1)*π/4))/2`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345118
@@ -1327,28 +1269,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A345119.P5120970793302635040
-
-/-! ## A345119.P2262575215339135764
-
-`∪[A345120(n+1), A345122(n+1)]`
--/
-
-namespace A345119.P2262575215339135764
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345120 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345122 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A345119.P2262575215339135764
 
 /-!
 # A345120: Numbers that are the sum of three third powers in exactly nine ways.
@@ -2852,21 +2772,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345151.P15740601740064146912
-
-/-! ## A345151.P16004847422854776909
-
-`A345150(A346151(n))`
--/
-
-namespace A345151.P16004847422854776909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345150 (A346151 n).toNat
-
-end
-
-end A345151.P16004847422854776909
 
 /-!
 # A345152: Numbers that are the sum of four third powers in eight or more ways.
@@ -4467,21 +4372,6 @@ end A345171.P13481638122479556325
 The programs for A345172, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345172.P14020616650382791283
-
-`A335433(1+n)`
--/
-
-namespace A345172.P14020616650382791283
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335433 (1 + n)
-
-end
-
-end A345172.P14020616650382791283
-
 /-! ## A345172.P7476056426044197770
 
 `lt[0, A345164(n+1)]+1`
@@ -4523,25 +4413,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A345172.P16585956156646535869
-
-/-! ## A345172.P10977051774298230879
-
-`comp[A335448(n+1)-1]+1`
--/
-
-namespace A345172.P10977051774298230879
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335448 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A345172.P10977051774298230879
 
 /-! ## A345172.P11250020484759986615
 
@@ -4689,21 +4560,6 @@ end
 
 end A345174.P9296627254476784581
 
-/-! ## A345174.P2140896860475775829
-
-`A345175(n+1)`
--/
-
-namespace A345174.P2140896860475775829
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345175 (n + 1)
-
-end
-
-end A345174.P2140896860475775829
-
 /-!
 # A345175: Numbers that are the sum of five third powers in exactly six ways.
 
@@ -4728,7 +4584,7 @@ end A345175.P13788765167160848799
 /-!
 # A345176: a(n) = Sum_{k=1..n} floor(n/k)^k.
 
-The programs for A345176, the canonical program `A345176.P6303342068511053967` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345176 has offset 1).
+The programs for A345176, the canonical program `A345176.P6303342068511053967` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345176 has offset 1).
 
 The definition of A345176 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, floor((n+1)/(#+1))^(#+1)]` (program `A345176.P6303342068511053967`, by `A345176.P6303342068511053967.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4737,7 +4593,7 @@ The definition of A345176 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, floor((n+1)/(#+1))^(#+1)]`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A345176
@@ -5180,21 +5036,6 @@ end
 
 end A345183.P3730506639079481150
 
-/-! ## A345183.P8830200832942059615
-
-`A345184(n+1)`
--/
-
-namespace A345183.P8830200832942059615
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345184 (n + 1)
-
-end
-
-end A345183.P8830200832942059615
-
 /-!
 # A345184: Numbers that are the sum of five third powers in exactly eight ways.
 
@@ -5293,27 +5134,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A345185.P1279412495435805237
-
-/-!
-# A345187: Numbers that are the sum of five third powers in ten or more ways.
-
-The programs for A345187, there is no canonical definition to state claims against.
--/
-
-/-! ## A345187.P18027637285682413618
-
-`A345188(n+1)`
--/
-
-namespace A345187.P18027637285682413618
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345188 (n + 1)
-
-end
-
-end A345187.P18027637285682413618
 
 /-!
 # A345188: Numbers that are the sum of five third powers in exactly ten ways.

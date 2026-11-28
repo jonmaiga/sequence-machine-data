@@ -7,38 +7,43 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C044
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
+import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -46,9 +51,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +68,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
@@ -771,21 +772,6 @@ end A102110.P4789891702890379840
 The programs for A102111, there is no canonical definition to state claims against.
 -/
 
-/-! ## A102111.P241773821465901606
-
-`A004086(A102124(n))`
--/
-
-namespace A102111.P241773821465901606
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102124 n).toNat
-
-end
-
-end A102111.P241773821465901606
-
 /-! ## A102111.P11662956465539011673
 
 `A321474(A102124(n)^A278657(n))`
@@ -807,21 +793,6 @@ end A102111.P11662956465539011673
 The programs for A102112, there is no canonical definition to state claims against.
 -/
 
-/-! ## A102112.P15987231791381402407
-
-`A004086(A102123(n))`
--/
-
-namespace A102112.P15987231791381402407
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102123 n).toNat
-
-end
-
-end A102112.P15987231791381402407
-
 /-! ## A102112.P1787254800934983881
 
 `A321474(A102123(A321474(n)))`
@@ -837,41 +808,11 @@ end
 
 end A102112.P1787254800934983881
 
-/-! ## A102112.P7317018575037780879
-
-`A102113(n)`
--/
-
-namespace A102112.P7317018575037780879
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102113 n
-
-end
-
-end A102112.P7317018575037780879
-
 /-!
 # A102113: Iccanobirt numbers (3 of 15): a(n) = a(n-1) + R(a(n-2)) + R(a(n-3)), where R is the digit reversal function A004086.
 
 The programs for A102113, there is no canonical definition to state claims against.
 -/
-
-/-! ## A102113.P11633089799609116398
-
-`A004086(A102122(n))`
--/
-
-namespace A102113.P11633089799609116398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102122 n).toNat
-
-end
-
-end A102113.P11633089799609116398
 
 /-! ## A102113.P8988337263741624732
 
@@ -908,36 +849,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 1] fun n a =>
 end
 
 end A102114.P1765033699029530341
-
-/-! ## A102114.P33998565889660359
-
-`A004086(A102121(n))`
--/
-
-namespace A102114.P33998565889660359
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102121 n).toNat
-
-end
-
-end A102114.P33998565889660359
-
-/-! ## A102114.P13453160945922201494
-
-`A102115(n)`
--/
-
-namespace A102114.P13453160945922201494
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102115 n
-
-end
-
-end A102114.P13453160945922201494
 
 /-! ## A102114.P16654489789620717005
 
@@ -1055,21 +966,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102116.P12246047108850025961
-
-/-! ## A102116.P12437658574378798411
-
-`A102117(n)`
--/
-
-namespace A102116.P12437658574378798411
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102117 n
-
-end
-
-end A102116.P12437658574378798411
 
 /-!
 # A102117: Iccanobirt numbers (7 of 15): a(n) = R(a(n-1)) + R(a(n-2)) + R(a(n-3)), where R is the digit reversal function A004086.
@@ -1275,62 +1171,11 @@ end
 
 end A102120.P8107531500438703310
 
-/-! ## A102120.P9724678690038763947
-
-`A102121(n)`
--/
-
-namespace A102120.P9724678690038763947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102121 n
-
-end
-
-end A102120.P9724678690038763947
-
-/-!
-# A102121: Iccanobirt numbers (11 of 15): a(n) = R(a(n-1) + R(a(n-2)) + R(a(n-3))), where R is the digit reversal function A004086.
-
-The programs for A102121, there is no canonical definition to state claims against.
--/
-
-/-! ## A102121.P8322261548167510187
-
-`A004086(A102114(n))`
--/
-
-namespace A102121.P8322261548167510187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102114 n).toNat
-
-end
-
-end A102121.P8322261548167510187
-
 /-!
 # A102122: Iccanobirt numbers (12 of 15): a(n) = R(R(a(n-1)) + a(n-2) + a(n-3)), where R is the digit reversal function A004086.
 
 The programs for A102122, there is no canonical definition to state claims against.
 -/
-
-/-! ## A102122.P3473768617993043653
-
-`A004086(A102113(n))`
--/
-
-namespace A102122.P3473768617993043653
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102113 n).toNat
-
-end
-
-end A102122.P3473768617993043653
 
 /-! ## A102122.P15896905805864565313
 
@@ -1353,21 +1198,6 @@ end A102122.P15896905805864565313
 The programs for A102123, there is no canonical definition to state claims against.
 -/
 
-/-! ## A102123.P5968684970952277265
-
-`A004086(A102112(n))`
--/
-
-namespace A102123.P5968684970952277265
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102112 n).toNat
-
-end
-
-end A102123.P5968684970952277265
-
 /-! ## A102123.P9963570482338717640
 
 `A321474(A102112(A321474(n)))`
@@ -1382,27 +1212,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102123.P9963570482338717640
-
-/-!
-# A102124: Iccanobirt numbers (14 of 15): a(n) = R(R(a(n-1)) + R(a(n-2)) + a(n-3)), where R is the digit reversal function A004086.
-
-The programs for A102124, there is no canonical definition to state claims against.
--/
-
-/-! ## A102124.P1918203441326758244
-
-`A004086(A102111(n))`
--/
-
-namespace A102124.P1918203441326758244
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A102111 n).toNat
-
-end
-
-end A102124.P1918203441326758244
 
 /-!
 # A102125: Iccanobirt numbers (15 of 15): a(n) = R(R(a(n-1)) + R(a(n-2)) + R(a(n-3))), where R is the digit reversal function A004086.
@@ -1427,21 +1236,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102125.P13808070655181684945
-
-/-! ## A102125.P11713361272300961277
-
-`A102124(n)`
--/
-
-namespace A102125.P11713361272300961277
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102124 n
-
-end
-
-end A102125.P11713361272300961277
 
 /-!
 # A102129: Expansion of (1 - x)*(1 + 2*x) / ((1 + x)*(1 - 4*x - x^2)).
@@ -2445,7 +2239,7 @@ end A102141.P10294458829359519251
 /-!
 # A102146: a(n) = sigma(10^n - 1), where sigma(n) is the sum of positive divisors of n.
 
-The programs for A102146, the canonical program `A102146.P11194431520238517738` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102146 has offset 1).
+The programs for A102146, the canonical program `A102146.P11194431520238517738` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102146 has offset 1).
 
 The definition of A102146 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(10^(n+1)-1)` (program `A102146.P11194431520238517738`, by `A102146.P11194431520238517738.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2454,7 +2248,7 @@ The definition of A102146 is `verified`: the Lean definition is proven equivalen
 
 `A000203(10^(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A102146

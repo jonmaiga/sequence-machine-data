@@ -10,20 +10,22 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C032
+import Seq.B000.C028
 import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C044
+import Seq.B000.C035
+import Seq.B000.C039
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,8 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -368,27 +368,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A096600.P8155617749043883014
-
-/-! ## A096600.P10532341021020701435
-
-`eq[A062892(n), 0]`
--/
-
-namespace A096600.P10532341021020701435
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062892 n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℤ)) n
-
-end
-
-end A096600.P10532341021020701435
 
 /-!
 # A096601: Triangle (read by rows) where the number of row entries increases by steps of 2 and the entries are stacked in a rectangular fashion. The end entries are set to 1. Rest of entries are set to the sum of the entry directly above in the previous row plus the entry (if present) in the previous row that is either to the left (if the current row number is even) or to the right (if odd).
@@ -4382,21 +4361,6 @@ end
 
 end A096666.P13184830107906007141
 
-/-! ## A096666.P15527613368644503602
-
-`A319716(A352188(n+1))`
--/
-
-namespace A096666.P15527613368644503602
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319716 (A352188 (n + 1)).toNat
-
-end
-
-end A096666.P15527613368644503602
-
 /-! ## A096666.P15541021700684521378
 
 `A064664(n+1)-A324192(A000108(n))`
@@ -6684,21 +6648,6 @@ end
 
 end A096686.P13946066432451677336
 
-/-! ## A096686.P244992779923883231
-
-`7*A244927(n+1)`
--/
-
-namespace A096686.P244992779923883231
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  7 * A244927 (n + 1)
-
-end
-
-end A096686.P244992779923883231
-
 /-!
 # A096687: Least k such that decimal representation of k*n contains only digits 0 and 8.
 
@@ -7437,7 +7386,7 @@ end A096695.P5691660480998771045
 /-!
 # A096697: Balanced primes of order five.
 
-The programs for A096697, the canonical program `A096697.P6578855956827479310` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096697 has offset 1).
+The programs for A096697, the canonical program `A096697.P6578855956827479310` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096697 has offset 1).
 
 The definition of A096697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7446,7 +7395,7 @@ The definition of A096697 is `conjectured`: the Lean definition is a formula tha
 
 `p?[gcd(A127338(n+1), A157996(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A096697

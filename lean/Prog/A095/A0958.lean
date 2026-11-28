@@ -24,21 +24,22 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,15 +71,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3169,6 +3171,29 @@ namespace A095819
 /-- `(n+36)*C(n+8, 8)/9` -/
 def P4960609540739688541.Spec : Prop :=
   ∀ n, P4960609540739688541.a n = (A095819 n : ℚ)
+
+end A095819
+
+/-! ## A095819.P1402233815454126194
+
+`ogf((4-3x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A095819.P1402233815454126194
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -3] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A095819.P1402233815454126194
+
+namespace A095819
+
+/-- `ogf((4-3x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P1402233815454126194.Spec : Prop :=
+  ∀ n, P1402233815454126194.a n = A095819 n
 
 end A095819
 
@@ -6531,7 +6556,7 @@ end A095834
 
 The programs for A095835, the canonical program `A095835.P13890964720586805063` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095835 has offset 1).
 
-The definition of A095835 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095835 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095835.anchor (n : ℕ) : (A095835 (n + 1) : ℚ) = (SequenceMachineLib.triRow n + 1 : ℚ) ^ (((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ)) ^ 2 : ℤ)` in `Proof.A095.A095835`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095835.P13890964720586805063
@@ -6815,7 +6840,7 @@ end A095835
 
 The programs for A095836, the canonical program `A095836.P3357459531401874323` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095836 has offset 1).
 
-The definition of A095836 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095836 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095836.anchor (n : ℕ) : (A095836 (n + 1) : ℚ) = (SequenceMachineLib.triCol n + 1 : ℚ) ^ (((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ)) ^ 2 : ℤ)` in `Proof.A095.A095836`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095836.P3357459531401874323
@@ -7289,7 +7314,7 @@ end A095836
 
 The programs for A095837, the canonical program `A095837.P4761018068858107288` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095837 has offset 1).
 
-The definition of A095837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095837 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095837.anchor (n : ℕ) : (A095837 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) ^ (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) ^ 2 : ℤ)` in `Proof.A095.A095837`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095837.P4761018068858107288
@@ -8552,7 +8577,7 @@ end A095842.P10146472971937012627
 
 The programs for A095843, the canonical program `A095843.P418742408469590514` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095843 has offset 1).
 
-The definition of A095843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095843 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095843.anchor (n : ℕ) : (A095843 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ) ^ (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) ^ 2 : ℤ)` in `Proof.A095.A095843`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095843.P418742408469590514
@@ -8890,21 +8915,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A095846.P11349475129547795160
-
-/-! ## A095846.P10748732811726563594
-
-`A138519(2*(n+1))/(-2)`
--/
-
-namespace A095846.P10748732811726563594
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A138519 (2 * (n + 1)) : ℚ) / (-2)
-
-end
-
-end A095846.P10748732811726563594
 
 /-! ## A095846.P5523117409815941095
 
@@ -9298,7 +9308,7 @@ end A095849.P8037712410243902975
 
 The programs for A095850, the canonical program `A095850.P17772528448722703698` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095850 has offset 1).
 
-The definition of A095850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095850 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095850.anchor (n : ℕ) : (A095850 (n + 1) : ℚ) = (SequenceMachineLib.triCol n + 1 : ℚ) ^ (((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ) + 1) ^ 2 : ℤ)` in `Proof.A095.A095850`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095850.P17772528448722703698
@@ -12825,7 +12835,7 @@ end A095869.P12774272255761059989
 
 The programs for A095871, the canonical program `A095871.P4845579394584075715` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095871 has offset 1).
 
-The definition of A095871 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095871 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095871.anchor (n : ℕ) : (A095871 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n + 1 : ℤ) * ((3 * (SequenceMachineLib.triRow n + 1) : ℤ) - 1) : ℚ) / 2 - ((SequenceMachineLib.triCol n : ℤ) * ((3 * SequenceMachineLib.triCol n : ℤ) - 1) : ℚ) / 2` in `Proof.A095.A095871`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095871.P4845579394584075715
@@ -17035,7 +17045,7 @@ end A095887
 
 The programs for A095888, the canonical program `A095888.P805302620360271258` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095888 has offset 1).
 
-The definition of A095888 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095888 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095888.anchor (n : ℕ) : (A095888 (n + 1) : ℚ) = (SequenceMachineLib.triRow n + 1 : ℚ) ^ ((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n + 1 : ℤ) : ℤ)` in `Proof.A095.A095888`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095888.P805302620360271258
@@ -17528,7 +17538,7 @@ end A095888
 
 The programs for A095890, the canonical program `A095890.P9464896246681720696` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095890 has offset 1).
 
-The definition of A095890 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095890 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095890.anchor (n : ℕ) : (A095890 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A095.A095890`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095890.P9464896246681720696
@@ -17921,7 +17931,7 @@ end A095890
 
 The programs for A095891, the canonical program `A095891.P3208938140457020464` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095891 has offset 1).
 
-The definition of A095891 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095891 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095891.anchor (n : ℕ) : (A095891 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℤ)` in `Proof.A095.A095891`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095891.P3208938140457020464
@@ -18343,7 +18353,7 @@ end A095892.P80435782349607982
 
 The programs for A095893, the canonical program `A095893.P14116179142159470635` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095893 has offset 1).
 
-The definition of A095893 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095893 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095893.anchor (n : ℕ) : (A095893 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1 : ℤ)` in `Proof.A095.A095893`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095893.P14116179142159470635
@@ -19253,7 +19263,7 @@ end A095895.P6229360485766000087
 
 The programs for A095896, the canonical program `A095896.P13431824080749461642` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095896 has offset 1).
 
-The definition of A095896 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A095896 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A095896.anchor (n : ℕ) : (A095896 (n + 1) : ℚ) = (SequenceMachineLib.triRow n + 1 : ℚ) ^ ((SequenceMachineLib.triRow n + 1 : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A095.A095896`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A095896.P13431824080749461642

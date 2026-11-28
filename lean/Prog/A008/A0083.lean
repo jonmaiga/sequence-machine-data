@@ -23,7 +23,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -33,14 +33,18 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -78,13 +82,12 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,6 +100,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2706,21 +2710,6 @@ end A008326.P11482531220194184822
 
 The programs for A008327, there is no canonical definition to state claims against.
 -/
-
-/-! ## A008327.P9515150185520383931
-
-`(A333159(n)+A133687(n))/2`
--/
-
-namespace A008327.P9515150185520383931
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A333159 n + A133687 n : ℚ) / 2
-
-end
-
-end A008327.P9515150185520383931
 
 /-! ## A008327.P14292820972821090321
 
@@ -8590,42 +8579,6 @@ end
 end A008349.P16440553671108757151
 
 /-!
-# A008350: Number of orbits of norm 2n vectors in E_8 lattice.
-
-The programs for A008350, there is no canonical definition to state claims against.
--/
-
-/-! ## A008350.P17881213226321728032
-
-`A057164(1*A019556(n))`
--/
-
-namespace A008350.P17881213226321728032
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057164 (1 * A019556 n).toNat
-
-end
-
-end A008350.P17881213226321728032
-
-/-! ## A008350.P2157046474550305324
-
-`A019556(n)`
--/
-
-namespace A008350.P2157046474550305324
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019556 n
-
-end
-
-end A008350.P2157046474550305324
-
-/-!
 # A008351: a(n) is the concatenation of a(n-1) and a(n-2) with a(1)=1, a(2)=2.
 
 The programs for A008351, there is no canonical definition to state claims against.
@@ -12813,21 +12766,6 @@ end
 
 end A008368.P2775435458868917358
 
-/-! ## A008368.P10421026872700744703
-
-`A023054(n)`
--/
-
-namespace A008368.P10421026872700744703
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023054 n
-
-end
-
-end A008368.P10421026872700744703
-
 /-! ## A008368.P13146200779197931586
 
 `A047800(n)-(a(n-1)+n)` with `a(0)=1`
@@ -13164,7 +13102,7 @@ end A008375.P15552478847872748608
 /-!
 # A008376: Coordination sequence for D_9 lattice.
 
-The programs for A008376, the canonical program `A008376.P8710974549002367927` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008376 has offset 0).
+The programs for A008376, the canonical program `A008376.P8710974549002367927` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008376 has offset 0).
 
 The definition of A008376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13173,7 +13111,7 @@ The definition of A008376 is `conjectured`: the Lean definition is a formula tha
 
 `A035746(n)-9*A035602(n)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A008376
@@ -13191,7 +13129,7 @@ end A008376
 /-!
 # A008377: Crystal ball sequence for D_9 lattice.
 
-The programs for A008377, the canonical program `A008377.P16559859115335658880` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008377 has offset 0).
+The programs for A008377, the canonical program `A008377.P16559859115335658880` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008377 has offset 0).
 
 The definition of A008377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13200,7 +13138,7 @@ The definition of A008377 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A008376(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A008377
@@ -13267,7 +13205,7 @@ end A008377
 /-!
 # A008378: Coordination sequence for D_10 lattice.
 
-The programs for A008378, the canonical program `A008378.P205600606006481001` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008378 has offset 0).
+The programs for A008378, the canonical program `A008378.P205600606006481001` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008378 has offset 0).
 
 The definition of A008378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13276,7 +13214,7 @@ The definition of A008378 is `conjectured`: the Lean definition is a formula tha
 
 `A035747(n)-10*A035603(n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A008378
@@ -13294,7 +13232,7 @@ end A008378
 /-!
 # A008379: Crystal ball sequence for D_10 lattice.
 
-The programs for A008379, the canonical program `A008379.P2564125293776314890` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008379 has offset 0).
+The programs for A008379, the canonical program `A008379.P2564125293776314890` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008379 has offset 0).
 
 The definition of A008379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13303,7 +13241,7 @@ The definition of A008379 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A008378(n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A008379

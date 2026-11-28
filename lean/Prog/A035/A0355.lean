@@ -7,32 +7,31 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C037
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +46,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C008
 import Seq.B003.C000
@@ -57,9 +57,10 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C003
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B009.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +85,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -281,21 +281,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035502.P16239350665730356755
-
-/-! ## A035502.P13457291678224262473
-
-`-1+A035503(n+1)`
--/
-
-namespace A035502.P13457291678224262473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A035503 (n + 1)
-
-end
-
-end A035502.P13457291678224262473
 
 /-! ## A035502.P14408055460339245467
 
@@ -1892,21 +1877,6 @@ end A035514.P11897299372027071067
 The programs for A035515, there is no canonical definition to state claims against.
 -/
 
-/-! ## A035515.P6995175478867162867
-
-`A004086(A035514(n))`
--/
-
-namespace A035515.P6995175478867162867
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A035514 n).toNat
-
-end
-
-end A035515.P6995175478867162867
-
 /-! ## A035515.P326075688192451717
 
 `A004185(lcm(A035514(n), A141588(n)))`
@@ -2855,12 +2825,6 @@ namespace A035531
 /-- `A064547(n+1)+A048881(n)-A382290(n+1)` -/
 def P15551818891398910855.Spec : Prop :=
   ∀ n, P15551818891398910855.a n = A035531 (n + 1)
-
-theorem P15551818891398910855.correct : P15551818891398910855.Spec := by
-  intro n
-  simp only [A035531, Nat.add_sub_cancel, A035531.P15551818891398910855.a, A035531.P14844778978604630277.a, A000120, A000120.P2816527436160941581.a, A001221, A001221.P14816172234621668833.f1, A001221.P14816172234621668833.a, A048881, A048881.P16567064232951496228.a, A064547, A064547.P11832440237822956980.a, A382290, A382290.P2377806297881400849.a, A005187, A005187.P3874015513960485494.a, A037445, A037445.P3100727209440750910.f1, A037445.P3100727209440750910.a, A001316, A001316.P6434973587264609955.f1, A001316.P6434973587264609955.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A035531
 

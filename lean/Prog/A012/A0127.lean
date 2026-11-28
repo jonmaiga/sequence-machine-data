@@ -4,22 +4,20 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -29,9 +27,9 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -52,29 +50,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
-
-/-!
-# A012700: Expansion of e.g.f. tan(arctanh(x) * log(x+1)).
-
-The programs for A012700, there is no canonical definition to state claims against.
--/
-
-/-! ## A012700.P1174277539723254661
-
-`A012705(n)`
--/
-
-namespace A012700.P1174277539723254661
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012705 n
-
-end
-
-end A012700.P1174277539723254661
 
 /-!
 # A012701: arctan(arctanh(x)*log(x+1))=2/2!*x^2-3/3!*x^3+16/4!*x^4-50/5!*x^5...
@@ -965,27 +941,6 @@ end
 end A012751.P14164919726481028870
 
 /-!
-# A012753: tan(arctanh(x)*arcsinh(x))=2/2!*x^2+4/4!*x^4+398/6!*x^6+10344/8!*x^8...
-
-The programs for A012753, there is no canonical definition to state claims against.
--/
-
-/-! ## A012753.P1367311936914806238
-
-`abs(A012440(n))`
--/
-
-namespace A012753.P1367311936914806238
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A012440 n|
-
-end
-
-end A012753.P1367311936914806238
-
-/-!
 # A012754: exp(arctanh(x)*tanh(x)) = 1+2/2!*x^2+12/4!*x^4+280/6!*x^6+13328/8!*x^8...
 
 The programs for A012754, there is no canonical definition to state claims against.
@@ -1176,27 +1131,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012761.P18259860187523801982
-
-/-!
-# A012762: Expansion of e.g.f.: sec(cosh(x)*log(x+1))=1+1/2!*x^2-3/3!*x^3+28/4!*x^4-160/5!*x^5...
-
-The programs for A012762, there is no canonical definition to state claims against.
--/
-
-/-! ## A012762.P11370960305411634219
-
-`A012778(n)`
--/
-
-namespace A012762.P11370960305411634219
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012778 n
-
-end
-
-end A012762.P11370960305411634219
 
 /-!
 # A012765: exp(cosh(x)*arcsin(x))=1+x+1/2!*x^2+5/3!*x^3+17/4!*x^4+65/5!*x^5...

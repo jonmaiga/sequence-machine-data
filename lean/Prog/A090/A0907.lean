@@ -15,13 +15,15 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -29,14 +31,16 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,6 +56,8 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -65,6 +71,7 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -72,8 +79,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1719,7 +1724,7 @@ end A090708.P8964312654068742423
 /-!
 # A090709: Primes whose decimal representation is a valid number in base 6 and interpreted as such is again a prime.
 
-The programs for A090709, the canonical program `A090709.P1543027397488354793` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090709 has offset 1).
+The programs for A090709, the canonical program `A090709.P1543027397488354793` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090709 has offset 1).
 
 The definition of A090709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 585 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1848,7 +1853,7 @@ end A090709
 
 `p?[A004680(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A090709
@@ -2297,7 +2302,7 @@ end A090709
 /-!
 # A090710: Primes with digits less than 7 whose decimal representation is also a prime when interpreted in base 7.
 
-The programs for A090710, the canonical program `A090710.P79863525791221557` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090710 has offset 1).
+The programs for A090710, the canonical program `A090710.P79863525791221557` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090710 has offset 1).
 
 The definition of A090710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2306,7 +2311,7 @@ The definition of A090710 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A004681(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A090710
@@ -9222,28 +9227,6 @@ end
 
 end A090759.P6025131690730010945
 
-/-! ## A090759.P14979136302152868167
-
-`∪[A090758(n+1), A090760(n+1)]`
--/
-
-namespace A090759.P14979136302152868167
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090758 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090760 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A090759.P14979136302152868167
-
 /-!
 # A090760: Numbers n which occur exactly three times in A001600.
 
@@ -9972,27 +9955,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090764.P15879590355124953967
-
-/-!
-# A090767: Numbers of the form 3*x*y*z + 2(x*y + y*z + z*x) + (x + y + z) for x, y, z positive integers.
-
-The programs for A090767, there is no canonical definition to state claims against.
--/
-
-/-! ## A090767.P15599754080589535566
-
-`A057354(A277870(n+1))`
--/
-
-namespace A090767.P15599754080589535566
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057354 (A277870 (n + 1)).toNat
-
-end
-
-end A090767.P15599754080589535566
 
 /-!
 # A090768: a(n) = 4*7^(n^2+2n+1)*Product_{j=1..n} (49^j-1).
@@ -12194,21 +12156,6 @@ end A090780
 
 The programs for A090781, there is no canonical definition to state claims against.
 -/
-
-/-! ## A090781.P9213654905307705659
-
-`A124865(A392698(n+1))`
--/
-
-namespace A090781.P9213654905307705659
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124865 (A392698 (n + 1)).toNat
-
-end
-
-end A090781.P9213654905307705659
 
 /-! ## A090781.P7224531057894223814
 

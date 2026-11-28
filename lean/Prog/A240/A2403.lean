@@ -3,23 +3,26 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C037
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C038
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C050
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -40,10 +43,10 @@ import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -55,7 +58,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -1249,7 +1251,7 @@ end A240315.P7240129273772339065
 /-!
 # A240316: Number of n X 2 0..3 arrays with no element equal to two plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240316, the canonical program `A240316.P4908203216822449279` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240316 has offset 1).
+The programs for A240316, the canonical program `A240316.P4908203216822449279` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240316 has offset 1).
 
 The definition of A240316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1258,7 +1260,7 @@ The definition of A240316 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+4x-6x^2-4x^3+16x^4+12x^5-12x^6-8x^7)/(1-12x^2+24x^4-31x^6+16x^8))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240316
@@ -1485,7 +1487,7 @@ end A240320.P11858308565913603776
 /-!
 # A240322: Number of n X 2 0..3 arrays with no element equal to zero plus the sum of elements to its left or zero plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240322, the canonical program `A240322.P16448269640312485921` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240322 has offset 1).
+The programs for A240322, the canonical program `A240322.P16448269640312485921` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240322 has offset 1).
 
 The definition of A240322 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1494,7 +1496,7 @@ The definition of A240322 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+5x+13x^2+7x^3-2x^4-16x^5-15x^6-3x^7+2x^8+11x^9+13x^10+3x^11-3x^12-4x^13)/(1-2x^2-10x^3+x^4+5x^5+15x^6-x^7-4x^8-2x^9-10x^10-5x^11+6x^13))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240322
@@ -1835,7 +1837,7 @@ end A240332
 /-!
 # A240333: Number of n X 2 0..3 arrays with no element equal to two plus the sum of elements to its left or two plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240333, the canonical program `A240333.P8029004449650856551` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240333 has offset 1).
+The programs for A240333, the canonical program `A240333.P8029004449650856551` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240333 has offset 1).
 
 The definition of A240333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1844,7 +1846,7 @@ The definition of A240333 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4-9x+18x^2-18x^3+14x^4-6x^5-x^6+2x^7)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240333
@@ -2074,7 +2076,7 @@ end A240337.P3115650805229976405
 /-!
 # A240342: Number of n X 2 0..3 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it or three plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240342, the canonical program `A240342.P606162789370024762` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240342 has offset 1).
+The programs for A240342, the canonical program `A240342.P606162789370024762` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240342 has offset 1).
 
 The definition of A240342 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2106,7 +2108,7 @@ end A240342
 
 `6*a(n-1)-7*a(n-2)-4*a(n-3)+8*a(n-4)` with `a(0)=4, a(1)=18, a(2)=78, a(3)=334`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240342
@@ -2389,7 +2391,7 @@ end A240347.P1946128729007930352
 /-!
 # A240348: Inverse of 53rd cyclotomic polynomial.
 
-The programs for A240348, the canonical program `A240348.P10324360403096197541` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240348 has offset 0).
+The programs for A240348, the canonical program `A240348.P10324360403096197541` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240348 has offset 0).
 
 The definition of A240348 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2398,7 +2400,7 @@ The definition of A240348 is `conjectured`: the Lean definition is a formula tha
 
 `round((-2)^-(n%53))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240348
@@ -2627,8 +2629,29 @@ end A240357.P2305636972656997587
 /-!
 # A240359: Number of n X 2 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240359, there is no canonical definition to state claims against.
+The programs for A240359, the canonical program `A240359.P139860568188102345` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240359 has offset 1).
+
+The definition of A240359 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A240359.P139860568188102345
+
+`ogf((4-21x+52x^2-72x^3+54x^4-8x^5-32x^6+55x^7-67x^8+66x^9-46x^10+20x^11-4x^12)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A240359
+
+/-- `ogf((4-21x+52x^2-72x^3+54x^4-8x^5-32x^6+55x^7-67x^8+66x^9-46x^10+20x^11-4x^12)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P139860568188102345.Spec : Prop :=
+  ∀ n, P139860568188102345.a n = A240359 (n + 1)
+
+theorem P139860568188102345.correct : P139860568188102345.Spec := by
+  intro n
+  simp only [A240359, Nat.add_sub_cancel]
+
+end A240359
 
 /-! ## A240359.P5183613545884032063
 
@@ -2648,6 +2671,14 @@ end
 
 end A240359.P5183613545884032063
 
+namespace A240359
+
+/-- `A240364(∑[2+n])` -/
+def P5183613545884032063.Spec : Prop :=
+  ∀ n, P5183613545884032063.a n = A240359 (n + 1)
+
+end A240359
+
 /-! ## A240359.P9386035689867613264
 
 `record[A240364(abs(A201163(n)))]`
@@ -2666,6 +2697,14 @@ end
 
 end A240359.P9386035689867613264
 
+namespace A240359
+
+/-- `record[A240364(abs(A201163(n)))]` -/
+def P9386035689867613264.Spec : Prop :=
+  ∀ n, P9386035689867613264.a n = A240359 (n + 1)
+
+end A240359
+
 /-! ## A240359.P10215917890465932538
 
 `record[root(A240364(n+2), A258709(n+1))]`
@@ -2683,6 +2722,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A240359.P10215917890465932538
+
+namespace A240359
+
+/-- `record[root(A240364(n+2), A258709(n+1))]` -/
+def P10215917890465932538.Spec : Prop :=
+  ∀ n, P10215917890465932538.a n = (A240359 (n + 1) : ℝ)
+
+end A240359
 
 /-!
 # A240360: Number of nX3 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4.
@@ -3188,29 +3235,6 @@ def P483910561641603605.Spec : Prop :=
 
 end A240370
 
-/-! ## A240370.P9021929977502222468
-
-`A193304(n+1)`
--/
-
-namespace A240370.P9021929977502222468
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193304 (n + 1)
-
-end
-
-end A240370.P9021929977502222468
-
-namespace A240370
-
-/-- `A193304(n+1)` -/
-def P9021929977502222468.Spec : Prop :=
-  ∀ n, P9021929977502222468.a n = A240370 (n + 1)
-
-end A240370
-
 /-!
 # A240371: Number of nX2 0..3 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
 
@@ -3550,7 +3574,7 @@ end A240380.P13007829428953850167
 /-!
 # A240382: Number of 2 X n 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of the elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240382, the canonical program `A240382.P8893589732514793596` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240382 has offset 1).
+The programs for A240382, the canonical program `A240382.P8893589732514793596` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240382 has offset 1).
 
 The definition of A240382 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3559,7 +3583,7 @@ The definition of A240382 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+10x-10x^2-30x^3+6x^4+38x^5+2x^6-20x^7)/(1-12x^2+24x^4-31x^6+16x^8))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240382
@@ -4100,7 +4124,7 @@ end A240388
 /-!
 # A240389: Number of n X 2 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240389, the canonical program `A240389.P11173661646693944606` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240389 has offset 1).
+The programs for A240389, the canonical program `A240389.P11173661646693944606` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240389 has offset 1).
 
 The definition of A240389 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 201 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4109,7 +4133,7 @@ The definition of A240389 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+5x-10x^3+13x^5+x^6-8x^7)/(1-12x^2+24x^4-31x^6+16x^8))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240389
@@ -4399,7 +4423,7 @@ end A240394.P5486154386290576514
 /-!
 # A240395: Number of 3 X n 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of the elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240395, the canonical program `A240395.P12655524787874108939` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240395 has offset 1).
+The programs for A240395, the canonical program `A240395.P12655524787874108939` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240395 has offset 1).
 
 The definition of A240395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4408,7 +4432,7 @@ The definition of A240395 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((2+2x-8x^2+2x^3+18x^4-26x^5+29x^6-29x^7+20x^8-6x^9)/(1-5x+10x^2-10x^3+5x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A240395

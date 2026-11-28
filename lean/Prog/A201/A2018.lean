@@ -21,7 +21,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -30,19 +29,21 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,13 +60,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B004.C003
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,6 +74,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -87,7 +87,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -450,7 +450,7 @@ end A201804
 /-!
 # A201805: Number of arrays of n integers in -2..2 with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201805, the canonical program `A201805.P5757719796373468426` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201805 has offset 0).
+The programs for A201805, the canonical program `A201805.P5757719796373468426` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201805 has offset 0).
 
 The definition of A201805 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -459,7 +459,7 @@ The definition of A201805 is `conjectured`: the Lean definition is a formula tha
 
 `∑{#}[floor(n/2), C(n, 2*#)*C(2*#, #)²]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201805
@@ -783,7 +783,7 @@ end A201811.P1179278595586392452
 /-!
 # A201812: Number of arrays of 4 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201812, the canonical program `A201812.P6939772690393953370` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201812 has offset 1).
+The programs for A201812, the canonical program `A201812.P6939772690393953370` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201812 has offset 1).
 
 The definition of A201812 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -792,7 +792,7 @@ The definition of A201812 is `conjectured`: the Lean definition is a formula tha
 
 `3*∑[5+Δ[n²]²]+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201812
@@ -1032,7 +1032,7 @@ end A201812
 /-!
 # A201813: Number of arrays of 5 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201813, the canonical program `A201813.P2794979695643565960` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201813 has offset 1).
+The programs for A201813, the canonical program `A201813.P2794979695643565960` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201813 has offset 1).
 
 The definition of A201813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1064,7 +1064,7 @@ end A201813
 
 `20*(n+1)^3+30*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201813
@@ -1250,7 +1250,7 @@ end A201813
 /-!
 # A201814: Number of arrays of 6 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201814, the canonical program `A201814.P3170261649480747895` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201814 has offset 1).
+The programs for A201814, the canonical program `A201814.P3170261649480747895` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201814 has offset 1).
 
 The definition of A201814 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1282,7 +1282,7 @@ end A201814
 
 `11*(n+1)^5+65*(n+1)^3+64*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201814
@@ -1323,7 +1323,7 @@ end A201814
 /-!
 # A201815: Number of arrays of 7 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201815, the canonical program `A201815.P2738985397002046814` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
+The programs for A201815, the canonical program `A201815.P2738985397002046814` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
 
 The definition of A201815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1332,7 +1332,7 @@ The definition of A201815 is `conjectured`: the Lean definition is a formula tha
 
 `77*(n+1)^5+175*(n+1)^3+(n+1)*140+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201815
@@ -3687,7 +3687,7 @@ end A201836.P12103490100803155880
 /-!
 # A201837: G.f.: real part of 1/(1 - i*x - i*x^2) where i=sqrt(-1).
 
-The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
+The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
 
 The definition of A201837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3696,7 +3696,7 @@ The definition of A201837 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf(1/(1+x^2+2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201837
@@ -3737,7 +3737,7 @@ end A201837
 /-!
 # A201838: G.f.: imaginary part of 1/(1 - i*x - i*x^2) where i=sqrt(-1).
 
-The programs for A201838, the canonical program `A201838.P804579328221733001` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201838 has offset 0).
+The programs for A201838, the canonical program `A201838.P804579328221733001` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201838 has offset 0).
 
 The definition of A201838 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3746,7 +3746,7 @@ The definition of A201838 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+x^2)/(1+x^2+2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201838
@@ -5881,7 +5881,7 @@ end A201862.P17875679744419128628
 /-!
 # A201863: Let CZ(0,x)=1, CZ(1,x)=0 , CZ(2,x)=x^2-1 and CZ(n,x)=2*x*CZ(n-1,x) - CZ(n-2,x) for n > 2. This sequence is the triangle of polynomial coefficients in order of decreasing exponents.
 
-The programs for A201863, the canonical program `A201863.P17296553973879164863` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201863 has offset 0).
+The programs for A201863, the canonical program `A201863.P17296553973879164863` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201863 has offset 0).
 
 The definition of A201863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5890,7 +5890,7 @@ The definition of A201863 is `conjectured`: the Lean definition is a formula tha
 
 `2*T(n-1,k)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=0, a(2)=0, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201863
@@ -6374,7 +6374,7 @@ end A201864
 /-!
 # A201865: Expansion of 1/((1-3*x)*(1+7*x)).
 
-The programs for A201865, the canonical program `A201865.P16448246508659881829` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201865 has offset 0).
+The programs for A201865, the canonical program `A201865.P16448246508659881829` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201865 has offset 0).
 
 The definition of A201865 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+4x-21x^2))` (program `A201865.P16448246508659881829`, by `A201865.P16448246508659881829.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6383,7 +6383,7 @@ The definition of A201865 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+4x-21x^2))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201865
@@ -6832,21 +6832,6 @@ end A201872.P14540067202192043259
 The programs for A201873, there is no canonical definition to state claims against.
 -/
 
-/-! ## A201873.P17799021181038780579
-
-`A006046(A184703(n+1))`
--/
-
-namespace A201873.P17799021181038780579
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006046 (A184703 (n + 1)).toNat
-
-end
-
-end A201873.P17799021181038780579
-
 /-! ## A201873.P8793906142523750554
 
 `A000194(A024654(A184703(n+1))^3)`
@@ -6865,7 +6850,7 @@ end A201873.P8793906142523750554
 /-!
 # A201874: Number of zero-sum -n..n arrays of 3 elements with first and second differences also in -n..n.
 
-The programs for A201874, the canonical program `A201874.P4390422078047873358` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201874 has offset 1).
+The programs for A201874, the canonical program `A201874.P4390422078047873358` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201874 has offset 1).
 
 The definition of A201874 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6874,7 +6859,7 @@ The definition of A201874 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[(n+1)*ceil((n+1)²/3)]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201874
@@ -7334,7 +7319,7 @@ end A201874
 /-!
 # A201875: Number of zero-sum -n..n arrays of 4 elements with first and second differences also in -n..n.
 
-The programs for A201875, the canonical program `A201875.P8073478820040569643` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201875 has offset 1).
+The programs for A201875, the canonical program `A201875.P8073478820040569643` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201875 has offset 1).
 
 The definition of A201875 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7343,7 +7328,7 @@ The definition of A201875 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((3+16x+23x^2+28x^3+20x^4+16x^5+3x^6+2x^7-x^8)/(1-x-x^2-x^3+2x^4+2x^5-x^6-x^7-x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A201875

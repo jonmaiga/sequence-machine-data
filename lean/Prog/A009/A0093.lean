@@ -11,22 +11,24 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C036
-import Seq.B000.C041
+import Seq.B000.C029
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C008
 import Seq.B001.C012
@@ -36,12 +38,9 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B005.C003
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -654,27 +653,6 @@ end
 end A009326.P8892159069198840203
 
 /-!
-# A009329: E.g.f. log(1+sin(tan(x))).
-
-The programs for A009329, there is no canonical definition to state claims against.
--/
-
-/-! ## A009329.P4474985247168648319
-
-`A009364(n)`
--/
-
-namespace A009329.P4474985247168648319
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009364 n
-
-end
-
-end A009329.P4474985247168648319
-
-/-!
 # A009331: If a, b in sequence, so is ab+8.
 
 The programs for A009331, there is no canonical definition to state claims against.
@@ -1028,27 +1006,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009345.P18029772011527481634
-
-/-!
-# A009348: Expansion of e.g.f.: log(1+sinh(tan(x))).
-
-The programs for A009348, there is no canonical definition to state claims against.
--/
-
-/-! ## A009348.P14076802408827179622
-
-`A009365(n)`
--/
-
-namespace A009348.P14076802408827179622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009365 n
-
-end
-
-end A009348.P14076802408827179622
 
 /-!
 # A009350: If x and y are terms, so is x*y + 9.

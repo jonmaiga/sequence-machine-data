@@ -5,29 +5,30 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C019
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B001.C014
+import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -36,18 +37,19 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C005
+import Seq.B003.C003
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,6 +65,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -80,7 +83,7 @@ set_option linter.unreachableTactic false
 /-!
 # A402101: Number of ways to earn a score of 1.5*n on the AMC 10 or AMC 12, distinct up to the number of questions answered correctly, left blank, or answered incorrectly. See comments.
 
-The programs for A402101, the canonical program `A402101.P3935774032216181146` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402101 has offset 0).
+The programs for A402101, the canonical program `A402101.P3935774032216181146` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402101 has offset 0).
 
 The definition of A402101 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -89,7 +92,7 @@ The definition of A402101 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n/4)-max(8, floor((n+1)/3))+9`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A402101
@@ -921,7 +924,7 @@ end A402143.P17483681576546022432
 /-!
 # A402144: Number of finite sequences of length n that cover an initial interval of positive integers but do not have 1-based restricted growth.
 
-The programs for A402144, the canonical program `A402144.P11291618821994640204` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402144 has offset 1).
+The programs for A402144, the canonical program `A402144.P11291618821994640204` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402144 has offset 1).
 
 The definition of A402144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -930,7 +933,7 @@ The definition of A402144 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000670(n+1)-A000110(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A402144
@@ -1200,16 +1203,16 @@ end A402159.P16565571906289712985
 /-!
 # A402165: Number of steps to reach 2 starting from n under the map x -> x/lpf(x) + 1, where lpf(x) is the least prime factor of x (A020639).
 
-The programs for A402165, the canonical program `A402165.P2637134116409634668` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402165 has offset 2).
+The programs for A402165, the canonical program `A402165.P2637134116409634668` is in `Seq.B001.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402165 has offset 2).
 
-The definition of A402165 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020639, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A402165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A402165.P2637134116409634668
 
 `1+a((n+2)/A020639(n+2)-1)` with `a(0)=0, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C015`.
 -/
 
 namespace A402165

@@ -9,29 +9,28 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C043
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,14 +52,16 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -541,30 +542,6 @@ end
 end A196115.P11874362476080361461
 
 /-!
-# A196117: Positive integers c for which there is a primitive 3-Pythagorean triple (a,b,c) satisfying a<=b.
-
-The programs for A196117, there is no canonical definition to state claims against.
--/
-
-/-! ## A196117.P16511770203289429162
-
-`p?[A196114(n+1)]`
--/
-
-namespace A196117.P16511770203289429162
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196114 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A196117.P16511770203289429162
-
-/-!
 # A196118: Partial sums of A004111.
 
 The programs for A196118, there is no canonical definition to state claims against.
@@ -732,21 +709,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A196119.P4720277721775938503
-
-/-! ## A196119.P9439927805395356039
-
-`A121854(A059543(n+1))`
--/
-
-namespace A196119.P9439927805395356039
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121854 (A059543 (n + 1)).toNat
-
-end
-
-end A196119.P9439927805395356039
 
 /-! ## A196119.P3517977295880661703
 
@@ -1773,7 +1735,7 @@ end A196131.P14262372152668231117
 /-!
 # A196132: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 0,2,1,3,4 for x=0,1,2,3,4.
 
-The programs for A196132, the canonical program `A196132.P10709141051739577615` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196132 has offset 1).
+The programs for A196132, the canonical program `A196132.P10709141051739577615` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196132 has offset 1).
 
 The definition of A196132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 417 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1782,7 +1744,7 @@ The definition of A196132 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4x+3x^2-4x^3-3x^4-3x^5+6x^6-4x^8)/(1-3x^2-2x^3+2x^4+3x^5+x^6-4x^7+2x^9))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A196132
@@ -2126,7 +2088,7 @@ end A196139.P1776933644301140366
 /-!
 # A196140: Number of nX2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,0,4,1,2 for x=0,1,2,3,4.
 
-The programs for A196140, the canonical program `A196140.P10989958171655588697` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196140 has offset 1).
+The programs for A196140, the canonical program `A196140.P10989958171655588697` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196140 has offset 1).
 
 The definition of A196140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2135,7 +2097,7 @@ The definition of A196140 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-3)-2*a(n-4)-a(n-5)+a(n-6)` with `a(0)=3, a(1)=5, a(2)=8, a(3)=17, a(4)=34, a(5)=62`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A196140
@@ -2257,7 +2219,7 @@ end A196140
 /-!
 # A196141: Number of n X 3 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,0,4,1,2 for x=0,1,2,3,4.
 
-The programs for A196141, the canonical program `A196141.P16632011933104391572` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196141 has offset 1).
+The programs for A196141, the canonical program `A196141.P16632011933104391572` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196141 has offset 1).
 
 The definition of A196141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 335 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2266,7 +2228,7 @@ The definition of A196141 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4-4x-9x^2+17x^3-11x^4-5x^5-4x^6+14x^8+4x^9+12x^10)/(1-3x+2x^2-x^3+3x^4-3x^5+x^6+7x^8-x^9-4x^10-2x^11-6x^12))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A196141
@@ -2417,36 +2379,6 @@ end A196145.P13420016882010700332
 
 The programs for A196146, there is no canonical definition to state claims against.
 -/
-
-/-! ## A196146.P3480456280202147097
-
-`A196287(n+1)`
--/
-
-namespace A196146.P3480456280202147097
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196287 (n + 1)
-
-end
-
-end A196146.P3480456280202147097
-
-/-! ## A196146.P12100671167459028723
-
-`A196314(n+1)`
--/
-
-namespace A196146.P12100671167459028723
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196314 (n + 1)
-
-end
-
-end A196146.P12100671167459028723
 
 /-! ## A196146.P16283715381812404721
 
@@ -4364,7 +4296,7 @@ end A196195.P4977087158619804883
 /-!
 # A196199: Count up from -n to n for n = 0, 1, 2, ... .
 
-The programs for A196199, the canonical program `A196199.P3919230471390252242` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196199 has offset 0).
+The programs for A196199, the canonical program `A196199.P3919230471390252242` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196199 has offset 0).
 
 The definition of A196199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4405,7 +4337,7 @@ end A196199
 
 `n-floor(sqrt(n))-floor(sqrt(n))²`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A196199

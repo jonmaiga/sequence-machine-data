@@ -5,37 +5,38 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C041
 import Seq.B000.C045
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -56,8 +57,9 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,13 +74,12 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C016
+import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -722,7 +723,7 @@ end A222714.P17193250686653952439
 /-!
 # A222715: The number of binary pattern classes in the (2,n)-rectangular grid with 5 '1's and (2n-5) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.
 
-The programs for A222715, the canonical program `A222715.P18434147023908023300` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
+The programs for A222715, the canonical program `A222715.P18434147023908023300` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
 
 The definition of A222715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -731,7 +732,7 @@ The definition of A222715 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2+8x+24x^2+16x^3+14x^4)/(1-3x+8x^3-6x^4-6x^5+8x^6-3x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222715
@@ -3709,7 +3710,7 @@ end A222738.P15538525625412772150
 /-!
 # A222739: Partial sums of the first 10^n terms in A181482.
 
-The programs for A222739, the canonical program `A222739.P3637724741249506848` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222739 has offset 1).
+The programs for A222739, the canonical program `A222739.P3637724741249506848` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222739 has offset 1).
 
 The definition of A222739 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3718,7 +3719,7 @@ The definition of A222739 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(n+1)+2)*(10^(2*(n+1))+10^(n+1)+4)/18`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A222739
@@ -5225,8 +5226,29 @@ end A222775.P17989587481120899111
 /-!
 # A222776: Number of n X 1 0..6 arrays with no element equal to another at a city block distance of exactly two, and new values 0..6 introduced in row major order.
 
-The programs for A222776, there is no canonical definition to state claims against.
+The programs for A222776, the canonical program `A222776.P18014421275304309` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222776 has offset 1).
+
+The definition of A222776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A222776.P18014421275304309
+
+`ogf((1-14x+66x^2-111x^3-3x^4+136x^5-53x^6)/(1-16x+95x^2-260x^3+324x^4-144x^5))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A222776
+
+/-- `ogf((1-14x+66x^2-111x^3-3x^4+136x^5-53x^6)/(1-16x+95x^2-260x^3+324x^4-144x^5))` -/
+def P18014421275304309.Spec : Prop :=
+  ∀ n, P18014421275304309.a n = A222776 (n + 1)
+
+theorem P18014421275304309.correct : P18014421275304309.Spec := by
+  intro n
+  simp only [A222776, Nat.add_sub_cancel]
+
+end A222776
 
 /-! ## A222776.P14949275697263835541
 
@@ -5246,6 +5268,14 @@ end
 
 end A222776.P14949275697263835541
 
+namespace A222776
+
+/-- `A222779(∑[n]+1)` -/
+def P14949275697263835541.Spec : Prop :=
+  ∀ n, P14949275697263835541.a n = A222776 (n + 1)
+
+end A222776
+
 /-! ## A222776.P9338402471169863593
 
 `record[A222779(A056534(n+1))]`
@@ -5263,6 +5293,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222776.P9338402471169863593
+
+namespace A222776
+
+/-- `record[A222779(A056534(n+1))]` -/
+def P9338402471169863593.Spec : Prop :=
+  ∀ n, P9338402471169863593.a n = A222776 (n + 1)
+
+end A222776
 
 /-! ## A222776.P11680378498013614206
 
@@ -5282,6 +5320,14 @@ end
 
 end A222776.P11680378498013614206
 
+namespace A222776
+
+/-- `record[A222779(A246276(n+1))]` -/
+def P11680378498013614206.Spec : Prop :=
+  ∀ n, P11680378498013614206.a n = A222776 (n + 1)
+
+end A222776
+
 /-! ## A222776.P16143823360213568790
 
 `record[A222779(A286235(n+1))]`
@@ -5299,6 +5345,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222776.P16143823360213568790
+
+namespace A222776
+
+/-- `record[A222779(A286235(n+1))]` -/
+def P16143823360213568790.Spec : Prop :=
+  ∀ n, P16143823360213568790.a n = A222776 (n + 1)
+
+end A222776
 
 /-!
 # A222777: Number of n X 2 0..6 arrays with no element equal to another at a city block distance of exactly two, and new values 0..6 introduced in row major order.

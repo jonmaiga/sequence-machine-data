@@ -18,28 +18,30 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C038
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +49,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
@@ -57,6 +60,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,20 +71,18 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -90,6 +92,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -1336,21 +1339,6 @@ end
 
 end A026214.P11039004498967059628
 
-/-! ## A026214.P13301589037280156677
-
-`-1+A026137(n+2)`
--/
-
-namespace A026214.P13301589037280156677
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A026137 (n + 2)
-
-end
-
-end A026214.P13301589037280156677
-
 /-! ## A026214.P5921920726268976156
 
 `A026167(n+3)-2`
@@ -1539,21 +1527,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026215.P4800765197950619145
-
-/-! ## A026215.P1072292982312872523
-
-`-1+A026136(n+2)`
--/
-
-namespace A026215.P1072292982312872523
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A026136 (n + 2)
-
-end
-
-end A026215.P1072292982312872523
 
 /-! ## A026215.P394223887743865287
 
@@ -11364,27 +11337,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026260.P4956988453133881639
-
-/-!
-# A026261: a(n) = j if n = [ j*sqrt(5) ], else a(n) = k if n = [ (k/4)*(5 + sqrt(5)) ].
-
-The programs for A026261, there is no canonical definition to state claims against.
--/
-
-/-! ## A026261.P13195181388897526342
-
-`A000188(A249096(n+1))`
--/
-
-namespace A026261.P13195181388897526342
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (A249096 (n + 1)).toNat
-
-end
-
-end A026261.P13195181388897526342
 
 /-!
 # A026262: Beginning with the natural numbers, swap [ k*sqrt(5) ] and [ (k/4)*(5 + sqrt(5)) ], for all k >= 1.

@@ -3,11 +3,11 @@ import Seq.B002.C001
 import Seq.B003.C002
 import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B008.C001
 import Seq.Opaque.C007
 import Seq.Opaque.C013
 import Seq.Opaque.C017
-import Seq.Opaque.C019
+import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -15,7 +15,7 @@ import Seq.Opaque.C024
 /-!
 # A402651: a(n) = A289383(A046072(n)); for n >= 3, number of prime races modulo n.
 
-The programs for A402651, the canonical program `A402651.P10268435161352999712` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402651 has offset 1).
+The programs for A402651, the canonical program `A402651.P10268435161352999712` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402651 has offset 1).
 
 The definition of A402651 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046072, A289383, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -24,7 +24,7 @@ The definition of A402651 is `conditional`: the Lean definition is an OEIS formu
 
 `A289383(A046072(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A402651

@@ -9,11 +9,11 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -21,14 +21,14 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -36,9 +36,10 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C049
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,12 +59,13 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,13 +76,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -441,7 +442,7 @@ end A088904.P18018674402106000249
 /-!
 # A088905: Numbers m having exactly one representation m = x^i + x^j with 1<x<=m and 0<=i<=j.
 
-The programs for A088905, the canonical program `A088905.P6975458775948714409` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088905 has offset 1).
+The programs for A088905, the canonical program `A088905.P6975458775948714409` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088905 has offset 1).
 
 The definition of A088905 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9915 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -450,7 +451,7 @@ The definition of A088905 is `conjectured`: the Lean definition is a formula tha
 
 `record[A052410(A004277(n))+1]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A088905
@@ -4636,27 +4637,6 @@ def P2326013452683578111.Spec : Prop :=
 end A088932
 
 /-!
-# A088934: Maximum prime required for the representation of n by a signed sum of squares of distinct primes that has the minimal number of terms A088910(n).
-
-The programs for A088934, there is no canonical definition to state claims against.
--/
-
-/-! ## A088934.P4308991750673046804
-
-`A089294(n)`
--/
-
-namespace A088934.P4308991750673046804
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089294 n
-
-end
-
-end A088934.P4308991750673046804
-
-/-!
 # A088935: Numbers n such that leading digits of 2^n and 5^n are equal.
 
 The programs for A088935, there is no canonical definition to state claims against.
@@ -5528,21 +5508,6 @@ end A088943
 
 The programs for A088944, there is no canonical definition to state claims against.
 -/
-
-/-! ## A088944.P3382627913093237747
-
-`2*A051717(n+2)`
--/
-
-namespace A088944.P3382627913093237747
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A051717 (n + 2)
-
-end
-
-end A088944.P3382627913093237747
 
 /-! ## A088944.P16066308688863104319
 
@@ -6469,21 +6434,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088950.P8035138119733611154
-
-/-! ## A088950.P8982326784898524520
-
-`A043277(A028310(n))*1-1`
--/
-
-namespace A088950.P8982326784898524520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043277 (A028310 n).toNat * 1 - 1
-
-end
-
-end A088950.P8982326784898524520
 
 /-! ## A088950.P15128232700658371592
 
@@ -8863,21 +8813,6 @@ end A088965.P18413788215449722757
 The programs for A088966, there is no canonical definition to state claims against.
 -/
 
-/-! ## A088966.P10758039154189610432
-
-`A242985(n)`
--/
-
-namespace A088966.P10758039154189610432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A242985 n
-
-end
-
-end A088966.P10758039154189610432
-
 /-! ## A088966.P8937833889708114997
 
 `A049068(4^n)`
@@ -11235,27 +11170,6 @@ def P6109643174186900520.Spec : Prop :=
 end A088982
 
 /-!
-# A088983: Numbers k such that each of the 6 consecutive numbers k through k+5 has exactly two distinct prime factors.
-
-The programs for A088983, there is no canonical definition to state claims against.
--/
-
-/-! ## A088983.P11241217858068608999
-
-`A045934(n+1)`
--/
-
-namespace A088983.P11241217858068608999
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045934 (n + 1)
-
-end
-
-end A088983.P11241217858068608999
-
-/-!
 # A088984: a(n) = (n!!)^2 - n!.
 
 The programs for A088984, there is no canonical definition to state claims against.
@@ -11429,7 +11343,7 @@ end A088984.P1542547924735892051
 /-!
 # A088985: Numbers of the form prime(prime(n)+1), with n satisfying prime(n)+2 = prime(n+1).
 
-The programs for A088985, the canonical program `A088985.P2809892186902908002` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088985 has offset 1).
+The programs for A088985, the canonical program `A088985.P2809892186902908002` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088985 has offset 1).
 
 The definition of A088985 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11544,7 +11458,7 @@ end A088985
 
 `A007504(2*A040040(n+1))-A007504(A054735(n+1)/2-1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A088985

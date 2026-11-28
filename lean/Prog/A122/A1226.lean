@@ -27,20 +27,20 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,10 +68,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1412,21 +1411,6 @@ end
 
 end A122618.P1745230465968492219
 
-/-! ## A122618.P6082220746503606983
-
-`A083292(n+1)`
--/
-
-namespace A122618.P6082220746503606983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083292 (n + 1)
-
-end
-
-end A122618.P6082220746503606983
-
 /-! ## A122618.P15681251999968769130
 
 `∑[A216455(Δ[(n-10)*floor(n/10)+n])]`
@@ -1952,21 +1936,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122624.P17323102410038551690
-
-/-! ## A122624.P11386611040082018040
-
-`A004904(n+2)`
--/
-
-namespace A122624.P11386611040082018040
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004904 (n + 2)
-
-end
-
-end A122624.P11386611040082018040
 
 /-! ## A122624.P4229026932989790116
 
@@ -2983,21 +2952,6 @@ end
 
 end A122640.P3112814049505230838
 
-/-! ## A122640.P599715482266170741
-
-`-1+A122641(n+1)`
--/
-
-namespace A122640.P599715482266170741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A122641 (n + 1)
-
-end
-
-end A122640.P599715482266170741
-
 /-! ## A122640.P9610432638427540385
 
 `A023443(A122641(1+n))`
@@ -3453,54 +3407,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122645.P6052039145102471619
-
-/-!
-# A122646: phi(n)_n where phi() = A000010.
-
-The programs for A122646, there is no canonical definition to state claims against.
--/
-
-/-! ## A122646.P3293564569115523570
-
-`A058183((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1])`
--/
-
-namespace A122646.P3293564569115523570
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058183 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))).toNat
-
-end
-
-end A122646.P3293564569115523570
-
-/-! ## A122646.P2157640385560378271
-
-`A225580((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1])`
--/
-
-namespace A122646.P2157640385560378271
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225580 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))).toNat
-
-end
-
-end A122646.P2157640385560378271
 
 /-!
 # A122647: Number of permutations of length 2*n-1 with no local maxima or minima in even positions.
@@ -5870,29 +5776,6 @@ namespace A122658
 /-- `-(A001489(n)*A008217(2*n)*A001105(n))` -/
 def P12658281565553202691.Spec : Prop :=
   ∀ n, P12658281565553202691.a n = A122658 n
-
-end A122658
-
-/-! ## A122658.P8464500460389361517
-
-`n²*A122656(n)*1+n²*A122656(n)`
--/
-
-namespace A122658.P8464500460389361517
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n ^ 2 : ℤ) * A122656 n * 1 + (n ^ 2 : ℤ) * A122656 n
-
-end
-
-end A122658.P8464500460389361517
-
-namespace A122658
-
-/-- `n²*A122656(n)*1+n²*A122656(n)` -/
-def P8464500460389361517.Spec : Prop :=
-  ∀ n, P8464500460389361517.a n = A122658 n
 
 end A122658
 

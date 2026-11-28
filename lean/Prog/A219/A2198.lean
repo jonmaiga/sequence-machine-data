@@ -4,7 +4,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C006
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -12,9 +11,12 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -23,16 +25,16 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,11 +48,10 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,7 +69,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -161,7 +161,7 @@ end A219802.P2217091913730999431
 /-!
 # A219803: Number of 2 X n arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 2 X n array.
 
-The programs for A219803, the canonical program `A219803.P6810713621652223270` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219803 has offset 1).
+The programs for A219803, the canonical program `A219803.P6810713621652223270` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219803 has offset 1).
 
 The definition of A219803 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -170,7 +170,7 @@ The definition of A219803 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4-20x+46x^2-59x^3+43x^4-15x^5+x^6+x^7)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219803
@@ -427,7 +427,7 @@ end A219809.P15220174021875399569
 /-!
 # A219810: Number of n X 2 arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 n X 2 array.
 
-The programs for A219810, the canonical program `A219810.P7809501357389611393` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219810 has offset 1).
+The programs for A219810, the canonical program `A219810.P7809501357389611393` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219810 has offset 1).
 
 The definition of A219810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -459,7 +459,7 @@ end A219810
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=3, a(1)=6, a(2)=16, a(3)=33, a(4)=61, a(5)=106`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219810
@@ -1319,7 +1319,7 @@ end A219838.P17824105943516115149
 /-!
 # A219839: a(n) is the number of odd integers in 2..(n-1) that have a common factor (other than 1) with n.
 
-The programs for A219839, the canonical program `A219839.P5346050903633519948` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219839 has offset 1).
+The programs for A219839, the canonical program `A219839.P5346050903633519948` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219839 has offset 1).
 
 The definition of A219839 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1328,7 +1328,7 @@ The definition of A219839 is `conjectured`: the Lean definition is a formula tha
 
 `floor((n+1-(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1]*gcd(2, n+1))/2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219839
@@ -2359,7 +2359,7 @@ end A219845.P17271990373292206352
 /-!
 # A219846: Number of n X 2 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 n X 2 array.
 
-The programs for A219846, the canonical program `A219846.P14508280666128092804` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219846 has offset 1).
+The programs for A219846, the canonical program `A219846.P14508280666128092804` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219846 has offset 1).
 
 The definition of A219846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2368,7 +2368,7 @@ The definition of A219846 is `conjectured`: the Lean definition is a formula tha
 
 `2+∑[∑[∑[n]+2]-1]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219846
@@ -2682,7 +2682,7 @@ end A219851.P11696866615822166858
 /-!
 # A219853: Number of 2 X n arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 2 X n array.
 
-The programs for A219853, the canonical program `A219853.P1660109703759436621` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219853 has offset 1).
+The programs for A219853, the canonical program `A219853.P1660109703759436621` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219853 has offset 1).
 
 The definition of A219853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2714,7 +2714,7 @@ end A219853
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=6, a(1)=7, a(2)=17, a(3)=33, a(4)=56, a(5)=86, a(6)=125`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A219853
@@ -3776,8 +3776,29 @@ end A219882.P10379315248072269433
 /-!
 # A219884: Number of 3 X n arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 3 X n array.
 
-The programs for A219884, there is no canonical definition to state claims against.
+The programs for A219884, the canonical program `A219884.P14405618947160740263` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219884 has offset 1).
+
+The definition of A219884 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A219884.P14405618947160740263
+
+`ogf((10-79x+287x^2-596x^3+697x^4-265x^5-504x^6+984x^7-895x^8+565x^9-351x^10+273x^11-206x^12+112x^13-36x^14+5x^15)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A219884
+
+/-- `ogf((10-79x+287x^2-596x^3+697x^4-265x^5-504x^6+984x^7-895x^8+565x^9-351x^10+273x^11-206x^12+112x^13-36x^14+5x^15)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P14405618947160740263.Spec : Prop :=
+  ∀ n, P14405618947160740263.a n = A219884 (n + 1)
+
+theorem P14405618947160740263.correct : P14405618947160740263.Spec := by
+  intro n
+  simp only [A219884, Nat.add_sub_cancel]
+
+end A219884
 
 /-! ## A219884.P7718033692241773598
 
@@ -3796,6 +3817,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A219884.P7718033692241773598
+
+namespace A219884
+
+/-- `A219883(4+∑[n+2])` -/
+def P7718033692241773598.Spec : Prop :=
+  ∀ n, P7718033692241773598.a n = A219884 (n + 1)
+
+end A219884
 
 /-!
 # A219885: Number of 4Xn arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 4Xn array.

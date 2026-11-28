@@ -4,24 +4,25 @@ import Seq.B000.C001
 import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C023
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B002.C000
+import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 
 /-!
 # A013203: Expansion of e.g.f. log(sech(x) + arcsin(x)).
@@ -142,27 +143,6 @@ end
 end A013209.P9310124381627416300
 
 /-!
-# A013210: Expansion of e.g.f.: sin(log(x+1) - sin(x)) = -1/2!*x^2+3/3!*x^3-6/4!*x^4+23/5!*x^5...
-
-The programs for A013210, there is no canonical definition to state claims against.
--/
-
-/-! ## A013210.P5381652249958419012
-
-`A013216(n)`
--/
-
-namespace A013210.P5381652249958419012
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013216 n
-
-end
-
-end A013210.P5381652249958419012
-
-/-!
 # A013211: arcsin(log(x+1)-sin(x))=-1/2!*x^2+3/3!*x^3-6/4!*x^4+23/5!*x^5...
 
 The programs for A013211, there is no canonical definition to state claims against.
@@ -209,27 +189,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013212.P10137313882447188985
-
-/-!
-# A013213: Expansion of e.g.f. arctan(log(x+1) - sin(x)).
-
-The programs for A013213, there is no canonical definition to state claims against.
--/
-
-/-! ## A013213.P13308390278342212863
-
-`A013217(n)`
--/
-
-namespace A013213.P13308390278342212863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013217 n
-
-end
-
-end A013213.P13308390278342212863
 
 /-!
 # A013214: E.g.f.: cos(log(x+1)-sin(x))= 1-3/4!*x^4+30/5!*x^5-180/6!*x^6+1113/7!*x^7...
@@ -310,90 +269,6 @@ end
 end A013219.P9029362366758229187
 
 /-!
-# A013222: Expansion of e.g.f. sin(log(x+1) - arcsin(x)).
-
-The programs for A013222, there is no canonical definition to state claims against.
--/
-
-/-! ## A013222.P2698745378763554669
-
-`A013228(n)`
--/
-
-namespace A013222.P2698745378763554669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013228 n
-
-end
-
-end A013222.P2698745378763554669
-
-/-!
-# A013223: Expansion of e.g.f. arcsin(log(x+1) - arcsin(x)).
-
-The programs for A013223, there is no canonical definition to state claims against.
--/
-
-/-! ## A013223.P16594567889760270209
-
-`A013227(n)`
--/
-
-namespace A013223.P16594567889760270209
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013227 n
-
-end
-
-end A013223.P16594567889760270209
-
-/-!
-# A013224: Expansion of e.g.f. tan(log(x+1) - arcsin(x)).
-
-The programs for A013224, there is no canonical definition to state claims against.
--/
-
-/-! ## A013224.P13997979958019481813
-
-`A013230(n)`
--/
-
-namespace A013224.P13997979958019481813
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013230 n
-
-end
-
-end A013224.P13997979958019481813
-
-/-!
-# A013225: Expansion of e.g.f. arctan(log(x+1) - arcsin(x)).
-
-The programs for A013225, there is no canonical definition to state claims against.
--/
-
-/-! ## A013225.P491145851942648526
-
-`A013229(n)`
--/
-
-namespace A013225.P491145851942648526
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013229 n
-
-end
-
-end A013225.P491145851942648526
-
-/-!
 # A013226: cos(log(x+1)-arcsin(x))=1-3/4!*x^4+10/5!*x^5-100/6!*x^6+525/7!*x^7...
 
 The programs for A013226, there is no canonical definition to state claims against.
@@ -470,111 +345,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013231.P4284560092121949315
-
-/-!
-# A013234: Expansion of e.g.f. sin(log(x+1) - tan(x)).
-
-The programs for A013234, there is no canonical definition to state claims against.
--/
-
-/-! ## A013234.P11194644305729879257
-
-`A013240(n)`
--/
-
-namespace A013234.P11194644305729879257
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013240 n
-
-end
-
-end A013234.P11194644305729879257
-
-/-!
-# A013235: E.g.f. arcsin(log(x+1)-tan(x))=-1/2!*x^2-6/4!*x^4+8/5!*x^5-135/6!*x^6...
-
-The programs for A013235, there is no canonical definition to state claims against.
--/
-
-/-! ## A013235.P404062869616656051
-
-`A013239(n)`
--/
-
-namespace A013235.P404062869616656051
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013239 n
-
-end
-
-end A013235.P404062869616656051
-
-/-!
-# A013236: Expansion of e.g.f. tan(log(x+1) - tan(x)).
-
-The programs for A013236, there is no canonical definition to state claims against.
--/
-
-/-! ## A013236.P7991088730322466571
-
-`A013242(n)`
--/
-
-namespace A013236.P7991088730322466571
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013242 n
-
-end
-
-end A013236.P7991088730322466571
-
-/-!
-# A013237: Expansion of e.g.f. arctan(log(x+1) - tan(x)).
-
-The programs for A013237, there is no canonical definition to state claims against.
--/
-
-/-! ## A013237.P11050566833158772062
-
-`A013241(n)`
--/
-
-namespace A013237.P11050566833158772062
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013241 n
-
-end
-
-end A013237.P11050566833158772062
-
-/-!
-# A013238: cos(log(x+1)-tan(x))=1-3/4!*x^4-90/6!*x^6+168/7!*x^7-4515/8!*x^8...
-
-The programs for A013238, there is no canonical definition to state claims against.
--/
-
-/-! ## A013238.P14135697213562862210
-
-`A013245(n)`
--/
-
-namespace A013238.P14135697213562862210
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013245 n
-
-end
-
-end A013238.P14135697213562862210
 
 /-!
 # A013239: sinh(log(x+1)-tan(x)) = -1/2!*x^2 - 6/4!*x^4 + 8/5!*x^5 - 135/6!*x^6 + ...
@@ -756,21 +526,6 @@ end A013249.P9796738417400763017
 The programs for A013250, there is no canonical definition to state claims against.
 -/
 
-/-! ## A013250.P7195948745182237444
-
-`A013257(n)`
--/
-
-namespace A013250.P7195948745182237444
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013257 n
-
-end
-
-end A013250.P7195948745182237444
-
 /-! ## A013250.P335257744200040282
 
 `A035182(A001538(n))-A013255(n)`
@@ -827,42 +582,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013255.P12557087068052539276
-
-/-! ## A013255.P7663549116834758288
-
-`A013256(n)`
--/
-
-namespace A013255.P7663549116834758288
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013256 n
-
-end
-
-end A013255.P7663549116834758288
-
-/-!
-# A013262: E.g.f.: cos(log(x+1)-sinh(x))=1-3/4!*x^4+10/5!*x^5-100/6!*x^6+693/7!*x^7...
-
-The programs for A013262, there is no canonical definition to state claims against.
--/
-
-/-! ## A013262.P9144082029383164431
-
-`A013269(n)`
--/
-
-namespace A013262.P9144082029383164431
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013269 n
-
-end
-
-end A013262.P9144082029383164431
 
 /-!
 # A013263: Expansion of e.g.f. sinh(log(x+1) - sinh(x)).
@@ -997,69 +716,6 @@ end
 end A013267.P2397792509862431366
 
 /-!
-# A013271: Expansion of e.g.f. arcsin(log(x+1) - arcsinh(x)).
-
-The programs for A013271, there is no canonical definition to state claims against.
--/
-
-/-! ## A013271.P7496809041599741097
-
-`A013275(n)`
--/
-
-namespace A013271.P7496809041599741097
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013275 n
-
-end
-
-end A013271.P7496809041599741097
-
-/-!
-# A013272: tan(log(x+1)-arcsinh(x))=-1/2!*x^2+3/3!*x^3-6/4!*x^4+15/5!*x^5...
-
-The programs for A013272, there is no canonical definition to state claims against.
--/
-
-/-! ## A013272.P7835757261900481943
-
-`A013278(n)`
--/
-
-namespace A013272.P7835757261900481943
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013278 n
-
-end
-
-end A013272.P7835757261900481943
-
-/-!
-# A013273: Expansion of e.g.f. arctan(log(x+1) - arcsinh(x)).
-
-The programs for A013273, there is no canonical definition to state claims against.
--/
-
-/-! ## A013273.P9719174457962689392
-
-`A013277(n)`
--/
-
-namespace A013273.P9719174457962689392
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013277 n
-
-end
-
-end A013273.P9719174457962689392
-
-/-!
 # A013274: E.g.f.: cos(log(x+1)-arcsinh(x))=1-3/4!*x^4+30/5!*x^5-180/6!*x^6+945/7!*x^7...
 
 The programs for A013274, there is no canonical definition to state claims against.
@@ -1183,90 +839,6 @@ end
 end A013279.P9394217952239846485
 
 /-!
-# A013283: Expansion of e.g.f. arcsin(log(x+1) - tanh(x)).
-
-The programs for A013283, there is no canonical definition to state claims against.
--/
-
-/-! ## A013283.P15165996065529332723
-
-`A013287(n)`
--/
-
-namespace A013283.P15165996065529332723
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013287 n
-
-end
-
-end A013283.P15165996065529332723
-
-/-!
-# A013284: tan(log(x+1)-tanh(x)) = -1/2!*x^2+4/3!*x^3-6/4!*x^4+8/5!*x^5... .
-
-The programs for A013284, there is no canonical definition to state claims against.
--/
-
-/-! ## A013284.P3625119711976903841
-
-`A013290(n+2)`
--/
-
-namespace A013284.P3625119711976903841
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013290 (n + 2)
-
-end
-
-end A013284.P3625119711976903841
-
-/-!
-# A013285: Expansion of e.g.f.: arctan(log(x+1)-tanh(x)).
-
-The programs for A013285, there is no canonical definition to state claims against.
--/
-
-/-! ## A013285.P11678360252458760660
-
-`A013289(n+2)`
--/
-
-namespace A013285.P11678360252458760660
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013289 (n + 2)
-
-end
-
-end A013285.P11678360252458760660
-
-/-!
-# A013286: cos(log(x+1)-tanh(x))=1-3/4!*x^4+40/5!*x^5-250/6!*x^6+1008/7!*x^7...
-
-The programs for A013286, there is no canonical definition to state claims against.
--/
-
-/-! ## A013286.P4413437800611667674
-
-`A013293(n)`
--/
-
-namespace A013286.P4413437800611667674
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013293 n
-
-end
-
-end A013286.P4413437800611667674
-
-/-!
 # A013287: Expansion of e.g.f. sinh(log(x+1) - tanh(x)).
 
 The programs for A013287, there is no canonical definition to state claims against.
@@ -1307,21 +879,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013291.P14942822786271213952
-
-/-! ## A013291.P7875390932752955920
-
-`A013292(n)`
--/
-
-namespace A013291.P7875390932752955920
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013292 n
-
-end
-
-end A013291.P7875390932752955920
 
 /-!
 # A013294: sin(log(x+1)-arctanh(x))=-1/2!*x^2-6/4!*x^4-105/6!*x^6-3780/8!*x^8...

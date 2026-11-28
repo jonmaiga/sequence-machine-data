@@ -9,20 +9,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C044
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -30,6 +30,7 @@ import Seq.B001.C009
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C007
 import Seq.B003.C003
 import Seq.B008.C000
 import Seq.B010.C000
@@ -4372,21 +4373,6 @@ end
 
 end A004841.P6817419261136472558
 
-/-! ## A004841.P17313411754163593057
-
-`A023808(A023782(n+2))`
--/
-
-namespace A004841.P17313411754163593057
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023808 (A023782 (n + 2)).toNat
-
-end
-
-end A004841.P17313411754163593057
-
 /-! ## A004841.P10436328367596479100
 
 `A004896(n+1)%A096166(n+1)`
@@ -4495,21 +4481,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004842.P11298216352026246782
-
-/-! ## A004842.P9991633408075349982
-
-`A055014(A329447(n))`
--/
-
-namespace A004842.P9991633408075349982
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055014 (A329447 n).toNat
-
-end
-
-end A004842.P9991633408075349982
 
 /-!
 # A004843: Numbers that are the sum of at most 3 positive 5th powers.
@@ -5039,21 +5010,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004847.P16351720813808297088
-
-/-! ## A004847.P17336728829797927095
-
-`A004913(n+1)%504`
--/
-
-namespace A004847.P17336728829797927095
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A004913 (n + 1)) 504
-
-end
-
-end A004847.P17336728829797927095
 
 /-!
 # A004848: Numbers that are the sum of at most 8 positive 5th powers.
@@ -6783,21 +6739,6 @@ end
 
 end A004861.P2346070333379639057
 
-/-! ## A004861.P4211837988255317430
-
-`A004916(n+1)%496`
--/
-
-namespace A004861.P4211837988255317430
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A004916 (n + 1)) 496
-
-end
-
-end A004861.P4211837988255317430
-
 /-!
 # A004862: Numbers that are the sum of at most 11 nonzero 6th powers.
 
@@ -7140,21 +7081,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004864.P12687946843869035280
-
-/-! ## A004864.P3933027986258856910
-
-`A123253(A329447(n))`
--/
-
-namespace A004864.P3933027986258856910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123253 (A329447 n).toNat
-
-end
-
-end A004864.P3933027986258856910
 
 /-!
 # A004865: Numbers that are the sum of at most 3 positive 7th powers.
@@ -8081,21 +8007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A004873.P2700154382324372141
-
-/-! ## A004873.P5841753182105056537
-
-`A004874(A252474(n+1))`
--/
-
-namespace A004873.P5841753182105056537
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004874 (A252474 (n + 1)).toNat
-
-end
-
-end A004873.P5841753182105056537
 
 /-!
 # A004874: Numbers that are the sum of at most 12 positive 7th powers.

@@ -13,26 +13,26 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -41,6 +41,7 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,19 +64,22 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -528,7 +532,7 @@ end A260400.P7928480318426495245
 /-!
 # A260401: Positions of 1 in the infinite palindromic word at A259599.
 
-The programs for A260401, the canonical program `A260401.P2046318254898871270` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260401 has offset 1).
+The programs for A260401, the canonical program `A260401.P2046318254898871270` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260401 has offset 1).
 
 The definition of A260401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5589 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -971,7 +975,7 @@ end A260401
 
 `record[n+1-A112604(xor(n, n+1))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A260401
@@ -4669,7 +4673,7 @@ end A260439.P5560488681439615128
 /-!
 # A260440: Unlucky numbers removed at the stage four of Lucky sieve.
 
-The programs for A260440, the canonical program `A260440.P2776861179369447704` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260440 has offset 1).
+The programs for A260440, the canonical program `A260440.P2776861179369447704` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260440 has offset 1).
 
 The definition of A260440 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4678,7 +4682,7 @@ The definition of A260440 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+126` with `a(0)=27, a(1)=57, a(2)=91, a(3)=121`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260440
@@ -6679,21 +6683,6 @@ end
 
 end A260450.P17915036815614434001
 
-/-! ## A260450.P12454823374369485179
-
-`A332491(A260452(n+1)-1)`
--/
-
-namespace A260450.P12454823374369485179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332491 (A260452 (n + 1) - 1).toNat
-
-end
-
-end A260450.P12454823374369485179
-
 /-! ## A260450.P2619990409768554584
 
 `A260452((A017221(n)-n)*A260452(n+1))`
@@ -8280,7 +8269,7 @@ end A260455
 /-!
 # A260456: Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = 1 and midword sequence (0,null,0,null,0,null,...); see Comments.
 
-The programs for A260456, the canonical program `A260456.P8742662874947804953` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260456 has offset 1).
+The programs for A260456, the canonical program `A260456.P8742662874947804953` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260456 has offset 1).
 
 The definition of A260456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8464,7 +8453,7 @@ end A260456
 
 `A359794(n+1)%2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A260456
@@ -9222,27 +9211,6 @@ end
 end A260460.P1924502591430336628
 
 /-!
-# A260463: a(n) is the smallest number not already in the sequence such that a(n)^2 begins with n.
-
-The programs for A260463, there is no canonical definition to state claims against.
--/
-
-/-! ## A260463.P16367742589802632941
-
-`A018851(n+1)`
--/
-
-namespace A260463.P16367742589802632941
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018851 (n + 1)
-
-end
-
-end A260463.P16367742589802632941
-
-/-!
 # A260464: Number of chains in the poset of even-sized subsets of {1,2,...,n} ordered by inclusion.
 
 The programs for A260464, there is no canonical definition to state claims against.
@@ -9298,21 +9266,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260465.P7188340802815622344
-
-/-! ## A260465.P14575510587648859631
-
-`A018852(n+1)`
--/
-
-namespace A260465.P14575510587648859631
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018852 (n + 1)
-
-end
-
-end A260465.P14575510587648859631
 
 /-! ## A260465.P8168225541456356395
 
@@ -9552,8 +9505,29 @@ end A260467.P14829107846026655975
 /-!
 # A260468: Number of (n+2) X (1+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00000000 00000001 or 00010101.
 
-The programs for A260468, there is no canonical definition to state claims against.
+The programs for A260468, the canonical program `A260468.P16207048951940543059` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260468 has offset 1).
+
+The definition of A260468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 320 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A260468.P16207048951940543059
+
+`ogf((34+15x+54x^2+28x^4+60x^6+108x^7-180x^8-24x^9-96x^10-40x^11+24x^12)/(1-x-3x^3-x^4-2x^5-12x^8+4x^9+4x^11+4x^12))`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A260468
+
+/-- `ogf((34+15x+54x^2+28x^4+60x^6+108x^7-180x^8-24x^9-96x^10-40x^11+24x^12)/(1-x-3x^3-x^4-2x^5-12x^8+4x^9+4x^11+4x^12))` -/
+def P16207048951940543059.Spec : Prop :=
+  ∀ n, P16207048951940543059.a n = A260468 (n + 1)
+
+theorem P16207048951940543059.correct : P16207048951940543059.Spec := by
+  intro n
+  simp only [A260468, Nat.add_sub_cancel]
+
+end A260468
 
 /-! ## A260468.P16571956997060011323
 
@@ -9573,6 +9547,14 @@ end
 
 end A260468.P16571956997060011323
 
+namespace A260468
+
+/-- `A260475(∑[n]+1)` -/
+def P16571956997060011323.Spec : Prop :=
+  ∀ n, P16571956997060011323.a n = A260468 (n + 1)
+
+end A260468
+
 /-! ## A260468.P13476912190199114100
 
 `record[A010054(n)*A260475(n+1)]`
@@ -9590,6 +9572,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260468.P13476912190199114100
+
+namespace A260468
+
+/-- `record[A010054(n)*A260475(n+1)]` -/
+def P13476912190199114100.Spec : Prop :=
+  ∀ n, P13476912190199114100.a n = A260468 (n + 1)
+
+end A260468
 
 /-! ## A260468.P1167766579339237064
 
@@ -9609,6 +9599,14 @@ end
 
 end A260468.P1167766579339237064
 
+namespace A260468
+
+/-- `record[A260475(n+1)/A013619(n)]` -/
+def P1167766579339237064.Spec : Prop :=
+  ∀ n, P1167766579339237064.a n = (A260468 (n + 1) : ℚ)
+
+end A260468
+
 /-! ## A260468.P17029056963526311518
 
 `record[root(A260475(n+1), A026736(n))]`
@@ -9626,6 +9624,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A260468.P17029056963526311518
+
+namespace A260468
+
+/-- `record[root(A260475(n+1), A026736(n))]` -/
+def P17029056963526311518.Spec : Prop :=
+  ∀ n, P17029056963526311518.a n = (A260468 (n + 1) : ℝ)
+
+end A260468
 
 /-!
 # A260469: Number of (n+2)X(2+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00000000 00000001 or 00010101.
@@ -10025,7 +10031,7 @@ end A260478.P2691807071568717502
 /-!
 # A260479: Positions of 0 in the infinite palindromic word at A260455.
 
-The programs for A260479, the canonical program `A260479.P11507470578859938320` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260479 has offset 1).
+The programs for A260479, the canonical program `A260479.P11507470578859938320` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260479 has offset 1).
 
 The definition of A260479 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10034,7 +10040,7 @@ The definition of A260479 is `conjectured`: the Lean definition is a formula tha
 
 `∑[3-a(∑[n]%n)]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260479
@@ -10518,7 +10524,7 @@ end A260479
 /-!
 # A260480: Positions of 0 in the infinite palindromic word at A260455.
 
-The programs for A260480, the canonical program `A260480.P1051220147840496834` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260480 has offset 1).
+The programs for A260480, the canonical program `A260480.P1051220147840496834` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260480 has offset 1).
 
 The definition of A260480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10527,7 +10533,7 @@ The definition of A260480 is `conjectured`: the Lean definition is a formula tha
 
 `∑[runs[or(n, 1+n)%3]+1]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260480
@@ -11003,7 +11009,7 @@ end A260480
 /-!
 # A260483: Beatty sequence for e^(1/Pi) = A179706.
 
-The programs for A260483, the canonical program `A260483.P8742436626005482842` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260483 has offset 1).
+The programs for A260483, the canonical program `A260483.P8742436626005482842` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260483 has offset 1).
 
 The definition of A260483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11012,7 +11018,7 @@ The definition of A260483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*exp(1/π))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260483
@@ -11226,7 +11232,7 @@ end A260483
 /-!
 # A260484: Complement of the Beatty sequence for e^(1/Pi) = A179706.
 
-The programs for A260484, the canonical program `A260484.P7520372617533260754` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260484 has offset 1).
+The programs for A260484, the canonical program `A260484.P7520372617533260754` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260484 has offset 1).
 
 The definition of A260484 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11235,7 +11241,7 @@ The definition of A260484 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*exp(1/π)/(exp(1/π)-1))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260484
@@ -11274,32 +11280,6 @@ namespace A260484
 /-- `comp[A260483(1+n)-1]+1` -/
 def P17931900794310606244.Spec : Prop :=
   ∀ n, (P17931900794310606244.a n : ℤ) = A260484 (n + 1)
-
-end A260484
-
-/-! ## A260484.P6582553155425486227
-
-`∑[A011655(n)+3]`
--/
-
-namespace A260484.P6582553155425486227
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011655 n + 3
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A260484.P6582553155425486227
-
-namespace A260484
-
-/-- `∑[A011655(n)+3]` -/
-def P6582553155425486227.Spec : Prop :=
-  ∀ n, P6582553155425486227.a n = A260484 (n + 1)
 
 end A260484
 
@@ -11775,7 +11755,7 @@ end A260485.P4500651382034357677
 /-!
 # A260488: Numbers of the form 2^m * (6k + 1) for m, k >= 0, and 0.
 
-The programs for A260488, the canonical program `A260488.P4920664847729717800` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260488 has offset 0).
+The programs for A260488, the canonical program `A260488.P4920664847729717800` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260488 has offset 0).
 
 The definition of A260488 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11784,7 +11764,7 @@ The definition of A260488 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(n, n-1)%3]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260488
@@ -12445,7 +12425,7 @@ end A260490.P954484187039398712
 /-!
 # A260492: Pascal's triangle aerated with columns of zeros.
 
-The programs for A260492, the canonical program `A260492.P11140523939615091371` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260492 has offset 0).
+The programs for A260492, the canonical program `A260492.P11140523939615091371` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260492 has offset 0).
 
 The definition of A260492 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12607,7 +12587,7 @@ end A260492
 
 `A071028(n)*A140751(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A260492
@@ -12800,7 +12780,7 @@ end A260493.P14569996938815380783
 /-!
 # A260494: Number of (n+2) X (1+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00000001 00000011 or 00001011.
 
-The programs for A260494, the canonical program `A260494.P8294759528517163149` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260494 has offset 1).
+The programs for A260494, the canonical program `A260494.P8294759528517163149` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260494 has offset 1).
 
 The definition of A260494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 327 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12809,7 +12789,7 @@ The definition of A260494 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((48+83x+218x^2+272x^3+198x^4+204x^5+194x^6+137x^7+104x^8+126x^9+82x^10+26x^11-6x^12-2x^13)/(1-4x^3-4x^4-4x^5-4x^6-4x^7-3x^8-2x^9-3x^10-2x^11-x^12))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A260494

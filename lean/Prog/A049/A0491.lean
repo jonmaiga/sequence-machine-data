@@ -3,26 +3,24 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -32,8 +30,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -42,9 +39,9 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -74,6 +71,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -81,15 +79,16 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -114,7 +113,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1461,7 +1459,7 @@ end A049108
 /-!
 # A049109: Number of divisors of A005238(n).
 
-The programs for A049109, the canonical program `A049109.P2295218982082363746` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049109 has offset 1).
+The programs for A049109, the canonical program `A049109.P2295218982082363746` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049109 has offset 1).
 
 The definition of A049109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1470,7 +1468,7 @@ The definition of A049109 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A005238(1+n), #+1]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A049109
@@ -2210,7 +2208,7 @@ end A049111
 /-!
 # A049112: 2-ranks of difference sets constructed from Glynn type I hyperovals.
 
-The programs for A049112, the canonical program `A049112.P4476754032565103304` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049112 has offset 1).
+The programs for A049112, the canonical program `A049112.P4476754032565103304` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049112 has offset 1).
 
 The definition of A049112 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2242,7 +2240,7 @@ end A049112
 
 `a(n-1)+a(n-2)+a(n-3)+a(n-4)-1` with `a(0)=1, a(1)=1, a(2)=3, a(3)=7, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049112
@@ -2335,7 +2333,7 @@ end A049112
 /-!
 # A049113: Number of powers of 2 in sequence obtained when phi (A000010) is repeatedly applied to n.
 
-The programs for A049113, the canonical program `A049113.P626448701058423886` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049113 has offset 1).
+The programs for A049113, the canonical program `A049113.P626448701058423886` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049113 has offset 1).
 
 The definition of A049113 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049115, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2344,7 +2342,7 @@ The definition of A049113 is `conditional`: the Lean definition is an OEIS formu
 
 `A049108(n+1)-A049115(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A049113
@@ -2722,7 +2720,7 @@ end A049113
 /-!
 # A049114: 2-ranks of difference sets constructed from Glynn type II hyperovals.
 
-The programs for A049114, the canonical program `A049114.P17310726559167198941` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049114 has offset 1).
+The programs for A049114, the canonical program `A049114.P17310726559167198941` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049114 has offset 1).
 
 The definition of A049114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2754,7 +2752,7 @@ end A049114
 
 `a(n-1)+3*a(n-2)-a(n-3)-a(n-4)+1` with `a(0)=1, a(1)=1, a(2)=5, a(3)=7`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049114
@@ -2844,7 +2842,7 @@ end A049114
 /-!
 # A049115: a(n) is the number of iterations of the Euler phi function needed to reach a power of 2, when starting from n.
 
-The programs for A049115, the canonical program `A049115.P2000805014081711622` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049115 has offset 1).
+The programs for A049115, the canonical program `A049115.P2000805014081711622` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049115 has offset 1).
 
 The definition of A049115 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3036,7 +3034,7 @@ end A049115
 
 `A259103(n+1)-A064415(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A049115
@@ -3872,21 +3870,6 @@ end A049119.P5844113120404750988
 The programs for A049121, there is no canonical definition to state claims against.
 -/
 
-/-! ## A049121.P12035857827731694273
-
-`A055657(n)`
--/
-
-namespace A049121.P12035857827731694273
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055657 n
-
-end
-
-end A049121.P12035857827731694273
-
 /-! ## A049121.P17168669595765368248
 
 `A049201(a(n-1))` with `a(0)=0`
@@ -4518,21 +4501,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049131.P15148341219212562769
-
-/-! ## A049131.P2006734183902724108
-
-`A294410(n)+A000579(n)`
--/
-
-namespace A049131.P2006734183902724108
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294410 n + A000579 n
-
-end
-
-end A049131.P2006734183902724108
 
 /-! ## A049131.P13495490829565569717
 
@@ -6499,21 +6467,6 @@ end
 
 end A049159.P18188059538914335983
 
-/-! ## A049159.P7958788606367125465
-
-`A209335(n+1)`
--/
-
-namespace A049159.P7958788606367125465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209335 (n + 1)
-
-end
-
-end A049159.P7958788606367125465
-
 /-!
 # A049160: Recip transform of 2*(1 + x^6)-1/(1-x).
 
@@ -6738,21 +6691,6 @@ end A049163.P7464676785123953932
 
 The programs for A049164, there is no canonical definition to state claims against.
 -/
-
-/-! ## A049164.P3162102410335310945
-
-`2*A035041(n+1)+1`
--/
-
-namespace A049164.P3162102410335310945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A035041 (n + 1) + 1
-
-end
-
-end A049164.P3162102410335310945
 
 /-! ## A049164.P3603453756912495672
 
@@ -7657,24 +7595,6 @@ end
 
 end A049179.P11497088674325287571
 
-/-! ## A049179.P10446009425956611941
-
-`A073152(∑[n])`
--/
-
-namespace A049179.P10446009425956611941
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073152 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A049179.P10446009425956611941
-
 /-!
 # A049180: Revert transform of 2*x*(1 - x - x^3 + x^4 - x^5)-x/(1+x).
 
@@ -7731,24 +7651,6 @@ end A049180.P115355590157459174
 
 The programs for A049181, there is no canonical definition to state claims against.
 -/
-
-/-! ## A049181.P236658315597792348
-
-`A005408(∑[C(n, 6)])`
--/
-
-namespace A049181.P236658315597792348
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose n 6
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A049181.P236658315597792348
 
 /-! ## A049181.P9035092073964086512
 
@@ -7950,21 +7852,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049184.P13484679207415689641
-
-/-! ## A049184.P5918063069404437593
-
-`A144169(n)+A049169(n)`
--/
-
-namespace A049184.P5918063069404437593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144169 n + A049169 n
-
-end
-
-end A049184.P5918063069404437593
 
 /-!
 # A049185: Revert transform of 2*x*(1 - x - x^5 + x^6)-x/(1+x).
@@ -8326,7 +8213,7 @@ end A049191.P16650288210782029347
 /-!
 # A049194: Number of digits in n-th term of A001387.
 
-The programs for A049194, the canonical program `A049194.P11881577467293400188` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049194 has offset 1).
+The programs for A049194, the canonical program `A049194.P11881577467293400188` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049194 has offset 1).
 
 The definition of A049194 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8335,7 +8222,7 @@ The definition of A049194 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-5)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=6, a(4)=8, a(5)=12`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A049194

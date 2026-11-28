@@ -5,49 +5,48 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C039
+import Seq.B000.C021
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C040
-import Seq.B000.C049
+import Seq.B000.C041
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -56,6 +55,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -641,27 +641,6 @@ end
 end A162004.P2735655716233353669
 
 /-!
-# A162005: The EG1 triangle.
-
-The programs for A162005, there is no canonical definition to state claims against.
--/
-
-/-! ## A162005.P16234908171753125685
-
-`A325220(n)`
--/
-
-namespace A162005.P16234908171753125685
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325220 n
-
-end
-
-end A162005.P16234908171753125685
-
-/-!
 # A162006: Second left hand column of the EG1 triangle A162005.
 
 The programs for A162006, there is no canonical definition to state claims against.
@@ -787,7 +766,7 @@ end A162007.P6759348230553973510
 /-!
 # A162008: Third right hand column of the EG1 triangle A162005.
 
-The programs for A162008, the canonical program `A162008.P3239579074998696950` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162008 has offset 1).
+The programs for A162008, the canonical program `A162008.P3239579074998696950` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162008 has offset 1).
 
 The definition of A162008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -796,7 +775,7 @@ The definition of A162008 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(64*(n+1)²+112*(n+1)+30-432*(n+1)*9^(n+1)-405*9^(n+1)+375*25^(n+1))/128`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A162008
@@ -1050,21 +1029,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A162017.P13190584157798580132
-
-/-! ## A162017.P659879490172490119
-
-`A162015(n+1)`
--/
-
-namespace A162017.P659879490172490119
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162015 (n + 1)
-
-end
-
-end A162017.P659879490172490119
 
 /-! ## A162017.P6547636766279168049
 
@@ -1435,7 +1399,7 @@ end A162021.P8088127756771555002
 /-!
 # A162022: Smallest prime factor of n-th odd composite integers A071904.
 
-The programs for A162022, the canonical program `A162022.P1499624352673350960` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162022 has offset 1).
+The programs for A162022, the canonical program `A162022.P1499624352673350960` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162022 has offset 1).
 
 The definition of A162022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7738 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1923,7 +1887,7 @@ end A162022
 
 `p?[A074828(2*n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A162022
@@ -1968,7 +1932,7 @@ end A162023.P16759011500970962002
 /-!
 # A162024: Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and all but the outermost row or column zero.
 
-The programs for A162024, the canonical program `A162024.P2522845698747893363` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162024 has offset 2).
+The programs for A162024, the canonical program `A162024.P2522845698747893363` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162024 has offset 2).
 
 The definition of A162024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1977,7 +1941,7 @@ The definition of A162024 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(n-1)+8]` with `a(0)=7, a(1)=13, a(2)=20`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A162024
@@ -3779,42 +3743,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162096.P10429534618786711687
-
-/-!
-# A162097: Number of n X n symmetric binary arrays with rows, considered as binary numbers, in strictly increasing order, and no more than 7 ones in any row.
-
-The programs for A162097, there is no canonical definition to state claims against.
--/
-
-/-! ## A162097.P8563487432003635048
-
-`A162098(n+1)`
--/
-
-namespace A162097.P8563487432003635048
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162098 (n + 1)
-
-end
-
-end A162097.P8563487432003635048
-
-/-! ## A162097.P9575625714353055482
-
-`A162099(n+1)`
--/
-
-namespace A162097.P9575625714353055482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162099 (n + 1)
-
-end
-
-end A162097.P9575625714353055482
 
 /-!
 # A162098: Number of n X n symmetric binary arrays with rows, considered as binary numbers, in strictly increasing order, and no more than 8 ones in any row.

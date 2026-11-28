@@ -6,28 +6,31 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C042
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +41,6 @@ import Seq.B002.C001
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -55,7 +57,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +81,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A300100: Expansion of sqrt(agm(1, 1 - 8*x)) in powers of x.
@@ -1103,27 +1103,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300122.P16262003207975102891
-
-/-!
-# A300123: Number of ways to tile the diagram of the integer partition with Heinz number n using connected skew partitions.
-
-The programs for A300123, there is no canonical definition to state claims against.
--/
-
-/-! ## A300123.P14334636917812560532
-
-`A062570(A300121(n+1))`
--/
-
-namespace A300123.P14334636917812560532
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062570 (A300121 (n + 1)).toNat
-
-end
-
-end A300123.P14334636917812560532
 
 /-!
 # A300124: Number of ways to tile the diagram of an integer partition of n using connected skew partitions.
@@ -4258,7 +4237,7 @@ end A300176.P17632522828235804805
 /-!
 # A300177: Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 5, 6 or 7 king-move adjacent elements, with upper left element zero.
 
-The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
+The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
 
 The definition of A300177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4290,7 +4269,7 @@ end A300177
 
 `7*a(n-1)+7*a(n-2)+6*a(n-3)` with `a(0)=4, a(1)=32, a(2)=255`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A300177

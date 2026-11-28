@@ -7,25 +7,24 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C022
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C036
+import Seq.B000.C040
 import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -34,7 +33,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -798,17 +797,25 @@ end A011195
 /-!
 # A011197: a(n) = n*(n+1)*(2*n+1)*(3*n+1)*(4*n+1)/6.
 
-The programs for A011197, the canonical program `A011197.P11129167002225906693` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011197 has offset 0).
+The programs for A011197, the canonical program `A011197.P18107115798433356274` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011197 has offset 0).
 
-The definition of A011197 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A011197 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A011197.anchor (n : ℕ) : (A011197 n : ℚ) = (n * (n + 1) * (2 * n + 1) * (3 * n + 1) * (4 * n + 1) : ℚ) / 6` in `Proof.A011.A011197`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A011197.P11129167002225906693
 
 `ogf((20x+195x^2+230x^3+35x^4)/(1-6x+15x^2-20x^3+15x^4-6x^5+x^6))`
-
-The canonical program, it is in `Seq.B000.C002`.
 -/
+
+namespace A011197.P11129167002225906693
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 20, 195, 230, 35] [1, -6, 15, -20, 15, -6, 1] n
+
+end
+
+end A011197.P11129167002225906693
 
 namespace A011197
 
@@ -816,28 +823,14 @@ namespace A011197
 def P11129167002225906693.Spec : Prop :=
   ∀ n, P11129167002225906693.a n = A011197 n
 
-theorem P11129167002225906693.correct : P11129167002225906693.Spec := by
-  intro n
-  simp only [A011197]
-
 end A011197
 
 /-! ## A011197.P18107115798433356274
 
 `n*(n+1)*(2*n+1)*(3*n+1)*(4*n+1)/6`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C002`.
 -/
-
-namespace A011197.P18107115798433356274
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n * (n + 1) * (2 * n + 1) * (3 * n + 1) * (4 * n + 1) : ℚ) / 6
-
-end
-
-end A011197.P18107115798433356274
 
 namespace A011197
 

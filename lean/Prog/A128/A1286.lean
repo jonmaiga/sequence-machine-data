@@ -7,12 +7,12 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -20,20 +20,21 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C024
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +43,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C013
@@ -54,22 +54,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,6 +88,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -578,21 +581,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128604.P6040934625070350898
-
-/-! ## A128604.P3880977155208202725
-
-`A201733(A128603(n+1)+0)`
--/
-
-namespace A128604.P3880977155208202725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201733 (A128603 (n + 1) + 0).toNat
-
-end
-
-end A128604.P3880977155208202725
 
 /-! ## A128604.P996186959558537550
 
@@ -7099,21 +7087,6 @@ end
 
 end A128638.P17667059761240080463
 
-/-! ## A128638.P12167294106923504586
-
-`A228447(2*(n+1))/(-3)`
--/
-
-namespace A128638.P12167294106923504586
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A228447 (2 * (n + 1)) : ℚ) / (-3)
-
-end
-
-end A128638.P12167294106923504586
-
 /-! ## A128638.P13833194530689284584
 
 `A128636(3*(n+1))/3`
@@ -7755,36 +7728,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128644.P13050719280076205483
-
-/-! ## A128644.P10906868945629951858
-
-`A000001(n+1)`
--/
-
-namespace A128644.P10906868945629951858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000001 (n + 1)
-
-end
-
-end A128644.P10906868945629951858
-
-/-! ## A128644.P11421747705973105630
-
-`A201733(n+1)`
--/
-
-namespace A128644.P11421747705973105630
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201733 (n + 1)
-
-end
-
-end A128644.P11421747705973105630
 
 /-! ## A128644.P4136985086640068177
 
@@ -9026,27 +8969,6 @@ end
 end A128678.P9294682755002209591
 
 /-!
-# A128679: Numbers k such that k^3 divides 5^(k^2) + 1.
-
-The programs for A128679, there is no canonical definition to state claims against.
--/
-
-/-! ## A128679.P12945755854545404715
-
-`A292331(n+1)`
--/
-
-namespace A128679.P12945755854545404715
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292331 (n + 1)
-
-end
-
-end A128679.P12945755854545404715
-
-/-!
 # A128680: Numbers k such that k^3 divides 6^(k^2) + 1.
 
 The programs for A128680, there is no canonical definition to state claims against.
@@ -9589,21 +9511,6 @@ end
 
 end A128692.P14487979674694341463
 
-/-! ## A128692.P8843943436337089790
-
-`A131126(2*n)*(-2)/A280560(n+1)`
--/
-
-namespace A128692.P8843943436337089790
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A131126 (2 * n) * (-2) : ℚ) / (A280560 (n + 1) : ℚ)
-
-end
-
-end A128692.P8843943436337089790
-
 /-! ## A128692.P5274965913771334190
 
 `A097243(n)/A139820(n)*A131126(n)`
@@ -9648,21 +9555,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128692.P17735017586285432130
-
-/-! ## A128692.P4792582695057887265
-
-`A210066(2*n)*(-2)/A280560(n+1)`
--/
-
-namespace A128692.P4792582695057887265
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A210066 (2 * n) * (-2) : ℚ) / (A280560 (n + 1) : ℚ)
-
-end
-
-end A128692.P4792582695057887265
 
 /-! ## A128692.P12004534500827620310
 

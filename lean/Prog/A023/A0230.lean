@@ -13,7 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -22,18 +22,23 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C043
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,12 +46,12 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
@@ -69,6 +74,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1870,21 +1876,6 @@ end
 
 end A023011.P15245388556093834295
 
-/-! ## A023011.P4027770739004890448
-
-`A282921(n)`
--/
-
-namespace A023011.P4027770739004890448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A282921 n
-
-end
-
-end A023011.P4027770739004890448
-
 /-!
 # A023012: Number of partitions of n into parts of 14 kinds.
 
@@ -3113,21 +3104,6 @@ end
 
 end A023028.P10652905016980231303
 
-/-! ## A023028.P12891819855157562720
-
-`A383683(n)`
--/
-
-namespace A023028.P12891819855157562720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383683 n
-
-end
-
-end A023028.P12891819855157562720
-
 /-! ## A023028.P13019791963182937751
 
 `A357875(A008630(n))`
@@ -3233,7 +3209,7 @@ end A023030.P10543521514643620158
 /-!
 # A023031: Number of compositions of n into 6 ordered relatively prime parts.
 
-The programs for A023031, the canonical program `A023031.P8515490498603588078` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023031 has offset 6).
+The programs for A023031, the canonical program `A023031.P8515490498603588078` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023031 has offset 6).
 
 The definition of A023031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3242,7 +3218,7 @@ The definition of A023031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+6, C(#-1, 5)*A008683((n+6)/#)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023031
@@ -3329,7 +3305,7 @@ end A023031
 /-!
 # A023032: Number of compositions of n into 7 ordered relatively prime parts.
 
-The programs for A023032, the canonical program `A023032.P11766389031338610264` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023032 has offset 7).
+The programs for A023032, the canonical program `A023032.P11766389031338610264` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023032 has offset 7).
 
 The definition of A023032 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3338,7 +3314,7 @@ The definition of A023032 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+7, C(#-1, 6)*A008683((n+7)/#)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023032
@@ -3458,7 +3434,7 @@ end A023032
 /-!
 # A023033: Number of compositions of n into 8 ordered relatively prime parts.
 
-The programs for A023033, the canonical program `A023033.P8731895386715046614` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023033 has offset 8).
+The programs for A023033, the canonical program `A023033.P8731895386715046614` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023033 has offset 8).
 
 The definition of A023033 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3467,7 +3443,7 @@ The definition of A023033 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+8, C(#-1, 7)*A008683((n+8)/#)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023033
@@ -3583,7 +3559,7 @@ end A023033
 /-!
 # A023034: Number of compositions of n into 9 ordered relatively prime parts.
 
-The programs for A023034, the canonical program `A023034.P16354485590653427709` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023034 has offset 9).
+The programs for A023034, the canonical program `A023034.P16354485590653427709` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023034 has offset 9).
 
 The definition of A023034 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3592,7 +3568,7 @@ The definition of A023034 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+9, C(#-1, 8)*A008683((n+9)/#)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023034
@@ -3708,7 +3684,7 @@ end A023034
 /-!
 # A023035: Number of compositions of n into 10 ordered relatively prime parts.
 
-The programs for A023035, the canonical program `A023035.P16679167125478681102` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023035 has offset 10).
+The programs for A023035, the canonical program `A023035.P16679167125478681102` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023035 has offset 10).
 
 The definition of A023035 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3717,7 +3693,7 @@ The definition of A023035 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+10, C(#-1, 9)*A008683((n+10)/#)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023035
@@ -3804,29 +3780,6 @@ namespace A023035
 /-- `A000582(n+9)-A353856(A146803(n+1))` -/
 def P4824667372457871071.Spec : Prop :=
   ∀ n, P4824667372457871071.a n = A023035 (n + 10)
-
-end A023035
-
-/-! ## A023035.P2038678711493473899
-
-`A008492(n)`
--/
-
-namespace A023035.P2038678711493473899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008492 n
-
-end
-
-end A023035.P2038678711493473899
-
-namespace A023035
-
-/-- `A008492(n)` -/
-def P2038678711493473899.Spec : Prop :=
-  ∀ n, P2038678711493473899.a n = A023035 (n + 10)
 
 end A023035
 
@@ -5731,27 +5684,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A023048.P16718249690945663923
-
-/-!
-# A023051: Numbers that are the sum of two positive cubes in at least four ways (all solutions).
-
-The programs for A023051, there is no canonical definition to state claims against.
--/
-
-/-! ## A023051.P12785593804359349341
-
-`A345865(n+1)`
--/
-
-namespace A023051.P12785593804359349341
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345865 (n + 1)
-
-end
-
-end A023051.P12785593804359349341
 
 /-!
 # A023052: Perfect Digital Invariants: numbers that are the sum of some fixed power of their digits.

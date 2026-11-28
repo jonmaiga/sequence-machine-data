@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -22,15 +21,14 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -38,13 +36,14 @@ import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -63,17 +62,19 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2468,7 +2469,7 @@ end A108414.P11398263207374922320
 /-!
 # A108415: a(n) = 1, 2 or 3 (resp.) if prime(n) is weak, balanced or strong (resp.).
 
-The programs for A108415, the canonical program `A108415.P2840327006876639433` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108415 has offset 2).
+The programs for A108415, the canonical program `A108415.P2840327006876639433` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108415 has offset 2).
 
 The definition of A108415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2477,7 +2478,7 @@ The definition of A108415 is `conjectured`: the Lean definition is a formula tha
 
 `A079054(2+n)+2`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108415
@@ -2819,21 +2820,6 @@ end A108417.P16506900756350283355
 
 The programs for A108418, there is no canonical definition to state claims against.
 -/
-
-/-! ## A108418.P14735128652856110261
-
-`A232447(n+1)`
--/
-
-namespace A108418.P14735128652856110261
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232447 (n + 1)
-
-end
-
-end A108418.P14735128652856110261
 
 /-! ## A108418.P2751247906354232316
 
@@ -8859,27 +8845,17 @@ end A108494.P12477063927868066617
 /-!
 # A108495: a(n) = (n^7 - n)/6.
 
-The programs for A108495, the canonical program `A108495.P10044637329903708727` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108495 has offset 0).
+The programs for A108495, the canonical program `A108495.P13919376169891115763` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108495 has offset 0).
 
-The definition of A108495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A108495 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A108495.anchor (n : ℕ) : (A108495 n : ℚ) = ((n ^ 7 : ℤ) - (n : ℤ) : ℚ) / 6` in `Proof.A108.A108495`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A108495.P13919376169891115763
 
 `(n^7-n)/6`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C019`.
 -/
-
-namespace A108495.P13919376169891115763
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n ^ 7 : ℤ) - (n : ℤ) : ℚ) / 6
-
-end
-
-end A108495.P13919376169891115763
 
 namespace A108495
 
@@ -8915,19 +8891,23 @@ end A108495
 /-! ## A108495.P10044637329903708727
 
 `(n-1)*A059721(n)`
-
-The canonical program, it is in `Seq.B001.C005`.
 -/
+
+namespace A108495.P10044637329903708727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) - 1) * A059721 n
+
+end
+
+end A108495.P10044637329903708727
 
 namespace A108495
 
 /-- `(n-1)*A059721(n)` -/
 def P10044637329903708727.Spec : Prop :=
   ∀ n, P10044637329903708727.a n = A108495 n
-
-theorem P10044637329903708727.correct : P10044637329903708727.Spec := by
-  intro n
-  simp only [A108495]
 
 end A108495
 

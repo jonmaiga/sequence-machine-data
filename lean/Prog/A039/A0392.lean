@@ -7,37 +7,39 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +47,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -56,18 +58,21 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -75,8 +80,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -107,21 +110,6 @@ import Seq.Opaque.C023
 
 The programs for A039200, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039200.P1977365336028463894
-
-`2*A052414(n+1)-n`
--/
-
-namespace A039200.P1977365336028463894
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A052414 (n + 1) - (n : ℤ)
-
-end
-
-end A039200.P1977365336028463894
 
 /-! ## A039200.P5334668212828943285
 
@@ -267,42 +255,6 @@ end A039200.P10486201614738573817
 The programs for A039201, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039201.P13199977942314630174
-
-`A039205(2+n)-1`
--/
-
-namespace A039201.P13199977942314630174
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039205 (2 + n) - 1
-
-end
-
-end A039201.P13199977942314630174
-
-/-! ## A039201.P13044909537689568688
-
-`eq[0, A037913(n+4)]`
--/
-
-namespace A039201.P13044909537689568688
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037913 (n + 4)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A039201.P13044909537689568688
-
 /-! ## A039201.P5499633828979456642
 
 `eq[A072089(n+6)*A107846(n+3), A107846(n+5)]`
@@ -329,36 +281,6 @@ end A039201.P5499633828979456642
 
 The programs for A039202, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039202.P72285209053202662
-
-`A039206(2+n)-1`
--/
-
-namespace A039202.P72285209053202662
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039206 (2 + n) - 1
-
-end
-
-end A039202.P72285209053202662
-
-/-! ## A039202.P16688756660585673420
-
-`A039163(n+2)-2`
--/
-
-namespace A039202.P16688756660585673420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039163 (n + 2) - 2
-
-end
-
-end A039202.P16688756660585673420
 
 /-! ## A039202.P7496080390317498176
 
@@ -400,61 +322,25 @@ end
 end A039202.P10227874655763531961
 
 /-!
-# A039203: Numbers whose base-11 representation has the same number of 6's and 10's.
-
-The programs for A039203, there is no canonical definition to state claims against.
--/
-
-/-! ## A039203.P8243311005919225813
-
-`A039162(1+n)-1`
--/
-
-namespace A039203.P8243311005919225813
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039162 (1 + n) - 1
-
-end
-
-end A039203.P8243311005919225813
-
-/-!
 # A039204: Numbers whose base-11 representation has the same number of 7's and 8's.
 
 The programs for A039204, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039204.P14177598946560101557
+/-! ## A039204.P17051348082778143307
 
-`A039207(n+2)-1`
+`-1+A039207(n+2)`
 -/
 
-namespace A039204.P14177598946560101557
+namespace A039204.P17051348082778143307
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039207 (n + 2) - 1
+  -1 + A039207 (n + 2)
 
 end
 
-end A039204.P14177598946560101557
-
-/-! ## A039204.P6328454976296694044
-
-`A057428(A005555(n))+A039207(n+2)`
--/
-
-namespace A039204.P6328454976296694044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 (A005555 n).toNat + A039207 (n + 2)
-
-end
-
-end A039204.P6328454976296694044
+end A039204.P17051348082778143307
 
 /-! ## A039204.P15144348787004552300
 
@@ -475,76 +361,10 @@ end
 end A039204.P15144348787004552300
 
 /-!
-# A039205: Numbers whose base-11 representation has the same number of 7's and 9's.
-
-The programs for A039205, there is no canonical definition to state claims against.
--/
-
-/-! ## A039205.P10379817273449776136
-
-`A039208(2+n)-1`
--/
-
-namespace A039205.P10379817273449776136
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039208 (2 + n) - 1
-
-end
-
-end A039205.P10379817273449776136
-
-/-! ## A039205.P6064662333566942482
-
-`-1+A039208(n+2)`
--/
-
-namespace A039205.P6064662333566942482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A039208 (n + 2)
-
-end
-
-end A039205.P6064662333566942482
-
-/-!
 # A039206: Numbers whose base-11 representation has the same number of 7's and 10's.
 
 The programs for A039206, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039206.P14411522776652335083
-
-`A039163(1+n)-1`
--/
-
-namespace A039206.P14411522776652335083
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039163 (1 + n) - 1
-
-end
-
-end A039206.P14411522776652335083
-
-/-! ## A039206.P10113949109425959221
-
-`-1+A039163(n+1)`
--/
-
-namespace A039206.P10113949109425959221
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A039163 (n + 1)
-
-end
-
-end A039206.P10113949109425959221
 
 /-! ## A039206.P17174466125300151612
 
@@ -780,36 +600,6 @@ end A039207.P3928463344725452174
 The programs for A039208, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039208.P2591781694786695206
-
-`A039164(1+n)-1`
--/
-
-namespace A039208.P2591781694786695206
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039164 (1 + n) - 1
-
-end
-
-end A039208.P2591781694786695206
-
-/-! ## A039208.P994907369880067497
-
-`-1+A039164(n+1)`
--/
-
-namespace A039208.P994907369880067497
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A039164 (n + 1)
-
-end
-
-end A039208.P994907369880067497
-
 /-! ## A039208.P3303366779592916757
 
 `lt[1, A002079(A297330(2+n))]`
@@ -1029,24 +819,6 @@ end
 
 end A039210.P1771028511382475515
 
-/-! ## A039210.P462358159248308956
-
-`record[A365384(A365684(n+1))]`
--/
-
-namespace A039210.P462358159248308956
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365384 (A365684 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A039210.P462358159248308956
-
 /-! ## A039210.P11713668532575170195
 
 `record[lcm(n+2, A000188(A293985(n)))]`
@@ -1103,27 +875,6 @@ end A039210.P17620599428276559201
 
 The programs for A039212, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039212.P10671512823270580542
-
-`lt[1, A213890(2*n+1)]`
--/
-
-namespace A039212.P10671512823270580542
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213890 (2 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A039212.P10671512823270580542
 
 /-! ## A039212.P5250107974188359624
 
@@ -1217,27 +968,6 @@ end A039212.P15971735118058349406
 
 The programs for A039213, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039213.P8834897403633370033
-
-`lt[1, A072438(n+1)]`
--/
-
-namespace A039213.P8834897403633370033
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072438 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A039213.P8834897403633370033
 
 /-! ## A039213.P14647474596196423557
 
@@ -1697,25 +1427,6 @@ end
 
 end A039216.P10242483839512269057
 
-/-! ## A039216.P3894496699155136244
-
-`comp[A272975(n+1)]`
--/
-
-namespace A039216.P3894496699155136244
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272975 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039216.P3894496699155136244
-
 /-!
 # A039217: Numbers whose base-12 representation has the same number of 0's and 8's.
 
@@ -2097,21 +1808,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039218.P10702657988337704337
-
-/-! ## A039218.P11090693268309983650
-
-`A039271(n+1)+1`
--/
-
-namespace A039218.P11090693268309983650
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039271 (n + 1) + 1
-
-end
-
-end A039218.P11090693268309983650
 
 /-!
 # A039219: Numbers whose base-12 representation has the same number of 0's and 10's.
@@ -2721,25 +2417,6 @@ end A039239.P14543754544274295463
 The programs for A039240, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039240.P13601631310146987795
-
-`comp[A166519(3*n)]`
--/
-
-namespace A039240.P13601631310146987795
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166519 (3 * n)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039240.P13601631310146987795
-
 /-! ## A039240.P8915931139189803949
 
 `lt[n, A173459(A047431(n+1))²]`
@@ -3090,21 +2767,6 @@ end A039243.P7225479197517888166
 
 The programs for A039244, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039244.P780673109420735570
-
-`A004526(A039260(2*(n+1)))`
--/
-
-namespace A039244.P780673109420735570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A039260 (2 * (n + 1))).toNat
-
-end
-
-end A039244.P780673109420735570
 
 /-! ## A039244.P7624757635441342716
 
@@ -3641,25 +3303,6 @@ end A039249.P8169856316935295917
 The programs for A039250, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039250.P5671204699089402767
-
-`comp[A092259(n+1)]`
--/
-
-namespace A039250.P5671204699089402767
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092259 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039250.P5671204699089402767
-
 /-! ## A039250.P9868453343722656346
 
 `record[gcd(n, Δ[A065948(n)])]`
@@ -3755,25 +3398,6 @@ end A039250.P1730457694034203240
 The programs for A039251, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039251.P2914810711586754568
-
-`comp[A161576(3*n+2)]`
--/
-
-namespace A039251.P2914810711586754568
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161576 (3 * n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039251.P2914810711586754568
-
 /-! ## A039251.P12784632858877952079
 
 `lt[A259657(n+3), A001222(A284640(n+1))]`
@@ -3837,47 +3461,11 @@ end
 
 end A039251.P9900590122332080157
 
-/-! ## A039251.P15220037883133755554
-
-`eq[1, A187967(n+1)]`
--/
-
-namespace A039251.P15220037883133755554
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187967 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A039251.P15220037883133755554
-
 /-!
 # A039253: Numbers whose base-12 representation has the same number of 4's and 11's.
 
 The programs for A039253, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039253.P3888746298307942391
-
-`A039214(n+1)-1`
--/
-
-namespace A039253.P3888746298307942391
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039214 (n + 1) - 1
-
-end
-
-end A039253.P3888746298307942391
 
 /-! ## A039253.P4126434365355626448
 
@@ -4019,40 +3607,6 @@ end A039254.P16713121060613490974
 The programs for A039255, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039255.P2532918361419379664
-
-`0+comp[xor(2, 6*n)+3]`
--/
-
-namespace A039255.P2532918361419379664
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 2 (6 * n) + 3
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0 + SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
-
-end
-
-end A039255.P2532918361419379664
-
-/-! ## A039255.P14127873071123570549
-
-`A151988(n)`
--/
-
-namespace A039255.P14127873071123570549
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151988 n
-
-end
-
-end A039255.P14127873071123570549
-
 /-! ## A039255.P1495362508796612915
 
 `(A313752(n)%A141394(2*n+1))%A008574(n)`
@@ -4094,21 +3648,6 @@ end A039255.P9239984485512679754
 
 The programs for A039256, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039256.P11107912405575003714
-
-`A002265(A311634(n))`
--/
-
-namespace A039256.P11107912405575003714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002265 (A311634 n).toNat
-
-end
-
-end A039256.P11107912405575003714
 
 /-! ## A039256.P5965588612416475932
 
@@ -4179,25 +3718,6 @@ end A039256.P8591751452073995583
 The programs for A039257, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039257.P14532714589824212009
-
-`comp[A163980(3*n+2)]`
--/
-
-namespace A039257.P14532714589824212009
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163980 (3 * n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039257.P14532714589824212009
-
 /-! ## A039257.P4838520474716309914
 
 `lt[val(n+1, 2)%2, gcd(6, A328982(n+1))]`
@@ -4240,21 +3760,6 @@ end
 
 end A039257.P3272273420549593318
 
-/-! ## A039257.P10641303633028421480
-
-`A002265(A312162(n))`
--/
-
-namespace A039257.P10641303633028421480
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002265 (A312162 n).toNat
-
-end
-
-end A039257.P10641303633028421480
-
 /-! ## A039257.P761507753809880469
 
 `lt[A020639(A340008(n+5)), 4]`
@@ -4282,25 +3787,6 @@ end A039257.P761507753809880469
 The programs for A039258, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039258.P12449764401318050361
-
-`comp[A042963(3*(n+1))]`
--/
-
-namespace A039258.P12449764401318050361
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042963 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039258.P12449764401318050361
-
 /-! ## A039258.P261071057620046341
 
 `floor(Δ[A335048(n+1)]/10)+n`
@@ -4318,21 +3804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039258.P261071057620046341
-
-/-! ## A039258.P2107906261201201474
-
-`A002265(A310398(n))`
--/
-
-namespace A039258.P2107906261201201474
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002265 (A310398 n).toNat
-
-end
-
-end A039258.P2107906261201201474
 
 /-! ## A039258.P11457489474681969398
 
@@ -4374,61 +3845,10 @@ end
 end A039258.P18057403512136454996
 
 /-!
-# A039259: Numbers whose base-12 representation has the same number of 5's and 11's.
-
-The programs for A039259, there is no canonical definition to state claims against.
--/
-
-/-! ## A039259.P9541233799774980771
-
-`A171397(2*n)-A023443(n)-1`
--/
-
-namespace A039259.P9541233799774980771
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171397 (2 * n) - A023443 n - 1
-
-end
-
-end A039259.P9541233799774980771
-
-/-!
 # A039260: Numbers whose base-12 representation has the same number of 6's and 7's.
 
 The programs for A039260, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039260.P11729791555448643320
-
-`-1+A039265(n+2)`
--/
-
-namespace A039260.P11729791555448643320
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A039265 (n + 2)
-
-end
-
-end A039260.P11729791555448643320
-
-/-! ## A039260.P13607251269205623261
-
-`A136602(A039265(2+n))`
--/
-
-namespace A039260.P13607251269205623261
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136602 (A039265 (2 + n)).toNat
-
-end
-
-end A039260.P13607251269205623261
 
 /-! ## A039260.P11921112093136064588
 
@@ -4449,41 +3869,11 @@ end
 
 end A039260.P11921112093136064588
 
-/-! ## A039260.P8752408725935511058
-
-`A039265(n+2)-1`
--/
-
-namespace A039260.P8752408725935511058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039265 (n + 2) - 1
-
-end
-
-end A039260.P8752408725935511058
-
 /-!
 # A039261: Numbers whose base-12 representation has the same number of 6's and 8's.
 
 The programs for A039261, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039261.P5298791725308103079
-
-`A039266(n+2)-1`
--/
-
-namespace A039261.P5298791725308103079
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039266 (n + 2) - 1
-
-end
-
-end A039261.P5298791725308103079
 
 /-! ## A039261.P14658147268986245824
 
@@ -4635,21 +4025,6 @@ end A039261.P8796956900738243885
 The programs for A039262, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039262.P2939338497704757222
-
-`A039267(n+2)-1`
--/
-
-namespace A039262.P2939338497704757222
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039267 (n + 2) - 1
-
-end
-
-end A039262.P2939338497704757222
-
 /-! ## A039262.P11726406637489267246
 
 `record[A103823(A325688(n))]`
@@ -4724,21 +4099,6 @@ end A039262.P10497075893733679379
 
 The programs for A039263, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039263.P12246933774928220521
-
-`A039268(n+2)-1`
--/
-
-namespace A039263.P12246933774928220521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039268 (n + 2) - 1
-
-end
-
-end A039263.P12246933774928220521
 
 /-! ## A039263.P931934730444512028
 
@@ -4928,105 +4288,10 @@ end
 end A039263.P15315194256874613510
 
 /-!
-# A039264: Numbers whose base-12 representation has the same number of 6's and 11's.
-
-The programs for A039264, there is no canonical definition to state claims against.
--/
-
-/-! ## A039264.P4116750784275914358
-
-`A039216(n+1)-1`
--/
-
-namespace A039264.P4116750784275914358
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039216 (n + 1) - 1
-
-end
-
-end A039264.P4116750784275914358
-
-/-! ## A039264.P3923582548361174167
-
-`comp[A042964(3*(n+1))]`
--/
-
-namespace A039264.P3923582548361174167
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042964 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039264.P3923582548361174167
-
-/-! ## A039264.P1969387190834185095
-
-`comp[A338064(3*(n+1))]`
--/
-
-namespace A039264.P1969387190834185095
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A338064 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039264.P1969387190834185095
-
-/-!
 # A039265: Numbers whose base-12 representation has the same number of 7's and 8's.
 
 The programs for A039265, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039265.P10095050206862367994
-
-`A039269(n+2)-1`
--/
-
-namespace A039265.P10095050206862367994
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039269 (n + 2) - 1
-
-end
-
-end A039265.P10095050206862367994
-
-/-! ## A039265.P6054347001468067990
-
-`lt[A112046(n+4), 4]`
--/
-
-namespace A039265.P6054347001468067990
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112046 (n + 4)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A039265.P6054347001468067990
 
 /-! ## A039265.P11659823127131413875
 
@@ -5054,25 +4319,6 @@ end A039265.P11659823127131413875
 
 The programs for A039266, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039266.P17461572159335812110
-
-`comp[A166519(3*n+2)]`
--/
-
-namespace A039266.P17461572159335812110
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166519 (3 * n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039266.P17461572159335812110
 
 /-! ## A039266.P4270079748799182079
 
@@ -5272,21 +4518,6 @@ end A039267.P2917375070155735121
 The programs for A039268, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039268.P6531296001600778533
-
-`A039217(n+1)-1`
--/
-
-namespace A039268.P6531296001600778533
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039217 (n + 1) - 1
-
-end
-
-end A039268.P6531296001600778533
-
 /-! ## A039268.P3875907891665090850
 
 `lt[A379704(4+n), 4]`
@@ -5370,21 +4601,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039269.P17238697718838140643
-
-/-! ## A039269.P7545749139382916537
-
-`A102681(n)+A039218(n+1)-1`
--/
-
-namespace A039269.P7545749139382916537
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102681 n + (A039218 (n + 1) - 1)
-
-end
-
-end A039269.P7545749139382916537
 
 /-! ## A039269.P9845694866417586282
 
@@ -5596,36 +4812,6 @@ end
 
 end A039270.P12567144398142655328
 
-/-! ## A039270.P15057152803978394755
-
-`or(A000035(n), A039271(n+1))`
--/
-
-namespace A039270.P15057152803978394755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000035 n) (A039271 (n + 1))
-
-end
-
-end A039270.P15057152803978394755
-
-/-! ## A039270.P361258103060745953
-
-`or(A039271(n+1), A102681(n))`
--/
-
-namespace A039270.P361258103060745953
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A039271 (n + 1)) (A102681 n)
-
-end
-
-end A039270.P361258103060745953
-
 /-!
 # A039271: Numbers whose base-12 representation has the same number of 8's and 11's.
 
@@ -5653,36 +4839,6 @@ end
 
 end A039271.P2614331780799463692
 
-/-! ## A039271.P2095050411081791275
-
-`A039218(n+1)-1`
--/
-
-namespace A039271.P2095050411081791275
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039218 (n + 1) - 1
-
-end
-
-end A039271.P2095050411081791275
-
-/-! ## A039271.P13164290611964547836
-
-`A039269(n+1)-A102681(n)`
--/
-
-namespace A039271.P13164290611964547836
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039269 (n + 1) - A102681 n
-
-end
-
-end A039271.P13164290611964547836
-
 /-! ## A039271.P6810585187316160952
 
 `lt[A020639(A000124(n+8)+2)-1, A161358(n+1)+2]`
@@ -5709,36 +4865,6 @@ end A039271.P6810585187316160952
 
 The programs for A039272, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039272.P16853333563813136620
-
-`A102487(2+n)-1`
--/
-
-namespace A039272.P16853333563813136620
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102487 (2 + n) - 1
-
-end
-
-end A039272.P16853333563813136620
-
-/-! ## A039272.P209535803400947769
-
-`A102683(n)+A039219(n+1)-1`
--/
-
-namespace A039272.P209535803400947769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102683 n + (A039219 (n + 1) - 1)
-
-end
-
-end A039272.P209535803400947769
 
 /-! ## A039272.P14246980628763396834
 
@@ -5877,21 +5003,6 @@ end A039272.P4763694450535183042
 
 The programs for A039273, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039273.P14694110964962798822
-
-`A039219(n+1)-1`
--/
-
-namespace A039273.P14694110964962798822
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039219 (n + 1) - 1
-
-end
-
-end A039273.P14694110964962798822
 
 /-! ## A039273.P12629966203622678226
 
@@ -6455,21 +5566,6 @@ end
 
 end A039277.P16217193344823933872
 
-/-! ## A039277.P600411437248531112
-
-`A045019(n+1)`
--/
-
-namespace A039277.P600411437248531112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045019 (n + 1)
-
-end
-
-end A039277.P600411437248531112
-
 /-!
 # A039278: Numbers whose base-4 representation has the same nonzero number of 0's and 2's.
 
@@ -6542,25 +5638,10 @@ end
 
 end A039278.P17121838489289854851
 
-/-! ## A039278.P13664339390678741179
-
-`A045043(n+1)`
--/
-
-namespace A039278.P13664339390678741179
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045043 (n + 1)
-
-end
-
-end A039278.P13664339390678741179
-
 /-!
 # A039279: Numbers whose base-4 representation has the same nonzero number of 0's and 3's.
 
-The programs for A039279, the canonical program `A039279.P4771137680369596052` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039279 has offset 1).
+The programs for A039279, the canonical program `A039279.P4771137680369596052` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039279 has offset 1).
 
 The definition of A039279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2638 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6569,7 +5650,7 @@ The definition of A039279 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A031461(n+1), A196032(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A039279
@@ -6611,29 +5692,6 @@ namespace A039279
 /-- `∩[A031461(n+1), A337250(n+1)]` -/
 def P6667304247886874332.Spec : Prop :=
   ∀ n, (P6667304247886874332.a n : ℤ) = A039279 (n + 1)
-
-end A039279
-
-/-! ## A039279.P9705484211967127381
-
-`A045067(n+1)`
--/
-
-namespace A039279.P9705484211967127381
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045067 (n + 1)
-
-end
-
-end A039279.P9705484211967127381
-
-namespace A039279
-
-/-- `A045067(n+1)` -/
-def P9705484211967127381.Spec : Prop :=
-  ∀ n, P9705484211967127381.a n = A039279 (n + 1)
 
 end A039279
 
@@ -7320,7 +6378,7 @@ end A039281.P7253923027375007772
 /-!
 # A039282: Numbers whose base-4 representation has the same nonzero number of 2's and 3's.
 
-The programs for A039282, the canonical program `A039282.P1666876057419217504` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039282 has offset 1).
+The programs for A039282, the canonical program `A039282.P1666876057419217504` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039282 has offset 1).
 
 The definition of A039282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2076 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7389,7 +6447,7 @@ end A039282
 
 `lt[1, A351946(A338854(n))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039282
@@ -7622,21 +6680,6 @@ end
 
 end A039283.P5846349886809371740
 
-/-! ## A039283.P11440717813937874830
-
-`A045162(n+1)`
--/
-
-namespace A039283.P11440717813937874830
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045162 (n + 1)
-
-end
-
-end A039283.P11440717813937874830
-
 /-!
 # A039284: Numbers whose base-5 representation has the same nonzero number of 0's and 2's.
 
@@ -7680,21 +6723,6 @@ end
 
 end A039284.P6238096337986450416
 
-/-! ## A039284.P4919613766846227936
-
-`A045177(n+1)`
--/
-
-namespace A039284.P4919613766846227936
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045177 (n + 1)
-
-end
-
-end A039284.P4919613766846227936
-
 /-!
 # A039285: Numbers whose base-5 representation has the same nonzero number of 0's and 3's.
 
@@ -7719,29 +6747,6 @@ def P4982603186781731390.Spec : Prop :=
 theorem P4982603186781731390.correct : P4982603186781731390.Spec := by
   intro n
   simp only [A039285, Nat.add_sub_cancel]
-
-end A039285
-
-/-! ## A039285.P3233166084400411730
-
-`A045192(n+1)`
--/
-
-namespace A039285.P3233166084400411730
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045192 (n + 1)
-
-end
-
-end A039285.P3233166084400411730
-
-namespace A039285
-
-/-- `A045192(n+1)` -/
-def P3233166084400411730.Spec : Prop :=
-  ∀ n, P3233166084400411730.a n = A039285 (n + 1)
 
 end A039285
 
@@ -7795,62 +6800,11 @@ end
 
 end A039286.P16518794803306569745
 
-/-! ## A039286.P3660433489723129293
-
-`A045207(1+n)`
--/
-
-namespace A039286.P3660433489723129293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045207 (1 + n)
-
-end
-
-end A039286.P3660433489723129293
-
-/-!
-# A039287: Numbers whose base-5 representation has the same nonzero number of 1's and 2's.
-
-The programs for A039287, there is no canonical definition to state claims against.
--/
-
-/-! ## A039287.P11985741988166962166
-
-`A045222(n+1)`
--/
-
-namespace A039287.P11985741988166962166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045222 (n + 1)
-
-end
-
-end A039287.P11985741988166962166
-
 /-!
 # A039288: Numbers whose base-5 representation has the same nonzero number of 1's and 3's.
 
 The programs for A039288, there is no canonical definition to state claims against.
 -/
-
-/-! ## A039288.P703909135543703466
-
-`A045237(n+1)`
--/
-
-namespace A039288.P703909135543703466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045237 (n + 1)
-
-end
-
-end A039288.P703909135543703466
 
 /-! ## A039288.P16544278528940807673
 
@@ -7923,50 +6877,6 @@ theorem P12149534996222342192.correct : P12149534996222342192.Spec := by
 
 end A039289
 
-/-! ## A039289.P494863285632041868
-
-`A045252(n+1)`
--/
-
-namespace A039289.P494863285632041868
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045252 (n + 1)
-
-end
-
-end A039289.P494863285632041868
-
-namespace A039289
-
-/-- `A045252(n+1)` -/
-def P494863285632041868.Spec : Prop :=
-  ∀ n, P494863285632041868.a n = A039289 (n + 1)
-
-end A039289
-
-/-!
-# A039290: Numbers whose base-5 representation has the same nonzero number of 2's and 3's.
-
-The programs for A039290, there is no canonical definition to state claims against.
--/
-
-/-! ## A039290.P1485609701622625339
-
-`A045267(n+1)`
--/
-
-namespace A039290.P1485609701622625339
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045267 (n + 1)
-
-end
-
-end A039290.P1485609701622625339
-
 /-!
 # A039291: Numbers whose base-5 representation has the same nonzero number of 2's and 4's.
 
@@ -7995,21 +6905,6 @@ end
 
 end A039291.P2999566379325227132
 
-/-! ## A039291.P6755385794446625725
-
-`A045282(n+1)`
--/
-
-namespace A039291.P6755385794446625725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045282 (n + 1)
-
-end
-
-end A039291.P6755385794446625725
-
 /-!
 # A039292: Numbers whose base-5 representation has the same nonzero number of 3's and 4's.
 
@@ -8037,21 +6932,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039292.P4900735394376557620
-
-/-! ## A039292.P3323480110814856605
-
-`A045297(1+n)`
--/
-
-namespace A039292.P3323480110814856605
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045297 (1 + n)
-
-end
-
-end A039292.P3323480110814856605
 
 /-!
 # A039293: Numbers whose base-6 representation has the same nonzero number of 0's and 1's.

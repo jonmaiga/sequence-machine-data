@@ -4,7 +4,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,32 +12,31 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C043
+import Seq.B000.C042
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -48,13 +46,11 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -70,11 +66,10 @@ import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,12 +87,12 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -730,7 +725,7 @@ end A209403
 
 The programs for A209404, the canonical program `A209404.P13560625351588870464` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209404 has offset 0).
 
-The definition of A209404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A209404 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-A053120(C(n+14+1, 2)+n)` (program `A209404.P13560625351588870464`, by `A209404.P13560625351588870464.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A209404.P13542389710227724718
@@ -1296,7 +1291,7 @@ end A209408
 /-!
 # A209409: Number of subsets of {1,...,n} containing {a,a+2,a+4} for some a.
 
-The programs for A209409, the canonical program `A209409.P12097509137211289102` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209409 has offset 0).
+The programs for A209409, the canonical program `A209409.P12097509137211289102` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209409 has offset 0).
 
 The definition of A209409 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1305,7 +1300,7 @@ The definition of A209409 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4x^5+3x^6-2x^8-x^9)/(1-3x+2x^2-2x^3+4x^4-2x^5+2x^6+4x^7+x^8-x^9-2x^10))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209409
@@ -1441,7 +1436,7 @@ end A209409
 /-!
 # A209410: Number of subsets of {1,...,n} not containing {a,a+2,a+4} for any a.
 
-The programs for A209410, the canonical program `A209410.P15971852115807426253` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209410 has offset 0).
+The programs for A209410, the canonical program `A209410.P15971852115807426253` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209410 has offset 0).
 
 The definition of A209410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1450,7 +1445,7 @@ The definition of A209410 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+2x^2+2x^3+4x^4+2x^5-x^6-2x^7-x^8)/(1-x-2x^3-2x^5-2x^6+x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209410
@@ -1599,7 +1594,7 @@ end A209411.P12762085242767304352
 /-!
 # A209413: Triangle of coefficients of polynomials v(n,x) jointly generated with A209172; see the Formula section.
 
-The programs for A209413, the canonical program `A209413.P13187600957350741822` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209413 has offset 1).
+The programs for A209413, the canonical program `A209413.P13187600957350741822` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209413 has offset 1).
 
 The definition of A209413 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1608,7 +1603,7 @@ The definition of A209413 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*T(n-1,k-1)+T(n-2,k)-2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209413
@@ -1728,7 +1723,7 @@ end A209413
 /-!
 # A209414: Triangle of coefficients of polynomials u(n,x) jointly generated with A112351; see the Formula section.
 
-The programs for A209414, the canonical program `A209414.P14392734231765504978` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209414 has offset 1).
+The programs for A209414, the canonical program `A209414.P14392734231765504978` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209414 has offset 1).
 
 The definition of A209414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1737,7 +1732,7 @@ The definition of A209414 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)+T(n-2,k-1)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209414
@@ -1923,7 +1918,7 @@ end A209414
 /-!
 # A209415: Triangle of coefficients of polynomials u(n,x) jointly generated with A209416; see the Formula section.
 
-The programs for A209415, the canonical program `A209415.P11754492815488238162` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209415 has offset 1).
+The programs for A209415, the canonical program `A209415.P11754492815488238162` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209415 has offset 1).
 
 The definition of A209415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1932,7 +1927,7 @@ The definition of A209415 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k-1)+T(n-2,k)+T(n-2,k-1)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209415
@@ -2019,7 +2014,7 @@ end A209415
 /-!
 # A209416: Triangle of coefficients of polynomials v(n,x) jointly generated with A209415; see the Formula section.
 
-The programs for A209416, the canonical program `A209416.P15286775353136470850` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209416 has offset 1).
+The programs for A209416, the canonical program `A209416.P15286775353136470850` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209416 has offset 1).
 
 The definition of A209416 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2028,7 +2023,7 @@ The definition of A209416 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*T(n-1,k-1)+T(n-2,k)+T(n-2,k-1)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209416
@@ -2138,7 +2133,7 @@ end A209416
 /-!
 # A209417: Triangle of coefficients of polynomials u(n,x) jointly generated with A209418; see the Formula section.
 
-The programs for A209417, the canonical program `A209417.P3991679039456362426` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209417 has offset 1).
+The programs for A209417, the canonical program `A209417.P3991679039456362426` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209417 has offset 1).
 
 The definition of A209417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2147,7 +2142,7 @@ The definition of A209417 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*T(n-1,k-1)+T(n-2,k)+T(n-2,k-1)-2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209417
@@ -2372,7 +2367,7 @@ end A209417
 /-!
 # A209418: Triangle of coefficients of polynomials v(n,x) jointly generated with A209417; see the Formula section.
 
-The programs for A209418, the canonical program `A209418.P5140592605506623144` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209418 has offset 1).
+The programs for A209418, the canonical program `A209418.P5140592605506623144` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209418 has offset 1).
 
 The definition of A209418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2381,7 +2376,7 @@ The definition of A209418 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*T(n-1,k-1)+T(n-2,k)+T(n-2,k-1)-2*T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209418
@@ -2606,7 +2601,7 @@ end A209418
 /-!
 # A209419: Triangle of coefficients of polynomials u(n,x) jointly generated with A209420; see the Formula section.
 
-The programs for A209419, the canonical program `A209419.P1077893504310760054` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209419 has offset 1).
+The programs for A209419, the canonical program `A209419.P1077893504310760054` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209419 has offset 1).
 
 The definition of A209419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2615,7 +2610,7 @@ The definition of A209419 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)+T(n-2,k)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209419
@@ -2725,7 +2720,7 @@ end A209419
 /-!
 # A209420: Triangle of coefficients of polynomials v(n,x) jointly generated with A209419; see the Formula section.
 
-The programs for A209420, the canonical program `A209420.P10091670759717110722` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209420 has offset 1).
+The programs for A209420, the canonical program `A209420.P10091670759717110722` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209420 has offset 1).
 
 The definition of A209420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2734,7 +2729,7 @@ The definition of A209420 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `T(n-1,k)+2*T(n-1,k-1)+T(n-2,k)-T(row(n)-2, col(n)-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209420
@@ -2805,7 +2800,7 @@ end A209420
 /-!
 # A209421: Triangle of coefficients of polynomials u(n,x) jointly generated with A209422; see the Formula section.
 
-The programs for A209421, the canonical program `A209421.P15406474188898495721` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209421 has offset 1).
+The programs for A209421, the canonical program `A209421.P15406474188898495721` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209421 has offset 1).
 
 The definition of A209421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2814,7 +2809,7 @@ The definition of A209421 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(2*n+1))-round(sqrt(2*n))+T(n-1,k)+T(n-1,k-1)+T(n-2,k)-T(n-2,k-1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209421
@@ -3248,7 +3243,7 @@ end A209426.P2544862256651766079
 /-!
 # A209427: T(n,k) = binomial(n,k)^n.
 
-The programs for A209427, the canonical program `A209427.P9527370297453612072` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209427 has offset 0).
+The programs for A209427, the canonical program `A209427.P9527370297453612072` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209427 has offset 0).
 
 The definition of A209427 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(row(n), col(n))^row(n)` (program `A209427.P9527370297453612072`, by `A209427.P9527370297453612072.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3257,7 +3252,7 @@ The definition of A209427 is `verified`: the Lean definition is proven equivalen
 
 `C(row(n), col(n))^row(n)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209427
@@ -6622,25 +6617,10 @@ end
 
 end A209465.P10843854969662533055
 
-/-! ## A209465.P5152146852468935092
-
-`A209527(n+1)`
--/
-
-namespace A209465.P5152146852468935092
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209527 (n + 1)
-
-end
-
-end A209465.P5152146852468935092
-
 /-!
 # A209466: Final digit of n^n - n.
 
-The programs for A209466, the canonical program `A209466.P2276677108060998482` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209466 has offset 0).
+The programs for A209466, the canonical program `A209466.P2276677108060998482` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209466 has offset 0).
 
 The definition of A209466 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6649,7 +6629,7 @@ The definition of A209466 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n^n-n)%10`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209466
@@ -6688,7 +6668,7 @@ end A209468.P10699637756288382957
 /-!
 # A209469: Number of n X 1 0..2 arrays with every element value z a city block distance of exactly z from another element value z.
 
-The programs for A209469, the canonical program `A209469.P405514149601713205` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209469 has offset 1).
+The programs for A209469, the canonical program `A209469.P405514149601713205` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209469 has offset 1).
 
 The definition of A209469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 309 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6697,7 +6677,7 @@ The definition of A209469 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x+x^2-x^3+2x^4+x^5+x^6+x^7-x^8-x^10)/(1-3x+2x^2+x^4-4x^5+3x^6-3x^7-x^8+2x^9-x^10+x^11))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209469
@@ -7470,7 +7450,7 @@ end A209485.P2939799425348365309
 /-!
 # A209486: Number of 5-bead necklaces labeled with numbers -n..n allowing reversal, with sum zero and avoiding the patterns z z+1 z+2 and z z-1 z-2.
 
-The programs for A209486, the canonical program `A209486.P3367829417185024581` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209486 has offset 1).
+The programs for A209486, the canonical program `A209486.P3367829417185024581` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209486 has offset 1).
 
 The definition of A209486 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7479,7 +7459,7 @@ The definition of A209486 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+30x+64x^2+114x^3+124x^4+118x^5+68x^6+26x^7+4x^8)/(1-2x+x^3+2x^5-2x^6-x^8+2x^10-x^11))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A209486
@@ -7671,24 +7651,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A209489.P4600298880890438664
-
-/-! ## A209489.P7084751240320655579
-
-`-1+∑[A000837(n+1)]`
--/
-
-namespace A209489.P7084751240320655579
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000837 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A209489.P7084751240320655579
 
 /-! ## A209489.P10256346794884946517
 

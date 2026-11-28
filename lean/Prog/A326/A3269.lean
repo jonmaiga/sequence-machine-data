@@ -8,12 +8,12 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C015
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -21,17 +21,16 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,8 +51,8 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,12 +67,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +81,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -98,7 +96,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1269,7 +1266,7 @@ end A326915.P11052582976771505745
 /-!
 # A326917: Nonnegative numbers of the form 8*T(x) - T(y) with 0 <= x, 0 <= y, where T() denotes a triangular number.
 
-The programs for A326917, the canonical program `A326917.P6374958588156520790` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326917 has offset 1).
+The programs for A326917, the canonical program `A326917.P6374958588156520790` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326917 has offset 1).
 
 The definition of A326917 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A175035, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1278,7 +1275,7 @@ The definition of A326917 is `conditional`: the Lean definition is an OEIS formu
 
 `A175035(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A326917
@@ -1622,21 +1619,6 @@ end
 
 end A326918.P3694757441860239869
 
-/-! ## A326918.P1208270757024702441
-
-`A326413(n+1)`
--/
-
-namespace A326918.P1208270757024702441
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326413 (n + 1)
-
-end
-
-end A326918.P1208270757024702441
-
 /-!
 # A326920: Constant term in the expansion of (-1 + Product_{k=1..n} (1 + x_k + 1/x_k))^n.
 
@@ -1806,46 +1788,10 @@ end
 
 end A326922.P9331352688997965521
 
-/-! ## A326922.P15960831586375156736
-
-`A336336(A316328(n)+1)`
--/
-
-namespace A326922.P15960831586375156736
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336336 (A316328 n + 1).toNat
-
-end
-
-end A326922.P15960831586375156736
-
-/-!
-# A326924: Squares visited by a knight on a spirally numbered board, moving always to the unvisited square closest to the origin.
-
-The programs for A326924, there is no canonical definition to state claims against.
--/
-
-/-! ## A326924.P8906108081777171694
-
-`A328908(n)`
--/
-
-namespace A326924.P8906108081777171694
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328908 n
-
-end
-
-end A326924.P8906108081777171694
-
 /-!
 # A326925: Irregular triangular array read by rows: row n shows the coefficients of this polynomial of degree n: (1/n!)*(numerator of n-th derivative of (1-x)/(1-x-x^2)).
 
-The programs for A326925, the canonical program `A326925.P262717898238461765` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326925 has offset 1).
+The programs for A326925, the canonical program `A326925.P262717898238461765` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326925 has offset 1).
 
 The definition of A326925 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1854,7 +1800,7 @@ The definition of A326925 is `conjectured`: the Lean definition is a formula tha
 
 `A094442(n+1)-A132148(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A326925
@@ -2394,7 +2340,7 @@ end A326933
 /-!
 # A326934: Table of A(n,k) read by antidiagonals, where A(n,k) = (n*k) mod (n+1).
 
-The programs for A326934, the canonical program `A326934.P9439987922174094291` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326934 has offset 1).
+The programs for A326934, the canonical program `A326934.P9439987922174094291` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326934 has offset 1).
 
 The definition of A326934 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((col(n)+1)*(row(n)-col(n)+1))%(col(n)+2)` (program `A326934.P9439987922174094291`, by `A326934.P9439987922174094291.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2403,7 +2349,7 @@ The definition of A326934 is `verified`: the Lean definition is proven equivalen
 
 `((col(n)+1)*(row(n)-col(n)+1))%(col(n)+2)`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C046`.
 -/
 
 namespace A326934
@@ -2664,7 +2610,7 @@ end A326935.P8204184014515399347
 /-!
 # A326937: Dirichlet g.f.: (2^s - 1) / (zeta(s-1) * (2^s - 2)).
 
-The programs for A326937, the canonical program `A326937.P5410755675634869574` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326937 has offset 1).
+The programs for A326937, the canonical program `A326937.P5410755675634869574` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326937 has offset 1).
 
 The definition of A326937 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2696,7 +2642,7 @@ end A326937
 
 `A055615(n+1)/A006519(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A326937
@@ -4378,7 +4324,7 @@ end A326955.P15066503108049791444
 /-!
 # A326956: Characteristic function of A228354.
 
-The programs for A326956, the canonical program `A326956.P17897166605498576645` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326956 has offset 1).
+The programs for A326956, the canonical program `A326956.P17897166605498576645` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326956 has offset 1).
 
 The definition of A326956 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4592,7 +4538,7 @@ end A326956
 
 `C(A278222(n), A005940(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A326956
@@ -5534,21 +5480,6 @@ end
 
 end A326975.P8803719730505851436
 
-/-! ## A326975.P5769643307897848689
-
-`A001055(A327526(n+1))`
--/
-
-namespace A326975.P5769643307897848689
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001055 (A327526 (n + 1)).toNat
-
-end
-
-end A326975.P5769643307897848689
-
 /-! ## A326975.P10466248917852907807
 
 `A006530(A317141(n+1)^(col(n)+1))`
@@ -5956,24 +5887,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A326979.P15679082797510039430
-
-/-! ## A326979.P4136981833683539476
-
-`record[A234612(n)]`
--/
-
-namespace A326979.P4136981833683539476
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234612 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A326979.P4136981833683539476
 
 /-! ## A326979.P11193927691222806565
 

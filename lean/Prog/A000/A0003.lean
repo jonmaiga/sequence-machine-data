@@ -27,21 +27,25 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C049
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -68,20 +72,19 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +95,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -309,21 +312,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000303.P2340685631510668249
-
-/-! ## A000303.P5388811737899130314
-
-`-1+A049774(n+1)`
--/
-
-namespace A000303.P5388811737899130314
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A049774 (n + 1)
-
-end
-
-end A000303.P5388811737899130314
 
 /-! ## A000303.P729979930092457764
 
@@ -6588,21 +6576,6 @@ end
 
 end A000342.P14139008539455662137
 
-/-! ## A000342.P16876634521176633773
-
-`A036630(n+1)`
--/
-
-namespace A000342.P16876634521176633773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036630 (n + 1)
-
-end
-
-end A000342.P16876634521176633773
-
 /-!
 # A000343: 5th power of rooted tree enumerator; number of linear forests of 5 rooted trees.
 
@@ -10522,6 +10495,29 @@ The programs for A000363, the canonical program `A000363.P2544441615486606981` i
 The definition of A000363 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A000363.P17376689753370394543
+
+`ogf((5-9x)/(1-14x+75x^2-196x^3+263x^4-174x^5+45x^6))`
+-/
+
+namespace A000363.P17376689753370394543
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -9] [1, -14, 75, -196, 263, -174, 45] n
+
+end
+
+end A000363.P17376689753370394543
+
+namespace A000363
+
+/-- `ogf((5-9x)/(1-14x+75x^2-196x^3+263x^4-174x^5+45x^6))` -/
+def P17376689753370394543.Spec : Prop :=
+  ∀ n, P17376689753370394543.a n = A000363 (n + 4)
+
+end A000363
+
 /-! ## A000363.P2544441615486606981
 
 `(5^(n+4)-(2*(n+4)-1)*3^(n+4)+2*(n+4)²-2*(n+4)-2)/16`
@@ -11117,7 +11113,7 @@ end A000370.P4587572527332714384
 
 The programs for A000371, the canonical program `A000371.P3911270300277194636` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000371 has offset 0).
 
-The definition of A000371 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A000371 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000371.anchor (n : ℕ) : (A000371 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (-1 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose n k : ℚ) * (2 ^ 2 ^ k : ℚ)` in `Proof.A000.A000371`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A000371.P3911270300277194636
@@ -12308,7 +12304,7 @@ end A000378.P4583025961010683355
 /-!
 # A000379: Numbers where total number of 1-bits in the exponents of their prime factorization is even; a 2-way classification of integers: complement of A000028.
 
-The programs for A000379, the canonical program `A000379.P2146762870191125064` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000379 has offset 1).
+The programs for A000379, the canonical program `A000379.P2146762870191125064` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000379 has offset 1).
 
 The definition of A000379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12346,7 +12342,7 @@ end A000379
 
 `eq[1, A064179(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000379
@@ -15379,21 +15375,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000393.P17378116289961824372
-
-/-! ## A000393.P17859622020017980531
-
-`A036645(n+1)`
--/
-
-namespace A000393.P17859622020017980531
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036645 (n + 1)
-
-end
-
-end A000393.P17859622020017980531
 
 /-! ## A000393.P5715706326792077330
 

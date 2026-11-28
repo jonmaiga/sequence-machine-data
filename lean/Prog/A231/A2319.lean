@@ -4,29 +4,31 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C009
+import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C040
+import Seq.B000.C044
+import Seq.B000.C047
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -39,18 +41,21 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B009.C000
+import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,6 +64,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -67,6 +73,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -410,7 +417,7 @@ end A231907.P15371071197660498335
 /-!
 # A231909: Number of 2 X n 0..2 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to itself plus one mod 3, with upper left element zero (rock paper and scissors drawn positions).
 
-The programs for A231909, the canonical program `A231909.P1861045542503097132` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231909 has offset 1).
+The programs for A231909, the canonical program `A231909.P1861045542503097132` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231909 has offset 1).
 
 The definition of A231909 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -419,7 +426,7 @@ The definition of A231909 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((3-10x-x^2-2x^3+16x^4-8x^5)/(1-9x+5x^2+66x^3-78x^4-4x^5+16x^6))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231909
@@ -855,21 +862,6 @@ end
 
 end A231925.P2697666356583237133
 
-/-! ## A231925.P14616737127051794335
-
-`A028900(A228407(n))`
--/
-
-namespace A231925.P14616737127051794335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028900 (A228407 n).toNat
-
-end
-
-end A231925.P14616737127051794335
-
 /-!
 # A231926: Working in base 6: a(0)=0, thereafter a(n+1) is the smallest number not already in the sequence such that the bits of a(n) and a(n+1) together can be rearranged to form a palindrome.
 
@@ -927,41 +919,11 @@ end
 
 end A231927.P18445855829118744246
 
-/-! ## A231927.P6444199730935471062
-
-`A303789(A231929(n))`
--/
-
-namespace A231927.P6444199730935471062
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303789 (A231929 n).toNat
-
-end
-
-end A231927.P6444199730935471062
-
 /-!
 # A231928: Working in base 7: a(0)=0, thereafter a(n+1) is the smallest number not already in the sequence such that the bits of a(n) and a(n+1) together can be rearranged to form a palindrome.
 
 The programs for A231928, there is no canonical definition to state claims against.
 -/
-
-/-! ## A231928.P13794728123895243856
-
-`A228407(n)`
--/
-
-namespace A231928.P13794728123895243856
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228407 n
-
-end
-
-end A231928.P13794728123895243856
 
 /-! ## A231928.P12324273829596257256
 
@@ -1028,21 +990,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A231929.P12977970391015670013
-
-/-! ## A231929.P9344736994291565616
-
-`A303789(A231931(n))`
--/
-
-namespace A231929.P9344736994291565616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303789 (A231931 n).toNat
-
-end
-
-end A231929.P9344736994291565616
 
 /-!
 # A231931: Terms of A231930 written in base 10: the binary expansions of a(n) and a(n+1) taken together can be rearranged to form a palindrome.
@@ -2226,7 +2173,7 @@ end A231949.P1983427756385978343
 /-!
 # A231950: Number of (n+1)X(1+1) 0..1 arrays with every element equal to some horizontal, vertical, diagonal or antidiagonal neighbor, with top left element zero.
 
-The programs for A231950, the canonical program `A231950.P8987690091065455676` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231950 has offset 1).
+The programs for A231950, the canonical program `A231950.P8987690091065455676` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231950 has offset 1).
 
 The definition of A231950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2258,7 +2205,7 @@ end A231950
 
 `4*a(n-1)-2*a(n-2)+4*a(n-3)` with `a(0)=4, a(1)=18, a(2)=64`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231950
@@ -2325,7 +2272,7 @@ end A231950
 /-!
 # A231951: Number of (n+1) X (2+1) 0..1 arrays with every element equal to some horizontal, vertical, diagonal or antidiagonal neighbor, with top left element zero.
 
-The programs for A231951, the canonical program `A231951.P10860034889141292373` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231951 has offset 1).
+The programs for A231951, the canonical program `A231951.P10860034889141292373` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231951 has offset 1).
 
 The definition of A231951 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2334,7 +2281,7 @@ The definition of A231951 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((18+16x+4x^2)/(1-7x-2x^2-13x^3-8x^4))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231951
@@ -2891,7 +2838,7 @@ end A231959
 /-!
 # A231960: Powers of 3 together with multiples of 6.
 
-The programs for A231960, the canonical program `A231960.P3908795638173034957` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231960 has offset 1).
+The programs for A231960, the canonical program `A231960.P3908795638173034957` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231960 has offset 1).
 
 The definition of A231960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2900,7 +2847,7 @@ The definition of A231960 is `conjectured`: the Lean definition is a formula tha
 
 `∪[6*(n+1), 3^n]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231960
@@ -3705,7 +3652,7 @@ end A231970.P8308996527060397895
 /-!
 # A231971: Number of (n+1) X (2+1) 0..1 arrays with no element having a strict majority of its horizontal and vertical neighbors equal to one.
 
-The programs for A231971, the canonical program `A231971.P16916375961118759575` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231971 has offset 1).
+The programs for A231971, the canonical program `A231971.P16916375961118759575` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231971 has offset 1).
 
 The definition of A231971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 195 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3714,7 +3661,7 @@ The definition of A231971 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((16+8x+x^2+11x^3-62x^4-14x^5+x^6-5x^7+6x^8)/(1-3x-2x^3-4x^4+10x^5+2x^6+x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231971
@@ -4367,7 +4314,7 @@ end A231991.P17153932036190312589
 /-!
 # A231992: Number of (n+1) X (2+1) 0..1 arrays with no element having a strict majority of its horizontal and antidiagonal neighbors equal to one.
 
-The programs for A231992, the canonical program `A231992.P6993738219852405393` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231992 has offset 1).
+The programs for A231992, the canonical program `A231992.P6993738219852405393` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231992 has offset 1).
 
 The definition of A231992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 142 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4376,7 +4323,7 @@ The definition of A231992 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((6+14x-12x^2-22x^3+2x^4+4x^5)/(1-3x-12x^2+5x^3+19x^4-2x^5-4x^6))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231992
@@ -4507,7 +4454,7 @@ end A231996.P7142831254456877961
 /-!
 # A231998: Number of (1+1) X (n+1) 0..1 arrays with no element having a strict majority of its horizontal and antidiagonal neighbors equal to one.
 
-The programs for A231998, the canonical program `A231998.P9670577458090373636` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231998 has offset 1).
+The programs for A231998, the canonical program `A231998.P9670577458090373636` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231998 has offset 1).
 
 The definition of A231998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 300 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4516,7 +4463,7 @@ The definition of A231998 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((4+2x+10x^2+11x^3+12x^4+9x^5-2x^6-7x^7-3x^8)/(1-x-3x^3-3x^4-3x^5-3x^6+2x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A231998

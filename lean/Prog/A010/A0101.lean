@@ -3,23 +3,20 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C011
+import Seq.B000.C019
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C035
-import Seq.B000.C040
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B005.C000
 import Seq.B006.C001
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -29,11 +26,11 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C010
+import Seq.Opaque.C009
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C016
+import Seq.Opaque.C015
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 
 /-!
@@ -187,27 +184,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010102.P12419489945573924117
-
-/-!
-# A010103: Spontaneous magnetization coefficients for square lattice spin 2 Ising model.
-
-The programs for A010103, there is no canonical definition to state claims against.
--/
-
-/-! ## A010103.P3402173495044063068
-
-`A010106(A272574(n))`
--/
-
-namespace A010103.P3402173495044063068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010106 (A272574 n).toNat
-
-end
-
-end A010103.P3402173495044063068
 
 /-!
 # A010105: Spontaneous magnetization coefficients for square lattice spin 3/2 Ising model.
@@ -798,21 +774,6 @@ end A010106.P4452779588677383219
 The programs for A010108, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010108.P4154173162279087102
-
-`A056620(A047260(n+1))`
--/
-
-namespace A010108.P4154173162279087102
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (A047260 (n + 1)).toNat
-
-end
-
-end A010108.P4154173162279087102
-
 /-! ## A010108.P14336077957335899684
 
 `A010109(lt[A112382(n), A112382(2*(n+2))])`
@@ -854,48 +815,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010108.P14764542500640298203
-
-/-!
-# A010109: Partition function coefficients for square lattice spin 5/2 Ising model.
-
-The programs for A010109, there is no canonical definition to state claims against.
--/
-
-/-! ## A010109.P11823745259713858922
-
-`A056620(A045681(n))`
--/
-
-namespace A010109.P11823745259713858922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056620 (A045681 n).toNat
-
-end
-
-end A010109.P11823745259713858922
-
-/-!
-# A010110: Partition function coefficients for square lattice spin 3/2 Ising model.
-
-The programs for A010110, there is no canonical definition to state claims against.
--/
-
-/-! ## A010110.P14804064775381817603
-
-`A010109(A037468(n))`
--/
-
-namespace A010110.P14804064775381817603
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010109 (A037468 n).toNat
-
-end
-
-end A010110.P14804064775381817603
 
 /-!
 # A010112: Specific heat coefficients for square lattice spin 2 Ising model.
@@ -970,46 +889,10 @@ end
 end A010113.P8589836859483424126
 
 /-!
-# A010116: Magnetic susceptibility coefficients for square lattice spin 2 Ising model.
-
-The programs for A010116, there is no canonical definition to state claims against.
--/
-
-/-! ## A010116.P12549486519211423658
-
-`A010117(A007092(n))`
--/
-
-namespace A010116.P12549486519211423658
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (A007092 n).toNat
-
-end
-
-end A010116.P12549486519211423658
-
-/-!
 # A010118: Magnetic susceptibility coefficients for square lattice spin 3/2 Ising model.
 
 The programs for A010118, there is no canonical definition to state claims against.
 -/
-
-/-! ## A010118.P9465266254433289860
-
-`A010119(A047205(n+1))`
--/
-
-namespace A010118.P9465266254433289860
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010119 (A047205 (n + 1)).toNat
-
-end
-
-end A010118.P9465266254433289860
 
 /-! ## A010118.P15631404716894857135
 
@@ -1028,27 +911,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010118.P15631404716894857135
-
-/-!
-# A010119: Magnetic susceptibility coefficients for square lattice spin 5/2 Ising model.
-
-The programs for A010119, there is no canonical definition to state claims against.
--/
-
-/-! ## A010119.P11253791639674300548
-
-`A010117(A007094(n))`
--/
-
-namespace A010119.P11253791639674300548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010117 (A007094 n).toNat
-
-end
-
-end A010119.P11253791639674300548
 
 /-!
 # A010120: Smallest start for a '3x+1' sequence containing 2^n.

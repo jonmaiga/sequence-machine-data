@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,7 +11,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -23,17 +21,18 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C040
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B000.C042
-import Seq.B000.C050
+import Seq.B000.C044
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -44,7 +43,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,15 +58,16 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,7 +84,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -680,29 +678,6 @@ namespace A114607
 /-- `((1-(n/gcd(4, n))%4)%2)^(xor(n, char[∑[n]])-n)²` -/
 def P7706001744617453697.Spec : Prop :=
   ∀ n, P7706001744617453697.a n = (A114607 (n + 1) : ℚ)
-
-end A114607
-
-/-! ## A114607.P12272554663469257111
-
-`1-A073424(n)`
--/
-
-namespace A114607.P12272554663469257111
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A073424 n
-
-end
-
-end A114607.P12272554663469257111
-
-namespace A114607
-
-/-- `1-A073424(n)` -/
-def P12272554663469257111.Spec : Prop :=
-  ∀ n, P12272554663469257111.a n = A114607 (n + 1)
 
 end A114607
 
@@ -1573,7 +1548,7 @@ end A114617.P12622103160887420612
 /-!
 # A114618: Numbers k such that the k-th octagonal number is 4-almost prime.
 
-The programs for A114618, the canonical program `A114618.P169158474325929934` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114618 has offset 1).
+The programs for A114618, the canonical program `A114618.P169158474325929934` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114618 has offset 1).
 
 The definition of A114618 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 548 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1582,7 +1557,7 @@ The definition of A114618 is `conjectured`: the Lean definition is a formula tha
 
 `eq[5, A193295(3*n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114618
@@ -1716,7 +1691,7 @@ end A114618
 /-!
 # A114619: a(n) = 2*A079291(n) (twice squares of Pell numbers).
 
-The programs for A114619, the canonical program `A114619.P14883267576841951743` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114619 has offset 0).
+The programs for A114619, the canonical program `A114619.P14883267576841951743` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114619 has offset 0).
 
 The definition of A114619 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1748,7 +1723,7 @@ end A114619
 
 `2*A079291(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114619
@@ -2707,7 +2682,7 @@ end A114620
 /-!
 # A114621: Numbers k such that the k-th octagonal number is 5-almost prime.
 
-The programs for A114621, the canonical program `A114621.P17555968403036926398` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114621 has offset 1).
+The programs for A114621, the canonical program `A114621.P17555968403036926398` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114621 has offset 1).
 
 The definition of A114621 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 423 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2716,7 +2691,7 @@ The definition of A114621 is `conjectured`: the Lean definition is a formula tha
 
 `eq[6, A193295(3*n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114621
@@ -3492,7 +3467,7 @@ end A114633
 /-!
 # A114634: Numbers k such that the k-th octagonal number is 6-almost prime.
 
-The programs for A114634, the canonical program `A114634.P14970229620625066094` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114634 has offset 1).
+The programs for A114634, the canonical program `A114634.P14970229620625066094` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114634 has offset 1).
 
 The definition of A114634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 462 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3501,7 +3476,7 @@ The definition of A114634 is `conjectured`: the Lean definition is a formula tha
 
 `eq[7, A193295(A008486(n)+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114634
@@ -3606,7 +3581,7 @@ end A114634
 /-!
 # A114635: Numbers k such that the k-th octagonal number is 7-almost prime.
 
-The programs for A114635, the canonical program `A114635.P11927019839315697127` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114635 has offset 1).
+The programs for A114635, the canonical program `A114635.P11927019839315697127` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114635 has offset 1).
 
 The definition of A114635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 486 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3615,7 +3590,7 @@ The definition of A114635 is `conjectured`: the Lean definition is a formula tha
 
 `eq[8, A193295(A008486(n)+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114635
@@ -3691,62 +3666,10 @@ def P17686528714505281593.Spec : Prop :=
 
 end A114635
 
-/-! ## A114635.P4637529743447157598
-
-`2*A114443(n+1)`
--/
-
-namespace A114635.P4637529743447157598
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A114443 (n + 1)
-
-end
-
-end A114635.P4637529743447157598
-
-namespace A114635
-
-/-- `2*A114443(n+1)` -/
-def P4637529743447157598.Spec : Prop :=
-  ∀ n, P4637529743447157598.a n = A114635 (n + 1)
-
-end A114635
-
-/-! ## A114635.P14415678425026203877
-
-`(eq[4, A259652(n+1)]+1)*2`
--/
-
-namespace A114635.P14415678425026203877
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259652 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1) * 2
-
-end
-
-end A114635.P14415678425026203877
-
-namespace A114635
-
-/-- `(eq[4, A259652(n+1)]+1)*2` -/
-def P14415678425026203877.Spec : Prop :=
-  ∀ n, (P14415678425026203877.a n : ℤ) = A114635 (n + 1)
-
-end A114635
-
 /-!
 # A114636: Numbers k such that the k-th octagonal number is 8-almost prime.
 
-The programs for A114636, the canonical program `A114636.P10696586583299400379` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114636 has offset 1).
+The programs for A114636, the canonical program `A114636.P10696586583299400379` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114636 has offset 1).
 
 The definition of A114636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 366 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3755,7 +3678,7 @@ The definition of A114636 is `conjectured`: the Lean definition is a formula tha
 
 `eq[9, A193295(3*n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A114636

@@ -24,24 +24,24 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C045
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -65,6 +65,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -85,7 +86,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9396,36 +9396,6 @@ end A089847.P4378844638868520157
 The programs for A089848, there is no canonical definition to state claims against.
 -/
 
-/-! ## A089848.P8561193404255873139
-
-`A120588(n)+A007949(n+1)`
--/
-
-namespace A089848.P8561193404255873139
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120588 n + A007949 (n + 1)
-
-end
-
-end A089848.P8561193404255873139
-
-/-! ## A089848.P14630075068743569009
-
-`A191265(n+1)+A120588(n)`
--/
-
-namespace A089848.P14630075068743569009
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191265 (n + 1) + A120588 n
-
-end
-
-end A089848.P14630075068743569009
-
 /-! ## A089848.P15717951871593972436
 
 `A010872(A220826(n+1))-A115140(n)`
@@ -10732,21 +10702,6 @@ end A089854.P1938214807569048087
 The programs for A089855, there is no canonical definition to state claims against.
 -/
 
-/-! ## A089855.P11113006003389741759
-
-`A123713(n)`
--/
-
-namespace A089855.P11113006003389741759
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123713 n
-
-end
-
-end A089855.P11113006003389741759
-
 /-! ## A089855.P2570605181093502385
 
 `A069770(A074680(n))`
@@ -11043,21 +10998,6 @@ end A089856.P10584995083029796060
 
 The programs for A089857, there is no canonical definition to state claims against.
 -/
-
-/-! ## A089857.P2631605401154805776
-
-`A123714(n)`
--/
-
-namespace A089857.P2631605401154805776
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123714 n
-
-end
-
-end A089857.P2631605401154805776
 
 /-! ## A089857.P12034077220679576247
 
@@ -12889,21 +12829,6 @@ end
 
 end A089869.P9544591340087234414
 
-/-! ## A089869.P17940108838861715225
-
-`A122349(A122282(n))`
--/
-
-namespace A089869.P17940108838861715225
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122349 (A122282 n).toNat
-
-end
-
-end A089869.P17940108838861715225
-
 /-!
 # A089870: Permutation of natural numbers induced by the Catalan bijection gma089870 acting on the parenthesizations/binary trees encoded by A014486/A063171.
 
@@ -13008,21 +12933,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089870.P16598963035255917951
-
-/-! ## A089870.P12754368972043252286
-
-`A122302(A069768(n))`
--/
-
-namespace A089870.P12754368972043252286
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122302 (A069768 n).toNat
-
-end
-
-end A089870.P12754368972043252286
 
 /-!
 # A089871: Least common multiple of all cycle sizes in range [A014137(n-1)..A014138(n-1)] of permutation A071663/A071664.
@@ -15178,21 +15088,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089890.P1554799022693218448
-
-/-! ## A089890.P16722958324244197752
-
-`A089888(n+1)-2^n`
--/
-
-namespace A089890.P16722958324244197752
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089888 (n + 1) - (2 ^ n : ℤ)
-
-end
-
-end A089890.P16722958324244197752
 
 /-! ## A089890.P3305943427198434020
 

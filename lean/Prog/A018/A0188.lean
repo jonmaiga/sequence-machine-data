@@ -13,30 +13,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C047
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,30 +52,30 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
-import Seq.B002.C003
+import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2755,7 +2755,7 @@ end A018819
 /-!
 # A018820: Numbers k that are the sum of m nonzero squares for all 1 <= m <= k - 14.
 
-The programs for A018820, the canonical program `A018820.P234269659203219396` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018820 has offset 1).
+The programs for A018820, the canonical program `A018820.P234269659203219396` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018820 has offset 1).
 
 The definition of A018820 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A341329, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2764,7 +2764,7 @@ The definition of A018820 is `conditional`: the Lean definition is an OEIS formu
 
 `A341329(n+1)²`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A018820
@@ -5995,21 +5995,6 @@ end
 
 end A018850.P2970173578166340734
 
-/-! ## A018850.P8283837199891412881
-
-`A001235(A184333(n+1))`
--/
-
-namespace A018850.P8283837199891412881
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001235 (A184333 (n + 1)).toNat
-
-end
-
-end A018850.P8283837199891412881
-
 /-! ## A018850.P17568484147447655811
 
 `∩[A001235(n+1), A293647(A231238(n+4))]`
@@ -6412,21 +6397,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018856.P8001098036787192336
-
-/-! ## A018856.P2420619062777422038
-
-`A180726(n+1)`
--/
-
-namespace A018856.P2420619062777422038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180726 (n + 1)
-
-end
-
-end A018856.P2420619062777422038
 
 /-!
 # A018857: Smallest power of 3 that begins with n.
@@ -9115,27 +9085,6 @@ end
 end A018893.P17144892371543150695
 
 /-!
-# A018894: Numbers k such that sigma(k)/phi(k) sets a new record.
-
-The programs for A018894, there is no canonical definition to state claims against.
--/
-
-/-! ## A018894.P8576617107407344203
-
-`A126098(A160544(n+1))`
--/
-
-namespace A018894.P8576617107407344203
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126098 (A160544 (n + 1)).toNat
-
-end
-
-end A018894.P8576617107407344203
-
-/-!
 # A018896: a(n) = ( a(n-1)*a(n-7) + a(n-4)^2 ) / a(n-8); a(0) = ... = a(7) = 1.
 
 The programs for A018896, the canonical program `A018896.P10692014710542095976` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018896 has offset 0).
@@ -9252,27 +9201,6 @@ def P7514960429229110409.Spec : Prop :=
   ∀ n, P7514960429229110409.a n = (A018896 n : ℚ)
 
 end A018896
-
-/-!
-# A018898: Theta series of 14-dimensional lattice of det 3^7 and minimal norm 2.
-
-The programs for A018898, there is no canonical definition to state claims against.
--/
-
-/-! ## A018898.P17263142058987667391
-
-`A004048(n)`
--/
-
-namespace A018898.P17263142058987667391
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004048 n
-
-end
-
-end A018898.P17263142058987667391
 
 /-!
 # A018899: Smallest positive integer not representable as the sum of at most n distinct numbers of form 2^a*3^b.

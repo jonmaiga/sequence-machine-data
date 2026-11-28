@@ -5,28 +5,29 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C019
+import Seq.B000.C015
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C041
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,23 +45,22 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
-import Seq.B005.C000
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1185,21 +1185,6 @@ end A392722.P9503177956363179721
 
 The programs for A392723, there is no canonical definition to state claims against.
 -/
-
-/-! ## A392723.P2503770245269945344
-
-`A306083(1+n)`
--/
-
-namespace A392723.P2503770245269945344
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306083 (1 + n)
-
-end
-
-end A392723.P2503770245269945344
 
 /-! ## A392723.P7280790534998480397
 
@@ -3991,7 +3976,7 @@ end A392781
 /-!
 # A392782: Complement of A000792.
 
-The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
+The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
 
 The definition of A392782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4108,7 +4093,7 @@ end A392782
 
 `comp[3*a(n-3)]` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A392782
@@ -4463,46 +4448,10 @@ end
 end A392789.P5701312606926643325
 
 /-!
-# A392790: Expansion of e.g.f. (1/x) * Series_Reversion( x + (1 - exp(x^4))/x^2 ).
-
-The programs for A392790, there is no canonical definition to state claims against.
--/
-
-/-! ## A392790.P13663270985311872757
-
-`A392785(n)`
--/
-
-namespace A392790.P13663270985311872757
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392785 n
-
-end
-
-end A392790.P13663270985311872757
-
-/-!
 # A392794: Expansion of e.g.f. (1/x) * Series_Reversion( x - (exp(x^2) - 1)^2 ).
 
 The programs for A392794, there is no canonical definition to state claims against.
 -/
-
-/-! ## A392794.P14431849218323124023
-
-`A392791(n)`
--/
-
-namespace A392794.P14431849218323124023
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392791 n
-
-end
-
-end A392794.P14431849218323124023
 
 /-! ## A392794.P4393642232079563209
 
@@ -4524,21 +4473,6 @@ end A392794.P4393642232079563209
 
 The programs for A392795, there is no canonical definition to state claims against.
 -/
-
-/-! ## A392795.P7821701018746015113
-
-`A392792(n)`
--/
-
-namespace A392795.P7821701018746015113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392792 n
-
-end
-
-end A392795.P7821701018746015113
 
 /-! ## A392795.P9981092098963262645
 
@@ -4584,27 +4518,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392795.P8783738321929954131
-
-/-!
-# A392796: Expansion of e.g.f. (1/x) * Series_Reversion( x - (exp(x^4) - 1)^2/x^2 ).
-
-The programs for A392796, there is no canonical definition to state claims against.
--/
-
-/-! ## A392796.P17921909236407488462
-
-`A392793(n)`
--/
-
-namespace A392796.P17921909236407488462
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392793 n
-
-end
-
-end A392796.P17921909236407488462
 
 /-!
 # A392797: Number of alpha-labelings of trees on n vertices.

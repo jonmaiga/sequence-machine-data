@@ -18,7 +18,6 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -26,22 +25,24 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,15 +76,15 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5146,21 +5147,6 @@ end
 
 end A033834.P3886791744203428861
 
-/-! ## A033834.P1551443264835772778
-
-`-1+A272691(n+1)`
--/
-
-namespace A033834.P1551443264835772778
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A272691 (n + 1)
-
-end
-
-end A033834.P1551443264835772778
-
 /-! ## A033834.P8395703640204703799
 
 `record[A050322(n+1)-1]`
@@ -8115,21 +8101,6 @@ end
 
 end A033860.P14761161081557187144
 
-/-! ## A033860.P13748038932953537976
-
-`A374731(n+1)`
--/
-
-namespace A033860.P13748038932953537976
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374731 (n + 1)
-
-end
-
-end A033860.P13748038932953537976
-
 /-!
 # A033862: Sorted number reached from starter n in Sort-then-add sequence, or -1 if never reaches sorted number.
 
@@ -8273,51 +8244,6 @@ end A033864.P3315750709696079421
 
 The programs for A033865, there is no canonical definition to state claims against.
 -/
-
-/-! ## A033865.P13284195456786190190
-
-`(n-9*floor((n-1)/9))*(10^floor((n+8)/9)-1)/9-A321797(n)`
--/
-
-namespace A033865.P13284195456786190190
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 9 * ⌊((n : ℤ) - 1 : ℚ) / 9⌋ : ℚ) * (((10 : ℚ) ^ (⌊(n + 8 : ℚ) / 9⌋ : ℤ) - 1) / 9) - (A321797 n : ℚ)
-
-end
-
-end A033865.P13284195456786190190
-
-/-! ## A033865.P8216727894003381442
-
-`A010785(n)-A321538(n)`
--/
-
-namespace A033865.P8216727894003381442
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010785 n - A321538 n
-
-end
-
-end A033865.P8216727894003381442
-
-/-! ## A033865.P14834165216763450318
-
-`A010785(n)-A321803(n)`
--/
-
-namespace A033865.P14834165216763450318
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010785 n - A321803 n
-
-end
-
-end A033865.P14834165216763450318
 
 /-! ## A033865.P17472961684467044558
 
@@ -11030,12 +10956,6 @@ namespace A033879
 /-- `A286385(n+1)-A252748(n+1)` -/
 def P9667490610592536769.Spec : Prop :=
   ∀ n, P9667490610592536769.a n = A033879 (n + 1)
-
-theorem P9667490610592536769.correct : P9667490610592536769.Spec := by
-  intro n
-  simp only [A033879, Nat.add_sub_cancel, A033879.P9667490610592536769.a, A033879.P5965131822542929609.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A252748, A252748.P2216043875100614995.a, A286385, A286385.P7583078268767377745.a, A003961, A003961.P5996473960037614004.a, A253885, A253885.P16715555451856890624.a, A243501, A243501.P10707292738867961998.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A033879
 

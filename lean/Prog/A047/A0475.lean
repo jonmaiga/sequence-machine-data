@@ -6,21 +6,22 @@ import Seq.B000.C003
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C041
-import Seq.B000.C042
-import Seq.B000.C047
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C049
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -585,7 +586,7 @@ end A047500
 
 The programs for A047501, the canonical program `A047501.P7806894495650476304` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047501 has offset 1).
 
-The definition of A047501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047501 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047501.anchor (n : ℕ) (hn : 1 ≤ n) : A047501 n = (Nat.nth (fun k => k % 8 ∈ ({1, 3, 4, 5, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047501`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047501.P7806894495650476304
@@ -6852,7 +6853,7 @@ end A047512
 
 The programs for A047513, the canonical program `A047513.P11792871085229594459` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047513 has offset 1).
 
-The definition of A047513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047513 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047513.anchor (n : ℕ) (hn : 1 ≤ n) : A047513 n = (Nat.nth (fun k => k % 8 ∈ ({0, 1, 2, 4, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047513`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047513.P11792871085229594459
@@ -7966,7 +7967,7 @@ end A047514
 
 The programs for A047515, the canonical program `A047515.P9984837773571359601` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047515 has offset 1).
 
-The definition of A047515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047515 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047515.anchor (n : ℕ) (hn : 1 ≤ n) : A047515 n = (Nat.nth (fun k => k % 8 ∈ ({0, 3, 4, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047515`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047515.P9984837773571359601
@@ -33569,7 +33570,7 @@ end A047563
 
 The programs for A047564, the canonical program `A047564.P12947516038934548673` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047564 has offset 1).
 
-The definition of A047564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047564 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047564.anchor (n : ℕ) (hn : 1 ≤ n) : A047564 n = (Nat.nth (fun k => k % 8 ∈ ({1, 3, 4, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047564`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047564.P12947516038934548673
@@ -37389,7 +37390,7 @@ end A047570
 
 The programs for A047571, the canonical program `A047571.P15127643491043048747` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047571 has offset 1).
 
-The definition of A047571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A047571 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047571.anchor (n : ℕ) (hn : 1 ≤ n) : A047571 n = (Nat.nth (fun k => k % 8 ∈ ({0, 2, 4, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047571`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A047571.P15127643491043048747
@@ -45448,7 +45449,7 @@ end A047585
 /-!
 # A047586: Numbers that are congruent to {2, 3, 5, 6, 7} mod 8.
 
-The programs for A047586, the canonical program `A047586.P7927788207682834760` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047586 has offset 1).
+The programs for A047586, the canonical program `A047586.P7927788207682834760` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047586 has offset 1).
 
 The definition of A047586 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047586.anchor (n : ℕ) (hn : 1 ≤ n) : A047586 n = (Nat.nth (fun k => k % 8 ∈ ({2, 3, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047586`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -45457,7 +45458,7 @@ The definition of A047586 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-5)+8` with `a(0)=2, a(1)=3, a(2)=5, a(3)=6, a(4)=7`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047586
@@ -45981,7 +45982,7 @@ end A047586
 /-!
 # A047587: Numbers that are congruent to {0, 2, 3, 5, 6, 7} mod 8.
 
-The programs for A047587, the canonical program `A047587.P2004360021011363606` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047587 has offset 1).
+The programs for A047587, the canonical program `A047587.P2004360021011363606` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047587 has offset 1).
 
 The definition of A047587 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047587.anchor (n : ℕ) (hn : 1 ≤ n) : A047587 n = (Nat.nth (fun k => k % 8 ∈ ({0, 2, 3, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047587`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -46013,7 +46014,7 @@ end A047587
 
 `a(n-1)+a(n-6)-a(n-7)` with `a(0)=0, a(1)=2, a(2)=3, a(3)=5, a(4)=6, a(5)=7, a(6)=8`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047587
@@ -46519,7 +46520,7 @@ end A047587
 /-!
 # A047588: Numbers that are congruent to {0, 1, 2, 3, 5, 6, 7} mod 8.
 
-The programs for A047588, the canonical program `A047588.P5089271559851880253` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047588 has offset 1).
+The programs for A047588, the canonical program `A047588.P5089271559851880253` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047588 has offset 1).
 
 The definition of A047588 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047588.anchor (n : ℕ) (hn : 1 ≤ n) : A047588 n = (Nat.nth (fun k => k % 8 ∈ ({0, 1, 2, 3, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047588`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -46528,7 +46529,7 @@ The definition of A047588 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-7)+8` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=6, a(6)=7`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047588
@@ -47062,7 +47063,7 @@ end A047588
 /-!
 # A047589: Numbers that are congruent to {6, 7} mod 8.
 
-The programs for A047589, the canonical program `A047589.P16995791475009558675` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047589 has offset 1).
+The programs for A047589, the canonical program `A047589.P16995791475009558675` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047589 has offset 1).
 
 The definition of A047589 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047589.anchor (n : ℕ) (hn : 1 ≤ n) : A047589 n = (Nat.nth (fun k => k % 8 ∈ ({6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047589`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -47094,7 +47095,7 @@ end A047589
 
 `6*floor(n/2)+n+1+5`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047589
@@ -47605,7 +47606,7 @@ end A047589
 /-!
 # A047590: Numbers that are congruent to {0, 6, 7} mod 8.
 
-The programs for A047590, the canonical program `A047590.P1776590080310754121` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047590 has offset 1).
+The programs for A047590, the canonical program `A047590.P1776590080310754121` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047590 has offset 1).
 
 The definition of A047590 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047590.anchor (n : ℕ) (hn : 1 ≤ n) : A047590 n = (Nat.nth (fun k => k % 8 ∈ ({0, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047590`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -47637,7 +47638,7 @@ end A047590
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=0, a(1)=6, a(2)=7, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047590
@@ -48143,7 +48144,7 @@ end A047590
 /-!
 # A047591: Numbers that are congruent to {1, 6, 7} mod 8.
 
-The programs for A047591, the canonical program `A047591.P8348121480119153361` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047591 has offset 1).
+The programs for A047591, the canonical program `A047591.P8348121480119153361` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047591 has offset 1).
 
 The definition of A047591 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047591.anchor (n : ℕ) (hn : 1 ≤ n) : A047591 n = (Nat.nth (fun k => k % 8 ∈ ({1, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047591`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -48175,7 +48176,7 @@ end A047591
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=1, a(1)=6, a(2)=7, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047591
@@ -48660,7 +48661,7 @@ end A047591
 /-!
 # A047592: Numbers that are congruent to {1, 2, 3, 4, 5, 6, 7} mod 8.
 
-The programs for A047592, the canonical program `A047592.P10431583980401158067` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047592 has offset 1).
+The programs for A047592, the canonical program `A047592.P10431583980401158067` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047592 has offset 1).
 
 The definition of A047592 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047592.anchor (n : ℕ) (hn : 1 ≤ n) : A047592 n = (Nat.nth (fun k => k % 8 ∈ ({1, 2, 3, 4, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047592`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -48669,7 +48670,7 @@ The definition of A047592 is `verified`: an anchor theorem with a hand-written p
 
 `n+floor((n+7)/7)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047592
@@ -49185,7 +49186,7 @@ end A047592
 /-!
 # A047593: Numbers that are congruent to {2, 3, 4, 5, 6, 7} mod 8.
 
-The programs for A047593, the canonical program `A047593.P15181872912811568390` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047593 has offset 1).
+The programs for A047593, the canonical program `A047593.P15181872912811568390` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047593 has offset 1).
 
 The definition of A047593 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047593.anchor (n : ℕ) (hn : 1 ≤ n) : A047593 n = (Nat.nth (fun k => k % 8 ∈ ({2, 3, 4, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047593`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -49217,7 +49218,7 @@ end A047593
 
 `a(n-1)+a(n-6)-a(n-7)` with `a(0)=2, a(1)=3, a(2)=4, a(3)=5, a(4)=6, a(5)=7, a(6)=10`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047593
@@ -49738,7 +49739,7 @@ end A047593
 /-!
 # A047594: Numbers that are congruent to {0, 2, 3, 4, 5, 6, 7} mod 8.
 
-The programs for A047594, the canonical program `A047594.P10261137686808126974` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047594 has offset 1).
+The programs for A047594, the canonical program `A047594.P10261137686808126974` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047594 has offset 1).
 
 The definition of A047594 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047594.anchor (n : ℕ) (hn : 1 ≤ n) : A047594 n = (Nat.nth (fun k => k % 8 ∈ ({0, 2, 3, 4, 5, 6, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047594`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -49747,7 +49748,7 @@ The definition of A047594 is `verified`: an anchor theorem with a hand-written p
 
 `n+1+floor((n-1)/7)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047594
@@ -50278,7 +50279,7 @@ end A047594
 /-!
 # A047595: Numbers that are congruent to {0, 1, 2, 3, 4, 5, 7} mod 8.
 
-The programs for A047595, the canonical program `A047595.P12241637956285316643` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047595 has offset 1).
+The programs for A047595, the canonical program `A047595.P12241637956285316643` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047595 has offset 1).
 
 The definition of A047595 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047595.anchor (n : ℕ) (hn : 1 ≤ n) : A047595 n = (Nat.nth (fun k => k % 8 ∈ ({0, 1, 2, 3, 4, 5, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047595`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -50287,7 +50288,7 @@ The definition of A047595 is `verified`: an anchor theorem with a hand-written p
 
 `n+floor((n+1)/7)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047595
@@ -50812,7 +50813,7 @@ end A047595
 /-!
 # A047596: Numbers that are congruent to {2, 3, 4, 5} mod 8.
 
-The programs for A047596, the canonical program `A047596.P5442632219283213892` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047596 has offset 1).
+The programs for A047596, the canonical program `A047596.P5442632219283213892` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047596 has offset 1).
 
 The definition of A047596 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047596.anchor (n : ℕ) (hn : 1 ≤ n) : A047596 n = (Nat.nth (fun k => k % 8 ∈ ({2, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047596`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -50844,7 +50845,7 @@ end A047596
 
 `a(n-1)+a(n-4)-a(n-5)` with `a(0)=2, a(1)=3, a(2)=4, a(3)=5, a(4)=10`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047596
@@ -51333,7 +51334,7 @@ end A047596
 /-!
 # A047597: Numbers that are congruent to {0, 2, 3, 4, 5} mod 8.
 
-The programs for A047597, the canonical program `A047597.P18124994690607783859` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047597 has offset 1).
+The programs for A047597, the canonical program `A047597.P18124994690607783859` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047597 has offset 1).
 
 The definition of A047597 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047597.anchor (n : ℕ) (hn : 1 ≤ n) : A047597 n = (Nat.nth (fun k => k % 8 ∈ ({0, 2, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047597`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -51342,7 +51343,7 @@ The definition of A047597 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-5)+8` with `a(0)=0, a(1)=2, a(2)=3, a(3)=4, a(4)=5`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047597
@@ -51876,7 +51877,7 @@ end A047597
 /-!
 # A047598: Numbers that are congruent to {3, 4, 5} mod 8.
 
-The programs for A047598, the canonical program `A047598.P18054970793901716294` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047598 has offset 1).
+The programs for A047598, the canonical program `A047598.P18054970793901716294` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047598 has offset 1).
 
 The definition of A047598 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047598.anchor (n : ℕ) (hn : 1 ≤ n) : A047598 n = (Nat.nth (fun k => k % 8 ∈ ({3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047598`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -51908,7 +51909,7 @@ end A047598
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=3, a(1)=4, a(2)=5, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047598
@@ -52408,7 +52409,7 @@ end A047598
 /-!
 # A047599: Numbers that are congruent to {0, 3, 4, 5} mod 8.
 
-The programs for A047599, the canonical program `A047599.P7426491099471878681` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047599 has offset 1).
+The programs for A047599, the canonical program `A047599.P7426491099471878681` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047599 has offset 1).
 
 The definition of A047599 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A047599.anchor (n : ℕ) (hn : 1 ≤ n) : A047599 n = (Nat.nth (fun k => k % 8 ∈ ({0, 3, 4, 5} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A047.A047599`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -52463,7 +52464,7 @@ end A047599
 
 `2*a(n-1)-2*a(n-2)+2*a(n-3)-a(n-4)` with `a(0)=0, a(1)=3, a(2)=4, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A047599

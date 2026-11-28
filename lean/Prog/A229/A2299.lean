@@ -13,30 +13,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C048
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,7 +57,8 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -73,12 +74,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -199,7 +200,7 @@ end A229901.P16802588456161830560
 /-!
 # A229903: a(n) = (190/99)*(100^A001651(n)-1).
 
-The programs for A229903, the canonical program `A229903.P2338630133382938004` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229903 has offset 1).
+The programs for A229903, the canonical program `A229903.P2338630133382938004` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229903 has offset 1).
 
 The definition of A229903 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -208,7 +209,7 @@ The definition of A229903 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `190/99*(100^floor((3*(n+1)-1)/2)-1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229903
@@ -4444,7 +4445,7 @@ end A229961.P13388431552580297042
 /-!
 # A229963: a(n) = 11*binomial(10*n + 11, n)/(10*n + 11).
 
-The programs for A229963, the canonical program `A229963.P15987772240577070665` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229963 has offset 0).
+The programs for A229963, the canonical program `A229963.P15987772240577070665` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229963 has offset 0).
 
 The definition of A229963 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A229963.anchor (n : ℕ) : (A229963 n : ℚ) = (11 * Nat.choose (10 * n + 11) n : ℚ) / (10 * n + 11 : ℚ)` in `Proof.A229.A229963`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4453,7 +4454,7 @@ The definition of A229963 is `verified`: an anchor theorem with a hand-written p
 
 `11*C(10*n+11, n)/(10*n+11)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229963
@@ -4859,7 +4860,7 @@ end A229967.P1093936569066814656
 /-!
 # A229968: Numbers not divisible by 3 or 11.
 
-The programs for A229968, the canonical program `A229968.P11121608724241166143` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229968 has offset 1).
+The programs for A229968, the canonical program `A229968.P11121608724241166143` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229968 has offset 1).
 
 The definition of A229968 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4868,7 +4869,7 @@ The definition of A229968 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∪[3*n, 11*n]]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229968
@@ -5775,7 +5776,7 @@ end A229972
 /-!
 # A229973: Numbers coprime to 39.
 
-The programs for A229973, the canonical program `A229973.P10476919833875443078` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229973 has offset 1).
+The programs for A229973, the canonical program `A229973.P10476919833875443078` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229973 has offset 1).
 
 The definition of A229973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5784,7 +5785,7 @@ The definition of A229973 is `conjectured`: the Lean definition is a formula tha
 
 `lt[16*n, lcm(39, n)]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A229973
@@ -7257,21 +7258,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A229994.P1435487970681634266
-
-/-! ## A229994.P14726431054813621675
-
-`A056538(A349536(n+1))`
--/
-
-namespace A229994.P14726431054813621675
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056538 (A349536 (n + 1)).toNat
-
-end
-
-end A229994.P14726431054813621675
 
 /-! ## A229994.P7723398872036183455
 

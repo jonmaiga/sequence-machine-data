@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -18,27 +17,26 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
 import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,15 +58,16 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -77,7 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +100,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -839,7 +836,7 @@ end A033007.P9239557045915464560
 /-!
 # A033008: Every run of digits of n in base 10 has length 2.
 
-The programs for A033008, the canonical program `A033008.P115213478187213864` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033008 has offset 1).
+The programs for A033008, the canonical program `A033008.P115213478187213864` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033008 has offset 1).
 
 The definition of A033008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7380 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -871,7 +868,7 @@ end A033008
 
 `A321536(A043096(n+2))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A033008
@@ -1148,21 +1145,6 @@ end
 
 end A033010.P6051072817127821619
 
-/-! ## A033010.P16913203524475184189
-
-`A044838(n+1)`
--/
-
-namespace A033010.P16913203524475184189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044838 (n + 1)
-
-end
-
-end A033010.P16913203524475184189
-
 /-!
 # A033011: Every run of digits of n in base 13 has length 2.
 
@@ -1363,21 +1345,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033013.P16556847451040213821
-
-/-! ## A033013.P5848537317138938996
-
-`A044841(A044827(n+1))`
--/
-
-namespace A033013.P5848537317138938996
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044841 (A044827 (n + 1)).toNat
-
-end
-
-end A033013.P5848537317138938996
 
 /-!
 # A033014: Every run of digits of n in base 16 has length 2.
@@ -2593,21 +2560,6 @@ end
 
 end A033022.P7551508006166968550
 
-/-! ## A033022.P6718600308489555634
-
-`A048334(n+9)`
--/
-
-namespace A033022.P6718600308489555634
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048334 (n + 9)
-
-end
-
-end A033022.P6718600308489555634
-
 /-! ## A033022.P1270256115168160768
 
 `A368362(A043315(n+2))`
@@ -2993,21 +2945,6 @@ end A033025.P9338403203191575341
 The programs for A033026, there is no canonical definition to state claims against.
 -/
 
-/-! ## A033026.P7354584604350034317
-
-`A048337(n+13)`
--/
-
-namespace A033026.P7354584604350034317
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048337 (n + 13)
-
-end
-
-end A033026.P7354584604350034317
-
 /-! ## A033026.P18328185187722032560
 
 `A301676(3*n+3)+A288120(A369348(n+1))`
@@ -3022,27 +2959,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033026.P18328185187722032560
-
-/-!
-# A033027: Numbers whose base-14 expansion has no run of digits with length < 2.
-
-The programs for A033027, there is no canonical definition to state claims against.
--/
-
-/-! ## A033027.P1876360091736096922
-
-`A048338(n+14)`
--/
-
-namespace A033027.P1876360091736096922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048338 (n + 14)
-
-end
-
-end A033027.P1876360091736096922
 
 /-!
 # A033028: Numbers whose base-15 expansion has no run of digits with length < 2.
@@ -3629,7 +3545,7 @@ end A033031.P14976859668802877872
 /-!
 # A033032: Numbers all of whose base 6 digits are odd.
 
-The programs for A033032, the canonical program `A033032.P3194765215055303357` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033032 has offset 1).
+The programs for A033032, the canonical program `A033032.P3194765215055303357` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033032 has offset 1).
 
 The definition of A033032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 417 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3694,7 +3610,7 @@ end A033032
 
 `eq[1, A124625(A309957(n)+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A033032
@@ -3842,7 +3758,7 @@ end A033032
 /-!
 # A033033: Numbers all of whose base 7 digits are odd.
 
-The programs for A033033, the canonical program `A033033.P13490663608013405416` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033033 has offset 1).
+The programs for A033033, the canonical program `A033033.P13490663608013405416` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033033 has offset 1).
 
 The definition of A033033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 282 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3897,7 +3813,7 @@ end A033033
 
 `record[(n+1)*and(1, A309958(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A033033
@@ -9677,7 +9593,7 @@ end A033066.P5533600277756990004
 /-!
 # A033067: Numbers whose base-16 representation Sum_{i=0..m} d(i)*16^i has odd d(m-i) for all odd i.
 
-The programs for A033067, the canonical program `A033067.P7820946899976347155` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033067 has offset 1).
+The programs for A033067, the canonical program `A033067.P7820946899976347155` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033067 has offset 1).
 
 The definition of A033067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10092,7 +10008,7 @@ end A033067
 
 `lt[A311356(A267354(n)), A217558(n)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A033067
@@ -10945,29 +10861,6 @@ def P16136572690426703214.Spec : Prop :=
 theorem P16136572690426703214.correct : P16136572690426703214.Spec := by
   intro n
   simp only [A033076, Nat.add_sub_cancel]
-
-end A033076
-
-/-! ## A033076.P17205174287677876631
-
-`A032982(A140642(n))`
--/
-
-namespace A033076.P17205174287677876631
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032982 (A140642 n).toNat
-
-end
-
-end A033076.P17205174287677876631
-
-namespace A033076
-
-/-- `A032982(A140642(n))` -/
-def P17205174287677876631.Spec : Prop :=
-  ∀ n, P17205174287677876631.a n = A033076 (n + 1)
 
 end A033076
 

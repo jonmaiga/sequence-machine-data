@@ -1,15 +1,16 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C021
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C022
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C011
 import Seq.B006.C000
 import Seq.B010.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C019
 
@@ -160,21 +161,6 @@ end A019169.P10313955376387083914
 The programs for A019186, there is no canonical definition to state claims against.
 -/
 
-/-! ## A019186.P14019050702313625128
-
-`A019187(n+3)`
--/
-
-namespace A019186.P14019050702313625128
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019187 (n + 3)
-
-end
-
-end A019186.P14019050702313625128
-
 /-! ## A019186.P2587389919141347275
 
 `A019243(A024647(n)+3)`
@@ -189,27 +175,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019186.P2587389919141347275
-
-/-!
-# A019189: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T4 atom.
-
-The programs for A019189, there is no canonical definition to state claims against.
--/
-
-/-! ## A019189.P17276857798339501409
-
-`A019244(n+3)`
--/
-
-namespace A019189.P17276857798339501409
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019244 (n + 3)
-
-end
-
-end A019189.P17276857798339501409
 
 /-!
 # A019192: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[AlnSi24-nO48] starting with a T7 atom.
@@ -231,19 +196,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019192.P629264887860485185
-
-/-! ## A019192.P12122473093149595703
-
-`A019246(n+3)`
--/
-
-namespace A019192.P12122473093149595703
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019246 (n + 3)
-
-end
-
-end A019192.P12122473093149595703
 

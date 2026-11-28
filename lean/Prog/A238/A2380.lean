@@ -6,27 +6,26 @@ import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C024
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C048
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C050
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
@@ -42,18 +41,22 @@ import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -62,6 +65,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -76,7 +80,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2477,21 +2480,6 @@ end
 
 end A238019.P2044846825907492453
 
-/-! ## A238019.P151571136279172596
-
-`A253052(n+1)^A006926(n)`
--/
-
-namespace A238019.P151571136279172596
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A253052 (n + 1) : ℚ) ^ (A006926 n : ℤ)
-
-end
-
-end A238019.P151571136279172596
-
 /-! ## A238019.P4509839550512050288
 
 `A222947(A188158(n+1)*A338332(n))`
@@ -3974,7 +3962,7 @@ end A238053.P7036452415188060489
 /-!
 # A238055: a(n) = (13*3^n - 1)/2.
 
-The programs for A238055, the canonical program `A238055.P7177768310825021800` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238055 has offset 0).
+The programs for A238055, the canonical program `A238055.P7177768310825021800` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238055 has offset 0).
 
 The definition of A238055 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(13*3^n-1)/2` (program `A238055.P1839135269674069271`, by `A238055.P1839135269674069271.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4048,7 +4036,7 @@ end A238055
 
 `3*a(n-1)+1` with `a(0)=6`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A238055
@@ -4468,50 +4456,6 @@ end A238055
 
 The programs for A238056, there is no canonical definition to state claims against.
 -/
-
-/-! ## A238056.P2322841468965143130
-
-`∩[A019549(n+1), A129800(n+1)]`
--/
-
-namespace A238056.P2322841468965143130
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019549 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129800 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A238056.P2322841468965143130
-
-/-! ## A238056.P14002846037067108158
-
-`∩[A105184(n+1), A129800(n+1)]`
--/
-
-namespace A238056.P14002846037067108158
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105184 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129800 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A238056.P14002846037067108158
 
 /-! ## A238056.P3127058569813760528
 
@@ -6526,40 +6470,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238098.P14442567505585540301
-
-/-!
-# A238099: The stonemason's problem: numbers n such that n^2 is the sum of more than three consecutive cubes, the cube 1 being disallowed.
-
-The programs for A238099, there is no canonical definition to state claims against.
--/
-
-/-! ## A238099.P1494570857020332910
-
-`A163393(n+2)`
--/
-
-namespace A238099.P1494570857020332910
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163393 (n + 2)
-
-end
-
-end A238099.P1494570857020332910
-
-/-! ## A238099.P5251324258946321179
-
-`sqrt(A163392(n+2))`
--/
-
-namespace A238099.P5251324258946321179
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A163392 (n + 2) : ℝ)
-
-end
-
-end A238099.P5251324258946321179
 

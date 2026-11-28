@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,22 +20,20 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
-import Seq.B000.C040
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B000.C046
-import Seq.B000.C048
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +51,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -61,6 +59,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -69,7 +68,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +90,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -8304,7 +8302,9 @@ end A014339.P10631187612834466359
 /-!
 # A014340: Four-fold exponential convolution of Fibonacci numbers with themselves.
 
-The programs for A014340, there is no canonical definition to state claims against.
+The programs for A014340, the canonical program `A014340.P1001745385602079441` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014340 has offset 0).
+
+The definition of A014340 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A014340.P448034741927281586
@@ -8322,6 +8322,33 @@ end
 
 end A014340.P448034741927281586
 
+namespace A014340
+
+/-- `24*A014341(n)` -/
+def P448034741927281586.Spec : Prop :=
+  ∀ n, P448034741927281586.a n = A014340 n
+
+end A014340
+
+/-! ## A014340.P1001745385602079441
+
+`ogf(24x^4/(1-10x+15x^2+70x^3-120x^4-32x^5))`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A014340
+
+/-- `ogf(24x^4/(1-10x+15x^2+70x^3-120x^4-32x^5))` -/
+def P1001745385602079441.Spec : Prop :=
+  ∀ n, P1001745385602079441.a n = A014340 n
+
+theorem P1001745385602079441.correct : P1001745385602079441.Spec := by
+  intro n
+  simp only [A014340]
+
+end A014340
+
 /-! ## A014340.P6611390213376794948
 
 `24*A346415(A077169(n+1)-1)`
@@ -8336,6 +8363,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A014340.P6611390213376794948
+
+namespace A014340
+
+/-- `24*A346415(A077169(n+1)-1)` -/
+def P6611390213376794948.Spec : Prop :=
+  ∀ n, P6611390213376794948.a n = A014340 n
+
+end A014340
 
 /-! ## A014340.P16074063081031236141
 
@@ -8352,26 +8387,40 @@ end
 
 end A014340.P16074063081031236141
 
-/-! ## A014340.P1381074424392227414
+namespace A014340
 
-`24*A343609(A081920(n)-A081908(n))`
--/
+/-- `24*A346415(A145018(n+1))%A229233(n)` -/
+def P16074063081031236141.Spec : Prop :=
+  ∀ n, P16074063081031236141.a n = A014340 n
 
-namespace A014340.P1381074424392227414
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  24 * A343609 (A081920 n - A081908 n).toNat
-
-end
-
-end A014340.P1381074424392227414
+end A014340
 
 /-!
 # A014341: Four-fold exponential convolution of Fibonacci numbers with themselves (divided by 24).
 
-The programs for A014341, there is no canonical definition to state claims against.
+The programs for A014341, the canonical program `A014341.P1303805327390563444` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014341 has offset 0).
+
+The definition of A014341 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A014341.P1303805327390563444
+
+`ogf(x^4/(1-10x+15x^2+70x^3-120x^4-32x^5))`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A014341
+
+/-- `ogf(x^4/(1-10x+15x^2+70x^3-120x^4-32x^5))` -/
+def P1303805327390563444.Spec : Prop :=
+  ∀ n, P1303805327390563444.a n = A014341 n
+
+theorem P1303805327390563444.correct : P1303805327390563444.Spec := by
+  intro n
+  simp only [A014341]
+
+end A014341
 
 /-! ## A014341.P15476222516448829395
 
@@ -8388,6 +8437,14 @@ end
 
 end A014341.P15476222516448829395
 
+namespace A014341
+
+/-- `A014340(n)/24` -/
+def P15476222516448829395.Spec : Prop :=
+  ∀ n, P15476222516448829395.a n = (A014341 n : ℚ)
+
+end A014341
+
 /-! ## A014341.P6103704585652078820
 
 `A346415(A077169(n+1)-1)`
@@ -8402,6 +8459,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A014341.P6103704585652078820
+
+namespace A014341
+
+/-- `A346415(A077169(n+1)-1)` -/
+def P6103704585652078820.Spec : Prop :=
+  ∀ n, P6103704585652078820.a n = A014341 n
+
+end A014341
 
 /-! ## A014341.P14538376718053983820
 
@@ -8418,6 +8483,14 @@ end
 
 end A014341.P14538376718053983820
 
+namespace A014341
+
+/-- `A346415(A145018(n+1))%A229233(n)` -/
+def P14538376718053983820.Spec : Prop :=
+  ∀ n, P14538376718053983820.a n = A014341 n
+
+end A014341
+
 /-! ## A014341.P534318101518790330
 
 `A346415(A145018(n+1))%A000178(n)`
@@ -8432,6 +8505,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A014341.P534318101518790330
+
+namespace A014341
+
+/-- `A346415(A145018(n+1))%A000178(n)` -/
+def P534318101518790330.Spec : Prop :=
+  ∀ n, P534318101518790330.a n = A014341 n
+
+end A014341
 
 /-!
 # A014342: Convolution of primes with themselves.

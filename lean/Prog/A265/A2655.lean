@@ -2,32 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C046
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,7 +57,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1782,21 +1785,6 @@ end
 
 end A265515.P14126862239040579593
 
-/-! ## A265515.P14472484958593360808
-
-`A055950(n)-A265548(n)`
--/
-
-namespace A265515.P14472484958593360808
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055950 n - A265548 n
-
-end
-
-end A265515.P14472484958593360808
-
 /-!
 # A265516: a(n) = largest base-5 palindrome m <= n such that every base-5 digit of m is <= the corresponding digit of n; m is written in base 5.
 
@@ -1898,21 +1886,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265517.P8675152746915505208
-
-/-! ## A265517.P5356458478004787454
-
-`A055952(n)-(A265550(n)+0)`
--/
-
-namespace A265517.P5356458478004787454
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055952 n - (A265550 n + 0)
-
-end
-
-end A265517.P5356458478004787454
 
 /-! ## A265517.P17640543555540090764
 
@@ -2061,21 +2034,6 @@ end
 
 end A265519.P15620601916130291194
 
-/-! ## A265519.P4807617335088904864
-
-`A055954(n)-A265552(n)`
--/
-
-namespace A265519.P4807617335088904864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055954 n - A265552 n
-
-end
-
-end A265519.P4807617335088904864
-
 /-!
 # A265520: a(n) = largest base-7 palindrome m <= n such that every base-7 digit of m is <= the corresponding digit of n; m is written in base 7.
 
@@ -2201,21 +2159,6 @@ end
 
 end A265521.P2669713033233765526
 
-/-! ## A265521.P7608875699451869383
-
-`A055956(n)-A265554(n)`
--/
-
-namespace A265521.P7608875699451869383
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055956 n - A265554 n
-
-end
-
-end A265521.P7608875699451869383
-
 /-! ## A265521.P895693414954072820
 
 `2*n-A055957(n)-A265554(A265554(n))`
@@ -2245,21 +2188,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265521.P5279916008178227611
-
-/-! ## A265521.P16807579763314793647
-
-`A319656(n)-A165091(n)`
--/
-
-namespace A265521.P16807579763314793647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319656 n - A165091 n
-
-end
-
-end A265521.P16807579763314793647
 
 /-!
 # A265522: a(n) = largest base-8 palindrome m <= n such that every base-8 digit of m is <= the corresponding digit of n; m is written in base 8.
@@ -2761,7 +2689,7 @@ end A265525.P18438280833393239411
 /-!
 # A265526: Largest base-2 palindrome m <= n, written in base 2.
 
-The programs for A265526, the canonical program `A265526.P17545732825682694180` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265526 has offset 0).
+The programs for A265526, the canonical program `A265526.P17545732825682694180` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265526 has offset 0).
 
 The definition of A265526 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2770,7 +2698,7 @@ The definition of A265526 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(A206913(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A265526
@@ -4771,21 +4699,6 @@ end
 
 end A265543.P3726814928590868090
 
-/-! ## A265543.P12589516982131805469
-
-`A265559(n)`
--/
-
-namespace A265543.P12589516982131805469
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265559 n
-
-end
-
-end A265543.P12589516982131805469
-
 /-!
 # A265544: a(n) = smallest base-3 palindrome m >= n such that every base-3 digit of n is <= the corresponding digit of m; m is written in base 10.
 
@@ -5165,36 +5078,6 @@ end
 
 end A265548.P6767189719574626689
 
-/-! ## A265548.P897102574180240440
-
-`A055950(n)-A265515(n)`
--/
-
-namespace A265548.P897102574180240440
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055950 n - A265515 n
-
-end
-
-end A265548.P897102574180240440
-
-/-! ## A265548.P15115257636985306950
-
-`A165033(5*n)`
--/
-
-namespace A265548.P15115257636985306950
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165033 (5 * n)
-
-end
-
-end A265548.P15115257636985306950
-
 /-!
 # A265549: a(n) = smallest base-5 palindrome m >= n such that every base-5 digit of n is <= the corresponding digit of m; m is written in base 5.
 
@@ -5342,21 +5225,6 @@ end
 
 end A265550.P10692029763184543179
 
-/-! ## A265550.P11911754075289075206
-
-`A165052(6*n)`
--/
-
-namespace A265550.P11911754075289075206
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165052 (6 * n)
-
-end
-
-end A265550.P11911754075289075206
-
 /-!
 # A265551: a(n) = smallest base-6 palindrome m >= n such that every base-6 digit of n is <= the corresponding digit of m; m is written in base 6.
 
@@ -5458,21 +5326,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265552.P7079524534136195935
-
-/-! ## A265552.P11686489366624008240
-
-`A055954(n)-A265519(n)`
--/
-
-namespace A265552.P11686489366624008240
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055954 n - A265519 n
-
-end
-
-end A265552.P11686489366624008240
 
 /-! ## A265552.P5149296754657560785
 
@@ -5613,21 +5466,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265554.P4914959601949845504
-
-/-! ## A265554.P14630851201200989298
-
-`A055956(n)-A265521(n)`
--/
-
-namespace A265554.P14630851201200989298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055956 n - A265521 n
-
-end
-
-end A265554.P14630851201200989298
 
 /-! ## A265554.P12422050039400084246
 
@@ -5942,21 +5780,6 @@ end
 
 end A265558.P9101241393690680587
 
-/-! ## A265558.P4679205961450238624
-
-`A056964(n)-A265525(n)`
--/
-
-namespace A265558.P4679205961450238624
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056964 n - A265525 n
-
-end
-
-end A265558.P4679205961450238624
-
 /-! ## A265558.P18094462026356378638
 
 `A262038(A004186(n)%A033863(n))`
@@ -5971,21 +5794,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265558.P18094462026356378638
-
-/-! ## A265558.P2043445758143055676
-
-`A151950(n)+A004186(n)`
--/
-
-namespace A265558.P2043445758143055676
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151950 n + A004186 n
-
-end
-
-end A265558.P2043445758143055676
 
 /-! ## A265558.P17898514186945060925
 
@@ -6002,36 +5810,6 @@ end
 
 end A265558.P17898514186945060925
 
-/-! ## A265558.P16170369776939558212
-
-`A151950(n)+A108782(n)+n`
--/
-
-namespace A265558.P16170369776939558212
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151950 n + (A108782 n + (n : ℤ))
-
-end
-
-end A265558.P16170369776939558212
-
-/-! ## A265558.P7680044406694259103
-
-`A151950(n)+9*A283001(n)+n`
--/
-
-namespace A265558.P7680044406694259103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151950 n + (9 * A283001 n + (n : ℤ))
-
-end
-
-end A265558.P7680044406694259103
-
 /-! ## A265558.P4803233275056347054
 
 `A265525(n)+A151950(A056142(n))`
@@ -6046,36 +5824,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265558.P4803233275056347054
-
-/-! ## A265558.P16456603049760770113
-
-`A151950(n)+A151949(n)+A004185(n)`
--/
-
-namespace A265558.P16456603049760770113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151950 n + (A151949 n + A004185 n)
-
-end
-
-end A265558.P16456603049760770113
-
-/-! ## A265558.P7088369643969533665
-
-`A151950(n)+A052008(n)-A004185(n)`
--/
-
-namespace A265558.P7088369643969533665
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151950 n + (A052008 n - A004185 n)
-
-end
-
-end A265558.P7088369643969533665
 
 /-! ## A265558.P16799479449584235616
 
@@ -7154,21 +6902,6 @@ end
 
 end A265572.P13066193771830873477
 
-/-! ## A265572.P5094283686275807167
-
-`A265541(A265573(n)+0)`
--/
-
-namespace A265572.P5094283686275807167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265541 (A265573 n + 0).toNat
-
-end
-
-end A265572.P5094283686275807167
-
 /-!
 # A265573: Smallest base-9 palindrome m >= n, written in base 9.
 
@@ -7710,7 +7443,7 @@ end A265574
 /-!
 # A265575: LCM-transform of Euler totient numbers (A000010).
 
-The programs for A265575, the canonical program `A265575.P11957760273569767814` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265575 has offset 1).
+The programs for A265575, the canonical program `A265575.P11957760273569767814` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265575 has offset 1).
 
 The definition of A265575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 982 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7745,7 +7478,7 @@ end A265575
 
 `ratio[A051547(A028310(n))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A265575
@@ -7962,21 +7695,6 @@ end
 
 end A265576.P18228294658039285917
 
-/-! ## A265576.P6989323831357298874
-
-`A000041(A383284(n+1))`
--/
-
-namespace A265576.P6989323831357298874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (A383284 (n + 1)).toNat
-
-end
-
-end A265576.P6989323831357298874
-
 /-! ## A265576.P402252525114982630
 
 `gcd(A002262(A200809(n+1)), A064426(n+1))`
@@ -8046,7 +7764,7 @@ end A265577.P8152115086227736289
 /-!
 # A265578: LCM-transform of number of divisors function (A000005).
 
-The programs for A265578, the canonical program `A265578.P11461218880546600637` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265578 has offset 1).
+The programs for A265578, the canonical program `A265578.P11461218880546600637` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265578 has offset 1).
 
 The definition of A265578 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8055,7 +7773,7 @@ The definition of A265578 is `conjectured`: the Lean definition is a formula tha
 
 `ratio[lcm(-a(n-1), ∏{e}[n, #+1])]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A265578
@@ -8313,21 +8031,6 @@ end A265579.P1361315549105383908
 The programs for A265580, there is no canonical definition to state claims against.
 -/
 
-/-! ## A265580.P3095125699452997994
-
-`A345195(n)+A067661(n)`
--/
-
-namespace A265580.P3095125699452997994
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345195 n + A067661 n
-
-end
-
-end A265580.P3095125699452997994
-
 /-! ## A265580.P6641224511684171947
 
 `A081753(A321410(n)+A001045(n))`
@@ -8484,16 +8187,16 @@ end A265582.P6596920487886368938
 /-!
 # A265583: Array T(n,k) = k*(k-1)^(n-1) read by ascending antidiagonals; k,n >= 1.
 
-The programs for A265583, the canonical program `A265583.P7634211700866370062` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265583 has offset 1).
+The programs for A265583, the canonical program `A265583.P7634211700866370062` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265583 has offset 1).
 
-The definition of A265583 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A265583 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A265583.anchor (n : ℕ) : (A265583 (n + 1) : ℚ) = (SequenceMachineLib.triCol n + 1 : ℚ) * (SequenceMachineLib.triCol n : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ)` in `Proof.A265.A265583`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A265583.P7634211700866370062
 
 `(col(n)+1)*col(n)^(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C041`.
 -/
 
 namespace A265583

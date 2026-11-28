@@ -20,29 +20,29 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C042
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -73,11 +73,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +89,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -108,7 +107,7 @@ set_option linter.unreachableTactic false
 /-!
 # A090000: Length of longest contiguous block of 1's in binary expansion of n-th prime.
 
-The programs for A090000, the canonical program `A090000.P9572383938386539689` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090000 has offset 1).
+The programs for A090000, the canonical program `A090000.P9572383938386539689` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090000 has offset 1).
 
 The definition of A090000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6543 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -117,7 +116,7 @@ The definition of A090000 is `conjectured`: the Lean definition is a formula tha
 
 `val(A278222(A000040(n+1)), 2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A090000
@@ -459,7 +458,7 @@ end A090000
 /-!
 # A090001: Length of longest contiguous block of 1's in binary expansion of n^2.
 
-The programs for A090001, the canonical program `A090001.P13538661981448324381` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090001 has offset 0).
+The programs for A090001, the canonical program `A090001.P13538661981448324381` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090001 has offset 0).
 
 The definition of A090001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -468,7 +467,7 @@ The definition of A090001 is `conjectured`: the Lean definition is a formula tha
 
 `val(A286374(n), 2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A090001
@@ -699,7 +698,7 @@ end A090001
 /-!
 # A090002: Length of longest contiguous block of 1's in binary expansion of n-th triangular number.
 
-The programs for A090002, the canonical program `A090002.P5610306916460533914` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090002 has offset 0).
+The programs for A090002, the canonical program `A090002.P5610306916460533914` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090002 has offset 0).
 
 The definition of A090002 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -708,7 +707,7 @@ The definition of A090002 is `conjectured`: the Lean definition is a formula tha
 
 `A090001(2*n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A090002
@@ -982,7 +981,7 @@ end A090002
 /-!
 # A090003: Length of longest contiguous block of 1's in binary expansion of n^3.
 
-The programs for A090003, the canonical program `A090003.P4383366296457470224` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090003 has offset 0).
+The programs for A090003, the canonical program `A090003.P4383366296457470224` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090003 has offset 0).
 
 The definition of A090003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -991,7 +990,7 @@ The definition of A090003 is `conjectured`: the Lean definition is a formula tha
 
 `val(A286375(n), 2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A090003
@@ -3215,17 +3214,25 @@ end A090018
 /-!
 # A090019: a(n) = (3*10^n + 2*0^n)/5.
 
-The programs for A090019, the canonical program `A090019.P15065496884073856144` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090019 has offset 0).
+The programs for A090019, the canonical program `A090019.P5963741773363223307` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090019 has offset 0).
 
-The definition of A090019 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A090019 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A090019.anchor (n : ℕ) : (A090019 n : ℚ) = (3 * 10 ^ n + 2 * 0 ^ n : ℚ) / 5` in `Proof.A090.A090019`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A090019.P15065496884073856144
 
 `ogf((1-4x)/(1-10x))`
-
-The canonical program, it is in `Seq.B000.C016`.
 -/
+
+namespace A090019.P15065496884073856144
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -4] [1, -10] n
+
+end
+
+end A090019.P15065496884073856144
 
 namespace A090019
 
@@ -3233,28 +3240,14 @@ namespace A090019
 def P15065496884073856144.Spec : Prop :=
   ∀ n, P15065496884073856144.a n = A090019 n
 
-theorem P15065496884073856144.correct : P15065496884073856144.Spec := by
-  intro n
-  simp only [A090019]
-
 end A090019
 
 /-! ## A090019.P5963741773363223307
 
 `(3*10^n+2*0^n)/5`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C016`.
 -/
-
-namespace A090019.P5963741773363223307
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (3 * 10 ^ n + 2 * 0 ^ n : ℚ) / 5
-
-end
-
-end A090019.P5963741773363223307
 
 namespace A090019
 
@@ -4106,6 +4099,29 @@ theorem P15869501940427212116.correct : P15869501940427212116.Spec := by
 
 end A090022
 
+/-! ## A090022.P5827446026245747289
+
+`ogf((x+10x^2-47x^3)/(1-15x+75x^2-145x^3+84x^4))`
+-/
+
+namespace A090022.P5827446026245747289
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 10, -47] [1, -15, 75, -145, 84] n
+
+end
+
+end A090022.P5827446026245747289
+
+namespace A090022
+
+/-- `ogf((x+10x^2-47x^3)/(1-15x+75x^2-145x^3+84x^4))` -/
+def P5827446026245747289.Spec : Prop :=
+  ∀ n, P5827446026245747289.a n = A090022 n
+
+end A090022
+
 /-! ## A090022.P3623622198378570887
 
 `abs(3^n-A155628(n))`
@@ -4202,6 +4218,29 @@ theorem P789509451518306862.correct : P789509451518306862.Spec := by
 
 end A090023
 
+/-! ## A090023.P18374128473757845487
+
+`ogf((x+19x^2-136x^3+200x^4)/(1-18x+115x^2-330x^3+424x^4-192x^5))`
+-/
+
+namespace A090023.P18374128473757845487
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 19, -136, 200] [1, -18, 115, -330, 424, -192] n
+
+end
+
+end A090023.P18374128473757845487
+
+namespace A090023
+
+/-- `ogf((x+19x^2-136x^3+200x^4)/(1-18x+115x^2-330x^3+424x^4-192x^5))` -/
+def P18374128473757845487.Spec : Prop :=
+  ∀ n, P18374128473757845487.a n = A090023 n
+
+end A090023
+
 /-! ## A090023.P6526002809728022496
 
 `(A155613(n)+A062395(n))%A074535(n)`
@@ -4249,6 +4288,29 @@ def P5608712160326319223.Spec : Prop :=
 theorem P5608712160326319223.correct : P5608712160326319223.Spec := by
   intro n
   simp only [A090024]
+
+end A090024
+
+/-! ## A090024.P13657746244005522674
+
+`ogf((x+25x^2-189x^3+291x^4)/(1-20x+140x^2-430x^3+579x^4-270x^5))`
+-/
+
+namespace A090024.P13657746244005522674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 25, -189, 291] [1, -20, 140, -430, 579, -270] n
+
+end
+
+end A090024.P13657746244005522674
+
+namespace A090024
+
+/-- `ogf((x+25x^2-189x^3+291x^4)/(1-20x+140x^2-430x^3+579x^4-270x^5))` -/
+def P13657746244005522674.Spec : Prop :=
+  ∀ n, P13657746244005522674.a n = A090024 n
 
 end A090024
 
@@ -4575,21 +4637,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090030.P2177533119914356131
-
-/-! ## A090030.P9943065705130974870
-
-`(A309010(n)-1)%A197655(n)`
--/
-
-namespace A090030.P9943065705130974870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A309010 n - 1) (A197655 n)
-
-end
-
-end A090030.P9943065705130974870
 
 /-! ## A090030.P8892469840252294158
 
@@ -7058,7 +7105,7 @@ end A090049
 /-!
 # A090050: Numbers having equal length of longest contiguous block of zeros and ones in binary expansion.
 
-The programs for A090050, the canonical program `A090050.P13123530974981238689` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090050 has offset 1).
+The programs for A090050, the canonical program `A090050.P13123530974981238689` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090050 has offset 1).
 
 The definition of A090050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1977 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7067,7 +7114,7 @@ The definition of A090050 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2*A087117(n), A330036(n)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A090050
@@ -7473,27 +7520,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090053.P12016738459881218288
-
-/-!
-# A090055: Numbers k divisible by at least one nontrivial permutation (rearrangement) of the digits of k.
-
-The programs for A090055, there is no canonical definition to state claims against.
--/
-
-/-! ## A090055.P12291803971562644203
-
-`A090053(n+1)`
--/
-
-namespace A090055.P12291803971562644203
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090053 (n + 1)
-
-end
-
-end A090055.P12291803971562644203
 
 /-!
 # A090063: Numbers n such that there are (presumably) two palindromes in the Reverse and Add! trajectory of n.
@@ -8862,7 +8888,7 @@ end A090076
 /-!
 # A090077: In binary expansion of n: reduce contiguous blocks of 1's to 1.
 
-The programs for A090077, the canonical program `A090077.P7628171309376731176` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090077 has offset 0).
+The programs for A090077, the canonical program `A090077.P7628171309376731176` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090077 has offset 0).
 
 The definition of A090077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8897,7 +8923,7 @@ end A090077
 
 `A156552(∏{p}[A005940(n+1), #])`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A090077
@@ -9295,7 +9321,7 @@ end A090080
 /-!
 # A090081: Cube root-smooth numbers: numbers k whose largest prime factor does not exceed the cube root of k.
 
-The programs for A090081, the canonical program `A090081.P3944922333172897926` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090081 has offset 1).
+The programs for A090081, the canonical program `A090081.P3944922333172897926` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090081 has offset 1).
 
 The definition of A090081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2720 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9304,7 +9330,7 @@ The definition of A090081 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A006530(n+1)^3, n+2]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A090081

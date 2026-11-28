@@ -24,25 +24,24 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C037
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C047
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,23 +67,25 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,6 +97,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -3723,7 +3725,7 @@ end A068910.P9921091768086049760
 /-!
 # A068911: Number of n-step walks (each step +-1 starting from 0) which are never more than 2 or less than -2.
 
-The programs for A068911, the canonical program `A068911.P11224025969434433245` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068911 has offset 0).
+The programs for A068911, the canonical program `A068911.P11224025969434433245` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068911 has offset 0).
 
 The definition of A068911 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3755,7 +3757,7 @@ end A068911
 
 `3*a(n-2)` with `a(0)=1, a(1)=2, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068911
@@ -4211,7 +4213,7 @@ end A068911
 /-!
 # A068912: Number of n step walks (each step +/ -1 starting from 0) which are never more than 3 or less than -3.
 
-The programs for A068912, the canonical program `A068912.P9985970511912984352` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068912 has offset 0).
+The programs for A068912, the canonical program `A068912.P9985970511912984352` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068912 has offset 0).
 
 The definition of A068912 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4243,7 +4245,7 @@ end A068912
 
 `4*a(n-2)-2*a(n-4)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068912
@@ -4594,21 +4596,6 @@ end A068913.P18233859445910723341
 The programs for A068914, there is no canonical definition to state claims against.
 -/
 
-/-! ## A068914.P12746131753373450900
-
-`A073287(A244925(n+1)+0)`
--/
-
-namespace A068914.P12746131753373450900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073287 (A244925 (n + 1) + 0).toNat
-
-end
-
-end A068914.P12746131753373450900
-
 /-! ## A068914.P1791058572525044708
 
 `A073289(or(A151811(n), A244925(n+1)))`
@@ -4846,7 +4833,7 @@ end A068918.P13392377146719491178
 /-!
 # A068919: Squarefree orders of non-Abelian groups.
 
-The programs for A068919, the canonical program `A068919.P16495689797022882545` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068919 has offset 1).
+The programs for A068919, the canonical program `A068919.P16495689797022882545` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068919 has offset 1).
 
 The definition of A068919 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4654 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4907,7 +4894,7 @@ end A068919
 
 `∩[A000469(n+1), A069209(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A068919
@@ -5492,7 +5479,7 @@ end A068920.P3351726730290622354
 /-!
 # A068921: Number of ways to tile a 2 X n room with 1 X 2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068921, the canonical program `A068921.P14390823611597591154` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068921 has offset 0).
+The programs for A068921, the canonical program `A068921.P14390823611597591154` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068921 has offset 0).
 
 The definition of A068921 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5524,7 +5511,7 @@ end A068921
 
 `a(n-1)+a(n-3)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068921
@@ -5965,7 +5952,7 @@ end A068921
 /-!
 # A068922: Number of ways to tile a 3 X 2n room with 1 X 2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068922, the canonical program `A068922.P4974104702800734513` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068922 has offset 1).
+The programs for A068922, the canonical program `A068922.P4974104702800734513` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068922 has offset 1).
 
 The definition of A068922 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5997,7 +5984,7 @@ end A068922
 
 `a(n-1)+a(n-2)` with `a(0)=3, a(1)=4, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068922
@@ -6444,7 +6431,7 @@ end A068922
 /-!
 # A068923: Number of ways to tile a 4 X n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068923, the canonical program `A068923.P4744788943475700446` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068923 has offset 1).
+The programs for A068923, the canonical program `A068923.P4744788943475700446` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068923 has offset 1).
 
 The definition of A068923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6453,7 +6440,7 @@ The definition of A068923 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)+a(n-5)` with `a(0)=1, a(1)=4, a(2)=4, a(3)=2, a(4)=3, a(5)=3, a(6)=3, a(7)=5`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068923
@@ -6517,7 +6504,7 @@ end A068923
 /-!
 # A068924: Number of ways to tile a 5 X 2n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068924, the canonical program `A068924.P2546220936895595989` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068924 has offset 1).
+The programs for A068924, the canonical program `A068924.P2546220936895595989` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068924 has offset 1).
 
 The definition of A068924 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6549,7 +6536,7 @@ end A068924
 
 `a(n-2)+a(n-3)` with `a(0)=6, a(1)=3, a(2)=2, a(3)=2, a(4)=4, a(5)=4, a(6)=6`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068924
@@ -6619,7 +6606,7 @@ end A068924
 /-!
 # A068925: Number of ways to tile a 6 X n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068925, the canonical program `A068925.P11757731055604210041` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068925 has offset 1).
+The programs for A068925, the canonical program `A068925.P11757731055604210041` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068925 has offset 1).
 
 The definition of A068925 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6628,7 +6615,7 @@ The definition of A068925 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+9x+6x^2+3x^3+2x^4+x^5-7x^6-6x^7-11x^8-6x^9-2x^10)/(1-x^5-x^7))`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068925
@@ -6753,7 +6740,7 @@ end A068926.P11678873587379874908
 /-!
 # A068927: Number of incongruent ways to tile a 2 X n room with 1 X 2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068927, the canonical program `A068927.P915190198102573795` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068927 has offset 1).
+The programs for A068927, the canonical program `A068927.P915190198102573795` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068927 has offset 1).
 
 The definition of A068927 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6762,7 +6749,7 @@ The definition of A068927 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x^4-2x^6-2x^8-x^10)/(1-x-x^2+x^5-x^6+x^7+x^9))`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068927
@@ -6875,7 +6862,7 @@ end A068927
 /-!
 # A068928: Number of incongruent ways to tile a 3 X 2n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068928, the canonical program `A068928.P9095793775632633845` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068928 has offset 1).
+The programs for A068928, the canonical program `A068928.P9095793775632633845` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068928 has offset 1).
 
 The definition of A068928 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6907,7 +6894,7 @@ end A068928
 
 `a(n-1)+2*a(n-2)-a(n-3)-a(n-5)-a(n-6)` with `a(0)=2, a(1)=2, a(2)=2, a(3)=4, a(4)=5, a(5)=9, a(6)=12`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068928
@@ -7366,7 +7353,7 @@ end A068929.P16140639597467502274
 /-!
 # A068930: Number of incongruent ways to tile a 5 X 2n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 
-The programs for A068930, the canonical program `A068930.P7992062868214046718` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068930 has offset 1).
+The programs for A068930, the canonical program `A068930.P7992062868214046718` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068930 has offset 1).
 
 The definition of A068930 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7375,7 +7362,7 @@ The definition of A068930 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4+2x-3x^2-5x^3-6x^4-2x^5-x^6+3x^7+4x^8+5x^9+x^10)/(1-x^2-x^3-x^4+x^7+x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068930
@@ -9967,27 +9954,6 @@ end
 end A068955.P1433791004081702278
 
 /-!
-# A068956: Number of distinct prime factors of n^n - (n-1)^(n-1).
-
-The programs for A068956, there is no canonical definition to state claims against.
--/
-
-/-! ## A068956.P3643948577933329270
-
-`A099072(A068957(n+2))`
--/
-
-namespace A068956.P3643948577933329270
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099072 (A068957 (n + 2)).toNat
-
-end
-
-end A068956.P3643948577933329270
-
-/-!
 # A068957: Number of prime divisors of n^n - (n-1)^(n-1), counted with multiplicity.
 
 The programs for A068957, there is no canonical definition to state claims against.
@@ -11924,51 +11890,6 @@ end A068978.P13136497819439778285
 
 The programs for A068980, there is no canonical definition to state claims against.
 -/
-
-/-! ## A068980.P16191367103552422531
-
-`A001302(floor(n/2))`
--/
-
-namespace A068980.P16191367103552422531
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001302 ⌊(n : ℚ) / 2⌋.toNat
-
-end
-
-end A068980.P16191367103552422531
-
-/-! ## A068980.P14705577658611126649
-
-`A057537(floor(n/2))`
--/
-
-namespace A068980.P14705577658611126649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057537 ⌊(n : ℚ) / 2⌋.toNat
-
-end
-
-end A068980.P14705577658611126649
-
-/-! ## A068980.P14311096501865391714
-
-`A182086(floor(n/2))`
--/
-
-namespace A068980.P14311096501865391714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182086 ⌊(n : ℚ) / 2⌋.toNat
-
-end
-
-end A068980.P14311096501865391714
 
 /-! ## A068980.P5118363479105101624
 
@@ -14005,7 +13926,7 @@ end A068994.P744253315501507052
 /-!
 # A068995: Integer parts of the square roots of the schizophrenic numbers (A014824).
 
-The programs for A068995, the canonical program `A068995.P18313009583338607265` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068995 has offset 1).
+The programs for A068995, the canonical program `A068995.P18313009583338607265` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068995 has offset 1).
 
 The definition of A068995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 199 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14014,7 +13935,7 @@ The definition of A068995 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(10)^(n+2)/9)`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A068995

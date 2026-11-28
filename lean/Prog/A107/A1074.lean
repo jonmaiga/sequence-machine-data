@@ -8,7 +8,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -19,24 +18,26 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +46,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
@@ -54,8 +54,9 @@ import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -64,6 +65,8 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -71,7 +74,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1311,6 +1313,29 @@ theorem P15283889317363873977.correct : P15283889317363873977.Spec := by
 
 end A107418
 
+/-! ## A107418.P13297498857251126062
+
+`ogf((1+18x+45x^2+20x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A107418.P13297498857251126062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 18, 45, 20] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A107418.P13297498857251126062
+
+namespace A107418
+
+/-- `ogf((1+18x+45x^2+20x^3)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P13297498857251126062.Spec : Prop :=
+  ∀ n, P13297498857251126062.a n = A107418 n
+
+end A107418
+
 /-! ## A107418.P5448703285232012241
 
 `∑[∑[n+1]]*∑[∑[∑[∑[∑[n+1]]]]]`
@@ -1509,6 +1534,29 @@ def P4302426818804149732.Spec : Prop :=
 theorem P4302426818804149732.correct : P4302426818804149732.Spec := by
   intro n
   simp only [A107419]
+
+end A107419
+
+/-! ## A107419.P17362003059094283026
+
+`ogf((1+28x+126x^2+140x^3+35x^4)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))`
+-/
+
+namespace A107419.P17362003059094283026
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 28, 126, 140, 35] [1, -12, 66, -220, 495, -792, 924, -792, 495, -220, 66, -12, 1] n
+
+end
+
+end A107419.P17362003059094283026
+
+namespace A107419
+
+/-- `ogf((1+28x+126x^2+140x^3+35x^4)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))` -/
+def P17362003059094283026.Spec : Prop :=
+  ∀ n, P17362003059094283026.a n = A107419 n
 
 end A107419
 
@@ -3750,29 +3798,6 @@ namespace A107436
 /-- `A123578(n)+A091225(A005574(3*n+2))` -/
 def P9931434398744983565.Spec : Prop :=
   ∀ n, P9931434398744983565.a n = A107436 (n + 1)
-
-end A107436
-
-/-! ## A107436.P1947416063523133215
-
-`A002024(A028310(n))`
--/
-
-namespace A107436.P1947416063523133215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A028310 n).toNat
-
-end
-
-end A107436.P1947416063523133215
-
-namespace A107436
-
-/-- `A002024(A028310(n))` -/
-def P1947416063523133215.Spec : Prop :=
-  ∀ n, P1947416063523133215.a n = A107436 (n + 1)
 
 end A107436
 
@@ -7241,7 +7266,7 @@ end A107471
 /-!
 # A107472: Composite numbers in sequence A107323.
 
-The programs for A107472, the canonical program `A107472.P3955423761168080437` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107472 has offset 1).
+The programs for A107472, the canonical program `A107472.P3955423761168080437` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107472 has offset 1).
 
 The definition of A107472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4822 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7273,7 +7298,7 @@ end A107472
 
 `filter[A107323(n+3), A005171(#)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107472
@@ -8543,6 +8568,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A107482.P6953990557306402918
+
+/-!
+# A107483: Base 3 representation of the positive integers n such that Sum[d[k],k=1..n] is an integer, where d(k) is the base 3 fraction 0.k (e.g., d(22 base 10)=d(211 base 3)=0.221 base 3).
+
+The programs for A107483, the canonical program `A107483.P3444458020760879080` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107483 has offset 1).
+
+The definition of A107483 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A107483.P3444458020760879080
+
+`ogf((2+18x+82x^2+40x^3+180x^4-200x^5+100x^6)/(1-x+x^2-x^3-1000x^4+1000x^5-1000x^6+1000x^7))`
+
+The canonical program, it is in `Seq.B000.C019`.
+-/
+
+namespace A107483
+
+/-- `ogf((2+18x+82x^2+40x^3+180x^4-200x^5+100x^6)/(1-x+x^2-x^3-1000x^4+1000x^5-1000x^6+1000x^7))` -/
+def P3444458020760879080.Spec : Prop :=
+  ∀ n, P3444458020760879080.a n = A107483 (n + 1)
+
+theorem P3444458020760879080.correct : P3444458020760879080.Spec := by
+  intro n
+  simp only [A107483, Nat.add_sub_cancel]
+
+end A107483
 
 /-!
 # A107486: One-sixth the smallest semiperimeter common to exactly n Pythagorean triangles.

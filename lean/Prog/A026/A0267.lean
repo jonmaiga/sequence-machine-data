@@ -27,15 +27,14 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
@@ -44,9 +43,11 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,30 +57,30 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +104,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -308,21 +308,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026703.P16613308774215851336
-
-/-! ## A026703.P11561247550433690561
-
-`A302840(A008288(n))`
--/
-
-namespace A026703.P11561247550433690561
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302840 (A008288 n).toNat
-
-end
-
-end A026703.P11561247550433690561
 
 /-! ## A026703.P10633011784560469489
 
@@ -1457,36 +1442,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026714.P6855658467474433738
-
-/-! ## A026714.P10855881349092045166
-
-`A222254(A008288(n))`
--/
-
-namespace A026714.P10855881349092045166
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222254 (A008288 n).toNat
-
-end
-
-end A026714.P10855881349092045166
-
-/-! ## A026714.P11420746487276462046
-
-`A377286(A202756(n+1))`
--/
-
-namespace A026714.P11420746487276462046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377286 (A202756 (n + 1)).toNat
-
-end
-
-end A026714.P11420746487276462046
 
 /-! ## A026714.P4438076005817419951
 
@@ -3635,21 +3590,6 @@ end A026729
 
 The programs for A026730, there is no canonical definition to state claims against.
 -/
-
-/-! ## A026730.P8575087310548603848
-
-`A002487(A161673(n+1))`
--/
-
-namespace A026730.P8575087310548603848
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002487 (A161673 (n + 1)).toNat
-
-end
-
-end A026730.P8575087310548603848
 
 /-! ## A026730.P1564183900546520348
 
@@ -6350,7 +6290,7 @@ end A026743
 /-!
 # A026744: a(n) = Sum_{j=0..floor(n/2)} T(n,j), T given by A026736.
 
-The programs for A026744, the canonical program `A026744.P17683520141344923729` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026744 has offset 0).
+The programs for A026744, the canonical program `A026744.P17683520141344923729` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026744 has offset 0).
 
 The definition of A026744 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 320 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6359,7 +6299,7 @@ The definition of A026744 is `conjectured`: the Lean definition is a formula tha
 
 `A026733(n)+A026742(n)-A026731(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A026744
@@ -7566,21 +7506,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026753.P10987548123578285030
-
-/-! ## A026753.P1090794134791411103
-
-`A027222(n)`
--/
-
-namespace A026753.P1090794134791411103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027222 n
-
-end
-
-end A026753.P1090794134791411103
 
 /-!
 # A026754: a(n) = Sum{k=0..n} T(n,k), T given by A026747.
@@ -8928,21 +8853,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026764.P4923794430484104326
-
-/-! ## A026764.P13718682552383899018
-
-`A027230(n)`
--/
-
-namespace A026764.P13718682552383899018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027230 n
-
-end
-
-end A026764.P13718682552383899018
 
 /-!
 # A026765: a(n) = Sum_{k=0..n} T(n,k), T given by A026758.
@@ -11601,21 +11511,6 @@ end
 
 end A026786.P6411104177612366710
 
-/-! ## A026786.P16801277443433053273
-
-`A027246(n)`
--/
-
-namespace A026786.P16801277443433053273
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027246 n
-
-end
-
-end A026786.P16801277443433053273
-
 /-!
 # A026787: a(n) = Sum_{k=0..n} T(n,k), T given by A026780.
 
@@ -12027,36 +11922,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026792.P9933110069885060963
-
-/-! ## A026792.P17652564122430493049
-
-`A334301(n+1)`
--/
-
-namespace A026792.P17652564122430493049
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334301 (n + 1)
-
-end
-
-end A026792.P17652564122430493049
-
-/-! ## A026792.P14645426232915925654
-
-`A139100(n+1)`
--/
-
-namespace A026792.P14645426232915925654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139100 (n + 1)
-
-end
-
-end A026792.P14645426232915925654
 
 /-!
 # A026793: Juxtaposed partitions of 1,2,3,... into distinct parts, ordered by number of terms and then lexicographically.

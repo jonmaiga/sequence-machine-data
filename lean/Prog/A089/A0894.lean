@@ -24,22 +24,23 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,6 +59,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -70,13 +72,14 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +93,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -4873,27 +4875,6 @@ def P16112547690929919106.Spec : Prop :=
 end A089443
 
 /-!
-# A089445: Smallest 7-tuple of consecutive primes such that a(n)+a(n+1)+a(n+2)+a(n+3)+a(n+4), n=1...3, are again consecutive primes.
-
-The programs for A089445, there is no canonical definition to state claims against.
--/
-
-/-! ## A089445.P6853729735413292188
-
-`A089446(n+1)`
--/
-
-namespace A089445.P6853729735413292188
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089446 (n + 1)
-
-end
-
-end A089445.P6853729735413292188
-
-/-!
 # A089447: Symmetric square table of coefficients, read by antidiagonals, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies: f(x,y) = g(x,y) + xy*f(x,y)^4 and where g(x,y) satisfies: 1 + (x+y-1)*g(x,y) + xy*g(x,y)^2 = 0.
 
 The programs for A089447, there is no canonical definition to state claims against.
@@ -5003,21 +4984,6 @@ end A089448.P18273025024693664010
 
 The programs for A089449, there is no canonical definition to state claims against.
 -/
-
-/-! ## A089449.P3231726460414180416
-
-`A053617(n+1)`
--/
-
-namespace A089449.P3231726460414180416
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053617 (n + 1)
-
-end
-
-end A089449.P3231726460414180416
 
 /-! ## A089449.P17702551075932971092
 

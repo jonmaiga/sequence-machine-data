@@ -11,27 +11,27 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +46,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -54,9 +55,9 @@ import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -74,6 +75,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -624,7 +626,7 @@ end A306015
 /-!
 # A306020: a(n) is the number of set-systems using nonempty subsets of {1,...,n} in which all sets have the same size.
 
-The programs for A306020, the canonical program `A306020.P12964979202059882125` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306020 has offset 0).
+The programs for A306020, the canonical program `A306020.P12964979202059882125` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306020 has offset 0).
 
 The definition of A306020 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -633,7 +635,7 @@ The definition of A306020 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1-n+∑{#}[n-1, 2^C(n, #)]`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A306020
@@ -1564,21 +1566,6 @@ end A306038.P2870438736821358285
 
 The programs for A306041, there is no canonical definition to state claims against.
 -/
-
-/-! ## A306041.P10730396969993551435
-
-`A345870(n)`
--/
-
-namespace A306041.P10730396969993551435
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345870 n
-
-end
-
-end A306041.P10730396969993551435
 
 /-! ## A306041.P5947196214816853547
 
@@ -2689,7 +2676,7 @@ end A306067.P2739339445178348922
 /-!
 # A306069: Partial sums of A286324: Sum_{k=1..n} bd(k) where bd(k) is the number of bi-unitary divisors of k.
 
-The programs for A306069, the canonical program `A306069.P18155457765908333284` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306069 has offset 1).
+The programs for A306069, the canonical program `A306069.P18155457765908333284` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306069 has offset 1).
 
 The definition of A306069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2698,7 +2685,7 @@ The definition of A306069 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∏{e}[1+n, #%2+#]]`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A306069
@@ -3511,46 +3498,10 @@ end
 end A306080.P17947608404148526379
 
 /-!
-# A306081: Expansion of e.g.f. Product_{k>=1} ((1 + (exp(x) - 1)^k) / (1 - (exp(x) - 1)^k))^k.
-
-The programs for A306081, there is no canonical definition to state claims against.
--/
-
-/-! ## A306081.P6662600601948312313
-
-`A326886(n)`
--/
-
-namespace A306081.P6662600601948312313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326886 n
-
-end
-
-end A306081.P6662600601948312313
-
-/-!
 # A306082: Expansion of e.g.f. Product_{k>=1} 1/(1 - (exp(x) - 1)^(k^2)).
 
 The programs for A306082, there is no canonical definition to state claims against.
 -/
-
-/-! ## A306082.P15294885093601768424
-
-`A076726(n)-A101052(n)`
--/
-
-namespace A306082.P15294885093601768424
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076726 n - A101052 n
-
-end
-
-end A306082.P15294885093601768424
 
 /-! ## A306082.P5568923679722136345
 
@@ -3593,21 +3544,6 @@ end A306082.P8593168005294189004
 
 The programs for A306083, there is no canonical definition to state claims against.
 -/
-
-/-! ## A306083.P15041497676575198069
-
-`A028245(n+1)+1`
--/
-
-namespace A306083.P15041497676575198069
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028245 (n + 1) + 1
-
-end
-
-end A306083.P15041497676575198069
 
 /-! ## A306083.P14243672808495437469
 

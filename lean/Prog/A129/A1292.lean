@@ -8,7 +8,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -16,7 +15,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -30,20 +28,20 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C047
-import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,6 +73,7 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -82,8 +81,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,6 +95,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -107,7 +105,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1769,27 +1766,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129224.P4713049228110645481
-
-/-!
-# A129227: a(n) is that prime number, p, less than n*Pi such that n*Pi/p has the smallest fractional part.
-
-The programs for A129227, there is no canonical definition to state claims against.
--/
-
-/-! ## A129227.P14999389295358396983
-
-`A000040(A088444(2*n+4))`
--/
-
-namespace A129227.P14999389295358396983
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (A088444 (2 * n + 4)).toNat
-
-end
-
-end A129227.P14999389295358396983
 
 /-!
 # A129229: a(n) = floor(n*r)-a(n-1), where r is the golden mean, (1+sqrt(5))/2.
@@ -4138,7 +4114,7 @@ end A129247.P13140676219198754959
 /-!
 # A129251: Number of distinct prime factors p of n such that p^p is a divisor of n.
 
-The programs for A129251, the canonical program `A129251.P7929244139984754788` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129251 has offset 1).
+The programs for A129251, the canonical program `A129251.P7929244139984754788` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129251 has offset 1).
 
 The definition of A129251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4170,7 +4146,7 @@ end A129251
 
 `A001221(A327939(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A129251
@@ -4303,29 +4279,6 @@ def P11335373764213065700.Spec : Prop :=
 
 end A129251
 
-/-! ## A129251.P3751729584690753662
-
-`A276077(n+1)`
--/
-
-namespace A129251.P3751729584690753662
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276077 (n + 1)
-
-end
-
-end A129251.P3751729584690753662
-
-namespace A129251
-
-/-- `A276077(n+1)` -/
-def P3751729584690753662.Spec : Prop :=
-  ∀ n, P3751729584690753662.a n = A129251 (n + 1)
-
-end A129251
-
 /-! ## A129251.P8929523112200877292
 
 `A007418(n)%A129252(n+1)`
@@ -4375,7 +4328,7 @@ end A129251
 /-!
 # A129252: Smallest prime factor p of n such that p^p is a divisor of n, a(n)=1 if no such factor exists.
 
-The programs for A129252, the canonical program `A129252.P9980146663928979032` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129252 has offset 1).
+The programs for A129252, the canonical program `A129252.P9980146663928979032` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129252 has offset 1).
 
 The definition of A129252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4384,7 +4337,7 @@ The definition of A129252 is `conjectured`: the Lean definition is a formula tha
 
 `A020639(A327939(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A129252
@@ -5248,7 +5201,7 @@ end A129253
 /-!
 # A129254: Numbers k such that both k and k+1 have at least one divisor of the form p^e with p<=e, p prime.
 
-The programs for A129254, the canonical program `A129254.P18154501842966907616` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129254 has offset 1).
+The programs for A129254, the canonical program `A129254.P18154501842966907616` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129254 has offset 1).
 
 The definition of A129254 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 672 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5286,7 +5239,7 @@ end A129254
 
 `∩[A100716(n+1)-1, A100716(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A129254

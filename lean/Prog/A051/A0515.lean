@@ -8,27 +8,28 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,22 +52,20 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +77,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -10325,6 +10323,29 @@ theorem P2847234074248479147.correct : P2847234074248479147.Spec := by
 
 end A051588
 
+/-! ## A051588.P14203456934911627608
+
+`ogf((x-8x^2+24x^3)/(1-23x+194x^2-712x^3+960x^4))`
+-/
+
+namespace A051588.P14203456934911627608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -8, 24] [1, -23, 194, -712, 960] n
+
+end
+
+end A051588.P14203456934911627608
+
+namespace A051588
+
+/-- `ogf((x-8x^2+24x^3)/(1-23x+194x^2-712x^3+960x^4))` -/
+def P14203456934911627608.Spec : Prop :=
+  ∀ n, P14203456934911627608.a n = A051588 n
+
+end A051588
+
 /-!
 # A051593: Largest order of even permutation of n elements, or maximal order of element of alternating group A_n.
 
@@ -11269,21 +11290,6 @@ end A051598
 
 The programs for A051599, there is no canonical definition to state claims against.
 -/
-
-/-! ## A051599.P12996892089302898492
-
-`A144305(A014132(n+1))`
--/
-
-namespace A051599.P12996892089302898492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144305 (A014132 (n + 1)).toNat
-
-end
-
-end A051599.P12996892089302898492
 
 /-! ## A051599.P5376349036360462002
 

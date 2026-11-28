@@ -2,18 +2,20 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C012
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C038
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C006
@@ -38,7 +40,6 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 /-!
@@ -265,27 +266,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012908.P12630457129187658462
-
-/-!
-# A012909: sec(arcsin(x)+log(x+1))=1+4/2!*x^2-6/3!*x^3+107/4!*x^4-490/5!*x^5...
-
-The programs for A012909, there is no canonical definition to state claims against.
--/
-
-/-! ## A012909.P1129945850638807527
-
-`A013023(n)`
--/
-
-namespace A012909.P1129945850638807527
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013023 n
-
-end
-
-end A012909.P1129945850638807527
 
 /-!
 # A012910: E.g.f.: sech(arcsin(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+53/4!*x^4-310/5!*x^5...
@@ -1277,21 +1257,6 @@ end
 
 end A012948.P12894523206787080931
 
-/-! ## A012948.P2469223282802771205
-
-`A013182(n)`
--/
-
-namespace A012948.P2469223282802771205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013182 n
-
-end
-
-end A012948.P2469223282802771205
-
 /-! ## A012948.P5464848966904138345
 
 `A275848((n-1)*a(n-1)+1)` with `a(0)=1, a(1)=2`
@@ -2119,27 +2084,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012994.P11875330687845328629
-
-/-!
-# A012997: Expansion of e.g.f.: exp(arctan(x)+tan(x))=1+2*x+4/2!*x^2+8/3!*x^3+16/4!*x^4+72/5!*x^5...
-
-The programs for A012997, there is no canonical definition to state claims against.
--/
-
-/-! ## A012997.P15952786682435476482
-
-`A013184(n)`
--/
-
-namespace A012997.P15952786682435476482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013184 n
-
-end
-
-end A012997.P15952786682435476482
 
 /-!
 # A012998: sin(arctan(x)+tan(x))=2*x-8/3!*x^3+72/5!*x^5-3936/7!*x^7...

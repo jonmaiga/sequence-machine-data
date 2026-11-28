@@ -3,11 +3,11 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -19,25 +19,27 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,13 +58,14 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
@@ -70,13 +73,15 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -88,6 +93,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -8253,7 +8259,7 @@ end A029648
 /-!
 # A029649: Numbers to the right of the central elements of the (1,2)-Pascal triangle A029635 that are different from 2.
 
-The programs for A029649, the canonical program `A029649.P9567198299936449511` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029649 has offset 0).
+The programs for A029649, the canonical program `A029649.P9567198299936449511` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029649 has offset 0).
 
 The definition of A029649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8262,7 +8268,7 @@ The definition of A029649 is `conjectured`: the Lean definition is a formula tha
 
 `A029615(n+1)-A014411(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A029649
@@ -14261,6 +14267,29 @@ The programs for A029697, the canonical program `A029697.P11224692558306356816` 
 The definition of A029697 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A029697.P2378910614885602722
+
+`ogf((6-120x)/(1-40x+144x^2))`
+-/
+
+namespace A029697.P2378910614885602722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -120] [1, -40, 144] n
+
+end
+
+end A029697.P2378910614885602722
+
+namespace A029697
+
+/-- `ogf((6-120x)/(1-40x+144x^2))` -/
+def P2378910614885602722.Spec : Prop :=
+  ∀ n, P2378910614885602722.a n = A029697 (n + 1)
+
+end A029697
+
 /-! ## A029697.P6521131114395353132
 
 `(9*4^(n+1)+36^(n+1))/12`
@@ -14501,48 +14530,6 @@ namespace A029697
 /-- `A083884(n)*A164908(n+1)` -/
 def P14390093730774696849.Spec : Prop :=
   ∀ n, P14390093730774696849.a n = A029697 (n + 1)
-
-end A029697
-
-/-! ## A029697.P11865624469207345799
-
-`A169604(2*n)+A164346(n)`
--/
-
-namespace A029697.P11865624469207345799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A169604 (2 * n) + A164346 n
-
-end
-
-end A029697.P11865624469207345799
-
-namespace A029697
-
-/-- `A169604(2*n)+A164346(n)` -/
-def P11865624469207345799.Spec : Prop :=
-  ∀ n, P11865624469207345799.a n = A029697 (n + 1)
-
-theorem P11865624469207345799.correct : P11865624469207345799.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A029697, Nat.add_sub_cancel, A029697.P11865624469207345799.a, A029697.P11224692558306356816.a, A164346, A164346.P15391135698532929339.a, A169604, A169604.P2454332461179498099.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-      try ((try field_simp); ring_nf)
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A029697, Nat.add_sub_cancel, A029697.P11865624469207345799.a, A029697.P11224692558306356816.a, A164346, A164346.P15391135698532929339.a, A169604, A169604.P2454332461179498099.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring1 | ring_nf | (field_simp; (first | ring1 | ring_nf)) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A029697
 

@@ -29,19 +29,19 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C036
 import Seq.B000.C040
-import Seq.B000.C041
-import Seq.B000.C044
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C048
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -67,20 +67,21 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +106,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -3472,9 +3472,9 @@ end A052125.P14826282531673976496
 /-!
 # A052126: a(1) = 1; for n>1, a(n)=n/(greatest prime dividing n).
 
-The programs for A052126, the canonical program `A052126.P1944428405920482243` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052126 has offset 1).
+The programs for A052126, the canonical program `A052126.P1944428405920482243` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052126 has offset 1).
 
-The definition of A052126 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A052126 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A052126.P11840957904995036554
@@ -3504,7 +3504,7 @@ end A052126
 
 `(n+1)/A006530(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A052126
@@ -12183,27 +12183,6 @@ end
 end A052171.P10515408216082786544
 
 /-!
-# A052172: Pure 3-multicomplexes on infinite set of nodes with n 3-simplexes.
-
-The programs for A052172, there is no canonical definition to state claims against.
--/
-
-/-! ## A052172.P18243480894416671044
-
-`A058783(n)`
--/
-
-namespace A052172.P18243480894416671044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058783 n
-
-end
-
-end A052172.P18243480894416671044
-
-/-!
 # A052173: Another version of the Catalan triangle A008315.
 
 The programs for A052173, the canonical program `A052173.P8337950554572488212` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052173 has offset 0).
@@ -12927,36 +12906,6 @@ end
 
 end A052180.P6110614695110228535
 
-/-! ## A052180.P15698944370041048025
-
-`A038179(A083269(n+2))`
--/
-
-namespace A052180.P15698944370041048025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038179 (A083269 (n + 2)).toNat
-
-end
-
-end A052180.P15698944370041048025
-
-/-! ## A052180.P8763156261339570206
-
-`A005728(A083269(n+2))`
--/
-
-namespace A052180.P8763156261339570206
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005728 (A083269 (n + 2)).toNat
-
-end
-
-end A052180.P8763156261339570206
-
 /-!
 # A052181: Partial sums of A050483.
 
@@ -12985,6 +12934,29 @@ namespace A052181
 /-- `(n+2)*C(n+7, 7)/2` -/
 def P6189114653906311244.Spec : Prop :=
   ∀ n, P6189114653906311244.a n = (A052181 n : ℚ)
+
+end A052181
+
+/-! ## A052181.P2192635222639620446
+
+`ogf((1+3x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A052181.P2192635222639620446
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A052181.P2192635222639620446
+
+namespace A052181
+
+/-- `ogf((1+3x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P2192635222639620446.Spec : Prop :=
+  ∀ n, P2192635222639620446.a n = A052181 n
 
 end A052181
 

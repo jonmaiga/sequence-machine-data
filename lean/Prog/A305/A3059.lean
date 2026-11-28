@@ -2,32 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C036
-import Seq.B000.C040
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C044
+import Seq.B000.C046
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,26 +41,30 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,57 +91,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
-
-/-!
-# A305900: Filter sequence for a(primes > 3) = constant sequences.
-
-The programs for A305900, there is no canonical definition to state claims against.
--/
-
-/-! ## A305900.P11451322386139345291
-
-`A374478(n+1)`
--/
-
-namespace A305900.P11451322386139345291
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374478 (n + 1)
-
-end
-
-end A305900.P11451322386139345291
-
-/-! ## A305900.P15469681893158041761
-
-`A374040(n+1)`
--/
-
-namespace A305900.P15469681893158041761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374040 (n + 1)
-
-end
-
-end A305900.P15469681893158041761
-
-/-! ## A305900.P12338223690653774664
-
-`A373594(n+1)`
--/
-
-namespace A305900.P12338223690653774664
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373594 (n + 1)
-
-end
-
-end A305900.P12338223690653774664
 
 /-!
 # A305905: Number of nXn 0..1 arrays with every element unequal to 0, 1, 2, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
@@ -1537,21 +1491,6 @@ end
 
 end A305937.P1205358061198118134
 
-/-! ## A305937.P4345824103976714966
-
-`A027340(n)-A248518(n)`
--/
-
-namespace A305937.P4345824103976714966
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027340 n - A248518 n
-
-end
-
-end A305937.P4345824103976714966
-
 /-! ## A305937.P8372200357141462816
 
 `A290821(n+4)-A124767(A392367(3*n+2))`
@@ -1884,27 +1823,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305953.P13572696413963091824
-
-/-!
-# A305954: T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 2, 3, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
-
-The programs for A305954, there is no canonical definition to state claims against.
--/
-
-/-! ## A305954.P6045104979659886805
-
-`A317215(1+n)`
--/
-
-namespace A305954.P6045104979659886805
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317215 (1 + n)
-
-end
-
-end A305954.P6045104979659886805
 
 /-!
 # A305955: Number of nXn 0..1 arrays with every element unequal to 1, 2, 3, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
@@ -2575,21 +2493,6 @@ end
 
 end A305973.P3858533243370320423
 
-/-! ## A305973.P349142435568225336
-
-`A004526(A294337(4*n+2))`
--/
-
-namespace A305973.P349142435568225336
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A294337 (4 * n + 2)).toNat
-
-end
-
-end A305973.P349142435568225336
-
 /-! ## A305973.P13540942561810056106
 
 `∏{e}[A321874(2*n+1), #]`
@@ -2718,21 +2621,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305975.P12153321283096399060
-
-/-! ## A305975.P8967085673677485337
-
-`A318887(n+1)`
--/
-
-namespace A305975.P8967085673677485337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318887 (n + 1)
-
-end
-
-end A305975.P8967085673677485337
 
 /-!
 # A305976: a(1) = 1, and for n > 1, if n is a prime power, p^k with k >= 1, a(n) = 2, otherwise a(n) is one more than the position of n in A361102, numbers that are not prime powers.
@@ -2905,21 +2793,6 @@ end A305978.P12627320311058814038
 
 The programs for A305979, there is no canonical definition to state claims against.
 -/
-
-/-! ## A305979.P12069040481075196869
-
-`A334868(n+1)`
--/
-
-namespace A305979.P12069040481075196869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334868 (n + 1)
-
-end
-
-end A305979.P12069040481075196869
 
 /-! ## A305979.P18135391302082103147
 
@@ -3137,21 +3010,6 @@ end A305981.P17608524823285948231
 
 The programs for A305982, there is no canonical definition to state claims against.
 -/
-
-/-! ## A305982.P6488125010717136158
-
-`A000005(A300834(n+1))`
--/
-
-namespace A305982.P6488125010717136158
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A300834 (n + 1)).toNat
-
-end
-
-end A305982.P6488125010717136158
 
 /-! ## A305982.P9148220220287359278
 

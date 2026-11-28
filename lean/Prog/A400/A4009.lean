@@ -6,34 +6,37 @@ import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,10 +48,11 @@ import Seq.B001.C011
 import Seq.B001.C013
 import Seq.B001.C015
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,16 +62,18 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -209,7 +215,7 @@ end A400915.P7858050192255095490
 /-!
 # A400919: Sum of the remainders of n modulo the odd numbers 3, 5, ..., 2*floor(n/3)+1.
 
-The programs for A400919, the canonical program `A400919.P349381899427335323` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400919 has offset 1).
+The programs for A400919, the canonical program `A400919.P349381899427335323` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400919 has offset 1).
 
 The definition of A400919 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -218,7 +224,7 @@ The definition of A400919 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*floor((n+1)/3)-∑{#}[floor((n+1)/3)-1, (2*(#+1)+1)*floor((n+1)/(2*(#+1)+1))]`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400919
@@ -670,29 +676,8 @@ end A400930
 /-!
 # A400931: Numbers all of whose divisors are undulating numbers (A355301).
 
-The programs for A400931, the canonical program `A400931.P9897958907044307004` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400931 has offset 1).
-
-The definition of A400931 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A400931, there is no canonical definition to state claims against.
 -/
-
-/-! ## A400931.P9897958907044307004
-
-`A043096(n+2)`
-
-The canonical program, it is in `Seq.B008.C000`.
--/
-
-namespace A400931
-
-/-- `A043096(n+2)` -/
-def P9897958907044307004.Spec : Prop :=
-  ∀ n, P9897958907044307004.a n = A400931 (n + 1)
-
-theorem P9897958907044307004.correct : P9897958907044307004.Spec := by
-  intro n
-  simp only [A400931, Nat.add_sub_cancel]
-
-end A400931
 
 /-! ## A400931.P11512905980340285825
 
@@ -715,14 +700,6 @@ end
 
 end A400931.P11512905980340285825
 
-namespace A400931
-
-/-- `eq[C(A351868(n), n), A178334(n)]` -/
-def P11512905980340285825.Spec : Prop :=
-  ∀ n, (P11512905980340285825.a n : ℤ) = A400931 (n + 1)
-
-end A400931
-
 /-! ## A400931.P93778877325206679
 
 `eq[A010057(A321804(n)+2), A178334(n)]`
@@ -743,14 +720,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A400931.P93778877325206679
-
-namespace A400931
-
-/-- `eq[A010057(A321804(n)+2), A178334(n)]` -/
-def P93778877325206679.Spec : Prop :=
-  ∀ n, (P93778877325206679.a n : ℤ) = A400931 (n + 1)
-
-end A400931
 
 /-! ## A400931.P10277784818689764996
 
@@ -773,14 +742,6 @@ end
 
 end A400931.P10277784818689764996
 
-namespace A400931
-
-/-- `lt[A000041(n), A045823(n+4)*A321802(n)]` -/
-def P10277784818689764996.Spec : Prop :=
-  ∀ n, (P10277784818689764996.a n : ℤ) = A400931 (n + 1)
-
-end A400931
-
 /-! ## A400931.P4301043493937279036
 
 `lt[A112735(n+1), A005897(3*n+2)*A321801(n)]`
@@ -801,14 +762,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A400931.P4301043493937279036
-
-namespace A400931
-
-/-- `lt[A112735(n+1), A005897(3*n+2)*A321801(n)]` -/
-def P4301043493937279036.Spec : Prop :=
-  ∀ n, (P4301043493937279036.a n : ℤ) = A400931 (n + 1)
-
-end A400931
 
 /-! ## A400931.P17044054789995304185
 
@@ -831,18 +784,10 @@ end
 
 end A400931.P17044054789995304185
 
-namespace A400931
-
-/-- `lt[A048307(n), 10*A321801(n)]` -/
-def P17044054789995304185.Spec : Prop :=
-  ∀ n, (P17044054789995304185.a n : ℤ) = A400931 (n + 1)
-
-end A400931
-
 /-!
 # A400937: Squares visited by knight moves on a diagonally numbered Q1 board and always taking the available unvisited square with the shortest distance to the bisecting line of Q1. In the case of a tie, first squares with the larger row index are preferred, second the square with larger column index is preferred. Starting square is labeled 1.
 
-The programs for A400937, the canonical program `A400937.P6020951137863311618` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400937 has offset 1).
+The programs for A400937, the canonical program `A400937.P6020951137863311618` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400937 has offset 1).
 
 The definition of A400937 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -851,7 +796,7 @@ The definition of A400937 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+7x+7x^2+3x^3)/(1-2x+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400937
@@ -1317,7 +1262,7 @@ end A400937
 /-!
 # A400941: The number of order-preserving or reversing partial permutations of an n-element set.
 
-The programs for A400941, the canonical program `A400941.P3048978257207949309` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400941 has offset 0).
+The programs for A400941, the canonical program `A400941.P3048978257207949309` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400941 has offset 0).
 
 The definition of A400941 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1326,7 +1271,7 @@ The definition of A400941 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*C(2*n, n)-n²-1`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400941
@@ -2562,7 +2507,7 @@ end A400965.P15458733518144005300
 /-!
 # A400967: a(n) is the number of boundary lattice points minus the number of interior lattice points of the regular tetrahedron with vertices (0,0,0), (n,n,0), (n,0,n) and (0,n,n).
 
-The programs for A400967, the canonical program `A400967.P16530172883198578615` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400967 has offset 1).
+The programs for A400967, the canonical program `A400967.P16530172883198578615` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400967 has offset 1).
 
 The definition of A400967 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2571,7 +2516,7 @@ The definition of A400967 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((4-7x+4x^2-3x^3)/(1-4x+6x^2-4x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400967
@@ -2710,7 +2655,7 @@ end A400967
 /-!
 # A400968: a(n) is the number of boundary lattice points minus the number of interior lattice points of the octahedron |x| + |y| + |z| <= n.
 
-The programs for A400968, the canonical program `A400968.P10195912970142873605` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400968 has offset 1).
+The programs for A400968, the canonical program `A400968.P10195912970142873605` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400968 has offset 1).
 
 The definition of A400968 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2719,7 +2664,7 @@ The definition of A400968 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((5-9x-x^2-3x^3)/(1-4x+6x^2-4x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400968
@@ -3380,7 +3325,7 @@ end A400992.P14454194439632647852
 
 The programs for A400993, the canonical program `A400993.P15630145363670834433` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400993 has offset 1).
 
-The definition of A400993 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A003963, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A400993 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A400993.P8924168450683391592
@@ -3827,7 +3772,7 @@ end A400995.P7602998954787714415
 /-!
 # A400996: Number of fixed point free involutions in S_{2n} (or perfect matchings on [2n]) which avoid the patterns {123, 231, 321}.
 
-The programs for A400996, the canonical program `A400996.P805758818463875474` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400996 has offset 0).
+The programs for A400996, the canonical program `A400996.P805758818463875474` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A400996 has offset 0).
 
 The definition of A400996 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3836,7 +3781,7 @@ The definition of A400996 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-5x+5x^2)/(1-6x+8x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A400996

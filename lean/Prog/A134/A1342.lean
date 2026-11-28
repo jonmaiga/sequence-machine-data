@@ -9,33 +9,32 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C042
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C047
-import Seq.B000.C048
+import Seq.B000.C045
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -51,20 +50,20 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,17 +72,14 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -450,24 +446,6 @@ end
 
 end A134207.P13164027018750883833
 
-/-! ## A134207.P7979692628351324458
-
-`record[A134204(n)]`
--/
-
-namespace A134207.P7979692628351324458
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134204 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A134207.P7979692628351324458
-
 /-!
 # A134208: a(n) = A134207(n) + A134207(n-1).
 
@@ -761,21 +739,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A134211.P7885428868148268092
-
-/-! ## A134211.P8430702614038772465
-
-`A162672(A133626(n+1))`
--/
-
-namespace A134211.P8430702614038772465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162672 (A133626 (n + 1)).toNat
-
-end
-
-end A134211.P8430702614038772465
 
 /-!
 # A134212: Positions of 12 after decimal point in decimal expansion of Pi.
@@ -3334,6 +3297,29 @@ The programs for A134230, the canonical program `A134230.P7961735828533681939` i
 The definition of A134230 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10^n+1)²-1` (program `A134230.P7961735828533681939`, by `A134230.P7961735828533681939.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
+/-! ## A134230.P7441177855348912807
+
+`ogf((3-210x)/(1-110x+1000x^2))`
+-/
+
+namespace A134230.P7441177855348912807
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -210] [1, -110, 1000] n
+
+end
+
+end A134230.P7441177855348912807
+
+namespace A134230
+
+/-- `ogf((3-210x)/(1-110x+1000x^2))` -/
+def P7441177855348912807.Spec : Prop :=
+  ∀ n, P7441177855348912807.a n = A134230 n
+
+end A134230
+
 /-! ## A134230.P7961735828533681939
 
 `(10^n+1)²-1`
@@ -3567,29 +3553,6 @@ namespace A134230
 /-- `(Δ[A002275(n)]+2)*Δ[A002275(n)]` -/
 def P14650846102634465345.Spec : Prop :=
   ∀ n, P14650846102634465345.a n = A134230 n
-
-end A134230
-
-/-! ## A134230.P3749503996729957386
-
-`(A009964(n)+A000079(n+1))*A000351(n)`
--/
-
-namespace A134230.P3749503996729957386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A009964 n + A000079 (n + 1)) * A000351 n
-
-end
-
-end A134230.P3749503996729957386
-
-namespace A134230
-
-/-- `(A009964(n)+A000079(n+1))*A000351(n)` -/
-def P3749503996729957386.Spec : Prop :=
-  ∀ n, P3749503996729957386.a n = A134230 n
 
 end A134230
 
@@ -6030,21 +5993,6 @@ end
 
 end A134248.P1151357609715259270
 
-/-! ## A134248.P13701302136076100368
-
-`n*A246106(n)+1`
--/
-
-namespace A134248.P13701302136076100368
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A246106 n + 1
-
-end
-
-end A134248.P13701302136076100368
-
 /-! ## A134248.P13121791873493511476
 
 `A343095(n)^A176289(n)*n+1`
@@ -8198,29 +8146,6 @@ def P12062505664947109635.Spec : Prop :=
 
 end A134269
 
-/-! ## A134269.P17125538147245278594
-
-`A105700(1*A381887(n+1))`
--/
-
-namespace A134269.P17125538147245278594
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105700 (1 * A381887 (n + 1)).toNat
-
-end
-
-end A134269.P17125538147245278594
-
-namespace A134269
-
-/-- `A105700(1*A381887(n+1))` -/
-def P17125538147245278594.Spec : Prop :=
-  ∀ n, P17125538147245278594.a n = A134269 (n + 1)
-
-end A134269
-
 /-! ## A134269.P5698496653137381715
 
 `A113045(A166655(n+2))`
@@ -9799,6 +9724,29 @@ namespace A134287
 /-- `C(n+4, 4)²*(n+5)/5` -/
 def P73250964200486919.Spec : Prop :=
   ∀ n, P73250964200486919.a n = (A134287 n : ℚ)
+
+end A134287
+
+/-! ## A134287.P11711297254454963843
+
+`ogf((1+20x+60x^2+40x^3+5x^4)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A134287.P11711297254454963843
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 20, 60, 40, 5] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A134287.P11711297254454963843
+
+namespace A134287
+
+/-- `ogf((1+20x+60x^2+40x^3+5x^4)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P11711297254454963843.Spec : Prop :=
+  ∀ n, P11711297254454963843.a n = A134287 n
 
 end A134287
 

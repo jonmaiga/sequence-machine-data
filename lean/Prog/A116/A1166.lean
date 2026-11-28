@@ -9,7 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -28,17 +28,20 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C046
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,22 +56,23 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -78,9 +82,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3126,7 +3127,7 @@ end A116614
 /-!
 # A116615: Values of n such that prime(2n) mod 12 = 7.
 
-The programs for A116615, the canonical program `A116615.P7412205470108197455` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116615 has offset 1).
+The programs for A116615, the canonical program `A116615.P7412205470108197455` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116615 has offset 1).
 
 The definition of A116615 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4893 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3135,7 +3136,7 @@ The definition of A116615 is `conjectured`: the Lean definition is a formula tha
 
 `record[A160592(n+1)/A020639(A160592(n+1))]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A116615
@@ -5084,21 +5085,6 @@ end A116633.P1584679523947284125
 The programs for A116634, there is no canonical definition to state claims against.
 -/
 
-/-! ## A116634.P3216640339752251169
-
-`A104501(n)-A260894(n)`
--/
-
-namespace A116634.P3216640339752251169
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104501 n - A260894 n
-
-end
-
-end A116634.P3216640339752251169
-
 /-! ## A116634.P15480196349133905490
 
 `A213259(A293340(n+1))`
@@ -6058,51 +6044,6 @@ end A116642.P15763998170616664366
 
 The programs for A116645, there is no canonical definition to state claims against.
 -/
-
-/-! ## A116645.P5847769547403853402
-
-`A327731(n)-A026814(n)`
--/
-
-namespace A116645.P5847769547403853402
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327731 n - A026814 n
-
-end
-
-end A116645.P5847769547403853402
-
-/-! ## A116645.P2492549220309460865
-
-`A327731(n)-A308990(n)`
--/
-
-namespace A116645.P2492549220309460865
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327731 n - A308990 n
-
-end
-
-end A116645.P2492549220309460865
-
-/-! ## A116645.P6870914825250486226
-
-`A327731(n)-A024793(n+1)`
--/
-
-namespace A116645.P6870914825250486226
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327731 n - A024793 (n + 1)
-
-end
-
-end A116645.P6870914825250486226
 
 /-! ## A116645.P4467976597488030543
 
@@ -8888,21 +8829,6 @@ end A116668
 
 The programs for A116669, there is no canonical definition to state claims against.
 -/
-
-/-! ## A116669.P9870339260934411459
-
-`A131129(A026998(n))`
--/
-
-namespace A116669.P9870339260934411459
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131129 (A026998 n).toNat
-
-end
-
-end A116669.P9870339260934411459
 
 /-! ## A116669.P14347685224019705260
 
@@ -12081,21 +12007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116694.P13364171855741867193
-
-/-! ## A116694.P5017451148436169504
-
-`A222659(n+1)`
--/
-
-namespace A116694.P5017451148436169504
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222659 (n + 1)
-
-end
-
-end A116694.P5017451148436169504
 
 /-!
 # A116695: Digit not appearing in A116670(n).

@@ -4,7 +4,8 @@ import Seq.B000.C001
 import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C028
-import Seq.B000.C050
+import Seq.B000.C029
+import Seq.B000.C052
 import Seq.B001.C008
 import Seq.B001.C014
 import Seq.B002.C000
@@ -13,18 +14,19 @@ import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C004
+import Seq.B005.C002
 import Seq.B009.C000
-import Seq.B012.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C006
+import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C019
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A388841: Positive numbers k such that the factorials of k and k+1 have an equal number of exponential divisors.
@@ -286,7 +288,7 @@ end A388847
 /-!
 # A388848: Number of distinct squares (of any orientation) whose vertices are points of the cross of side n.
 
-The programs for A388848, the canonical program `A388848.P17651515736714168523` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388848 has offset 1).
+The programs for A388848, the canonical program `A388848.P17651515736714168523` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388848 has offset 1).
 
 The definition of A388848 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -318,7 +320,7 @@ end A388848
 
 `(6*(n+1)^4-3*(n+1)²+(n+1)%2)/4`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388848

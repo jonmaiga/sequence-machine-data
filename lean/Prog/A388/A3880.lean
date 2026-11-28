@@ -9,20 +9,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C017
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C038
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C042
+import Seq.B000.C045
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,14 +34,16 @@ import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B001.C015
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -49,10 +51,9 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -335,7 +336,7 @@ end A388010.P3061045705725398793
 /-!
 # A388011: Numbers k such that sigma(k)/k < 5/3.
 
-The programs for A388011, the canonical program `A388011.P14636846454432472198` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388011 has offset 1).
+The programs for A388011, the canonical program `A388011.P14636846454432472198` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388011 has offset 1).
 
 The definition of A388011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -373,7 +374,7 @@ end A388011
 
 `comp[A388012(1+n)-1]+1`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A388011
@@ -538,7 +539,7 @@ end A388011
 /-!
 # A388012: Numbers k such that sigma(k)/k >= 5/3.
 
-The programs for A388012, the canonical program `A388012.P15688760804591210700` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388012 has offset 1).
+The programs for A388012, the canonical program `A388012.P15688760804591210700` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388012 has offset 1).
 
 The definition of A388012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -639,7 +640,7 @@ end A388012
 
 `lt[A277573(n+1), A000203(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A388012
@@ -1192,21 +1193,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388019.P3291608224165440576
-
-/-! ## A388019.P17194003341111752368
-
-`A322377(n+1)`
--/
-
-namespace A388019.P17194003341111752368
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322377 (n + 1)
-
-end
-
-end A388019.P17194003341111752368
 
 /-!
 # A388020: Primitive terms of A023197 that are of the form 4u+2.
@@ -2148,16 +2134,16 @@ end A388038.P8367071319540286076
 /-!
 # A388041: a(n) = n! * ((n-2) * 2^(n-1) + 1).
 
-The programs for A388041, the canonical program `A388041.P14621709364107648952` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388041 has offset 0).
+The programs for A388041, the canonical program `A388041.P14621709364107648952` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388041 has offset 0).
 
-The definition of A388041 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A388041 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A388041.anchor (n : ℕ) : (A388041 n : ℚ) = (Nat.factorial n : ℚ) * (((n : ℤ) - 2 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) + 1)` in `Proof.A388.A388041`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A388041.P14621709364107648952
 
 `n!*((n-2)*2^(n-1)+1)`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388041
@@ -2269,7 +2255,7 @@ end A388041
 /-!
 # A388043: a(n) = Sum_{k=0..n} binomial(3*n-2*k,n-k).
 
-The programs for A388043, the canonical program `A388043.P15504191294830528357` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388043 has offset 0).
+The programs for A388043, the canonical program `A388043.P15504191294830528357` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388043 has offset 0).
 
 The definition of A388043 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(3*n-2*#, n-#)]` (program `A388043.P15504191294830528357`, by `A388043.P15504191294830528357.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2304,7 +2290,7 @@ end A388043
 
 `∑{#}[n, C(3*n-2*#, n-#)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388043
@@ -2412,7 +2398,7 @@ end A388044.P17226502017535246127
 /-!
 # A388045: a(n) = Sum_{k=0..n} 2^k * binomial(n,k) * binomial(3*n+1,k).
 
-The programs for A388045, the canonical program `A388045.P335696645418001648` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388045 has offset 0).
+The programs for A388045, the canonical program `A388045.P335696645418001648` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388045 has offset 0).
 
 The definition of A388045 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 2^#*C(n, #)*C(3*n+1, #)]` (program `A388045.P335696645418001648`, by `A388045.P335696645418001648.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2447,7 +2433,7 @@ end A388045
 
 `∑{#}[n, 2^#*C(n, #)*C(3*n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388045
@@ -2511,7 +2497,7 @@ end A388045
 /-!
 # A388046: a(n) = Sum_{k=0..n} 2^k * binomial(n,k) * binomial(4*n+1,k).
 
-The programs for A388046, the canonical program `A388046.P6385252999507832761` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388046 has offset 0).
+The programs for A388046, the canonical program `A388046.P6385252999507832761` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388046 has offset 0).
 
 The definition of A388046 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 2^#*C(n, #)*C(4*n+1, #)]` (program `A388046.P6385252999507832761`, by `A388046.P6385252999507832761.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2546,7 +2532,7 @@ end A388046
 
 `∑{#}[n, 2^#*C(n, #)*C(4*n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388046
@@ -2610,7 +2596,7 @@ end A388046
 /-!
 # A388047: a(n) = Sum_{k=0..n} 3^k * binomial(n,k) * binomial(n+1,k).
 
-The programs for A388047, the canonical program `A388047.P8010365434717876975` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388047 has offset 0).
+The programs for A388047, the canonical program `A388047.P8010365434717876975` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388047 has offset 0).
 
 The definition of A388047 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 3^#*C(n, #)*C(n+1, #)]` (program `A388047.P8010365434717876975`, by `A388047.P8010365434717876975.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2619,7 +2605,7 @@ The definition of A388047 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 3^#*C(n, #)*C(n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388047
@@ -2787,7 +2773,7 @@ end A388047
 /-!
 # A388048: a(n) = Sum_{k=0..n} 3^k * binomial(n,k) * binomial(2*n+1,k).
 
-The programs for A388048, the canonical program `A388048.P12449995349755214234` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388048 has offset 0).
+The programs for A388048, the canonical program `A388048.P12449995349755214234` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388048 has offset 0).
 
 The definition of A388048 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 3^#*C(n, #)*C(2*n+1, #)]` (program `A388048.P12449995349755214234`, by `A388048.P12449995349755214234.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2796,7 +2782,7 @@ The definition of A388048 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 3^#*C(n, #)*C(2*n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388048
@@ -2837,7 +2823,7 @@ end A388048
 /-!
 # A388049: a(n) = Sum_{k=0..n} 3^k * binomial(n,k) * binomial(3*n+1,k).
 
-The programs for A388049, the canonical program `A388049.P17392265272776558511` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388049 has offset 0).
+The programs for A388049, the canonical program `A388049.P17392265272776558511` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388049 has offset 0).
 
 The definition of A388049 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 3^#*C(n, #)*C(3*n+1, #)]` (program `A388049.P17392265272776558511`, by `A388049.P17392265272776558511.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2846,7 +2832,7 @@ The definition of A388049 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 3^#*C(n, #)*C(3*n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388049
@@ -2887,7 +2873,7 @@ end A388049
 /-!
 # A388050: a(n) = Sum_{k=0..n} 3^k * binomial(n,k) * binomial(4*n+1,k).
 
-The programs for A388050, the canonical program `A388050.P8499097282011738657` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388050 has offset 0).
+The programs for A388050, the canonical program `A388050.P8499097282011738657` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388050 has offset 0).
 
 The definition of A388050 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 3^#*C(n, #)*C(4*n+1, #)]` (program `A388050.P8499097282011738657`, by `A388050.P8499097282011738657.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2896,7 +2882,7 @@ The definition of A388050 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 3^#*C(n, #)*C(4*n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388050
@@ -2964,7 +2950,7 @@ end A388051.P6938883855035054275
 /-!
 # A388053: a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n^2+k+1,n).
 
-The programs for A388053, the canonical program `A388053.P13062986219964032559` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388053 has offset 0).
+The programs for A388053, the canonical program `A388053.P13062986219964032559` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388053 has offset 0).
 
 The definition of A388053 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, C(n, #)*C(n²+#+1, n)]` (program `A388053.P13062986219964032559`, by `A388053.P13062986219964032559.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2973,7 +2959,7 @@ The definition of A388053 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, C(n, #)*C(n²+#+1, n)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388053
@@ -3182,7 +3168,7 @@ end A388059.P6620169139161666274
 /-!
 # A388060: a(n) = Sum_{k=0..n} 4^k * binomial(n,k) * binomial(n+1,k).
 
-The programs for A388060, the canonical program `A388060.P288260941481769411` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388060 has offset 0).
+The programs for A388060, the canonical program `A388060.P288260941481769411` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388060 has offset 0).
 
 The definition of A388060 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 4^#*C(n, #)*C(n+1, #)]` (program `A388060.P288260941481769411`, by `A388060.P288260941481769411.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3191,7 +3177,7 @@ The definition of A388060 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 4^#*C(n, #)*C(n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388060
@@ -3304,7 +3290,7 @@ end A388060
 /-!
 # A388061: a(n) = Sum_{k=0..n} 5^k * binomial(n,k) * binomial(n+1,k).
 
-The programs for A388061, the canonical program `A388061.P9822377354897866995` is in `Seq.B000.C050`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388061 has offset 0).
+The programs for A388061, the canonical program `A388061.P9822377354897866995` is in `Seq.B000.C052`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388061 has offset 0).
 
 The definition of A388061 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `∑{#}[n, 5^#*C(n, #)*C(n+1, #)]` (program `A388061.P9822377354897866995`, by `A388061.P9822377354897866995.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3313,7 +3299,7 @@ The definition of A388061 is `verified`: the Lean definition is proven equivalen
 
 `∑{#}[n, 5^#*C(n, #)*C(n+1, #)]`
 
-The canonical program, it is in `Seq.B000.C050`.
+The canonical program, it is in `Seq.B000.C052`.
 -/
 
 namespace A388061

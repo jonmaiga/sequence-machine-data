@@ -9,10 +9,10 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -23,25 +23,30 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,7 +66,9 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -69,18 +76,18 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +112,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1609,6 +1615,29 @@ theorem P370843666521884735.correct : P370843666521884735.Spec := by
 
 end A027803
 
+/-! ## A027803.P12662225917796855084
+
+`ogf((35+35x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A027803.P12662225917796855084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [35, 35] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A027803.P12662225917796855084
+
+namespace A027803
+
+/-- `ogf((35+35x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P12662225917796855084.Spec : Prop :=
+  ∀ n, P12662225917796855084.a n = A027803 (n + 3)
+
+end A027803
+
 /-! ## A027803.P11646309447943617098
 
 `35*A053347(n)`
@@ -1808,6 +1837,29 @@ def P723827974120069819.Spec : Prop :=
 theorem P723827974120069819.correct : P723827974120069819.Spec := by
   intro n
   simp only [A027804, Nat.add_sub_cancel]
+
+end A027804
+
+/-! ## A027804.P13766924370414545026
+
+`ogf((70+56x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A027804.P13766924370414545026
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [70, 56] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A027804.P13766924370414545026
+
+namespace A027804
+
+/-- `ogf((70+56x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P13766924370414545026.Spec : Prop :=
+  ∀ n, P13766924370414545026.a n = A027804 (n + 4)
 
 end A027804
 
@@ -2032,6 +2084,29 @@ def P1105493490385169665.Spec : Prop :=
 theorem P1105493490385169665.correct : P1105493490385169665.Spec := by
   intro n
   simp only [A027805, Nat.add_sub_cancel]
+
+end A027805
+
+/-! ## A027805.P10061701274714568158
+
+`ogf((126+84x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+-/
+
+namespace A027805.P10061701274714568158
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [126, 84] [1, -11, 55, -165, 330, -462, 462, -330, 165, -55, 11, -1] n
+
+end
+
+end A027805.P10061701274714568158
+
+namespace A027805
+
+/-- `ogf((126+84x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P10061701274714568158.Spec : Prop :=
+  ∀ n, P10061701274714568158.a n = A027805 (n + 5)
 
 end A027805
 
@@ -2323,6 +2398,29 @@ def P16888730679464109162.Spec : Prop :=
 theorem P16888730679464109162.correct : P16888730679464109162.Spec := by
   intro n
   simp only [A027806, Nat.add_sub_cancel]
+
+end A027806
+
+/-! ## A027806.P2680450712709785407
+
+`ogf((210+120x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))`
+-/
+
+namespace A027806.P2680450712709785407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [210, 120] [1, -12, 66, -220, 495, -792, 924, -792, 495, -220, 66, -12, 1] n
+
+end
+
+end A027806.P2680450712709785407
+
+namespace A027806
+
+/-- `ogf((210+120x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))` -/
+def P2680450712709785407.Spec : Prop :=
+  ∀ n, P2680450712709785407.a n = A027806 (n + 6)
 
 end A027806
 
@@ -3905,6 +4003,29 @@ theorem P18259324915077861452.correct : P18259324915077861452.Spec := by
 
 end A027812
 
+/-! ## A027812.P3244652856946284238
+
+`ogf((21+35x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A027812.P3244652856946284238
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [21, 35] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A027812.P3244652856946284238
+
+namespace A027812
+
+/-- `ogf((21+35x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P3244652856946284238.Spec : Prop :=
+  ∀ n, P3244652856946284238.a n = A027812 (n + 2)
+
+end A027812
+
 /-! ## A027812.P12875167436998662338
 
 `7*(n+3)*A000580(n+7)`
@@ -4288,6 +4409,29 @@ theorem P5526844112962584415.correct : P5526844112962584415.Spec := by
 
 end A027813
 
+/-! ## A027813.P6030167559461252765
+
+`ogf((56+70x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A027813.P6030167559461252765
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [56, 70] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A027813.P6030167559461252765
+
+namespace A027813
+
+/-- `ogf((56+70x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P6030167559461252765.Spec : Prop :=
+  ∀ n, P6030167559461252765.a n = A027813 (n + 3)
+
+end A027813
+
 /-! ## A027813.P14197273132276926327
 
 `7*A020722(n)*A053347(n)`
@@ -4519,6 +4663,29 @@ theorem P2724912242655894476.correct : P2724912242655894476.Spec := by
   simp only [A027814, Nat.add_sub_cancel, A027814.P2724912242655894476.a, A027814.P6850746754417898866.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
+end A027814
+
+/-! ## A027814.P12192765668615856004
+
+`ogf((126+126x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+-/
+
+namespace A027814.P12192765668615856004
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [126, 126] [1, -11, 55, -165, 330, -462, 462, -330, 165, -55, 11, -1] n
+
+end
+
+end A027814.P12192765668615856004
+
+namespace A027814
+
+/-- `ogf((126+126x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P12192765668615856004.Spec : Prop :=
+  ∀ n, P12192765668615856004.a n = A027814 (n + 4)
 
 end A027814
 
@@ -4795,6 +4962,29 @@ def P17155762864666877845.Spec : Prop :=
 theorem P17155762864666877845.correct : P17155762864666877845.Spec := by
   intro n
   simp only [A027815, Nat.add_sub_cancel]
+
+end A027815
+
+/-! ## A027815.P13110924641259685863
+
+`ogf((252+210x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))`
+-/
+
+namespace A027815.P13110924641259685863
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [252, 210] [1, -12, 66, -220, 495, -792, 924, -792, 495, -220, 66, -12, 1] n
+
+end
+
+end A027815.P13110924641259685863
+
+namespace A027815
+
+/-- `ogf((252+210x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))` -/
+def P13110924641259685863.Spec : Prop :=
+  ∀ n, P13110924641259685863.a n = A027815 (n + 5)
 
 end A027815
 
@@ -6070,6 +6260,29 @@ theorem P16675201475289446163.correct : P16675201475289446163.Spec := by
 
 end A027819
 
+/-! ## A027819.P2518738447120669342
+
+`ogf((7+21x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A027819.P2518738447120669342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, 21] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A027819.P2518738447120669342
+
+namespace A027819
+
+/-- `ogf((7+21x)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P2518738447120669342.Spec : Prop :=
+  ∀ n, P2518738447120669342.a n = A027819 (n + 1)
+
+end A027819
+
 /-! ## A027819.P10869464413277098794
 
 `7*A052181(n)`
@@ -6379,6 +6592,29 @@ theorem P2891096011409441618.correct : P2891096011409441618.Spec := by
 
 end A027820
 
+/-! ## A027820.P9556971557003254237
+
+`ogf((28+56x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))`
+-/
+
+namespace A027820.P9556971557003254237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [28, 56] [1, -10, 45, -120, 210, -252, 210, -120, 45, -10, 1] n
+
+end
+
+end A027820.P9556971557003254237
+
+namespace A027820
+
+/-- `ogf((28+56x)/(1-10x+45x^2-120x^3+210x^4-252x^5+210x^6-120x^7+45x^8-10x^9+x^10))` -/
+def P9556971557003254237.Spec : Prop :=
+  ∀ n, P9556971557003254237.a n = A027820 (n + 2)
+
+end A027820
+
 /-! ## A027820.P15689080572041581110
 
 `28*A053310(n)`
@@ -6399,12 +6635,6 @@ namespace A027820
 /-- `28*A053310(n)` -/
 def P15689080572041581110.Spec : Prop :=
   ∀ n, P15689080572041581110.a n = A027820 (n + 2)
-
-theorem P15689080572041581110.correct : P15689080572041581110.Spec := by
-  intro n
-  simp only [A027820, Nat.add_sub_cancel, A027820.P15689080572041581110.a, A027820.P5710008669003157396.a, A053310, A053310.P18227198859901366220.a, A055843, A055843.P13673213389990630587.a, A055844, A055844.P3977546084257467032.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A027820
 
@@ -6664,6 +6894,29 @@ theorem P3671204346516759763.correct : P3671204346516759763.Spec := by
 
 end A027821
 
+/-! ## A027821.P15660555601026280518
+
+`ogf((84+126x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))`
+-/
+
+namespace A027821.P15660555601026280518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [84, 126] [1, -11, 55, -165, 330, -462, 462, -330, 165, -55, 11, -1] n
+
+end
+
+end A027821.P15660555601026280518
+
+namespace A027821
+
+/-- `ogf((84+126x)/(1-11x+55x^2-165x^3+330x^4-462x^5+462x^6-330x^7+165x^8-55x^9+11x^10-x^11))` -/
+def P15660555601026280518.Spec : Prop :=
+  ∀ n, P15660555601026280518.a n = A027821 (n + 3)
+
+end A027821
+
 /-! ## A027821.P6839826213611769145
 
 `∑[A027820(n+2)+A027813(n+3)]`
@@ -6710,12 +6963,6 @@ namespace A027821
 /-- `7*(n+1)*A053310(n+1)` -/
 def P5018986693183167452.Spec : Prop :=
   ∀ n, P5018986693183167452.a n = A027821 (n + 3)
-
-theorem P5018986693183167452.correct : P5018986693183167452.Spec := by
-  intro n
-  simp only [A027821, Nat.add_sub_cancel, A027821.P5018986693183167452.a, A027821.P3671204346516759763.a, A053310, A053310.P18227198859901366220.a, A055843, A055843.P13673213389990630587.a, A055844, A055844.P3977546084257467032.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A027821
 
@@ -6859,6 +7106,29 @@ def P15153411154315032143.Spec : Prop :=
 theorem P15153411154315032143.correct : P15153411154315032143.Spec := by
   intro n
   simp only [A027822, Nat.add_sub_cancel]
+
+end A027822
+
+/-! ## A027822.P6730430838652463058
+
+`ogf((210+252x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))`
+-/
+
+namespace A027822.P6730430838652463058
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [210, 252] [1, -12, 66, -220, 495, -792, 924, -792, 495, -220, 66, -12, 1] n
+
+end
+
+end A027822.P6730430838652463058
+
+namespace A027822
+
+/-- `ogf((210+252x)/(1-12x+66x^2-220x^3+495x^4-792x^5+924x^6-792x^7+495x^8-220x^9+66x^10-12x^11+x^12))` -/
+def P6730430838652463058.Spec : Prop :=
+  ∀ n, P6730430838652463058.a n = A027822 (n + 4)
 
 end A027822
 
@@ -7352,24 +7622,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A027826.P2900972535710098972
-
-/-! ## A027826.P1038985543157439111
-
-`Δ[A025276(n+3)]`
--/
-
-namespace A027826.P1038985543157439111
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025276 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A027826.P1038985543157439111
 
 /-! ## A027826.P2602433781271877807
 
@@ -10892,7 +11144,7 @@ end A027853.P5795270235825246586
 /-!
 # A027854: Mutinous numbers: n > 1 such that n/p^k > p, where p is the largest prime dividing n and p^k is the highest power of p dividing n.
 
-The programs for A027854, the canonical program `A027854.P591411851498169145` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027854 has offset 1).
+The programs for A027854, the canonical program `A027854.P591411851498169145` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027854 has offset 1).
 
 The definition of A027854 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2479 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11015,7 +11267,7 @@ end A027854
 
 `lt[A006530(n+1), A051119(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A027854
@@ -11294,7 +11546,7 @@ end A027854
 /-!
 # A027855: Antimutinous numbers: n>1 such that n/p^k < p, where p is the largest prime dividing n and p^k is the highest power of p dividing n.
 
-The programs for A027855, the canonical program `A027855.P2324648124459488261` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027855 has offset 1).
+The programs for A027855, the canonical program `A027855.P2324648124459488261` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027855 has offset 1).
 
 The definition of A027855 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7520 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11685,7 +11937,7 @@ end A027855
 
 `lt[A051119(n+1), A006530(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A027855

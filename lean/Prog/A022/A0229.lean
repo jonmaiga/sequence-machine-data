@@ -28,22 +28,22 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -60,20 +60,22 @@ import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +98,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -189,24 +190,6 @@ end A022900.P10534786363925827147
 
 The programs for A022902, there is no canonical definition to state claims against.
 -/
-
-/-! ## A022902.P10875620584344787042
-
-`Δ[A241087(A008794(n))]`
--/
-
-namespace A022902.P10875620584344787042
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241087 (A008794 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A022902.P10875620584344787042
 
 /-! ## A022902.P10981465389819558858
 
@@ -1090,21 +1073,6 @@ end A022910.P4204107764973990373
 
 The programs for A022911, there is no canonical definition to state claims against.
 -/
-
-/-! ## A022911.P8940893511892276429
-
-`A319500(n+1)`
--/
-
-namespace A022911.P8940893511892276429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319500 (n + 1)
-
-end
-
-end A022911.P8940893511892276429
 
 /-! ## A022911.P6637315490156952987
 
@@ -4007,25 +3975,6 @@ end
 
 end A022928.P9571352242869485107
 
-/-! ## A022928.P12341652626975041556
-
-`char[A110118(n+1)]`
--/
-
-namespace A022928.P12341652626975041556
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110118 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A022928.P12341652626975041556
-
 /-! ## A022928.P9181742615417357482
 
 `A000484(n+2)^A001223(A095904(n+3))`
@@ -5496,27 +5445,6 @@ end
 end A022935.P1219834460835669049
 
 /-!
-# A022936: a(n) = a(n-1) + c(n-1) for n >= 2, a( ) increasing, given a(1)=4; where c( ) is complement of a( ).
-
-The programs for A022936, there is no canonical definition to state claims against.
--/
-
-/-! ## A022936.P3371142501269307176
-
-`A022937(n+2)-(n+2)`
--/
-
-namespace A022936.P3371142501269307176
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022937 (n + 2) - (n + 2 : ℤ)
-
-end
-
-end A022936.P3371142501269307176
-
-/-!
 # A022937: a(n) = a(n-1) + c(n-1) for n >= 2, a( ) increasing, given a(1)=5; where c( ) is complement of a( ).
 
 The programs for A022937, there is no canonical definition to state claims against.
@@ -5554,21 +5482,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A022937.P179765247823910630
-
-/-! ## A022937.P10267444323688172291
-
-`A022938(n+2)-(n+2)`
--/
-
-namespace A022937.P10267444323688172291
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022938 (n + 2) - (n + 2 : ℤ)
-
-end
-
-end A022937.P10267444323688172291
 
 /-!
 # A022938: a(n) = a(n-1) + c(n-1) for n >= 2, a( ) increasing, given a(1)=6; where c( ) is complement of a( ).

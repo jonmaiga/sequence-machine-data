@@ -4,24 +4,21 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -30,16 +27,18 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,20 +56,21 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
 import Seq.B003.C005
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2265,21 +2265,6 @@ end A148439.P6109470663670184750
 The programs for A148440, there is no canonical definition to state claims against.
 -/
 
-/-! ## A148440.P10188498999223723292
-
-`A148441(n)`
--/
-
-namespace A148440.P10188498999223723292
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148441 n
-
-end
-
-end A148440.P10188498999223723292
-
 /-! ## A148440.P14096029355880916586
 
 `A116538(A391035(n))`
@@ -2397,21 +2382,6 @@ end
 
 end A148443.P14733702951563604892
 
-/-! ## A148443.P1767030609556758351
-
-`A148444(n)`
--/
-
-namespace A148443.P1767030609556758351
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148444 n
-
-end
-
-end A148443.P1767030609556758351
-
 /-! ## A148443.P9277927153666806413
 
 `A112325(A149043(n))`
@@ -2484,21 +2454,6 @@ end
 
 end A148445.P16896027612561522799
 
-/-! ## A148445.P11914563793708605374
-
-`A148446(n)`
--/
-
-namespace A148445.P11914563793708605374
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148446 n
-
-end
-
-end A148445.P11914563793708605374
-
 /-! ## A148445.P12374681459753037753
 
 `A126090(A148735(n))`
@@ -2520,21 +2475,6 @@ end A148445.P12374681459753037753
 The programs for A148447, there is no canonical definition to state claims against.
 -/
 
-/-! ## A148447.P11616180200882240155
-
-`A148448(n)`
--/
-
-namespace A148447.P11616180200882240155
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148448 n
-
-end
-
-end A148447.P11616180200882240155
-
 /-! ## A148447.P3299040663556046147
 
 `A148450(A073788(n))`
@@ -2549,27 +2489,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A148447.P3299040663556046147
-
-/-!
-# A148449: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 1), (-1, 0, 0), (-1, 1, 1), (0, 1, 1), (1, 0, -1)}.
-
-The programs for A148449, there is no canonical definition to state claims against.
--/
-
-/-! ## A148449.P16785006558314153857
-
-`A148450(n)`
--/
-
-namespace A148449.P16785006558314153857
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A148450 n
-
-end
-
-end A148449.P16785006558314153857
 
 /-!
 # A148451: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, 0), (0, -1, 0), (0, 0, 1), (1, 1, -1)}.
@@ -4937,21 +4856,6 @@ end A148495.P12093004112906027225
 
 The programs for A148496, there is no canonical definition to state claims against.
 -/
-
-/-! ## A148496.P13106057727219843516
-
-`row(A243696(n))`
--/
-
-namespace A148496.P13106057727219843516
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (A243696 n).toNat
-
-end
-
-end A148496.P13106057727219843516
 
 /-! ## A148496.P169046019910940073
 

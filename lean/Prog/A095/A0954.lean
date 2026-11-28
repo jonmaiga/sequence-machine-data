@@ -6,20 +6,20 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C015
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -34,12 +34,12 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -50,37 +50,14 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C013
-import Seq.Opaque.C016
+import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
-
-/-!
-# A095400: Largest value in trajectory when the following modified juggler map is iterated: n -> (1 - (n mod 2)) * floor(n^(3/4)) + (n mod 2) * floor(n^(4/3)); original exponents {1/2, 3/2} are replaced with {3/4, 4/3}.
-
-The programs for A095400, there is no canonical definition to state claims against.
--/
-
-/-! ## A095400.P9844944100204092225
-
-`A381246(n+1)`
--/
-
-namespace A095400.P9844944100204092225
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A381246 (n + 1)
-
-end
-
-end A095400.P9844944100204092225
 
 /-!
 # A095402: Sum of digits of all distinct prime factors of n.
@@ -2826,21 +2803,6 @@ end A095441.P2835844261064310586
 The programs for A095443, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095443.P2254592857127788393
-
-`A095445(n+1)-1`
--/
-
-namespace A095443.P2254592857127788393
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095445 (n + 1) - 1
-
-end
-
-end A095443.P2254592857127788393
-
 /-! ## A095443.P18397076464641721084
 
 `A233583(A095445(n+1))`
@@ -3510,21 +3472,6 @@ end A095465.P5512580177633934652
 The programs for A095467, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095467.P1975346051722656013
-
-`A095465(n)+1`
--/
-
-namespace A095467.P1975346051722656013
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095465 n + 1
-
-end
-
-end A095467.P1975346051722656013
-
 /-! ## A095467.P1170376161500083261
 
 `abs(A118830(A080872(n))-A095465(n))`
@@ -3596,21 +3543,6 @@ end A095468.P10132954226036003229
 
 The programs for A095469, there is no canonical definition to state claims against.
 -/
-
-/-! ## A095469.P15294837306123434385
-
-`A095467(n)+1`
--/
-
-namespace A095469.P15294837306123434385
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095467 n + 1
-
-end
-
-end A095469.P15294837306123434385
 
 /-! ## A095469.P16481653387589874149
 
@@ -3795,21 +3727,6 @@ end A095473.P9741235965375456101
 The programs for A095475, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095475.P11661997200924142973
-
-`A095473(n)+1`
--/
-
-namespace A095475.P11661997200924142973
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095473 n + 1
-
-end
-
-end A095475.P11661997200924142973
-
 /-! ## A095475.P2828076442053067395
 
 `abs(A260196(A095449(n))-A095473(n))`
@@ -3909,21 +3826,6 @@ end A095481.P6992575022617908598
 The programs for A095485, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095485.P2577572589210577826
-
-`A095487(n)-1`
--/
-
-namespace A095485.P2577572589210577826
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095487 n - 1
-
-end
-
-end A095485.P2577572589210577826
-
 /-! ## A095485.P867969925772567208
 
 `A260196(A095465(n))+A095487(n)`
@@ -3955,46 +3857,10 @@ end
 end A095485.P9815310090719553484
 
 /-!
-# A095487: a(n) = 47 written in base 11 - n.
-
-The programs for A095487, there is no canonical definition to state claims against.
--/
-
-/-! ## A095487.P16620005408589268012
-
-`A095485(n)+1`
--/
-
-namespace A095487.P16620005408589268012
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095485 n + 1
-
-end
-
-end A095487.P16620005408589268012
-
-/-!
 # A095491: a(n) = 49 written in base 12 - n.
 
 The programs for A095491, there is no canonical definition to state claims against.
 -/
-
-/-! ## A095491.P4411103607592857663
-
-`A095493(n)-1`
--/
-
-namespace A095491.P4411103607592857663
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095493 n - 1
-
-end
-
-end A095491.P4411103607592857663
 
 /-! ## A095491.P14424679182638304444
 
@@ -4200,21 +4066,6 @@ end A095495.P11690812264607469554
 The programs for A095497, there is no canonical definition to state claims against.
 -/
 
-/-! ## A095497.P11675653408712334816
-
-`A095499(n)-1`
--/
-
-namespace A095497.P11675653408712334816
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095499 n - 1
-
-end
-
-end A095497.P11675653408712334816
-
 /-! ## A095497.P13871508374541422707
 
 `A134824(A095451(n))+A095499(n)`
@@ -4265,21 +4116,6 @@ end A095497.P7388348648583577399
 
 The programs for A095499, there is no canonical definition to state claims against.
 -/
-
-/-! ## A095499.P11328276501628061356
-
-`A095497(n)+1`
--/
-
-namespace A095499.P11328276501628061356
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095497 n + 1
-
-end
-
-end A095499.P11328276501628061356
 
 /-! ## A095499.P4003345152784154457
 

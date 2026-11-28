@@ -20,30 +20,32 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -59,18 +61,19 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
-import Seq.B006.C001
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B005.C002
+import Seq.B006.C002
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8606,14 +8609,14 @@ end A006164
 /-!
 # A006165: a(1) = a(2) = 1; thereafter a(2n+1) = a(n+1) + a(n), a(2n) = 2a(n).
 
-The programs for A006165, the canonical program `A006165.P2775593661925565035` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006165 has offset 1).
+The programs for A006165, the canonical program `A006165.P7053576809501911375` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006165 has offset 1).
 
 The definition of A006165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A006165.P2775593661925565035
+/-! ## A006165.P7053576809501911375
 
-`n+1-a(n-a(a(n-1)-1))` with `a(0)=1`
+`n+1-a(n-a(a(n-1)-1))` with `a(0)=1, a(1)=1`
 
 The canonical program, it is in `Seq.B000.C001`.
 -/
@@ -8621,10 +8624,10 @@ The canonical program, it is in `Seq.B000.C001`.
 namespace A006165
 
 /-- `n+1-a(n-a(a(n-1)-1))` -/
-def P2775593661925565035.Spec : Prop :=
-  ∀ n, P2775593661925565035.a n = A006165 (n + 1)
+def P7053576809501911375.Spec : Prop :=
+  ∀ n, P7053576809501911375.a n = A006165 (n + 1)
 
-theorem P2775593661925565035.correct : P2775593661925565035.Spec := by
+theorem P7053576809501911375.correct : P7053576809501911375.Spec := by
   intro n
   simp only [A006165, Nat.add_sub_cancel]
 
@@ -8653,7 +8656,7 @@ def P17149979231576627033.Spec : Prop :=
 
 theorem P17149979231576627033.correct : P17149979231576627033.Spec := by
   intro n
-  simp only [A006165, Nat.add_sub_cancel, A006165.P17149979231576627033.a, A006165.P2775593661925565035.a, A060973, A060973.P9569280493827899348.a, SequenceMachineLib.memo_apply]
+  simp only [A006165, Nat.add_sub_cancel, A006165.P17149979231576627033.a, A006165.P7053576809501911375.a, A060973, A060973.P9569280493827899348.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8898,12 +8901,6 @@ namespace A006165
 /-- `1-(a(floor(n-a(a(n-1)-1)))-n)` -/
 def P9016348066931404566.Spec : Prop :=
   ∀ n, P9016348066931404566.a n = A006165 (n + 1)
-
-theorem P9016348066931404566.correct : P9016348066931404566.Spec := by
-  intro n
-  simp only [A006165, Nat.add_sub_cancel, A006165.P9016348066931404566.a, A006165.P2775593661925565035.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A006165
 
@@ -9880,21 +9877,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006170.P9577427242150048578
-
-/-! ## A006170.P2477315538325745899
-
-`A327044(n+1)`
--/
-
-namespace A006170.P2477315538325745899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327044 (n + 1)
-
-end
-
-end A006170.P2477315538325745899
 
 /-!
 # A006171: Number of factorization patterns of polynomials of degree n over integers.

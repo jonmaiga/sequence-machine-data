@@ -3,13 +3,11 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -17,31 +15,30 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B000.C040
+import Seq.B000.C036
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C050
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -58,15 +55,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -76,7 +77,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -164,27 +164,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116502.P3068258974019408408
-
-/-!
-# A116504: Number of distinct prime divisors of the concatenation of n,...,1.
-
-The programs for A116504, there is no canonical definition to state claims against.
--/
-
-/-! ## A116504.P3035043565717703167
-
-`A001222(A110757(n+1))`
--/
-
-namespace A116504.P3035043565717703167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A110757 (n + 1)).toNat
-
-end
-
-end A116504.P3035043565717703167
 
 /-!
 # A116506: Number of singular n X n rational {0,1}-matrices with no zero rows.
@@ -768,21 +747,6 @@ end A116510
 The programs for A116511, there is no canonical definition to state claims against.
 -/
 
-/-! ## A116511.P16007514270938523735
-
-`A348295(A350795(n+1))`
--/
-
-namespace A116511.P16007514270938523735
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348295 (A350795 (n + 1)).toNat
-
-end
-
-end A116511.P16007514270938523735
-
 /-! ## A116511.P17002312666630645162
 
 `A221169(A350795(n+1)²)`
@@ -1223,21 +1187,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116513.P3208178309452222162
-
-/-! ## A116513.P9914599218316283100
-
-`A000196(A378547(2*(n+1)))`
--/
-
-namespace A116513.P9914599218316283100
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (A378547 (2 * (n + 1))).toNat
-
-end
-
-end A116513.P9914599218316283100
 
 /-! ## A116513.P20192815802211751
 
@@ -3241,21 +3190,6 @@ end A116528.P5866488251275519435
 
 The programs for A116529, there is no canonical definition to state claims against.
 -/
-
-/-! ## A116529.P3550864648078052200
-
-`A053830(A116555(n))`
--/
-
-namespace A116529.P3550864648078052200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053830 (A116555 n).toNat
-
-end
-
-end A116529.P3550864648078052200
 
 /-! ## A116529.P4642887478606275198
 
@@ -10182,7 +10116,7 @@ end A116597.P15727442449155528679
 /-!
 # A116598: Triangle read by rows: T(n,k) is the number of partitions of n having exactly k parts equal to 1 (n>=0, 0<=k<=n).
 
-The programs for A116598, the canonical program `A116598.P424206215017867946` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116598 has offset 0).
+The programs for A116598, the canonical program `A116598.P424206215017867946` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116598 has offset 0).
 
 The definition of A116598 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10237,7 +10171,7 @@ end A116598
 
 `A182748(n)+A023531(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A116598

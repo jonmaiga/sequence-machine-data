@@ -11,26 +11,27 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C045
+import Seq.B000.C040
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,15 +56,16 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +90,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1723,51 +1724,6 @@ end
 end A077326.P17756506867237315873
 
 /-!
-# A077328: Smallest number beginning with 3 and having exactly n distinct prime divisors.
-
-The programs for A077328, there is no canonical definition to state claims against.
--/
-
-/-! ## A077328.P7284734471857854331
-
-`A106413(n+1)`
--/
-
-namespace A077328.P7284734471857854331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106413 (n + 1)
-
-end
-
-end A077328.P7284734471857854331
-
-/-!
-# A077329: Smallest number beginning with 4 and having exactly n distinct prime divisors.
-
-The programs for A077329, there is no canonical definition to state claims against.
--/
-
-/-! ## A077329.P9487635672960797337
-
-`A082794(C(record[n^(n%2)+1]+1, n))`
--/
-
-namespace A077329.P9487635672960797337
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ (n % 2) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082794 (Nat.choose (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) + 1) n)
-
-end
-
-end A077329.P9487635672960797337
-
-/-!
 # A077330: Smallest number beginning with 5 and having exactly n distinct prime divisors.
 
 The programs for A077330, there is no canonical definition to state claims against.
@@ -2433,21 +2389,6 @@ end A077338.P6493638960732438180
 
 The programs for A077339, there is no canonical definition to state claims against.
 -/
-
-/-! ## A077339.P803576507790195565
-
-`A077341(1+n)`
--/
-
-namespace A077339.P803576507790195565
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077341 (1 + n)
-
-end
-
-end A077339.P803576507790195565
 
 /-! ## A077339.P5836558048725849543
 
@@ -3418,7 +3359,7 @@ end A077352.P18030495664139521810
 /-!
 # A077353: a(n) = (concatenation in ascending order of divisors of 5^n)/5^n.
 
-The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
+The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
 
 The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3427,7 +3368,7 @@ The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+10^A055642(5^n)/5*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077353
@@ -3990,21 +3931,6 @@ end
 
 end A077359.P6706215600632395180
 
-/-! ## A077359.P6540138756164370039
-
-`A392836(n+1)`
--/
-
-namespace A077359.P6540138756164370039
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392836 (n + 1)
-
-end
-
-end A077359.P6540138756164370039
-
 /-!
 # A077360: Primes whose external digits as well as internal digits form a prime.
 
@@ -4032,21 +3958,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A077360.P9667054786617971982
-
-/-! ## A077360.P15026535114342713497
-
-`A190731(n+5)`
--/
-
-namespace A077360.P15026535114342713497
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A190731 (n + 5)
-
-end
-
-end A077360.P15026535114342713497
 
 /-!
 # A077361: Smallest n-digit prime whose external digits as well as internal digits form a prime, or 0 if no such number exists.
@@ -5061,7 +4972,7 @@ end A077384.P4329595178685829977
 /-!
 # A077385: Triangle read by rows in which n-th row contains 2n-1 terms starting from n^0 to n^(n-1) in increasing order and then in decreasing order to n^0.
 
-The programs for A077385, the canonical program `A077385.P9486370911560269090` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
+The programs for A077385, the canonical program `A077385.P9486370911560269090` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
 
 The definition of A077385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3306 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5070,7 +4981,7 @@ The definition of A077385 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(n))^(A004737(n+1)-1)`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077385
@@ -5974,6 +5885,29 @@ The programs for A077399, the canonical program `A077399.P16597783867148407357` 
 The definition of A077399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A077399.P15465593133830932334
+
+`ogf((3x+12x^2+3x^3)/(1-x-254x^2+254x^3+x^4-x^5))`
+-/
+
+namespace A077399.P15465593133830932334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 12, 3] [1, -1, -254, 254, 1, -1] n
+
+end
+
+end A077399.P15465593133830932334
+
+namespace A077399
+
+/-- `ogf((3x+12x^2+3x^3)/(1-x-254x^2+254x^3+x^4-x^5))` -/
+def P15465593133830932334.Spec : Prop :=
+  ∀ n, P15465593133830932334.a n = A077399 n
+
+end A077399
+
 /-! ## A077399.P16597783867148407357
 
 `254*a(n-2)-a(n-4)+18` with `a(0)=0, a(1)=3, a(2)=15, a(3)=780`
@@ -6178,29 +6112,6 @@ namespace A077399
 /-- `A007750(A014601(n))-A077400(n)` -/
 def P3033653308986258248.Spec : Prop :=
   ∀ n, P3033653308986258248.a n = A077399 n
-
-end A077399
-
-/-! ## A077399.P6636887652764198276
-
-`A195917(n+1)%A077400(A028310(n))`
--/
-
-namespace A077399.P6636887652764198276
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A195917 (n + 1)) (A077400 (A028310 n).toNat)
-
-end
-
-end A077399.P6636887652764198276
-
-namespace A077399
-
-/-- `A195917(n+1)%A077400(A028310(n))` -/
-def P6636887652764198276.Spec : Prop :=
-  ∀ n, P6636887652764198276.a n = A077399 n
 
 end A077399
 

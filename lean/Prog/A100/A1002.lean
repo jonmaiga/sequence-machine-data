@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -24,23 +23,27 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,7 +56,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C013
-import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -75,11 +77,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2811,6 +2811,29 @@ theorem P6911219849584348591.correct : P6911219849584348591.Spec := by
 
 end A100214
 
+/-! ## A100214.P3876524549474028646
+
+`ogf((4-28x+108x^2-260x^3+380x^4-324x^5+148x^6-28x^7)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))`
+-/
+
+namespace A100214.P3876524549474028646
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -28, 108, -260, 380, -324, 148, -28] [1, -9, 36, -84, 126, -126, 84, -36, 9, -1] n
+
+end
+
+end A100214.P3876524549474028646
+
+namespace A100214
+
+/-- `ogf((4-28x+108x^2-260x^3+380x^4-324x^5+148x^6-28x^7)/(1-9x+36x^2-84x^3+126x^4-126x^5+84x^6-36x^7+9x^8-x^9))` -/
+def P3876524549474028646.Spec : Prop :=
+  ∀ n, P3876524549474028646.a n = A100214 n
+
+end A100214
+
 /-! ## A100214.P7237062453955822415
 
 `∑[24*C(n, 2)+4]`
@@ -5043,21 +5066,6 @@ end A100227
 
 The programs for A100229, there is no canonical definition to state claims against.
 -/
-
-/-! ## A100229.P5510367523273999507
-
-`C(A057561(n+1), A002262(n))`
--/
-
-namespace A100229.P5510367523273999507
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A057561 (n + 1)).toNat (A002262 n).toNat
-
-end
-
-end A100229.P5510367523273999507
 
 /-! ## A100229.P6662582108020496582
 
@@ -8024,27 +8032,17 @@ end A100255
 /-!
 # A100256: Squares of second pentagonal numbers: a(n) = (1/4)*n^2*(3*n+1)^2.
 
-The programs for A100256, the canonical program `A100256.P17578070795467786452` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100256 has offset 0).
+The programs for A100256, the canonical program `A100256.P12472559385860508743` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100256 has offset 0).
 
-The definition of A100256 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A100256 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A100256.anchor (n : ℕ) : (A100256 n : ℚ) = (1 : ℚ) / 4 * (n ^ 2 : ℚ) * ((3 * n + 1) ^ 2 : ℚ)` in `Proof.A100.A100256`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A100256.P12472559385860508743
 
 `1/4*n²*(3*n+1)²`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C018`.
 -/
-
-namespace A100256.P12472559385860508743
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 4 * (n ^ 2 : ℚ) * ((3 * n + 1) ^ 2 : ℚ)
-
-end
-
-end A100256.P12472559385860508743
 
 namespace A100256
 
@@ -8057,19 +8055,23 @@ end A100256
 /-! ## A100256.P17578070795467786452
 
 `ogf((4x+29x^2+20x^3+x^4)/(1-5x+10x^2-10x^3+5x^4-x^5))`
-
-The canonical program, it is in `Seq.B000.C018`.
 -/
+
+namespace A100256.P17578070795467786452
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4, 29, 20, 1] [1, -5, 10, -10, 5, -1] n
+
+end
+
+end A100256.P17578070795467786452
 
 namespace A100256
 
 /-- `ogf((4x+29x^2+20x^3+x^4)/(1-5x+10x^2-10x^3+5x^4-x^5))` -/
 def P17578070795467786452.Spec : Prop :=
   ∀ n, P17578070795467786452.a n = A100256 n
-
-theorem P17578070795467786452.correct : P17578070795467786452.Spec := by
-  intro n
-  simp only [A100256]
 
 end A100256
 
@@ -8569,21 +8571,6 @@ end
 
 end A100257.P18421091284607316861
 
-/-! ## A100257.P1501110948995230836
-
-`A359760(n)`
--/
-
-namespace A100257.P1501110948995230836
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359760 n
-
-end
-
-end A100257.P1501110948995230836
-
 /-! ## A100257.P3080095625623529167
 
 `A125061(A038241(n))`
@@ -8866,29 +8853,6 @@ namespace A100260
 /-- `xor(A010674(n), A340503(n+1))` -/
 def P8117441065093695067.Spec : Prop :=
   ∀ n, P8117441065093695067.a n = A100260 (n + 1)
-
-end A100260
-
-/-! ## A100260.P15024583711830807415
-
-`A006068(A105584(n)-1)`
--/
-
-namespace A100260.P15024583711830807415
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006068 (A105584 n - 1).toNat
-
-end
-
-end A100260.P15024583711830807415
-
-namespace A100260
-
-/-- `A006068(A105584(n)-1)` -/
-def P15024583711830807415.Spec : Prop :=
-  ∀ n, P15024583711830807415.a n = A100260 (n + 1)
 
 end A100260
 

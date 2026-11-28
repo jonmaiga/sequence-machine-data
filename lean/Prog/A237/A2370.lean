@@ -3,7 +3,9 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -12,31 +14,29 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C021
+import Seq.B000.C015
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C044
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -49,14 +49,15 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1704,7 +1705,7 @@ end A237032.P14174799936100112708
 /-!
 # A237036: Size of the smallest conjugacy class of size greater than 1 of the alternating group of degree n.
 
-The programs for A237036, the canonical program `A237036.P5097138219934544455` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237036 has offset 4).
+The programs for A237036, the canonical program `A237036.P5097138219934544455` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237036 has offset 4).
 
 The definition of A237036 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1713,7 +1714,7 @@ The definition of A237036 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((3+10x^2-30x^3+20x^4+20x^5-42x^6+28x^7-7x^8)/(1-4x+6x^2-4x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237036
@@ -4359,7 +4360,7 @@ end A237053.P14190457002465627634
 /-!
 # A237054: a(1)=1, a(n) = (a(n-1) + n) XOR n.
 
-The programs for A237054, the canonical program `A237054.P1031553131597878494` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237054 has offset 1).
+The programs for A237054, the canonical program `A237054.P1031553131597878494` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237054 has offset 1).
 
 The definition of A237054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4368,7 +4369,7 @@ The definition of A237054 is `conjectured`: the Lean definition is a formula tha
 
 `xor(1+a(n-1)+n, n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A237054
@@ -4701,36 +4702,6 @@ end
 
 end A237056.P16479932663740925956
 
-/-! ## A237056.P7387504753099393577
-
-`A026239(A073846(n+1))`
--/
-
-namespace A237056.P7387504753099393577
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026239 (A073846 (n + 1)).toNat
-
-end
-
-end A237056.P7387504753099393577
-
-/-! ## A237056.P14731464682269525749
-
-`A073846(A065190(n+1))`
--/
-
-namespace A237056.P14731464682269525749
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073846 (A065190 (n + 1)).toNat
-
-end
-
-end A237056.P14731464682269525749
-
 /-!
 # A237057: a(n) = smallest prime > a(n-1) such that a(n)+4n is also prime.
 
@@ -4873,21 +4844,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A237058.P2423523569316827354
-
-/-! ## A237058.P9460474768110530423
-
-`A073897(n+1)`
--/
-
-namespace A237058.P9460474768110530423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073897 (n + 1)
-
-end
-
-end A237058.P9460474768110530423
 
 /-!
 # A237059: Number of (n+1)X(n+1) 0..2 arrays with the maximum plus the upper median plus the minimum minus the lower median of every 2X2 subblock equal.

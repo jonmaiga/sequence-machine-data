@@ -4,33 +4,33 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
-import Seq.B000.C042
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C044
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,25 +38,22 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -746,21 +743,6 @@ end A119012
 The programs for A119013, there is no canonical definition to state claims against.
 -/
 
-/-! ## A119013.P16545090283708194522
-
-`A052770(n)+A000262(n)`
--/
-
-namespace A119013.P16545090283708194522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052770 n + A000262 n
-
-end
-
-end A119013.P16545090283708194522
-
 /-! ## A119013.P1428245288034029618
 
 `A052770(n)+A028310(A193932(n))`
@@ -839,7 +821,7 @@ end A119015.P86056704897321668
 /-!
 # A119016: Numerators of semiconvergents to sqrt(2).
 
-The programs for A119016, the canonical program `A119016.P1320719277521536636` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
+The programs for A119016, the canonical program `A119016.P1320719277521536636` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
 
 The definition of A119016 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -848,7 +830,7 @@ The definition of A119016 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x^2+2x^3)/(1-2x^2-x^4))`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A119016

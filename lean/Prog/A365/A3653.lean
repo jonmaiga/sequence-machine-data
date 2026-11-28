@@ -9,24 +9,25 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C039
-import Seq.B000.C044
+import Seq.B000.C021
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
 import Seq.B000.C050
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,13 +41,13 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -63,8 +64,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -604,16 +603,16 @@ end A365308.P15022931117620333831
 /-!
 # A365310: a(n) = 2^(2^n) + 2^(2^(n+1)-1).
 
-The programs for A365310, the canonical program `A365310.P9363571024602279806` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365310 has offset 0).
+The programs for A365310, the canonical program `A365310.P9363571024602279806` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365310 has offset 0).
 
-The definition of A365310 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A365310 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A365310.anchor (n : ℕ) : (A365310 n : ℚ) = (2 ^ 2 ^ n : ℚ) + (2 : ℚ) ^ ((2 ^ (n + 1) : ℤ) - 1 : ℤ)` in `Proof.A365.A365310`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A365310.P9363571024602279806
 
 `2^2^n+2^(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A365310
@@ -694,7 +693,7 @@ end A365311.P3627678641463740402
 /-!
 # A365313: Prime powers (A246655) q such that 3 is a nonzero square in the finite field F_q.
 
-The programs for A365313, the canonical program `A365313.P10204782068029342441` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365313 has offset 1).
+The programs for A365313, the canonical program `A365313.P10204782068029342441` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365313 has offset 1).
 
 The definition of A365313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -703,7 +702,7 @@ The definition of A365313 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A091998(n+1), A069513(#)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A365313
@@ -2668,7 +2667,7 @@ end A365332
 /-!
 # A365333: The number of exponentially odd coreful divisors of the largest square dividing n.
 
-The programs for A365333, the canonical program `A365333.P16754517503052846213` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365333 has offset 1).
+The programs for A365333, the canonical program `A365333.P16754517503052846213` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365333 has offset 1).
 
 The definition of A365333 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2677,7 +2676,7 @@ The definition of A365333 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A325837(A008833(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A365333
@@ -3080,7 +3079,7 @@ end A365334
 /-!
 # A365335: The number of exponentially odd coreful divisors of the square root of the largest square dividing n.
 
-The programs for A365335, the canonical program `A365335.P17558981587538508230` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365335 has offset 1).
+The programs for A365335, the canonical program `A365335.P17558981587538508230` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365335 has offset 1).
 
 The definition of A365335 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3089,7 +3088,7 @@ The definition of A365335 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A325837(A000188(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A365335
@@ -3926,7 +3925,7 @@ end A365339.P11743470093319580047
 /-!
 # A365340: a(n) = (4*n)!/(3*n+1)!.
 
-The programs for A365340, the canonical program `A365340.P3771936836746351564` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365340 has offset 0).
+The programs for A365340, the canonical program `A365340.P3771936836746351564` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365340 has offset 0).
 
 The definition of A365340 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3958,7 +3957,7 @@ end A365340
 
 `(4*n)!/(3*n+1)!`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A365340
@@ -4041,7 +4040,7 @@ end A365340
 /-!
 # A365341: a(n) = (5*n)!/(4*n+1)!.
 
-The programs for A365341, the canonical program `A365341.P11718460894782233926` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365341 has offset 0).
+The programs for A365341, the canonical program `A365341.P11718460894782233926` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365341 has offset 0).
 
 The definition of A365341 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4050,7 +4049,7 @@ The definition of A365341 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000142(n)*A002294(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A365341
@@ -4177,27 +4176,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365342.P6153739876049928406
-
-/-!
-# A365344: a(0) = 0; for n > 0, a(n) is the largest distance squared on a square spiral between a(n-1) and any previous occurrence of a(n-1). If a(n-1) has not previously occurred then a(n) = 0.
-
-The programs for A365344, there is no canonical definition to state claims against.
--/
-
-/-! ## A365344.P1668609750682899385
-
-`A366543(n)`
--/
-
-namespace A365344.P1668609750682899385
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366543 n
-
-end
-
-end A365344.P1668609750682899385
 
 /-!
 # A365345: The number of divisors of the smallest square divisible by n.
@@ -6294,7 +6272,7 @@ end A365369.P11447372532239944561
 /-!
 # A365372: Array read by ascending antidiagonals: A(n, k) = n*(k*n^2 - 1) with k > 0.
 
-The programs for A365372, the canonical program `A365372.P17172574265970221799` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365372 has offset 1).
+The programs for A365372, the canonical program `A365372.P17172574265970221799` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365372 has offset 1).
 
 The definition of A365372 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(row(n)-col(n)+1)*((col(n)+1)*(row(n)-col(n)+1)²-1)` (program `A365372.P17172574265970221799`, by `A365372.P17172574265970221799.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6303,7 +6281,7 @@ The definition of A365372 is `verified`: the Lean definition is proven equivalen
 
 `(row(n)-col(n)+1)*((col(n)+1)*(row(n)-col(n)+1)²-1)`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A365372
@@ -6350,7 +6328,7 @@ end A365372
 /-!
 # A365373: a(n) = n*(3*n^4 + 15*n^3 + 25*n^2 - 15*n - 28)/60.
 
-The programs for A365373, the canonical program `A365373.P4114578376088839030` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365373 has offset 0).
+The programs for A365373, the canonical program `A365373.P4114578376088839030` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365373 has offset 0).
 
 The definition of A365373 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A365373.anchor (n : ℕ) : (A365373 n : ℚ) = ((n : ℤ) * ((3 * n ^ 4 + 15 * n ^ 3 + 25 * n ^ 2 : ℤ) - (15 * n : ℤ) - 28) : ℚ) / 60` in `Proof.A365.A365373`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6382,7 +6360,7 @@ end A365373
 
 `n*(3*n^4+15*n^3+25*n²-15*n-28)/60`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A365373
@@ -7346,29 +7324,6 @@ def P975483233404336093.Spec : Prop :=
 
 end A365385
 
-/-! ## A365385.P10743114808448745843
-
-`A366788(n)`
--/
-
-namespace A365385.P10743114808448745843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366788 n
-
-end
-
-end A365385.P10743114808448745843
-
-namespace A365385
-
-/-- `A366788(n)` -/
-def P10743114808448745843.Spec : Prop :=
-  ∀ n, P10743114808448745843.a n = A365385 n
-
-end A365385
-
 /-! ## A365385.P3498941158129190416
 
 `A364259(A000720(A332213(A332211(A332214(n)))))`
@@ -7420,21 +7375,6 @@ end A365385
 
 The programs for A365386, there is no canonical definition to state claims against.
 -/
-
-/-! ## A365386.P15160082052977807306
-
-`A366791(n+1)`
--/
-
-namespace A365386.P15160082052977807306
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366791 (n + 1)
-
-end
-
-end A365386.P15160082052977807306
 
 /-! ## A365386.P609474858840151944
 
@@ -7829,21 +7769,6 @@ end
 
 end A365393.P4593635506818287254
 
-/-! ## A365393.P17664715001240556139
-
-`A366286(n)`
--/
-
-namespace A365393.P17664715001240556139
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366286 n
-
-end
-
-end A365393.P17664715001240556139
-
 /-! ## A365393.P11436131495131940321
 
 `A364192(A085345(n+1))`
@@ -7879,57 +7804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365394.P8911333426521587702
-
-/-! ## A365394.P15647455015178651119
-
-`A336390(A028310(n))`
--/
-
-namespace A365394.P15647455015178651119
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336390 (A028310 n).toNat
-
-end
-
-end A365394.P15647455015178651119
-
-/-! ## A365394.P17201283410141327301
-
-`A336390(A008574(n))`
--/
-
-namespace A365394.P17201283410141327301
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336390 (A008574 n).toNat
-
-end
-
-end A365394.P17201283410141327301
-
-/-!
-# A365395: Lexicographically earliest infinite sequence such that a(i) = a(j) => A365425(i) = A365425(j) and A365427(i) = A365427(j) for all i, j >= 0.
-
-The programs for A365395, there is no canonical definition to state claims against.
--/
-
-/-! ## A365395.P14758505611471237832
-
-`A366792(n)`
--/
-
-namespace A365395.P14758505611471237832
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366792 n
-
-end
-
-end A365395.P14758505611471237832
 
 /-!
 # A365396: Inverse permutation to A243571.
@@ -8106,21 +7980,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365398.P15303333865757173143
-
-/-! ## A365398.P9182884397006073293
-
-`A365399(n+1)`
--/
-
-namespace A365398.P9182884397006073293
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365399 (n + 1)
-
-end
-
-end A365398.P9182884397006073293
 
 /-! ## A365398.P7283944213888434719
 

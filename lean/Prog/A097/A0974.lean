@@ -18,28 +18,29 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,24 +59,24 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +100,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -113,6 +113,29 @@ The programs for A097401, the canonical program `A097401.P8847930580663764338` i
 
 The definition of A097401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A097401.P6757698964146206579
+
+`ogf((332-800x+676x^2-196x^3)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A097401.P6757698964146206579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [332, -800, 676, -196] [1, -4, 6, -4, 1] n
+
+end
+
+end A097401.P6757698964146206579
+
+namespace A097401
+
+/-- `ogf((332-800x+676x^2-196x^3)/(1-4x+6x^2-4x^3+x^4))` -/
+def P6757698964146206579.Spec : Prop :=
+  ∀ n, P6757698964146206579.a n = A097401 (n + 8)
+
+end A097401
 
 /-! ## A097401.P8847930580663764338
 
@@ -619,24 +642,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A097408.P17949978044827257826
-
-/-! ## A097408.P6241822058274572661
-
-`(1*A002942(∑[2*n+1]))%10`
--/
-
-namespace A097408.P6241822058274572661
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (1 * A002942 (∑ j ∈ Finset.range (n + 1), f1 j)) 10
-
-end
-
-end A097408.P6241822058274572661
 
 /-! ## A097408.P12805338631702144586
 
@@ -10737,21 +10742,6 @@ end A097483.P10135362149089749458
 
 The programs for A097484, there is no canonical definition to state claims against.
 -/
-
-/-! ## A097484.P8191983746351822876
-
-`A098067(A098067(2*n+1))`
--/
-
-namespace A097484.P8191983746351822876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A098067 (A098067 (2 * n + 1)).toNat
-
-end
-
-end A097484.P8191983746351822876
 
 /-! ## A097484.P9876309489650079279
 

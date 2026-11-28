@@ -24,19 +24,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
@@ -44,8 +42,10 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,14 +54,13 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -77,13 +76,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -107,7 +103,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -495,42 +490,6 @@ end
 
 end A033608.P14161748911847839249
 
-/-! ## A033608.P8747184425327686716
-
-`A033613(n)`
--/
-
-namespace A033608.P8747184425327686716
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033613 n
-
-end
-
-end A033608.P8747184425327686716
-
-/-!
-# A033609: Coordination sequence T2 for Zeolite Code SBS.
-
-The programs for A033609, there is no canonical definition to state claims against.
--/
-
-/-! ## A033609.P13339818336774595496
-
-`A033614(n)`
--/
-
-namespace A033609.P13339818336774595496
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033614 n
-
-end
-
-end A033609.P13339818336774595496
-
 /-!
 # A033610: Coordination sequence T3 for Zeolite Code SBS.
 
@@ -567,21 +526,6 @@ end
 
 end A033610.P2579810148590060224
 
-/-! ## A033610.P490564720641352990
-
-`A033612(n)`
--/
-
-namespace A033610.P490564720641352990
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033612 n
-
-end
-
-end A033610.P490564720641352990
-
 /-!
 # A033611: Coordination sequence T4 for Zeolite Code SBS.
 
@@ -602,21 +546,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033611.P10466191483326825525
-
-/-! ## A033611.P4962236102871487495
-
-`A033615(n)`
--/
-
-namespace A033611.P4962236102871487495
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033615 n
-
-end
-
-end A033611.P4962236102871487495
 
 /-!
 # A033612: Coordination sequence T1 for Zeolite Code SBT.
@@ -1278,21 +1207,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033620.P5336181380255078102
-
-/-! ## A033620.P14102927984581988292
-
-`A376858(n+1)`
--/
-
-namespace A033620.P14102927984581988292
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376858 (n + 1)
-
-end
-
-end A033620.P14102927984581988292
 
 /-! ## A033620.P5684359485030092758
 
@@ -3771,21 +3685,6 @@ end
 
 end A033644.P13206322875043791933
 
-/-! ## A033644.P12188643443263278450
-
-`A355810(n)!`
--/
-
-namespace A033644.P12188643443263278450
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (A355810 n).toNat
-
-end
-
-end A033644.P12188643443263278450
-
 /-! ## A033644.P16907425046738023881
 
 `n!%A074270(n+3)`
@@ -5291,36 +5190,6 @@ end
 
 end A033664.P4855890344961481651
 
-/-! ## A033664.P7630176258242031989
-
-`A308711(n+1)`
--/
-
-namespace A033664.P7630176258242031989
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308711 (n + 1)
-
-end
-
-end A033664.P7630176258242031989
-
-/-! ## A033664.P16003584750734395076
-
-`A400420(n+1)`
--/
-
-namespace A033664.P16003584750734395076
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400420 (n + 1)
-
-end
-
-end A033664.P16003584750734395076
-
 /-!
 # A033665: Number of 'Reverse and Add' steps needed to reach a palindrome starting at n, or -1 if n never reaches a palindrome.
 
@@ -5401,21 +5270,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033665.P4893576859727383866
-
-/-! ## A033665.P14739483273894828550
-
-`-1+A030547(A000007(n)+n)`
--/
-
-namespace A033665.P14739483273894828550
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -1 + A030547 (A000007 n + (n : ℤ)).toNat
-
-end
-
-end A033665.P14739483273894828550
 
 /-! ## A033665.P9131497654611605530
 
@@ -5558,7 +5412,7 @@ end A033665.P16423262538808480278
 /-!
 # A033666: Base-2 digital convolution sequence (with smallest digits).
 
-The programs for A033666, the canonical program `A033666.P15559541265896972006` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033666 has offset 0).
+The programs for A033666, the canonical program `A033666.P15559541265896972006` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033666 has offset 0).
 
 The definition of A033666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5567,7 +5421,7 @@ The definition of A033666 is `conjectured`: the Lean definition is a formula tha
 
 `A109129(A306286(n))+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A033666
@@ -5694,21 +5548,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A033667.P12399943576403784264
-
-/-! ## A033667.P12370992305002317909
-
-`A033930(A305877(n))`
--/
-
-namespace A033667.P12370992305002317909
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033930 (A305877 n).toNat
-
-end
-
-end A033667.P12370992305002317909
 
 /-!
 # A033668: Theta series of 4-dimensional lattice A_2 tensor A2, with det 81, minimal norm 4.

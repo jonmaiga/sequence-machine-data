@@ -2,50 +2,51 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C043
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B006.C000
-import Seq.B010.C000
+import Seq.B002.C006
+import Seq.B003.C002
+import Seq.B004.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C007
-import Seq.Opaque.C010
+import Seq.Opaque.C009
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import SequenceMachineLib.Triangle
 
 /-!
@@ -1955,7 +1956,7 @@ end A250553.P14952512982848532624
 /-!
 # A250554: Number of length n+2 0..1 arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A250554, the canonical program `A250554.P11660294058464506872` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250554 has offset 1).
+The programs for A250554, the canonical program `A250554.P11660294058464506872` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250554 has offset 1).
 
 The definition of A250554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1987,7 +1988,7 @@ end A250554
 
 `2*(∑[2^n]+n%2)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250554
@@ -2968,7 +2969,7 @@ end A250575.P5336842663029350472
 /-!
 # A250576: Number of (n+1) X (1+1) 0..1 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 
-The programs for A250576, the canonical program `A250576.P15965323562905096149` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250576 has offset 1).
+The programs for A250576, the canonical program `A250576.P15965323562905096149` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250576 has offset 1).
 
 The definition of A250576 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 282 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3000,7 +3001,7 @@ end A250576
 
 `3*a(n-1)-a(n-2)-2*a(n-3)+a(n-4)` with `a(0)=10, a(1)=24, a(2)=55, a(3)=125`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250576
@@ -3378,7 +3379,7 @@ end A250576
 /-!
 # A250577: Number of (n+1) X (2+1) 0..1 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 
-The programs for A250577, the canonical program `A250577.P4015062729286512326` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250577 has offset 1).
+The programs for A250577, the canonical program `A250577.P4015062729286512326` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250577 has offset 1).
 
 The definition of A250577 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 272 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3387,7 +3388,7 @@ The definition of A250577 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((24-36x-26x^2+61x^3-24x^4)/(1-4x+3x^2+5x^3-8x^4+3x^5))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A250577
@@ -3431,8 +3432,29 @@ end A250577
 /-!
 # A250578: Number of (n+1) X (3+1) 0..1 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 
-The programs for A250578, there is no canonical definition to state claims against.
+The programs for A250578, the canonical program `A250578.P11897156475165134433` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250578 has offset 1).
+
+The definition of A250578 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 268 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250578.P11897156475165134433
+
+`ogf((55-133x-44x^2+335x^3-256x^4-10x^5+68x^6-17x^7)/(1-5x+6x^2+7x^3-21x^4+14x^5+x^6-4x^7+x^8))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A250578
+
+/-- `ogf((55-133x-44x^2+335x^3-256x^4-10x^5+68x^6-17x^7)/(1-5x+6x^2+7x^3-21x^4+14x^5+x^6-4x^7+x^8))` -/
+def P11897156475165134433.Spec : Prop :=
+  ∀ n, P11897156475165134433.a n = A250578 (n + 1)
+
+theorem P11897156475165134433.correct : P11897156475165134433.Spec := by
+  intro n
+  simp only [A250578, Nat.add_sub_cancel]
+
+end A250578
 
 /-! ## A250578.P16176164986564867004
 
@@ -3448,6 +3470,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250578.P16176164986564867004
+
+namespace A250578
+
+/-- `A250583(A167614(n+1))` -/
+def P16176164986564867004.Spec : Prop :=
+  ∀ n, P16176164986564867004.a n = A250578 (n + 1)
+
+end A250578
 
 /-!
 # A250579: Number of (n+1) X (4+1) 0..1 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
@@ -3620,8 +3650,29 @@ end A250584.P17591750471658064966
 /-!
 # A250585: Number of (n+1) X (1+1) 0..2 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 
-The programs for A250585, there is no canonical definition to state claims against.
+The programs for A250585, the canonical program `A250585.P6307205228161111615` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250585 has offset 1).
+
+The definition of A250585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 180 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A250585.P6307205228161111615
+
+`ogf((40-73x-83x^2+190x^3+12x^4-132x^5+30x^6+26x^7-9x^8)/(1-6x+7x^2+12x^3-21x^4-3x^5+15x^6-3x^7-3x^8+x^9))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A250585
+
+/-- `ogf((40-73x-83x^2+190x^3+12x^4-132x^5+30x^6+26x^7-9x^8)/(1-6x+7x^2+12x^3-21x^4-3x^5+15x^6-3x^7-3x^8+x^9))` -/
+def P6307205228161111615.Spec : Prop :=
+  ∀ n, P6307205228161111615.a n = A250585 (n + 1)
+
+theorem P6307205228161111615.correct : P6307205228161111615.Spec := by
+  intro n
+  simp only [A250585, Nat.add_sub_cancel]
+
+end A250585
 
 /-! ## A250585.P10693244748150433997
 
@@ -3641,6 +3692,14 @@ end
 
 end A250585.P10693244748150433997
 
+namespace A250585
+
+/-- `A250592(∑[n]+1)` -/
+def P10693244748150433997.Spec : Prop :=
+  ∀ n, P10693244748150433997.a n = A250585 (n + 1)
+
+end A250585
+
 /-! ## A250585.P8028754690340501946
 
 `record[A010054(n)*A250592(n+1)]`
@@ -3658,6 +3717,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A250585.P8028754690340501946
+
+namespace A250585
+
+/-- `record[A010054(n)*A250592(n+1)]` -/
+def P8028754690340501946.Spec : Prop :=
+  ∀ n, P8028754690340501946.a n = A250585 (n + 1)
+
+end A250585
 
 /-! ## A250585.P10890392664770486606
 
@@ -3677,6 +3744,14 @@ end
 
 end A250585.P10890392664770486606
 
+namespace A250585
+
+/-- `record[A250592(n+1)/A007318(n)]` -/
+def P10890392664770486606.Spec : Prop :=
+  ∀ n, P10890392664770486606.a n = (A250585 (n + 1) : ℚ)
+
+end A250585
+
 /-! ## A250585.P18195276344676687062
 
 `record[A250592(n+1)/A039755(n)]`
@@ -3695,23 +3770,13 @@ end
 
 end A250585.P18195276344676687062
 
-/-! ## A250585.P16091741217377464341
+namespace A250585
 
-`record[A250592(n+1)/A109128(n)]`
--/
+/-- `record[A250592(n+1)/A039755(n)]` -/
+def P18195276344676687062.Spec : Prop :=
+  ∀ n, P18195276344676687062.a n = (A250585 (n + 1) : ℚ)
 
-namespace A250585.P16091741217377464341
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A250592 (n + 1) : ℚ) / (A109128 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A250585.P16091741217377464341
+end A250585
 
 /-!
 # A250586: Number of (n+1)X(2+1) 0..2 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.

@@ -4,16 +4,15 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C022
-import Seq.B000.C042
+import Seq.B000.C018
+import Seq.B000.C023
 import Seq.B000.C044
-import Seq.B000.C046
+import Seq.B000.C045
 import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -26,15 +25,15 @@ import Seq.B003.C000
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -44,7 +43,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
@@ -53,6 +51,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -465,7 +464,7 @@ end A402042.P17705669073554567997
 /-!
 # A402051: Numbers k such that d_3(k) is not a 3-smooth number, where d_3 = A007425 is the 3rd Piltz function.
 
-The programs for A402051, the canonical program `A402051.P8690979763279679617` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402051 has offset 1).
+The programs for A402051, the canonical program `A402051.P8690979763279679617` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402051 has offset 1).
 
 The definition of A402051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -504,7 +503,7 @@ end A402051
 
 `∪[A360723(n+1), A366761(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A402051
@@ -1010,7 +1009,7 @@ end A402060.P11507595774395920131
 /-!
 # A402062: Expansion of g.f. (1 + x)*(1 + x^2)/((1 - x)*(1 - 2*x^2)).
 
-The programs for A402062, the canonical program `A402062.P8818315172926567454` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402062 has offset 0).
+The programs for A402062, the canonical program `A402062.P8818315172926567454` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A402062 has offset 0).
 
 The definition of A402062 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x+x^2+x^3)/(1-x-2x^2+2x^3))` (program `A402062.P8818315172926567454`, by `A402062.P8818315172926567454.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1019,7 +1018,7 @@ The definition of A402062 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+x+x^2+x^3)/(1-x-2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A402062

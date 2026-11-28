@@ -2,27 +2,29 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C018
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C032
+import Seq.B000.C026
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C039
+import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C041
-import Seq.B000.C042
-import Seq.B000.C045
-import Seq.B000.C046
-import Seq.B000.C049
+import Seq.B000.C043
+import Seq.B000.C044
+import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,15 +39,18 @@ import Seq.B001.C015
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C003
-import Seq.B005.C000
+import Seq.B004.C004
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
@@ -3027,41 +3032,11 @@ end
 
 end A400392.P17352401160932440498
 
-/-! ## A400392.P18146327158187035214
-
-`A400393(n+1)`
--/
-
-namespace A400392.P18146327158187035214
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400393 (n + 1)
-
-end
-
-end A400392.P18146327158187035214
-
 /-!
 # A400398: a(n) = Sum_{d|n} gcd(d, n/d) / gcud(d, n/d), where gcud is the greatest common unitary divisor.
 
 The programs for A400398, there is no canonical definition to state claims against.
 -/
-
-/-! ## A400398.P5966379604490439257
-
-`A091202(A293442(n+1))`
--/
-
-namespace A400398.P5966379604490439257
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091202 (A293442 (n + 1)).toNat
-
-end
-
-end A400398.P5966379604490439257
 
 /-! ## A400398.P14411535648700459632
 

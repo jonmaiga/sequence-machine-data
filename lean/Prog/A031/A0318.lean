@@ -7,16 +7,15 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C010
+import Seq.B000.C012
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C044
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C007
@@ -26,21 +25,22 @@ import Seq.B002.C001
 import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C004
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C021
 import SequenceMachineLib.Triangle
@@ -2889,21 +2889,6 @@ end
 
 end A031886.P10446806730367168261
 
-/-! ## A031886.P9801023961426483307
-
-`-4+A031887(n+1)`
--/
-
-namespace A031886.P9801023961426483307
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -4 + A031887 (n + 1)
-
-end
-
-end A031886.P9801023961426483307
-
 /-! ## A031886.P6551971766300527466
 
 `∩[A000959(n+1)-4, A000959(n+1)]`
@@ -3255,21 +3240,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031888.P7229188089142536087
-
-/-! ## A031888.P13864326306158867066
-
-`-6+A031889(n+1)`
--/
-
-namespace A031888.P13864326306158867066
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -6 + A031889 (n + 1)
-
-end
-
-end A031888.P13864326306158867066
 
 /-! ## A031888.P17804120935942418284
 

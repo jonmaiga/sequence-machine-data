@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -15,14 +16,15 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -32,15 +34,15 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C040
 import Seq.B000.C043
+import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,6 +68,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -75,12 +78,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6647,29 +6649,6 @@ def P3782595763145141208.Spec : Prop :=
 
 end A035342
 
-/-! ## A035342.P16850437880027055247
-
-`A134144(n+1)`
--/
-
-namespace A035342.P16850437880027055247
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134144 (n + 1)
-
-end
-
-end A035342.P16850437880027055247
-
-namespace A035342
-
-/-- `A134144(n+1)` -/
-def P16850437880027055247.Spec : Prop :=
-  ∀ n, P16850437880027055247.a n = A035342 (n + 1)
-
-end A035342
-
 /-!
 # A035344: Expansion of 1/((1 - x)*(1 - 4*x + 2 * x^2)).
 
@@ -8716,21 +8695,6 @@ end
 
 end A035367.P11794413002626913576
 
-/-! ## A035367.P16616046540568140484
-
-`A035375(A247419(n+1))`
--/
-
-namespace A035367.P16616046540568140484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035375 (A247419 (n + 1)).toNat
-
-end
-
-end A035367.P16616046540568140484
-
 /-! ## A035367.P12048922719980368993
 
 `A035441(record[A285354(n+1)-A035683(n+1)])`
@@ -9581,27 +9545,6 @@ end
 end A035377.P9718637117097099868
 
 /-!
-# A035379: Number of partitions of n into parts 6k or 6k+5.
-
-The programs for A035379, there is no canonical definition to state claims against.
--/
-
-/-! ## A035379.P18053923669912662817
-
-`A035395(A247419(n+1))`
--/
-
-namespace A035379.P18053923669912662817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035395 (A247419 (n + 1)).toNat
-
-end
-
-end A035379.P18053923669912662817
-
-/-!
 # A035380: Number of partitions of n into parts 6k+1 or 6k+2.
 
 The programs for A035380, there is no canonical definition to state claims against.
@@ -10399,21 +10342,6 @@ end A035389.P6363790943195845732
 
 The programs for A035390, there is no canonical definition to state claims against.
 -/
-
-/-! ## A035390.P8691627836299179213
-
-`A035441(A059561(n+1))`
--/
-
-namespace A035390.P8691627836299179213
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035441 (A059561 (n + 1)).toNat
-
-end
-
-end A035390.P8691627836299179213
 
 /-! ## A035390.P7632742828648122194
 

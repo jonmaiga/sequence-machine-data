@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -24,14 +25,13 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -45,8 +45,10 @@ import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,28 +63,31 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8270,48 +8275,6 @@ def P439055094849779529.Spec : Prop :=
 end A116457
 
 /-!
-# A116461: Numbers k such that A003313(k) = A003313(6*k).
-
-The programs for A116461, there is no canonical definition to state claims against.
--/
-
-/-! ## A116461.P5386936296536868601
-
-`A104699(1+n)`
--/
-
-namespace A116461.P5386936296536868601
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104699 (1 + n)
-
-end
-
-end A116461.P5386936296536868601
-
-/-!
-# A116464: Triangle read by rows: T(n,k) is the number of partitions of n into odd parts and having Durfee square of size k (n>=1, k>=1).
-
-The programs for A116464, there is no canonical definition to state claims against.
--/
-
-/-! ## A116464.P4272970883601860234
-
-`A046951(A072011(n+1))`
--/
-
-namespace A116464.P4272970883601860234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046951 (A072011 (n + 1)).toNat
-
-end
-
-end A116464.P4272970883601860234
-
-/-!
 # A116465: Sum of the sizes of the Durfee squares of all partitions of n into odd parts.
 
 The programs for A116465, there is no canonical definition to state claims against.
@@ -11870,21 +11833,6 @@ end A116488.P2346330100543104372
 
 The programs for A116489, there is no canonical definition to state claims against.
 -/
-
-/-! ## A116489.P10737377582800034403
-
-`A001055(n+1)*A095190(2*n+3)`
--/
-
-namespace A116489.P10737377582800034403
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001055 (n + 1) * A095190 (2 * n + 3)
-
-end
-
-end A116489.P10737377582800034403
 
 /-! ## A116489.P11691022006376265139
 

@@ -17,13 +17,14 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C039
-import Seq.B000.C040
-import Seq.B000.C044
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C041
 import Seq.B000.C046
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -40,13 +41,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +70,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A301000: Coordination sequence T1 for Zeolite Code BEC.
@@ -1040,21 +1038,6 @@ end
 
 end A301027.P9160861879646988545
 
-/-! ## A301027.P11695689997218934663
-
-`A301037(n)`
--/
-
-namespace A301027.P11695689997218934663
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301037 n
-
-end
-
-end A301027.P11695689997218934663
-
 /-! ## A301027.P250703540357801601
 
 `A301033(A062399(n))`
@@ -1069,42 +1052,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301027.P250703540357801601
-
-/-!
-# A301029: Coordination sequence T4 for Zeolite Code FAR.
-
-The programs for A301029, there is no canonical definition to state claims against.
--/
-
-/-! ## A301029.P2406498387828320257
-
-`A301039(n)`
--/
-
-namespace A301029.P2406498387828320257
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301039 n
-
-end
-
-end A301029.P2406498387828320257
-
-/-! ## A301029.P4876634575551016922
-
-`A301035(n)`
--/
-
-namespace A301029.P4876634575551016922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301035 n
-
-end
-
-end A301029.P4876634575551016922
 
 /-!
 # A301030: Coordination sequence T1 for Zeolite Code FRA.
@@ -1246,21 +1193,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A301031.P4135497920060679613
-
-/-! ## A301031.P1032007207884962840
-
-`A301032(n)`
--/
-
-namespace A301031.P1032007207884962840
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301032 n
-
-end
-
-end A301031.P1032007207884962840
 
 /-!
 # A301032: Coordination sequence T3 for Zeolite Code FRA.

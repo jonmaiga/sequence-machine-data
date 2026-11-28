@@ -11,29 +11,30 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C024
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
-import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -54,22 +55,24 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +97,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -617,21 +619,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003003.P5628932908284501402
-
-/-! ## A003003.P1370056943798518476
-
-`A136746(n)`
--/
-
-namespace A003003.P1370056943798518476
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A136746 n
-
-end
-
-end A003003.P1370056943798518476
 
 /-!
 # A003004: Size of the largest subset of the numbers [1..n] which does not contain a 5-term arithmetic progression.
@@ -2002,7 +1989,7 @@ end A003019.P15994903460659352435
 /-!
 # A003020: Largest prime factor of the "repunit" number 11...1 (cf. A002275).
 
-The programs for A003020, the canonical program `A003020.P8563369435425703840` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003020 has offset 2).
+The programs for A003020, the canonical program `A003020.P8563369435425703840` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003020 has offset 2).
 
 The definition of A003020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2011,7 +1998,7 @@ The definition of A003020 is `conjectured`: the Lean definition is a formula tha
 
 `A005422(2+n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A003020
@@ -2130,16 +2117,16 @@ end A003020
 /-!
 # A003021: Largest prime factor of 10^n + 1.
 
-The programs for A003021, the canonical program `A003021.P3961287160256763782` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003021 has offset 0).
+The programs for A003021, the canonical program `A003021.P3961287160256763782` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003021 has offset 0).
 
-The definition of A003021 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A003021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A003021.P3961287160256763782
 
 `A006530(A062397(n))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A003021
@@ -2364,21 +2351,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A003023.P4188582183001204678
-
-/-! ## A003023.P15999026390266615044
-
-`abs(1-A098008(n+1))`
--/
-
-namespace A003023.P15999026390266615044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |1 - A098008 (n + 1)|
-
-end
-
-end A003023.P15999026390266615044
 
 /-!
 # A003024: Number of acyclic digraphs (or DAGs) with n labeled nodes.
@@ -3011,27 +2983,6 @@ def P2826745040679316977.Spec : Prop :=
   ∀ n, P2826745040679316977.a n = A003031 n
 
 end A003031
-
-/-!
-# A003032: Smallest integer m such that the product of every 3 consecutive integers > m has a prime factor > prime(n).
-
-The programs for A003032, there is no canonical definition to state claims against.
--/
-
-/-! ## A003032.P12485859990540432180
-
-`A193944(n+1)`
--/
-
-namespace A003032.P12485859990540432180
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193944 (n + 1)
-
-end
-
-end A003032.P12485859990540432180
 
 /-!
 # A003033: Smallest integer m such that the product of every 4 consecutive integers > m has a prime factor > prime(n).
@@ -9448,21 +9399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003080.P15003065154837569401
-
-/-! ## A003080.P8548431912826574113
-
-`A053732(n)`
--/
-
-namespace A003080.P8548431912826574113
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053732 n
-
-end
-
-end A003080.P8548431912826574113
 
 /-!
 # A003081: Number of triangular cacti with 2n+1 nodes (n triangles).

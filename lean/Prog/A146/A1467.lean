@@ -7,23 +7,25 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B000.C043
-import Seq.B000.C049
-import Seq.B000.C050
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C040
+import Seq.B000.C041
+import Seq.B000.C044
+import Seq.B000.C051
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,16 +47,14 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,27 +80,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
-
-/-!
-# A146700: Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 1100-1111-0010 pattern in any orientation.
-
-The programs for A146700, there is no canonical definition to state claims against.
--/
-
-/-! ## A146700.P4087999602016291652
-
-`A146708(n+1)`
--/
-
-namespace A146700.P4087999602016291652
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146708 (n + 1)
-
-end
-
-end A146700.P4087999602016291652
 
 /-!
 # A146701: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1100-1111-0010 pattern in any orientation.
@@ -191,21 +170,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146702.P1829160044494955902
-
-/-! ## A146702.P9017918310632647375
-
-`A146734(n+1)`
--/
-
-namespace A146702.P9017918310632647375
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146734 (n + 1)
-
-end
-
-end A146702.P9017918310632647375
 
 /-!
 # A146703: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1100-1111-0010 pattern in any orientation.
@@ -1170,21 +1134,6 @@ end A146730.P14113565238603007553
 The programs for A146731, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146731.P8565629976694904783
-
-`A146667(n+1)-A005873(n)`
--/
-
-namespace A146731.P8565629976694904783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146667 (n + 1) - A005873 n
-
-end
-
-end A146731.P8565629976694904783
-
 /-! ## A146731.P13836434591190395062
 
 `A146667(n+1)-A184955(A004956(n))`
@@ -2076,7 +2025,7 @@ end A146759.P13986179827598209372
 /-!
 # A146761: Period 6: repeat [0, 0, 6, 6, 3, 3].
 
-The programs for A146761, the canonical program `A146761.P2499493355366120269` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146761 has offset 0).
+The programs for A146761, the canonical program `A146761.P2499493355366120269` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146761 has offset 0).
 
 The definition of A146761 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A146761.anchor (n : ℕ) : A146761 n = [0, 0, 6, 6, 3, 3].getD (n % 6) 0` in `Proof.A146.A146761`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2085,7 +2034,7 @@ The definition of A146761 is `verified`: an anchor theorem with a hand-written p
 
 `a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=6, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A146761
@@ -2205,7 +2154,7 @@ end A146762
 /-!
 # A146763: Rank of terms ending in 0 in A061039.
 
-The programs for A146763, the canonical program `A146763.P7672107579147738351` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146763 has offset 0).
+The programs for A146763, the canonical program `A146763.P7672107579147738351` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146763 has offset 0).
 
 The definition of A146763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2214,7 +2163,7 @@ The definition of A146763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*n-n%2`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A146763
@@ -4243,36 +4192,6 @@ end
 
 end A146779.P15221504425914261432
 
-/-! ## A146779.P5803044015959776296
-
-`A146795(n+1)`
--/
-
-namespace A146779.P5803044015959776296
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146795 (n + 1)
-
-end
-
-end A146779.P5803044015959776296
-
-/-! ## A146779.P11462506558590142445
-
-`A146835(n+1)`
--/
-
-namespace A146779.P11462506558590142445
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146835 (n + 1)
-
-end
-
-end A146779.P11462506558590142445
-
 /-! ## A146779.P24910654891584522
 
 `A146859(A146852(n+1)²+n)`
@@ -5046,21 +4965,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146793.P1340965702813253762
-
-/-! ## A146793.P8122449984305751319
-
-`A146873(n+1)`
--/
-
-namespace A146793.P8122449984305751319
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146873 (n + 1)
-
-end
-
-end A146793.P8122449984305751319
 
 /-!
 # A146794: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 0110-0100-1111 pattern in any orientation.

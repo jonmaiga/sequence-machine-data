@@ -4,22 +4,23 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C010
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C046
-import Seq.B000.C051
+import Seq.B000.C040
+import Seq.B000.C048
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,9 +35,10 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C008
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
@@ -44,6 +46,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -75,7 +78,7 @@ import Seq.Opaque.C024
 /-!
 # A401100: a(0) = 1, thereafter a(n+1) = ceiling(5*a(n)/2).
 
-The programs for A401100, the canonical program `A401100.P2223803039464972030` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401100 has offset 0).
+The programs for A401100, the canonical program `A401100.P2223803039464972030` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401100 has offset 0).
 
 The definition of A401100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 252 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -130,7 +133,7 @@ end A401100
 
 `a(n-1)+floor(a(n-1)+(a(n-1)+1)/2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401100
@@ -377,7 +380,7 @@ end A401102.P14123390272919768660
 /-!
 # A401105: Number of unordered representations of 2^n as a sum of two numbers, each an odd prime multiplied by a power of 2.
 
-The programs for A401105, the canonical program `A401105.P5211430239912947113` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401105 has offset 0).
+The programs for A401105, the canonical program `A401105.P5211430239912947113` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401105 has offset 0).
 
 The definition of A401105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -386,7 +389,7 @@ The definition of A401105 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+A006307(n)` with `a(0)=0, a(1)=0, a(2)=0`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A401105
@@ -684,21 +687,6 @@ end
 
 end A401107.P9641524847447280059
 
-/-! ## A401107.P12985026550560234521
-
-`A054431(n+1)+A002024(n+1)`
--/
-
-namespace A401107.P12985026550560234521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054431 (n + 1) + A002024 (n + 1)
-
-end
-
-end A401107.P12985026550560234521
-
 /-! ## A401107.P1818491087506710191
 
 `A355741(A116469(n+1))+A002024(n+1)`
@@ -946,7 +934,7 @@ end A401127.P8093948278681289895
 /-!
 # A401128: Number of ways to give each of n cars an ordered pair of (not necessarily distinct) spots in [n] so that all cars park, where each car in turn takes its first choice if free, else its second choice if free, else the first free spot after its second choice.
 
-The programs for A401128, the canonical program `A401128.P13691097860066135088` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401128 has offset 1).
+The programs for A401128, the canonical program `A401128.P13691097860066135088` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401128 has offset 1).
 
 The definition of A401128 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -955,7 +943,7 @@ The definition of A401128 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)!*C((n+2)²-2, n)`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401128
@@ -1224,16 +1212,16 @@ end A401134.P8552062920741767014
 /-!
 # A401139: Period 6: repeat [1, 6, 5, 4, 3, 2].
 
-The programs for A401139, the canonical program `A401139.P12278537050696209364` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401139 has offset 0).
+The programs for A401139, the canonical program `A401139.P12278537050696209364` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401139 has offset 0).
 
-The definition of A401139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A401139 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A401139.anchor (n : ℕ) : A401139 n = (([1, 6, 5, 4, 3, 2].getD (n % 6) 0 : ℕ) : ℤ)` in `Proof.A401.A401139`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A401139.P12278537050696209364
 
 `a(n-6)` with `a(0)=1, a(1)=6, a(2)=5, a(3)=4, a(4)=3, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401139
@@ -1756,7 +1744,7 @@ end A401167.P458361951641880734
 /-!
 # A401168: a(n) = least k such that 2*x^k/(1 + x^(2*k)) < 1/2, where x = u/(u+1) and u = 2*n*(n+1).
 
-The programs for A401168, the canonical program `A401168.P8630398711621748517` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401168 has offset 1).
+The programs for A401168, the canonical program `A401168.P8630398711621748517` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401168 has offset 1).
 
 The definition of A401168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1765,7 +1753,7 @@ The definition of A401168 is `conjectured`: the Lean definition is a formula tha
 
 `floor(log(2+sqrt(3))*(2*(n+1)²+2*(n+1)+1/2))+1`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401168
@@ -2088,7 +2076,7 @@ end A401184.P8171911563098192694
 /-!
 # A401186: Total number of maximal independent vertex sets in all labeled graphs on n vertices.
 
-The programs for A401186, the canonical program `A401186.P18360977751011296750` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401186 has offset 0).
+The programs for A401186, the canonical program `A401186.P18360977751011296750` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401186 has offset 0).
 
 The definition of A401186 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2097,7 +2085,7 @@ The definition of A401186 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, C(n, #)*(2^#-1)^(n-#)*2^C(n-#, 2)]`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401186

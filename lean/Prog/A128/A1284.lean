@@ -4,7 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -22,25 +22,27 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,25 +61,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,17 +90,16 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
@@ -2318,7 +2318,7 @@ end A128416
 
 The programs for A128417, the canonical program `A128417.P7680246069769329407` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128417 has offset 0).
 
-The definition of A128417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A128417 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A128417.anchor (n : ℕ) : (A128417 n : ℚ) = (2 : ℚ) ^ ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) : ℤ) * (Nat.choose (2 * SequenceMachineLib.triRow n) ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)).toNat : ℚ)` in `Proof.A128.A128417`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A128417.P7680246069769329407
@@ -2526,7 +2526,7 @@ end A128417
 
 The programs for A128418, the canonical program `A128418.P16572163224378031912` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128418 has offset 0).
 
-The definition of A128418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A128418 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A128418.anchor (n : ℕ) : (A128418 n : ℚ) = ∑ k ∈ Finset.range (n + 1), (2 : ℚ) ^ ((n : ℤ) - (k : ℤ) : ℤ) * (Nat.choose (2 * n) ((n : ℤ) - (k : ℤ)).toNat : ℚ)` in `Proof.A128.A128418`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A128418.P16572163224378031912
@@ -5450,7 +5450,7 @@ end A128434.P5312791153148911550
 /-!
 # A128436: Primes p such that 2p - 3 and 2p - 1 are twin primes.
 
-The programs for A128436, the canonical program `A128436.P11979391553249365448` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128436 has offset 1).
+The programs for A128436, the canonical program `A128436.P11979391553249365448` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128436 has offset 1).
 
 The definition of A128436 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 905 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5511,7 +5511,7 @@ end A128436
 
 `p?[A040040(n+1)+1]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A128436
@@ -7107,27 +7107,6 @@ end
 end A128460.P15314178806876885508
 
 /-!
-# A128462: Nontrivial products of two lucky numbers.
-
-The programs for A128462, there is no canonical definition to state claims against.
--/
-
-/-! ## A128462.P10407688959436706058
-
-`A128530(n+1)/3`
--/
-
-namespace A128462.P10407688959436706058
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A128530 (n + 1) : ℚ) / 3
-
-end
-
-end A128462.P10407688959436706058
-
-/-!
 # A128464: Numbers that are congruent to {11, 17, 29} mod 30.
 
 The programs for A128464, the canonical program `A128464.P9918511672954785375` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128464 has offset 1).
@@ -8221,14 +8200,14 @@ end A128475.P11569236862656294361
 /-!
 # A128485: a(1)=a(2)=a(3)=1; for n > 3, a(n) = lcm(a(n-1) + a(n-2), a(n-3)).
 
-The programs for A128485, the canonical program `A128485.P13619167220929338379` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128485 has offset 1).
+The programs for A128485, the canonical program `A128485.P10866351482007781643` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128485 has offset 1).
 
-The definition of A128485 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `lcm(a(n-1)+a(n-2), a(n-3))` (program `A128485.P13619167220929338379`, by `A128485.P13619167220929338379.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A128485 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `lcm(a(n-1)+a(n-2), a(n-3))` (program `A128485.P10866351482007781643`, by `A128485.P10866351482007781643.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A128485.P13619167220929338379
+/-! ## A128485.P10866351482007781643
 
-`lcm(a(n-1)+a(n-2), a(n-3))` with `a(0)=1, a(1)=1, a(2)=1`
+`lcm(a(n-1)+a(n-2), a(n-3))` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=3`
 
 The canonical program, it is in `Seq.B000.C022`.
 -/
@@ -8236,10 +8215,10 @@ The canonical program, it is in `Seq.B000.C022`.
 namespace A128485
 
 /-- `lcm(a(n-1)+a(n-2), a(n-3))` -/
-def P13619167220929338379.Spec : Prop :=
-  ∀ n, (P13619167220929338379.a n : ℤ) = A128485 (n + 1)
+def P10866351482007781643.Spec : Prop :=
+  ∀ n, (P10866351482007781643.a n : ℤ) = A128485 (n + 1)
 
-theorem P13619167220929338379.correct : P13619167220929338379.Spec := by
+theorem P10866351482007781643.correct : P10866351482007781643.Spec := by
   intro n
   simp only [A128485, Nat.add_sub_cancel]
 

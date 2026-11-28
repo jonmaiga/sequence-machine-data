@@ -4,34 +4,35 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C040
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +44,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
@@ -54,7 +56,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -63,8 +65,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -220,7 +220,7 @@ end A241806.P8202973960567433826
 /-!
 # A241807: Numerators of c(n) = (n^2+n+2)/((n+1)*(n+2)*(n+3)) as defined in A241269.
 
-The programs for A241807, the canonical program `A241807.P8361902451886184378` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241807 has offset 0).
+The programs for A241807, the canonical program `A241807.P8361902451886184378` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241807 has offset 0).
 
 The definition of A241807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -229,7 +229,7 @@ The definition of A241807 is `conjectured`: the Lean definition is a formula tha
 
 `(∑[n]+1)/gcd(∑[n]+1, 2*(n+1)²)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241807
@@ -4115,21 +4115,6 @@ end
 
 end A241838.P4252160096323482174
 
-/-! ## A241838.P5469942299004710577
-
-`A241559(n+1)`
--/
-
-namespace A241838.P5469942299004710577
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241559 (n + 1)
-
-end
-
-end A241838.P5469942299004710577
-
 /-!
 # A241839: Number of simple connected graphs on n nodes that are not regular.
 
@@ -4625,7 +4610,7 @@ end A241844.P15043304302359430460
 /-!
 # A241847: a(n) = n^2 + 17.
 
-The programs for A241847, the canonical program `A241847.P8388503422762483598` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241847 has offset 0).
+The programs for A241847, the canonical program `A241847.P8388503422762483598` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241847 has offset 0).
 
 The definition of A241847 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+17` (program `A241847.P8388503422762483598`, by `A241847.P8388503422762483598.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4634,7 +4619,7 @@ The definition of A241847 is `verified`: the Lean definition is proven equivalen
 
 `n²+17`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241847
@@ -4652,7 +4637,7 @@ end A241847
 /-!
 # A241848: a(n) = n^2 + 18.
 
-The programs for A241848, the canonical program `A241848.P10518508374331350270` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241848 has offset 0).
+The programs for A241848, the canonical program `A241848.P10518508374331350270` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241848 has offset 0).
 
 The definition of A241848 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+18` (program `A241848.P10518508374331350270`, by `A241848.P10518508374331350270.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4661,7 +4646,7 @@ The definition of A241848 is `verified`: the Lean definition is proven equivalen
 
 `n²+18`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241848
@@ -4679,7 +4664,7 @@ end A241848
 /-!
 # A241849: a(n) = n^2 + 19.
 
-The programs for A241849, the canonical program `A241849.P2465626945269001209` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241849 has offset 0).
+The programs for A241849, the canonical program `A241849.P2465626945269001209` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241849 has offset 0).
 
 The definition of A241849 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+19` (program `A241849.P2465626945269001209`, by `A241849.P2465626945269001209.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4688,7 +4673,7 @@ The definition of A241849 is `verified`: the Lean definition is proven equivalen
 
 `n²+19`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241849
@@ -4706,7 +4691,7 @@ end A241849
 /-!
 # A241850: a(n) = n^2 + 20.
 
-The programs for A241850, the canonical program `A241850.P2932617922786550184` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241850 has offset 0).
+The programs for A241850, the canonical program `A241850.P2932617922786550184` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241850 has offset 0).
 
 The definition of A241850 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+20` (program `A241850.P2932617922786550184`, by `A241850.P2932617922786550184.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4715,7 +4700,7 @@ The definition of A241850 is `verified`: the Lean definition is proven equivalen
 
 `n²+20`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241850
@@ -4733,7 +4718,7 @@ end A241850
 /-!
 # A241851: a(n) = n^2 + 21.
 
-The programs for A241851, the canonical program `A241851.P11917510233345763991` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241851 has offset 0).
+The programs for A241851, the canonical program `A241851.P11917510233345763991` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241851 has offset 0).
 
 The definition of A241851 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+21` (program `A241851.P11917510233345763991`, by `A241851.P11917510233345763991.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4742,7 +4727,7 @@ The definition of A241851 is `verified`: the Lean definition is proven equivalen
 
 `n²+21`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241851
@@ -5767,21 +5752,6 @@ end
 
 end A241867.P8641183302888756981
 
-/-! ## A241867.P863825264488477254
-
-`A243124(n+7)`
--/
-
-namespace A241867.P863825264488477254
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243124 (n + 7)
-
-end
-
-end A241867.P863825264488477254
-
 /-!
 # A241868: Number of compositions of n such that the smallest part has multiplicity eight.
 
@@ -5802,21 +5772,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A241868.P17602618715052288267
-
-/-! ## A241868.P17444511284675949749
-
-`A243125(n+8)`
--/
-
-namespace A241868.P17444511284675949749
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243125 (n + 8)
-
-end
-
-end A241868.P17444511284675949749
 
 /-!
 # A241869: Number of compositions of n such that the smallest part has multiplicity nine.
@@ -5845,21 +5800,6 @@ end
 
 end A241869.P12357612648999552185
 
-/-! ## A241869.P11993859942321496956
-
-`A243126(n+9)`
--/
-
-namespace A241869.P11993859942321496956
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243126 (n + 9)
-
-end
-
-end A241869.P11993859942321496956
-
 /-!
 # A241870: Number of compositions of n such that the smallest part has multiplicity ten.
 
@@ -5886,21 +5826,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A241870.P9396833999278273218
-
-/-! ## A241870.P7052978135797630469
-
-`A243127(n)`
--/
-
-namespace A241870.P7052978135797630469
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243127 (n + 10)
-
-end
-
-end A241870.P7052978135797630469
 
 /-!
 # A241871: Number of ascent sequences of length 2n with exactly n descents.
@@ -6490,7 +6415,7 @@ end A241887.P1861875109338077505
 /-!
 # A241888: a(n) = 2^(4*n + 1) - 1.
 
-The programs for A241888, the canonical program `A241888.P7078688151318599760` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241888 has offset 0).
+The programs for A241888, the canonical program `A241888.P7078688151318599760` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241888 has offset 0).
 
 The definition of A241888 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(4*n+1)-1` (program `A241888.P7078688151318599760`, by `A241888.P7078688151318599760.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6522,7 +6447,7 @@ end A241888
 
 `2^(4*n+1)-1`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241888
@@ -6765,7 +6690,7 @@ end A241888
 /-!
 # A241889: a(n) = n^2 + 23.
 
-The programs for A241889, the canonical program `A241889.P8482498643878434743` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241889 has offset 0).
+The programs for A241889, the canonical program `A241889.P8482498643878434743` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241889 has offset 0).
 
 The definition of A241889 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+23` (program `A241889.P8482498643878434743`, by `A241889.P8482498643878434743.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6774,7 +6699,7 @@ The definition of A241889 is `verified`: the Lean definition is proven equivalen
 
 `n²+23`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241889
@@ -6792,7 +6717,7 @@ end A241889
 /-!
 # A241890: a(n) = n^2 + 24.
 
-The programs for A241890, the canonical program `A241890.P11570905073153749260` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241890 has offset 0).
+The programs for A241890, the canonical program `A241890.P11570905073153749260` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241890 has offset 0).
 
 The definition of A241890 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+24` (program `A241890.P11570905073153749260`, by `A241890.P11570905073153749260.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6801,7 +6726,7 @@ The definition of A241890 is `verified`: the Lean definition is proven equivalen
 
 `n²+24`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241890
@@ -6819,7 +6744,7 @@ end A241890
 /-!
 # A241891: Total number of unit squares appearing in the Thue-Morse sequence of logical matrices (1, 0 version) after n stages.
 
-The programs for A241891, the canonical program `A241891.P4320203809962351875` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241891 has offset 0).
+The programs for A241891, the canonical program `A241891.P4320203809962351875` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241891 has offset 0).
 
 The definition of A241891 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6828,7 +6753,7 @@ The definition of A241891 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-2x-9x^2+2x^3+12x^4+24x^5)/(1-4x-5x^2+20x^3+4x^4-16x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241891
@@ -6961,7 +6886,7 @@ end A241891
 /-!
 # A241892: Total number of 2 X 2 squares appearing in the Thue-Morse sequence logical matrices (1, 0 version) after n stages.
 
-The programs for A241892, the canonical program `A241892.P4896051957458803322` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241892 has offset 0).
+The programs for A241892, the canonical program `A241892.P4896051957458803322` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241892 has offset 0).
 
 The definition of A241892 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6970,7 +6895,7 @@ The definition of A241892 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x^2-2x^3+8x^5)/(1-4x-5x^2+20x^3+4x^4-16x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241892
@@ -7268,7 +7193,7 @@ end A241892
 /-!
 # A241893: The total number of rectangles appearing in the Thue-Morse sequence logical matrices (1, 0 version) after n stages.
 
-The programs for A241893, the canonical program `A241893.P13916808310406351340` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241893 has offset 0).
+The programs for A241893, the canonical program `A241893.P13916808310406351340` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241893 has offset 0).
 
 The definition of A241893 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7277,7 +7202,7 @@ The definition of A241893 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((8x^3-4x^4-32x^5)/(1-4x-5x^2+20x^3+4x^4-16x^5))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A241893
@@ -8067,21 +7992,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A241898.P5872174317330876335
-
-/-! ## A241898.P6276686152502027980
-
-`A191090(A072965(n+1))`
--/
-
-namespace A241898.P6276686152502027980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191090 (A072965 (n + 1)).toNat
-
-end
-
-end A241898.P6276686152502027980
 
 /-!
 # A241899: Numbers n equal to the sum of all the two-digit numbers formed without repetition from the digits of n.

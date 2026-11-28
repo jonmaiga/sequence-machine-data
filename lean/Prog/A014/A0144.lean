@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -30,9 +31,10 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -43,10 +45,12 @@ import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
 import Seq.B000.C049
 import Seq.B000.C050
 import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -83,12 +87,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3337,29 +3340,6 @@ def P10447915970260550941.Spec : Prop :=
 
 end A014418
 
-/-! ## A014418.P1512843143295951654
-
-`A317204(n)`
--/
-
-namespace A014418.P1512843143295951654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317204 n
-
-end
-
-end A014418.P1512843143295951654
-
-namespace A014418
-
-/-- `A317204(n)` -/
-def P1512843143295951654.Spec : Prop :=
-  ∀ n, P1512843143295951654.a n = A014418 n
-
-end A014418
-
 /-!
 # A014419: Write n in base of Catalan numbers, then interpret as if written in base 3.
 
@@ -6252,21 +6232,6 @@ end A014440.P2624595531102620884
 The programs for A014441, there is no canonical definition to state claims against.
 -/
 
-/-! ## A014441.P1251491596449857695
-
-`A265625(A348553(n))`
--/
-
-namespace A014441.P1251491596449857695
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265625 (A348553 n).toNat
-
-end
-
-end A014441.P1251491596449857695
-
 /-! ## A014441.P6640983343787577442
 
 `A265625(A077168(n))`
@@ -6285,16 +6250,16 @@ end A014441.P6640983343787577442
 /-!
 # A014442: Largest prime factor of n^2 + 1.
 
-The programs for A014442, the canonical program `A014442.P5459533592084316320` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014442 has offset 1).
+The programs for A014442, the canonical program `A014442.P5459533592084316320` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014442 has offset 1).
 
-The definition of A014442 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A014442 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A014442.P5459533592084316320
 
 `A006530(1+(n+1)²)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A014442
@@ -12444,27 +12409,6 @@ def P7357819154766665212.Spec : Prop :=
   ∀ n, P7357819154766665212.a n = A014477 n
 
 end A014477
-
-/-!
-# A014478: Inverse of 469th cyclotomic polynomial.
-
-The programs for A014478, there is no canonical definition to state claims against.
--/
-
-/-! ## A014478.P13569058133694144945
-
-`2-A055642(A130482(n))`
--/
-
-namespace A014478.P13569058133694144945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A055642 (A130482 n).toNat
-
-end
-
-end A014478.P13569058133694144945
 
 /-!
 # A014479: Exponential generating function = (1+2*x)/(1-2*x)^3.

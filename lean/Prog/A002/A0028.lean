@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,22 +17,23 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,7 +52,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -60,18 +61,17 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7423,21 +7423,6 @@ end
 
 end A002850.P14045315882863969572
 
-/-! ## A002850.P12710063657305888428
-
-`A342515(A068309(n+1))`
--/
-
-namespace A002850.P12710063657305888428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342515 (A068309 (n + 1)).toNat
-
-end
-
-end A002850.P12710063657305888428
-
 /-!
 # A002851: Number of unlabeled trivalent (or cubic) connected simple graphs with 2n nodes.
 
@@ -7620,54 +7605,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002854.P2235283873709152600
-
-/-!
-# A002855: {m + n: m in A002382, n in A002381}.
-
-The programs for A002855, there is no canonical definition to state claims against.
--/
-
-/-! ## A002855.P7645632582500958740
-
-`eq[A125203(3*n+1), 0]`
--/
-
-namespace A002855.P7645632582500958740
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125203 (3 * n + 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℤ)) n
-
-end
-
-end A002855.P7645632582500958740
-
-/-! ## A002855.P12223409227571110399
-
-`lt[1, A031358(3*n+1)]`
--/
-
-namespace A002855.P12223409227571110399
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031358 (3 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A002855.P12223409227571110399
 
 /-!
 # A002856: Number of polyhedra with n nodes and n faces.
@@ -9299,21 +9236,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A002869.P4158034880338280875
-
-/-! ## A002869.P1204856853496627497
-
-`A375799(n)`
--/
-
-namespace A002869.P1204856853496627497
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375799 n
-
-end
-
-end A002869.P1204856853496627497
 
 /-!
 # A002870: Largest Stirling numbers of second kind: a(n) = max_{k=1..n} S2(n,k).

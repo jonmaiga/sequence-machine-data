@@ -16,32 +16,32 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C041
+import Seq.B000.C039
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,12 +62,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -79,9 +78,8 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -635,7 +633,7 @@ end A173402
 /-!
 # A173403: Inverse binomial transform of A002416.
 
-The programs for A173403, the canonical program `A173403.P10461417262380677951` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173403 has offset 0).
+The programs for A173403, the canonical program `A173403.P10461417262380677951` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173403 has offset 0).
 
 The definition of A173403 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -644,7 +642,7 @@ The definition of A173403 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n, (-1)^#*C(n, #)*2^(n-#)²]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173403
@@ -2334,7 +2332,7 @@ end A173429.P4934000223689020926
 /-!
 # A173432: NW-SE diagonal sums of Riordan array A112468.
 
-The programs for A173432, the canonical program `A173432.P11309562438191916177` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173432 has offset 1).
+The programs for A173432, the canonical program `A173432.P11309562438191916177` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173432 has offset 1).
 
 The definition of A173432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2343,7 +2341,7 @@ The definition of A173432 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2)/(1-x+x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173432
@@ -2839,7 +2837,7 @@ end A173433
 /-!
 # A173434: a(n) = (A000045(n)-A173432(n))/2.
 
-The programs for A173434, the canonical program `A173434.P2348795158739368342` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173434 has offset 1).
+The programs for A173434, the canonical program `A173434.P2348795158739368342` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173434 has offset 1).
 
 The definition of A173434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2871,7 +2869,7 @@ end A173434
 
 `2*a(n-1)-2*a(n-3)+2*a(n-4)-a(n-6)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=2, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173434
@@ -3326,7 +3324,7 @@ end A173434
 /-!
 # A173435: Inverse binomial transform of A143025, assuming offset zero there.
 
-The programs for A173435, the canonical program `A173435.P3044243325021721896` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173435 has offset 0).
+The programs for A173435, the canonical program `A173435.P3044243325021721896` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173435 has offset 0).
 
 The definition of A173435 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3335,7 +3333,7 @@ The definition of A173435 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((8+26x+36x^2+19x^3)/(1+4x+6x^2+4x^3))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173435
@@ -8059,7 +8057,7 @@ end A173475.P13955074559819958309
 /-!
 # A173476: Triangle T(n, k) = 1 + (k!)^2 - 2*k!*(n-k)! + ((n-k)!)^2, read by rows.
 
-The programs for A173476, the canonical program `A173476.P6508077061684481548` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173476 has offset 0).
+The programs for A173476, the canonical program `A173476.P6508077061684481548` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173476 has offset 0).
 
 The definition of A173476 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+col(n)!²-2*col(n)!*(row(n)-col(n))!+(row(n)-col(n))!²` (program `A173476.P6508077061684481548`, by `A173476.P6508077061684481548.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8097,7 +8095,7 @@ end A173476
 
 `1+col(n)!²-2*col(n)!*(row(n)-col(n))!+(row(n)-col(n))!²`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173476
@@ -8274,7 +8272,7 @@ end A173476
 /-!
 # A173478: a(n) = the smallest number ending in n-1 zeros divisible by n.
 
-The programs for A173478, the canonical program `A173478.P18198395847784767063` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173478 has offset 1).
+The programs for A173478, the canonical program `A173478.P18198395847784767063` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173478 has offset 1).
 
 The definition of A173478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8283,7 +8281,7 @@ The definition of A173478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `lcm(n+1, 10^n)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173478
@@ -8577,7 +8575,7 @@ end A173480.P11083368109574110572
 /-!
 # A173481: a(n) = the smallest number ending in n zeros divisible by n.
 
-The programs for A173481, the canonical program `A173481.P18137239404154859788` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173481 has offset 1).
+The programs for A173481, the canonical program `A173481.P18137239404154859788` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173481 has offset 1).
 
 The definition of A173481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8586,7 +8584,7 @@ The definition of A173481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `lcm(n+1, 10^(n+1))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173481
@@ -10853,7 +10851,7 @@ end A173496.P9376597045075471690
 /-!
 # A173497: a(n) = a(n-1) + a(n-2) - floor(a(n-2)/2), starting 2,1.
 
-The programs for A173497, the canonical program `A173497.P14572232054458982799` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173497 has offset 0).
+The programs for A173497, the canonical program `A173497.P14572232054458982799` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173497 has offset 0).
 
 The definition of A173497 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)-floor(a(n-2)/2)` (program `A173497.P14572232054458982799`, by `A173497.P14572232054458982799.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10862,7 +10860,7 @@ The definition of A173497 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-2)-floor(a(n-2)/2)` with `a(0)=2, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173497
@@ -11111,7 +11109,7 @@ end A173498.P598127266368792991
 /-!
 # A173499: Number of sequences of length n with terms from {0,1,...,n-1} such that the sum of terms is 0 modulo n and the i-th term is not i.
 
-The programs for A173499, the canonical program `A173499.P12633022428084643631` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173499 has offset 1).
+The programs for A173499, the canonical program `A173499.P12633022428084643631` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173499 has offset 1).
 
 The definition of A173499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11120,7 +11118,7 @@ The definition of A173499 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n^(n+1)/(n+1))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A173499

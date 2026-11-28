@@ -18,28 +18,32 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
-import Seq.B000.C050
+import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,22 +60,22 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +100,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2075,27 +2078,6 @@ end
 end A047029.P7385170325792689908
 
 /-!
-# A047030: Array T read by diagonals: T(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and no step touches the line y=x/4 unless x=0 or x=h.
-
-The programs for A047030, there is no canonical definition to state claims against.
--/
-
-/-! ## A047030.P15460017083396080437
-
-`A331295(A145905(n))`
--/
-
-namespace A047030.P15460017083396080437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331295 (A145905 n).toNat
-
-end
-
-end A047030.P15460017083396080437
-
-/-!
 # A047031: Sum{T(i,n-i): i=0,1,...,n}, array T as in A047030.
 
 The programs for A047031, there is no canonical definition to state claims against.
@@ -3159,21 +3141,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047050.P11492083502343710319
-
-/-! ## A047050.P18426997983375997126
-
-`A050167(n)`
--/
-
-namespace A047050.P18426997983375997126
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050167 n
-
-end
-
-end A047050.P18426997983375997126
 
 /-!
 # A047051: Prime alternating tangle types (of knots) with n crossings.
@@ -5558,7 +5525,7 @@ end A047077.P10505398179871086862
 /-!
 # A047078: Primes at which difference pattern X2Y (X and Y >= 6) occurs in A001223.
 
-The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
+The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
 
 The definition of A047078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5627,7 +5594,7 @@ end A047078
 
 `∩[A083370(n+1)-2, A134100(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A047078

@@ -10,15 +10,15 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -27,19 +27,19 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
-import Seq.B000.C047
 import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,6 +68,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -76,11 +77,12 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -990,21 +992,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261422.P10713906494064529052
-
-/-! ## A261422.P1889500970441975441
-
-`A262544(n+1)`
--/
-
-namespace A261422.P1889500970441975441
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262544 (n + 1)
-
-end
-
-end A261422.P1889500970441975441
 
 /-! ## A261422.P18226655708825380868
 
@@ -2731,7 +2718,7 @@ end A261437.P12060733298312482645
 /-!
 # A261441: Number of binary strings of length n+3 such that the smallest number whose binary representation is not visible in the string is 5.
 
-The programs for A261441, the canonical program `A261441.P9132422197913527666` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261441 has offset 0).
+The programs for A261441, the canonical program `A261441.P9132422197913527666` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261441 has offset 0).
 
 The definition of A261441 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2740,7 +2727,7 @@ The definition of A261441 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x-2x^4-x^6)/(1-5x+10x^2-12x^3+12x^4-10x^5+6x^6-3x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A261441
@@ -2836,7 +2823,7 @@ end A261441
 /-!
 # A261442: Number of binary strings of length n+6 such that the smallest number whose binary representation is not visible in the string is 6.
 
-The programs for A261442, the canonical program `A261442.P6122195976059261744` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261442 has offset 0).
+The programs for A261442, the canonical program `A261442.P6122195976059261744` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261442 has offset 0).
 
 The definition of A261442 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2845,7 +2832,7 @@ The definition of A261442 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2x-2x^2-x^3)/(1-4x+4x^2+2x^3-4x^4+x^5-2x^6+2x^7+x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A261442
@@ -4416,7 +4403,7 @@ end A261454.P11318388708784567034
 /-!
 # A261456: Prime numbers whose sum of digits is not a power of 2.
 
-The programs for A261456, the canonical program `A261456.P17740723349919891104` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261456 has offset 1).
+The programs for A261456, the canonical program `A261456.P17740723349919891104` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261456 has offset 1).
 
 The definition of A261456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1995 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4425,7 +4412,7 @@ The definition of A261456 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A005408(n)*A043545(A004092(n))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A261456
@@ -7644,7 +7631,7 @@ end A261479.P16543054474556813018
 /-!
 # A261480: Number of set partitions of [n] into exactly four parts such that no part contains two elements with a circular distance less than three.
 
-The programs for A261480, the canonical program `A261480.P8027121368788366031` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261480 has offset 4).
+The programs for A261480, the canonical program `A261480.P8027121368788366031` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261480 has offset 4).
 
 The definition of A261480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7653,7 +7640,7 @@ The definition of A261480 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+2x^2+2x^3)/(1-x^2-5x^3-4x^4+x^5+4x^6+4x^7))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A261480
@@ -7700,7 +7687,7 @@ end A261480
 /-!
 # A261481: Number of set partitions of [n] into exactly five parts such that no part contains two elements with a circular distance less than three.
 
-The programs for A261481, the canonical program `A261481.P17911968173450425517` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261481 has offset 5).
+The programs for A261481, the canonical program `A261481.P17911968173450425517` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261481 has offset 5).
 
 The definition of A261481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7709,7 +7696,7 @@ The definition of A261481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x+7x^2+x^3+6x^4+6x^5)/(1-2x-x^2-12x^3+6x^4+18x^5+47x^6+32x^7-17x^8-36x^9-36x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A261481
@@ -7906,8 +7893,29 @@ end A261481
 /-!
 # A261482: Number of set partitions of [n] into exactly six parts such that no part contains two elements with a circular distance less than three.
 
-The programs for A261482, there is no canonical definition to state claims against.
+The programs for A261482, the canonical program `A261482.P5034385015553885843` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261482 has offset 6).
+
+The definition of A261482 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A261482.P5034385015553885843
+
+`ogf((1+2x+12x^2+10x^3+44x^4+9x^5+24x^6+24x^7)/(1-5x+5x^2-25x^3+74x^4+16x^5+185x^6-205x^7-401x^8-737x^9-440x^10+380x^11+576x^12+576x^13))`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A261482
+
+/-- `ogf((1+2x+12x^2+10x^3+44x^4+9x^5+24x^6+24x^7)/(1-5x+5x^2-25x^3+74x^4+16x^5+185x^6-205x^7-401x^8-737x^9-440x^10+380x^11+576x^12+576x^13))` -/
+def P5034385015553885843.Spec : Prop :=
+  ∀ n, P5034385015553885843.a n = A261482 (n + 6)
+
+theorem P5034385015553885843.correct : P5034385015553885843.Spec := by
+  intro n
+  simp only [A261482, Nat.add_sub_cancel]
+
+end A261482
 
 /-! ## A261482.P4259414545751922247
 
@@ -7923,6 +7931,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261482.P4259414545751922247
+
+namespace A261482
+
+/-- `A261477(A166136(n+5))` -/
+def P4259414545751922247.Spec : Prop :=
+  ∀ n, P4259414545751922247.a n = A261482 (n + 6)
+
+end A261482
 
 /-! ## A261482.P13657017123692902522
 
@@ -7942,6 +7958,14 @@ end
 
 end A261482.P13657017123692902522
 
+namespace A261482
+
+/-- `record[A261477(A077169(n)+1)]` -/
+def P13657017123692902522.Spec : Prop :=
+  ∀ n, P13657017123692902522.a n = A261482 (n + 6)
+
+end A261482
+
 /-! ## A261482.P17791598775264949514
 
 `record[A261477(A167499(n+1)+1)]`
@@ -7959,6 +7983,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261482.P17791598775264949514
+
+namespace A261482
+
+/-- `record[A261477(A167499(n+1)+1)]` -/
+def P17791598775264949514.Spec : Prop :=
+  ∀ n, P17791598775264949514.a n = A261482 (n + 6)
+
+end A261482
 
 /-!
 # A261483: Number of set partitions of [n] into exactly seven parts such that no part contains two elements with a circular distance less than three.
@@ -8359,7 +8391,7 @@ end A261490.P12868828619827529260
 /-!
 # A261491: a(n) = ceiling(2 + sqrt(8*n-4)).
 
-The programs for A261491, the canonical program `A261491.P14119426483975818925` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261491 has offset 1).
+The programs for A261491, the canonical program `A261491.P14119426483975818925` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261491 has offset 1).
 
 The definition of A261491 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(2+sqrt(8*(n+1)-4))` (program `A261491.P14119426483975818925`, by `A261491.P14119426483975818925.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8368,7 +8400,7 @@ The definition of A261491 is `verified`: the Lean definition is proven equivalen
 
 `ceil(2+sqrt(8*(n+1)-4))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A261491

@@ -4,27 +4,27 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C018
+import Seq.B000.C015
 import Seq.B000.C019
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B000.C049
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,7 +32,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -40,10 +39,8 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -53,7 +50,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B004.C004
@@ -64,11 +60,9 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -228,27 +222,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359902.P9329992223200974767
-
-/-!
-# A359904: Numbers whose prime factors and prime signature have the same mean.
-
-The programs for A359904, there is no canonical definition to state claims against.
--/
-
-/-! ## A359904.P16280683188849398350
-
-`A351600(n+1)^((n+1)/2)`
--/
-
-namespace A359904.P16280683188849398350
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A351600 (n + 1) : ℝ) ^ ((n + 1 : ℚ) / 2 : ℝ)
-
-end
-
-end A359904.P16280683188849398350
 
 /-!
 # A359905: Numbers whose prime indices and prime signature both have integer mean.
@@ -773,21 +746,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359909.P15373155447413153964
-
-/-! ## A359909.P38884370393127429
-
-`A036041(A181819(n+1))`
--/
-
-namespace A359909.P38884370393127429
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036041 (A181819 (n + 1)).toNat
-
-end
-
-end A359909.P38884370393127429
 
 /-! ## A359909.P2986464492514353508
 
@@ -1605,7 +1563,7 @@ end A359924.P15970101509089134326
 /-!
 # A359925: Numbers with easy multiplication table - the first 9 multiples of these numbers can be derived by either incrementing or decrementing the corresponding digits from the previous multiple.
 
-The programs for A359925, the canonical program `A359925.P12394526853155379394` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359925 has offset 1).
+The programs for A359925, the canonical program `A359925.P12394526853155379394` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359925 has offset 1).
 
 The definition of A359925 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1614,7 +1572,7 @@ The definition of A359925 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(floor((n+1)/2)-1)+2*(n+1)%2-1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A359925
@@ -1997,21 +1955,6 @@ end A359935.P17046037912271983731
 The programs for A359936, there is no canonical definition to state claims against.
 -/
 
-/-! ## A359936.P1080932112374515014
-
-`A080891(A008732(n))`
--/
-
-namespace A359936.P1080932112374515014
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080891 (A008732 n).toNat
-
-end
-
-end A359936.P1080932112374515014
-
 /-! ## A359936.P17589131632708149680
 
 `A080891(C(n+1, 6)+n+1)`
@@ -2148,7 +2091,7 @@ end A359937
 /-!
 # A359938: Number of divisors d of n such that d-1 is square.
 
-The programs for A359938, the canonical program `A359938.P9657063442184363727` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359938 has offset 1).
+The programs for A359938, the canonical program `A359938.P9657063442184363727` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359938 has offset 1).
 
 The definition of A359938 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2157,7 +2100,7 @@ The definition of A359938 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{#}[n+1, floor((n+1)/(#²+1))-floor(n/(#²+1))]`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A359938
@@ -2789,21 +2732,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359953.P2096933735359811655
-
-/-! ## A359953.P5404212388014327092
-
-`A059261(A163530(n))`
--/
-
-namespace A359953.P5404212388014327092
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059261 (A163530 n).toNat
-
-end
-
-end A359953.P5404212388014327092
 
 /-! ## A359953.P11619576184113565732
 
@@ -3869,36 +3797,6 @@ end A359978.P13227347295521508830
 The programs for A359979, there is no canonical definition to state claims against.
 -/
 
-/-! ## A359979.P1408269466296587777
-
-`floor((A023133(n+1)+1)/2)`
--/
-
-namespace A359979.P1408269466296587777
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A023133 (n + 1) + 1 : ℚ) / 2⌋
-
-end
-
-end A359979.P1408269466296587777
-
-/-! ## A359979.P4105281064121110514
-
-`floor((A156246(A356624(n)+1)+2)/3)`
--/
-
-namespace A359979.P4105281064121110514
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A156246 (A356624 n + 1).toNat + 2 : ℚ) / 3⌋
-
-end
-
-end A359979.P4105281064121110514
-
 /-! ## A359979.P16062816472106961108
 
 `floor(A356624(n)/A077665(A151878(n)+1))+1`
@@ -4414,7 +4312,7 @@ end A359986.P10681071274553128867
 /-!
 # A359987: Number of edge cuts in the n-ladder graph P_2 X P_n.
 
-The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
+The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C049`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
 
 The definition of A359987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4446,7 +4344,7 @@ end A359987
 
 `13*a(n-1)-42*a(n-2)+16*a(n-3)` with `a(0)=1, a(1)=11, a(2)=105`
 
-The canonical program, it is in `Seq.B000.C047`.
+The canonical program, it is in `Seq.B000.C049`.
 -/
 
 namespace A359987

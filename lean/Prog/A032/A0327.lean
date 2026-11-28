@@ -12,41 +12,44 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C014
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -55,15 +58,18 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,6 +78,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -146,21 +153,6 @@ end A032704.P9660500863984413571
 
 The programs for A032705, there is no canonical definition to state claims against.
 -/
-
-/-! ## A032705.P2611601087743398661
-
-`A101472(A101513(n+1))`
--/
-
-namespace A032705.P2611601087743398661
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101472 (A101513 (n + 1)).toNat
-
-end
-
-end A032705.P2611601087743398661
 
 /-! ## A032705.P1397418351920368726
 
@@ -2144,9 +2136,9 @@ end A032741
 /-!
 # A032742: a(1) = 1; for n > 1, a(n) = largest proper divisor of n (that is, for n>1, maximum divisor d of n in range 1 <= d < n).
 
-The programs for A032742, the canonical program `A032742.P14489579072839730134` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032742 has offset 1).
+The programs for A032742, the canonical program `A032742.P14489579072839730134` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032742 has offset 1).
 
-The definition of A032742 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020639, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A032742 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A032742.P751691556863743115
@@ -2176,7 +2168,7 @@ end A032742
 
 `(n+1)/A020639(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A032742
@@ -2819,21 +2811,6 @@ end
 
 end A032762.P12264678553831688130
 
-/-! ## A032762.P17217001728083363812
-
-`A108782(n)+A054055(n)`
--/
-
-namespace A032762.P17217001728083363812
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108782 n + A054055 n
-
-end
-
-end A032762.P17217001728083363812
-
 /-! ## A032762.P2777523381124920361
 
 `A004086(n)-A347470(∑[A023923(n)])`
@@ -2887,21 +2864,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032763.P11125813546640764177
-
-/-! ## A032763.P15650777424608906458
-
-`A004093(A195181(n))`
--/
-
-namespace A032763.P15650777424608906458
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004093 (A195181 n).toNat
-
-end
-
-end A032763.P15650777424608906458
 
 /-!
 # A032764: Take list of odd numbers, move left digit of each term to end of previous term.
@@ -7564,7 +7526,7 @@ end A032795
 
 The programs for A032796, the canonical program `A032796.P7061421824438314271` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032796 has offset 1).
 
-The definition of A032796 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A032796 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A032796.anchor (n : ℕ) (hn : 1 ≤ n) : A032796 n = (Nat.nth (fun k => k % 7 ∈ ({1, 2, 3, 5, 6} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A032.A032796`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A032796.P7061421824438314271

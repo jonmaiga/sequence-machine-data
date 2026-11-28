@@ -2,18 +2,17 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C015
-import Seq.B000.C022
-import Seq.B000.C030
+import Seq.B000.C016
+import Seq.B000.C023
+import Seq.B000.C031
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B002.C000
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B011.C000
+import Seq.B005.C003
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -21,6 +20,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 
 /-!
@@ -28,42 +28,6 @@ import Seq.Opaque.C021
 
 The programs for A168728, there is no canonical definition to state claims against.
 -/
-
-/-! ## A168728.P10941138695322745347
-
-`Δ[Δ[A168824(n)]]`
--/
-
-namespace A168728.P10941138695322745347
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168824 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A168728.P10941138695322745347
-
-/-! ## A168728.P3605794199531433913
-
-`A003945(n)-A067169(n)`
--/
-
-namespace A168728.P3605794199531433913
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003945 n - A067169 (n + 11)
-
-end
-
-end A168728.P3605794199531433913
 
 /-! ## A168728.P5736004646172047577
 
@@ -283,27 +247,6 @@ end A168730.P18221452154210033380
 
 The programs for A168776, there is no canonical definition to state claims against.
 -/
-
-/-! ## A168776.P879205003664301788
-
-`Δ[Δ[A168872(n)+0]]`
--/
-
-namespace A168776.P879205003664301788
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168872 n + 0
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A168776.P879205003664301788
 
 /-! ## A168776.P5693156438706602561
 

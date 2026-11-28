@@ -8,22 +8,21 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C043
+import Seq.B000.C033
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,10 +42,9 @@ import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B006.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B006.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -65,7 +63,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C022
 import SequenceMachineLib.Triangle
 
@@ -1557,10 +1555,58 @@ end
 end A254227.P13862187464714462785
 
 /-!
+# A254228: Indices of heptagonal numbers (A000566) which are also centered square numbers (A001844).
+
+The programs for A254228, the canonical program `A254228.P11322746967657275339` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254228 has offset 1).
+
+The definition of A254228 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A254228.P11322746967657275339
+
+`ogf((1+40x-178x^2+40x^3+x^4)/(1-x-322x^2+322x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A254228
+
+/-- `ogf((1+40x-178x^2+40x^3+x^4)/(1-x-322x^2+322x^3+x^4-x^5))` -/
+def P11322746967657275339.Spec : Prop :=
+  ∀ n, P11322746967657275339.a n = A254228 (n + 1)
+
+theorem P11322746967657275339.correct : P11322746967657275339.Spec := by
+  intro n
+  simp only [A254228, Nat.add_sub_cancel]
+
+end A254228
+
+/-!
 # A254229: Indices of centered square numbers (A001844) which are also heptagonal numbers (A000566).
 
-The programs for A254229, there is no canonical definition to state claims against.
+The programs for A254229, the canonical program `A254229.P14591705642248970230` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254229 has offset 1).
+
+The definition of A254229 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A254229.P14591705642248970230
+
+`ogf((1+45x-161x^2-45x^3)/(1-x-322x^2+322x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A254229
+
+/-- `ogf((1+45x-161x^2-45x^3)/(1-x-322x^2+322x^3+x^4-x^5))` -/
+def P14591705642248970230.Spec : Prop :=
+  ∀ n, P14591705642248970230.a n = A254229 (n + 1)
+
+theorem P14591705642248970230.correct : P14591705642248970230.Spec := by
+  intro n
+  simp only [A254229, Nat.add_sub_cancel]
+
+end A254229
 
 /-! ## A254229.P17210288072660161304
 
@@ -1576,6 +1622,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254229.P17210288072660161304
+
+namespace A254229
+
+/-- `ceil(sqrt(A254230(n+1)/2))` -/
+def P17210288072660161304.Spec : Prop :=
+  ∀ n, P17210288072660161304.a n = A254229 (n + 1)
+
+end A254229
 
 /-!
 # A254231: Product of tribonacci numbers A000073(2) * ... * A000073(n).
@@ -3291,8 +3345,29 @@ end A254282
 /-!
 # A254283: Indices of hexagonal numbers (A000384) which are also centered triangular numbers (A005448).
 
-The programs for A254283, there is no canonical definition to state claims against.
+The programs for A254283, the canonical program `A254283.P6780270739429103157` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254283 has offset 1).
+
+The definition of A254283 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A254283.P6780270739429103157
+
+`ogf((1+30x-110x^2+30x^3+x^4)/(1-x-194x^2+194x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A254283
+
+/-- `ogf((1+30x-110x^2+30x^3+x^4)/(1-x-194x^2+194x^3+x^4-x^5))` -/
+def P6780270739429103157.Spec : Prop :=
+  ∀ n, P6780270739429103157.a n = A254283 (n + 1)
+
+theorem P6780270739429103157.correct : P6780270739429103157.Spec := by
+  intro n
+  simp only [A254283, Nat.add_sub_cancel]
+
+end A254283
 
 /-! ## A254283.P5858862586446171780
 
@@ -3309,6 +3384,14 @@ end
 
 end A254283.P5858862586446171780
 
+namespace A254283
+
+/-- `floor(sqrt(A274756(n+1)))+1` -/
+def P5858862586446171780.Spec : Prop :=
+  ∀ n, P5858862586446171780.a n = A254283 (n + 1)
+
+end A254283
+
 /-! ## A254283.P4497372785430457118
 
 `ceil(sqrt(A254285(n+1)/2))`
@@ -3323,6 +3406,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254283.P4497372785430457118
+
+namespace A254283
+
+/-- `ceil(sqrt(A254285(n+1)/2))` -/
+def P4497372785430457118.Spec : Prop :=
+  ∀ n, P4497372785430457118.a n = A254283 (n + 1)
+
+end A254283
 
 /-! ## A254283.P4345119972177512809
 
@@ -3339,6 +3430,14 @@ end
 
 end A254283.P4345119972177512809
 
+namespace A254283
+
+/-- `ceil(sqrt(A274756(n+1)+A005559(n+1)))` -/
+def P4345119972177512809.Spec : Prop :=
+  ∀ n, P4345119972177512809.a n = A254283 (n + 1)
+
+end A254283
+
 /-! ## A254283.P3519647698760989050
 
 `ceil(sqrt(A274756(n+1)+A008836(n+1)))`
@@ -3354,26 +3453,40 @@ end
 
 end A254283.P3519647698760989050
 
-/-! ## A254283.P11901852016493277046
+namespace A254283
 
-`ceil(sqrt(A274756(n+1)+A014493(n+1)))`
--/
+/-- `ceil(sqrt(A274756(n+1)+A008836(n+1)))` -/
+def P3519647698760989050.Spec : Prop :=
+  ∀ n, P3519647698760989050.a n = A254283 (n + 1)
 
-namespace A254283.P11901852016493277046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (A274756 (n + 1) + A014493 (n + 1) : ℝ)⌉
-
-end
-
-end A254283.P11901852016493277046
+end A254283
 
 /-!
 # A254284: Indices of centered triangular numbers (A005448) which are also hexagonal numbers (A000384).
 
-The programs for A254284, there is no canonical definition to state claims against.
+The programs for A254284, the canonical program `A254284.P11722740374605908693` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254284 has offset 1).
+
+The definition of A254284 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A254284.P11722740374605908693
+
+`ogf((1+35x-97x^2-35x^3)/(1-x-194x^2+194x^3+x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A254284
+
+/-- `ogf((1+35x-97x^2-35x^3)/(1-x-194x^2+194x^3+x^4-x^5))` -/
+def P11722740374605908693.Spec : Prop :=
+  ∀ n, P11722740374605908693.a n = A254284 (n + 1)
+
+theorem P11722740374605908693.correct : P11722740374605908693.Spec := by
+  intro n
+  simp only [A254284, Nat.add_sub_cancel]
+
+end A254284
 
 /-! ## A254284.P16822668562664575731
 
@@ -3390,6 +3503,14 @@ end
 
 end A254284.P16822668562664575731
 
+namespace A254284
+
+/-- `A001571(2*n+n%2)+1` -/
+def P16822668562664575731.Spec : Prop :=
+  ∀ n, P16822668562664575731.a n = A254284 (n + 1)
+
+end A254284
+
 /-! ## A254284.P17047776964089881250
 
 `A102871(A014601(n))`
@@ -3404,6 +3525,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254284.P17047776964089881250
+
+namespace A254284
+
+/-- `A102871(A014601(n))` -/
+def P17047776964089881250.Spec : Prop :=
+  ∀ n, P17047776964089881250.a n = A254284 (n + 1)
+
+end A254284
 
 /-! ## A254284.P5629433386522387951
 
@@ -3420,6 +3549,14 @@ end
 
 end A254284.P5629433386522387951
 
+namespace A254284
+
+/-- `A107401(A047467(2+n))` -/
+def P5629433386522387951.Spec : Prop :=
+  ∀ n, P5629433386522387951.a n = A254284 (n + 1)
+
+end A254284
+
 /-! ## A254284.P9368821141464764647
 
 `A107401(A079599(n+1))`
@@ -3434,6 +3571,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254284.P9368821141464764647
+
+namespace A254284
+
+/-- `A107401(A079599(n+1))` -/
+def P9368821141464764647.Spec : Prop :=
+  ∀ n, P9368821141464764647.a n = A254284 (n + 1)
+
+end A254284
 
 /-!
 # A254285: Hexagonal numbers (A000384) which are also centered triangular numbers (A005448).

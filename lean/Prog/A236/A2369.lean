@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -10,6 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -21,18 +23,17 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C042
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,9 +48,9 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -60,12 +61,12 @@ import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B008.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,12 +75,14 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1179,21 +1182,6 @@ end A236914.P13467410043825011942
 The programs for A236915, there is no canonical definition to state claims against.
 -/
 
-/-! ## A236915.P9838302221490402995
-
-`A236936(n+9)`
--/
-
-namespace A236915.P9838302221490402995
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236936 (n + 9)
-
-end
-
-end A236915.P9838302221490402995
-
 /-! ## A236915.P8207338403593924980
 
 `A236939(n*a(a(n-1)))` with `a(0)=1, a(1)=1`
@@ -1224,25 +1212,10 @@ end
 
 end A236915.P16213260843511600327
 
-/-! ## A236915.P15710064945274924325
-
-`A236939(n)`
--/
-
-namespace A236915.P15710064945274924325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236939 (n + 10)
-
-end
-
-end A236915.P15710064945274924325
-
 /-!
 # A236916: The first "octad" is 0, 1, 2, 2, 2, 2, 3, 3; thereafter add 4 to get the next octad.
 
-The programs for A236916, the canonical program `A236916.P12494679140748673037` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236916 has offset 0).
+The programs for A236916, the canonical program `A236916.P12494679140748673037` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236916 has offset 0).
 
 The definition of A236916 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1251,7 +1224,7 @@ The definition of A236916 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((x+x^2+x^6+x^8)/(1-x-x^8+x^9))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A236916
@@ -4925,27 +4898,6 @@ end
 end A236955.P12712457399912621241
 
 /-!
-# A236956: E.g.f. satisfies: A'(x) = A(x)^7 * A(-x)^3 with A(0) = 1.
-
-The programs for A236956, there is no canonical definition to state claims against.
--/
-
-/-! ## A236956.P11979933320213770178
-
-`A385473(n)`
--/
-
-namespace A236956.P11979933320213770178
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385473 n
-
-end
-
-end A236956.P11979933320213770178
-
-/-!
 # A236957: E.g.f. satisfies: A'(x) = A(x)^7 * A(-x)^4 with A(0) = 1.
 
 The programs for A236957, there is no canonical definition to state claims against.
@@ -6285,7 +6237,7 @@ end A236966.P5935522130351526063
 /-!
 # A236967: Expansion of g.f. (1+3*x)^2/(1-3*x)^2.
 
-The programs for A236967, the canonical program `A236967.P11485579401680264996` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236967 has offset 0).
+The programs for A236967, the canonical program `A236967.P11485579401680264996` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236967 has offset 0).
 
 The definition of A236967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+6x+9x^2)/(1-6x+9x^2))` (program `A236967.P11485579401680264996`, by `A236967.P11485579401680264996.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6294,7 +6246,7 @@ The definition of A236967 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+6x+9x^2)/(1-6x+9x^2))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A236967

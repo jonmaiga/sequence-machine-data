@@ -3,25 +3,25 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -32,14 +32,17 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C038
+import Seq.B000.C035
 import Seq.B000.C039
 import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +52,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B001.C014
@@ -63,7 +65,6 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -71,12 +72,14 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,12 +89,15 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
@@ -1101,7 +1107,7 @@ end A083646.P9427985665240440757
 /-!
 # A083647: For primes p: Number of steps to reach 2 when iterating f(p) = greatest prime divisor of p-1.
 
-The programs for A083647, the canonical program `A083647.P13520631719973171400` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083647 has offset 1).
+The programs for A083647, the canonical program `A083647.P13520631719973171400` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083647 has offset 1).
 
 The definition of A083647 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2762 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1110,7 +1116,7 @@ The definition of A083647 is `conjectured`: the Lean definition is a formula tha
 
 `a(A061395(4*record[A000010(n+1)])-1)+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A083647
@@ -1177,29 +1183,6 @@ def P11850759419674372453.Spec : Prop :=
 
 end A083647
 
-/-! ## A083647.P12420238597888074271
-
-`A364332(n+1)`
--/
-
-namespace A083647.P12420238597888074271
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364332 (n + 1)
-
-end
-
-end A083647.P12420238597888074271
-
-namespace A083647
-
-/-- `A364332(n+1)` -/
-def P12420238597888074271.Spec : Prop :=
-  ∀ n, P12420238597888074271.a n = A083647 (n + 1)
-
-end A083647
-
 /-! ## A083647.P18018529136951563890
 
 `A333870(A104039(n+1))`
@@ -1226,7 +1209,7 @@ end A083647
 /-!
 # A083650: Expansion of f(-x, x^3) * phi(x^2) in powers of x where phi(), f() are Ramanujan theta functions.
 
-The programs for A083650, the canonical program `A083650.P4422840527495393310` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083650 has offset 0).
+The programs for A083650, the canonical program `A083650.P4422840527495393310` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083650 has offset 0).
 
 The definition of A083650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1235,7 +1218,7 @@ The definition of A083650 is `conjectured`: the Lean definition is a formula tha
 
 `(1-and(2, n))*A030204(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A083650
@@ -8362,27 +8345,6 @@ def P3520813081198244331.Spec : Prop :=
 end A083686
 
 /-!
-# A083687: Numerator of B(2n)*H(2n)/n*(-1)^(n+1) where B(k) is the k-th Bernoulli number and H(k) the k-th harmonic number.
-
-The programs for A083687, there is no canonical definition to state claims against.
--/
-
-/-! ## A083687.P3806201033566479593
-
-`A002547(2*(n+1))`
--/
-
-namespace A083687.P3806201033566479593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002547 (2 * (n + 1))
-
-end
-
-end A083687.P3806201033566479593
-
-/-!
 # A083690: a(n) = number of partitions of n wherein the sum of the 1's is no more than the sum of the other parts.
 
 The programs for A083690, there is no canonical definition to state claims against.
@@ -9808,7 +9770,7 @@ end A083696
 
 The programs for A083697, the canonical program `A083697.P5603520656838925954` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083697 has offset 0).
 
-The definition of A083697 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A083697 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A083697.anchor (n : ℕ) : (A083697 n : ℚ) = (2 : ℚ) ^ ((2 ^ n : ℤ) - 1 : ℤ) * (A000045 (2 ^ n) : ℚ)` in `Proof.A083.A083697`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A083697.P5603520656838925954

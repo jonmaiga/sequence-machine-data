@@ -14,31 +14,31 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -49,9 +49,10 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
@@ -60,13 +61,14 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +92,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -1541,21 +1543,6 @@ end A007210.P11721924135769167541
 The programs for A007211, there is no canonical definition to state claims against.
 -/
 
-/-! ## A007211.P6661681374163159443
-
-`A130900(n+1)`
--/
-
-namespace A007211.P6661681374163159443
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130900 (n + 1)
-
-end
-
-end A007211.P6661681374163159443
-
 /-! ## A007211.P1760956204639353429
 
 `A027593(A077342(n+1))`
@@ -1570,21 +1557,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007211.P1760956204639353429
-
-/-! ## A007211.P4153929507611943644
-
-`A027593(n+1)`
--/
-
-namespace A007211.P4153929507611943644
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027593 (n + 1)
-
-end
-
-end A007211.P4153929507611943644
 
 /-! ## A007211.P7405638384663547077
 
@@ -1669,42 +1641,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007212.P14356110907951678480
-
-/-! ## A007212.P1590020808666379451
-
-`A027590(n)`
--/
-
-namespace A007212.P1590020808666379451
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027590 n
-
-end
-
-end A007212.P1590020808666379451
-
-/-!
-# A007213: Oscillates under partition transform.
-
-The programs for A007213, there is no canonical definition to state claims against.
--/
-
-/-! ## A007213.P9483971532304196389
-
-`A027596(n+1)`
--/
-
-namespace A007213.P9483971532304196389
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027596 (n + 1)
-
-end
-
-end A007213.P9483971532304196389
 
 /-!
 # A007214: Low temperature antiferromagnetic susceptibility for honeycomb lattice.
@@ -6277,27 +6213,6 @@ def P7021066032364414055.Spec : Prop :=
   ∀ n, P7021066032364414055.a n = A007291 (n + 2)
 
 end A007291
-
-/-!
-# A007293: Dimension of space of weight systems of chord diagrams.
-
-The programs for A007293, there is no canonical definition to state claims against.
--/
-
-/-! ## A007293.P10848571555519492725
-
-`A014596(n)`
--/
-
-namespace A007293.P10848571555519492725
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014596 n
-
-end
-
-end A007293.P10848571555519492725
 
 /-!
 # A007294: Number of partitions of n into nonzero triangular numbers.

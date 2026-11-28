@@ -1,6 +1,6 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C013
-import Seq.B000.C043
+import Seq.B000.C045
 import Seq.B002.C000
 import Seq.B002.C006
 import Seq.B003.C000
@@ -8,7 +8,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C002
 import Seq.Opaque.C001
-import Seq.Opaque.C005
+import Seq.Opaque.C004
 
 /-!
 # A070400: a(n) = 6^n mod 37.

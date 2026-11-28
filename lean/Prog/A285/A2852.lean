@@ -7,40 +7,38 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C050
+import Seq.B000.C048
+import Seq.B000.C052
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,13 +64,14 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -129,7 +128,7 @@ end A285200.P13591561193265252097
 /-!
 # A285201: Stage at which Ken Knowlton's elevator (version 1) reaches floor n for the first time.
 
-The programs for A285201, the canonical program `A285201.P17645068944445464678` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285201 has offset 1).
+The programs for A285201, the canonical program `A285201.P17645068944445464678` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285201 has offset 1).
 
 The definition of A285201 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -138,7 +137,7 @@ The definition of A285201 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+n+2*n!*∑{#}[n-2, 1/((#+2)*(n-(#+2))!)]`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A285201
@@ -8353,7 +8352,7 @@ end A285267.P17600156257770759655
 /-!
 # A285268: Triangle read by rows: T(m,n) = Sum_{i=1..n} P(m,i) where P(m,n) = m!/(m-n)! is the number of permutations of m items taken n at a time, for 1 <= n <= m.
 
-The programs for A285268, the canonical program `A285268.P10407905755846803763` is in `Seq.B000.C041`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285268 has offset 1).
+The programs for A285268, the canonical program `A285268.P10407905755846803763` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285268 has offset 1).
 
 The definition of A285268 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2483 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8362,7 +8361,7 @@ The definition of A285268 is `conjectured`: the Lean definition is a formula tha
 
 `(1+T(n-1,k-1))*∑[abs(T(n-1,k))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C041`.
+The canonical program, it is in `Seq.B000.C043`.
 -/
 
 namespace A285268
@@ -10928,21 +10927,6 @@ end
 
 end A285281.P11379666462209881983
 
-/-! ## A285281.P15825193951492925843
-
-`A285267(n+4)`
--/
-
-namespace A285281.P15825193951492925843
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285267 (n + 4)
-
-end
-
-end A285281.P15825193951492925843
-
 /-!
 # A285282: Numbers n such that n^2 + 1 is 13-smooth.
 
@@ -11336,21 +11320,6 @@ end A285288.P11595619844295477517
 The programs for A285289, there is no canonical definition to state claims against.
 -/
 
-/-! ## A285289.P6106886597603072280
-
-`A249728(A137199(n))`
--/
-
-namespace A285289.P6106886597603072280
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249728 (A137199 n).toNat
-
-end
-
-end A285289.P6106886597603072280
-
 /-! ## A285289.P5698399076797096973
 
 `A319514(A208670(n+1))`
@@ -11632,21 +11601,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A285296.P1144392287700065093
-
-/-! ## A285296.P7091633450154219758
-
-`A181096(A073846(n+1))`
--/
-
-namespace A285296.P7091633450154219758
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181096 (A073846 (n + 1)).toNat
-
-end
-
-end A285296.P7091633450154219758
 
 /-!
 # A285297: Inverse permutation to A285296.

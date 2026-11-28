@@ -2,7 +2,7 @@ import SequenceMachineLib.Basic
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B001.C008
@@ -899,7 +899,7 @@ end A010689
 
 The programs for A010690, the canonical program `A010690.P13921233467683753912` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010690 has offset 0).
 
-The definition of A010690 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A010690 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A010690.anchor (n : ℕ) : A010690 n = [1, 9].getD (n % 2) 0` in `Proof.A010.A010690`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A010690.P13921233467683753912

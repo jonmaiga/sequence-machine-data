@@ -14,14 +14,12 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -31,17 +29,18 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,6 +60,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -77,11 +77,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2531,7 +2531,7 @@ end A030308
 /-!
 # A030309: Position of n-th 0 in A030308.
 
-The programs for A030309, the canonical program `A030309.P5531063639356699447` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030309 has offset 1).
+The programs for A030309, the canonical program `A030309.P5531063639356699447` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030309 has offset 1).
 
 The definition of A030309 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8628 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2540,7 +2540,7 @@ The definition of A030309 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A030310(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A030309
@@ -3749,7 +3749,7 @@ end A030313
 /-!
 # A030314: (# 1's)-(# 0's) in first n terms of A030308.
 
-The programs for A030314, the canonical program `A030314.P10920125854093051159` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030314 has offset 1).
+The programs for A030314, the canonical program `A030314.P10920125854093051159` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030314 has offset 1).
 
 The definition of A030314 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3862,7 +3862,7 @@ end A030314
 
 `∑[2*A030308(n+1)-1]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A030314
@@ -4253,21 +4253,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030315.P9540728982113530014
-
-/-! ## A030315.P11879806050653474175
-
-`A030190(A030190(n)+2)`
--/
-
-namespace A030315.P11879806050653474175
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030190 (A030190 n + 2).toNat
-
-end
-
-end A030315.P11879806050653474175
 
 /-! ## A030315.P10486189303409043409
 
@@ -7235,21 +7220,6 @@ end
 
 end A030336.P11361272804518105469
 
-/-! ## A030336.P13539719010896840839
-
-`A030346(n+2)`
--/
-
-namespace A030336.P13539719010896840839
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030346 (n + 2)
-
-end
-
-end A030336.P13539719010896840839
-
 /-!
 # A030337: Length of n-th run of digit 1 in A003137.
 
@@ -8456,21 +8426,6 @@ end
 
 end A030346.P15022261534166391517
 
-/-! ## A030346.P476961493645154637
-
-`A030336(A233583(n+1))`
--/
-
-namespace A030346.P476961493645154637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030336 (A233583 (n + 1)).toNat
-
-end
-
-end A030346.P476961493645154637
-
 /-! ## A030346.P9502491228468693091
 
 `gcd(A153024(n+1), A260319(n+1))`
@@ -8726,21 +8681,6 @@ end
 
 end A030351.P5765920252994054543
 
-/-! ## A030351.P8007347229061540132
-
-`A003137(A003137(n+1)+2)`
--/
-
-namespace A030351.P8007347229061540132
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003137 (A003137 (n + 1) + 2).toNat
-
-end
-
-end A030351.P8007347229061540132
-
 /-! ## A030351.P15194424580086252867
 
 `2-Δ[A054637(n)]`
@@ -8860,21 +8800,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030351.P3982960764162524136
-
-/-! ## A030351.P13790062367389309505
-
-`A054635(2+A054635(n+1))`
--/
-
-namespace A030351.P13790062367389309505
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054635 (2 + A054635 (n + 1)).toNat
-
-end
-
-end A030351.P13790062367389309505
 
 /-!
 # A030353: Write 2n-1 in base 3 and juxtapose.
@@ -9416,21 +9341,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030358.P13972488648043769840
-
-/-! ## A030358.P9081295671821578669
-
-`A030346(2*(n+1))`
--/
-
-namespace A030358.P9081295671821578669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030346 (2 * (n + 1))
-
-end
-
-end A030358.P9081295671821578669
 
 /-! ## A030358.P15817342171434941513
 
@@ -10518,24 +10428,6 @@ end A030370.P4687281915885977455
 
 The programs for A030371, there is no canonical definition to state claims against.
 -/
-
-/-! ## A030371.P14459023895096112175
-
-`∑[A102283(2-A030363(n+1))]`
--/
-
-namespace A030371.P14459023895096112175
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102283 (2 - A030363 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A030371.P14459023895096112175
 
 /-! ## A030371.P1544564227943823387
 
@@ -11970,21 +11862,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030379.P16364124396794841184
-
-/-! ## A030379.P3490980916717601573
-
-`A030392(n+2)`
--/
-
-namespace A030379.P3490980916717601573
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030392 (n + 2)
-
-end
-
-end A030379.P3490980916717601573
 
 /-! ## A030379.P8692828349904018245
 
@@ -13577,21 +13454,6 @@ end
 
 end A030392.P13820928607463404203
 
-/-! ## A030392.P10974608577880226544
-
-`A030379(abs(1-n)+1)`
--/
-
-namespace A030392.P10974608577880226544
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030379 (|1 - (n : ℤ)| + 1).toNat
-
-end
-
-end A030392.P10974608577880226544
-
 /-! ## A030392.P664034189835916146
 
 `A030407(A223133(n))`
@@ -13654,42 +13516,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030393.P2511298778844669985
-
-/-! ## A030393.P11277566288139414621
-
-`A031243(eq[A028717(n), 0])`
--/
-
-namespace A030393.P11277566288139414621
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028717 n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031243 (SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℤ)) n)
-
-end
-
-end A030393.P11277566288139414621
-
-/-! ## A030393.P17311134065322926066
-
-`A031243(A325597(n+1))`
--/
-
-namespace A030393.P17311134065322926066
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031243 (A325597 (n + 1)).toNat
-
-end
-
-end A030393.P17311134065322926066
 
 /-!
 # A030394: Length of n-th run of digit 2 in A030386.

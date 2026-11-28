@@ -6,50 +6,54 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C034
+import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C043
-import Seq.B000.C048
-import Seq.B000.C051
+import Seq.B000.C045
+import Seq.B000.C050
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B005.C000
+import Seq.B004.C001
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,7 +77,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -146,7 +150,7 @@ end A301401.P6314780957439414040
 /-!
 # A301402: Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A301402, the canonical program `A301402.P5725263456662410360` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301402 has offset 1).
+The programs for A301402, the canonical program `A301402.P5725263456662410360` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301402 has offset 1).
 
 The definition of A301402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -178,7 +182,7 @@ end A301402
 
 `7*(a(n-1)+a(n-2))` with `a(0)=4, a(1)=32`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301402
@@ -857,21 +861,6 @@ end A301414.P13891206356283148528
 The programs for A301416, there is no canonical definition to state claims against.
 -/
 
-/-! ## A301416.P2977328209828234813
-
-`A340137(n+1)`
--/
-
-namespace A301416.P2977328209828234813
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340137 (n + 1)
-
-end
-
-end A301416.P2977328209828234813
-
 /-! ## A301416.P13383035124569877646
 
 `A253139(A265125(n+1))`
@@ -930,7 +919,7 @@ end A301416.P18250184388911300279
 /-!
 # A301417: Sums of positive coefficients in generalized Chebyshev polynomials of the first kind, for a family of 4 data.
 
-The programs for A301417, the canonical program `A301417.P4063071924257567872` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301417 has offset 1).
+The programs for A301417, the canonical program `A301417.P4063071924257567872` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301417 has offset 1).
 
 The definition of A301417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -939,7 +928,7 @@ The definition of A301417 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1-x-3x^2-3x^3-x^4)/(1-5x-2x^2+2x^3+3x^4+x^5))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301417
@@ -1005,21 +994,6 @@ end A301417
 
 The programs for A301418, there is no canonical definition to state claims against.
 -/
-
-/-! ## A301418.P9986350286886171866
-
-`A014082(n)+A000257(n)`
--/
-
-namespace A301418.P9986350286886171866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014082 n + A000257 n
-
-end
-
-end A301418.P9986350286886171866
 
 /-! ## A301418.P17240003265039339568
 
@@ -1114,7 +1088,7 @@ end A301419.P9093351847216819750
 /-!
 # A301420: Sums of positive coefficients in generalized Chebyshev polynomials of the first kind, for a family of 5 data.
 
-The programs for A301420, the canonical program `A301420.P7490169248387326014` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301420 has offset 1).
+The programs for A301420, the canonical program `A301420.P7490169248387326014` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301420 has offset 1).
 
 The definition of A301420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1123,7 +1097,7 @@ The definition of A301420 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x-4x^2-6x^3-4x^4-x^5)/(1-6x-5x^2+5x^4+4x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301420
@@ -1164,7 +1138,7 @@ end A301420
 /-!
 # A301421: Sums of positive coefficients of generalized Chebyshev polynomials of the first kind, for a family of 6 data.
 
-The programs for A301421, the canonical program `A301421.P9089070757379584103` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301421 has offset 1).
+The programs for A301421, the canonical program `A301421.P9089070757379584103` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301421 has offset 1).
 
 The definition of A301421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1173,7 +1147,7 @@ The definition of A301421 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x-5x^2-10x^3-10x^4-5x^5-x^6)/(1-7x-9x^2-5x^3+5x^4+9x^5+5x^6+x^7))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301421
@@ -1350,7 +1324,7 @@ end A301423.P12611742918099774859
 /-!
 # A301424: Sums of positive coefficients of generalized Chebyshev polynomials of the first kind, for a family of 7 data.
 
-The programs for A301424, the canonical program `A301424.P1719589726714534771` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301424 has offset 1).
+The programs for A301424, the canonical program `A301424.P1719589726714534771` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301424 has offset 1).
 
 The definition of A301424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1359,7 +1333,7 @@ The definition of A301424 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x-6x^2-15x^3-20x^4-15x^5-6x^6-x^7)/(1-8x-14x^2-14x^3+14x^5+14x^6+6x^7+x^8))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301424
@@ -1572,7 +1546,7 @@ end A301437.P7133171405948529480
 /-!
 # A301438: Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 6 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A301438, the canonical program `A301438.P2584885111232426969` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301438 has offset 1).
+The programs for A301438, the canonical program `A301438.P2584885111232426969` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301438 has offset 1).
 
 The definition of A301438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 115 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1604,7 +1578,7 @@ end A301438
 
 `8*a(n-1)-4*a(n-2)-5*a(n-3)` with `a(0)=4, a(1)=32, a(2)=232`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301438
@@ -2110,7 +2084,7 @@ end A301450.P2178448355789921053
 /-!
 # A301451: Numbers congruent to {1, 7} mod 9.
 
-The programs for A301451, the canonical program `A301451.P14810881185217548848` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301451 has offset 1).
+The programs for A301451, the canonical program `A301451.P14810881185217548848` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301451 has offset 1).
 
 The definition of A301451 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A301451.anchor (n : ℕ) (hn : 1 ≤ n) : A301451 n = (Nat.nth (fun k => k % 9 ∈ ({1, 7} : Finset ℕ)) (n - 1) : ℤ)` in `Proof.A301.A301451`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2142,7 +2116,7 @@ end A301451
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=1, a(1)=7, a(2)=10`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301451
@@ -2704,7 +2678,7 @@ end A301453.P7403089801185138361
 /-!
 # A301454: Number of strictly log-concave permutations of {1,...,n}.
 
-The programs for A301454, the canonical program `A301454.P2388030917365927613` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301454 has offset 0).
+The programs for A301454, the canonical program `A301454.P2388030917365927613` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301454 has offset 0).
 
 The definition of A301454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2713,7 +2687,7 @@ The definition of A301454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((1+x^2+2x^3+2x^4+2x^5+2x^6+2x^7-4x^9)/(1-x))`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301454
@@ -2805,21 +2779,6 @@ end A301456.P5776789245963790036
 
 The programs for A301458, there is no canonical definition to state claims against.
 -/
-
-/-! ## A301458.P4510407268716959084
-
-`or(A012864(n), A014273(n))`
--/
-
-namespace A301458.P4510407268716959084
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A012864 n) (A014273 n)
-
-end
-
-end A301458.P4510407268716959084
 
 /-! ## A301458.P4880156835829655014
 
@@ -3807,7 +3766,7 @@ end A301480.P1507903222808334571
 /-!
 # A301483: a(n) = floor(a(n-1)/(2^(1/3)-1)) with a(1)=1.
 
-The programs for A301483, the canonical program `A301483.P3475255687004051054` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301483 has offset 1).
+The programs for A301483, the canonical program `A301483.P3475255687004051054` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301483 has offset 1).
 
 The definition of A301483 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(a(n-1)/(2^(1/3)-1))` (program `A301483.P3475255687004051054`, by `A301483.P3475255687004051054.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3816,7 +3775,7 @@ The definition of A301483 is `verified`: the Lean definition is proven equivalen
 
 `floor(a(n-1)/(2^(1/3)-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A301483

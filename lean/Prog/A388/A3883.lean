@@ -1,15 +1,16 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C009
-import Seq.B000.C027
-import Seq.B000.C039
+import Seq.B000.C010
+import Seq.B000.C028
+import Seq.B000.C041
 import Seq.B001.C002
+import Seq.B002.C007
 import Seq.B003.C005
+import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -17,7 +18,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C018
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A388304: Numbers that have several prime factors and all prime factors have the same exponent > 2.
@@ -468,7 +468,7 @@ end A388304.P3815943717218310472
 /-!
 # A388305: Numbers divisible by at least 3 primes where not all exponents in the factorization are equal.
 
-The programs for A388305, the canonical program `A388305.P1899733816285087499` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388305 has offset 1).
+The programs for A388305, the canonical program `A388305.P1899733816285087499` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388305 has offset 1).
 
 The definition of A388305 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -477,7 +477,7 @@ The definition of A388305 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A000977(n+1), A059404(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A388305

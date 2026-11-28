@@ -2,43 +2,41 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B000.C041
 import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,28 +52,30 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,7 +106,7 @@ import SequenceMachineLib.Triangle
 /-!
 # A067100: Floor[radius of the inscribed-circle of a regular n-gon with unit sides].
 
-The programs for A067100, the canonical program `A067100.P7896498252395916471` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067100 has offset 3).
+The programs for A067100, the canonical program `A067100.P7896498252395916471` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067100 has offset 3).
 
 The definition of A067100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -115,7 +115,7 @@ The definition of A067100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(cot(π/(n+3))/2)`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A067100
@@ -1606,7 +1606,7 @@ end A067125.P9216791754972742548
 /-!
 # A067126: Numbers for which phi(n) >= phi(k) for all k = 1 to n-1.
 
-The programs for A067126, the canonical program `A067126.P9376834717432131808` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067126 has offset 1).
+The programs for A067126, the canonical program `A067126.P9376834717432131808` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067126 has offset 1).
 
 The definition of A067126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9595 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1641,7 @@ end A067126
 
 `record[n%lcm(4, A020639(n+1))+1]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A067126
@@ -2520,7 +2520,7 @@ end A067131.P15044216645274231225
 /-!
 # A067132: Number of elements in the largest set of divisors of n which are in geometric progression.
 
-The programs for A067132, the canonical program `A067132.P2149404699775634079` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067132 has offset 1).
+The programs for A067132, the canonical program `A067132.P2149404699775634079` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067132 has offset 1).
 
 The definition of A067132 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2529,7 +2529,7 @@ The definition of A067132 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(n+1)+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A067132
@@ -2996,7 +2996,7 @@ end A067132
 /-!
 # A067133: n is a term if the phi(n) numbers in [0,n-1] and coprime to n form an arithmetic progression.
 
-The programs for A067133, the canonical program `A067133.P3784150760399719741` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067133 has offset 1).
+The programs for A067133, the canonical program `A067133.P3784150760399719741` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067133 has offset 1).
 
 The definition of A067133 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3351,7 +3351,7 @@ end A067133
 
 `lt[and(n, n+1)-3, A006530(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A067133

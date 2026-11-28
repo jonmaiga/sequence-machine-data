@@ -10,24 +10,27 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C039
-import Seq.B000.C041
-import Seq.B000.C046
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C040
+import Seq.B000.C042
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,12 +48,13 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B008.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,6 +67,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
@@ -70,9 +75,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -376,7 +379,7 @@ end A214111.P4861670701775399056
 /-!
 # A214113: Number of 0..3 colorings of a 2X(n+1) array circular in the n+1 direction with new values 0..3 introduced in row major order.
 
-The programs for A214113, the canonical program `A214113.P3411393089838471369` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214113 has offset 1).
+The programs for A214113, the canonical program `A214113.P3411393089838471369` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214113 has offset 1).
 
 The definition of A214113 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -385,7 +388,7 @@ The definition of A214113 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-1)+22*a(n-2)-4*a(n-3)-21*a(n-4)` with `a(0)=4, a(1)=11, a(2)=111, a(3)=670`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A214113
@@ -1344,21 +1347,6 @@ end
 
 end A214131.P3602400721746758768
 
-/-! ## A214131.P2016484420717954171
-
-`A087897(A002265(3*n+2))`
--/
-
-namespace A214131.P2016484420717954171
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087897 (A002265 (3 * n + 2)).toNat
-
-end
-
-end A214131.P2016484420717954171
-
 /-! ## A214131.P7861324381990831345
 
 `round(A345196(2*n)/A003114(2*n+3))`
@@ -1629,7 +1617,7 @@ end A214139.P16124143684204146216
 /-!
 # A214142: Number of 0..4 colorings of a 1 X (n+1) array circular in the n+1 direction with new values 0..4 introduced in row major order.
 
-The programs for A214142, the canonical program `A214142.P12692194807648372891` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214142 has offset 1).
+The programs for A214142, the canonical program `A214142.P12692194807648372891` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214142 has offset 1).
 
 The definition of A214142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1661,7 +1649,7 @@ end A214142
 
 `6*a(n-1)-7*a(n-2)-6*a(n-3)+8*a(n-4)` with `a(0)=1, a(1)=1, a(2)=4, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A214142
@@ -1916,6 +1904,21 @@ end A214142
 
 The programs for A214143, there is no canonical definition to state claims against.
 -/
+
+/-! ## A214143.P6998093208698037526
+
+`ogf((4-23x-113x^2+118x^3+260x^4)/(1-10x-50x^2+116x^3+361x^4-106x^5-312x^6))`
+-/
+
+namespace A214143.P6998093208698037526
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -23, -113, 118, 260] [1, -10, -50, 116, 361, -106, -312] n
+
+end
+
+end A214143.P6998093208698037526
 
 /-! ## A214143.P15036179397700409376
 
@@ -3958,7 +3961,7 @@ end A214187.P17803547816071813501
 /-!
 # A214188: Number of 0..6 colorings of a 1 X (n+1) array circular in the n+1 direction with new values 0..6 introduced in row major order.
 
-The programs for A214188, the canonical program `A214188.P15406598580860644712` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214188 has offset 1).
+The programs for A214188, the canonical program `A214188.P15406598580860644712` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214188 has offset 1).
 
 The definition of A214188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3967,7 +3970,7 @@ The definition of A214188 is `conjectured`: the Lean definition is a formula tha
 
 `A056273(1+n)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A214188
@@ -4031,6 +4034,29 @@ def P16295735446565399837.Spec : Prop :=
 
 end A214188
 
+/-! ## A214188.P16097792796239727850
+
+`ogf((1-14x+68x^2-135x^3+91x^4)/(1-15x+79x^2-165x^3+64x^4+180x^5-144x^6))`
+-/
+
+namespace A214188.P16097792796239727850
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -14, 68, -135, 91] [1, -15, 79, -165, 64, 180, -144] n
+
+end
+
+end A214188.P16097792796239727850
+
+namespace A214188
+
+/-- `ogf((1-14x+68x^2-135x^3+91x^4)/(1-15x+79x^2-165x^3+64x^4+180x^5-144x^6))` -/
+def P16097792796239727850.Spec : Prop :=
+  ∀ n, P16097792796239727850.a n = A214188 (n + 1)
+
+end A214188
+
 /-! ## A214188.P13940420992459136646
 
 `A203647(A060577(n+4))-a(n-1)` with `a(0)=1`
@@ -4051,32 +4077,6 @@ namespace A214188
 /-- `A203647(A060577(n+4))-a(n-1)` -/
 def P13940420992459136646.Spec : Prop :=
   ∀ n, P13940420992459136646.a n = A214188 (n + 1)
-
-end A214188
-
-/-! ## A214188.P17588090158127742750
-
-`A198723(∑[n+1]+1)-a(n-1)` with `a(0)=1`
--/
-
-namespace A214188.P17588090158127742750
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A198723 (∑ j ∈ Finset.range (n + 1), f1 j + 1) - a (n - 1)
-
-end
-
-end A214188.P17588090158127742750
-
-namespace A214188
-
-/-- `A198723(∑[n+1]+1)-a(n-1)` -/
-def P17588090158127742750.Spec : Prop :=
-  ∀ n, P17588090158127742750.a n = A214188 (n + 1)
 
 end A214188
 

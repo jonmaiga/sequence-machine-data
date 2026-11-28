@@ -22,7 +22,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -32,16 +32,17 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C044
-import Seq.B000.C045
+import Seq.B000.C042
+import Seq.B000.C043
 import Seq.B000.C046
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,13 +76,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,7 +108,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2088,16 +2089,16 @@ end A122110.P4285062269839254186
 /-!
 # A122111: Self-inverse permutation of the positive integers induced by partition enumeration in A112798 and partition conjugation.
 
-The programs for A122111, the canonical program `A122111.P18124015185857335041` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122111 has offset 1).
+The programs for A122111, the canonical program `A122111.P18124015185857335041` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122111 has offset 1).
 
-The definition of A122111 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064989, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A122111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A122111.P18124015185857335041
 
 `A105560(n+1)*a(A064989(n+1)-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A122111
@@ -2296,12 +2297,6 @@ namespace A122111
 /-- `1-A352491(n+1)+n` -/
 def P523118066810577156.Spec : Prop :=
   ∀ n, P523118066810577156.a n = A122111 (n + 1)
-
-theorem P523118066810577156.correct : P523118066810577156.Spec := by
-  intro n
-  simp only [A122111, Nat.add_sub_cancel, A122111.P523118066810577156.a, A122111.P18124015185857335041.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P10934841406439867276.a, A352491, A352491.P13151427470145142033.a, A001222, A001222.P667907507343207792.f1, A001222.P667907507343207792.a, A008578, A008578.P3639467937083264764.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A070229, A070229.P5792893597916963980.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A122111
 
@@ -5992,21 +5987,6 @@ end
 
 end A122154.P985427377264014062
 
-/-! ## A122154.P5582204497475028534
-
-`A122156(n+1)`
--/
-
-namespace A122154.P5582204497475028534
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122156 (n + 1)
-
-end
-
-end A122154.P5582204497475028534
-
 /-!
 # A122155: Simple involution of natural numbers: List each block of (2^k)-1 numbers (from (2^k)+1 to 2^(k+1) - 1) in reverse order and fix the powers of 2.
 
@@ -6224,42 +6204,6 @@ end A122156.P9575873970668557523
 
 The programs for A122157, there is no canonical definition to state claims against.
 -/
-
-/-! ## A122157.P3827698969687067859
-
-`Δ[A000720(3*n+1)]`
--/
-
-namespace A122157.P3827698969687067859
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A122157.P3827698969687067859
-
-/-! ## A122157.P10860913918060660174
-
-`Δ[A036234(3*n+1)]`
--/
-
-namespace A122157.P10860913918060660174
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036234 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A122157.P10860913918060660174
 
 /-! ## A122157.P8956556337476074659
 

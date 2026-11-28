@@ -11,7 +11,6 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,19 +18,20 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C037
-import Seq.B000.C038
-import Seq.B000.C042
-import Seq.B000.C045
+import Seq.B000.C039
+import Seq.B000.C040
+import Seq.B000.C044
 import Seq.B000.C046
-import Seq.B000.C047
+import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,24 +47,28 @@ import Seq.B001.C012
 import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,16 +79,15 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
@@ -192,27 +195,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009202.P7001019400459759909
-
-/-!
-# A009204: Expansion of e.g.f. exp(sin(tanh(x))).
-
-The programs for A009204, there is no canonical definition to state claims against.
--/
-
-/-! ## A009204.P17272914122509952727
-
-`A009258(n)`
--/
-
-namespace A009204.P17272914122509952727
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009258 n
-
-end
-
-end A009204.P17272914122509952727
 
 /-!
 # A009205: a(n) = gcd(d(n), sigma(n)).
@@ -2892,21 +2874,6 @@ end
 
 end A009231.P6515599173056953101
 
-/-! ## A009231.P5914496402121024305
-
-`A012514(n)+A012313(n)`
--/
-
-namespace A009231.P5914496402121024305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A012514 n + A012313 n
-
-end
-
-end A009231.P5914496402121024305
-
 /-!
 # A009233: Expansion of e.g.f. exp(sinh(x)*x) (even powers only).
 
@@ -3050,21 +3017,6 @@ end A009237.P1987394026163348571
 
 The programs for A009239, there is no canonical definition to state claims against.
 -/
-
-/-! ## A009239.P3053491872349077803
-
-`A009221(n)`
--/
-
-namespace A009239.P3053491872349077803
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009221 n
-
-end
-
-end A009239.P3053491872349077803
 
 /-! ## A009239.P8073669895745715117
 
@@ -7329,21 +7281,6 @@ end A009288.P1046178667382230898
 
 The programs for A009290, there is no canonical definition to state claims against.
 -/
-
-/-! ## A009290.P12696677078655542130
-
-`abs(A009161(n))`
--/
-
-namespace A009290.P12696677078655542130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A009161 n|
-
-end
-
-end A009290.P12696677078655542130
 
 /-! ## A009290.P9166165933918995540
 

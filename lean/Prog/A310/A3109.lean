@@ -2,6 +2,7 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
@@ -18,21 +20,21 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,13 +50,14 @@ import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -63,11 +66,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,6 +85,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -3030,27 +3035,6 @@ end
 end A310958.P5059698449786389729
 
 /-!
-# A310959: Coordination sequence Gal.6.50.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
-
-The programs for A310959, there is no canonical definition to state claims against.
--/
-
-/-! ## A310959.P15446242595653941810
-
-`A310960(n)`
--/
-
-namespace A310959.P15446242595653941810
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310960 n
-
-end
-
-end A310959.P15446242595653941810
-
-/-!
 # A310960: Coordination sequence Gal.4.1.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
 The programs for A310960, there is no canonical definition to state claims against.
@@ -3582,27 +3566,6 @@ end
 end A310972.P14645550939298628602
 
 /-!
-# A310973: Coordination sequence Gal.6.94.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
-
-The programs for A310973, there is no canonical definition to state claims against.
--/
-
-/-! ## A310973.P17752531285255442552
-
-`A310974(n)`
--/
-
-namespace A310973.P17752531285255442552
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310974 n
-
-end
-
-end A310973.P17752531285255442552
-
-/-!
 # A310975: Coordination sequence Gal.5.37.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
 The programs for A310975, there is no canonical definition to state claims against.
@@ -4073,7 +4036,7 @@ end A310987.P17878017238716723153
 /-!
 # A310988: Coordination sequence Gal.4.16.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310988, the canonical program `A310988.P17984779142872541442` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310988 has offset 0).
+The programs for A310988, the canonical program `A310988.P17984779142872541442` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310988 has offset 0).
 
 The definition of A310988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4082,7 +4045,7 @@ The definition of A310988 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+4x+8x^2+10x^3+14x^4+16x^5+23x^6+22x^7+23x^8+16x^9+14x^10+10x^11+8x^12+4x^13+x^14)/(1-2x^7+x^14))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A310988
@@ -4930,7 +4893,7 @@ end A310998.P7792135060823698032
 /-!
 # A310999: Coordination sequence Gal.4.7.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310999, the canonical program `A310999.P15775610439464248325` is in `Seq.B000.C044`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310999 has offset 0).
+The programs for A310999, the canonical program `A310999.P15775610439464248325` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310999 has offset 0).
 
 The definition of A310999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4939,7 +4902,7 @@ The definition of A310999 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+2x+2x^2+5x^4+3x^6+4x^7-2x^8+4x^9+x^10+2x^12-2x^13)/(1-2x+2x^2-2x^3+2x^4-2x^5+2x^6-2x^7+2x^8-2x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C044`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A310999

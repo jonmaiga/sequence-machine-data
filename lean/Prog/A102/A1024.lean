@@ -24,8 +24,8 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -43,6 +43,8 @@ import Seq.B000.C043
 import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
+import Seq.B000.C048
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -72,11 +74,12 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -85,8 +88,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -111,7 +112,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -216,21 +216,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102403.P15119967814815875240
-
-/-! ## A102403.P7498847342675702230
-
-`A278428(n+1)`
--/
-
-namespace A102403.P7498847342675702230
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278428 (n + 1)
-
-end
-
-end A102403.P7498847342675702230
 
 /-! ## A102403.P2910819560923280456
 
@@ -1532,21 +1517,6 @@ end
 
 end A102418.P13014170213805658157
 
-/-! ## A102418.P1029202216902322482
-
-`A333764(A336498(n+1))`
--/
-
-namespace A102418.P1029202216902322482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333764 (A336498 (n + 1)).toNat
-
-end
-
-end A102418.P1029202216902322482
-
 /-! ## A102418.P7669920743989973064
 
 `A005100(A336498(n+1)%A114387(n+1))`
@@ -1561,36 +1531,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102418.P7669920743989973064
-
-/-! ## A102418.P401841751129200096
-
-`A005100(A336498(n+1))`
--/
-
-namespace A102418.P401841751129200096
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005100 (A336498 (n + 1)).toNat
-
-end
-
-end A102418.P401841751129200096
-
-/-! ## A102418.P15297812137112940099
-
-`A336498(n+1)`
--/
-
-namespace A102418.P15297812137112940099
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336498 (n + 1)
-
-end
-
-end A102418.P15297812137112940099
 
 /-!
 # A102419: "Dropping time" in 3x+1 problem starting at n (number of steps to reach a lower number than starting value); a(1) = 0 by convention. Also called glide(n).
@@ -3842,21 +3782,6 @@ end
 
 end A102442.P2752838011064347204
 
-/-! ## A102442.P9633052808198760747
-
-`A400366(A061395(n+1))`
--/
-
-namespace A102442.P9633052808198760747
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A400366 (A061395 (n + 1)).toNat
-
-end
-
-end A102442.P9633052808198760747
-
 /-! ## A102442.P17822589696027680765
 
 `A255270(A327802(A105562(n+1)²))`
@@ -3907,21 +3832,6 @@ end A102442.P15412057178742623131
 
 The programs for A102443, there is no canonical definition to state claims against.
 -/
-
-/-! ## A102443.P11351600576844657848
-
-`A102441(A102441(n+1))`
--/
-
-namespace A102443.P11351600576844657848
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102441 (A102441 (n + 1)).toNat
-
-end
-
-end A102443.P11351600576844657848
 
 /-! ## A102443.P15190777516795817270
 
@@ -6816,16 +6726,16 @@ end A102468.P10237279906799429199
 /-!
 # A102469: Largest prime factor of numerator of Sum_{k=0...n} 1/k!, with a(0) = 1.
 
-The programs for A102469, the canonical program `A102469.P7785129579363644246` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102469 has offset 0).
+The programs for A102469, the canonical program `A102469.P7785129579363644246` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102469 has offset 0).
 
-The definition of A102469 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A102469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A102469.P7785129579363644246
 
 `A006530(A061354(n))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A102469
@@ -10428,21 +10338,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A102491.P4934118794326267347
-
-/-! ## A102491.P1169673411185874184
-
-`2*n-A010879(n)`
--/
-
-namespace A102491.P1169673411185874184
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n : ℤ) - A010879 n
-
-end
-
-end A102491.P1169673411185874184
 
 /-! ## A102491.P9315387832772421843
 

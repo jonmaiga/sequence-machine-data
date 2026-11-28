@@ -16,13 +16,13 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -38,15 +38,17 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
+import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
 import Seq.B000.C050
-import Seq.B000.C051
+import Seq.B000.C052
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,8 +64,8 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -72,15 +74,15 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8652,64 +8654,11 @@ def P5475292766976002319.Spec : Prop :=
 
 end A006264
 
-/-! ## A006264.P2143146736463457758
-
-`A128217(A070939(n))`
--/
-
-namespace A006264.P2143146736463457758
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A128217 (A070939 n).toNat
-
-end
-
-end A006264.P2143146736463457758
-
-namespace A006264
-
-/-- `A128217(A070939(n))` -/
-def P2143146736463457758.Spec : Prop :=
-  ∀ n, P2143146736463457758.a n = A006264 n
-
-end A006264
-
 /-!
 # A006265: Number of shapes of height-balanced AVL trees with n nodes.
 
 The programs for A006265, there is no canonical definition to state claims against.
 -/
-
-/-! ## A006265.P9780410289707917355
-
-`A134306(1+n)`
--/
-
-namespace A006265.P9780410289707917355
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134306 (1 + n)
-
-end
-
-end A006265.P9780410289707917355
-
-/-! ## A006265.P16286128754995443063
-
-`A036662(n+1)`
--/
-
-namespace A006265.P16286128754995443063
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036662 (n + 1)
-
-end
-
-end A006265.P16286128754995443063
 
 /-! ## A006265.P11849064308990000794
 

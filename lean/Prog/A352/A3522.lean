@@ -11,21 +11,22 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -33,11 +34,13 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C045
 import Seq.B000.C046
+import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,9 +58,9 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -65,6 +68,8 @@ import Seq.B003.C003
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -75,8 +80,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,32 +104,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
-
-/-!
-# A352200: a(0)=0, a(1)=1; thereafter, a(n) is the smallest number m not yet in the sequence such that the binary expansions of m and a(n-1) have a 1 in the same position, but the positions of the 1's in the binary expansions of m and a(n-2) are disjoint, except that the second condition is ignored if it would imply that no choice for m were possible.
-
-The programs for A352200, there is no canonical definition to state claims against.
--/
-
-/-! ## A352200.P4405724395619936517
-
-`A248663(A100113(n+1))`
--/
-
-namespace A352200.P4405724395619936517
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A248663 (A100113 (n + 1)).toNat
-
-end
-
-end A352200.P4405724395619936517
 
 /-!
 # A352201: a(n) = binary weight of A338833(n).
@@ -1353,21 +1334,6 @@ end A352217.P10111613864508067542
 The programs for A352218, there is no canonical definition to state claims against.
 -/
 
-/-! ## A352218.P6063683265658882422
-
-`A087117(A245178(n+1))`
--/
-
-namespace A352218.P6063683265658882422
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087117 (A245178 (n + 1)).toNat
-
-end
-
-end A352218.P6063683265658882422
-
 /-! ## A352218.P11388770547932352776
 
 `A074206(A389352(2*n+1)%A219578(3*n+1))`
@@ -1382,21 +1348,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352218.P11388770547932352776
-
-/-! ## A352218.P3819355584232391937
-
-`A074206(A389352(2*n+1))`
--/
-
-namespace A352218.P3819355584232391937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074206 (A389352 (2 * n + 1)).toNat
-
-end
-
-end A352218.P3819355584232391937
 
 /-! ## A352218.P9012094942971091423
 
@@ -1590,7 +1541,7 @@ end A352226.P4253334223818559444
 /-!
 # A352227: Number of length-n blocks in the Thue-Morse sequence with intertwining pattern AB AB AB... .
 
-The programs for A352227, the canonical program `A352227.P5423502496208681899` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352227 has offset 1).
+The programs for A352227, the canonical program `A352227.P5423502496208681899` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352227 has offset 1).
 
 The definition of A352227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1599,7 +1550,7 @@ The definition of A352227 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(a(round(n/2)))]` with `a(0)=0, a(1)=2, a(2)=0, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A352227
@@ -1901,7 +1852,7 @@ end A352227
 /-!
 # A352228: Number of length-n blocks in the Thue-Morse sequence with intertwining pattern ABBA ABBA ABBA... .
 
-The programs for A352228, the canonical program `A352228.P3369549821197344394` is in `Seq.B000.C046`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352228 has offset 1).
+The programs for A352228, the canonical program `A352228.P3369549821197344394` is in `Seq.B000.C048`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352228 has offset 1).
 
 The definition of A352228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1910,7 +1861,7 @@ The definition of A352228 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(ceil(n/2))²]` with `a(0)=0, a(1)=0, a(2)=1, a(3)=0`
 
-The canonical program, it is in `Seq.B000.C046`.
+The canonical program, it is in `Seq.B000.C048`.
 -/
 
 namespace A352228
@@ -2994,21 +2945,6 @@ end
 
 end A352240.P8530765615555717551
 
-/-! ## A352240.P15319628598547884034
-
-`A187797(n+1)`
--/
-
-namespace A352240.P15319628598547884034
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187797 (n + 1)
-
-end
-
-end A352240.P15319628598547884034
-
 /-!
 # A352241: Maximal number of nonattacking black-square queens on an n X n chessboard.
 
@@ -3594,27 +3530,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352258.P15421204270210717549
-
-/-!
-# A352259: Number of ways to write n as w^6 + x^2 + 2*y^2 + 3*z^2 + x*y*z, where w,x,y,z are nonnegative integers.
-
-The programs for A352259, there is no canonical definition to state claims against.
--/
-
-/-! ## A352259.P3426478577557296428
-
-`A352286(n)`
--/
-
-namespace A352259.P3426478577557296428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352286 n
-
-end
-
-end A352259.P3426478577557296428
 
 /-!
 # A352260: Integers that need 2 iterations of the map x->A352172(x) to reach 1.

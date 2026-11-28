@@ -8,29 +8,27 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C025
+import Seq.B000.C021
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C041
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
+import Seq.B000.C045
+import Seq.B000.C046
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,20 +46,23 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +72,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -81,7 +81,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1002,17 +1002,44 @@ end A022724.P7811968874881082557
 /-!
 # A022725: Expansion of 1/((1-x)*(1-5*x)*(1-8*x)*(1-12*x)).
 
-The programs for A022725, the canonical program `A022725.P12976959514950321266` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022725 has offset 0).
+The programs for A022725, the canonical program `A022725.P2744394538711271917` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022725 has offset 0).
 
-The definition of A022725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A022725 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-26x+221x^2-676x^3+480x^4))` (program `A022725.P2744394538711271917`, by `A022725.P2744394538711271917.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A022725.P2744394538711271917
+
+`ogf(1/(1-26x+221x^2-676x^3+480x^4))`
+
+The canonical program, it is in `Seq.B000.C005`.
+-/
+
+namespace A022725
+
+/-- `ogf(1/(1-26x+221x^2-676x^3+480x^4))` -/
+def P2744394538711271917.Spec : Prop :=
+  ∀ n, P2744394538711271917.a n = A022725 n
+
+theorem P2744394538711271917.correct : P2744394538711271917.Spec := by
+  intro n
+  simp only [A022725]
+
+end A022725
 
 /-! ## A022725.P12976959514950321266
 
 `(3*12^(n+3)-11*8^(n+3)+11*5^(n+3)-3)/924`
-
-The canonical program, it is in `Seq.B000.C005`.
 -/
+
+namespace A022725.P12976959514950321266
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((3 * 12 ^ (n + 3) : ℤ) - (11 * 8 ^ (n + 3) : ℤ) + (11 * 5 ^ (n + 3) : ℤ) - 3 : ℚ) / 924
+
+end
+
+end A022725.P12976959514950321266
 
 namespace A022725
 

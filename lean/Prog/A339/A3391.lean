@@ -4,11 +4,10 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -20,22 +19,24 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C033
 import Seq.B000.C039
 import Seq.B000.C040
-import Seq.B000.C043
-import Seq.B000.C044
+import Seq.B000.C041
+import Seq.B000.C042
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C047
 import Seq.B000.C048
+import Seq.B000.C049
+import Seq.B000.C050
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,28 +51,29 @@ import Seq.B001.C013
 import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,6 +89,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -95,7 +98,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -2293,8 +2295,29 @@ end A339116
 /-!
 # A339117: Number of cycles in the grid graph P_5 X P_n.
 
-The programs for A339117, there is no canonical definition to state claims against.
+The programs for A339117, the canonical program `A339117.P12793517385671074858` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339117 has offset 2).
+
+The definition of A339117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A339117.P12793517385671074858
+
+`ogf((10-42x+149x^2-300x^3-393x^4+693x^5+230x^6-473x^7-72x^8+202x^9+84x^10)/(1-15x+72x^2-169x^3+194x^4+109x^5-552x^6+371x^7+241x^8-316x^9-34x^10+120x^11+6x^12-28x^13))`
+
+The canonical program, it is in `Seq.B000.C047`.
+-/
+
+namespace A339117
+
+/-- `ogf((10-42x+149x^2-300x^3-393x^4+693x^5+230x^6-473x^7-72x^8+202x^9+84x^10)/(1-15x+72x^2-169x^3+194x^4+109x^5-552x^6+371x^7+241x^8-316x^9-34x^10+120x^11+6x^12-28x^13))` -/
+def P12793517385671074858.Spec : Prop :=
+  ∀ n, P12793517385671074858.a n = A339117 (n + 2)
+
+theorem P12793517385671074858.correct : P12793517385671074858.Spec := by
+  intro n
+  simp only [A339117, Nat.add_sub_cancel]
+
+end A339117
 
 /-! ## A339117.P5543462231862512210
 
@@ -2310,6 +2333,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A339117.P5543462231862512210
+
+namespace A339117
+
+/-- `A231829(A141214(n+1))` -/
+def P5543462231862512210.Spec : Prop :=
+  ∀ n, P5543462231862512210.a n = A339117 (n + 2)
+
+end A339117
 
 /-!
 # A339118: Number of cycles in the grid graph P_6 X P_n.
@@ -2470,7 +2501,7 @@ end A339123.P9719243499082978768
 /-!
 # A339124: a(n) is the number of squares at distance n from the central square of a golden square fractal.
 
-The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
+The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
 
 The definition of A339124 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2502,7 +2533,7 @@ end A339124
 
 `3*a(n-1)-2*a(n-2)+2*a(n-4)` with `a(0)=1, a(1)=4, a(2)=12, a(3)=28, a(4)=60`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339124
@@ -3154,7 +3185,7 @@ end A339134.P16252200899388841266
 /-!
 # A339136: Number of (undirected) cycles in the graph C_3 X P_n.
 
-The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
+The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
 
 The definition of A339136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3163,7 +3194,7 @@ The definition of A339136 is `conjectured`: the Lean definition is a formula tha
 
 `∑[6*3^n-5]`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339136
@@ -3472,7 +3503,7 @@ end A339136
 /-!
 # A339137: Number of (undirected) cycles in the graph C_4 X P_n.
 
-The programs for A339137, the canonical program `A339137.P12189930020924276339` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339137 has offset 1).
+The programs for A339137, the canonical program `A339137.P12189930020924276339` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339137 has offset 1).
 
 The definition of A339137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3481,7 +3512,7 @@ The definition of A339137 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+18x-29x^2-6x^3)/(1-10x+26x^2-24x^3+5x^4+2x^5))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339137
@@ -3501,36 +3532,6 @@ end A339137
 
 The programs for A339138, there is no canonical definition to state claims against.
 -/
-
-/-! ## A339138.P9724514082768609837
-
-`A319154(n+1)`
--/
-
-namespace A339138.P9724514082768609837
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319154 (n + 1)
-
-end
-
-end A339138.P9724514082768609837
-
-/-! ## A339138.P8064822438670657030
-
-`A398043(n)`
--/
-
-namespace A339138.P8064822438670657030
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A398043 n
-
-end
-
-end A339138.P8064822438670657030
 
 /-! ## A339138.P2479690126149503611
 
@@ -3682,7 +3683,7 @@ end A339145.P4815650814699250117
 /-!
 # A339146: a(n) = a(floor(n / 5)) * (n mod 5 + 1); initial terms are 1.
 
-The programs for A339146, the canonical program `A339146.P7652010620480162329` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339146 has offset 0).
+The programs for A339146, the canonical program `A339146.P7652010620480162329` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339146 has offset 0).
 
 The definition of A339146 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(floor(n/5))*(n%5+1)` (program `A339146.P7652010620480162329`, by `A339146.P7652010620480162329.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3691,7 +3692,7 @@ The definition of A339146 is `verified`: the Lean definition is proven equivalen
 
 `a(floor(n/5))*(n%5+1)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339146
@@ -5610,21 +5611,6 @@ end A339176.P7880458822840944827
 The programs for A339178, there is no canonical definition to state claims against.
 -/
 
-/-! ## A339178.P6728762201227672864
-
-`A001511(A088178(n+1))`
--/
-
-namespace A339178.P6728762201227672864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001511 (A088178 (n + 1)).toNat
-
-end
-
-end A339178.P6728762201227672864
-
 /-! ## A339178.P5863166059401501039
 
 `A305079(A088178(n+1)+A000079(n))`
@@ -5664,7 +5650,7 @@ end A339180.P6813488557428058969
 /-!
 # A339183: Number of partitions of n into two parts such that the smaller part is a nonzero square.
 
-The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
+The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
 
 The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5673,7 +5659,7 @@ The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n/2))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339183
@@ -7567,7 +7553,7 @@ end A339195.P9231246778905207546
 /-!
 # A339196: Number of (undirected) cycles on the n X 2 king graph.
 
-The programs for A339196, the canonical program `A339196.P11634121647790676471` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
+The programs for A339196, the canonical program `A339196.P11634121647790676471` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
 
 The definition of A339196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 328 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7576,7 +7562,7 @@ The definition of A339196 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2^(4+n)-9]`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339196
@@ -7887,7 +7873,7 @@ end A339196
 /-!
 # A339197: Number of (undirected) cycles on the n X 3 king graph.
 
-The programs for A339197, the canonical program `A339197.P12120013485847751818` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339197 has offset 2).
+The programs for A339197, the canonical program `A339197.P12120013485847751818` is in `Seq.B000.C047`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339197 has offset 2).
 
 The definition of A339197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7896,7 +7882,7 @@ The definition of A339197 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((30+48x+69x^2+49x^3+11x^4)/(1-10x+3x^2+15x^3-10x^4+7x^5-6x^6))`
 
-The canonical program, it is in `Seq.B000.C045`.
+The canonical program, it is in `Seq.B000.C047`.
 -/
 
 namespace A339197

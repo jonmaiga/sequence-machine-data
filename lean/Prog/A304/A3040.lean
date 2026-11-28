@@ -9,7 +9,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -17,22 +16,23 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C040
-import Seq.B000.C043
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C041
+import Seq.B000.C044
 import Seq.B000.C045
 import Seq.B000.C046
 import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C050
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -59,15 +59,18 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +94,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -319,7 +321,7 @@ end A304003.P12995947867125569056
 /-!
 # A304004: Number of n X 2 0..1 arrays with every element unequal to 0, 2, 3 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A304004, the canonical program `A304004.P10450761010945913802` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304004 has offset 1).
+The programs for A304004, the canonical program `A304004.P10450761010945913802` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304004 has offset 1).
 
 The definition of A304004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -328,7 +330,7 @@ The definition of A304004 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-2)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=7, a(3)=13, a(4)=26`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A304004
@@ -707,36 +709,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304010.P17344899342881396579
-
-/-! ## A304010.P11003961120924619377
-
-`A305360(1+n)`
--/
-
-namespace A304010.P11003961120924619377
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305360 (1 + n)
-
-end
-
-end A304010.P11003961120924619377
-
-/-! ## A304010.P6257590299174657251
-
-`A304952(n+1)`
--/
-
-namespace A304010.P6257590299174657251
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304952 (n + 1)
-
-end
-
-end A304010.P6257590299174657251
 
 /-!
 # A304011: Number of same-sized pairs of subsets of set of n numbers that might have the same sum.
@@ -2761,21 +2733,6 @@ end
 
 end A304037.P1382865569698383924
 
-/-! ## A304037.P12047254805942357622
-
-`A056239((n+1)/ceil(xor(n, n+1)/4))`
--/
-
-namespace A304037.P12047254805942357622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (⌈(Nat.xor n (n + 1) : ℚ) / 4⌉ : ℚ))).toNat
-
-end
-
-end A304037.P12047254805942357622
-
 /-! ## A304037.P7416015420405981457
 
 `A325166(A023201(n+1)*A102631(n+1))`
@@ -3460,7 +3417,7 @@ end A304051.P16858127856731976957
 /-!
 # A304052: Number of nX2 0..1 arrays with every element unequal to 1, 2, 4 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A304052, the canonical program `A304052.P8303337090333737456` is in `Seq.B000.C043`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304052 has offset 1).
+The programs for A304052, the canonical program `A304052.P8303337090333737456` is in `Seq.B000.C045`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304052 has offset 1).
 
 The definition of A304052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3469,7 +3426,7 @@ The definition of A304052 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-2)+8*a(n-3)-4*a(n-4)-16*a(n-5)` with `a(0)=1, a(1)=3, a(2)=11, a(3)=10, a(4)=51, a(5)=165`
 
-The canonical program, it is in `Seq.B000.C043`.
+The canonical program, it is in `Seq.B000.C045`.
 -/
 
 namespace A304052
@@ -3971,36 +3928,6 @@ end A304064.P3652671106146118557
 
 The programs for A304065, there is no canonical definition to state claims against.
 -/
-
-/-! ## A304065.P17624878217584976148
-
-`A305457(1+n)`
--/
-
-namespace A304065.P17624878217584976148
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305457 (1 + n)
-
-end
-
-end A304065.P17624878217584976148
-
-/-! ## A304065.P5595717248030049673
-
-`A305022(n+1)`
--/
-
-namespace A304065.P5595717248030049673
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305022 (n + 1)
-
-end
-
-end A304065.P5595717248030049673
 
 /-! ## A304065.P14728573984462789642
 
@@ -5333,21 +5260,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A304084.P3160463608146984813
-
-/-! ## A304084.P170912238804064018
-
-`A209862(A003188(n))`
--/
-
-namespace A304084.P170912238804064018
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209862 (A003188 n).toNat
-
-end
-
-end A304084.P170912238804064018
 
 /-! ## A304084.P12757432769696379028
 

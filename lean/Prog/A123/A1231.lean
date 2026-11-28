@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -23,6 +22,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -33,7 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -42,9 +42,10 @@ import Seq.B000.C041
 import Seq.B000.C042
 import Seq.B000.C043
 import Seq.B000.C044
-import Seq.B000.C048
-import Seq.B000.C049
+import Seq.B000.C046
+import Seq.B000.C050
 import Seq.B000.C051
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -76,13 +77,10 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B006.C002
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +98,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -4297,26 +4294,32 @@ theorem P4087680515050545934.correct : P4087680515050545934.Spec := by
 
 end A123128
 
-/-! ## A123128.P2582852687850301836
+/-! ## A123128.P16023005619196556036
 
 `n+1+A000040(n+2)-A000040(n+1)`
 -/
 
-namespace A123128.P2582852687850301836
+namespace A123128.P16023005619196556036
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) + (A000040 (n + 2) - A000040 (n + 1))
+  (n + 1 : ℤ) + A000040 (n + 2) - A000040 (n + 1)
 
 end
 
-end A123128.P2582852687850301836
+end A123128.P16023005619196556036
 
 namespace A123128
 
 /-- `n+1+A000040(n+2)-A000040(n+1)` -/
-def P2582852687850301836.Spec : Prop :=
-  ∀ n, P2582852687850301836.a n = A123128 (n + 1)
+def P16023005619196556036.Spec : Prop :=
+  ∀ n, P16023005619196556036.a n = A123128 (n + 1)
+
+theorem P16023005619196556036.correct : P16023005619196556036.Spec := by
+  intro n
+  simp only [A123128, Nat.add_sub_cancel, A123128.P16023005619196556036.a, A123128.P14620295915267660605.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001223, A001223.P5034056745985311719.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A123128
 
@@ -5012,27 +5015,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A123130.P869541321256094741
-
-/-!
-# A123131: Largest order of permutations of n elements with no fixed points.
-
-The programs for A123131, there is no canonical definition to state claims against.
--/
-
-/-! ## A123131.P8395524954311524089
-
-`A340267(n+2)`
--/
-
-namespace A123131.P8395524954311524089
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340267 (n + 2)
-
-end
-
-end A123131.P8395524954311524089
 
 /-!
 # A123134: a(n) = prime(n)*(prime(n+1) + 1).

@@ -17,7 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -29,19 +29,17 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C030
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B000.C041
-import Seq.B000.C042
 import Seq.B000.C043
-import Seq.B000.C044
 import Seq.B000.C045
-import Seq.B000.C047
+import Seq.B000.C046
+import Seq.B000.C049
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,31 +53,37 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B001.C013
+import Seq.B001.C014
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B005.C003
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9596,6 +9600,29 @@ theorem P15116355347665768313.correct : P15116355347665768313.Spec := by
 
 end A056847
 
+/-! ## A056847.P700496860242093391
+
+`n-A000194(n)`
+-/
+
+namespace A056847.P700496860242093391
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - A000194 n
+
+end
+
+end A056847.P700496860242093391
+
+namespace A056847
+
+/-- `n-A000194(n)` -/
+def P700496860242093391.Spec : Prop :=
+  ∀ n, P700496860242093391.a n = A056847 n
+
+end A056847
+
 /-! ## A056847.P4973895038030979288
 
 `fp[sqrt(n)+n]-1`
@@ -10114,36 +10141,6 @@ namespace A056847
 /-- `(2*n+1)%(comp[(n+1)²]+1)` -/
 def P4054145799921707045.Spec : Prop :=
   ∀ n, (P4054145799921707045.a n : ℤ) = A056847 n
-
-end A056847
-
-/-! ## A056847.P17540705021722221417
-
-`floor(∪[2*n+1, 2*n²]/2)`
--/
-
-namespace A056847.P17540705021722221417
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n : ℚ) / 2⌋
-
-end
-
-end A056847.P17540705021722221417
-
-namespace A056847
-
-/-- `floor(∪[2*n+1, 2*n²]/2)` -/
-def P17540705021722221417.Spec : Prop :=
-  ∀ n, P17540705021722221417.a n = A056847 n
 
 end A056847
 
@@ -13730,24 +13727,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A056867.P15004232173543923807
-
-/-! ## A056867.P8827491075391171647
-
-`record[A319677(n+1)+0]`
--/
-
-namespace A056867.P8827491075391171647
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319677 (n + 1) + 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A056867.P8827491075391171647
 
 /-! ## A056867.P233694514978067235
 

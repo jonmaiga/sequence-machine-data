@@ -4,24 +4,25 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C038
+import Seq.B000.C024
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C003
 import Seq.B001.C013
 import Seq.B002.C001
-import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -31,16 +32,16 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C016
+import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import SequenceMachineLib.Triangle
 
 /-!
@@ -3624,27 +3625,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119174.P14588600608017713393
-
-/-!
-# A119175: Numbers k such that the k-th triangular number contains only digits {2,6,8}.
-
-The programs for A119175, there is no canonical definition to state claims against.
--/
-
-/-! ## A119175.P9701899572388475274
-
-`row(A119174(n+1)+0)`
--/
-
-namespace A119175.P9701899572388475274
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.triRow (A119174 (n + 1) + 0).toNat
-
-end
-
-end A119175.P9701899572388475274
 
 /-!
 # A119176: Triangular numbers composed of digits {2,6,9}.

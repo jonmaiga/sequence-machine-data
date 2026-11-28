@@ -8,29 +8,29 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C038
-import Seq.B000.C043
-import Seq.B000.C049
+import Seq.B000.C039
+import Seq.B000.C045
+import Seq.B000.C051
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,6 +42,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
@@ -51,6 +52,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -60,11 +62,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B005.C003
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +79,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -1365,6 +1365,29 @@ def P6191100540916868987.Spec : Prop :=
 theorem P6191100540916868987.correct : P6191100540916868987.Spec := by
   intro n
   simp only [A034663]
+
+end A034663
+
+/-! ## A034663.P9874537596507031986
+
+`ogf((4-96x+524x^2-672x^3)/(1-32x+262x^2-672x^3+441x^4))`
+-/
+
+namespace A034663.P9874537596507031986
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -96, 524, -672] [1, -32, 262, -672, 441] n
+
+end
+
+end A034663.P9874537596507031986
+
+namespace A034663
+
+/-- `ogf((4-96x+524x^2-672x^3)/(1-32x+262x^2-672x^3+441x^4))` -/
+def P9874537596507031986.Spec : Prop :=
+  ∀ n, P9874537596507031986.a n = A034663 n
 
 end A034663
 
@@ -6289,7 +6312,7 @@ end A034696
 /-!
 # A034697: a(1)=1, a(n)= 1 + Sum a(p), p prime, p | n-1.
 
-The programs for A034697, the canonical program `A034697.P8400493548064659538` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034697 has offset 1).
+The programs for A034697, the canonical program `A034697.P8400493548064659538` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034697 has offset 1).
 
 The definition of A034697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6298,7 +6321,7 @@ The definition of A034697 is `conjectured`: the Lean definition is a formula tha
 
 `a(∏{p}[n, #]-A032742(∏{p}[n, #]))+1` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034697

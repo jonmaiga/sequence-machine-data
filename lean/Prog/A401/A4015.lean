@@ -6,19 +6,20 @@ import Seq.B000.C002
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C037
-import Seq.B000.C044
-import Seq.B000.C051
+import Seq.B000.C032
+import Seq.B000.C038
+import Seq.B000.C046
+import Seq.B000.C053
 import Seq.B001.C000
 import Seq.B001.C007
 import Seq.B001.C010
@@ -38,12 +39,11 @@ import Seq.B004.C003
 import Seq.B004.C004
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -58,12 +58,11 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C018
+import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
 
@@ -101,7 +100,7 @@ end A401501
 /-!
 # A401502: Triangle read by rows: T(n, k) is the number of partitions of the set {1, 2, ..., n+k} into k nonempty lists, such that the smallest element of each list is not in the initial position. The lists themselves are unordered.
 
-The programs for A401502, the canonical program `A401502.P13268597667660539485` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401502 has offset 0).
+The programs for A401502, the canonical program `A401502.P13268597667660539485` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401502 has offset 0).
 
 The definition of A401502 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -110,7 +109,7 @@ The definition of A401502 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)+col(n)-1)*(T(n-1,k-1)+2*T(n-1,k)-(row(n)+col(n)-2)*T(n-2,k))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401502
@@ -477,21 +476,6 @@ end A401529.P4154371102711748950
 The programs for A401530, there is no canonical definition to state claims against.
 -/
 
-/-! ## A401530.P14005729037370756811
-
-`A402100(n+1)`
--/
-
-namespace A401530.P14005729037370756811
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A402100 (n + 1)
-
-end
-
-end A401530.P14005729037370756811
-
 /-! ## A401530.P4102574261923345467
 
 `filter[A230544(n+1), A327866(#)]`
@@ -656,16 +640,16 @@ end A401531.P1362535845539990715
 /-!
 # A401539: Semiprime residuals: a(n) = q (mod p), where p <= q are the prime factors of the n-th semiprime S_n = p*q.
 
-The programs for A401539, the canonical program `A401539.P656428641672002179` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401539 has offset 1).
+The programs for A401539, the canonical program `A401539.P656428641672002179` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401539 has offset 1).
 
-The definition of A401539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001358, A069859, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A401539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001358, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A401539.P656428641672002179
 
 `A069859(A001358(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A401539
@@ -938,7 +922,7 @@ end A401540.P1851444146982176996
 /-!
 # A401544: Numbers k such that the alternating group A_k does not contain an element of order k.
 
-The programs for A401544, the canonical program `A401544.P3111510912022119941` is in `Seq.B000.C051`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401544 has offset 1).
+The programs for A401544, the canonical program `A401544.P3111510912022119941` is in `Seq.B000.C053`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401544 has offset 1).
 
 The definition of A401544 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -947,7 +931,7 @@ The definition of A401544 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ogf((2-2x^2-4x^3)/(1-2x))`
 
-The canonical program, it is in `Seq.B000.C051`.
+The canonical program, it is in `Seq.B000.C053`.
 -/
 
 namespace A401544
@@ -2342,7 +2326,7 @@ end A401594.P629904673968895550
 /-!
 # A401595: Distance between n^3 and the nearest triangular number, either above or below n^3.
 
-The programs for A401595, the canonical program `A401595.P5597691312598404850` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401595 has offset 0).
+The programs for A401595, the canonical program `A401595.P5597691312598404850` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A401595 has offset 0).
 
 The definition of A401595 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053616, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2351,7 +2335,7 @@ The definition of A401595 is `conditional`: the Lean definition is an OEIS formu
 
 `A053616(n^3)`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A401595
